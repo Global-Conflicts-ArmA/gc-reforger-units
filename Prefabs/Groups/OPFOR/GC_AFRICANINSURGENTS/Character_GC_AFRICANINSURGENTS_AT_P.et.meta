@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{EB1C25C59EDDDEDD}worlds/TheLocalPub/CacheHunters/Prefabs/Characters/Factions/OPFOR/GC_TALIBAN/Character_GC_TALIBAN_AT_P.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}
