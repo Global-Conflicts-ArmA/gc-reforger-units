@@ -1,0 +1,14 @@
+SCR_AIGroup : "{8534EA309F37063C}Prefabs/Groups/OPFOR/GC_INSURGENT/GC_INSURGENT_RifleSquad.et" {
+ ID "0000000000000001"
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "Line"
+  }
+ }
+ m_faction "GC_TALIBAN"
+ m_aUnitPrefabSlots {
+  "{F349CFCF358076A9}worlds/TheLocalPub/GC_AfricanInsurgents/Prefabs/Characters/Factions/OPFOR/GC_AFRICANINSURGENTS/Character_GC_AFRICANINSURGENTS_SL_P.et" "{56CC6BF1E75F9D6A}worlds/TheLocalPub/GC_AfricanInsurgents/Prefabs/Characters/Factions/OPFOR/GC_AFRICANINSURGENTS/Character_GC_AFRICANINSURGENTS_RF_P.et" "{56CC7742E1C6C2C3}worlds/TheLocalPub/GC_AfricanInsurgents/Prefabs/Characters/Factions/OPFOR/GC_AFRICANINSURGENTS/Character_GC_AFRICANINSURGENTS_AR_P.et" "{EB1C25C59EDDDEDD}worlds/TheLocalPub/GC_AfricanInsurgents/Prefabs/Characters/Factions/OPFOR/GC_AFRICANINSURGENTS/Character_GC_AFRICANINSURGENTS_AT_P.et" "{09E57098B0EA3A37}worlds/TheLocalPub/GC_AfricanInsurgents/Prefabs/Characters/Factions/OPFOR/GC_AFRICANINSURGENTS/Character_GC_AFRICANINSURGENTS_GREN_P.et" "{9939C5A82A391466}worlds/TheLocalPub/GC_AfricanInsurgents/Prefabs/Characters/Factions/OPFOR/GC_AFRICANINSURGENTS/Character_GC_AFRICANINSURGENTS_MARKS_P.et" "{FE6843C22E559495}worlds/TheLocalPub/GC_AfricanInsurgents/Prefabs/Characters/Factions/OPFOR/GC_AFRICANINSURGENTS/Character_GC_AFRICANINSURGENTS_MED_P.et" "{C3A1BCC3CC3C775A}worlds/TheLocalPub/GC_AfricanInsurgents/Prefabs/Characters/Factions/OPFOR/GC_AFRICANINSURGENTS/Character_GC_AFRICANINSURGENTS_MG_P.et" "{D79C1A6FB541C7CE}worlds/TheLocalPub/GC_AfricanInsurgents/Prefabs/Characters/Factions/OPFOR/GC_AFRICANINSURGENTS/Character_GC_AFRICANINSURGENTS_SAP_P.et"
+ }
+ m_bPlayable 1
+ m_bSetPlayable 1
+}
