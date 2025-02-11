@@ -1,0 +1,6 @@
+SCR_AIGroup : "{6234FDCD27FE4C61}Prefabs/Groups/OPFOR/USSR/SovietArmy_MotorRiflesBTR/P/Group_USSR_MotRiflePHQ_P.et" {
+ ID "0000000000000001"
+ m_aUnitPrefabSlots {
+  "{DF8E65CA90B55E3B}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_1980/Character_USSR_MSV80_PL_P.et"
+ }
+}

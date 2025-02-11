@@ -1,0 +1,9 @@
+GenericEntity : "{A8BF5ABE495DEA39}Prefabs/Items/Equipment/Accessories/Pouch_Soviet_VOG.et" {
+ ID "521AC0491712FB3A"
+ components {
+  RigidBody "{521AC04910AB9947}" {
+   CenterOfMass 0.144 0.924 0.019
+  }
+ }
+ coords 0 0 0
+}

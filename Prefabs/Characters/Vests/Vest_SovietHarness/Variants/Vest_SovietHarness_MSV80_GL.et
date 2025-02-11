@@ -1,0 +1,18 @@
+GenericEntity : "{08155E701A949620}Prefabs/Characters/Vests/Vest_SovietHarness/Variants/Vest_SovietHarness_rifleman.et" {
+ ID "50D8C49B3558F152"
+ components {
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Slots {
+    LoadoutSlotInfo GrenadePouch {
+     Offset 0.1087 0.1767 0.1365
+     Angles -5.8851 8.0051 -0.7364
+    }
+    LoadoutSlotInfo VOGPouch {
+     Offset 0.0686 0.1115 -0.0767
+     Angles -1.5299 -110.32539 1.5772
+     Prefab "{7843511AE702AE80}Prefabs/Items/Equipment/Accessories/Pouch_Soviet_GrenadeBandolier.et"
+    }
+   }
+  }
+ }
+}
