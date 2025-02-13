@@ -1,0 +1,14 @@
+SCR_ChimeraCharacter : "{FDAEA6C9F2673B02}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Character_RHS_USAF_Base.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{61E88418254009A3}" {
+     PrefabsToSpawn + {
+      "{1852DD0D0BED6182}Prefabs/Items/Facepaint_01_Base.et"
+     }
+    }
+   }
+  }
+ }
+}
