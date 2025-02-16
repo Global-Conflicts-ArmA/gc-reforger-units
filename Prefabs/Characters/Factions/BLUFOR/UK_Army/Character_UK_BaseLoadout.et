@@ -1,0 +1,14 @@
+SCR_ChimeraCharacter : "{542CBB6908CA71D8}Prefabs/Characters/Factions/BLUFOR/UK_Army/Character_UK_Base.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{610CC31428816D50}" {
+     PrefabsToSpawn + {
+      "{1852DD0D0BED6182}Prefabs/Items/Facepaint_01_Base.et"
+     }
+    }
+   }
+  }
+ }
+}

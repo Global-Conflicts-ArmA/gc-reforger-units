@@ -3,10 +3,12 @@ SCR_ChimeraCharacter : "{FDAEA6C9F2673B02}Prefabs/Characters/Factions/BLUFOR/RHS
  components {
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
+    ItemsInitConfigurationItem "{6063106E91310A3D}" {
+    }
     ItemsInitConfigurationItem "{633B07DBBB713D2A}" {
      TargetStorage "Prefabs/Characters/Uniforms/Jacket_FROG_Combat_Shirt.et"
      PrefabsToSpawn {
-      "{64322D5D501B7D79}Prefabs/Items/Equipment/Nightvision/PVS14/NVG_PVS14_Base.et"
+      "{64322D5D501B7D79}Prefabs/Items/Equipment/Nightvision/PVS14/NVG_PVS14_Base.et" "{1852DD0D0BED6182}Prefabs/Items/Facepaint_01_Base.et"
      }
     }
    }
