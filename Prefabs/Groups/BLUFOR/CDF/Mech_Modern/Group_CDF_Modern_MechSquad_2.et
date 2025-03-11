@@ -1,0 +1,12 @@
+SCR_AIGroup : "{E8AD93A6D3642785}Prefabs/Groups/BLUFOR/CDF/Mech_Modern/Group_CDF_Modern_MechSquad_1.et" {
+ ID "0000000000000001"
+ components {
+  PS_GroupCallsignAssigner "{64954E6ABE6E9B64}" {
+   m_iSquadCallsign 2
+  }
+ }
+ m_aUnitPrefabSlots {
+  "{D8D30DE8FE5E91BF}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Mech/Character_CDF_Modern_SL.et" "{6DF39536B5532DF0}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Mech/Character_CDF_Modern_AT.et" "{17E6C181CE0882BD}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Mech/Character_CDF_Modern_AAT.et" "{E1A4B0A83A384A17}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Mech/Character_CDF_Modern_Sharpshooter.et" "{A5CBE1109BCDAD26}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Mech/Character_CDF_Modern_SR.et" "{E74C22EDA295274F}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Mech/Character_CDF_Modern_MG.et" "{9D59765AD9CE8802}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Mech/Character_CDF_Modern_AMG.et" "{7AFB5290811A6B99}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Mech/Character_CDF_Modern_Crew.et" "{7AFB5290811A6B99}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Mech/Character_CDF_Modern_Crew.et"
+ }
+ m_sCustomNameSet "2nd Squad"
+}

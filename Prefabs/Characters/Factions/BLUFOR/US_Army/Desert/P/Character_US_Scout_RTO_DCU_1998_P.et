@@ -1,0 +1,8 @@
+SCR_ChimeraCharacter : "{6071E3621F3E93C4}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/Character_US_Scout_RTO_DCU_1998.et" {
+ ID "520EC961A090B1EE"
+ components {
+  PS_PlayableComponent "{5EFCC1946F475F15}" {
+   m_bIsPlayable 1
+  }
+ }
+}

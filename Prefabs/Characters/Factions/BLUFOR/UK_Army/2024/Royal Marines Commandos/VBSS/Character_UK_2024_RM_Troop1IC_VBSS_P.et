@@ -1,0 +1,32 @@
+SCR_ChimeraCharacter : "{CEE1A252D583AD4A}Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/Royal Marines Commandos/Character_UK_2024_RM_Troop1IC_P.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{AED655B68D7852F2}Prefabs/Characters/HeadGear/Helmet_OPSCORE/Helmet_OPSCORE_Royal_Marines_04.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{E3CF7D0A9D08022E}Prefabs/Characters/Uniforms/Crye_Shirt/Jacket_Crye_Combat_Shirt_Black.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{9C624FF37082B70A}Prefabs/Characters/Uniforms/Crye_Pants/crye_pants_black.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{610CC31428816D50}" {
+     TargetStorage "Prefabs/Characters/Uniforms/Crye_Pants/crye_pants_black.et"
+    }
+    ItemsInitConfigurationItem "{64A8AB40750482B2}" {
+     TargetStorage "Prefabs/Characters/Uniforms/Crye_Shirt/Jacket_Crye_Combat_Shirt_Black.et"
+    }
+    ItemsInitConfigurationItem "{62A74B5BE373CB7E}" {
+     TargetStorage "Prefabs/Characters/Uniforms/Crye_Shirt/Jacket_Crye_Combat_Shirt_Black.et"
+    }
+   }
+  }
+ }
+ coords 5.004 -12.834 -22.386
+}

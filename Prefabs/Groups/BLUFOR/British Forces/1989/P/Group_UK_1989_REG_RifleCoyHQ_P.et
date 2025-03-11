@@ -1,0 +1,13 @@
+SCR_AIGroup : "{2FA8727C0B695783}Prefabs/Groups/BLUFOR/British Forces/1989/Group_UK_1989_REG_RiflePHQ.et" {
+ ID "0000000000000001"
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "Column"
+  }
+ }
+ coords 0.563 0.351 -0.589
+ m_aUnitPrefabSlots {
+  "{ED6B5D94A88AEA3A}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/Regulars/Character_UK_1989_Regulars_CompanyCommander_P.et" "{521885BD023B0AF2}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/Regulars/Character_UK_1989_Regulars_Company2IC_P.et" "{208BB1203AC4A981}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/Regulars/Character_UK_1989_Regulars_CSM_P.et" "{1EA191A52F0A6C09}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/Regulars/Character_UK_1989_Regulars_RTO_P.et"
+ }
+ m_sCustomNameSet "Rifle Platoon HQ"
+}

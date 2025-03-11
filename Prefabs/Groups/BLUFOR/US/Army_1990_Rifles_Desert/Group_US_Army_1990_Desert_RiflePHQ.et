@@ -1,0 +1,6 @@
+SCR_AIGroup : "{EACD97CF4A702FAE}Prefabs/Groups/BLUFOR/Group_US_Base.et" {
+ ID "0000000000000001"
+ m_aUnitPrefabSlots {
+  "{72287BABCBA2B861}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/Character_US_PL_DCU_1998.et" "{1505B9CEDE3F5CC6}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/Character_US_Sergeant_DCU_1998.et" "{3BA6CE4CDB0EBAA1}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/Character_US_RTO_DCU_1998.et" "{1AF6B4C5EE5E0AA1}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/Character_US_MG_DCU_1998.et" "{B22CAE8A5C8C26BD}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/Character_US_AMG_DCU_1998.et" "{B22CAE8A5C8C26BD}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/Character_US_AMG_DCU_1998.et" "{1AF6B4C5EE5E0AA1}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/Character_US_MG_DCU_1998.et" "{B22CAE8A5C8C26BD}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/Character_US_AMG_DCU_1998.et" "{B22CAE8A5C8C26BD}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/Character_US_AMG_DCU_1998.et" "{9C9C3DF82114E30B}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/Character_US_Medic_DCU_1998.et"
+ }
+}

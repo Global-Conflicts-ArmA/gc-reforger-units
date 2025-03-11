@@ -1,0 +1,8 @@
+SCR_ChimeraCharacter : "{B518A4D46C6114D0}Prefabs/Characters/Factions/BLUFOR/GC_Canada/RHS_Canada/Character_CAF_Company_Commander_CW.et" {
+ ID "51FA8A5F28FD04BA"
+ components {
+  PS_PlayableComponent "{5EFCC1946F475F15}" {
+   m_name "Company Segeant Major"
+  }
+ }
+}

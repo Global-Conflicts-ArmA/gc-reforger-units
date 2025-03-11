@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{D185FCF2889E2299}Prefabs/Groups/OPFOR/RF/AFRF_MotorRifles_2010s/AFRF_SSO_2020_Squad.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{AB30106FBD55619A}worlds/James/VyshnoyeClash/Prefabs/Characters/Factions/BLUFOR/US_Army/Early 80s Light Infantry/Character_US_80LI_Sergeant_P.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

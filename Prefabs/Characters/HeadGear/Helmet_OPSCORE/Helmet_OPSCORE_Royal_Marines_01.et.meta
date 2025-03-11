@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{1A2A08974835C380}Prefabs/Characters/HeadGear/Helmet_OPSCORE/Helmet_OPSCORE_Royal_Marines_01.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

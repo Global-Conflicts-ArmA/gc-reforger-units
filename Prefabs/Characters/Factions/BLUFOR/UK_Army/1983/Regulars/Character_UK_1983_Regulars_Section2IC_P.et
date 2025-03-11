@@ -4,5 +4,8 @@ SCR_ChimeraCharacter : "{2C69231254D1AEDB}Prefabs/Characters/Factions/BLUFOR/UK_
   PS_PlayableComponent "{5EFCC1946F475F15}" {
    m_bIsPlayable 1
   }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{CF576C0ED8E27F8C}Prefabs/Weapons/Rifles/L1A1_SLR/Rifle_L1A1_SLR_Plastic.et"
+  }
  }
 }

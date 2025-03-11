@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{469A2E1F2C8E0A03}Prefabs/Characters/Factions/BLUFOR/Canadian_Army_1987/Character_CAF_Signaller_CW_2.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

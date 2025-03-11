@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{159A9759CE3DF68B}Prefabs/Characters/Factions/BLUFOR/GC_Canada/RHS_Canada/Character_CAF_AR_AI.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

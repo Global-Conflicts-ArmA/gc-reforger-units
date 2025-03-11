@@ -10,6 +10,7 @@ To contribute a custom faction, reference the [custom faction creation guide](ht
 - RHS USAF
 - UK Army 
 - US Army
+- Canadian Army
 
 ## OPFOR
 - GC Insurgents

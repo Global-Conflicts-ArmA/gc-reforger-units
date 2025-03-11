@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{6664B6FBE66BBF60}Prefabs/Groups/BLUFOR/US/Army_1980_Rifles/Group_US_Army_1990_Desert_RifleSquad.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

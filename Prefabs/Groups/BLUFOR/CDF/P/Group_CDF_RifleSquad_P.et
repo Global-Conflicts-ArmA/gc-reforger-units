@@ -1,6 +1,0 @@
-SCR_AIGroup : "{2063D0C77711E0F4}Prefabs/Groups/BLUFOR/CDF/Group_CDF_MotRifleSquad.et" {
- ID "0000000000000001"
- m_aUnitPrefabSlots {
-  "{A90924201B1CDCA9}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_SL_P.et" "{0C8C9CADCF5A68C3}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_AR_P.et" "{B15CCE2AB04174DD}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_AT_P.et" "{DF638019B037999A}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_AAT_P.et" "{D6B6E77B73D88E8D}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_GL_P.et" "{66ECB0DF17BE0903}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_Rifleman_P.et"
- }
-}

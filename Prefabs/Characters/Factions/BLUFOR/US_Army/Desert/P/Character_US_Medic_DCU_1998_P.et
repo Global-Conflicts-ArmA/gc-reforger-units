@@ -1,0 +1,13 @@
+SCR_ChimeraCharacter : "{9C9C3DF82114E30B}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/Character_US_Medic_DCU_1998.et" {
+ ID "51FA8A5F10E81780"
+ components {
+  PS_PlayableComponent "{5EFCC1946F475F15}" {
+   m_bIsPlayable 1
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_Medic"
+   }
+  }
+ }
+}

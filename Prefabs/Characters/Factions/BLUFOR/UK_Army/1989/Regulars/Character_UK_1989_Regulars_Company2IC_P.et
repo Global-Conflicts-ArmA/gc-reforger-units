@@ -1,0 +1,9 @@
+SCR_ChimeraCharacter : "{F487760AB6777BF3}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/Regulars/Character_UK_1989_Regulars_PlatoonLeader.et" {
+ ID "520EC961A090B1EE"
+ components {
+  PS_PlayableComponent "{5EFCC1946F475F15}" {
+   m_name "Company 2IC"
+   m_bIsPlayable 1
+  }
+ }
+}

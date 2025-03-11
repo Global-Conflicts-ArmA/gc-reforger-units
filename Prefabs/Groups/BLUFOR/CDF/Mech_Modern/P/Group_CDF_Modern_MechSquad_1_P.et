@@ -1,0 +1,6 @@
+SCR_AIGroup : "{E8AD93A6D3642785}Prefabs/Groups/BLUFOR/CDF/Mech_Modern/Group_CDF_Modern_MechSquad_1.et" {
+ ID "0000000000000001"
+ m_aUnitPrefabSlots {
+  "{62B1BB8365AB343F}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Mech/P/Character_CDF_Modern_SL_P.et" "{7AE45189CEF69C4B}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Mech/P/Character_CDF_Modern_AT_P.et" "{1E742A04763AD873}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Mech/P/Character_CDF_Modern_AAT_P.et" "{C734030EB1ED8055}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Mech/P/Character_CDF_Modern_AR_P.et" "{ADC160CEB508357F}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Mech/P/Character_CDF_Modern_SR_P.et" "{C734030EB1ED8055}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Mech/P/Character_CDF_Modern_AR_P.et" "{956F39DEF5AED9A7}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Mech/P/Character_CDF_Modern_Sharpshooter_P.et" "{8501328D6BA211DB}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Mech/P/Character_CDF_Modern_CrewGunner_P.et" "{AFF45B976FFBF437}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Mech/P/Character_CDF_Modern_CrewDriver_P.et"
+ }
+}

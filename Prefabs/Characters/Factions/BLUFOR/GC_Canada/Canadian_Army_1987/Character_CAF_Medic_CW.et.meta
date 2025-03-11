@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{1F60A983389A4FD2}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_CAF_Medic_C.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

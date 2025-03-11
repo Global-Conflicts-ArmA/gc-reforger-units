@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{C749B555DA21F795}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1987/Character_CAF_Company_Sergeant_Major_CW.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

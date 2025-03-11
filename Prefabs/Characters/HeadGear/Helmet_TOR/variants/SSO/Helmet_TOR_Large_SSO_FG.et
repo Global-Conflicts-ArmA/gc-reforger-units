@@ -1,0 +1,15 @@
+GameEntity : "{9DF332BBFA51C05D}Prefabs/Characters/HeadGear/Helmet_TOR/variants/SSO/Helmet_TOR_Large_SSO.et" {
+ ID "50D485E1435D6C72"
+ components {
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    RHS_LoadoutSlotInfo MeshCover {
+     Prefab "{7E743612A8641FAB}Prefabs/Characters/HeadGear/Helmet_TOR/Headgear_tor_cover_fg.et"
+    }
+    RHS_LoadoutSlotInfo Masks {
+     Prefab "{7621C7D9145AF8D5}Prefabs/Characters/HeadGear/Balaclavas/Balaclava_v1/Balaclava_v1_OD.et"
+    }
+   }
+  }
+ }
+}

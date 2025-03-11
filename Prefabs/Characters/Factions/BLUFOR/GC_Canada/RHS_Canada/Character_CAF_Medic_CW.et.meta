@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{7043F1353E10A8B8}Prefabs/Characters/Factions/BLUFOR/RHS_Canada/Character_CAF_Medic_CW.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

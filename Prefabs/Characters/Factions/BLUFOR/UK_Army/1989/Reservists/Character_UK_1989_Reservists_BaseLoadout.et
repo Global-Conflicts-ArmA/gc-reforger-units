@@ -4,6 +4,9 @@ SCR_ChimeraCharacter : "{902088D220925A16}Prefabs/Characters/Factions/BLUFOR/UK_
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{610CC31428816D50}" {
+     TargetStorage "Prefabs/Characters/Uniforms/Smock_Combat_68Pat_DPM_01.et"
+    }
+    ItemsInitConfigurationItem "{64A8AB40750482B2}" {
     }
    }
   }

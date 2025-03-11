@@ -1,0 +1,6 @@
+SCR_AIGroup : "{E8B718E107159797}Prefabs/Groups/BLUFOR/US/Army_1970_Rifles/P/Group_US_1970_RiflePHQ_P.et" {
+ ID "0000000000000001"
+ m_aUnitPrefabSlots {
+  "{C289FAD50A3571FD}Prefabs/Characters/Factions/BLUFOR/US_Army/1970_Rifles/Character_US_70_CoyL_P.et" "{5680E69E80219D6C}Prefabs/Characters/Factions/BLUFOR/US_Army/1970_Rifles/Character_US_70_CoyXO_P.et" "{1E5E616F2CF3A70A}Prefabs/Characters/Factions/BLUFOR/US_Army/1970_Rifles/Character_US_70_1SG_P.et" "{A068EB3D4980B34C}Prefabs/Characters/Factions/BLUFOR/US_Army/1970_Rifles/Character_US_70_RTO_P.et"
+ }
+}

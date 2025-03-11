@@ -1,0 +1,12 @@
+SCR_AIGroup : "{2FA8727C0B695783}Prefabs/Groups/BLUFOR/British Forces/1989/Group_UK_1989_REG_RiflePHQ.et" {
+ ID "0000000000000001"
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "Column"
+  }
+ }
+ m_aUnitPrefabSlots {
+  "{CEE1A252D583AD4A}Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/Royal Marines Commandos/Character_UK_2024_RM_Troop1IC_P.et" "{7C36E0B98A219ED2}Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/Royal Marines Commandos/Character_UK_2024_RM_Troop2IC_P.et" "{9A1A21BA09396D7B}Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/Royal Marines Commandos/Character_UK_2024_RM_RTO_P.et" "{E64FC8181AF392B7}Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/Royal Marines Commandos/Character_UK_2024_RM_Medic_P.et"
+ }
+ m_sCustomNameSet "Commando Troop HQ"
+}

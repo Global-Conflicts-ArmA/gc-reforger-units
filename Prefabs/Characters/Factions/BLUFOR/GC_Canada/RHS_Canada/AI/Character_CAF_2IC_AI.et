@@ -1,0 +1,8 @@
+SCR_ChimeraCharacter : "{2402540EFD5A2BDE}Prefabs/Characters/Factions/BLUFOR/GC_Canada/RHS_Canada/Character_CAF_2IC_CW.et" {
+ ID "51FA8A5F28FD04BA"
+ components {
+  PS_PlayableComponent "{5EFCC1946F475F15}" {
+   m_bIsPlayable 0
+  }
+ }
+}

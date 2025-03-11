@@ -1,0 +1,10 @@
+SCR_AIGroup : "{B7AB5D3F8A7ADAE4}Prefabs/Groups/BLUFOR/Group_US_PlatoonHQ.et" {
+ ID "0000000000000001"
+ coords 2892.943 23.594 3053.99
+ m_faction "GC_CAF"
+ m_aUnitPrefabSlots {
+  "{B518A4D46C6114D0}Prefabs/Characters/Factions/BLUFOR/GC_Canada/RHS_Canada/Character_CAF_Company_Commander_CW.et" "{5ECFD3E71123CF44}Prefabs/Characters/Factions/BLUFOR/GC_Canada/RHS_Canada/Character_CAF_Company_Sergeant_Major_CW.et" "{03062ED06D3A433A}Prefabs/Characters/Factions/BLUFOR/GC_Canada/RHS_Canada/Character_CAF_RF_CW.et" "{7043F1353E10A8B8}Prefabs/Characters/Factions/BLUFOR/GC_Canada/RHS_Canada/Character_CAF_Medic_CW.et"
+ }
+ m_sCustomNameSet "Company Headquarters"
+ m_bSetPlayable 1
+}

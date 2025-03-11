@@ -1,0 +1,6 @@
+SCR_AIGroup : "{AB04A789F8A96B11}Prefabs/Groups/BLUFOR/US/Army_2020_Rifles/Group_USA_2020_RifleSquad.et" {
+ ID "0000000000000001"
+ m_aUnitPrefabSlots {
+  "{DB2461A0774F857B}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_Army/P/Character_RHS_USA_SL_P.et" "{09A251A6EE382179}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_Army/P/Character_RHS_USA_TL_P.et" "{7EA1D92DA3093111}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_Army/P/Character_RHS_USA_AR_P.et" "{A49BA2FB1F8BD75F}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_Army/P/Character_RHS_USA_GL_P.et" "{2774BE94F3C9C46C}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_Army/P/Character_RHS_USA_LAT_P.et" "{09A251A6EE382179}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_Army/P/Character_RHS_USA_TL_P.et" "{7EA1D92DA3093111}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_Army/P/Character_RHS_USA_AR_P.et" "{A49BA2FB1F8BD75F}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_Army/P/Character_RHS_USA_GL_P.et" "{2774BE94F3C9C46C}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_Army/P/Character_RHS_USA_LAT_P.et"
+ }
+}

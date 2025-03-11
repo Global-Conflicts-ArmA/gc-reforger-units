@@ -1,0 +1,13 @@
+SCR_AIGroup : "{FB08033A33E826D5}Prefabs/Groups/BLUFOR/British Forces/1989/Group_UK_1989_REG_RifleSection.et" {
+ ID "0000000000000001"
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "Column"
+  }
+ }
+ coords -0.77 -19.315 -38.266
+ m_aUnitPrefabSlots {
+  "{94DB2F66DDCD8783}Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/Royal Marines Commandos/Character_UK_2024_RM_Section1IC_P.et" "{2DA000AEA906C284}Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/Royal Marines Commandos/Character_UK_2024_RM_Sapper_P.et" "{52E1968F69C21D5B}Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/Royal Marines Commandos/Character_UK_2024_RM_Rifleman_P.et" "{52E1968F69C21D5B}Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/Royal Marines Commandos/Character_UK_2024_RM_Rifleman_P.et" "{260C6D8D826FB41B}Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/Royal Marines Commandos/Character_UK_2024_RM_Section2IC_P.et" "{581A13A0B9510CCF}Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/Royal Marines Commandos/Character_UK_2024_RM_MachineGunner_P.et" "{52E1968F69C21D5B}Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/Royal Marines Commandos/Character_UK_2024_RM_Rifleman_P.et" "{52E1968F69C21D5B}Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/Royal Marines Commandos/Character_UK_2024_RM_Rifleman_P.et"
+ }
+ m_sCustomNameSet "Commando Section"
+}

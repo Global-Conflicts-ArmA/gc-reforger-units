@@ -7,5 +7,9 @@ SCR_FactionManager : "{A242612865F2A48E}Prefabs/MP/Managers/Factions/FactionMana
   }
   SCR_Faction "{633D460D559977CA}" : "{23B783D419B87475}Configs/Factions/IRA.conf" {
   }
+  SCR_Faction "{648D46336748B246}" : "{B15B39077B0E1055}Configs/Factions/CDF.conf" {
+  }
+  SCR_Faction "{64AA098AEA5B1498}" : "{AEB4C9D1A13F04DC}Configs/Factions/CAF.conf" {
+  }
  }
 }

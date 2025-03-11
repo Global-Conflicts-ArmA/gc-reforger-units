@@ -1,0 +1,14 @@
+GenericEntity : "{A70E7A74987C7F3B}Prefabs/Weapons/MachineGuns/RPK74N/MG_RPK74N_Railed_1P87_1P90.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{60DB4B742D022494}" {
+     AttachmentSlot RHS_SlidingInventoryStorageSlot ris {
+      Prefab "{3A4E2F9091E70EC7}Prefabs/Weapons/Attachments/Optics/infratech1tws/Optic_Infratech1tws.et"
+     }
+    }
+   }
+  }
+ }
+}

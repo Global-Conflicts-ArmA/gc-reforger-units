@@ -1,8 +1,0 @@
-SCR_ChimeraCharacter : "{D12898D5D1EA19BF}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_TF_CDF_HeliPilot.et" {
- ID "520EC961A090B1EE"
- components {
-  PS_PlayableComponent "{5EFCC1946F475F15}" {
-   m_bIsPlayable 1
-  }
- }
-}

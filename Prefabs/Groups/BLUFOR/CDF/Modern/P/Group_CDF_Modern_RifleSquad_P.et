@@ -1,6 +1,0 @@
-SCR_AIGroup : "{E8AD93A6D3642785}Prefabs/Groups/BLUFOR/CDF/Modern/Group_CDF_Modern_RifleSquad.et" {
- ID "0000000000000001"
- m_aUnitPrefabSlots {
-  "{62B1BB8365AB343F}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern/P/Character_CDF_Modern_SL_P.et" "{C734030EB1ED8055}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern/P/Character_CDF_Modern_AR_P.et" "{7AE45189CEF69C4B}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern/P/Character_CDF_Modern_AT_P.et" "{1E742A04763AD873}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern/P/Character_CDF_Modern_AAT_P.et" "{ADC160CEB508357F}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern/P/Character_CDF_Modern_SR_P.et" "{7E068E80D8B2366E}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern/P/Character_CDF_Modern_Rifleman_P.et"
- }
-}

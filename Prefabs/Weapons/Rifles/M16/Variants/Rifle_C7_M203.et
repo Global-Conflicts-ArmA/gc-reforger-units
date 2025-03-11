@@ -1,0 +1,110 @@
+GenericEntity : "{C63227C0E70EA62E}Prefabs/Weapons/Rifles/M16/Rifle_M16A2_base.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  MeshObject "{CFBAA4B701F95D69}" {
+   Materials {
+    MaterialAssignClass "{62672307729BBA2E}" {
+     SourceMaterial "M16A2_Grip_01"
+     AssignedMaterial "{FD4C692542DAFA91}Assets/Weapons/Rifles/M16A2/Data/M16A2_Grip_01_OliveGreen_Solid.emat"
+    }
+    MaterialAssignClass "{62672307729BBA04}" {
+     SourceMaterial "M16A2_Stock_01"
+     AssignedMaterial "{F50E61197B924ADC}Assets/Weapons/Rifles/M16A2/Data/M16A2_Stock_01_OliveGreen_Solid.emat"
+    }
+   }
+  }
+  SCR_WeaponAttachmentsStorageComponent "{51F080D5CE45A1A2}" {
+   Attributes SCR_ItemAttributeCollection "{51F080D5C64F12C5}" {
+    ItemDisplayName WeaponUIInfo "{5222CB07CFF6712A}" {
+     Name "C7 w/ M203"
+     Description "FWOOMP, BAAANG, OHHH CAAAANAADAAAA"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{5534745C44D1EFE1}" {
+    }
+    ItemAnimationAttributes ItemAnimationAttributes "{5284960E1D29F45C}" {
+     AnimationIKPose "{9CA239925FE3C73A}Assets/Weapons/Rifles/M16A2/anims/anmM203/p_m16_M203_ik.anm"
+    }
+    CustomAttributes {
+     AimingModifierAttributes "{566C7D15A071B88E}" {
+      DeploymentPoints {
+       PivotPointInfoItem "{5A8ABE3D0B1123A8}" {
+        "Point info" DeploymentPointInfo dp {
+        }
+        StabilizationSize 0.05 0.2 0.35
+       }
+      }
+     }
+    }
+   }
+  }
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{5534745C44D1EF58}" {
+     AttachmentSlot InventoryStorageSlot optics {
+     }
+     ShowInInspection 1
+    }
+    AttachmentSlotComponent "{56DE9C900611C1AF}" {
+     AttachmentSlot InventoryStorageSlot Handguard {
+      Prefab "{51C19F66AAC90A29}Prefabs/Weapons/Attachments/Handguards/Handguard_M16A2/Handguard_M16_OliveGreen_Solid.et"
+     }
+    }
+    AttachmentSlotComponent "{62672307049E8D45}" {
+     AttachmentSlot InventoryStorageSlot underbarrel {
+      PivotID "barrel_chamber"
+      Prefab "{AB268D088F2D6291}Prefabs/Weapons/Attachments/Underbarrel/UGL_M203_short.et"
+      InspectionWidgetOffset 0 0.0789 0.2607
+     }
+     AttachmentType AttachmentUnderBarrelM203 "{62672307049E8AF6}" {
+     }
+    }
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     components {
+      AttachmentSlotComponent "{5D527627CCB8F756}" {
+       AttachmentSlot InventoryStorageSlot Muzzle {
+        ChildPivotID "snap_barrel_muzzle"
+        Prefab "{6288A1F1A5E3AC37}Prefabs/Weapons/Attachments/Muzzle/FlashHider_M16A2/FlashHider_M16.et"
+       }
+      }
+     }
+     FireModes {
+      BaseFireMode "{B80A64F4A8EF8333}" {
+       RoundsPerMinute 900
+      }
+      BaseFireMode "{619AB45BF76565F3}" {
+       MaxBurst -1
+       BurstType InterruptableAndResetting
+       RoundsPerMinute 950
+       UIName "Auto"
+      }
+      BaseFireMode "{5534745C44D1EF22}" {
+       MaxBurst -1
+       RoundsPerMinute 900
+       UIName "Auto"
+      }
+     }
+     "LEFT HAND TARGET" DeploymentPointInfo lht {
+     }
+     MagazinePosition InventoryStorageSlot "{B80A64F4C834E9CB}" {
+      InspectionWidgetOffset 0 -0.044 0.0739
+     }
+    }
+    WeaponAnimationComponent "{60B4EA76EB15F6E0}" {
+     AnimGraph "{288D8FF8F78E3DA0}Assets/Weapons/Rifles/workspaces/m16_M203.agr"
+     AnimInstance "{2960BD42164C5E89}Assets/Weapons/Rifles/workspaces/m16_M203_weapon.asi"
+     StartNode "RifleMasterControl"
+     AnimInjection AnimationAttachmentInfo "{5534745C44D1EF5A}" {
+      AnimGraph "{288D8FF8F78E3DA0}Assets/Weapons/Rifles/workspaces/m16_M203.agr"
+      AnimInstance "{D23E2C738E4D3A65}Assets/Weapons/Rifles/workspaces/m16_M203_player.asi"
+      StartNode "MasterControl"
+     }
+    }
+   }
+   UIInfo WeaponUIInfo "{CC3BA6A2C42F09F4}" {
+    Name "C7 w/ M203"
+    Description "FWOOMP, BAAAAAAANG, OHHHHHHH CANADAAAAAAAAAAAA"
+   }
+  }
+ }
+ coords 10803.557 10.271 1575.784
+}

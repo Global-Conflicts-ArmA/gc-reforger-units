@@ -1,0 +1,9 @@
+SCR_AIGroup : "{DDF3799FA1387848}Prefabs/Groups/BLUFOR/Group_US_RifleSquad.et" {
+ ID "0000000000000001"
+ m_faction "GC_CAF"
+ m_aUnitPrefabSlots {
+  "{624B1AE8BEF014B4}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1987/Character_CAF_1IC_Alt_CW.et" "{18C66553AFA99B84}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1987/Character_CAF_MG_Alt_CW.et" "{43A4552BFE19DED2}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1987/Character_CAF_MG2_Alt_CW.et" "{18C66553AFA99B84}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1987/Character_CAF_MG_Alt_CW.et" "{43A4552BFE19DED2}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1987/Character_CAF_MG2_Alt_CW.et"
+ }
+ m_sCustomNameSet "Weapons Section"
+ m_bSetPlayable 1
+}

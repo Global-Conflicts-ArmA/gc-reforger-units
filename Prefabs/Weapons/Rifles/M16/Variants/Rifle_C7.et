@@ -1,0 +1,88 @@
+GenericEntity : "{3E413771E1834D2F}Prefabs/Weapons/Rifles/M16/Rifle_M16A2.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  MeshObject "{CFBAA4B701F95D69}" {
+   Materials {
+    MaterialAssignClass "{620F46AB65E8618F}" {
+     SourceMaterial "M16A2_Barrel_01"
+     AssignedMaterial "{A04169749B97FFD0}Assets/Weapons/Rifles/M16A2/Data/M16A2_Barrel_01.emat"
+    }
+    MaterialAssignClass "{620F46AB65E8616D}" {
+     SourceMaterial "M16A2_FrontSight_01"
+     AssignedMaterial "{98D559D65B9736F3}Assets/Weapons/Rifles/M16A2/Data/M16A2_FrontSight_01.emat"
+    }
+    MaterialAssignClass "{620F46AB65E86158}" {
+     SourceMaterial "M16A2_Grip_01"
+     AssignedMaterial "{FD4C692542DAFA91}Assets/Weapons/Rifles/M16A2/Data/M16A2_Grip_01_OliveGreen_Solid.emat"
+    }
+    MaterialAssignClass "{620F46AB65E86146}" {
+     SourceMaterial "M16A2_Receiver1_01"
+     AssignedMaterial "{C4776498ED1BAA69}Assets/Weapons/Rifles/M16A2/Data/M16A2_Receiver1_01.emat"
+    }
+    MaterialAssignClass "{620F46AB65E8614E}" {
+     SourceMaterial "M16A2_Receiver2_01"
+     AssignedMaterial "{CA6920D0D0ECA5B3}Assets/Weapons/Rifles/M16A2/Data/M16A2_Receiver2_01.emat"
+    }
+    MaterialAssignClass "{620F46AB65E86139}" {
+     SourceMaterial "M16A2_Stock_01"
+     AssignedMaterial "{F50E61197B924ADC}Assets/Weapons/Rifles/M16A2/Data/M16A2_Stock_01_OliveGreen_Solid.emat"
+    }
+   }
+  }
+  SCR_WeaponAttachmentsStorageComponent "{51F080D5CE45A1A2}" {
+   Attributes SCR_ItemAttributeCollection "{51F080D5C64F12C5}" {
+    ItemDisplayName WeaponUIInfo "{5222CB07CFF6712A}" {
+     Name "Colt Canada C7"
+     Description "C7 Rifle, made by Colt Canada to replace the C1A1 from 1985 to 1993."
+     m_bShowWeaponName 1
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{5534745C44D1EFE1}" {
+     Weight 3.3
+    }
+   }
+  }
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{56DE9C900611C1AF}" {
+     AttachmentSlot InventoryStorageSlot Handguard {
+      Prefab "{51C19F66AAC90A29}Prefabs/Weapons/Attachments/Handguards/Handguard_M16A2/Handguard_M16_OliveGreen_Solid.et"
+     }
+    }
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     components {
+      AttachmentSlotComponent "{5D527627CCB8F756}" {
+       AttachmentSlot InventoryStorageSlot Muzzle {
+        Prefab "{6288A1F1A5E3AC37}Prefabs/Weapons/Attachments/Muzzle/FlashHider_M16A2/FlashHider_M16.et"
+       }
+      }
+     }
+     FireModes {
+      BaseFireMode "{506B20D1476BA99E}" {
+       RoundsPerMinute 950
+      }
+      BaseFireMode "{B80A64F4A8EF8333}" {
+       RoundsPerMinute 950
+      }
+      BaseFireMode "{619AB45BF76565F3}" {
+       MaxBurst -1
+       BurstType InterruptableAndResetting
+       RoundsPerMinute 950
+       UIName "Auto"
+      }
+      BaseFireMode "{5534745C44D1EF22}" {
+       MaxBurst -1
+       BurstType InterruptableAndResetting
+       RoundsPerMinute 950
+       UIName "Auto"
+      }
+     }
+    }
+   }
+   UIInfo WeaponUIInfo "{CC3BA6A2C42F09F4}" {
+    Name "Colt Canada C7"
+    Description "BANG BANG BANG BANG OHHH CAAANADAAA"
+   }
+  }
+ }
+ coords 10803.81 10.279 1575.747
+}

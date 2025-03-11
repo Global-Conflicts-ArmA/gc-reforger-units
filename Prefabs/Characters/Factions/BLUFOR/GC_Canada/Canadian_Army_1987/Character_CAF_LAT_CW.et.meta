@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{FC68D57928D1F6C5}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_CAF_LAT_C.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

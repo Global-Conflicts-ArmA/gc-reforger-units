@@ -1,0 +1,43 @@
+GameEntity : "{8A5424D1A2AA6595}Prefabs/Characters/Uniforms/Jacket_US_BDU_base.et" {
+ ID "5104869D194C6243"
+ components {
+  MeshObject "{5104869D194C6262}" {
+   Materials {
+    MaterialAssignClass "{624AB1704B987841}" {
+     SourceMaterial "Jacket_BDU_M81_item"
+     AssignedMaterial "{F28B81BAEE5A6D8C}Assets/Characters/Uniforms/Jacket_BDU_M81/Data/Jacket_BDU_CAF.emat"
+    }
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{5222CB01D5B9A306}" {
+   Attributes SCR_ItemAttributeCollection "{5222CB01245CDF32}" {
+    ItemDisplayName UIInfo "{5222CB0109A04AB2}" {
+     Name "Canadian BDU Shirt"
+     Description "A BDU shirt made entirely of maple leaves"
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{555292467DA11B7C}" {
+      PreviewWornModel 1
+      PreviewModel "{6075675D15317A2D}Assets/Characters/Uniforms/Jacket_BDU_M81/Jacket_BDU_M81.xob"
+     }
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5104869D194C627A}" {
+   Slots {
+    LoadoutSlotInfo DummyBelt {
+     Prefab "{ACB6C2B49C1230F9}Prefabs/Characters/Vests/Vest_ALICE/Vest_ALICE_belt_dummy.et"
+    }
+   }
+   WornMaterialsOverride {
+    "{F28B81BAEE5A6D8C}Assets/Characters/Uniforms/Jacket_BDU_M81/Data/Jacket_BDU_CAF.emat"
+   }
+   ItemMaterialsOverride {
+    "{0470AF73470E54F1}Assets/Characters/Uniforms/Jacket_BDU_M81/Data/Jacket_BDU_M81_02_item.emat"
+   }
+   OverrideMeshesToHide + {
+    "Arm_L" "Arm_R"
+   }
+  }
+ }
+}

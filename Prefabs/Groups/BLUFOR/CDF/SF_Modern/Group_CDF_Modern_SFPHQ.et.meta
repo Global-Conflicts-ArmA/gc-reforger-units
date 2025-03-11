@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{F2AE179D26D16F8D}Prefabs/Groups/BLUFOR/CDF/Modern/Group_CDF_Modern_SFPHQ.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

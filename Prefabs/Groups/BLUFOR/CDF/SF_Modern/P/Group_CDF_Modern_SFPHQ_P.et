@@ -1,0 +1,7 @@
+SCR_AIGroup : "{F2AE179D26D16F8D}Prefabs/Groups/BLUFOR/CDF/Modern/SF/Group_CDF_Modern_SFPHQ.et" {
+ ID "0000000000000001"
+ m_aUnitPrefabSlots {
+  "{23C9B89FC7F8AAC0}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern/SF/P/Character_CDF_Modern_SF_SL_P.et" "{23C9B89FC7F8AAC0}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern/SF/P/Character_CDF_Modern_SF_SL_P.et" "{7EF45EAC9FBF1C44}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern/SF/P/Character_CDF_Modern_SF_Sharpshooter_P.et" "{2285245A344DB876}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern/SF/P/Character_CDF_Modern_SF_Medic_P.et"
+ }
+ m_bPlayable 1
+}

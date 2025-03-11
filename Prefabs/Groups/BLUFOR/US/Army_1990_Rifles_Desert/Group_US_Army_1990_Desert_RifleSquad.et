@@ -1,0 +1,6 @@
+SCR_AIGroup : "{EACD97CF4A702FAE}Prefabs/Groups/BLUFOR/Group_US_Base.et" {
+ ID "0000000000000001"
+ m_aUnitPrefabSlots {
+  "{099FDF84343D9E4E}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/Character_US_SL_DCU_1998.et" "{D79DF43E9E76CFF5}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/Character_US_TL_DCU_1998.et" "{BF1DAD93656C5AAC}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/Character_US_GL_DCU_1998.et" "{49DDD6666D0205E2}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/Character_US_AR_DCU_1998.et" "{EA6EF9C87D023B9B}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/Character_US_Rifleman_DCU_1998.et" "{DE6F7A0992D2AB71}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/Character_US_LAT_DCU_1998.et" "{D79DF43E9E76CFF5}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/Character_US_TL_DCU_1998.et" "{BF1DAD93656C5AAC}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/Character_US_GL_DCU_1998.et" "{49DDD6666D0205E2}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/Character_US_AR_DCU_1998.et" "{EA6EF9C87D023B9B}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/Character_US_Rifleman_DCU_1998.et" "{DE6F7A0992D2AB71}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/Character_US_LAT_DCU_1998.et"
+ }
+}

@@ -1,8 +1,0 @@
-SCR_ChimeraCharacter : "{6675D74602020466}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_TF_CDF_Officer.et" {
- ID "200D264F0EEA1A28"
- components {
-  PS_PlayableComponent "{5EFCC1946F475F15}" {
-   m_bIsPlayable 1
-  }
- }
-}

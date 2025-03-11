@@ -1,0 +1,36 @@
+SCR_AIGroup : "{B7AB5D3F8A7ADAE4}Prefabs/Groups/BLUFOR/Group_US_PlatoonHQ.et" {
+ ID "0000000000000001"
+ components {
+  SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+   m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+    Name "Platoon HQ"
+    m_Image "{C1151091A0B29FAE}Images/Faction_Flags/GC_CAF_flag.edds"
+    m_sFaction "GC_CAF"
+    m_aAuthoredLabels + {
+     25 34 38
+    }
+    m_aAutoLabels {
+     72
+    }
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{604482963251834C}" {
+     }
+     SCR_EntityBudgetValue "{609AE1834A64CEC1}" {
+     }
+    }
+    m_EntityChildrenBudgetCost {
+     SCR_EntityBudgetValue "{57148323DA5A313A}" {
+     }
+    }
+    m_bUseUIInfoName 0
+   }
+  }
+ }
+ coords 2892.943 23.594 3053.99
+ m_faction "GC_CAF"
+ m_aUnitPrefabSlots {
+  "{7E4D56AE455431C2}Prefabs/Characters/Factions/BLUFOR/GC_Canada/RHS_Canada/Character_CAF_Platoon_Commander_CW.et" "{350935F7D7537ADF}Prefabs/Characters/Factions/BLUFOR/GC_Canada/RHS_Canada/Character_CAF_Platoon_Warrant_CW.et" "{03062ED06D3A433A}Prefabs/Characters/Factions/BLUFOR/GC_Canada/RHS_Canada/Character_CAF_RF_CW.et" "{7043F1353E10A8B8}Prefabs/Characters/Factions/BLUFOR/GC_Canada/RHS_Canada/Character_CAF_Medic_CW.et"
+ }
+ m_sCustomNameSet "Platoon Headquarters"
+ m_bSetPlayable 1
+}

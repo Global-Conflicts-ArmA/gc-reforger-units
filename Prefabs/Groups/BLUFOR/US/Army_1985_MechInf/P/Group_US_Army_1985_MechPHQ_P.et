@@ -1,0 +1,6 @@
+SCR_AIGroup : "{F6FEAC4B533C5A2E}Prefabs/Groups/BLUFOR/US/Army_1985_MechInf/Group_US_Army_1985_MechPHQ.et" {
+ ID "0000000000000001"
+ m_aUnitPrefabSlots {
+  "{D164278FD7D9C81A}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_PL_P.et" "{501777EB151D644B}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Sergeant_P.et" "{EC7EDB04B4C7B73A}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_RTO_P.et" "{EC7EDB04B4C7B73A}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_RTO_P.et" "{EC7EDB04B4C7B73A}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_RTO_P.et" "{547BA14003A67C04}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Medic_P.et" "{3662286A13252E45}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Unarmed_P.et" "{3662286A13252E45}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Unarmed_P.et"
+ }
+}

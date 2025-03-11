@@ -1,0 +1,8 @@
+SCR_ChimeraCharacter : "{7D03E7BC9F546611}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/Character_US_Spotter_DCU_1998.et" {
+ ID "520EC961A090BBD5"
+ components {
+  PS_PlayableComponent "{5EFCC1946F475F15}" {
+   m_bIsPlayable 1
+  }
+ }
+}

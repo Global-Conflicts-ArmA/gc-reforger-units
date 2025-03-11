@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{9174C6EEEBB6A414}Prefabs/Characters/Factions/BLUFOR/Canadian_Army_1987/Character_CAF_2IC_CW_2.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,9 @@
+SCR_AIGroup : "{B7AB5D3F8A7ADAE4}Prefabs/Groups/BLUFOR/Group_US_PlatoonHQ.et" {
+ ID "0000000000000001"
+ m_faction "GC_CAF"
+ m_aUnitPrefabSlots {
+  "{11BA46BAEF30D8F3}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_PlatoonCommander_Alt_CW_2.et" "{2A1463BC73EDC6DF}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_PlatoonWarrant_Alt_CW_2.et" "{A53A0D8A5F1B7D07}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_RTO_CW_2.et" "{21D1F4A071703255}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_Medic_CW_2.et"
+ }
+ m_sCustomNameSet "Platoon Headquarters"
+ m_bSetPlayable 1
+}

@@ -1,0 +1,7 @@
+SCR_AIGroup : "{6664B6FBE66BBF60}Prefabs/Groups/BLUFOR/US/Army_1990_Rifles_Desert/Group_US_Army_1990_Desert_RifleSquad.et" {
+ ID "0000000000000001"
+ m_aUnitPrefabSlots {
+  "{88C592A95588D20A}Prefabs/Characters/Factions/BLUFOR/US_Army/Desert/P/Character_US_SL_DCU_1998_P.et" "{7F66D7C965CC9C1C}Prefabs/Characters/Factions/BLUFOR/US_Army/Desert/P/Character_US_TL_DCU_1998_P.et" "{76C72A41D4243FC3}Prefabs/Characters/Factions/BLUFOR/US_Army/Desert/P/Character_US_GL_DCU_1998_P.et" "{86848FC95353D596}Prefabs/Characters/Factions/BLUFOR/US_Army/Desert/P/Character_US_AR_DCU_1998_P.et" "{62DF528A4FF16F25}Prefabs/Characters/Factions/BLUFOR/US_Army/Desert/P/Character_US_Rifleman_DCU_1998_P.et" "{A7A0C997D0A3B92E}Prefabs/Characters/Factions/BLUFOR/US_Army/Desert/P/Character_US_LAT_DCU_1998_p.et" "{7F66D7C965CC9C1C}Prefabs/Characters/Factions/BLUFOR/US_Army/Desert/P/Character_US_TL_DCU_1998_P.et" "{76C72A41D4243FC3}Prefabs/Characters/Factions/BLUFOR/US_Army/Desert/P/Character_US_GL_DCU_1998_P.et" "{86848FC95353D596}Prefabs/Characters/Factions/BLUFOR/US_Army/Desert/P/Character_US_AR_DCU_1998_P.et" "{62DF528A4FF16F25}Prefabs/Characters/Factions/BLUFOR/US_Army/Desert/P/Character_US_Rifleman_DCU_1998_P.et" "{A7A0C997D0A3B92E}Prefabs/Characters/Factions/BLUFOR/US_Army/Desert/P/Character_US_LAT_DCU_1998_p.et"
+ }
+ m_bPlayable 1
+}

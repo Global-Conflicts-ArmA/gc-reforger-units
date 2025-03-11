@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{5F82F30672309851}Prefabs/Groups/BLUFOR/GC_Canada/Canadian_Army_RHS/Group_RHSCAF_CompanyHQ_P.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

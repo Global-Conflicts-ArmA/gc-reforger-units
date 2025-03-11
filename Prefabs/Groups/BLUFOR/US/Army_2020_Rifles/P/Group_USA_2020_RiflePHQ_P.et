@@ -1,0 +1,6 @@
+SCR_AIGroup : "{FFAEBAF18631085F}Prefabs/Groups/BLUFOR/US/Army_2020_Rifles/Group_USA_2020_RiflePHQ.et" {
+ ID "0000000000000001"
+ m_aUnitPrefabSlots {
+  "{DB2461A0774F857B}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_Army/P/Character_RHS_USA_SL_P.et" "{DB2461A0774F857B}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_Army/P/Character_RHS_USA_SL_P.et" "{0968B9123279513A}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_Army/P/Character_RHS_USA_RTO_P.et" "{6FE1861E4D73D425}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_Army/P/Character_RHS_USA_Medic_P.et" "{6FE1861E4D73D425}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_Army/P/Character_RHS_USA_Medic_P.et"
+ }
+}
