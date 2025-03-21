@@ -1,0 +1,36 @@
+GameEntity : "{2E975CF81742B09E}worlds/TheLocalPub/RHSPatches/Prefabs/Items/Equipment/Patches/GC_Patch1.et" {
+ ID "5DB09136945FC6DB"
+ components {
+  InventoryItemComponent "{5DB09136B1C985CE}" {
+   Attributes SCR_ItemAttributeCollection "{5DB09136B1C985C1}" {
+    ItemDisplayName SCR_ItemHintUIInfo "{5DB09136B1C985EB}" {
+     Name "Olive Union Jack"
+     Description "A subdued olive Union Jack Flag belonging to the United Kingdom"
+     m_aItemHints {
+      SCR_InventoryItemHintUIInfo "{61CC8C4C7DC3AE72}" {
+       Name "#RHS-UI_InventoryHint_CanBeattachedToVelcro"
+      }
+     }
+    }
+   }
+  }
+  MeshObject "{5DB09136B1C985B5}" {
+   Materials {
+    MaterialAssignClass "{64D75794560797A5}" {
+     SourceMaterial "patch_us_flag"
+     AssignedMaterial "{7F9B23BFC7B15D9E}worlds/TheLocalPub/RHSPatches/Assets/Characters/Patches/data/GC_Patch_UnionJackSubbed_Olive.emat"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5DB09136B1C9859A}" {
+   Animate 1
+   WornMaterialsOverride {
+    "{7F9B23BFC7B15D9E}worlds/TheLocalPub/RHSPatches/Assets/Characters/Patches/data/GC_Patch_UnionJackSubbed_Olive.emat"
+   }
+   ItemMaterialsOverride {
+    "{7F9B23BFC7B15D9E}worlds/TheLocalPub/RHSPatches/Assets/Characters/Patches/data/GC_Patch_UnionJackSubbed_Olive.emat"
+   }
+  }
+ }
+ coords 0 0 -0.021
+}

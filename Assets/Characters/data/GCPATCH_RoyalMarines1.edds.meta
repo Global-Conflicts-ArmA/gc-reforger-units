@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{8728B68BBF7AC962}Assets/Characters/Patches/data/GC_PATCH1.edds"
+ Name "{EDA1D4EC53FED9A0}Assets/Characters/Patches/data/GCPATCH_RoyalMarines1.edds"
  Configurations {
   PNGResourceClass PC : "{DC555BD399D92412}Configs/System/ResourceTypes/PC/TextureUnspecified.conf" {
    FormatCompress Best
@@ -22,6 +22,10 @@ MetaFileClass {
    ColorSpace ToSRGB
   }
   PNGResourceClass HEADLESS : "{699C82A6807668A7}Configs/System/ResourceTypes/HEADLESS/TextureUnspecified.conf" {
+   FormatCompress Best
+   ColorSpace ToSRGB
+  }
+  PNGResourceClass Xbox : PC {
    FormatCompress Best
    ColorSpace ToSRGB
   }

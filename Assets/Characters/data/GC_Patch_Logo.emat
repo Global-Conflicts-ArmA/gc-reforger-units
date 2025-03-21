@@ -1,0 +1,12 @@
+MatPBRBasic {
+ BlendMode AlphaBlend
+ AllowUserAlphaBias 1
+ DisableUserAphaInShadow 1
+ AOScale 0.412
+ DielectricReflectance 0.02
+ GlobalAOPower 0.581
+ EmissiveMap "{5E7E301831EC138F}Assets/Characters/Patches/data/rhs_patch_KB_EM.edds"
+ BCRMap "{0B4ECF9B4773B21A}Assets/Characters/Patches/data/GC_PATCH_Logo.edds"
+ OpacityMap "{62BDC30BE074DBFC}Assets/Characters/Patches/data/GC_PATCH_Logo_A.edds"
+ NMOMap "{EA58004B22C766EE}Assets/Characters/Patches/data/rhs_patch_KB_NMO.edds"
+}

@@ -1,0 +1,38 @@
+GameEntity : "{B6CC74F306F54A8D}Prefabs/Items/Equipment/Patches/Patch_Base.et" {
+ ID "5DB09136945FC6DB"
+ components {
+  InventoryItemComponent "{5DB09136B1C985CE}" {
+   Attributes SCR_ItemAttributeCollection "{5DB09136B1C985C1}" {
+    ItemDisplayName SCR_ItemHintUIInfo "{5DB09136B1C985EB}" {
+     Name "#RHS-Item_Patch_Bomba_Name"
+     Description "#RHS-Item_Patch_Bomba_Description"
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{5DB09136B1C985C3}" {
+      FOV 10
+     }
+    }
+   }
+  }
+  MeshObject "{5DB09136B1C985B5}" {
+   Object "{0905FCEF840F1851}Assets/Characters/Patches/rhs_patch_usmc_msob_insignia.xob"
+   Materials {
+    MaterialAssignClass "{64E318D947C92B8C}" {
+     SourceMaterial "rhs_patch_usmc_msob_insignia"
+     AssignedMaterial "{5753477C3B36CB9A}Assets/Characters/Patches/data/GC_Patch_Logo.emat"
+    }
+   }
+  }
+  ParametricMaterialInstanceComponent "{6094AA2B026350A8}" {
+   UserParamAlpha 0
+  }
+  BaseLoadoutClothComponent "{5DB09136B1C9859A}" {
+   WornMaterialsOverride {
+    "{5753477C3B36CB9A}Assets/Characters/Patches/data/GC_Patch_Logo.emat"
+   }
+   ItemMaterialsOverride {
+    "{5753477C3B36CB9A}Assets/Characters/Patches/data/GC_Patch_Logo.emat"
+   }
+  }
+ }
+}
