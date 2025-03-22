@@ -1,0 +1,5 @@
+MatPBRBasic {
+ Color 0.147 0.134 0.121 1
+ BCRMap "{58C536A1175B59AA}Prefabs/Items/Equipment/Extended LR Radios/Assets/MarpatWD4Tex.edds"
+ NMOMap "{5ED7D26E9BE767DB}Assets/Items/Equipment/Backpacks/Backpack_Radio/Data/RadioBag_01_NMO.edds"
+}
