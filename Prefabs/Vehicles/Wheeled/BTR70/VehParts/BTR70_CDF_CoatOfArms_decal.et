@@ -1,0 +1,13 @@
+GenericEntity : "{DB04C3A5DDE10A12}Prefabs/Vehicles/Wheeled/BTR70/VehParts/BTR70_FIA_CoatOfArms_decal.et" {
+ ID "4B42E71698F5739C"
+ components {
+  MeshObject "{4B42E716914465B9}" {
+   Materials {
+    MaterialAssignClass "{64DB59D146272A12}" {
+     SourceMaterial "FIA_CoatOfArms_66F803693C8814A2"
+     AssignedMaterial "{9A681B76E899B542}Assets/Vehicles/Wheeled/UAZ469/Data/Coat_of_arms_CDF.emat"
+    }
+   }
+  }
+ }
+}

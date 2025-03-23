@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{FBBE05DD1AB89B05}Assets/Vehicles/Helicopters/Mi8/Data/MI8_Flag_decals_01_CDF.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+ }
+}

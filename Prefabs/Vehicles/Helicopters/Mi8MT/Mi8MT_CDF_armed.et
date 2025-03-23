@@ -1,0 +1,23 @@
+Vehicle : "{7BD282AF716ED639}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_armed.et" {
+ ID "5A7CEB06421662F8"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{64D8230BAEBA36F2}" {
+     SourceMaterial "Exterier_35715EB3956D22B9"
+     AssignedMaterial "{DA2A1DD9060A231B}Assets/Vehicles/Helicopters/Mi8/Data/Mi8_Body_CDF.emat"
+    }
+    MaterialAssignClass "{64D8230BAEBA3684}" {
+     SourceMaterial "Flag_decals_01_0418C5226701B4E1"
+     AssignedMaterial "{FBBE05DD1AB89B05}Assets/Vehicles/Helicopters/Mi8/Data/MI8_Flag_decals_01_CDF.emat"
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Mi-8MT, Armed (CDF)"
+    m_sFaction "GC_CDF"
+   }
+  }
+ }
+}

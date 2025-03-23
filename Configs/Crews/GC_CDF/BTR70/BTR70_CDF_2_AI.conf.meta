@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{EB74E4C6E406DB6F}Configs/Crews/BTR70/BTR70_CDF_2_AI.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,8 @@
+SCR_ChimeraCharacter : "{38E7CC05E50D0B54}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_PL_P.et" {
+ ID "520EC961A090B1EE"
+ components {
+  PS_PlayableComponent "{5EFCC1946F475F15}" {
+   m_name "Company Commander"
+  }
+ }
+}

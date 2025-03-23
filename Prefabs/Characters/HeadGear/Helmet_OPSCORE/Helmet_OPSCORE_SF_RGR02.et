@@ -1,0 +1,31 @@
+GameEntity : "{144F85C6489875B7}Prefabs/Characters/HeadGear/Helmet_OPSCORE/Helmet_OPSCORE_SF_Coy_Peltor.et" {
+ ID "50D485E1435D6C72"
+ components {
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    RHS_LoadoutSlotInfo Goggles {
+     Prefab "{F3672F802360D2E4}Prefabs/Characters/Eyewear/crossbow/Eyewear_ess_crossbow_blk_clr.et"
+    }
+    RHS_LoadoutSlotInfo BackVelcro {
+     Prefab "{3D91801A97D4061E}Prefabs/Items/Equipment/Nightvision/PVS31/PVS_31_BatPack_BLK_MC.et"
+    }
+    RHS_LoadoutSlotInfo NVG {
+     Prefab "{275F298DE10E7A15}Prefabs/Items/Equipment/Nightvision/PVS31/NVG_PVS31_WP_TAN_MC.et"
+    }
+    RHS_LoadoutSlotInfo Rail_Right {
+     Prefab "{0F6075686526F51D}Prefabs/Items/Equipment/Nightvision/ChargePro/ChargePro.et"
+    }
+    RHS_LoadoutSlotInfo TopVelcro {
+     Prefab "{5F7EF7FEBC39B874}Prefabs/Items/Equipment/Nightvision/HelstarStrobe/Helstar.et"
+    }
+    RHS_LoadoutSlotInfo LeftVelcro {
+     Prefab "{4C5535098D6DAC7C}Prefabs/Items/Equipment/Nightvision/Vlite/vlite.et"
+    }
+    RHS_LoadoutSlotInfo RightVelcro {
+     Prefab "{7122907EFFE9ABD1}Prefabs/Items/Equipment/Patches/Patch_US_Flag_Inverse.et"
+    }
+   }
+  }
+ }
+ coords -0.861 -0.408 -0.034
+}

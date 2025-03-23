@@ -1,0 +1,16 @@
+GenericEntity : "{CE0AF733722B3978}Prefabs/Items/Equipment/Detonators/BlastingMachine_M34/BlastingMachine_M34.et" {
+ ID "508AB2013EEE1E00"
+ components {
+  SCR_DeployableInventoryItemInventoryComponent "{5222EB4D0C73006B}" {
+   Attributes SCR_ItemAttributeCollection "{5222EB4D0A2B466B}" {
+    ItemDisplayName UIInfo "{5222EB4D07D865FA}" {
+     Name "#AR-Item_M34BlastingMachine_Name (1000m)"
+     Description "#AR-Item_M34BlastingMachine_Description Modified by GC to operate up to 1000m."
+    }
+   }
+  }
+  SCR_DetonatorGadgetComponent "{5F1A794D87CB704C}" {
+   m_fMaxDetonationRange 1000
+  }
+ }
+}

@@ -1,49 +1,63 @@
 Vehicle : "{B47110AA1A806556}Prefabs/Vehicles/Wheeled/BTR70/BTR70_FIA.et" {
  ID "BBCBA43A9778AE21"
  components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{5C7AF5E70267A16E}" {
+     SourceMaterial "BTR_70_base_exterior_Body"
+     AssignedMaterial "{4C8A3FC607392028}Assets/Vehicles/Wheeled/BTR70/Data/BTR_70_base_exterior_Body_CDF.emat"
+    }
+   }
+  }
   SCR_BaseCompartmentManagerComponent "{20FB66C5DCB8DF72}" {
    CompartmentSlots {
     PilotCompartmentSlot PilotCompartment {
      m_DefaultOccupantData SCR_DefaultOccupantData "{59BA9CCC9085FC38}" {
-      m_sDefaultOccupantPrefab "{9DE22FB5586591CC}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_Rifleman.et"
+      m_sDefaultOccupantPrefab "{7AFB5290811A6B99}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Mech/Character_CDF_Modern_Crew.et"
      }
     }
     CargoCompartmentSlot Passenger_r01 {
      m_DefaultOccupantData SCR_DefaultOccupantData "{59BA9CCD47C51A48}" {
-      m_sDefaultOccupantPrefab "{E7B82DA39E13951D}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_SL.et"
+      m_sDefaultOccupantPrefab "{D8D30DE8FE5E91BF}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Mech/Character_CDF_Modern_SL.et"
      }
     }
     CargoCompartmentSlot Passenger_r02 {
      m_DefaultOccupantData SCR_DefaultOccupantData "{59BA9CCD47C51A48}" {
-      m_sDefaultOccupantPrefab "{8A30DCBCAC97370E}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_AR.et"
+      m_sDefaultOccupantPrefab "{6DF39536B5532DF0}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Mech/Character_CDF_Modern_AT.et"
      }
     }
     CargoCompartmentSlot Passenger_l03 {
      m_DefaultOccupantData SCR_DefaultOccupantData "{59BA9CCD47C51A48}" {
-      m_sDefaultOccupantPrefab "{5298B57DD51E2952}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_AT.et"
+      m_sDefaultOccupantPrefab "{17E6C181CE0882BD}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Mech/Character_CDF_Modern_AAT.et"
      }
     }
     CargoCompartmentSlot Passenger_r03 {
      m_DefaultOccupantData SCR_DefaultOccupantData "{59BA9CCD47C51A48}" {
-      m_sDefaultOccupantPrefab "{CAC58B12DAD7C058}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_AAT.et"
+      m_sDefaultOccupantPrefab "{B55BFCF7CCDA33AC}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Mech/Character_CDF_Modern_AR.et"
      }
     }
     CargoCompartmentSlot Passenger_l04 {
      m_DefaultOccupantData SCR_DefaultOccupantData "{59BA9CCD47C51A48}" {
-      m_sDefaultOccupantPrefab "{9DE22FB5586591CC}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_Rifleman.et"
+      m_sDefaultOccupantPrefab "{A5CBE1109BCDAD26}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Mech/Character_CDF_Modern_SR.et"
      }
     }
     CargoCompartmentSlot Passenger_r04 {
      m_DefaultOccupantData SCR_DefaultOccupantData "{59BA9CCD47C51A48}" {
-      m_sDefaultOccupantPrefab "{9AB9CBB7A89C55F7}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_Medic.et"
+      m_sDefaultOccupantPrefab "{B55BFCF7CCDA33AC}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Mech/Character_CDF_Modern_AR.et"
      }
     }
    }
+  }
+  SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+   "faction affiliation" "GC_CDF"
   }
   SlotManagerComponent "{55BCE45E438E4CFF}" {
    Slots {
     RegisteringComponentSlotInfo Turret {
      Prefab "{21E7DCF770F58194}Prefabs/Vehicles/Wheeled/BTR70/VehParts/Turret/BTR70_CDF_Turret.et"
+    }
+    RegisteringComponentSlotInfo FIA_CoatOfArms_decal {
+     Prefab "{D3C1EF3A90A6DE8F}Prefabs/Vehicles/Wheeled/BTR70/VehParts/BTR70_CDF_CoatOfArms_decal.et"
     }
    }
   }

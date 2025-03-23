@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{4C8A3FC607392028}Assets/Vehicles/Wheeled/BTR70/Data/BTR_70_base_exterior_Body_CDF.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

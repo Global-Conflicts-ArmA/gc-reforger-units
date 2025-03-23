@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{DFDBF4245B246A6D}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_armed_CDF.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,11 +1,19 @@
 Turret : "{A31F0FF0EF0B74C8}Prefabs/Vehicles/Wheeled/BTR70/VehParts/Turret/BTR70_FIA_Turret.et" {
  ID "51ACD0965653D003"
  components {
+  MeshObject "{51ACD09C4E0B7D16}" {
+   Materials {
+    MaterialAssignClass "{5C7AF5E718C24AFB}" {
+     SourceMaterial "BTR_70_base_exterior_Body"
+     AssignedMaterial "{4C8A3FC607392028}Assets/Vehicles/Wheeled/BTR70/Data/BTR_70_base_exterior_Body_CDF.emat"
+    }
+   }
+  }
   SCR_BaseCompartmentManagerComponent "{51ACFBB07A14CFA6}" {
    CompartmentSlots {
     TurretCompartmentSlot TurretCompartment {
      m_DefaultOccupantData SCR_DefaultOccupantData "{59BA9CCCB82D651B}" {
-      m_sDefaultOccupantPrefab "{9DE22FB5586591CC}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_Rifleman.et"
+      m_sDefaultOccupantPrefab "{7AFB5290811A6B99}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Mech/Character_CDF_Modern_Crew.et"
      }
     }
    }

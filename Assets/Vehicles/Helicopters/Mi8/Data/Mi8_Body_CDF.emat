@@ -1,0 +1,5 @@
+MatPBRMulti : "{35715EB3956D22B9}Assets/Vehicles/Helicopters/Mi8/Data/Mi8_Body.emat" {
+ Color_3 0.213 0.306 0.357 1
+ Color_2 0.016 0.01 0.008 1
+ Color_1 0.03 0.055 0.035 1
+}

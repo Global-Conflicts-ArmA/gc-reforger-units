@@ -1,3 +1,31 @@
 SCR_ChimeraCharacter : "{8DBFBE62FF28CA4E}Prefabs/Characters/Factions/BLUFOR/US_Army/1980_Rifles/Character_US_80_AR_P.et" {
  ID "520EC961A090BBD5"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{E456D2F5F718AEBE}Prefabs/Characters/HeadGear/Helmet_M1_01/Helmet_M1_01_Cover_Wineleaf.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{A080C1AEBF921DC4}Prefabs/Characters/Uniforms/Jacket_US_BDU_rolledup_02.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{86BB79B9A2233780}Prefabs/Characters/Uniforms/Pants_US_M65.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{5D7CAAFB9235E902}" {
+     TargetStorage "Prefabs/Characters/Uniforms/Pants_US_M65.et"
+    }
+    ItemsInitConfigurationItem "{54A49B42D138207E}" {
+     TargetStorage "Prefabs/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.et"
+    }
+    ItemsInitConfigurationItem "{5538C2905313AB98}" {
+     TargetStorage "Prefabs/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.et"
+    }
+   }
+  }
+ }
 }

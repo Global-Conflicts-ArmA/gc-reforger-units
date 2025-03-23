@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{9A681B76E899B542}Assets/Vehicles/Wheeled/UAZ469/Data/Coat_of_arms_CDF.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

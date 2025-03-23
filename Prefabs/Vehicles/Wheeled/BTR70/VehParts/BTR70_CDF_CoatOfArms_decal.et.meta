@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{D3C1EF3A90A6DE8F}Prefabs/Vehicles/Wheeled/BTR70/VehParts/BTR70_CDF_CoatOfArms_decal.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

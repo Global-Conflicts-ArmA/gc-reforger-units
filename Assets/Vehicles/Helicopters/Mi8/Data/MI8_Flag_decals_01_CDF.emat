@@ -1,0 +1,6 @@
+MatPBRDecal : "{0418C5226701B4E1}Assets/Vehicles/Helicopters/Mi8/Data/MI8_Flag_decals_01.emat" {
+ Color 0.349 0.349 0.349 1
+ AlphaMul 0.75
+ BCRMap "{9C01C46030921E95}Assets/Vehicles/Helicopters/Mi8/Data/roundell_cdf_bcr.edds"
+ OpacityMap "{2C75217E502E946C}Assets/Vehicles/Helicopters/Mi8/Data/roundell_cdf_a.edds"
+}

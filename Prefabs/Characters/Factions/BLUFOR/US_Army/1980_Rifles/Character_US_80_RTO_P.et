@@ -2,7 +2,7 @@ SCR_ChimeraCharacter : "{EC7EDB04B4C7B73A}Prefabs/Characters/Factions/BLUFOR/US_
  ID "520EC961A090BBD5"
  components {
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
-   WeaponTemplate "{C7C0B3A46D125C6F}worlds/James/VyshnoyeClash/Prefabs/Weapons/Rifles/Rifle_M16A1_ish.et"
+   WeaponTemplate "{C7C0B3A46D125C6F}Prefabs/Weapons/Rifles/M16A1/Rifle_M16A1_ish.et"
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {

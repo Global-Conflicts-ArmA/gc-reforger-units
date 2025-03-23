@@ -1,0 +1,5 @@
+MatPBRDecal : "{66F803693C8814A2}Assets/Vehicles/Wheeled/UAZ469/Data/Coat_of_arms_FIA.emat" {
+ AlphaMul 0.85
+ BCRMap "{9C01C46030921E95}Assets/Vehicles/Helicopters/Mi8/Data/roundell_cdf_bcr.edds"
+ OpacityMap "{2C75217E502E946C}Assets/Vehicles/Helicopters/Mi8/Data/roundell_cdf_a.edds"
+}

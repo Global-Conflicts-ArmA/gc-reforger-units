@@ -1,0 +1,31 @@
+GameEntity : "{B6CC74F306F54A8D}Prefabs/Items/Equipment/Patches/Patch_Base.et" {
+ ID "5DB09136945FC6DB"
+ components {
+  InventoryItemComponent "{5DB09136B1C985CE}" {
+   Attributes SCR_ItemAttributeCollection "{5DB09136B1C985C1}" {
+    ItemDisplayName SCR_ItemHintUIInfo "{5DB09136B1C985EB}" {
+     Name "GC Patch 1"
+     Description "#RHS-Item_Patch_US_Flag_IR_Description"
+    }
+   }
+  }
+  MeshObject "{5DB09136B1C985B5}" {
+   Materials {
+    MaterialAssignClass "{64D75794560797A5}" {
+     SourceMaterial "patch_us_flag"
+     AssignedMaterial "{7EFD3F005E08E57B}worlds/TheLocalPub/RHSPatches/Assets/Characters/Patches/data/GC_Patch1.emat"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5DB09136B1C9859A}" {
+   Animate 1
+   WornMaterialsOverride {
+    "{7EFD3F005E08E57B}worlds/TheLocalPub/RHSPatches/Assets/Characters/Patches/data/GC_Patch1.emat"
+   }
+   ItemMaterialsOverride {
+    "{7EFD3F005E08E57B}worlds/TheLocalPub/RHSPatches/Assets/Characters/Patches/data/GC_Patch1.emat"
+   }
+  }
+ }
+ coords 0 -0.006 0.022
+}

@@ -1,3 +1,25 @@
 SCR_ChimeraCharacter : "{18D275E3D2D27FD7}Prefabs/Characters/Factions/BLUFOR/US_Army/1980_Rifles/Character_US_80_MG_P.et" {
  ID "39332739B2DAC6B2"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{E456D2F5F718AEBE}Prefabs/Characters/HeadGear/Helmet_M1_01/Helmet_M1_01_Cover_Wineleaf.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{A080C1AEBF921DC4}Prefabs/Characters/Uniforms/Jacket_US_BDU_rolledup_02.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{86BB79B9A2233780}Prefabs/Characters/Uniforms/Pants_US_M65.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{5D7CAAFB9235E902}" {
+     TargetStorage "Prefabs/Characters/Uniforms/Pants_US_M65.et"
+    }
+   }
+  }
+ }
 }

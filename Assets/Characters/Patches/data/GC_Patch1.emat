@@ -1,0 +1,7 @@
+MatPBRBasic {
+ AllowUserAlphaBias 1
+ DisableUserAphaInShadow 1
+ BCRMap "{8728B68BBF7AC962}worlds/TheLocalPub/RHSPatches/Assets/Characters/Patches/data/GC_PATCH1.edds"
+ OpacityMap "{70A53F4EA373F142}Assets/Characters/Basebody/Data/HeadClipping_A.edds"
+ NMOMap "{B4EF11122112850A}Assets/Characters/Patches/data/patch_Canada_flag_embroidered_NMO.edds"
+}
