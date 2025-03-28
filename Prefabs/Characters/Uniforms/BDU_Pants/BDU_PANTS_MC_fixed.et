@@ -1,0 +1,33 @@
+GameEntity : "{E6534FE720EB128F}Prefabs/Characters/Uniforms/BDU_Pants/bdu_pants_base.et" {
+ ID "5104869D194C6243"
+ components {
+  MeshObject "{5104869D194C6262}" {
+   Materials {
+    MaterialAssignClass "{630757E6B9BD0CE1}" {
+     SourceMaterial "Pants_BDU_M81_tucked_item"
+     AssignedMaterial "{7E4CE1F68D8C5EDF}Assets/Characters/Uniforms/BDU_Pants/Data/Trousers_Bloused_MC.emat"
+    }
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{5222CB01D5B9A306}" {
+   Attributes SCR_ItemAttributeCollection "{5222CB01245CDF32}" {
+    ItemDisplayName UIInfo "{5222CB0109A04AB2}" {
+     Name "#RHS-Uniform_BDUPants_Name - #RHS-Camo_MULTICAM"
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{555292467DA11B7C}" {
+      PreviewModel "{0368657A72F27FF8}Prefabs/Characters/Uniforms/BDU_Pants/BDU_Pants_MC_Wear.et"
+     }
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5104869D194C627A}" {
+   WornMaterialsOverride {
+    "{7E4CE1F68D8C5EDF}Assets/Characters/Uniforms/BDU_Pants/Data/Trousers_Bloused_MC.emat"
+   }
+   ItemMaterialsOverride {
+    "{7E4CE1F68D8C5EDF}Assets/Characters/Uniforms/BDU_Pants/Data/Trousers_Bloused_MC.emat"
+   }
+  }
+ }
+}
