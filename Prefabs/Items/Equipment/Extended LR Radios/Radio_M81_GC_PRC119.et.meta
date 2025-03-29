@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{78AD6277BCA654C4}Prefabs/Items/Equipment/Extended LR Radios/Radio_M81_GC_PRC119.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}
