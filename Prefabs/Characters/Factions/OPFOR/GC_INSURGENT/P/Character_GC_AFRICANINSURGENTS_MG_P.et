@@ -1,0 +1,16 @@
+SCR_ChimeraCharacter : "{7EBB303AA038F316}worlds/TheLocalPub/GC_AfricanInsurgents/Prefabs/Characters/Factions/OPFOR/GC_AFRICANINSURGENTS/Character_GC_AFRICANINSURGENTS_MG.et" {
+ ID "520EC961A090B1EE"
+ components {
+  FactionAffiliationComponent "{555C98D1CD949F3E}" {
+   "faction affiliation" "GC_INSURGENT"
+  }
+  PS_PlayableComponent "{5EFCC1946F475F15}" {
+   m_bIsPlayable 1
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    m_sFaction "GC_INSURGENT"
+   }
+  }
+ }
+}
