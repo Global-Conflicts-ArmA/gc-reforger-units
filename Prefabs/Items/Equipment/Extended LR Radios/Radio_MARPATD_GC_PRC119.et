@@ -1,0 +1,13 @@
+GenericEntity : "{0D5E78711F52F010}Prefabs/Items/Equipment/Extended LR Radios/Radio_MARPATWD_GC_PRC119.et" {
+ ID "508AB2013EEE1E00"
+ components {
+  BaseLoadoutClothComponent "{5EA4A89F0D06E1DE}" {
+   WornMaterialsOverride {
+    "{5FAFCB6B07DD96C6}Assets/Items/Equipment/Backpacks/Backpack_Radio/Data/antenna_01.emat" "{F88A8F3205B20D0B}Prefabs/Items/Equipment/Extended LR Radios/Assets/RadioBag_MARPAT_D.emat"
+   }
+   ItemMaterialsOverride {
+    "{5FAFCB6B07DD96C6}Assets/Items/Equipment/Backpacks/Backpack_Radio/Data/antenna_01.emat" "{F88A8F3205B20D0B}Prefabs/Items/Equipment/Extended LR Radios/Assets/RadioBag_MARPAT_D.emat"
+   }
+  }
+ }
+}

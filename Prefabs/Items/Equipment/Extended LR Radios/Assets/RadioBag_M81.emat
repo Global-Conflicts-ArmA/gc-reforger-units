@@ -1,0 +1,6 @@
+MatPBRBasic {
+ Color 0.275 0.209 0.157 1
+ BCRMap "{354B63F6AEDB4CC5}Prefabs/Items/Equipment/Extended LR Radios/Assets/M81-2.edds"
+ NormalPower 2.8
+ NMOMap "{5ED7D26E9BE767DB}Assets/Items/Equipment/Backpacks/Backpack_Radio/Data/RadioBag_01_NMO.edds"
+}

@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{3513B60956B4BB8F}Prefabs/Items/Equipment/Extended LR Radios/RadioBag_MARPAT_WD.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

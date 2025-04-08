@@ -1,0 +1,24 @@
+GenericEntity : "{2DEE1C3D93F591CD}Prefabs/Items/Equipment/Radios/Radio_PRC320.et" {
+ ID "508AB2013EEE1E00"
+ components {
+  BaseRadioComponent "{5A30BAE7673C63CA}" {
+   Transceivers {
+    RadioTransceiver "{64EC1AAD3B7F32CE}" {
+     ChannelFrequency 40500
+     "Transmitting Range" 10000
+     "Min tunable frequency" 10000
+     "Max tunable frequency" 32500
+     "Frequency resolution" 100
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5EA4A89F0D06E1DE}" {
+   WornMaterialsOverride {
+    "{5FAFCB6B07DD96C6}Assets/Items/Equipment/Backpacks/Backpack_Radio/Data/antenna_01.emat" "{B5458E1AD4B0676D}Prefabs/Items/Equipment/Extended LR Radios/RadioBag_EMR.emat"
+   }
+   ItemMaterialsOverride {
+    "{5FAFCB6B07DD96C6}Assets/Items/Equipment/Backpacks/Backpack_Radio/Data/antenna_01.emat" "{B5458E1AD4B0676D}Prefabs/Items/Equipment/Extended LR Radios/RadioBag_EMR.emat"
+   }
+  }
+ }
+}
