@@ -1,0 +1,17 @@
+SCR_AIGroup : "{B50B7BF31273C2A6}Prefabs/Groups/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Group_RHS_RF_MSV_VKPO_DS_Base.et" {
+ ID "0000000000000001"
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "Line"
+  }
+  SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+   m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+    m_sFaction "GC_INSURGENT"
+   }
+  }
+ }
+ m_faction "GC_INSURGENT"
+ m_aUnitPrefabSlots {
+  "{41241F3FFCF345E6}worlds/TheLocalPub/GC_AfricanInsurgents/Prefabs/Characters/Factions/OPFOR/GC_AFRICANINSURGENTS/Character_GC_AFRICANINSURGENTS_SL.et" "{1D262C1F2B20BEE1}worlds/TheLocalPub/GC_AfricanInsurgents/Prefabs/Characters/Factions/OPFOR/GC_AFRICANINSURGENTS/Character_GC_AFRICANINSURGENTS_RF.et" "{09ABC4E3B7413754}worlds/TheLocalPub/GC_AfricanInsurgents/Prefabs/Characters/Factions/OPFOR/GC_AFRICANINSURGENTS/Character_GC_AFRICANINSURGENTS_AR.et" "{F40487E1B7FEF9A9}worlds/TheLocalPub/GC_AfricanInsurgents/Prefabs/Characters/Factions/OPFOR/GC_AFRICANINSURGENTS/Character_GC_AFRICANINSURGENTS_AT.et" "{514C40BDE04AA7EB}worlds/TheLocalPub/GC_AfricanInsurgents/Prefabs/Characters/Factions/OPFOR/GC_AFRICANINSURGENTS/Character_GC_AFRICANINSURGENTS_GREN.et" "{BA3E46A65FE0BF37}worlds/TheLocalPub/GC_AfricanInsurgents/Prefabs/Characters/Factions/OPFOR/GC_AFRICANINSURGENTS/Character_GC_AFRICANINSURGENTS_MARKS.et" "{005C077898976EB9}worlds/TheLocalPub/GC_AfricanInsurgents/Prefabs/Characters/Factions/OPFOR/GC_AFRICANINSURGENTS/Character_GC_AFRICANINSURGENTS_MED.et" "{7EBB303AA038F316}worlds/TheLocalPub/GC_AfricanInsurgents/Prefabs/Characters/Factions/OPFOR/GC_AFRICANINSURGENTS/Character_GC_AFRICANINSURGENTS_MG.et" "{07E528AD75B7CC44}worlds/TheLocalPub/GC_AfricanInsurgents/Prefabs/Characters/Factions/OPFOR/GC_AFRICANINSURGENTS/Character_GC_AFRICANINSURGENTS_SAP.et"
+ }
+}
