@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{C6C0FD290450897D}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_CompanyCommander_CW_2.et" {
+SCR_ChimeraCharacter : "{0A2AFCFD21908414}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1993/Character_CAF_PlatoonCommander_CW_2.et" {
  ID "51FA8A5F28FD04BA"
  components {
   SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
@@ -17,7 +17,7 @@ SCR_ChimeraCharacter : "{C6C0FD290450897D}Prefabs/Characters/Factions/BLUFOR/GC_
   }
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
-    Name "Company Sergeant Major"
+    Name "Company Commander"
     Icon "{A26C465A6AE2AA17}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_Leader.edds"
     m_Image "{E66FEBD3F049BF7D}UI/Textures/EditorPreviews/Characters/BLUFOR/US_Army/Character_US_SL.edds"
     m_sFaction "GC_CAF"
@@ -27,17 +27,9 @@ SCR_ChimeraCharacter : "{C6C0FD290450897D}Prefabs/Characters/Factions/BLUFOR/GC_
    InitialInventoryItems {
     ItemsInitConfigurationItem "{5D7CAAFB9235E902}" {
      TargetStorage "Pants/Pants_US_M65.et"
-     PrefabsToSpawn + {
-      "{1852DD0D0BED6182}Prefabs/Items/Facepaint_01_Base.et"
-     }
     }
     ItemsInitConfigurationItem "{5A24B6035F7619E7}" {
      TargetStorage "Jacket/Jacket_CAF_BDU.et"
-    }
-    ItemsInitConfigurationItem "{6510197A05835768}" {
-     PrefabsToSpawn {
-      "{00E36F41CA310E2A}Prefabs/Items/Medicine/SalineBag_01/SalineBag_US_01.et" "{00E36F41CA310E2A}Prefabs/Items/Medicine/SalineBag_01/SalineBag_US_01.et" "{00E36F41CA310E2A}Prefabs/Items/Medicine/SalineBag_01/SalineBag_US_01.et"
-     }
     }
    }
   }

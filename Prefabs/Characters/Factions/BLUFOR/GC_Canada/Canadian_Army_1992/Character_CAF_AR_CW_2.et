@@ -48,13 +48,13 @@ SCR_ChimeraCharacter : "{5B1996C05B1E51A4}Prefabs/Characters/Factions/BLUFOR/US_
      }
     }
     ItemsInitConfigurationItem "{62E95A6D579E0B43}" {
-     TargetStorage "Prefabs/Characters/Uniforms/Pants_US_M65.et"
+     TargetStorage "Pants/Pants_US_M65.et"
      PrefabsToSpawn {
       "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
      }
     }
     ItemsInitConfigurationItem "{62E95A612E7E775C}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_ALICE/Vest_ALICE_buttpack.et"
+     TargetStorage "Jacket/Jacket_CAF_BDU.et"
      PrefabsToSpawn {
       "{CE4BDC1B0C4C6965}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_Orange.et"
      }

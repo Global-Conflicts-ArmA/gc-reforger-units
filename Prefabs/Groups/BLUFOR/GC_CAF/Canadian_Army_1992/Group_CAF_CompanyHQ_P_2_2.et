@@ -2,7 +2,7 @@ SCR_AIGroup : "{B7AB5D3F8A7ADAE4}Prefabs/Groups/BLUFOR/Group_US_PlatoonHQ.et" {
  ID "0000000000000001"
  m_faction "GC_CAF"
  m_aUnitPrefabSlots {
-  "{C6C0FD290450897D}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_CompanyCommander_CW_2.et" "{FBCBC1A6A601C346}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_Company_Sergeant_Major_CW_2.et" "{A53A0D8A5F1B7D07}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_RTO_CW_2.et" "{21D1F4A071703255}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_Medic_CW_2.et"
+  "{C6C0FD290450897D}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_CompanyCommander_CW_2.et" "{FBCBC1A6A601C346}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_Company_Sergeant_Major_CW_2.et" "{469A2E1F2C8E0A03}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_Signaller_CW_2.et" "{21D1F4A071703255}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_Medic_CW_2.et"
  }
  m_sCustomNameSet "Company Headquarters"
  m_bSetPlayable 1
