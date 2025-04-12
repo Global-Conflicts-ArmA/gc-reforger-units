@@ -1,0 +1,8 @@
+SCR_ChimeraCharacter : "{09ABC4E3B7413754}worlds/TheLocalPub/GC_AfricanInsurgents/Prefabs/Characters/Factions/OPFOR/GC_AFRICANINSURGENTS/Character_GC_AFRICANINSURGENTS_AR.et" {
+ ID "520EC961A090B1EE"
+ components {
+  PS_PlayableComponent "{5EFCC1946F475F15}" {
+   m_bIsPlayable 1
+  }
+ }
+}
