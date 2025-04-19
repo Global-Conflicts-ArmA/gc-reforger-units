@@ -1,0 +1,60 @@
+GenericEntity : "{4CC2C69DE1AEF103}Prefabs/Props/Core/Destructible_Props_Base.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  BLU_PPTComponent "{652327B2C83170FC}" {
+   SlideArray {
+    "{41F5C84CF0E2CD44}worlds/GCTC/FOFDC_Course/Data/PPTSlide1.emat"
+   }
+  }
+  MeshObject "{5872F0EB7FA40561}" {
+   Object "{62C27FEBF2823AE3}Assets/Props/Civilian/NoticeBoardCork_01/NoticeBoardCork_01.xob"
+  }
+  RigidBody "{5872F0EB7DFB5A9D}" {
+   ResponseIndex "TinyDestructible"
+   ModelGeometry 1
+   Static 1
+  }
+  SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" : "{76DA308CC9E2AB84}Prefabs/Props/Core/DestructionMultiPhase_Base.ct" {
+   m_fBaseHealth 300
+   m_DestroySpawnObjects {
+    SCR_DebrisSpawnable "{652327B2328C8324}" {
+     m_ModelPrefabs {
+      "{8A1508D63AB78ABE}Assets/Props/Civilian/NoticeBoardCork_01/Dst/NoticeBoardCork_01_Dst_01.xob" "{130BB14F2750BB2E}Assets/Props/Civilian/NoticeBoardCork_01/Dst/NoticeBoardCork_01_Dst_02.xob"
+     }
+     m_fMass 1
+     m_fDamageToImpulse 3
+     m_fRandomVelocityLinear 3
+     m_eMaterialSoundType WOOD_PLANK_SMALL
+    }
+   }
+  }
+  ActionsManagerComponent "{652327B2C028FD15}" {
+   ActionContexts {
+    UserActionContext "{652327B2F5D8C3E5}" {
+     ContextName "Cycle"
+     Position PointInfo "{652327B2EF9B3174}" {
+     }
+     Radius 10.59
+     Height 2
+    }
+   }
+   additionalActions {
+    BLU_PPTActionInteraction "{652327B28AE06440}" {
+     ParentContextList {
+      "Cycle"
+     }
+     UIInfo UIInfo "{652327B28FE821ED}" {
+      Name "Cycle Slide"
+     }
+     ActionTitle "Cycle Slide"
+     m_bManualAdjustment 1
+     m_bLoopAction 1
+    }
+   }
+  }
+  RplComponent "{5624A88DC2D9928D}" {
+   Enabled 1
+  }
+ }
+ coords 0 0 0
+}
