@@ -1,4 +1,4 @@
-SCR_AIGroup : "{6234FDCD27FE4C61}Prefabs/Groups/OPFOR/USSR/SovietArmy_MotorRiflesBTR/P/Group_USSR_MotRiflePHQ_P.et" {
+SCR_AIGroup : "{8DE9E967FADD9FEF}Prefabs/Groups/OPFOR/USSR/SovietArmy_MotorRiflesBTR_1980ish/Group_USSR_MSV80_MotRiflePHQ.et" {
  ID "0000000000000001"
  components {
   PS_GroupCallsignAssigner "{65136701CA021D8F}" {
@@ -7,6 +7,7 @@ SCR_AIGroup : "{6234FDCD27FE4C61}Prefabs/Groups/OPFOR/USSR/SovietArmy_MotorRifle
   }
  }
  m_aUnitPrefabSlots {
-  "{DF8E65CA90B55E3B}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_1980/Character_USSR_MSV80_PL_P.et" "{D1BA3D1164545A8D}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_1980/Character_USSR_MSV80_Medic_P.et"
+  "{DF8E65CA90B55E3B}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_1980/Character_USSR_MSV80_PL_P.et" "{730A987119F129A8}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Sergeant_P.et" "{D1BA3D1164545A8D}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_1980/Character_USSR_MSV80_Medic_P.et"
  }
+ m_sCustomNameSet "Platoon HQ"
 }

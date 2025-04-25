@@ -1,0 +1,15 @@
+SCR_ChimeraCharacter : "{D384466A8828A5BC}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_CompanyCommander.et" {
+ ID "520EC961A090BE1E"
+ components {
+  PS_PlayableComponent "{5EFCC1946F475F15}" {
+   m_bIsPlayable 1
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{74F8DB362E5B910D}Prefabs/Characters/Headgear/Helmet_M56/Helmet_M56_Net.et"
+    }
+   }
+  }
+ }
+}
