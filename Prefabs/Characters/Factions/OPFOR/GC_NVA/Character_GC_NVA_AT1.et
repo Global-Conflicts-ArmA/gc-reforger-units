@@ -1,0 +1,37 @@
+SCR_ChimeraCharacter : "{DC30E1E42C6BA859}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_Rifleman.et" {
+ ID "520EC961A090BE1E"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Anti-Tank Gunner No.1"
+    Icon "{00B30C29FAF85E1C}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_AntiTank.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{115A1B4BEAE15B37}Prefabs/Weapons/NVA/MPi-KM.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+   WeaponTemplate "{E8A55396050E1762}Prefabs/Weapons/Launchers/RPG7/Launcher_RPG7_pgo7.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{74F8DB362E5B910D}Prefabs/Characters/Headgear/Helmet_M56/Helmet_M56_Net.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{E217454352110466}Prefabs/Items/Backpacks/Backpack_RPGPack/Backpack_RPGPack.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{652F65D124CF3A85}" {
+     TargetStorage "Back/Backpack_RPGPack.et"
+     PrefabsToSpawn {
+      "{FBBF84E3B447D822}Prefabs/Weapons/Ammo/RPG/RHS_AmmoRocket_PG7VL.et" "{FBBF84E3B447D822}Prefabs/Weapons/Ammo/RPG/RHS_AmmoRocket_PG7VL.et" "{FBBF84E3B447D822}Prefabs/Weapons/Ammo/RPG/RHS_AmmoRocket_PG7VL.et"
+     }
+    }
+   }
+  }
+ }
+}

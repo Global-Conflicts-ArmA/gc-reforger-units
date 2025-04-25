@@ -1,6 +1,14 @@
-SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/USSR/SovietArmy_MotorRiflesBTR_1980ish/P/Group_USSR_MSV80_MotRifleSquad_P.et" {
+SCR_AIGroup : "{6A85E7ABBB6803A7}Prefabs/Groups/OPFOR/USSR/SovietArmy_MotorRiflesBTR_1980ish/Group_USSR_MSV80_MotRifleSquadSVD.et" {
  ID "0000000000000001"
- m_aUnitPrefabSlots {
-  "{A5F4D7FEBDB57183}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_1980/Character_USSR_MSV80_SL_P.et" "{70AE8D0AF2E319D6}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_1980/Character_USSR_MSV80_AR_P.et" "{CD7EDF8D8DF805C8}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_1980/Character_USSR_MSV80_AT_P.et" "{566506FE40CF16E5}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_1980/Character_USSR_MSV80_AAT_P.et" "{1A5BEECAF606ACFC}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_1980/Character_USSR_MSV80_SR_P.et" "{A8A47F001DA13B74}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_1980/Character_USSR_MSV80_Sharpshooter_P.et" "{A491F9108F01E180}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_1980/Character_USSR_MSV80_Rifleman_P.et" "{A491F9108F01E180}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_1980/Character_USSR_MSV80_Rifleman_P.et" "{B4A947AA09E9F15E}Prefabs/Characters/Factions/OPFOR/USSR_Army/Extra/Character_USSR_CrewCommander_P.et" "{296CC757A1430309}Prefabs/Characters/Factions/OPFOR/USSR_Army/Extra/Character_USSR_CrewDriver_P.et"
+ components {
+  PS_GroupCallsignAssigner "{652F5C6EBE967FCC}" {
+   m_iCompanyCallsign 1
+   m_iPlatoonCallsign 1
+   m_iSquadCallsign 1
+  }
  }
+ m_aUnitPrefabSlots {
+  "{A5F4D7FEBDB57183}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_1980/Character_USSR_MSV80_SL_P.et" "{70AE8D0AF2E319D6}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_1980/Character_USSR_MSV80_AR_P.et" "{CD7EDF8D8DF805C8}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_1980/Character_USSR_MSV80_AT_P.et" "{566506FE40CF16E5}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_1980/Character_USSR_MSV80_AAT_P.et" "{A8A47F001DA13B74}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_1980/Character_USSR_MSV80_Sharpshooter_P.et" "{1A5BEECAF606ACFC}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_1980/Character_USSR_MSV80_SR_P.et" "{A491F9108F01E180}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_1980/Character_USSR_MSV80_Rifleman_P.et" "{A491F9108F01E180}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_1980/Character_USSR_MSV80_Rifleman_P.et" "{B4A947AA09E9F15E}Prefabs/Characters/Factions/OPFOR/USSR_Army/Extra/Character_USSR_CrewCommander_P.et" "{296CC757A1430309}Prefabs/Characters/Factions/OPFOR/USSR_Army/Extra/Character_USSR_CrewDriver_P.et"
+ }
+ m_sCustomNameSet "1st Squad"
 }

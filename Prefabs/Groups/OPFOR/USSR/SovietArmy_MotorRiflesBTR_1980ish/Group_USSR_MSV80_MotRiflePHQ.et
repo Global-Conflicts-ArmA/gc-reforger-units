@@ -1,0 +1,6 @@
+SCR_AIGroup : "{8DE0C0830FE0C33D}Prefabs/Groups/OPFOR/Group_USSR_Base.et" {
+ ID "0000000000000001"
+ m_aUnitPrefabSlots {
+  "{426F7FAAC77A2A6D}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_PL.et" "{928DC9882A0AC79D}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Sergeant.et" "{AB9726163EC1BD81}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Medic.et"
+ }
+}

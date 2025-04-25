@@ -1,0 +1,13 @@
+SCR_ChimeraCharacter : "{4BCF6B26E6A0AFCB}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_SquadLeader.et" {
+ ID "520EC961A090BE1E"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Deputy Squad Leader"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{115A1B4BEAE15B37}Prefabs/Weapons/NVA/MPi-KM.et"
+  }
+ }
+}

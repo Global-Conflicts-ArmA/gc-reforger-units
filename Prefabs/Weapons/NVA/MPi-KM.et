@@ -1,0 +1,24 @@
+GenericEntity : "{22FE865CD8F1AAFC}Prefabs/Weapons/Assault/AKM/Rifle_AKM_base.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  SCR_WeaponAttachmentsStorageComponent "{51F080D5CE45A1A2}" {
+   Attributes SCR_ItemAttributeCollection "{51F080D5C64F12C5}" {
+    ItemDisplayName WeaponUIInfo "{5222CB07CFF6712A}" {
+     Name "MPi-KM"
+     Description "It's an AKM with East German aspirations"
+    }
+   }
+  }
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     MagazineTemplate "{B9E3B9B143A43A79}Prefabs/Weapons/Attachments/Magazines/AKM/Magazine_AK_762x39_AK55_30rnd.et"
+    }
+   }
+   UIInfo WeaponUIInfo "{CC3BA6A2C42F09F4}" {
+    Name "MPi-KM"
+    Description "It's an AKM with East German aspirations"
+   }
+  }
+ }
+}

@@ -1,0 +1,50 @@
+GenericEntity : "{3BFBE9145E9C40B9}Prefabs/Weapons/MachineGuns/RPK74/MG_RPK74_base.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponSoundComponent "{5A8685198A9AEEDD}" {
+   Filenames {
+    "{93E2739FB3AD2BB3}Sounds/Weapons/Rifles/AKM/Weapons_Rifles_AKM_Shot.acp" "{BB08F4A65999C2F7}Sounds/Weapons/Machineguns/RPK74/Weapons_Machineguns_RPK74_Handling.acp" "{A84D9F22F2C0D9CE}Sounds/Weapons/_SharedData/PickUp/Weapons_PickUp_Rifle_WoodMetal.acp" "{214445E9606EFCD0}Sounds/Weapons/_SharedData/Melee/Weapons_Melee_LMG.acp" "{D8F675F3468362E2}Sounds/Weapons/_SharedData/Weapons_Sights_Actions.acp" "{5DB34B1BB17CA63B}Sounds/Weapons/_SharedData/Drop/Weapons_Drop_LMG.acp" "{10C1421961C34D26}Sounds/Weapons/_SharedData/Weapons_Deployment.acp"
+   }
+  }
+  SCR_WeaponAttachmentsStorageComponent "{51F080D5CE45A1A2}" {
+   Attributes SCR_ItemAttributeCollection "{51F080D5C64F12C5}" {
+    ItemDisplayName WeaponUIInfo "{5222CB07E1D123E9}" {
+     Name "LMG-K"
+     Description "Leichtes Maschinengewehr Kalashnikov"
+    }
+    ItemAnimationAttributes ItemAnimationAttributes "{5284960E60421307}" {
+     AnimationIKPose "{429B9FD660E72265}Assets/Weapons/MachineGuns/RPK74/anims/anm/p_rpk74_ik.anm"
+    }
+   }
+  }
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    MuzzleComponent "{50F64C4591CD7AA6}" {
+     components {
+      CaseEjectingEffectComponent "{5122AAD190FCA21D}" {
+       ParticleEffect "{A89D3276591C9F57}Particles/Weapon/Casing_762x39_PS.ptc"
+      }
+     }
+     MagazineWell TF_MagazineWellAKM_762 "{5534B7DA16FF5571}" {
+     }
+     MagazineTemplate "{B9E3B9B143A43A79}Prefabs/Weapons/Attachments/Magazines/AKM/Magazine_AK_762x39_AK55_30rnd.et"
+    }
+    WeaponAnimationComponent "{60B4EA76EB15F6E0}" {
+     AnimGraph "{989C679F462401EF}Assets/Weapons/MachineGuns/workspaces/RPK74.agr"
+     AnimInstance "{A61C3B9557BBE223}Assets/Weapons/MachineGuns/workspaces/RPK74_weapon.asi"
+     AnimInjection AnimationAttachmentInfo "{5534B7DA16FF550E}" {
+      AnimGraph "{989C679F462401EF}Assets/Weapons/MachineGuns/workspaces/RPK74.agr"
+      AnimInstance "{5D42AAA4CFBA86CF}Assets/Weapons/MachineGuns/workspaces/RPK74_player.asi"
+     }
+    }
+   }
+   UIInfo WeaponUIInfo "{CC3BA6A2C42F09F4}" {
+    Name "LMG-K"
+    Description "Leichtes Maschinengewehr Kalashnikov"
+   }
+  }
+  RplComponent "{E052E71DCB007AF2}" {
+   "Parent Node From Parent Entity" 0
+  }
+ }
+}

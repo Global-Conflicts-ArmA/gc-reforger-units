@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{6A85E7ABBB6803A7}Prefabs/Groups/OPFOR/USSR/SovietArmy_MotorRiflesBTR_1980ish/Group_USSR_MSV80_MotRifleSquadSVD.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

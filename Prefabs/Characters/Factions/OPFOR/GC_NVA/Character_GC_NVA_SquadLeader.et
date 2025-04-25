@@ -1,0 +1,64 @@
+SCR_ChimeraCharacter : "{BF79A1A472FA63F2}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_BaseLoadout.et" {
+ ID "520EC961A090BE1E"
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot {
+       Prefab "{243948B23D90BECB}Prefabs/Items/Equipment/Binoculars/Binoculars_B8/Binoculars_B8.et"
+      }
+     }
+    }
+   }
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Squad Leader"
+    Icon "{A26C465A6AE2AA17}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_Leader.edds"
+   }
+  }
+  CharacterGrenadeSlotComponent "{520EA1D2F659CE6E}" {
+   WeaponTemplate "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+  }
+  CharacterGrenadeSlotComponent "{5A6CDA0CCF43068E}" {
+   WeaponTemplate "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{115A1B4BEAE15B37}Prefabs/Weapons/NVA/MPi-KM.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{097D09902D4C8318}Prefabs/Characters/Headgear/Helmet_M56/Helmet_M56_Cover.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{D0D01C5002BAF8FA}Prefabs/Characters/Vests/Vest_NVA/Variants/Vest_NVA_Rifleman_AKM.et"
+    }
+    LoadoutSlotInfo HandWear {
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{652F4AD24B49D456}" {
+     PrefabsToSpawn {
+      "{7CEF68E2BC68CE71}Prefabs/Items/Equipment/Compass/Compass_Adrianov.et" "{F849217AB3BA88BE}Prefabs/Items/Equipment/Maps/PaperMap_01_folded_USSR.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{062E2F1D7F6739D6}Prefabs/Items/Equipment/Accessories/ETool_MPL50/ETool_MPL50_FreeRoamBuilding_Gadget.et" "{E1A5D4B878AA8980}Prefabs/Items/Equipment/Radios/Radio_R148.et"
+     }
+    }
+    ItemsInitConfigurationItem "{652F65D0F566BAE6}" {
+     TargetStorage "Vest/Vest_NVA_Rifleman_AKM.et/MagPouch_6Sh46/Vest_NVA_Magpouch_AKM.et"
+     PrefabsToSpawn {
+      "{B9E3B9B143A43A79}Prefabs/Weapons/Attachments/Magazines/AKM/Magazine_AK_762x39_AK55_30rnd.et" "{B9E3B9B143A43A79}Prefabs/Weapons/Attachments/Magazines/AKM/Magazine_AK_762x39_AK55_30rnd.et" "{B9E3B9B143A43A79}Prefabs/Weapons/Attachments/Magazines/AKM/Magazine_AK_762x39_AK55_30rnd.et" "{B9E3B9B143A43A79}Prefabs/Weapons/Attachments/Magazines/AKM/Magazine_AK_762x39_AK55_30rnd.et"
+     }
+    }
+    ItemsInitConfigurationItem "{652F65D71487F497}" {
+     TargetStorage "Jacket/Jacket_Kfz1979.et"
+     PrefabsToSpawn {
+      "{9361BEC03E52E6F8}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_White.et" "{9361BEC03E52E6F8}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_White.et"
+     }
+    }
+   }
+  }
+ }
+}

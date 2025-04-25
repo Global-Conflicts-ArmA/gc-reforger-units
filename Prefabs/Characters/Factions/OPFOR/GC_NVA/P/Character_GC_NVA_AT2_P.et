@@ -1,0 +1,8 @@
+SCR_ChimeraCharacter : "{4FE6EBFEBDC39036}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_AT2.et" {
+ ID "520EC961A090BE1E"
+ components {
+  PS_PlayableComponent "{5EFCC1946F475F15}" {
+   m_bIsPlayable 1
+  }
+ }
+}

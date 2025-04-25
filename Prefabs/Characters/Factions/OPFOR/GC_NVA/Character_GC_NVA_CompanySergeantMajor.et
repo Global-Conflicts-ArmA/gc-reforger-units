@@ -1,0 +1,13 @@
+SCR_ChimeraCharacter : "{875EA11CB3FA1F2B}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_DeputyPlatoonLeader.et" {
+ ID "520EC961A090BE1E"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Company Sergeant Major"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{115A1B4BEAE15B37}Prefabs/Weapons/NVA/MPi-KM.et"
+  }
+ }
+}

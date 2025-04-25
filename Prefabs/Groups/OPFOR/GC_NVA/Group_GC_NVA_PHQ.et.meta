@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{F357F0DCAC2F8A5B}Prefabs/Groups/OPFOR/USSR/SovietArmy_Airborne_1983/Group_GC_NVA_PHQ.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}
