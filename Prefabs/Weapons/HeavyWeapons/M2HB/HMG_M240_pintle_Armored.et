@@ -1,0 +1,29 @@
+GenericEntity : "{7E9A9FDA9E3A454A}Prefabs/Weapons/HeavyWeapons/M2HB/HMG_M2HB_pintle_Armored.et" {
+ ID "476AE74DE20E1061"
+ components {
+  WeaponSoundComponent "{5A8685198A9AEEDD}" {
+   Filenames {
+    "{2E3F3DA7BC923171}Sounds/Weapons/Machineguns/m240/Weapons_Machineguns_M240_Shot.acp" "{4928189A8BCB7932}Sounds/Vehicles/Wheeled/M998/Vehicles_M998_Turret.acp" "{7FE9A3E1A74FA8AD}Sounds/Weapons/Machineguns/M240T/Weapons_Machineguns_M240T_Handling.acp"
+   }
+  }
+  MeshObject "{CFBAA4B701F95D69}" {
+   Object "{3B7C1D6DEF6F7C8E}Assets/Weapons/MachineGuns/M240/rhs_m240b.xob"
+  }
+  SCR_WeaponAttachmentsStorageComponent "{51F080D5CE45A1A2}" {
+   Attributes SCR_ItemAttributeCollection "{51F080D5C64F12C5}" {
+    ItemDisplayName WeaponUIInfo "{5222CB07E1D123E9}" {
+     Name "M240"
+     Description ""
+    }
+   }
+  }
+  SlotManagerComponent "{655001F167EF8E33}" {
+   Slots {
+    EntitySlotInfo Armor {
+     Offset 0 -0.0857 0.482
+    }
+   }
+  }
+ }
+ coords 0.019 -0.118 -0.053
+}

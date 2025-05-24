@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{7DF1F90E07B9D75E}Prefabs/Weapons/Rifles/M4A1/Rifle_M4A1_RAS_RCO_PEQ_JUB.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

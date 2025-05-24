@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{84EEEF18361F752D}Prefabs/Groups/OPFOR/GC_NVA/Group_GC_NVA_RifleSquad.et"
+ Name "{84EEEF18361F752E}Prefabs/Groups/OPFOR/GC_NVA/Group_GC_NVA_RifleSquad.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }
@@ -12,6 +12,8 @@ MetaFileClass {
   EntityTemplateResourceClass PS5 : PC {
   }
   EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
   }
  }
 }

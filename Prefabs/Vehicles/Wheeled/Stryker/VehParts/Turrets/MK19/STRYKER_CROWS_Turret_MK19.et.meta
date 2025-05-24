@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{794397777BC5BF68}Prefabs/Vehicles/Wheeled/Stryker/VehParts/Turrets/MK19/STRYKER_CROWS_Turret_MK19.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

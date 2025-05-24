@@ -1,0 +1,27 @@
+SCR_ChimeraCharacter : "{D51B18BED95A15E0}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/USMC LAR 2010/P/Character_RHS_USAF_USMC_2010_LAR_CrewGunner_P.et" {
+ ID "520EC961A090BBD5"
+ components {
+  PS_PlayableComponent "{5EFCC1946F475F15}" {
+   m_sName "Crewman (Gunner)"
+   m_bIsPlayable 0
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{D2C367D173B99BCD}Prefabs/Weapons/Rifles/M4/Rifle_M4_RAS.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
+   WeaponTemplate "{1353C6EAD1DCFE43}Prefabs/Weapons/Handguns/M9/Handgun_M9.et"
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{61B52C4506FFE973}" {
+     PrefabsToSpawn +{
+     }
+    }
+    ItemsInitConfigurationItem "{64F701E83C25062D}" {
+     PrefabsToSpawn +{
+     }
+    }
+   }
+  }
+ }
+}

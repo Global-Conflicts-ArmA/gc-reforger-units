@@ -1,0 +1,26 @@
+Bradley : "{97515FC3069543F6}Prefabs/Vehicles/Tracked/BFV/M2A2_BASE.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{650C2ECDEFD77D88}" {
+     SourceMaterial "BODY"
+     AssignedMaterial "{3EB1612DC89F1633}Assets/Vehicles/Tracked/BFV/data/Merdc/BODY_Merdc.emat"
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    Name "#BFV-Vehicle_M2A2_Name (#BFV-Camo_MERDC)"
+    m_Image "{F29963EE035EAF83}UI/Textures/EditorPreviews/Vehicles/Tracked/BFV/M2A2_MERDC.edds"
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Turret {
+     Prefab "{98D7333C3FC0D2F0}Prefabs/Vehicles/Tracked/BFV/M2A2_Turret_MERDC.et"
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,27 @@
+Vehicle : "{3A4CDF7428E32E7C}Prefabs/Vehicles/Wheeled/JLTV/JLTV_Base.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    Name "#WCS-Vehicle_JLTV_CROWS_Name"
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{5EDC86E4AF8908B6}" {
+      m_Value 350
+     }
+     SCR_EntityBudgetValue "{65333CE96A015B98}" {
+      m_BudgetType WCS_XP_COST
+      m_Value 50
+     }
+    }
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo CROWS {
+     MergePhysics 1
+     RegisterWeapons 1
+    }
+   }
+  }
+ }
+}

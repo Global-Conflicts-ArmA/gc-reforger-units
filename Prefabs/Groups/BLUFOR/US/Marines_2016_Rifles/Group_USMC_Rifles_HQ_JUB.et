@@ -1,0 +1,16 @@
+SCR_AIGroup : "{1E520E3EC6FE0729}Prefabs/Groups/BLUFOR/US/Marines_2010s_LAR/P/Group_USMC_LAR_HQ_P_JUB.et" {
+ ID "0000000000000001"
+ components {
+  SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+   m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+    Name "USMC 2016 Rifle Platoon HQ"
+    Icon "{21F4103A40AA23ED}UI/Textures/Editor/ContentBrowser/RHS_USAF_USMC_MEF_Icon.edds"
+   }
+  }
+ }
+ coords 4153.635 36.457 9937.596
+ m_aUnitPrefabSlots {
+  "{76394ADB4E0AA391}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/USMC 2016/Character_RHS_USAF_USMC_2016_Rifle_PL.et" "{14019F31643EBB55}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/USMC 2016/Character_RHS_USAF_USMC_2016_Rifle_PSG.et" "{1BE6280A23B8EBDF}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/USMC 2016/Character_RHS_USAF_USMC_2016_Rifle_RTO.et" "{94242014DEB83966}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/USMC 2016/Character_RHS_USAF_USMC_2016_Rifle_FO.et" "{5D0AE14DB78ED195}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/USMC 2016/Character_RHS_USAF_USMC_2016_Rifle_CORPSMAN.et" "{5D0AE14DB78ED195}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/USMC 2016/Character_RHS_USAF_USMC_2016_Rifle_CORPSMAN.et"
+ }
+ m_bSetPlayable 0
+}

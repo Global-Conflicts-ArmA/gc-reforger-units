@@ -1,0 +1,15 @@
+Turret : "{694B1276EA8F78A8}Prefabs/Vehicles/Wheeled/Stryker/VehParts/Turrets/STRYKER_MGS_Turret.et" {
+ components {
+  MeshObject "{51ACD09C4E0B7D16}" {
+   Materials {
+    MaterialAssignClass "{5C6AB9DDDFE64CD2}" {
+     SourceMaterial "STYKER_MGS_exterior_Body"
+     AssignedMaterial "{D03B18657951D5C7}Assets/Vehicles/Wheeled/SPC_Stryker/data/STRYKER_MGS_exterior_MERDC.emat"
+    }
+   }
+  }
+  WeaponSlotComponent "{51ACD09C6BFEEE6A}" {
+   WeaponTemplate "{EAC885937BFB0566}Prefabs/Weapons/HeavyWeapons/MGS_Cannon_MERDC.et"
+  }
+ }
+}

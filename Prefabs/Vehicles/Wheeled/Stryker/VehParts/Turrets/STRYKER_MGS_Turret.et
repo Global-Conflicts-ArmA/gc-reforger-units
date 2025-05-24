@@ -1,0 +1,44 @@
+Turret : "{4AD877DEA242E512}Prefabs/Weapons/Core/Turret_Base.et" {
+ ID "653D537250467131"
+ components {
+  SCR_UniversalInventoryStorageComponent "{5C6C7B4972FE85CA}" {
+   Enabled 1
+   Attributes SCR_ItemAttributeCollection "{5C6C7B495618A512}" {
+    ItemDisplayName UIInfo "{5C6C7B48A66C3AFE}" {
+     Name "#AR-Inventory_Turret"
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{5C6C7B48C39449B2}" {
+      CameraPreset Left
+      CameraOrbitAngles 0 0 0
+      CameraDistanceToItem 3
+      CameraOffset 0 0 0
+      ItemRenderRotation 0 0 0
+      FOV 80
+      PreviewWornModel 1
+     }
+    }
+    m_Size SLOT_3x3
+    m_bDraggable 0
+   }
+   InitialStorageSlots {
+    InventoryStorageSlot Reserve {
+     Prefab "{DB65BE3D78FA67F9}Prefabs/Weapons/Magazines/Magazine_MGS_HEATFS.et"
+    }
+   }
+   m_fMaxWeight 114
+   m_aSlotsToShow {
+   }
+  }
+  WeaponSlotComponent "{51ACD09C6BFEEE6A}" {
+   WeaponType Autocannon
+  }
+  WeaponSlotComponent "{5CE857ECDDEEA9F0}" {
+   WeaponType MachineGun
+  }
+  SCR_TurretInventoryStorageManagerComponent "{5C6692DD835B0AE4}" {
+   Enabled 1
+  }
+ }
+ coords 99.81 1 1261.255
+}

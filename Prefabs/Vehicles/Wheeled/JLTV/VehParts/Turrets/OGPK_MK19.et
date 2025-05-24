@@ -1,0 +1,11 @@
+Turret : "{8D9DD29EBFA08DA5}Prefabs/Vehicles/Wheeled/JLTV/VehParts/Turrets/OGPK_base.et" {
+ ID "51ACD0965653D003"
+ components {
+  WeaponSlotComponent "{51ACD09C6BFEEE6A}" {
+   AttachType InventoryStorageSlot "{0AACE7470E421D82}" {
+    Offset 0 0.1727 0
+   }
+   WeaponTemplate "{5DA51F20414A39E1}Prefabs/Weapons/HeavyWeapons/MK19/HMG_Mk19_pintle_Armored.et"
+  }
+ }
+}

@@ -1,0 +1,16 @@
+SCR_AIGroup : "{1E520E3EC6FE0729}Prefabs/Groups/BLUFOR/US/Marines_2010s_LAR/P/Group_USMC_LAR_HQ_P_JUB.et" {
+ ID "0000000000000001"
+ components {
+  SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+   m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+    Name "AI USMC 2016 Assault man team"
+    Icon "{21F4103A40AA23ED}UI/Textures/Editor/ContentBrowser/RHS_USAF_USMC_MEF_Icon.edds"
+   }
+  }
+ }
+ coords 4153.635 36.457 9937.596
+ m_aUnitPrefabSlots {
+  "{A3DC16BDECD5793E}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/USMC 2016/Character_RHS_USAF_USMC_2016_Rifle_Assltman.et" "{2CE3750C44D455EB}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/USMC 2016/Character_RHS_USAF_USMC_2016_Rifle_Assltman_asst.et" "{A3DC16BDECD5793E}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/USMC 2016/Character_RHS_USAF_USMC_2016_Rifle_Assltman.et" "{2CE3750C44D455EB}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/USMC 2016/Character_RHS_USAF_USMC_2016_Rifle_Assltman_asst.et"
+ }
+ m_bSetPlayable 0
+}

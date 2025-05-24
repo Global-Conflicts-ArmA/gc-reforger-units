@@ -1,0 +1,266 @@
+Turret : "{4AD877DEA242E512}Prefabs/Weapons/Core/Turret_Base.et" {
+ ID "51ACD0965653D003"
+ components {
+  EventHandlerManagerComponent "{551EC6A46DA1232A}" {
+   EventHandlers {
+    BaseEventHandler "{655001F0A544BAB3}" {
+     EventName "OnCompartmentEntered"
+    }
+    BaseEventHandler "{655001F0A544BABB}" {
+     EventName "OnCompartmentLeft"
+    }
+   }
+  }
+  SoundComponent "{655001F0A544BABD}" {
+   Filenames {
+    "{4A4E29F7BA21DAA3}Sounds/Vehicles/Wheeled/M998/Vehicles_M998_Turret_Base.acp"
+   }
+  }
+  EquipedWeaponStorageComponent "{655001F0A544BA81}" {
+   StoragePurpose 2
+  }
+  MeshObject "{51ACD09C4E0B7D16}" {
+   Object "{0A2EC291EEFD032D}Assets/Vehicles/Common/Turrets/OGPK/JLTV_Armored_Turret.xob"
+  }
+  RigidBody "{51ACD09C423F175F}" {
+   Mass 300
+   Static 0
+   Kinematic 1
+  }
+  ProcAnimComponent "{51ACD09DB14C45C0}" {
+   Enabled 1
+   Parameters {
+    ProcAnimParams "{655001F0A544BA88}" {
+     ResourceName "{6D4CF2EAD22A4D26}Prefabs/Vehicles/Wheeled/M998/ProcAnims/TurretHUMVEE.pap"
+     BoneNames {
+      "v_turret_01" ""
+     }
+     SimulationDistance 2000
+     AlwaysSimulateOwner 1
+    }
+   }
+  }
+  SCR_BaseCompartmentManagerComponent "{51ACFBB07A14CFA6}" {
+   DoorInfoList {
+    CompartmentDoorInfo "{655001F0A544BA92}" {
+     AnimDoorIndex 2
+     ContextName "Door_L02"
+     Coverage 0.3
+     OpenDoorAction SCR_OpenVehicleDoorUserAction "{655001F0A544BA90}" {
+      UIInfo SCR_ActionUIInfo "{655001F0A544BA96}" {
+       Name "#AR-UserAction_Open"
+       m_sIconName "veh_door"
+      }
+      "Sort Priority" 5
+     }
+     CloseDoorAction SCR_CloseVehicleDoorUserAction "{655001F0A544BA95}" {
+      UIInfo SCR_ActionUIInfo "{655001F0A544BA9A}" {
+       Name "#AR-UserAction_Close"
+       m_sIconName "veh_door"
+      }
+      "Sort Priority" -1
+     }
+     EntryPositionInfo PointInfo "{655001F0A544BA99}" {
+      PivotID "passenger_01_getIn"
+      Offset -0.8 0 0
+     }
+     ExitPositionInfo PointInfo "{655001F0A544BA9E}" {
+      PivotID "passenger_01_getIn"
+     }
+     GetInTeleport 1
+     GetOutTeleport 1
+     AlignDuringGetOut 1
+     GetInAligningTeleport 1
+     GetOutAligningTeleport 1
+     GetInSeatAligningOnEvent 1
+     GetOutAligningOnEvent 1
+    }
+    CompartmentDoorInfo "{655001F0A544BB62}" {
+     AnimDoorIndex 3
+     ContextName "Door_R02"
+     Coverage 0.3
+     OpenDoorAction SCR_OpenVehicleDoorUserAction "{655001F0A544BB6B}" {
+      UIInfo SCR_ActionUIInfo "{655001F0A544BB68}" {
+       Name "#AR-UserAction_Open"
+       m_sIconName "veh_door"
+      }
+      "Sort Priority" 5
+     }
+     CloseDoorAction SCR_CloseVehicleDoorUserAction "{655001F0A544BB6E}" {
+      UIInfo SCR_ActionUIInfo "{655001F0A544BB6F}" {
+       Name "#AR-UserAction_Close"
+       m_sIconName "veh_door"
+      }
+      "Sort Priority" -1
+     }
+     EntryPositionInfo PointInfo "{655001F0A544BB6C}" {
+      PivotID "passenger_02_idle"
+      Offset 0.8 -1 0
+      Angles 0 -90 0
+     }
+     ExitPositionInfo PointInfo "{655001F0A544BB72}" {
+      PivotID "passenger_02_idle"
+      Offset 0.8 0 0
+     }
+     GetInTeleport 1
+     GetOutTeleport 1
+     AlignDuringGetOut 1
+     GetInAligningTeleport 1
+     GetOutAligningTeleport 1
+     GetInSeatAligningOnEvent 1
+    }
+   }
+   CompartmentSlots {
+    TurretCompartmentSlot TurretCompartment {
+     CompartmentAction SCR_GetInUserAction "{5086CC2CFDD3A05A}" {
+      ParentContextList {
+       "door_r02" "door_l02" "passenger_l02" "passenger_r02" "default"
+      }
+     }
+     GetOutAction SCR_GetOutAction "{509D56664FF79DDB}" {
+      ParentContextList {
+       "door_r02_int" "door_l02_int"
+      }
+     }
+     SwitchSeatAction SCR_SwitchSeatAction "{509D566648F37562}" {
+      ParentContextList {
+       "gunner"
+      }
+     }
+     AdditionalActions {
+      SCR_RemoveCasualtyUserAction "{5D56867A46DBE769}" {
+       ParentContextList {
+        "gunner"
+       }
+      }
+      SCR_RemoveCasualtyUserAction "{61089D59F48D7BD2}" {
+       ParentContextList {
+        "door_r02" "door_l02"
+       }
+      }
+     }
+     PassengerPositionInfo EntitySlotInfo "{B1CB25848A3D93A8}" {
+      PivotID "gunner_idle"
+      Offset 0 0.05 0
+     }
+     ForcedFreeLook 0
+     DoorInfoList {
+      0 1
+     }
+     BaseCoverage 0.2
+     AllowAiming 1
+     m_DefaultOccupantData SCR_DefaultOccupantData "{655001F0A544BB7D}" {
+      m_sDefaultOccupantPrefab "{26A9756790131354}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Rifleman.et"
+     }
+    }
+   }
+  }
+  SCR_BaseHUDComponent "{51ACD09C5E194510}" {
+   InfoDisplays {
+    SCR_WeaponInfoVehicle "{5194B831C2F89FB5}" {
+    }
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{655001F0A544BB45}" {
+   Enabled 0
+   Attributes SCR_ItemAttributeCollection "{655001F0A544BB49}" {
+    ItemDisplayName UIInfo "{655001F0A544BB4E}" {
+     Name "#AR-Inventory_Turret"
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{655001F0A544BB4D}" {
+      CameraPreset Right
+      CameraDistanceToItem 2
+     }
+     SCR_InventoryVehicleVisibilityAttribute "{655001F0A544BB53}" {
+      m_bShowForVehicleFactionOnly 1
+     }
+    }
+    m_Size SLOT_3x3
+    m_bDraggable 0
+   }
+   MultiSlots {
+    MultiSlotConfiguration "{655001F0A544BB5E}" {
+     SlotTemplate InventoryStorageSlot Ammo {
+      Prefab "{C820846B0521423B}Prefabs/Weapons/Magazines/Box_127x99_M2_100rnd_4AP_1APIT.et"
+     }
+     NumSlots 4
+    }
+   }
+  }
+  SCR_VehicleCameraDataComponent "{51AE850D79DDB1F5}" {
+   m_fHeight 0.5
+   m_fDist_Max 5.4
+   m_fDist_Min 1.5
+   m_fDist_Desired 4.5
+  }
+  TurretControllerComponent "{51ACD09C61C183E4}" {
+   DrawDebugInfo 1
+   HasMoveableBase 1
+   LimitsHoriz -20 20
+   LimitsVert -25 33
+   TurretReloadPosition 500 33
+  }
+  WeaponSlotComponent "{51ACD09C6BFEEE6A}" {
+   AttachType InventoryStorageSlot "{0AACE7470E421D82}" {
+    PivotID "v_gun_position"
+    Offset 0 0.2134 0
+   }
+   WeaponTemplate "{98199CE9129841ED}Prefabs/Weapons/HeavyWeapons/M2HB/HMG_M2HB_pintle_Armored.et"
+  }
+  SCR_TurretInventoryStorageManagerComponent "{655001F0A544BB25}" {
+   Enabled 0
+  }
+  ActionsManagerComponent "{51ACD09C7181BA0B}" {
+   ActionContexts {
+    UserActionContext "{51ACFBB064390C6E}" {
+     Position PointInfo "{51ACFBB061993925}" {
+      PivotID "gunner_idle"
+      Offset 0 0 0
+     }
+     Radius 0.4
+    }
+    UserActionContext "{655001F0A544BB2D}" {
+     ContextName "gunner"
+     Position PointInfo "{655001F0A544BB32}" {
+      PivotID "Gunner_SwitchSeat"
+      Offset 0 0.1771 0.3793
+     }
+     Radius 0.6
+    }
+    UserActionContext "{655001F0A544BB30}" {
+     ContextName "Door_L01_Turret"
+     Position PointInfo "{655001F0A544BB31}" {
+      PivotID "Door_L01"
+     }
+    }
+    UserActionContext "{655001F0A544BB38}" {
+     ContextName "Door_L02_Turret"
+     Position PointInfo "{655001F0A544BB39}" {
+      PivotID "Door_L02"
+     }
+    }
+    UserActionContext "{655001F0A544BB3E}" {
+     ContextName "Door_R01_Turret"
+     Position PointInfo "{655001F0A544BB3F}" {
+      PivotID "Door_R01"
+     }
+    }
+    UserActionContext "{655001F0A544BB3D}" {
+     ContextName "Door_R02_Turret"
+     Position PointInfo "{655001F0A544BB02}" {
+      PivotID "Door_R02"
+     }
+    }
+   }
+   AllowCrossHierarchy 1
+  }
+  BaseItemAnimationComponent "{5242E42C7B4B2CEE}" {
+   AnimInjection AnimationAttachmentInfo "{5242E42C74AC2BF7}" {
+    AnimGraph "{6791BE2144ADC6A3}Assets/Weapons/HeavyWeapons/workspaces/M2HB_m998.agr"
+    AnimInstance "{6C73754244FE9C94}Assets/Weapons/HeavyWeapons/workspaces/M2HB_Player_m998.asi"
+   }
+  }
+ }
+ coords 108.913 0 1241.943
+}

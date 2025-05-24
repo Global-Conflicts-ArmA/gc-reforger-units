@@ -1,0 +1,114 @@
+SCR_ChimeraCharacter : "{D67950161BE7FDD5}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Character_RHS_USAF_USMC_PL.et" {
+ ID "520EC961A090BBD5"
+ components {
+  PS_PlayableComponent "{5EFCC1946F475F15}" {
+   m_bIsPlayable 1
+  }
+  SCR_CharacterRankComponent "{528E6D4286AA2D8F}" {
+   m_iRank SERGEANT
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_PlatoonSergeant"
+    Icon "{A26C465A6AE2AA17}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_Leader.edds"
+    m_Image "{00F5C1C5CE490820}UI/Textures/EditorPreviews/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Character_RHS_USAF_USMC_Sergeant.edds"
+   }
+   m_VariantData SCR_EditableEntityVariantData "{651301A62B670E1D}" {
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{16B4B91D4B8F8F3A}Prefabs/Weapons/Rifles/M4/Rifle_M4_RAS_PEQ_RCO.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
+   WeaponTemplate "{809488C4984AC087}Prefabs/Weapons/Handguns/M9/Handgun_M9_base.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{9EFEE32C346C9F26}Prefabs/Characters/HeadGear/Helmet_MICH_ACH/Helmet_MICH_SHROUD_Cov_MarpatWD.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{822B66CBF331F844}Prefabs/Characters/Vests/Vest_PCGen_II/Vest_PCGen_II_base.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{46D824AAD12330B2}Prefabs/Items/Equipment/Backpacks/backpack_511_rush12/Backpack_511_rush12_Coy.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{70B5348CD5387289}Prefabs/Characters/Vests/Vest_PCGen_II/Variants/Vest_PCGen_II_filbe.et"
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab "{1E991CD19C6F7659}Prefabs/Characters/Handwear/Gloves_MechanixMpact/Gloves_mpack_Brown.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{61B52C4506FFE973}" {
+     TargetStorage "Vest/Vest_PCGen_II_filbe.et/radio/Pouch_152_Radio.et"
+    }
+    ItemsInitConfigurationItem "{64A8A6CECABD9FC5}" {
+     TargetStorage "Jacket/Jacket_FROG_Combat_Shirt.et"
+     PrefabsToSpawn {
+      ""
+     }
+    }
+    ItemsInitConfigurationItem "{633B07DBBB713D2A}" {
+     TargetStorage "Back/Backpack_511_rush12_Coy.et"
+    }
+    ItemsInitConfigurationItem "{60CAC28C6411E647}" {
+     TargetStorage "Vest/Vest_PCGen_II_filbe.et/Pouch1/Pouch_FILBE_doubleM4_1.et"
+     PrefabsToSpawn +{
+     }
+    }
+    ItemsInitConfigurationItem "{60CAC28C6411E64E}" {
+     TargetStorage "Vest/Vest_PCGen_II_filbe.et/pouch3/Pouch_FILBE_doubleM4_3.et"
+     PrefabsToSpawn +{
+     }
+    }
+    ItemsInitConfigurationItem "{60CF308A7005C8AB}" {
+     TargetStorage "Back/Backpack_511_rush12_Coy.et"
+     PrefabsToSpawn +{
+     }
+    }
+    ItemsInitConfigurationItem "{61B52E48B0B8D77D}" {
+     PrefabsToSpawn {
+     }
+    }
+    ItemsInitConfigurationItem "{62955001C9E20A51}" {
+     TargetStorage "Vest/Vest_PCGen_II_filbe.et/m18/Pouch_Filbe_M18_1.et"
+    }
+    ItemsInitConfigurationItem "{62955001C938579A}" {
+     TargetStorage "Vest/Vest_PCGen_II_filbe.et/m18_2/Pouch_Filbe_M18_2.et"
+    }
+    ItemsInitConfigurationItem "{62B69B4954817CE1}" {
+     TargetStorage "Vest/Vest_PCGen_II_filbe.et/m67/Pouch_Filbe_M67_2.et"
+    }
+    ItemsInitConfigurationItem "{62B69B4954C101DC}" {
+     TargetStorage "Vest/Vest_PCGen_II_filbe.et/m67_2/Pouch_Filbe_M67_2.et"
+    }
+    ItemsInitConfigurationItem "{651301A221A0E2A3}" {
+     TargetStorage "Vest/Vest_PCGen_II_filbe.et/pouch2/Pouch_FILBE_doubleM4_2.et"
+     PrefabsToSpawn +{
+     }
+    }
+    ItemsInitConfigurationItem "{651301A23585E68C}" {
+     TargetStorage "Vest/Vest_PCGen_II_filbe.et/tako2/Pouch_FILBE_doubleM4_3.et"
+     PrefabsToSpawn +{
+     }
+    }
+    ItemsInitConfigurationItem "{651301A23BF69D79}" {
+     TargetStorage "Vest/Vest_PCGen_II_filbe.et/tako/Pouch_FILBE_doubleM4_2.et"
+     PrefabsToSpawn +{
+     }
+    }
+    ItemsInitConfigurationItem "{651301B01C0FF959}" {
+     TargetStorage "Hat/Helmet_MICH_SHROUD_Cov_MarpatWD.et"
+     TargetPurpose 64
+     PrefabsToSpawn +{
+     }
+    }
+   }
+  }
+ }
+ coords 0 0 0
+}

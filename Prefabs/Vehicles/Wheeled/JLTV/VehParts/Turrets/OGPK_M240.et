@@ -1,0 +1,8 @@
+Turret : "{CAEEA0239F9CA518}Prefabs/Vehicles/Wheeled/JLTV/VehParts/Turrets/OGPK_M2HB.et" {
+ ID "51ACD0965653D003"
+ components {
+  WeaponSlotComponent "{51ACD09C6BFEEE6A}" {
+   WeaponType MachineGun
+  }
+ }
+}
