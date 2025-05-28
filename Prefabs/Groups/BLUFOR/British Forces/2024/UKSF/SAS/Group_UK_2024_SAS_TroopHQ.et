@@ -1,0 +1,98 @@
+SCR_AIGroup : "{6521AB6151C0A7C8}Prefabs/Groups/BLUFOR/British Forces/1989/Group_UK_1989_Regulars_Base.et" {
+ ID "0000000000000001"
+ components {
+  SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+   m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+    Name "2024 SAS Troop HQ"
+    m_Image "{1630CC9271C39E4F}UI/PreviewImages/Groups/BLUFOR/BritishForces/Group_UK_1983_SpecialForces_Patrol.edds"
+    m_aAuthoredLabels {
+     4 7000 19831992 1001
+    }
+    m_aAutoLabels {
+    }
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{657932560BDF6962}" {
+      m_BudgetType CAMPAIGN
+      m_Value 1
+     }
+     SCR_EntityBudgetValue "{657932560BDF691D}" {
+      m_BudgetType AI_SERVER
+      m_Value 2
+     }
+    }
+    m_EntityChildrenBudgetCost {
+     SCR_EntityBudgetValue "{657932560BDF691F}" {
+      m_BudgetType AI
+      m_Value 4
+     }
+    }
+    m_bUseUIInfoName 1
+    m_MilitarySymbol SCR_MilitarySymbol "{657932560BDF6911}" {
+     m_Identity BLUFOR
+     m_Dimension LAND
+     m_Icons RECON
+     m_Amplifier TEAM
+    }
+   }
+  }
+  SCR_PreviewEntityComponent "{657932560BDF6916}" {
+   m_bRuntime 0
+   m_aEntries {
+    SCR_BasePreviewEntry "{657932560BDF6908}" {
+     m_iParentID -1
+     m_Mesh ""
+     m_Flags 259
+     m_Shape MESH
+     m_iPivotID ""
+     m_vScale 1 1 1
+     m_vPosition 0 -5 0
+     m_vAngles 0 0 0
+    }
+    SCR_BasePreviewEntry "{657932560BDF690A}" {
+     m_iParentID 0
+     m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+     m_Flags 0
+     m_Shape PREFAB
+     m_iPivotID ""
+     m_vScale 1 1 1
+     m_vPosition 0 0 0
+     m_vAngles 0 0 0
+    }
+    SCR_BasePreviewEntry "{657932560BDF690D}" {
+     m_iParentID 0
+     m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+     m_Flags 0
+     m_Shape PREFAB
+     m_iPivotID ""
+     m_vScale 1 1 1
+     m_vPosition 3 0 -3
+     m_vAngles 0 0 0
+    }
+    SCR_BasePreviewEntry "{657932560BDF690F}" {
+     m_iParentID 0
+     m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+     m_Flags 0
+     m_Shape PREFAB
+     m_iPivotID ""
+     m_vScale 1 1 1
+     m_vPosition -3 0 -3
+     m_vAngles 0 0 0
+    }
+    SCR_BasePreviewEntry "{657932560BDF6900}" {
+     m_iParentID 0
+     m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+     m_Flags 0
+     m_Shape PREFAB
+     m_iPivotID ""
+     m_vScale 1 1 1
+     m_vPosition 6 0 -6
+     m_vAngles 0 0 0
+    }
+   }
+  }
+ }
+ m_aUnitPrefabSlots {
+  "{C5AC1D61DF4E5C7C}Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/UKSF/SAS/Character_UK_2024_SAS_Troop1IC.et" "{D4BFA70C4F2E983D}Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/UKSF/SAS/Character_UK_2024_SAS_Troop2IC.et" "{8056B0E8B5C5AB8C}Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/UKSF/SAS/Character_UK_2024_SAS_RTO.et" "{EA5770EDCFEBFE31}Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/UKSF/SAS/Character_UK_2024_SAS_Marksman.et"
+ }
+ m_sCustomNameSet "Troop HQ"
+}

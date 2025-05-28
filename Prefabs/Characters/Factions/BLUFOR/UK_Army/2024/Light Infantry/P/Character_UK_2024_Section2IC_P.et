@@ -1,0 +1,8 @@
+SCR_ChimeraCharacter : "{6FFAE1CF8D60E686}Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/Light Infantry/Rifles/Character_UK_2024_Section2IC.et" {
+ ID "520EC961A090B1EE"
+ components {
+  PS_PlayableComponent "{5EFCC1946F475F15}" {
+   m_bIsPlayable 1
+  }
+ }
+}

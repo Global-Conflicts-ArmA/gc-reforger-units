@@ -1,0 +1,23 @@
+GenericEntity : "{07B3CAF734A9A7BD}Prefabs/Weapons/Rifles/L119A2/Rifle_L119A2_15_Bipod.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{56DE9C900611C1AF}" {
+     AttachmentSlot InventoryStorageSlot HandguardRISTop {
+      Prefab "{0FFFB0BCE1A21A2E}Prefabs/Weapons/Attachments/Lasers/anpeq16/Laser_ANPEQ16.et"
+     }
+    }
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     components {
+      AttachmentSlotComponent "{5D527627CCB8F756}" {
+       AttachmentSlot InventoryStorageSlot Flashhider {
+        Prefab "{327D7B30288149BF}Prefabs/Weapons/Attachments/Muzzle/Suppressors/Suppressor_SF_FA556SA.et"
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}

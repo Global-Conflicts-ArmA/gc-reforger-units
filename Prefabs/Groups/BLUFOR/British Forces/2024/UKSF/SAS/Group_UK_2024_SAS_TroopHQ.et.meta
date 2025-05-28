@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{AF9E2F2A0588A386}Prefabs/Groups/BLUFOR/British Forces/2024/Light Infantry/Group_UK_2024_SAS_TroopHQ.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

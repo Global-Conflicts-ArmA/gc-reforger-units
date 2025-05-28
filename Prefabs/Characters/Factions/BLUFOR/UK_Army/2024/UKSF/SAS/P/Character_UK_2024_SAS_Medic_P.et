@@ -1,0 +1,8 @@
+SCR_ChimeraCharacter : "{CF2F0E571CCEC6E8}Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/UKSF/SAS/Character_UK_2024_SAS_Medic.et" {
+ ID "520EC961A090B1EE"
+ components {
+  PS_PlayableComponent "{5EFCC1946F475F15}" {
+   m_bIsPlayable 1
+  }
+ }
+}

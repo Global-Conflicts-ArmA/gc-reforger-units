@@ -1,0 +1,6 @@
+SCR_AIGroup : "{173FFF8E223910C3}Prefabs/Groups/BLUFOR/British Forces/2024/Light Infantry/Rifles/Group_UK_2024_Rifles_PHQ.et" {
+ ID "0000000000000001"
+ m_aUnitPrefabSlots {
+  "{28F807120C559BAD}Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/Light Infantry/Rifles/P/Character_UK_2024_Platoon1IC_P.et" "{7B98424129DBBD97}Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/Light Infantry/Rifles/P/Character_UK_2024_PlatoonSergeant_P.et" "{3067DA6B1EA4AE26}Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/Light Infantry/Rifles/P/Character_UK_2024_RTO_P.et" "{3D94A1D336D78FA8}Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/Light Infantry/Rifles/P/Character_UK_2024_Rifleman_P.et" "{3D94A1D336D78FA8}Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/Light Infantry/Rifles/P/Character_UK_2024_Rifleman_P.et"
+ }
+}

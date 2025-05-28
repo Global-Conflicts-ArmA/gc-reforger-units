@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{C5AC1D61DF4E5C7C}Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/UKSF/Character_UK_2024_SF_SL.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}
