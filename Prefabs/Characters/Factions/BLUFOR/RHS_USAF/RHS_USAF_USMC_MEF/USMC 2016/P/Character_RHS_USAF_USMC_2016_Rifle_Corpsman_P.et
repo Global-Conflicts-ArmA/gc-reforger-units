@@ -1,0 +1,18 @@
+SCR_ChimeraCharacter : "{5872D95194BD43A1}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/USMC 2016/Character_RHS_USAF_USMC_2016_Rifle_Corpsman.et" {
+ ID "520EC961A090BBD5"
+ components {
+  PS_PlayableComponent "{5EFCC1946F475F15}" {
+   m_bIsPlayable 1
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Corpsman"
+    Icon "{F3FCC3B9732551D9}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_Medic.edds"
+    m_Image "{AB13B0871DC7F497}UI/Textures/EditorPreviews/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Character_RHS_USAF_USMC_Medic.edds"
+    m_aAutoLabels {
+     122 44
+    }
+   }
+  }
+ }
+}
