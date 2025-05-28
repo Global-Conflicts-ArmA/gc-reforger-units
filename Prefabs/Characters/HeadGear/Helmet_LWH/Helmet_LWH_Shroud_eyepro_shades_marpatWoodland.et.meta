@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{107D6572C72EE5E4}Prefabs/Characters/HeadGear/Helmet_LWH/Helmet_LWH_Shroud_eyepro_shades_marpatWoodland.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}
