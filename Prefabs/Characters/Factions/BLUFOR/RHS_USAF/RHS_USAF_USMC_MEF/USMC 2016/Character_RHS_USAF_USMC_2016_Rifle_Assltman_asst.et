@@ -1,6 +1,17 @@
 SCR_ChimeraCharacter : "{AE2E93B28352053F}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Character_RHS_USAF_USMC_LAT.et" {
  ID "520EC961A090BBD5"
  components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot {
+       Prefab "{0CF54B9A85D8E0D4}Prefabs/Items/Equipment/Binoculars/Binoculars_M22/Binoculars_M22.et"
+      }
+     }
+    }
+   }
+  }
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
     Name "Assaultman Assistant"
@@ -27,7 +38,7 @@ SCR_ChimeraCharacter : "{AE2E93B28352053F}Prefabs/Characters/Factions/BLUFOR/RHS
      Prefab "{822B66CBF331F844}Prefabs/Characters/Vests/Vest_PCGen_II/Vest_PCGen_II_base.et"
     }
     LoadoutSlotInfo Back {
-     Prefab "{46D824AAD12330B2}Prefabs/Items/Equipment/Backpacks/backpack_511_rush12/Backpack_511_rush12_Coy.et"
+     Prefab "{48602F57998AB597}Prefabs/Items/Equipment/Backpacks/FILBE_Backpack.et"
     }
     LoadoutSlotInfo Vest {
      Prefab "{70B5348CD5387289}Prefabs/Characters/Vests/Vest_PCGen_II/Variants/Vest_PCGen_II_filbe.et"
@@ -37,12 +48,13 @@ SCR_ChimeraCharacter : "{AE2E93B28352053F}Prefabs/Characters/Factions/BLUFOR/RHS
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{61B52C4506FFE973}" {
-     TargetStorage "Back/FILBE_Backpack.et"
+     TargetStorage "Vest/Vest_PCGen_II_filbe.et/radio/Pouch_152_Radio.et"
     }
     ItemsInitConfigurationItem "{64A8A6CECABD9FC5}" {
-     TargetStorage "Back/Backpack_511_rush12_Coy.et"
+     TargetStorage "Back/FILBE_Backpack.et"
+     TargetPurpose 1
      PrefabsToSpawn {
-      "{3B800D8AC5EA12EF}Prefabs/Weapons/Ammo/Rocket_83mm_MK153_HEAA.et" "{3B800D8AC5EA12EF}Prefabs/Weapons/Ammo/Rocket_83mm_MK153_HEAA.et"
+      "{2C935EF6F98E6354}Prefabs/Weapons/Magazines/MK153/Container_MK153_HEAA.et" "{27AC9FC7F5E2BEEB}Prefabs/Weapons/Magazines/MK153/Container_MK153_HEDP.et"
      }
     }
     ItemsInitConfigurationItem "{60CA16459B64742F}" {

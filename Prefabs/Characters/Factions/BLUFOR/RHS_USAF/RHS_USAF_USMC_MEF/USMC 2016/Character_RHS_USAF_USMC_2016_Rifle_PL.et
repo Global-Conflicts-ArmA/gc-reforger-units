@@ -1,6 +1,17 @@
-SCR_ChimeraCharacter : "{E47CC9CF2092F95C}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/USMC 2016/P/Character_RHS_USAF_USMC_2016_Rifle_PL_P.et" {
+SCR_ChimeraCharacter : "{E47CC9CF2092F95C}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/USMC LAR 2010/Character_RHS_USAF_USMC_2010_LAR_PL.et" {
  ID "520EC961A090BBD5"
  components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot WristwatchSlot {
+       Prefab "{57C7E2D1FB25A85E}Prefabs/Items/Equipment/Watches/Watch_GarminTactixBravo_green.et"
+      }
+     }
+    }
+   }
+  }
   PS_PlayableComponent "{5EFCC1946F475F15}" {
    m_bIsPlayable 0
   }
@@ -40,7 +51,8 @@ SCR_ChimeraCharacter : "{E47CC9CF2092F95C}Prefabs/Characters/Factions/BLUFOR/RHS
      TargetStorage "Vest/Vest_PCGen_II_rifleman.et/radio/Pouch_152_Radio.et"
     }
     ItemsInitConfigurationItem "{64A8A6CECABD9FC5}" {
-     TargetStorage "Jacket/Jacket_FROG_Combat_Shirt.et"
+     PrefabsToSpawn {
+     }
     }
     ItemsInitConfigurationItem "{633B07DBBB713D2A}" {
      TargetStorage "Back/Backpack_511_rush12_Coy.et"
@@ -56,8 +68,8 @@ SCR_ChimeraCharacter : "{E47CC9CF2092F95C}Prefabs/Characters/Factions/BLUFOR/RHS
      }
     }
     ItemsInitConfigurationItem "{60CF308A7005C8AB}" {
-     PrefabsToSpawn + {
-      "{FAE8B9F7CEA49696}Prefabs/Items/Equipment/Binoculars/Rangefinder_Vector21_lc.et" "{7C53E6DE2E4BD8CB}Prefabs/Items/Equipment/Watches/Watch_GarminTactixBravo.et"
+     PrefabsToSpawn {
+      "{B1798B0F1258B765}Prefabs/Items/Equipment/Navigation/DAGR/DAGR.et"
      }
     }
     ItemsInitConfigurationItem "{61B52E48B0B8D77D}" {
@@ -65,17 +77,17 @@ SCR_ChimeraCharacter : "{E47CC9CF2092F95C}Prefabs/Characters/Factions/BLUFOR/RHS
      PrefabsToSpawn +{
      }
     }
-    ItemsInitConfigurationItem "{62955001C9E20A51}" {
-     TargetStorage "Vest/Vest_PCGen_II_rifleman.et/m18/Pouch_Filbe_M18_1.et"
-    }
-    ItemsInitConfigurationItem "{62955001C938579A}" {
-     TargetStorage "Vest/Vest_PCGen_II_rifleman.et/m18_2/Pouch_Filbe_M18_2.et"
-    }
     ItemsInitConfigurationItem "{62B69B4954817CE1}" {
      TargetStorage "Vest/Vest_PCGen_II_rifleman.et/m67/Pouch_Filbe_M67_2.et"
     }
     ItemsInitConfigurationItem "{62B69B4954C101DC}" {
      TargetStorage "Vest/Vest_PCGen_II_rifleman.et/m67_2/Pouch_Filbe_M67_2.et"
+    }
+    ItemsInitConfigurationItem "{62955001C9E20A51}" {
+     TargetStorage "Vest/Vest_PCGen_II_rifleman.et/m18/Pouch_Filbe_M18_1.et"
+    }
+    ItemsInitConfigurationItem "{62955001C938579A}" {
+     TargetStorage "Vest/Vest_PCGen_II_rifleman.et/m18_2/Pouch_Filbe_M18_2.et"
     }
     ItemsInitConfigurationItem "{651301A3E352CCCA}" {
      TargetStorage "Vest/Vest_PCGen_II_rifleman.et/tako/Pouch_FILBE_doubleM4_2.et"

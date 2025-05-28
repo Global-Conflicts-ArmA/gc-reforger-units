@@ -1,0 +1,8 @@
+SCR_ChimeraCharacter : "{AB3EB000ACC1E4D4}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/USMC LAR 2010/Character_RHS_USAF_USMC_2010_LAR_CrewCommander.et" {
+ ID "520EC961A090BBD5"
+ components {
+  PS_PlayableComponent "{5EFCC1946F475F15}" {
+   m_bIsPlayable 1
+  }
+ }
+}
