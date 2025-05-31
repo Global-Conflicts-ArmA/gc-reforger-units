@@ -1,0 +1,14 @@
+GenericEntity : "{16B4B91D4B8F8F3A}Prefabs/Weapons/Rifles/M4/Rifle_M4_RAS_PEQ_RCO.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{5E0EEDB0BD59EE7D}" {
+     AttachmentSlot RHS_SlidingInventoryStorageSlot Optics {
+      Prefab "{546A3F976ED4789B}Prefabs/Weapons/Attachments/Optics/Scopes/Optic_TrijiconACOGTA31_RMR/Optic_TrijiconACOGTA31_RMR.et"
+     }
+    }
+   }
+  }
+ }
+}

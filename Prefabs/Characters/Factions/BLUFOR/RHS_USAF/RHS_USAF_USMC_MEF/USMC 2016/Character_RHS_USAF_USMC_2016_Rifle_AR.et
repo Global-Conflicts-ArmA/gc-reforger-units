@@ -14,7 +14,7 @@ SCR_ChimeraCharacter : "{AE2E93B28352053F}Prefabs/Characters/Factions/BLUFOR/RHS
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
    AttachType InventoryStorageSlot "{0C3DA650B52E120B}" {
    }
-   WeaponTemplate "{5C221A2622876EA7}Prefabs/Weapons/MachineGuns/M249/MG_M249_RCO.et"
+   WeaponTemplate "{947200FCAE3662D6}Prefabs/Weapons/MachineGuns/M249/MG_M249_RCO_RMR.et"
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {

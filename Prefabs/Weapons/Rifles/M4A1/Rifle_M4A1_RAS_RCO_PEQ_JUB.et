@@ -1,0 +1,38 @@
+GenericEntity : "{068C2EB42635973F}Prefabs/Weapons/Rifles/M4A1/Rifle_M4A1_RAS.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{5E0EEDA2E5FAA2B6}" {
+     AttachmentSlot InventoryStorageSlot Buttstock {
+      Prefab "{BC68AE520F42BF35}Prefabs/Weapons/Attachments/Stocks/Stock_AR15_SOPMOD/RHS_M4_SOPMOD_Black.et"
+     }
+    }
+    AttachmentSlotComponent "{5E0EEDB0BD59EE7D}" {
+     AttachmentSlot RHS_SlidingInventoryStorageSlot Optics {
+      Prefab "{90A20A1ED92AD477}Prefabs/Weapons/Attachments/Optics/ta31rco/Optic_TA31RCO_ARD.et"
+     }
+    }
+    AttachmentSlotComponent "{5EA2BE949ECF03E3}" {
+     AttachmentSlot RHS_SlidingInventoryStorageSlot "{5EA2BE9573F14F0C}" {
+      Prefab "{CB8AB382E3F45336}Prefabs/Weapons/Attachments/Lasers/perst_classic/Laser_perst_classic_base.et"
+     }
+    }
+    AttachmentSlotComponent "{5EA2BE953838E77C}" {
+     AttachmentSlot InventoryStorageSlot "{5EA2BE95244FA719}" {
+      Prefab "{A62F1332EFC35258}Prefabs/Weapons/Attachments/Misc/KacRailCover/KacRailCover_grip.et"
+     }
+    }
+    AttachmentSlotComponent "{5EA2BE95B630A07A}" {
+     AttachmentSlot InventoryStorageSlot "{5EA2BE95B7F1B3D5}" {
+      Prefab "{77A74F65BAEC73E2}Prefabs/Weapons/Attachments/Misc/KacRailCover/KacRailCover_kit_m4a1_ras.et"
+     }
+    }
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     MagazineTemplate "{A540E8600876C2A2}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_Coy_30rnd_M855A1_last5tracer.et"
+    }
+   }
+  }
+ }
+ coords 618.061 51.585 2264.827
+}
