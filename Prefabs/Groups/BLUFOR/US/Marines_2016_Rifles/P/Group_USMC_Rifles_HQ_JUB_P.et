@@ -1,0 +1,9 @@
+SCR_AIGroup : "{8292C56F3CB39370}Prefabs/Groups/BLUFOR/US/Marines_2016_Rifles/Group_USMC_Rifles_HQ_JUB.et" {
+ ID "0000000000000001"
+ m_aUnitPrefabSlots {
+  "{B9B1A01289834CB5}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/USMC 2016/P/Character_RHS_USAF_USMC_2016_Rifle_PL_P.et" "{9D9C4D37504A66AD}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/USMC 2016/P/Character_RHS_USAF_USMC_2016_Rifle_PSG_P.et" "{BDE0793A3969EB75}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/USMC 2016/P/Character_RHS_USAF_USMC_2016_Rifle_RTO_P.et" "{558F8ADA1D8C2016}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/USMC 2016/P/Character_RHS_USAF_USMC_2016_Rifle_FO_P.et" "{323F0B3390AE523E}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/USMC 2016/P/Character_RHS_USAF_USMC_2016_Rifle_Corpsman_P.et" "{323F0B3390AE523E}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/USMC 2016/P/Character_RHS_USAF_USMC_2016_Rifle_Corpsman_P.et"
+ }
+ m_aUnitPrefabColorTeams {
+  "Green" "Yellow" "Green" "Red" "Yellow" "Yellow"
+ }
+}

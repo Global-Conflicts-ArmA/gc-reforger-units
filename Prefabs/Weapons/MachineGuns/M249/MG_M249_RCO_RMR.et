@@ -1,0 +1,14 @@
+GenericEntity : "{5C221A2622876EA7}Prefabs/Weapons/MachineGuns/M249/MG_M249_RCO.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{655800B2EDC7CF53}" {
+     AttachmentSlot InventoryStorageSlot "{64F0DE83909ACFFA}" {
+      Prefab "{6080874CFDB25EB6}Prefabs/Weapons/Attachments/Optics/Scopes/Optic_TrijiconACOGTA31_RMR/Optic_TrijiconACOGTA31_RMR_ARD.et"
+     }
+    }
+   }
+  }
+ }
+}

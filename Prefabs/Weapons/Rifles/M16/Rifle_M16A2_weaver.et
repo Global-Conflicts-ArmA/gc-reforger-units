@@ -1,0 +1,49 @@
+GenericEntity : "{63A1A715AB34E0E9}Prefabs/Weapons/Rifles/M16/Rifle_M16A2_weaver.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{56DE9C900611C1AF}" {
+     AttachmentSlot InventoryStorageSlot Handguard {
+      Offset 0 -0.081 -0.107
+      Prefab "{E212EC1E74B86D73}Prefabs/Weapons/Attachments/Handguards/Handguard_AR15_DD/BLK/RHS_M4A1_DD12_5_Upper_BLK.et"
+     }
+    }
+    AttachmentSlotComponent "{652F7ACA31D38A6B}" {
+     AttachmentSlot InventoryStorageSlot slidinginvslot {
+      Offset 0 0.0569 0.3642
+      Angles 0 0 -180
+     }
+     AttachmentType AttachmentOpticsRIS1913 "{652F7AC9F068C646}" {
+     }
+    }
+    AttachmentSlotComponent "{652F7ACABA7E758E}" {
+     AttachmentSlot InventoryStorageSlot slidinginvslot {
+      Offset -0.0269 0.079 0.3704
+      Angles 0 0 -90
+     }
+     AttachmentType AttachmentRIS1913 "{652F7AC9E5F766C3}" {
+     }
+    }
+    AttachmentSlotComponent "{652F7ACADD8BFA0B}" {
+     AttachmentSlot InventoryStorageSlot optic {
+      PivotID "slot_optic"
+      Offset 0 0.0208 0.0111
+      MergePhysics 1
+     }
+     AttachmentType AttachmentOptics "{652F7AC90D9ECA8E}" {
+     }
+    }
+    AttachmentSlotComponent "{652F7ACBB8D64F02}" {
+     AttachmentSlot InventoryStorageSlot slot_lower_guard {
+      PivotID "slot_hand_guard"
+      Offset 0 -0.081 -0.1049
+      Prefab "{BE5A55D33E115AD8}Prefabs/Weapons/Attachments/Handguards/Handguard_AR15_DD/BLK/RHS_M4A1_DD12_5_Lower_BLK.et"
+     }
+     AttachmentType AttachmentUnderBarrel "{652F7AC903B7BE0B}" {
+     }
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,68 @@
+GenericEntity : "{D2B48DEBEF38D7D7}Prefabs/Weapons/MachineGuns/M249/MG_M249.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{655800B2EDC7CF23}" {
+     AttachmentSlot InventoryStorageSlot "{64F0DE865664CFF4}" {
+      Offset -0.0377 0.0834 0.3323
+      Angles 0 0 90
+      InspectionWidgetOffset -0.0527 0.0946 0.3382
+     }
+     AttachmentType AttachmentRIS1913Short "{655800B2EDC7CF26}" {
+     }
+     ShowInInspection 1
+    }
+    AttachmentSlotComponent "{655800B2EDC7CF49}" {
+     AttachmentSlot RHS_SlidingInventoryStorageSlot Right_Side_Rail {
+      PivotID "barrel_muzzle"
+      Offset 0.0104 -0.0193 -0.2821
+      Angles 0 0 90
+      Prefab "{CCA2C7A662439781}Prefabs/Weapons/Attachments/Rails/b18/b18.et"
+      InspectionWidgetOffset 0.0382 0.0934 0.347
+     }
+    }
+    AttachmentSlotComponent "{655800B2EDC7CF4D}" {
+     AttachmentSlot InventoryStorageSlot Forward_rail_left {
+      PivotID "barrel_muzzle"
+      Offset -0.0104 -0.0193 -0.2821
+      Angles 0 0 -90
+      Prefab "{CCA2C7A662439781}Prefabs/Weapons/Attachments/Rails/b18/b18.et"
+      InspectionWidgetOffset -0.0382 0.0934 0.347
+     }
+    }
+    AttachmentSlotComponent "{655800B2EDC7CF53}" {
+     AttachmentSlot InventoryStorageSlot "{64F0DE83909ACFFA}" {
+      PivotID "w_topcover"
+      Offset 0 0.0171 -0.1132
+      Prefab "{90A20A1ED92AD477}Prefabs/Weapons/Attachments/Optics/ta31rco/Optic_TA31RCO_ARD.et"
+      InspectionWidgetOffset 0 0.142 0
+     }
+     AttachmentType AttachmentOpticsRIS1913Short "{655800B2EDC7CF58}" {
+     }
+     ShowInInspection 1
+    }
+    AttachmentSlotComponent "{655800B2EDC7CF5E}" {
+     AttachmentSlot InventoryStorageSlot "{64F0DE83B3FD5AE7}" {
+      Offset 0.0377 0.0834 0.3323
+      Angles 0 0 90
+      Prefab "{9A185BC14F1166B4}Prefabs/Weapons/Attachments/Lasers/anpeq15/Laser_ANPEQ15_tan.et"
+      InspectionWidgetOffset 0.0527 0.0946 0.3382
+     }
+     AttachmentType AttachmentRIS1913Short "{655800B2EDC7CF5D}" {
+     }
+     ShowInInspection 1
+    }
+    AttachmentSlotComponent "{655800B2EDC7CF7E}" {
+     AttachmentSlot InventoryStorageSlot top_rail {
+      PivotID "w_topcover"
+      Offset 0 -0.012 -0.107
+      Prefab "{CCA2C7A662439781}Prefabs/Weapons/Attachments/Rails/b18/b18.et"
+      InspectionWidgetOffset 0 0.128 -0.0243
+     }
+    }
+   }
+  }
+ }
+ coords 0 0.012 0
+}

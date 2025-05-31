@@ -1,0 +1,15 @@
+GameEntity : "{1285B7FAD09DC0D3}Prefabs/Characters/HeadGear/Helmet_LWH/Helmet_LWH_Shroud_marpatWoodland.et" {
+ ID "50D485E1435D6C72"
+ components {
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    RHS_LoadoutSlotInfo Goggles {
+     Prefab "{608F66AB8B36B85D}Prefabs/Characters/Eyewear/crossbow/Eyewear_ess_crossbow_blk.et"
+    }
+    RHS_LoadoutSlotInfo Headset {
+     Prefab "{85D618A51C013F7A}Prefabs/Characters/HeadGear/Headphones_Peltor/Headphones_Peltor_yellow.et"
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,14 @@
+GenericEntity : "{DB53366D8C521124}Prefabs/Weapons/Launchers/MK153/Launcher_MK153mod2_NoMBS.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{62B6FD8D52DA0520}" {
+     AttachmentSlot InventoryStorageSlot mbus {
+      Prefab "{2518CA6044D6BBDD}Prefabs/Weapons/Attachments/Optics/ta31rco/Optic_TA31RCO.et"
+     }
+    }
+   }
+  }
+ }
+}

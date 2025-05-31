@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{8292C56F3CB39370}Prefabs/Groups/BLUFOR/US/Marines_2016_Rifles/P/Group_USMC_Rifles_HQ_JUB.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

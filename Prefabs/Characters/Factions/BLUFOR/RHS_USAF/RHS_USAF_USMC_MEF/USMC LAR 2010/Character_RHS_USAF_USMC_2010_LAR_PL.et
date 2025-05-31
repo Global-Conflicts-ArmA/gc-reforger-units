@@ -1,0 +1,32 @@
+SCR_ChimeraCharacter : "{D67950161BE7FDD5}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Character_RHS_USAF_USMC_PL.et" {
+ ID "520EC961A090BBD5"
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot WristwatchSlot {
+       Prefab "{57C7E2D1FB25A85E}Prefabs/Items/Equipment/Watches/Watch_GarminTactixBravo_green.et"
+      }
+     }
+    }
+   }
+  }
+  PS_PlayableComponent "{5EFCC1946F475F15}" {
+   m_bIsPlayable 0
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{64A8A6CECABD9FC5}" {
+     PrefabsToSpawn {
+     }
+    }
+    ItemsInitConfigurationItem "{60CF308A7005C8AB}" {
+     PrefabsToSpawn {
+      "{B1798B0F1258B765}Prefabs/Items/Equipment/Navigation/DAGR/DAGR.et"
+     }
+    }
+   }
+  }
+ }
+}
