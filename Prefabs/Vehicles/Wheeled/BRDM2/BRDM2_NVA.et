@@ -1,0 +1,87 @@
+Vehicle : "{254289B9C09904AB}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{6584F7941EEA565D}" {
+     SourceMaterial "BRDM2_body_exterior_1"
+     AssignedMaterial "{887FCD3AEE9E33B5}Assets/Vehicles/Wheeled/BRDM2/Data/BRDM2_body_exterior_1_NVA.emat"
+    }
+   }
+  }
+  RHS_GroupMaterialController "{6584F7946A30454E}" {
+   m_aGroups {
+    RHS_MaterialGroupProperties "{6584F7946ECC1310}" {
+     m_iNumberOfTextures 10
+    }
+    RHS_MaterialGroupProperties "{6584F7946F67236B}" {
+     m_sGroupName "GROUP2"
+     m_iNumberOfTextures 10
+    }
+    RHS_MaterialGroupProperties "{6584F7946F344A1E}" {
+     m_sGroupName "GROUP3"
+     m_iNumberOfTextures 10
+    }
+   }
+   m_iMaxAllowedDepth 2
+  }
+  SCR_UniversalInventoryStorageComponent "{607E9AA3D83AA29D}" {
+   MultiSlots {
+    MultiSlotConfiguration "{62F49BC4717082CC}" {
+     SlotTemplate InventoryStorageSlot ak74mags {
+      Prefab "{E039E897BD5A339E}Prefabs/Weapons/Magazines/AK/BC_Magazine_762x39_AK_30rnd_Ball.et"
+     }
+    }
+   }
+  }
+  SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+   "faction affiliation" "GC_NVA"
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Turret {
+     Prefab "{75A469329ED7E3AD}Prefabs/Vehicles/Wheeled/BRDM2/VehParts/Turrets/BRDM2_turret_NVA.et"
+    }
+    RegisteringComponentSlotInfo CommanderTurret {
+     Prefab "{44214CB9BEF3E3D5}Prefabs/Vehicles/Wheeled/BRDM2/VehParts/Turrets/BRDM2_turret_commander_NVA.et"
+    }
+    EntitySlotInfo Number1_L {
+     PivotID "v_body"
+     Offset 0.9397 0.7313 1.1047
+     Angles 89.9604 -31.7472 179.9937
+     Prefab "{A50BC13DB1FCF1FB}Prefabs/Vehicles/Shared/decal_vehicle_group1_small.et"
+    }
+    EntitySlotInfo Number2_L {
+     PivotID "v_body"
+     Offset 0.9397 0.6313 1.1047
+     Angles 89.9604 -31.7472 179.9937
+     Prefab "{845BF318A6537093}Prefabs/Vehicles/Shared/decal_vehicle_group2_small.et"
+    }
+    EntitySlotInfo Number3_L {
+     PivotID "v_body"
+     Offset 0.9397 0.5313 1.1047
+     Angles 89.9604 -31.7472 179.9937
+     Prefab "{7A5BB35D53011CDF}Prefabs/Vehicles/Shared/decal_vehicle_group3_small.et"
+    }
+    EntitySlotInfo Number1_B {
+     PivotID "v_body"
+     Offset 0.1 -2.663 1
+     Angles 0 90 -90.2
+     Prefab "{A50BC13DB1FCF1FB}Prefabs/Vehicles/Shared/decal_vehicle_group1_small.et"
+    }
+    EntitySlotInfo Number2_B {
+     PivotID "v_body"
+     Offset 0 -2.663 1
+     Angles 0 90 -90.2
+     Prefab "{845BF318A6537093}Prefabs/Vehicles/Shared/decal_vehicle_group2_small.et"
+    }
+    EntitySlotInfo Number3_B {
+     PivotID "v_body"
+     Offset -0.1 -2.663 1
+     Angles 0 90 -90.2
+     Prefab "{7A5BB35D53011CDF}Prefabs/Vehicles/Shared/decal_vehicle_group3_small.et"
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,41 @@
+Turret : "{4AD877DEA242E512}Prefabs/Weapons/Core/Turret_Base.et" {
+ ID "51ACD0965653D003"
+ components {
+  TurretComponent "{5E2AA01A5666DF39}" {
+   components {
+    SCR_2DSightsComponent "{5E2AA01A5666DF3A}" {
+     SightsPosition PointInfo "{5E2AA01A5666DF45}" {
+      Offset 0.0765 -0.2253 0.0991
+     }
+     SightsFOVInfo SCR_SightsZoomFOVInfo "{5E2AA01A5666DF47}" {
+      m_fBaseZoom 0.5
+      m_fZoomMax 1
+      m_fInterpolationSpeed 10
+     }
+     SightsPointFront PointInfo "{5E2AA01A5666DF46}" {
+      Offset 0.0756 -0.22 0.2
+     }
+     SightsPointRear PointInfo "{5E2AA01A5666DF41}" {
+      Offset 0.0756 -0.22 0.1
+     }
+     m_sReticleTexture "{C6C50326F6FD4397}UI/Textures/Sights/4x20/4x201024_UI.edds"
+     m_sReticleGlowTexture "{C6C50326F6FD4397}UI/Textures/Sights/4x20/4x201024_UI.edds"
+     m_bShouldHideParentObject 0
+    }
+   }
+  }
+  ActionsManagerComponent "{51ACD09C7181BA0B}" {
+   ActionContexts {
+    UserActionContext "{5E2AA01A5666DF60}" {
+     UIInfo SCR_ActionContextUIInfo "{657F13CF6E92AE59}" {
+     }
+     Position PointInfo "{5E2AA01A56673C97}" {
+      Offset 0.5271 1.2209 -0.4917
+     }
+     LineOfSightCheck 0
+    }
+   }
+  }
+ }
+ coords 1419.212 37.994 2963.173
+}

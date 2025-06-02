@@ -1,0 +1,4 @@
+MatPBRMulti : "{23E1CF00D99332C4}Assets/Vehicles/Wheeled/BRDM2/Data/BRDM2_body_exterior_1.emat" {
+ Color 0.694 1 0.959 1
+ DirtOpacity 0.25
+}
