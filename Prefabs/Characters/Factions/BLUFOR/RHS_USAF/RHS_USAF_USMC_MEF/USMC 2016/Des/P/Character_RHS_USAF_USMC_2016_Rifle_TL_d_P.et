@@ -1,0 +1,8 @@
+SCR_ChimeraCharacter : "{E8E00913356B28C2}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/USMC 2016/Des/Character_RHS_USAF_USMC_2016_Rifle_TL.et" {
+ ID "520EC961A090BBD5"
+ components {
+  PS_PlayableComponent "{5EFCC1946F475F15}" {
+   m_bIsPlayable 1
+  }
+ }
+}

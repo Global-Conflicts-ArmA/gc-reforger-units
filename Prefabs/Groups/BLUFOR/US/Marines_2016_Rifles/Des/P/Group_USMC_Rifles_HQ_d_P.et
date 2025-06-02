@@ -1,0 +1,6 @@
+SCR_AIGroup : "{81830B93D19E2B00}Prefabs/Groups/BLUFOR/US/Marines_2016_Rifles/Des/Group_USMC_Rifles_HQ_d.et" {
+ ID "0000000000000001"
+ m_aUnitPrefabSlots {
+  "{161B6B7CBC766BA2}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/USMC 2016/Des/P/Character_RHS_USAF_USMC_2016_Rifle_PL_d_P.et" "{1193BFCE1165606A}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/USMC 2016/Des/P/Character_RHS_USAF_USMC_2016_Rifle_PSG_d_P.et" "{31EF8BC37846EDB2}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/USMC 2016/Des/P/Character_RHS_USAF_USMC_2016_Rifle_RTO_d_P.et" "{FA2541B428790702}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/USMC 2016/Des/P/Character_RHS_USAF_USMC_2016_Rifle_FO_d_P.et" "{AD5DF9A507F31887}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/USMC 2016/Des/P/Character_RHS_USAF_USMC_2016_Rifle_Corpsman_d_P.et" "{AD5DF9A507F31887}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/USMC 2016/Des/P/Character_RHS_USAF_USMC_2016_Rifle_Corpsman_d_P.et"
+ }
+}

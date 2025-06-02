@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{9C50774F6D49DF25}Prefabs/Groups/BLUFOR/US/Marines_2016_Rifles/Group_USMC_Rifles_Assaultmen_d.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

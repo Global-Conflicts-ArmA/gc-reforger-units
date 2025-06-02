@@ -1,0 +1,6 @@
+SCR_AIGroup : "{9C50774F6D49DF25}Prefabs/Groups/BLUFOR/US/Marines_2016_Rifles/Des/Group_USMC_Rifles_Assaultmen_d.et" {
+ ID "0000000000000001"
+ m_aUnitPrefabSlots {
+  "{081E068181C8D4C0}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/USMC 2016/Des/P/Character_RHS_USAF_USMC_2016_Rifle_Assltman_d_P.et" "{2EE60B9B53380D65}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/USMC 2016/Des/P/Character_RHS_USAF_USMC_2016_Rifle_Assltman_asst_d_P.et" "{081E068181C8D4C0}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/USMC 2016/Des/P/Character_RHS_USAF_USMC_2016_Rifle_Assltman_d_P.et" "{2EE60B9B53380D65}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/USMC 2016/Des/P/Character_RHS_USAF_USMC_2016_Rifle_Assltman_asst_d_P.et"
+ }
+}

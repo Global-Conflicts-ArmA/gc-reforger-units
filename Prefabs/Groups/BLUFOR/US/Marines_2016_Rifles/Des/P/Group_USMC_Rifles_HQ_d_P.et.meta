@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{05F91B5C5CD33505}Prefabs/Groups/BLUFOR/US/Marines_2016_Rifles/Des/Group_USMC_Rifles_HQ_d_P.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

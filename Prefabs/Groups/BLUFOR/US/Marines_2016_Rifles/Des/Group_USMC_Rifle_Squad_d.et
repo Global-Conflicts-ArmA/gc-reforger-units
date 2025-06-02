@@ -1,0 +1,19 @@
+SCR_AIGroup : "{65E8E6BBD509EE01}Prefabs/Groups/BLUFOR/US/Marines_2010s_LAR/P/Group_USMC_LAR_Team_P_JUB.et" {
+ ID "0000000000000001"
+ components {
+  SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+   m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+    Name "AI USMC 2016 Rifle Squad"
+    Icon "{21F4103A40AA23ED}UI/Textures/Editor/ContentBrowser/RHS_USAF_USMC_MEF_Icon.edds"
+   }
+  }
+ }
+ coords 4153.635 36.457 9937.596
+ m_aUnitPrefabSlots {
+  "{EF27F34253ED9201}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/USMC 2016/Des/Character_RHS_USAF_USMC_2016_Rifle_SL.et" "{E8E00913356B28C2}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/USMC 2016/Des/Character_RHS_USAF_USMC_2016_Rifle_TL.et" "{82AF025D61693012}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/USMC 2016/Des/Character_RHS_USAF_USMC_2016_Rifle_AR.et" "{1E27FAF98D2FDC7E}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/USMC 2016/Des/Character_RHS_USAF_USMC_2016_Rifle_AR_Asst.et" "{B325C062843E6906}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/USMC 2016/Des/Character_RHS_USAF_USMC_2016_Rifle_RF.et" "{E8E00913356B28C2}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/USMC 2016/Des/Character_RHS_USAF_USMC_2016_Rifle_TL.et" "{82AF025D61693012}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/USMC 2016/Des/Character_RHS_USAF_USMC_2016_Rifle_AR.et" "{1E27FAF98D2FDC7E}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/USMC 2016/Des/Character_RHS_USAF_USMC_2016_Rifle_AR_Asst.et" "{B325C062843E6906}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/USMC 2016/Des/Character_RHS_USAF_USMC_2016_Rifle_RF.et" "{E8E00913356B28C2}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/USMC 2016/Des/Character_RHS_USAF_USMC_2016_Rifle_TL.et" "{82AF025D61693012}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/USMC 2016/Des/Character_RHS_USAF_USMC_2016_Rifle_AR.et" "{1E27FAF98D2FDC7E}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/USMC 2016/Des/Character_RHS_USAF_USMC_2016_Rifle_AR_Asst.et" "{B325C062843E6906}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/USMC 2016/Des/Character_RHS_USAF_USMC_2016_Rifle_RF.et"
+ }
+ m_bSetPlayable 0
+ m_aUnitPrefabColorTeams {
+  "None" "Red" "Red" "Red" "Red" "Blue" "Blue" "Blue" "Blue" "Green" "Green" "Green" "Green"
+ }
+}
