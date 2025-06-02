@@ -1,0 +1,15 @@
+Turret : "{3474BEBB23BA5793}Prefabs/Vehicles/Tracked/T-72A/VehParts/Turret/T72_turret_base.et" {
+ ID "51ACD0965653D003"
+ components {
+  TurretComponent "{648607B051371287}" {
+   components {
+    SCR_2DSightsComponent "{648607B051371298}" {
+     SightsFOVInfo SCR_SightsZoomFOVInfo "{648607B05137129F}" {
+      m_fBaseZoom 0.8
+      m_fStepZoomSize 5
+     }
+    }
+   }
+  }
+ }
+}

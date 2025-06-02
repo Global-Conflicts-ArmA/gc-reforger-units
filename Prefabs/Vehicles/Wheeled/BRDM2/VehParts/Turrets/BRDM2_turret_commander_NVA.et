@@ -1,0 +1,13 @@
+Turret : "{5362959329019A8B}Prefabs/Vehicles/Wheeled/BRDM2/VehParts/Turrets/BRDM2_turret_commander.et" {
+ ID "51ACD0965653D003"
+ components {
+  MeshObject "{51ACD09C4E0B7D16}" {
+   Materials {
+    MaterialAssignClass "{65851B710097B505}" {
+     SourceMaterial "BRDM2_body_exterior_1"
+     AssignedMaterial "{887FCD3AEE9E33B5}Assets/Vehicles/Wheeled/BRDM2/Data/BRDM2_body_exterior_1_NVA.emat"
+    }
+   }
+  }
+ }
+}
