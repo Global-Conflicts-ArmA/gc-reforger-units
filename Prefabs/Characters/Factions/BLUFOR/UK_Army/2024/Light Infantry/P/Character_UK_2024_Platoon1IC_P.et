@@ -1,0 +1,8 @@
+SCR_ChimeraCharacter : "{9058F888FBA4FD38}Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/Light Infantry/Rifles/Character_UK_2024_Platoon1IC.et" {
+ ID "520EC961A090B1EE"
+ components {
+  PS_PlayableComponent "{5EFCC1946F475F15}" {
+   m_bIsPlayable 1
+  }
+ }
+}

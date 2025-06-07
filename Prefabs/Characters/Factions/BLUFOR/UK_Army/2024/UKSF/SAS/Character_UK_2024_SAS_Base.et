@@ -1,0 +1,77 @@
+SCR_ChimeraCharacter : "{542CBB6908CA71D8}Prefabs/Characters/Factions/BLUFOR/UK_Army/Character_UK_Base.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot WristwatchSlot {
+       Prefab "{7C53E6DE2E4BD8CB}Prefabs/Items/Equipment/Watches/Watch_GarminTactixBravo.et"
+      }
+     }
+    }
+   }
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    m_sFaction "UK"
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{E5BC64A250BA6B94}Prefabs/Characters/HeadGear/Helmet_OPSCORE/Helmet_OPSCORE_SF_MC_AMP_UKSF.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{0EF85DD18333BA6F}Prefabs/Characters/Uniforms/Crye/Crye_GB4/Crye_GB4_Shirt_MC.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{28A81BA1BCCED69B}Prefabs/Characters/Vests/Body_Armour/Vest_Crye_CPC/Variants/Vest_Crye_CPC_Plain.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{B3E38C970E1D5EE5}Prefabs/Characters/Uniforms/Crye/Crye_GB4/Crye_GB4_Trousers_MC.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{02585ED96CFE147F}Prefabs/Characters/Footwear/Saloman_XUltra/Boots_Salomon_XUltra_Black.et"
+    }
+    LoadoutSlotInfo Vest {
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab "{0D9D0C18303F6D76}Prefabs/Characters/Handwear/Gloves_511_Competition/Gloves_511_Comp_Black.et"
+    }
+    LoadoutSlotInfo Eyes {
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{65769C3450B9CD78}" {
+     TargetStorage "Pants/Crye_GB4_Trousers_MC.et"
+     PrefabsToSpawn {
+      "{C8B6565467AA8CB7}Prefabs/Items/Equipment/Compass/Compass_Baseplate.et" "{13772C903CB5E4F7}Prefabs/Items/Equipment/Maps/PaperMap_01_folded.et" "{E67E7932C86FBB96}Prefabs/Items/Medicine/FieldDressing_UK_01.et" "{E67E7932C86FBB96}Prefabs/Items/Medicine/FieldDressing_UK_01.et" "{E67E7932C86FBB96}Prefabs/Items/Medicine/FieldDressing_UK_01.et" "{E67E7932C86FBB96}Prefabs/Items/Medicine/FieldDressing_UK_01.et" "{842E93279EA18647}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_UK_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{6E35D94130954509}Prefabs/Items/Equipment/Accessories/ETool_ALICE/ETool_ALICE_FreeRoamBuilding_Gadget.et" "{1852DD0D0BED6182}Prefabs/Items/Facepaint_01_Base.et"
+     }
+    }
+    ItemsInitConfigurationItem "{65769C3450B9CD6E}" {
+     TargetStorage "Pants/Crye_GB4_Trousers_MC.et"
+     PrefabsToSpawn {
+      "{013A731E59E8FB61}Prefabs/Items/Equipment/Radios/ANPRC152/Radio_ANPRC152.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6576D9ED53C8565C}" {
+     TargetStorage "Jacket/Crye_GB4_Shirt_MC.et"
+     TargetPurpose 64
+     PrefabsToSpawn {
+      "{3C97AA20BEF108BD}Prefabs/Items/Equipment/Accessories/Patches/TRF_DZ/ParaWings_Subdued.et" "{91C15614267F3ED6}Prefabs/Items/Equipment/Accessories/Patches/Morale/Morale_UnionJack_Brown.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6579089C8AA04BA2}" {
+     TargetStorage "ArmoredVest/Vest_Crye_CPC_Plain.et"
+     TargetPurpose 64
+     PrefabsToSpawn {
+      "{A104CB651D8FCCCA}Prefabs/Items/Equipment/Accessories/Patches/TRF_DZ/TRF_22SAS_A_Sqn.et"
+     }
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{F33B4D68B476589B}Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/Light Infantry/1 RIFLES/Character_UK_2024_1Rifles_CompanyMedic_P.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

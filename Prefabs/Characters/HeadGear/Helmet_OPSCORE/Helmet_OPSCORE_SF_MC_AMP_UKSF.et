@@ -1,0 +1,28 @@
+GameEntity : "{FB9553B3999131F0}Prefabs/Characters/HeadGear/Helmet_OPSCORE/Helmet_OPSCORE_SF_MC_AMP.et" {
+ ID "50D485E1435D6C72"
+ components {
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    RHS_LoadoutSlotInfo BackVelcro {
+    }
+    RHS_LoadoutSlotInfo NVG {
+     Prefab "{59E0D9B5B6967152}Prefabs/Items/Equipment/Nightvision/PVS31/NVG_PVS31_WP.et"
+    }
+    RHS_LoadoutSlotInfo Rail_Right {
+     Prefab "{0F6075686526F51D}Prefabs/Items/Equipment/Nightvision/ChargePro/ChargePro.et"
+    }
+    RHS_LoadoutSlotInfo Rail_Left {
+    }
+    RHS_LoadoutSlotInfo TopVelcro {
+     Prefab "{643AB339663E92F7}Prefabs/Items/Equipment/Nightvision/MS2000/Marker_MS2000.et"
+    }
+    RHS_LoadoutSlotInfo LeftVelcro {
+     Prefab "{4C5535098D6DAC7C}Prefabs/Items/Equipment/Nightvision/Vlite/vlite.et"
+    }
+    RHS_LoadoutSlotInfo RightVelcro {
+     Prefab "{91C15614267F3ED6}Prefabs/Items/Equipment/Accessories/Patches/Morale/Morale_UnionJack_Brown.et"
+    }
+   }
+  }
+ }
+}

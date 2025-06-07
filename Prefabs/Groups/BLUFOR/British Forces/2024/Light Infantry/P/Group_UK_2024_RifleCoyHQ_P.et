@@ -1,0 +1,11 @@
+SCR_AIGroup : "{5FD5FE7F764A5012}Prefabs/Groups/BLUFOR/British Forces/2024/Light Infantry/Group_UK_2024_RifleCoyHQ.et" {
+ ID "0000000000000001"
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "Column"
+  }
+ }
+ m_aUnitPrefabSlots {
+  "{E2234BCADE91E1BC}Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/Light Infantry/P/Character_UK_2024_Company1IC_P.et" "{50F409218133D224}Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/Light Infantry/P/Character_UK_2024_Company2IC_P.et" "{14C05928FB85CE63}Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/Light Infantry/P/Character_UK_2024_CSM_P.et" "{3067DA6B1EA4AE26}Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/Light Infantry/P/Character_UK_2024_RTO_P.et" "{57331E9151B2BE50}Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/Light Infantry/P/Character_UK_2024_CompanyMedic_P.et" "{57331E9151B2BE50}Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/Light Infantry/P/Character_UK_2024_CompanyMedic_P.et"
+ }
+}

@@ -1,0 +1,17 @@
+GenericEntity : "{07B3CAF734A9A7BD}Prefabs/Weapons/Rifles/L119A2/Rifle_L119A2_15_Bipod.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{6574F962896FAED0}" {
+     AttachmentSlot InventoryStorageSlot Foregrip {
+      Prefab "{4FF61771C481D4D4}Prefabs/Weapons/Attachments/Grips/Magpul_VFG_Short_BLK.et"
+     }
+    }
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     MagazineTemplate "{623879DAFD17919A}Prefabs/Weapons/Magazines/EMAG_BLK_MP_556x45_4B1T.et"
+    }
+   }
+  }
+ }
+}

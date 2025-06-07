@@ -1,0 +1,81 @@
+SCR_ChimeraCharacter : "{BE42B6E6DE18536B}Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/Light Infantry/Character_UK_2024_Base.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Signaller"
+    Icon "{B9F0BD39FF1881A3}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_RadioOperator.edds"
+    m_Image "{69DA16A707EFB38F}UI/PreviewImages/Characters/BLUFOR/BritishForces/Character_UK_1989_Regulars_RTO.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{2355B4B6812F0055}Prefabs/Weapons/Rifles/SA80/L85A3.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{56987BA51A14FBE1}Prefabs/Characters/HeadGear/Helmets/Helmet_Virtus/Helmet_Virtus_02_Scrim_Strips_1.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{B9B5A80B083DE154}Prefabs/Characters/Vests/Body_Armour/Vest_Virtus_STV/Variants/Vest_Virtus_STV_Rifleman_05.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{26BBC4FA9CE02F61}Prefabs/Characters/Backpacks/Radio/Kombat_Radio_Pack_MTP.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{6850162D1EA35BC8}Prefabs/Characters/Vests/Belts/Webbing/Virtus_H_Rig/Variants/Webbing_Virtus_H_Rig_Rifleman_01.et"
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab "{2295354C283A1FBF}Prefabs/Characters/Handwear/Gloves_511_Competition/Gloves_511_Comp_Tan.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{657764451544ABA5}" {
+     TargetStorage "ArmoredVest/Vest_Virtus_STV_Rifleman_05.et"
+     TargetPurpose 64
+     PrefabsToSpawn {
+      "{7E5643FCD390B901}Prefabs/Items/Equipment/Accessories/Patches/Zap/Zap_Tape_SG6041.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6576CAB94DC23DA0}" {
+     TargetStorage "Vest/Webbing_Virtus_H_Rig_Rifleman_01.et/MagPouch/Pouch_Virtus_Double_Mag_1_MTP.et"
+     PrefabsToSpawn {
+      "{623879DAFD17919A}Prefabs/Weapons/Magazines/EMAG_BLK_MP_556x45_4B1T.et" "{623879DAFD17919A}Prefabs/Weapons/Magazines/EMAG_BLK_MP_556x45_4B1T.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6576CAB94DC23DA6}" {
+     TargetStorage "Vest/Webbing_Virtus_H_Rig_Rifleman_01.et/MagPouch2/Pouch_Virtus_Double_Mag_2_MTP.et"
+     PrefabsToSpawn {
+      "{623879DAFD17919A}Prefabs/Weapons/Magazines/EMAG_BLK_MP_556x45_4B1T.et" "{623879DAFD17919A}Prefabs/Weapons/Magazines/EMAG_BLK_MP_556x45_4B1T.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6576CAB94DC23C58}" {
+     TargetStorage "Vest/Webbing_Virtus_H_Rig_Rifleman_01.et/MagPouch3/Pouch_Virtus_Double_Mag_2_MTP.et"
+     PrefabsToSpawn {
+      "{623879DAFD17919A}Prefabs/Weapons/Magazines/EMAG_BLK_MP_556x45_4B1T.et" "{623879DAFD17919A}Prefabs/Weapons/Magazines/EMAG_BLK_MP_556x45_4B1T.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6576CAB94DC23C59}" {
+     TargetStorage "Vest/Webbing_Virtus_H_Rig_Rifleman_01.et/MagPouch4/Pouch_Virtus_Double_Mag_1_MTP.et"
+     PrefabsToSpawn {
+      "{623879DAFD17919A}Prefabs/Weapons/Magazines/EMAG_BLK_MP_556x45_4B1T.et" "{623879DAFD17919A}Prefabs/Weapons/Magazines/EMAG_BLK_MP_556x45_4B1T.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6576CAB94DC23C5A}" {
+     TargetStorage "Vest/Webbing_Virtus_H_Rig_Rifleman_01.et/Utility3/Pouch_Virtus_Utility_1_MTP.et"
+     PrefabsToSpawn {
+      "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et" "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6576CAB94DC23C5C}" {
+     TargetStorage "Vest/Webbing_Virtus_H_Rig_Rifleman_01.et/Utility2/Pouch_Virtus_Utility_2_MTP.et"
+     PrefabsToSpawn {
+      "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et" "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
+     }
+    }
+   }
+  }
+ }
+}

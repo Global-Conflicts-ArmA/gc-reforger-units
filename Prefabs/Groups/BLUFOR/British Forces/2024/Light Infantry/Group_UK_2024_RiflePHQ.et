@@ -1,0 +1,97 @@
+SCR_AIGroup : "{6521AB6151C0A7C8}Prefabs/Groups/BLUFOR/British Forces/1989/Group_UK_1989_Regulars_Base.et" {
+ ID "0000000000000001"
+ components {
+  SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+   m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+    Name "2024 Rifle Platoon HQ"
+    m_Image "{220BB37E8B0C9776}UI/PreviewImages/Groups/BLUFOR/BritishForces/Group_UK_1989_Regulars_InfantrySection.edds"
+    m_aAuthoredLabels {
+     4 7000 19831992 1001
+    }
+    m_aAutoLabels {
+    }
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{6578AECEF48899AC}" {
+      m_BudgetType CAMPAIGN
+      m_Value 1
+     }
+     SCR_EntityBudgetValue "{6578AECEF488985C}" {
+      m_BudgetType AI_SERVER
+      m_Value 2
+     }
+    }
+    m_EntityChildrenBudgetCost {
+     SCR_EntityBudgetValue "{6578AECEF488985E}" {
+      m_BudgetType AI
+      m_Value 4
+     }
+    }
+    m_bUseUIInfoName 1
+    m_MilitarySymbol SCR_MilitarySymbol "{6578AECEF4889850}" {
+     m_Identity BLUFOR
+     m_Dimension LAND
+     m_Amplifier TEAM
+    }
+   }
+  }
+  SCR_PreviewEntityComponent "{6578AECEF4889855}" {
+   m_bRuntime 0
+   m_aEntries {
+    SCR_BasePreviewEntry "{6578AECEF4889856}" {
+     m_iParentID -1
+     m_Mesh ""
+     m_Flags 259
+     m_Shape MESH
+     m_iPivotID ""
+     m_vScale 1 1 1
+     m_vPosition 0 -5 0
+     m_vAngles 0 0 0
+    }
+    SCR_BasePreviewEntry "{6578AECEF4889849}" {
+     m_iParentID 0
+     m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+     m_Flags 0
+     m_Shape PREFAB
+     m_iPivotID ""
+     m_vScale 1 1 1
+     m_vPosition 0 0 0
+     m_vAngles 0 0 0
+    }
+    SCR_BasePreviewEntry "{6578AECEF488984C}" {
+     m_iParentID 0
+     m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+     m_Flags 0
+     m_Shape PREFAB
+     m_iPivotID ""
+     m_vScale 1 1 1
+     m_vPosition 3 0 -3
+     m_vAngles 0 0 0
+    }
+    SCR_BasePreviewEntry "{6578AECEF488984D}" {
+     m_iParentID 0
+     m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+     m_Flags 0
+     m_Shape PREFAB
+     m_iPivotID ""
+     m_vScale 1 1 1
+     m_vPosition -3 0 -3
+     m_vAngles 0 0 0
+    }
+    SCR_BasePreviewEntry "{6578AECEF48B1936}" {
+     m_iParentID 0
+     m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+     m_Flags 0
+     m_Shape PREFAB
+     m_iPivotID ""
+     m_vScale 1 1 1
+     m_vPosition 6 0 -6
+     m_vAngles 0 0 0
+    }
+   }
+  }
+ }
+ m_aUnitPrefabSlots {
+  "{9058F888FBA4FD38}Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/Light Infantry/Character_UK_2024_Platoon1IC.et" "{2C6C96F3B48E3A97}Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/Light Infantry/Character_UK_2024_PlatoonSergeant.et" "{C0280243C10F96FA}Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/Light Infantry/Character_UK_2024_RTO.et" "{83CC6D5849723DC0}Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/Light Infantry/Character_UK_2024_Runner.et" "{83CC6D5849723DC0}Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/Light Infantry/Character_UK_2024_Runner.et"
+ }
+ m_sCustomNameSet "Platoon HQ"
+}

@@ -1,0 +1,97 @@
+SCR_AIGroup : "{6521AB6151C0A7C8}Prefabs/Groups/BLUFOR/British Forces/1989/Group_UK_1989_Regulars_Base.et" {
+ ID "0000000000000001"
+ components {
+  SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+   m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+    Name "2024 Rifle Section"
+    m_Image "{220BB37E8B0C9776}UI/PreviewImages/Groups/BLUFOR/BritishForces/Group_UK_1989_Regulars_InfantrySection.edds"
+    m_aAuthoredLabels {
+     4 7000 19831992 1001
+    }
+    m_aAutoLabels {
+    }
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{6578AECEF3AA34D6}" {
+      m_BudgetType CAMPAIGN
+      m_Value 1
+     }
+     SCR_EntityBudgetValue "{6578AECEF3AA34DC}" {
+      m_BudgetType AI_SERVER
+      m_Value 2
+     }
+    }
+    m_EntityChildrenBudgetCost {
+     SCR_EntityBudgetValue "{6578AECEF3AA3522}" {
+      m_BudgetType AI
+      m_Value 4
+     }
+    }
+    m_bUseUIInfoName 1
+    m_MilitarySymbol SCR_MilitarySymbol "{6578AECEF3AA3520}" {
+     m_Identity BLUFOR
+     m_Dimension LAND
+     m_Amplifier SQUAD
+    }
+   }
+  }
+  SCR_PreviewEntityComponent "{6578AECEF3AA3564}" {
+   m_bRuntime 0
+   m_aEntries {
+    SCR_BasePreviewEntry "{6578AECEF3AA3569}" {
+     m_iParentID -1
+     m_Mesh ""
+     m_Flags 259
+     m_Shape MESH
+     m_iPivotID ""
+     m_vScale 1 1 1
+     m_vPosition 0 -5 0
+     m_vAngles 0 0 0
+    }
+    SCR_BasePreviewEntry "{6578AECEF3AA356E}" {
+     m_iParentID 0
+     m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+     m_Flags 0
+     m_Shape PREFAB
+     m_iPivotID ""
+     m_vScale 1 1 1
+     m_vPosition 0 0 0
+     m_vAngles 0 0 0
+    }
+    SCR_BasePreviewEntry "{6578AECEF3AA3572}" {
+     m_iParentID 0
+     m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+     m_Flags 0
+     m_Shape PREFAB
+     m_iPivotID ""
+     m_vScale 1 1 1
+     m_vPosition 3 0 -3
+     m_vAngles 0 0 0
+    }
+    SCR_BasePreviewEntry "{6578AECEF3AA3571}" {
+     m_iParentID 0
+     m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+     m_Flags 0
+     m_Shape PREFAB
+     m_iPivotID ""
+     m_vScale 1 1 1
+     m_vPosition -3 0 -3
+     m_vAngles 0 0 0
+    }
+    SCR_BasePreviewEntry "{6578AECEF3AA3570}" {
+     m_iParentID 0
+     m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+     m_Flags 0
+     m_Shape PREFAB
+     m_iPivotID ""
+     m_vScale 1 1 1
+     m_vPosition 6 0 -6
+     m_vAngles 0 0 0
+    }
+   }
+  }
+ }
+ m_aUnitPrefabSlots {
+  "{20D056EAEE3BE01B}Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/Light Infantry/Character_UK_2024_Section1IC.et" "{F126EA0A1D81CE33}Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/Light Infantry/Character_UK_2024_Sharpshooter.et" "{E0AB892DC61FB801}Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/Light Infantry/Character_UK_2024_GL.et" "{D1EB8F6180E31E18}Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/Light Infantry/Character_UK_2024_LAT.et" "{6FFAE1CF8D60E686}Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/Light Infantry/Character_UK_2024_Section2IC.et" "{BF6929165FE7C5C8}Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/Light Infantry/Character_UK_2024_MG.et" "{E0AB892DC61FB801}Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/Light Infantry/Character_UK_2024_GL.et" "{0B351D0D1F2A7A24}Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/Light Infantry/Character_UK_2024_Medic.et"
+ }
+ m_sCustomNameSet "Rifle Section"
+}

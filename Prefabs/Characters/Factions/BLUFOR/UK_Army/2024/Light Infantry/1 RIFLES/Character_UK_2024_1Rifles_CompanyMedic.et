@@ -1,0 +1,16 @@
+SCR_ChimeraCharacter : "{F2B9DBD9740952E3}Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/Light Infantry/Character_UK_2024_CompanyMedic.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{65869A863CFABAE7}" {
+     TargetStorage "Jacket/PCS_Shirt_MTP.et"
+     TargetPurpose 64
+     PrefabsToSpawn {
+      "{8C1354878B6879DF}Prefabs/Items/Equipment/Accessories/Patches/TRF_DZ/TRF_RIFLES.et" "{BE8AF9D3F2B6B87A}Prefabs/Items/Equipment/Accessories/Patches/TRF_DZ/TRF_7thInfBde_Subdued.et"
+     }
+    }
+   }
+  }
+ }
+}

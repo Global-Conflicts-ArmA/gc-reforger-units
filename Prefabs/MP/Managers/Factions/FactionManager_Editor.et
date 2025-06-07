@@ -422,6 +422,74 @@ SCR_FactionManager : "{A242612865F2A48E}Prefabs/MP/Managers/Factions/FactionMana
      }
     }
    }
+   m_aEntityCatalogs {
+    SCR_EntityCatalogMultiList "{5C68A0EE815FA292}" {
+    }
+    SCR_EntityCatalogMultiList "{5C68A0EE8B97CA50}" {
+     m_aEntityEntryList {
+      SCR_EntityCatalogEntry "{65793252FE1C39B9}" {
+       m_sEntityPrefab "{173FFF8E223910C3}Prefabs/Groups/BLUFOR/British Forces/2024/Light Infantry/Group_UK_2024_RiflePHQ.et"
+       m_aEntityDataList {
+        SCR_EntityCatalogEditorData "{61500927A6C12EC4}" {
+        }
+        SCR_EntityCatalogSpawnerData "{61500927A6C12ECB}" {
+         m_eSlotTypes 7
+        }
+        SCR_EntityCatalogEditorData "{6052BB14F17A196D}" {
+        }
+        SCR_EntityCatalogSpawnerData "{5D24D112940310EC}" {
+         m_eSlotTypes 7
+        }
+       }
+      }
+      SCR_EntityCatalogEntry "{65793252FF51B060}" {
+       m_sEntityPrefab "{FC3850752FAB8FF5}Prefabs/Groups/BLUFOR/British Forces/2024/Light Infantry/P/Group_UK_2024_RifleSection_P.et"
+       m_aEntityDataList {
+        SCR_EntityCatalogEditorData "{61500927A6C12EC4}" {
+        }
+        SCR_EntityCatalogSpawnerData "{61500927A6C12ECB}" {
+         m_eSlotTypes 7
+        }
+        SCR_EntityCatalogEditorData "{6052BB14F17A196D}" {
+        }
+        SCR_EntityCatalogSpawnerData "{5D24D112940310EC}" {
+         m_eSlotTypes 7
+        }
+       }
+      }
+      SCR_EntityCatalogEntry "{65793252F8BE1125}" {
+       m_sEntityPrefab "{AF9E2F2A0588A386}Prefabs/Groups/BLUFOR/British Forces/2024/UKSF/SAS/Group_UK_2024_SAS_TroopHQ.et"
+       m_aEntityDataList {
+        SCR_EntityCatalogEditorData "{61500927A6C12EC4}" {
+        }
+        SCR_EntityCatalogSpawnerData "{61500927A6C12ECB}" {
+         m_eSlotTypes 7
+        }
+        SCR_EntityCatalogEditorData "{6052BB14F17A196D}" {
+        }
+        SCR_EntityCatalogSpawnerData "{5D24D112940310EC}" {
+         m_eSlotTypes 7
+        }
+       }
+      }
+      SCR_EntityCatalogEntry "{65793252F80C8C14}" {
+       m_sEntityPrefab "{47C0A7C6C012B05B}Prefabs/Groups/BLUFOR/British Forces/2024/UKSF/SAS/Group_UK_2024_SAS_Team.et"
+       m_aEntityDataList {
+        SCR_EntityCatalogEditorData "{61500927A6C12EC4}" {
+        }
+        SCR_EntityCatalogSpawnerData "{61500927A6C12ECB}" {
+         m_eSlotTypes 7
+        }
+        SCR_EntityCatalogEditorData "{6052BB14F17A196D}" {
+        }
+        SCR_EntityCatalogSpawnerData "{5D24D112940310EC}" {
+         m_eSlotTypes 7
+        }
+       }
+      }
+     }
+    }
+   }
   }
   SCR_Faction "{62EB308733CA83DD}" : "{DBFC0A411C082CF9}Configs/Factions/Separatists.conf" {
   }

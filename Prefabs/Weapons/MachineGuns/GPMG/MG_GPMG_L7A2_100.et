@@ -1,0 +1,12 @@
+GenericEntity : "{78975C5D9C1AFA4C}Prefabs/Weapons/MachineGuns/GPMG/MG_GPMG_L7A2.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    MuzzleComponent "{50F64C4591CD7AA6}" {
+     MagazineTemplate "{D22DF40D07DA4615}Prefabs/Weapons/Magazines/Box_762x51_GPMG_100rnd_4Ball_1Tracer.et"
+    }
+   }
+  }
+ }
+}

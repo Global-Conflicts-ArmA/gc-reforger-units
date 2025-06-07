@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{E5BC64A250BA6B94}Prefabs/Characters/HeadGear/Helmet_OPSCORE/Helmet_OPSCORE_SF_MC_AMP_UKSF.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

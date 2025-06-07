@@ -1,0 +1,11 @@
+SCR_AIGroup : "{47C0A7C6C012B05B}Prefabs/Groups/BLUFOR/British Forces/2024/UKSF/SAS/Group_UK_2024_SAS_Team.et" {
+ ID "0000000000000001"
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "Column"
+  }
+ }
+ m_aUnitPrefabSlots {
+  "{14BA5146D0CC3B19}Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/UKSF/SAS/P/Character_UK_2024_SAS_TL_P.et" "{63B9D9CD9DFD2B71}Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/UKSF/SAS/P/Character_UK_2024_SAS_AR_P.et" "{8C36FD3C0F203712}Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/UKSF/SAS/P/Character_UK_2024_SAS_Sapper_P.et" "{513CC1CD316DD80F}Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/UKSF/SAS/P/Character_UK_2024_SAS_Medic_P.et"
+ }
+}

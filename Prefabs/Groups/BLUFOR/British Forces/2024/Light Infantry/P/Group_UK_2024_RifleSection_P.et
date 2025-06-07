@@ -1,0 +1,11 @@
+SCR_AIGroup : "{FBEC05D5B81F372D}Prefabs/Groups/BLUFOR/British Forces/2024/Light Infantry/Group_UK_2024_RifleSection.et" {
+ ID "0000000000000001"
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "Column"
+  }
+ }
+ m_aUnitPrefabSlots {
+  "{B1E943E9B874CC42}Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/Light Infantry/P/Character_UK_2024_Section1IC_P.et" "{599CFD839531762E}Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/Light Infantry/P/Character_UK_2024_Sharpshooter_P.et" "{9DD87C3C07A347C1}Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/Light Infantry/P/Character_UK_2024_GL_P.et" "{1E7BDDEDDF143B70}Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/Light Infantry/P/Character_UK_2024_LAT_P.et" "{033E0102E7D6FFDA}Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/Light Infantry/P/Character_UK_2024_Section2IC_P.et" "{D28FCC6B96DB1416}Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/Light Infantry/P/Character_UK_2024_MG_P.et" "{9DD87C3C07A347C1}Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/Light Infantry/P/Character_UK_2024_GL_P.et" "{A6BDC77C03E8BD77}Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/Light Infantry/P/Character_UK_2024_Medic_P.et"
+ }
+}

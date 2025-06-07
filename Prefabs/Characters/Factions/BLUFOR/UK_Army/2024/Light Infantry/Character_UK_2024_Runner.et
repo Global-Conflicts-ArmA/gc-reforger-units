@@ -1,0 +1,27 @@
+SCR_ChimeraCharacter : "{FED05851B3B9586F}Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/Light Infantry/Character_UK_2024_Rifleman.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Runner"
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{5C29E4F204D8763F}Prefabs/Characters/Vests/Body_Armour/Vest_Virtus_STV/Variants/Vest_Virtus_STV_Rifleman_04.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6577644682E8DEAA}" {
+     TargetStorage "ArmoredVest/Vest_Virtus_STV_Rifleman_04.et"
+     PrefabsToSpawn {
+      "{23F9C47F74E9A9B3}Prefabs/Items/Equipment/Accessories/Patches/Zap/Zap_Tape_BR6023.et"
+     }
+    }
+   }
+  }
+ }
+}

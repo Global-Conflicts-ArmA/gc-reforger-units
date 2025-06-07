@@ -1,0 +1,24 @@
+GameEntity : "{8A2B2A544F3ED831}Prefabs/Characters/HeadGear/Helmet_PASGT_01/Helmet_PASGT_01_base.et" {
+ ID "50D485E1435D6C72"
+ components {
+  RHS_HelmetNodeStorageComponent "{5DB13C5777E6E695}" {
+   Enabled 1
+   Attributes SCR_ItemAttributeCollection "{5DB13C5760610D64}" {
+    ItemDisplayName UIInfo "{5DB13C575E2AFE37}" {
+     Name "Virtus Cobra Helmet"
+     Description "The standard issue helmet for the British military, replaced the Mk7 helmet."
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    RHS_LoadoutSlotInfo NVG {
+     Offset -0.0001 0.1448 -0.144
+     Angles -6.7537 -180 0
+     Enabled 1
+    }
+   }
+  }
+ }
+ coords 1443.304 37.989 2975.873
+}
