@@ -14,6 +14,6 @@ SCR_AIGroup : "{F2AE179D26D16F8D}Prefabs/Groups/BLUFOR/CDF/SF_Modern/Group_CDF_M
  coords 75.284 4.884 48.753
  m_faction "RHS_ION"
  m_aUnitPrefabSlots {
-  "{46DD7DB0E7378ADF}Prefabs/Characters/Factions/INDFOR/RHS_ION/VIP_Protection/P/RHS_ION_VIP_Bodyguard_Black_P.et" "{9E6A9FABAD422D6D}Prefabs/Characters/Factions/INDFOR/RHS_ION/VIP_Protection/P/RHS_ION_VIP_Bodyguard_Brown_P.et" "{BC509B9CB161E906}Prefabs/Characters/Factions/INDFOR/RHS_ION/VIP_Protection/P/RHS_ION_VIP_Bodyguard_Gray_P.et" "{46DD7DB0E7378ADF}Prefabs/Characters/Factions/INDFOR/RHS_ION/VIP_Protection/P/RHS_ION_VIP_Bodyguard_Black_P.et"
+  "{F3F65A4656F610EA}Prefabs/Characters/Factions/INDFOR/RHS_ION/VIP_Protection/P/Character_RHS_ION_VIP_Bodyguard_Random_P.et" "{F3F65A4656F610EA}Prefabs/Characters/Factions/INDFOR/RHS_ION/VIP_Protection/P/Character_RHS_ION_VIP_Bodyguard_Random_P.et" "{F3F65A4656F610EA}Prefabs/Characters/Factions/INDFOR/RHS_ION/VIP_Protection/P/Character_RHS_ION_VIP_Bodyguard_Random_P.et" "{F3F65A4656F610EA}Prefabs/Characters/Factions/INDFOR/RHS_ION/VIP_Protection/P/Character_RHS_ION_VIP_Bodyguard_Random_P.et"
  }
 }

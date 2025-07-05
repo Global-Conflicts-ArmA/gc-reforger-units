@@ -48,6 +48,12 @@ SCR_ChimeraCharacter : "{936B2046BD111A6F}Prefabs/Characters/Factions/INDFOR/RHS
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
+    ItemsInitConfigurationItem "{655A0835547EEE1B}" {
+     TargetStorage "Pants/Crye_G4_Combat_Pants_Black.et"
+    }
+    ItemsInitConfigurationItem "{655A08355419B690}" {
+     TargetStorage "Pants/Crye_G4_Combat_Pants_Black.et"
+    }
     ItemsInitConfigurationItem "{655A083F23A248D8}" {
      TargetStorage "Vest/Vest_AVS_Blk_NoBelt_Light.et/Pouch1/Pouch_avs_front_elastic_Blk.et"
      PrefabsToSpawn {

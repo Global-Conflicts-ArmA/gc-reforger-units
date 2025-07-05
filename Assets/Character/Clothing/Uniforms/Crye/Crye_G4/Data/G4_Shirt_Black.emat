@@ -1,0 +1,19 @@
+MatPBRMulti {
+ Cull none
+ WetnessScale 0.5
+ PorosityScale 0.5
+ VFXMap "{F29BE04F8420E241}Assets/Character/Clothing/Uniforms/Crye/Crye_G4/Data/Crye_G4_Shirt_NMO.edds"
+ DirtUserOpacity 1
+ DirtOpacity 1.12
+ DirtLayerSharpness 1.56
+ DirtColor 0.144 0.144 0.144 1
+ DirtRoughness 0.852
+ DirtBCRMap "{08F15E9AD2DE7E86}Assets/_SharedData/Damage/ST_Clothes_DMG_Blood_BCR.edds"
+ DirtMaskMap "{28724AD5A1D70271}Assets/_SharedData/Damage/ST_Clothes_DMG_Blood_MASK.edds"
+ Color_4 0.048 0.048 0.048 1
+ Color_3 0.048 0.048 0.048 1
+ Color_2 0.048 0.048 0.048 1
+ Color_1 0 0 0 1
+ BCR_1 "{2EF8394F1DCFA9F6}Assets/Character/Clothing/Uniforms/Crye/Crye_G4/Data/Crye_G4_Shirt_Multicam_BCR.edds"
+ NMO_1 "{F29BE04F8420E241}Assets/Character/Clothing/Uniforms/Crye/Crye_G4/Data/Crye_G4_Shirt_NMO.edds"
+}

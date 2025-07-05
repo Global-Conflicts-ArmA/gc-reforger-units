@@ -1,0 +1,34 @@
+SCR_ChimeraCharacter : "{A69945F5A5F1B46C}Prefabs/Characters/Factions/INDFOR/RHS_ION/VIP_Protection/Character_RHS_ION_VIP_Bodyguard_Black.et" {
+ ID "520EC961A090B1EE"
+ components {
+  PS_PlayableComponent "{5EFCC1946F475F15}" {
+   m_bIsPlayable 1
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_VariantData SCR_EditableEntityVariantData "{65C77DA964C3A722}" {
+    m_aVariants {
+     SCR_EditableEntityVariant "{65C77DA9652E8DC9}" {
+      m_sVariantPrefab "{46DD7DB0E7378ADF}Prefabs/Characters/Factions/INDFOR/RHS_ION/VIP_Protection/P/Character_RHS_ION_VIP_Bodyguard_Black_P.et"
+     }
+     SCR_EditableEntityVariant "{65C77DA96504FCC9}" {
+      m_sVariantPrefab "{9E6A9FABAD422D6D}Prefabs/Characters/Factions/INDFOR/RHS_ION/VIP_Protection/P/Character_RHS_ION_VIP_Bodyguard_Brown_P.et"
+     }
+     SCR_EditableEntityVariant "{65C77DA965133521}" {
+      m_sVariantPrefab "{BC509B9CB161E906}Prefabs/Characters/Factions/INDFOR/RHS_ION/VIP_Protection/P/Character_RHS_ION_VIP_Bodyguard_Gray_P.et"
+     }
+    }
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Jacket {
+     Prefab "{E652D625A46A00FC}Prefabs/Characters/Uniforms/Jacket_Suit_01/Jacket_Suit_01_Grey_V1.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{401072A652DD9849}Prefabs/Characters/Uniforms/Pants_Suit_01/Pants_Suit_01_grey_V1.et"
+    }
+   }
+  }
+ }
+ coords 81.83 4.721 62.339
+}

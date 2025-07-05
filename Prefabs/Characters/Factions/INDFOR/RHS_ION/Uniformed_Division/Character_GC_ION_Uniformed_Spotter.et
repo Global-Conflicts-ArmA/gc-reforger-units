@@ -33,7 +33,7 @@ SCR_ChimeraCharacter : "{FF3F14A601D59541}Prefabs/Characters/Factions/INDFOR/RHS
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {
-     Prefab "{804440DF8E9B9A40}Prefabs/Characters/HeadGear/Hat_BallCap/variants/Hat_ballcap_OD_ION.et"
+     Prefab "{5862DF853F24F2BF}Prefabs/Characters/HeadGear/Hat_Beanie/variants/Hat_beanie_Black_ION.et"
     }
     LoadoutSlotInfo ArmoredVest {
      Prefab "{037DD3060547B417}Prefabs/Characters/Vests/Vest_JPC/Vest_JPC_MCBlk.et"
@@ -48,6 +48,12 @@ SCR_ChimeraCharacter : "{FF3F14A601D59541}Prefabs/Characters/Factions/INDFOR/RHS
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
+    ItemsInitConfigurationItem "{655A0835547EEE1B}" {
+     TargetStorage "Pants/Crye_G4_Combat_Pants_Black.et"
+    }
+    ItemsInitConfigurationItem "{655A08355419B690}" {
+     TargetStorage "Pants/Crye_G4_Combat_Pants_Black.et"
+    }
     ItemsInitConfigurationItem "{655C04F01DF71622}" {
      TargetStorage "Vest/Vest_JPC_MCBlk_ronin.et/Tako/Pouch_PCGEN3_takoPouch_MCBlk.et"
      PrefabsToSpawn {

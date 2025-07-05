@@ -14,6 +14,22 @@ SCR_ChimeraCharacter : "{936B2046BD111A6F}Prefabs/Characters/Factions/INDFOR/RHS
   }
   PS_PlayableComponent "{5EFCC1946F475F15}" {
    m_sName "Rifleman"
+   m_bIsPlayable 1
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_VariantData SCR_EditableEntityVariantData "{65C77DAADB15CFE8}" {
+    m_aVariants {
+     SCR_EditableEntityVariant "{65C77DAADCCE8235}" {
+      m_sVariantPrefab "{FF32F4B9E1663A1A}Prefabs/Characters/Factions/INDFOR/RHS_ION/Uniformed_Division/Playable/Character_GC_ION_Uniformed_Rifleman1_P.et"
+     }
+     SCR_EditableEntityVariant "{65C77DAADCA4AC93}" {
+      m_sVariantPrefab "{A1DADDFA5EEBB415}Prefabs/Characters/Factions/INDFOR/RHS_ION/Uniformed_Division/Playable/Character_GC_ION_Uniformed_Rifleman2_P.et"
+     }
+     SCR_EditableEntityVariant "{65C77DAADCB03305}" {
+      m_sVariantPrefab "{55D29A625336DC61}Prefabs/Characters/Factions/INDFOR/RHS_ION/Uniformed_Division/Playable/Character_GC_ION_Uniformed_Rifleman3_P.et"
+     }
+    }
+   }
   }
   CharacterGrenadeSlotComponent "{520EA1D2F659CE6E}" {
    WeaponTemplate "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
@@ -45,49 +61,43 @@ SCR_ChimeraCharacter : "{936B2046BD111A6F}Prefabs/Characters/Factions/INDFOR/RHS
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
-    ItemsInitConfigurationItem "{655A0835547EEE1B}" {
-     TargetStorage "Pants/Crye_G4_Combat_Pants_Black.et"
-    }
-    ItemsInitConfigurationItem "{655A08355419B690}" {
-     TargetStorage "Pants/Crye_G4_Combat_Pants_Black.et"
-    }
-    ItemsInitConfigurationItem "{655A08311D28A3A4}" {
+    ItemsInitConfigurationItem "{65C77DAAE78789D0}" {
      TargetStorage "Vest/Vest_JPC_MCBlk_ronin2.et/mbiyt/Pouch_AVS_MBITR_Radio_MCBlk.et"
      PrefabsToSpawn {
       "{5D948A57AF3432ED}Prefabs/Items/Equipment/Radios/Radio_ANPRC152A_OLD_Single.et"
      }
     }
-    ItemsInitConfigurationItem "{655A0831088EC6A8}" {
+    ItemsInitConfigurationItem "{65C77DAAE7878924}" {
      TargetStorage "Vest/Vest_JPC_MCBlk_ronin2.et/Pouch1/Pouch_avs_front_elastic_MCBlk.et"
      PrefabsToSpawn {
       "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et" "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et" "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et"
      }
     }
-    ItemsInitConfigurationItem "{655A0830FB8F3F4C}" {
+    ItemsInitConfigurationItem "{65C77DAAE7878922}" {
      TargetStorage "Vest/Vest_JPC_MCBlk_ronin2.et/Tako/Pouch_PCGEN3_takoPouch_MCBlk.et"
      PrefabsToSpawn {
       "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et" "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et"
      }
     }
-    ItemsInitConfigurationItem "{655A0830FC2B0956}" {
+    ItemsInitConfigurationItem "{65C77DAAE7878921}" {
      TargetStorage "Vest/Vest_JPC_MCBlk_ronin2.et/tako2/Pouch_PCGEN3_takoPouch_MCBlk.et"
      PrefabsToSpawn {
       "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et" "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et"
      }
     }
-    ItemsInitConfigurationItem "{655A0830E2E8C33E}" {
+    ItemsInitConfigurationItem "{65C77DAAE787CC3A}" {
      TargetStorage "Vest/Vest_JPC_MCBlk_ronin2.et/pistol2/Pouch_Highspeed_Pistol_MCBlk.et"
      PrefabsToSpawn {
       "{8FF49793853DB2F9}Prefabs/Weapons/Magazines/m17_magazines/Magazine_9x19_m17_17rnd.et"
      }
     }
-    ItemsInitConfigurationItem "{655A0830E2C128B5}" {
+    ItemsInitConfigurationItem "{65C77DAAE787CC25}" {
      TargetStorage "Vest/Vest_JPC_MCBlk_ronin2.et/pistol/Pouch_Highspeed_Pistol_MCBlk.et"
      PrefabsToSpawn {
       "{8FF49793853DB2F9}Prefabs/Weapons/Magazines/m17_magazines/Magazine_9x19_m17_17rnd.et"
      }
     }
-    ItemsInitConfigurationItem "{655A0830C5DCBF1D}" {
+    ItemsInitConfigurationItem "{65C77DAAE787214D}" {
      TargetStorage "Vest/Vest_JPC_MCBlk_ronin2.et/hsgi/Pouch_Highspeed_Bleeder_MCBlk.et"
      PrefabsToSpawn {
       "{D41D22DD1B8E921E}Prefabs/Weapons/Grenades/M18/Smoke_M18_Green.et" "{D41D22DD1B8E921E}Prefabs/Weapons/Grenades/M18/Smoke_M18_Green.et"

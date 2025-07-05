@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{375EA75B17C14602}Prefabs/Characters/Factions/INDFOR/RHS_ION/Uniformed_Division/Character_GC_ION_Uniformed_Spotter_P.et"
+ Name "{60E2850CA997AF46}Prefabs/Characters/Factions/INDFOR/RHS_ION/Uniformed_Division/Playable/Character_GC_ION_Uniformed_Spotter_P.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }

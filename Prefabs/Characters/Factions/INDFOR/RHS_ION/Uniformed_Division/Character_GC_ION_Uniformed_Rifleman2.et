@@ -33,13 +33,11 @@ SCR_ChimeraCharacter : "{936B2046BD111A6F}Prefabs/Characters/Factions/INDFOR/RHS
      Prefab "{87C7A9E8D5A3FB49}Prefabs/Characters/HeadGear/Helmet_OPSCORE/variants/ION/Helmet_OPSCORE_SF_BLK_Peltor_ION5.et"
     }
     LoadoutSlotInfo Jacket {
-     Prefab "{235EF701C05AF0B0}Prefabs/Characters/Uniforms/Crye_Shirt/Jacket_Crye_Combat_Shirt_mcblack_ION.et"
     }
     LoadoutSlotInfo ArmoredVest {
      Prefab "{037DD3060547B417}Prefabs/Characters/Vests/Vest_JPC/Vest_JPC_MCBlk.et"
     }
     LoadoutSlotInfo Pants {
-     Prefab "{A86E5BCD319975E8}Prefabs/Characters/Uniforms/Crye_Pants/crye_pants_mcblack.et"
     }
     LoadoutSlotInfo Vest {
      Prefab "{85E4EB7B92BACF63}Prefabs/Characters/Vests/Vest_JPC/variants/Vest_JPC_MCBlk_ronin2.et"
@@ -51,6 +49,12 @@ SCR_ChimeraCharacter : "{936B2046BD111A6F}Prefabs/Characters/Factions/INDFOR/RHS
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
+    ItemsInitConfigurationItem "{655A0835547EEE1B}" {
+     TargetStorage "Pants/Crye_G4_Combat_Pants_Black.et"
+    }
+    ItemsInitConfigurationItem "{655A08355419B690}" {
+     TargetStorage "Pants/Crye_G4_Combat_Pants_Black.et"
+    }
     ItemsInitConfigurationItem "{655A08311D28A3A4}" {
      TargetStorage "Vest/Vest_JPC_MCBlk_ronin2.et/mbiyt/Pouch_AVS_MBITR_Radio_MCBlk.et"
      PrefabsToSpawn {

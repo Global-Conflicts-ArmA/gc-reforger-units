@@ -1,0 +1,14 @@
+GameEntity : "{6170F376E4C8D3B9}Prefabs/Characters/Uniforms/Crye/Crye_G4/Crye_G4_Combat_Pants_MC.et" {
+ ID "5104869D194C6243"
+ components {
+  BaseLoadoutClothComponent "{5104869D194C627A}" {
+   WornMaterialsOverride {
+    "{F45672D48A451947}Assets/Character/Clothing/Uniforms/Crye/Crye_G4/Data/G4_Pants_Black.emat"
+   }
+   ItemMaterialsOverride {
+    "{F45672D48A451947}Assets/Character/Clothing/Uniforms/Crye/Crye_G4/Data/G4_Pants_Black.emat"
+   }
+  }
+ }
+ coords 980.266 39 2796.592
+}

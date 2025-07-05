@@ -7,10 +7,10 @@ SCR_ChimeraCharacter : "{124577CE46390EBD}Prefabs/Characters/Factions/INDFOR/RHS
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Jacket {
-     Prefab "{235EF701C05AF0B0}Prefabs/Characters/Uniforms/Crye_Shirt/Jacket_Crye_Combat_Shirt_mcblack_ION.et"
+     Prefab "{A0C6CFAF53F547F8}Prefabs/Characters/Uniforms/Crye/Crye_G4/Crye_G4_Combat_Shirt_Black.et"
     }
     LoadoutSlotInfo Pants {
-     Prefab "{A86E5BCD319975E8}Prefabs/Characters/Uniforms/Crye_Pants/crye_pants_mcblack.et"
+     Prefab "{B37806DE9153CF6A}Prefabs/Characters/Uniforms/Crye/Crye_G4/Crye_G4_Combat_Pants_Black.et"
     }
     LoadoutSlotInfo Boots {
      Prefab "{7C828AB80ED1D9B0}Prefabs/Characters/Footwear/Boots_Faradey_906/Footware_Faradey_906.et"

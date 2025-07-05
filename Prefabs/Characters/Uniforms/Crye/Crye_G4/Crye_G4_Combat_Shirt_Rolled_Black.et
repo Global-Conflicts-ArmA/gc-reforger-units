@@ -1,0 +1,14 @@
+GameEntity : "{B2054C15370EB794}Prefabs/Characters/Uniforms/Crye/Crye_G4/Crye_G4_Combat_Shirt_Rolled_MC.et" {
+ ID "5104869D194C6243"
+ components {
+  BaseLoadoutClothComponent "{5104869D194C627A}" {
+   WornMaterialsOverride {
+    "{3C3EDB979FD1F984}Assets/Character/Clothing/Uniforms/Crye/Crye_G4/Data/G4_Shirt_Black.emat"
+   }
+   ItemMaterialsOverride {
+    "{3C3EDB979FD1F984}Assets/Character/Clothing/Uniforms/Crye/Crye_G4/Data/G4_Shirt_Black.emat"
+   }
+  }
+ }
+ coords 979.344 39 2797.72
+}
