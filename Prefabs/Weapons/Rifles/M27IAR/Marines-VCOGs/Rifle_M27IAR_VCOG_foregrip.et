@@ -1,0 +1,19 @@
+GenericEntity : "{E4BD8EF0745F0C30}Prefabs/Weapons/Rifles/M27IAR/Rifle_M27IAR_VCOG.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{5D873BE26346E4D7}" {
+     AttachmentSlot InventoryStorageSlot attachment_railcover {
+     }
+    }
+    AttachmentSlotComponent "{631F58122CD73C1F}" {
+     AttachmentSlot InventoryStorageSlot bipodSlot {
+      Offset -0.0006 0.0568 0.3005
+      Prefab "{0F46DA93CB81F141}Prefabs/Weapons/Attachments/Grips/Grip_KAC_Vertical/RHS_KacVertical_base.et"
+     }
+    }
+   }
+  }
+ }
+}

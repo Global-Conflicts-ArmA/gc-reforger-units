@@ -1,0 +1,32 @@
+GenericEntity : "{E4BD8EF0745F0C30}Prefabs/Weapons/Rifles/M27IAR/Rifle_M27IAR_VCOG.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{5CF88C80AF78DA73}" {
+     AttachmentSlot RHS_SlidingInventoryStorageSlot PicattinyRailTop {
+      Prefab ""
+     }
+    }
+    AttachmentSlotComponent "{5D873BE26346E4D7}" {
+     AttachmentSlot InventoryStorageSlot attachment_railcover {
+     }
+    }
+    AttachmentSlotComponent "{6174A7A88B1F8EF5}" {
+     AttachmentSlot InventoryStorageSlot bayonet {
+     }
+    }
+    AttachmentSlotComponent "{62995D48566EF6D2}" {
+     AttachmentSlot RHS_SlidingInventoryStorageSlot "{62995D484DB4389A}" {
+      Prefab "{0FFFB0BCE1A21A2E}Prefabs/Weapons/Attachments/Lasers/anpeq16/Laser_ANPEQ16.et"
+     }
+    }
+    AttachmentSlotComponent "{631F58122CD73C1F}" {
+     AttachmentSlot InventoryStorageSlot bipodSlot {
+      Prefab "{23D34FB66BBC8BEE}Prefabs/Weapons/Attachments/Bipods/harris_bipod/rhs_lt706_harris.et"
+     }
+    }
+   }
+  }
+ }
+}
