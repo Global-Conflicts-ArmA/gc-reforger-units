@@ -1,0 +1,14 @@
+GenericEntity : "{0D7982DE8345F3BC}Prefabs/Weapons/Rifles/M27IAR/Rifle_M27IAR_camo1_VCOG.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{5D873BE26346E4D7}" {
+     AttachmentSlot InventoryStorageSlot attachment_railcover {
+      Prefab "{B9E528A31A6F0A02}Prefabs/Weapons/Attachments/Misc/manta_railcover/kits/RHS_manta_kit_kacGrip_M27_3.et"
+     }
+    }
+   }
+  }
+ }
+}

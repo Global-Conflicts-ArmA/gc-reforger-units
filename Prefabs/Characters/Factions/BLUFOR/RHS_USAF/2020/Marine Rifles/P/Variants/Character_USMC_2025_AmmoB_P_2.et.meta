@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{A60230C6FB3697E5}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/P/Variants/Character_USMC_2025_AmmoB_P_2.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

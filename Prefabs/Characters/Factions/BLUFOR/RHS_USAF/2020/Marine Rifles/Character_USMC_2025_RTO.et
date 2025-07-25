@@ -1,0 +1,17 @@
+SCR_ChimeraCharacter : "{CF5E9F72F151BF4F}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/Character_USMC_2025_RF.et" {
+ ID "520EC961A090BBD5"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Radio Operator"
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Back {
+     Prefab "{0D5E78711F52F010}Prefabs/Items/Equipment/Extended LR Radios/Radio_MARPATWD_GC_PRC119.et"
+    }
+   }
+  }
+ }
+}

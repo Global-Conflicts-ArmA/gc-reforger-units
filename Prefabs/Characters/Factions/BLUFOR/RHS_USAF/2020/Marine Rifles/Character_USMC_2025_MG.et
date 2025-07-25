@@ -1,0 +1,73 @@
+SCR_ChimeraCharacter : "{CF5E9F72F151BF4F}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/Character_USMC_2025_RF.et" {
+ ID "520EC961A090BBD5"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Machine Gunner"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{BA87F78D0E7E3A90}Prefabs/Weapons/MachineGuns/M240/MG_M240_Light_MDO.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{1300A5F6CA51B206}Prefabs/Characters/Vests/Vest_PCGen_III/Vest_PCGen_III.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{46D824AAD12330B2}Prefabs/Items/Equipment/Backpacks/backpack_511_rush12/Backpack_511_rush12_Coy.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{8CCD7C0728F3BD3D}Prefabs/Characters/Vests/Vest_PCGen_III/Variants/Vest_PCGen_III_nobelt_MG.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{65C6A542121615AB}" {
+     TargetStorage "Vest/Vest_PCGen_III_nobelt_MG.et/saw/Pouch_PCGEN3_MG.et"
+     PrefabsToSpawn {
+      "{4D2C1E8F3A81F894}Prefabs/Weapons/Magazines/Box_762x51_M60_100rnd_4Ball_1Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{65C6A54254E304ED}" {
+     TargetStorage "Vest/Vest_PCGen_III_nobelt_MG.et/saw2/Pouch_PCGEN3_MG.et"
+     PrefabsToSpawn {
+      "{4D2C1E8F3A81F894}Prefabs/Weapons/Magazines/Box_762x51_M60_100rnd_4Ball_1Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{65C6A54342B860B8}" {
+     TargetStorage "Vest/Vest_PCGen_III_nobelt_MG.et/ifak/Pouch_PCGEN3_ifak.et"
+     PrefabsToSpawn {
+     }
+    }
+    ItemsInitConfigurationItem "{65C6A54258B85A65}" {
+     TargetStorage "Back/Backpack_511_rush12_Coy.et"
+     PrefabsToSpawn {
+      "{4D2C1E8F3A81F894}Prefabs/Weapons/Magazines/Box_762x51_M60_100rnd_4Ball_1Tracer.et" "{4D2C1E8F3A81F894}Prefabs/Weapons/Magazines/Box_762x51_M60_100rnd_4Ball_1Tracer.et" "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et" "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
+     }
+    }
+    ItemsInitConfigurationItem "{65C6A5425B177F54}" {
+     PrefabsToSpawn {
+     }
+    }
+    ItemsInitConfigurationItem "{65C6A543F8A0733C}" {
+     PrefabsToSpawn {
+     }
+    }
+    ItemsInitConfigurationItem "{65C6A543C7044531}" {
+     PrefabsToSpawn {
+     }
+    }
+    ItemsInitConfigurationItem "{65C6A543D08CD03E}" {
+     PrefabsToSpawn {
+     }
+    }
+    ItemsInitConfigurationItem "{65C6A5436BD1A65E}" {
+     PrefabsToSpawn {
+     }
+    }
+   }
+  }
+ }
+}

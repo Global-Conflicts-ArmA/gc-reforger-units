@@ -1,0 +1,27 @@
+SCR_ChimeraCharacter : "{6CC8CDAF3AFF0298}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/Character_USMC_2025_Corpsman.et" {
+ ID "520EC961A090BBD5"
+ components {
+  PS_PlayableComponent "{5EFCC1946F475F15}" {
+   m_bIsPlayable 1
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_VariantData SCR_EditableEntityVariantData "{65C80B5E7E29EB43}" {
+    m_aVariants {
+     SCR_EditableEntityVariant "{65C80B5E7F049735}" {
+      m_sVariantPrefab "{1B2E47CB53079D6B}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/P/Variants/Character_USMC_2025_Corpsman_P_1.et"
+     }
+     SCR_EditableEntityVariant "{65C80B5E7F229290}" {
+      m_sVariantPrefab "{F296932552352701}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/P/Variants/Character_USMC_2025_Corpsman_P_2.et"
+     }
+    }
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{CD03EDE75DFF6D32}Prefabs/Characters/HeadGear/Helmet_ECH/Helmet_ECH_lc_cwd_p.et"
+    }
+   }
+  }
+ }
+}

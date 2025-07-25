@@ -1,0 +1,13 @@
+SCR_ChimeraCharacter : "{CF5E9F72F151BF4F}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/Character_USMC_2025_RF.et" {
+ ID "520EC961A090BBD5"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Rifleman (LAT)"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+   WeaponTemplate "{9C5C20FB0E01E64F}Prefabs/Weapons/Launchers/M72/Launcher_M72A3.et"
+  }
+ }
+}

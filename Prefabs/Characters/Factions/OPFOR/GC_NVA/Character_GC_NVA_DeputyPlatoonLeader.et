@@ -1,6 +1,16 @@
 SCR_ChimeraCharacter : "{B68CA75549A1027E}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_DeputySquadLeader.et" {
  ID "520EC961A090BE1E"
  components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot {
+      }
+     }
+    }
+   }
+  }
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
     Name "Deputy Platoon Leader"

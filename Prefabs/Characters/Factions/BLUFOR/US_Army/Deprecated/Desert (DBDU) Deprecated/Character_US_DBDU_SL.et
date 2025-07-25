@@ -1,6 +1,17 @@
 SCR_ChimeraCharacter : "{30400AE6344E837C}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_DBDU_SL.et" {
  ID "51FA90A59C87A851"
  components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot {
+       Prefab ""
+      }
+     }
+    }
+   }
+  }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo ArmoredVest {

@@ -1,0 +1,8 @@
+SCR_AIGroup : "{EE8D60FCE6D3B856}Prefabs/Groups/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Group_USAF_USMC_MEF_Base.et" {
+ ID "61BAFE3FD33C773A"
+ coords 4153.635 36.457 9937.596
+ m_aUnitPrefabSlots {
+  "{0A4215CB3B6575D8}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/Character_USMC_2025_PL.et" "{C449AE9E4261682A}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/Character_USMC_2025_PSG.et" "{CBAE19A505E738A0}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/Character_USMC_2025_RTO.et" "{6CC8CDAF3AFF0298}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/Character_USMC_2025_Corpsman.et" "{6CC8CDAF3AFF0298}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/Character_USMC_2025_Corpsman.et"
+ }
+ m_sCustomNameSet "Platoon HQ"
+}
