@@ -1,9 +1,0 @@
-SCR_AIGroup : "{EE8D60FCE6D3B856}Prefabs/Groups/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Group_USAF_USMC_MEF_Base.et" {
- ID "61BAFE2216B1833D"
- coords 4153.635 36.457 9937.596
- m_aUnitPrefabSlots {
-  "{BB42901ED1EFE3B8}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/P/Character_USMC_2025_PL_P.et" "{EB4D82B86F31068B}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/P/Character_USMC_2025_PSG_P.et" "{CB31B6B506128B53}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/P/Character_USMC_2025_RTO_P.et" "{724893F8E5894F78}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/P/Character_USMC_2025_Corpsman_P.et" "{724893F8E5894F78}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/P/Character_USMC_2025_Corpsman_P.et"
- }
- m_sCustomNameSet "Marine Rifle Plt HQ"
- m_bSetPlayable 1
-}
