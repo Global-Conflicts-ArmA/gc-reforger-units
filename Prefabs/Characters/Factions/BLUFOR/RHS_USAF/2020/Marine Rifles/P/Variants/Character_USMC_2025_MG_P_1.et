@@ -1,0 +1,12 @@
+SCR_ChimeraCharacter : "{810FB35F9E4311CC}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/P/Character_USMC_2025_MG_P.et" {
+ ID "520EC961A090BBD5"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{BABE1B6C0065846A}Prefabs/Characters/HeadGear/Helmet_ECH/Helmet_ECH_lc_r_p.et"
+    }
+   }
+  }
+ }
+}

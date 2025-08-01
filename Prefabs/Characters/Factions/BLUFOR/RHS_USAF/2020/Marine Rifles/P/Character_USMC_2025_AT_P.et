@@ -1,0 +1,40 @@
+SCR_ChimeraCharacter : "{F2AB46ACBA6E4182}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/P/Character_USMC_2025_RF_P.et" {
+ ID "520EC961A090BBD5"
+ components {
+  PS_PlayableComponent "{5EFCC1946F475F15}" {
+   m_bIsPlayable 1
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Rifleman (SMAW)"
+    Icon "{00B30C29FAF85E1C}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_AntiTank.edds"
+    m_Image "{F2669784D2163DD8}UI/Textures/EditorPreviews/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Character_RHS_USAF_USMC_AT.edds"
+   }
+   m_VariantData SCR_EditableEntityVariantData "{65C80B5E604A4838}" {
+    m_aVariants {
+     SCR_EditableEntityVariant "{65C80B5E628B5D08}" {
+      m_sVariantPrefab "{22DA869BAEB7DBFF}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/P/Variants/Character_USMC_2025_AT_P_1.et"
+     }
+     SCR_EditableEntityVariant "{65C80B5E62D21097}" {
+      m_sVariantPrefab "{C88778919C5F6F93}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/P/Variants/Character_USMC_2025_AT_P_2.et"
+     }
+    }
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{DD2BC1626FEF9BCB}Prefabs/Weapons/Rifles/M4A1/Marines/Rifle_M4A1_RCO_PEQ.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+   WeaponTemplate "{35022055DCDDE98B}Prefabs/Weapons/Launchers/MK153/Launcher_MK153mod2.et"
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{65C6C94D6B74614F}" {
+     PrefabsToSpawn + {
+      "{2C935EF6F98E6354}Prefabs/Weapons/Magazines/MK153/Container_MK153_HEAA.et"
+     }
+    }
+   }
+  }
+ }
+}
