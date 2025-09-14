@@ -1,0 +1,13 @@
+GenericEntity : "{279EDF225600C324}Prefabs/Weapons/HeavyWeapons/2A46/Cannon_2A46.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  MeshObject "{CFBAA4B701F95D69}" {
+   Materials {
+    MaterialAssignClass "{658D1069218F97BE}" {
+     SourceMaterial "t72a_turret"
+     AssignedMaterial "{376CC886B8787677}Assets/Vehicles/Tracked/T-72A/Data/t72a_turret_NVA.emat"
+    }
+   }
+  }
+ }
+}

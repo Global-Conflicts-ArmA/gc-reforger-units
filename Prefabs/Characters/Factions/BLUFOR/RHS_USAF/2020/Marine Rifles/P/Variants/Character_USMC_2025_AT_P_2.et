@@ -1,0 +1,15 @@
+SCR_ChimeraCharacter : "{22DA869BAEB7DBFF}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/P/Variants/Character_USMC_2025_AT_P_1.et" {
+ ID "520EC961A090BBD5"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{CB0481BCFADE8BAB}Prefabs/Weapons/Rifles/M4A1/Marines/Rifle_M4A1_RCO_PEQ_RAS.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{C50D23658C5A6F86}Prefabs/Characters/HeadGear/Helmet_ECH/Helmet_ECH_hc_v_r_p.et"
+    }
+   }
+  }
+ }
+}

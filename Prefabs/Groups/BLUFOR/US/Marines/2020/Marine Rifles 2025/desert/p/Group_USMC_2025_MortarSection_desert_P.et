@@ -1,0 +1,6 @@
+SCR_AIGroup : "{0E4AE7A63930C10E}GitHub/gc-reforger-units/Prefabs/Groups/BLUFOR/US/Marines/2020/Marine Rifles 2025/P/Group_USMC_2025_MortarSection_P.et" {
+ ID "0000000000000001"
+ m_aUnitPrefabSlots {
+  "{F32DF7DC791FDC99}GitHub/gc-reforger-units/Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/Desert/P/Character_USMC_2025_SL_desert_P.et" "{FEFC61D53729DDFB}GitHub/gc-reforger-units/Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/Desert/P/Character_USMC_2025_Mortar_desert_P.et" "{FEFC61D53729DDFB}GitHub/gc-reforger-units/Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/Desert/P/Character_USMC_2025_Mortar_desert_P.et" "{FEFC61D53729DDFB}GitHub/gc-reforger-units/Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/Desert/P/Character_USMC_2025_Mortar_desert_P.et" "{FEFC61D53729DDFB}GitHub/gc-reforger-units/Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/Desert/P/Character_USMC_2025_Mortar_desert_P.et" "{FEFC61D53729DDFB}GitHub/gc-reforger-units/Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/Desert/P/Character_USMC_2025_Mortar_desert_P.et" "{FEFC61D53729DDFB}GitHub/gc-reforger-units/Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/Desert/P/Character_USMC_2025_Mortar_desert_P.et"
+ }
+}

@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{F7B463C0B0E2265B}GitHub/gc-reforger-units/Prefabs/Groups/BLUFOR/US/Marines/2020/Marine Rifles 2025/P/Group_USMC_2025_MortarSection_desert_P.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}
