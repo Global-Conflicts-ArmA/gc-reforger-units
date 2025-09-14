@@ -1,0 +1,36 @@
+Vehicle : "{70D98AF3555BB341}Prefabs/Vehicles/Wheeled/JLTV/OGPK/TOW/JLTV_OGPK_TOW.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{665C28735A76BF83}" {
+     SourceMaterial "Main_Body"
+     AssignedMaterial "{545C8860A582F3EF}Assets/Vehicles/Wheeled/JLTV/data/Main_Body_Green.emat"
+    }
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{5C946CE5223089AE}" {
+   MultiSlots {
+    MultiSlotConfiguration "{633A2A73E1980EEC}" {
+     SlotTemplate InventoryStorageSlot Magazines {
+      Prefab "{C45AE68B74B6136D}Prefabs/Weapons/Tripods/BGM71_TOW/Pod_BGM-71_TOW.et"
+     }
+     NumSlots 3
+    }
+    MultiSlotConfiguration "{665C28770DA8E272}" {
+     SlotTemplate InventoryStorageSlot Turret {
+      Prefab "{C45AE68B74B6136D}Prefabs/Weapons/Tripods/BGM71_TOW/Pod_BGM-71_TOW.et"
+     }
+     NumSlots 3
+    }
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Turret {
+     Prefab "{7F5CC99BFAE12904}Prefabs/Vehicles/Wheeled/JLTV/VehParts/Turrets/TOW/JLTV_OGPK_TOW_OD.et"
+    }
+   }
+  }
+ }
+}
