@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{464268B2BFA7FE84}Prefabs/Groups/BLUFOR/US/Marines_2020s_Rifles/Group_USMC_2020s_RiflePHQ_P.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

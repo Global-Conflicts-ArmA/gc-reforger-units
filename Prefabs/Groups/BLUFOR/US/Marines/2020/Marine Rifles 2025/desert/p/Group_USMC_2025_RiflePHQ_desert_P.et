@@ -1,0 +1,6 @@
+SCR_AIGroup : "{464268B2BFA7FE84}GitHub/gc-reforger-units/Prefabs/Groups/BLUFOR/US/Marines/2020/Marine Rifles 2025/P/Group_USMC_2025_RiflePHQ_P.et" {
+ ID "61BAFE2216B1833D"
+ m_aUnitPrefabSlots {
+  "{889A53F38680FAB6}GitHub/gc-reforger-units/Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/Desert/P/Character_USMC_2025_PL_desert_P.et" "{82E0A1D1DAFF0D5C}GitHub/gc-reforger-units/Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/Desert/P/Character_USMC_2025_PSG_desert_P.et" "{01F76B07AA591E7A}GitHub/gc-reforger-units/Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/Desert/P/Character_USMC_2025_RTO_desert_P.et" "{9CBE6FAE84344E58}GitHub/gc-reforger-units/Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/Desert/P/Character_USMC_2025_Corpsman_desert_P.et" "{9CBE6FAE84344E58}GitHub/gc-reforger-units/Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/Desert/P/Character_USMC_2025_Corpsman_desert_P.et"
+ }
+}
