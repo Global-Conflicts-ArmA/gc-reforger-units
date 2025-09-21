@@ -1,2 +1,237 @@
 # Exclude resource database, since it is locally regenerated anyway, and does not contain important information
 resourceDatabase.rdb
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Deprecated/Marines/Character_RHS_USAF_USMC_Sergeant_P.et
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Deprecated/Marines/Character_RHS_USAF_USMC_Sergeant_P.et.meta
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Deprecated/Marines/Character_RHS_USAF_USMC_TL_P.et
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Deprecated/Marines/Character_RHS_USAF_USMC_TL_P.et.meta
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Deprecated/Marines/Character_RHS_USAF_USMC_TL_Marksman_P.et
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Deprecated/Marines/Character_RHS_USAF_USMC_TL_Marksman_P.et.meta
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Deprecated/Marines/Character_RHS_USAF_USMC_RTO_P.et
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Deprecated/Marines/Character_RHS_USAF_USMC_RTO_P.et.meta
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Deprecated/Marines/Character_RHS_USAF_USMC_Scout_RTO_P.et
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Deprecated/Marines/Character_RHS_USAF_USMC_Scout_RTO_P.et.meta
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Deprecated/Marines/Character_RHS_USAF_USMC_AR_P.et
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Deprecated/Marines/Character_RHS_USAF_USMC_AT_P.et
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Deprecated/Marines/Character_RHS_USAF_USMC_GL_P.et
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Deprecated/Marines/Character_RHS_USAF_USMC_MG_P.et
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Deprecated/Marines/Character_RHS_USAF_USMC_PL_P.et
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Deprecated/Marines/Character_RHS_USAF_USMC_SL_P.et
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Deprecated/Marines/Character_RHS_USAF_USMC_AAR_P.et
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Deprecated/Marines/Character_RHS_USAF_USMC_AAT_P.et
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Deprecated/Marines/Character_RHS_USAF_USMC_AMG_P.et
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Deprecated/Marines/Character_RHS_USAF_USMC_LAT_P.et
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Deprecated/Marines/Character_RHS_USAF_USMC_Ammo_P.et
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Deprecated/Marines/Character_RHS_USAF_USMC_Crew_P.et
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Deprecated/Marines/Character_RHS_USAF_USMC_Scout_P.et
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Deprecated/Marines/Character_RHS_USAF_USMC_Medic_P.et
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Deprecated/Marines/Character_RHS_USAF_USMC_Sapper_P.et
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Deprecated/Marines/Character_RHS_USAF_USMC_Sniper_P.et
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Deprecated/Marines/Character_RHS_USAF_USMC_Spotter_P.et
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Deprecated/Marines/Character_RHS_USAF_USMC_AR_P.et.meta
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Deprecated/Marines/Character_RHS_USAF_USMC_AT_P.et.meta
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Deprecated/Marines/Character_RHS_USAF_USMC_GL_P.et.meta
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Deprecated/Marines/Character_RHS_USAF_USMC_MG_P.et.meta
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Deprecated/Marines/Character_RHS_USAF_USMC_PL_P.et.meta
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Deprecated/Marines/Character_RHS_USAF_USMC_SL_P.et.meta
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Deprecated/Marines/Character_RHS_USAF_USMC_Officer_P.et
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Deprecated/Marines/Character_RHS_USAF_USMC_Unarmed_P.et
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Deprecated/Marines/Character_RHS_USAF_USMC_AAR_P.et.meta
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Deprecated/Marines/Character_RHS_USAF_USMC_AAT_P.et.meta
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Deprecated/Marines/Character_RHS_USAF_USMC_AMG_P.et.meta
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Deprecated/Marines/Character_RHS_USAF_USMC_LAT_P.et.meta
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Deprecated/Marines/Character_RHS_USAF_USMC_HeliCrew_P.et
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Deprecated/Marines/Character_RHS_USAF_USMC_Rifleman_P.et
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Deprecated/Marines/Character_RHS_USAF_USMC_Ammo_P.et.meta
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Deprecated/Marines/Character_RHS_USAF_USMC_Crew_P.et.meta
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Deprecated/Marines/Character_RHS_USAF_USMC_HeliPilot_P.et
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Deprecated/Marines/Character_RHS_USAF_USMC_BaseLoadout.et
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Deprecated/Marines/Character_RHS_USAF_USMC_Scout_P.et.meta
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Deprecated/Marines/Character_RHS_USAF_USMC_Medic_P.et.meta
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Deprecated/Marines/Character_RHS_USAF_USMC_Sapper_P.et.meta
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Deprecated/Marines/Character_RHS_USAF_USMC_Sniper_P.et.meta
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Deprecated/Marines/Character_RHS_USAF_USMC_Spotter_P.et.meta
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Deprecated/Marines/Character_RHS_USAF_USMC_Officer_P.et.meta
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Deprecated/Marines/Character_RHS_USAF_USMC_Unarmed_P.et.meta
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Deprecated/Marines/Character_RHS_USAF_USMC_CrewLdr_P.et
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Deprecated/Marines/Character_RHS_USAF_USMC_HeliCrew_P.et.meta
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Deprecated/Marines/Character_RHS_USAF_USMC_Rifleman_P.et.meta
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Deprecated/Marines/Character_RHS_USAF_USMC_HeliPilot_P.et.meta
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Deprecated/Marines/Character_RHS_USAF_USMC_BaseLoadout.et.meta
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Deprecated/Marines/Character_RHS_USAF_USMC_CrewDriver_P.et
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Deprecated/Marines/Character_RHS_USAF_USMC_CrewGunner_P.et
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Deprecated/Marines/Character_RHS_USAF_USMC_CrewLdr_P.et.meta
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Deprecated/Marines/Character_RHS_USAF_USMC_CrewCommander_P.et
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Deprecated/Marines/Character_RHS_USAF_USMC_CrewDriver_P.et.meta
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Deprecated/Marines/Character_RHS_USAF_USMC_CrewGunner_P.et.meta
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Deprecated/Marines/Character_RHS_USAF_USMC_CrewCommander_P.et.meta
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Rangers/Character_RHS_RANGER_09_ATAS.et
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Rangers/Character_RHS_RANGER_09_ATAS.et.meta
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Rangers/P/Character_RHS_RANGER_09_ATAS_P.et
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Rangers/P/Character_RHS_RANGER_09_ATAS_P.et.meta
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/Character_USMC_2025_AR.et
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/Character_USMC_2025_AR.et.meta
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/Character_USMC_2025_BaseLoadout.et
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/Character_USMC_2025_BaseLoadout.et.meta
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/Character_USMC_2025_Corpsman.et
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/Character_USMC_2025_Corpsman.et.meta
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/Character_USMC_2025_GL.et
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/Character_USMC_2025_GL.et.meta
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/Character_USMC_2025_LAT.et
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/Character_USMC_2025_LAT.et.meta
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/Character_USMC_2025_MG.et
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/Character_USMC_2025_MG.et.meta
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/Character_USMC_2025_PL.et
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/Character_USMC_2025_PL.et.meta
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/Character_USMC_2025_PSG.et
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/Character_USMC_2025_PSG.et.meta
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/Character_USMC_2025_RF.et
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/Character_USMC_2025_RF.et.meta
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/Character_USMC_2025_RTO.et
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/Character_USMC_2025_RTO.et.meta
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/Character_USMC_2025_SL.et
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/Character_USMC_2025_SL.et.meta
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/Character_USMC_2025_TL.et
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/Character_USMC_2025_TL.et.meta
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/P/Character_USMC_2025_AMG_P.et
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/P/Character_USMC_2025_AMG_P.et.meta
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/P/Character_USMC_2025_AmmoB_P.et
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/P/Character_USMC_2025_AmmoB_P.et.meta
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/P/Character_USMC_2025_AR_P.et
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/P/Character_USMC_2025_AR_P.et.meta
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/P/Character_USMC_2025_AT_P.et
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/P/Character_USMC_2025_AT_P.et.meta
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/P/Character_USMC_2025_Corpsman_P.et
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/P/Character_USMC_2025_Corpsman_P.et.meta
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/P/Character_USMC_2025_FO_P.et
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/P/Character_USMC_2025_FO_P.et.meta
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/P/Character_USMC_2025_GL_P.et
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/P/Character_USMC_2025_GL_P.et.meta
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/P/Character_USMC_2025_LAT_P.et
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/P/Character_USMC_2025_LAT_P.et.meta
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/P/Character_USMC_2025_MG_P.et
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/P/Character_USMC_2025_MG_P.et.meta
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/P/Character_USMC_2025_Mortar_P.et
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/P/Character_USMC_2025_Mortar_P.et.meta
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/P/Character_USMC_2025_PL_P.et
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/P/Character_USMC_2025_PL_P.et.meta
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/P/Character_USMC_2025_PSG_P.et
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/P/Character_USMC_2025_PSG_P.et.meta
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/P/Character_USMC_2025_RF_P.et
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/P/Character_USMC_2025_RF_P.et.meta
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/P/Character_USMC_2025_RTO_P.et
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/P/Character_USMC_2025_RTO_P.et.meta
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/P/Character_USMC_2025_SL_P.et
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/P/Character_USMC_2025_SL_P.et.meta
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/P/Character_USMC_2025_TL_P.et
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/P/Character_USMC_2025_TL_P.et.meta
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/P/Character_USMC_2025_WepSL_P.et
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/P/Character_USMC_2025_WepSL_P.et.meta
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/P/Variants/Character_USMC_2025_AMG_P_1.et
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/P/Variants/Character_USMC_2025_AMG_P_1.et.meta
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/P/Variants/Character_USMC_2025_AMG_P_2.et
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/P/Variants/Character_USMC_2025_AMG_P_2.et.meta
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/P/Variants/Character_USMC_2025_AmmoB_P_1.et
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/P/Variants/Character_USMC_2025_AmmoB_P_1.et.meta
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/P/Variants/Character_USMC_2025_AmmoB_P_2.et
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/P/Variants/Character_USMC_2025_AmmoB_P_2.et.meta
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/P/Variants/Character_USMC_2025_AR_P_1.et
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/P/Variants/Character_USMC_2025_AR_P_1.et.meta
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/P/Variants/Character_USMC_2025_AR_P_2.et
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/P/Variants/Character_USMC_2025_AR_P_2.et.meta
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/P/Variants/Character_USMC_2025_AR_P_3.et
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/P/Variants/Character_USMC_2025_AR_P_3.et.meta
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/P/Variants/Character_USMC_2025_AT_P_1.et
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/P/Variants/Character_USMC_2025_AT_P_1.et.meta
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/P/Variants/Character_USMC_2025_AT_P_2.et
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/P/Variants/Character_USMC_2025_AT_P_2.et.meta
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/P/Variants/Character_USMC_2025_Corpsman_P_1.et
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/P/Variants/Character_USMC_2025_Corpsman_P_1.et.meta
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/P/Variants/Character_USMC_2025_Corpsman_P_2.et
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/P/Variants/Character_USMC_2025_Corpsman_P_2.et.meta
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/P/Variants/Character_USMC_2025_FO_P_1.et
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/P/Variants/Character_USMC_2025_FO_P_1.et.meta
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/P/Variants/Character_USMC_2025_GL_P_1.et
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/P/Variants/Character_USMC_2025_GL_P_1.et.meta
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/P/Variants/Character_USMC_2025_GL_P_2.et
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/P/Variants/Character_USMC_2025_GL_P_2.et.meta
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/P/Variants/Character_USMC_2025_LAT_P_1.et
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/P/Variants/Character_USMC_2025_LAT_P_1.et.meta
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/P/Variants/Character_USMC_2025_LAT_P_2.et
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/P/Variants/Character_USMC_2025_LAT_P_2.et.meta
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/P/Variants/Character_USMC_2025_LAT_P_3.et
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/P/Variants/Character_USMC_2025_LAT_P_3.et.meta
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/P/Variants/Character_USMC_2025_MG_P_1.et
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/P/Variants/Character_USMC_2025_MG_P_1.et.meta
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/P/Variants/Character_USMC_2025_MG_P_2.et
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/P/Variants/Character_USMC_2025_MG_P_2.et.meta
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/P/Variants/Character_USMC_2025_PL_P_1.et
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/P/Variants/Character_USMC_2025_PL_P_1.et.meta
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/P/Variants/Character_USMC_2025_PSG_P_1.et
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/P/Variants/Character_USMC_2025_PSG_P_1.et.meta
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/P/Variants/Character_USMC_2025_RF_P_1.et
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/P/Variants/Character_USMC_2025_RF_P_1.et.meta
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/P/Variants/Character_USMC_2025_RF_P_2.et
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/P/Variants/Character_USMC_2025_RF_P_2.et.meta
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/P/Variants/Character_USMC_2025_RTO_P_1.et
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/P/Variants/Character_USMC_2025_RTO_P_1.et.meta
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/P/Variants/Character_USMC_2025_SL_P_1.et
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/P/Variants/Character_USMC_2025_SL_P_1.et.meta
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/P/Variants/Character_USMC_2025_TL_P_1.et
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/P/Variants/Character_USMC_2025_TL_P_1.et.meta
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/P/Variants/Character_USMC_2025_TL_P_2.et
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/P/Variants/Character_USMC_2025_TL_P_2.et.meta
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/P/Variants/Character_USMC_2025_TL_P_3.et
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/P/Variants/Character_USMC_2025_TL_P_3.et.meta
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/P/Variants/Character_USMC_2025_WepSL_P_1.et
+Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/P/Variants/Character_USMC_2025_WepSL_P_1.et.meta
+Prefabs/Groups/BLUFOR/US/Marines/2020/Marine Rifles 2025/Group_USMC_2025_RiflePHQ.et
+Prefabs/Groups/BLUFOR/US/Marines/2020/Marine Rifles 2025/Group_USMC_2025_RiflePHQ.et.meta
+Prefabs/Groups/BLUFOR/US/Marines/2020/Marine Rifles 2025/Group_USMC_2025_RifleSquad.et
+Prefabs/Groups/BLUFOR/US/Marines/2020/Marine Rifles 2025/Group_USMC_2025_RifleSquad.et.meta
+Prefabs/Groups/BLUFOR/US/Marines/2020/Marine Rifles 2025/P/Group_USMC_2025_MGSquad_P.et
+Prefabs/Groups/BLUFOR/US/Marines/2020/Marine Rifles 2025/P/Group_USMC_2025_MGSquad_P.et.meta
+Prefabs/Groups/BLUFOR/US/Marines/2020/Marine Rifles 2025/P/Group_USMC_2025_MortarSection_P.et
+Prefabs/Groups/BLUFOR/US/Marines/2020/Marine Rifles 2025/P/Group_USMC_2025_MortarSection_P.et.meta
+Prefabs/Groups/BLUFOR/US/Marines/2020/Marine Rifles 2025/P/Group_USMC_2025_RiflePHQ_P.et
+Prefabs/Groups/BLUFOR/US/Marines/2020/Marine Rifles 2025/P/Group_USMC_2025_RiflePHQ_P.et.meta
+Prefabs/Groups/BLUFOR/US/Marines/2020/Marine Rifles 2025/P/Group_USMC_2025_RifleSquad_P.et
+Prefabs/Groups/BLUFOR/US/Marines/2020/Marine Rifles 2025/P/Group_USMC_2025_RifleSquad_P.et.meta
+Prefabs/Groups/BLUFOR/US/Marines/2020/Marine Rifles 2025/sources.txt
+Prefabs/Weapons/Rifles/M4A1/Marines/Rifle_M4A1_RCO_PEQ_RAS.et.meta
+Prefabs/Weapons/Rifles/M4A1/Marines/Rifle_M4A1_RCO_PEQ_RAS.et
+Prefabs/Weapons/Rifles/M4A1/Marines/Rifle_M4A1_RCO_PEQ_NT4_RAS.et.meta
+Prefabs/Weapons/Rifles/M4A1/Marines/Rifle_M4A1_RCO_PEQ_NT4_RAS.et
+Prefabs/Weapons/Rifles/M4A1/Marines/Rifle_M4A1_RCO_PEQ_NT4.et.meta
+Prefabs/Weapons/Rifles/M4A1/Marines/Rifle_M4A1_RCO_PEQ_NT4.et
+Prefabs/Weapons/Rifles/M4A1/Marines/Rifle_M4A1_RCO_PEQ.et.meta
+Prefabs/Weapons/Rifles/M4A1/Marines/Rifle_M4A1_RCO_PEQ.et
+Prefabs/Weapons/Rifles/M4A1/Marines/Rifle_M4A1_M203_RAS_RCO_PEQ_NT4.et.meta
+Prefabs/Weapons/Rifles/M4A1/Marines/Rifle_M4A1_M203_RAS_RCO_PEQ_NT4.et
+Prefabs/Weapons/Rifles/M4A1/Marines/Rifle_M4A1_M203_RAS_RCO_PEQ.et.meta
+Prefabs/Weapons/Rifles/M4A1/Marines/Rifle_M4A1_M203_RAS_RCO_PEQ.et
+Prefabs/Weapons/Rifles/M27IAR/Marines-VCOGs/Rifle_M27IAR_VCOG_rangefinder.et.meta
+Prefabs/Weapons/Rifles/M27IAR/Marines-VCOGs/Rifle_M27IAR_VCOG_rangefinder.et
+Prefabs/Weapons/Rifles/M27IAR/Marines-VCOGs/Rifle_M27IAR_VCOG_railcoversgrip.et.meta
+Prefabs/Weapons/Rifles/M27IAR/Marines-VCOGs/Rifle_M27IAR_VCOG_railcoversgrip.et
+Prefabs/Weapons/Rifles/M27IAR/Marines-VCOGs/Rifle_M27IAR_VCOG_railcovers.et.meta
+Prefabs/Weapons/Rifles/M27IAR/Marines-VCOGs/Rifle_M27IAR_VCOG_railcovers.et
+Prefabs/Weapons/Rifles/M27IAR/Marines-VCOGs/Rifle_M27IAR_VCOG_M320.et.meta
+Prefabs/Weapons/Rifles/M27IAR/Marines-VCOGs/Rifle_M27IAR_VCOG_M320.et
+Prefabs/Weapons/Rifles/M27IAR/Marines-VCOGs/Rifle_M27IAR_VCOG_grippod.et.meta
+Prefabs/Weapons/Rifles/M27IAR/Marines-VCOGs/Rifle_M27IAR_VCOG_grippod.et
+Prefabs/Weapons/Rifles/M27IAR/Marines-VCOGs/Rifle_M27IAR_VCOG_foregrip.et.meta
+Prefabs/Weapons/Rifles/M27IAR/Marines-VCOGs/Rifle_M27IAR_VCOG_foregrip.et
+Prefabs/Weapons/Rifles/M27IAR/Marines-VCOGs/Rifle_M27IAR_VCOG_bipod.et.meta
+Prefabs/Weapons/Rifles/M27IAR/Marines-VCOGs/Rifle_M27IAR_VCOG_bipod.et
+Prefabs/Weapons/Rifles/M27IAR/Marines-VCOGs/Rifle_M27IAR_VCOG.et.meta
+Prefabs/Weapons/Rifles/M27IAR/Marines-VCOGs/Rifle_M27IAR_VCOG.et
+Prefabs/Weapons/Rifles/M27IAR/Marines-VCOGs/Rifle_M27IAR_camo1_VCOG_rangefinder.et.meta
+Prefabs/Weapons/Rifles/M27IAR/Marines-VCOGs/Rifle_M27IAR_camo1_VCOG_rangefinder.et
+Prefabs/Weapons/Rifles/M27IAR/Marines-VCOGs/Rifle_M27IAR_camo1_VCOG_railcoversgrip.et.meta
+Prefabs/Weapons/Rifles/M27IAR/Marines-VCOGs/Rifle_M27IAR_camo1_VCOG_railcoversgrip.et
+Prefabs/Weapons/Rifles/M27IAR/Marines-VCOGs/Rifle_M27IAR_camo1_VCOG_grippod.et.meta
+Prefabs/Weapons/Rifles/M27IAR/Marines-VCOGs/Rifle_M27IAR_camo1_VCOG_grippod.et
+Prefabs/Weapons/Rifles/M27IAR/Marines-VCOGs/Rifle_M27IAR_camo1_VCOG.et.meta
+Prefabs/Weapons/Rifles/M27IAR/Marines-VCOGs/Rifle_M27IAR_camo1_VCOG.et
+Prefabs/Weapons/HeavyWeapons/2A46/Cannon_2A46_NVA.et.meta
+Prefabs/Weapons/HeavyWeapons/2A46/Cannon_2A46_NVA.et
