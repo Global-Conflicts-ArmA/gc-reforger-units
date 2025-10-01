@@ -1,0 +1,16 @@
+GenericEntity : "{E4BD8EF0745F0C30}Prefabs/Weapons/Rifles/M27IAR/Marines-VCOGs/Rifle_M27IAR_VCOG.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{65C6A5452935EAA5}" {
+     AttachmentSlot InventoryStorageSlot m320 {
+      Prefab "{8F97E4E57A562D02}Prefabs/Weapons/Attachments/Underbarrel/L17_UGL.et"
+     }
+     AttachmentType AttachmentUnderBarrelM203 "{65C6A54517DC20FD}" {
+     }
+    }
+   }
+  }
+ }
+}

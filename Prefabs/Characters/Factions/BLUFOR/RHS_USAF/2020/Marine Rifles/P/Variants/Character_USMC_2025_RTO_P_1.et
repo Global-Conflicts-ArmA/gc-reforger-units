@@ -1,0 +1,58 @@
+SCR_ChimeraCharacter : "{CB31B6B506128B53}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/P/Character_USMC_2025_RTO_P.et" {
+ ID "520EC961A090BBD5"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{DD2BC1626FEF9BCB}Prefabs/Weapons/Rifles/M4A1/Marines/Rifle_M4A1_RCO_PEQ.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{BABE1B6C0065846A}Prefabs/Characters/HeadGear/Helmet_ECH/Helmet_ECH_lc_r_p.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{1300A5F6CA51B206}Prefabs/Characters/Vests/Vest_PCGen_III/Vest_PCGen_III.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{370F2FA5F2BB3159}Prefabs/Characters/Vests/Vest_PCGen_III/Variants/Vest_PCGen_III_rifleman_lefty.et.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{65C6A542121615AB}" {
+     TargetStorage "Vest/Vest_PCGen_III_rifleman_lefty.et.et/Pouch1/Pouch_OpenTop_M27_1_pouch_r.et"
+     PrefabsToSpawn + {
+      "{B5693611B92F0BAA}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_Coy_30rnd_M855A1.et"
+     }
+    }
+    ItemsInitConfigurationItem "{65C6A54254E304ED}" {
+     TargetStorage "Vest/Vest_PCGen_III_rifleman_lefty.et.et/tako1/Pouch_FILBE_doubleM4_1.et"
+    }
+    ItemsInitConfigurationItem "{65C6A54342B860B8}" {
+     TargetStorage "Vest/Vest_PCGen_III_rifleman_lefty.et.et/tako2/Pouch_FILBE_doubleM4_2.et"
+    }
+    ItemsInitConfigurationItem "{65C6A54258B85A65}" {
+     TargetStorage "Vest/Vest_PCGen_III_rifleman_lefty.et.et/camerleft/Pouch_FILBE_doubleM4_3.et"
+    }
+    ItemsInitConfigurationItem "{65C6A5425B177F54}" {
+     TargetStorage "Vest/Vest_PCGen_III_rifleman_lefty.et.et/raid/Pouch_Shaw_Raid.et"
+     PrefabsToSpawn {
+      "{B5693611B92F0BAA}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_Coy_30rnd_M855A1.et"
+     }
+    }
+    ItemsInitConfigurationItem "{65C6A543F8A0733C}" {
+     TargetStorage "Vest/Vest_PCGen_III_rifleman_lefty.et.et/m67/Pouch_Filbe_M67_Base.et"
+    }
+    ItemsInitConfigurationItem "{65C6A543C7044531}" {
+     TargetStorage "Vest/Vest_PCGen_III_rifleman_lefty.et.et/m67_2/Pouch_Filbe_M67_2.et"
+    }
+    ItemsInitConfigurationItem "{65C6A543D08CD03E}" {
+     TargetStorage "Vest/Vest_PCGen_III_rifleman_lefty.et.et/m18_2/Pouch_Filbe_M18_2.et"
+    }
+    ItemsInitConfigurationItem "{65C6A5436BD1A65E}" {
+     TargetStorage "Vest/Vest_PCGen_III_rifleman_lefty.et.et/util/Pouch_Filbe_M18_1.et"
+    }
+   }
+  }
+ }
+}
