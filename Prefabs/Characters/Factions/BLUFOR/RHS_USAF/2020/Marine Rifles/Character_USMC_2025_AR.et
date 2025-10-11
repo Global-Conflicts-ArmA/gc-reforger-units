@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{CF5E9F72F151BF4F}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/Character_USMC_2025_RF.et" {
+SCR_ChimeraCharacter : "{CF5E9F72F151BF4F}GitHub/gc-reforger-units/Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/Character_USMC_2025_RF.et" {
  ID "520EC961A090BBD5"
  components {
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
@@ -7,7 +7,7 @@ SCR_ChimeraCharacter : "{CF5E9F72F151BF4F}Prefabs/Characters/Factions/BLUFOR/RHS
    }
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
-   WeaponTemplate "{8EE87FB9EB8F0BD1}Prefabs/Weapons/Rifles/M27IAR/Marines-VCOGs/Rifle_M27IAR_VCOG_grippod.et"
+   WeaponTemplate "{645CD00934FD03C6}GitHub/gc-reforger-units/Prefabs/Weapons/Rifles/M27IAR/Marines-VCOGs/Rifle_M27IAR_VCOG_bipod.et"
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {

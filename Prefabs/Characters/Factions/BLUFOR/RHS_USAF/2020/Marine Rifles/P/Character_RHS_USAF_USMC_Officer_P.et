@@ -1,8 +1,0 @@
-SCR_ChimeraCharacter : "{8CD3EE2E80AB4820}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Character_RHS_USAF_USMC_Officer.et" {
- ID "520EC961A090BBD5"
- components {
-  PS_PlayableComponent "{5EFCC1946F475F15}" {
-   m_bIsPlayable 1
-  }
- }
-}

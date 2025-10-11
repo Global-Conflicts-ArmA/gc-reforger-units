@@ -1,8 +1,0 @@
-SCR_ChimeraCharacter : "{70F8C68A5ACB7AB5}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Character_RHS_USAF_USMC_MG.et" {
- ID "520EC961A090BBD5"
- components {
-  PS_PlayableComponent "{5EFCC1946F475F15}" {
-   m_bIsPlayable 1
-  }
- }
-}
