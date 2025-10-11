@@ -1,0 +1,32 @@
+Vehicle : "{43C4AF1EEBD001CE}Prefabs/Vehicles/Wheeled/UAZ452/UAZ452_ambulance.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{66827C813DACDEF1}" {
+     SourceMaterial "uaz452_body"
+     AssignedMaterial "{4406EEE84B2971D1}Assets/Vehicles/Wheeled/UAZ452/Data/uaz452_body_NVA.emat"
+    }
+    MaterialAssignClass "{66827C813DACDE84}" {
+     SourceMaterial "uaz452_interior_2"
+     AssignedMaterial "{9659114193FC4133}Assets/Vehicles/Wheeled/UAZ452/Data/uaz452_interior_2_NVA.emat"
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    m_sFaction "GC_NVA"
+   }
+  }
+  SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+   "faction affiliation" "GC_NVA"
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo RearCargo {
+     Prefab "{97FE085487DBA155}Prefabs/Vehicles/Wheeled/UAZ452/VehParts/VehPart_UAZ452_rearCargo_ambulance_NVA.et"
+    }
+   }
+  }
+ }
+}

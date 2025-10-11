@@ -1,0 +1,13 @@
+GenericEntity : "{2E7A21E3425E60D4}Prefabs/Vehicles/Wheeled/UAZ452/VehParts/VehPart_UAZ452_rearCargo_ambulance.et" {
+ ID "4B42E71698F5739C"
+ components {
+  MeshObject "{4B42E716914465B9}" {
+   Materials {
+    MaterialAssignClass "{668282244C2E033E}" {
+     SourceMaterial "uaz452_interior_2"
+     AssignedMaterial "{9659114193FC4133}Assets/Vehicles/Wheeled/UAZ452/Data/uaz452_interior_2_NVA.emat"
+    }
+   }
+  }
+ }
+}

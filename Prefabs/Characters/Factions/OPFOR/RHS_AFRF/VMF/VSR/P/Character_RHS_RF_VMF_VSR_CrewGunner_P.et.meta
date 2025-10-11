@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{8E461907FA345841}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VMF/VSR/P/Character_RHS_RF_VMF_VSR_CrewGunner_P.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

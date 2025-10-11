@@ -1,0 +1,105 @@
+Vehicle : "{E62EEF185EC31C54}Prefabs/Vehicles/Wheeled/JLTV/Unarmed/JLTV_Unarmed.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    Name "#SPC_EditableEntity_JLTV_OGPK_Name"
+    m_Image "{41F0D81E32784B2E}UI/Textures/EditorPreviews/Vehicles/Wheeled/JLTV/JLTV_OGPK.edds"
+    m_aAuthoredLabels {
+     3 36 20 200 21 1001
+    }
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{5EDC86E4AF8908B6}" {
+      m_Value 1000
+     }
+     SCR_EntityBudgetValue "{665C28770DA8ED9B}" {
+     }
+    }
+    m_aOccupantFillCompartmentTypes + {
+     1
+    }
+    m_aCrewEntityBudgetCost {
+     SCR_EntityBudgetValue "{665C28770DA8E260}" {
+      m_BudgetType AI
+      m_Value 1
+     }
+    }
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{5C946CE5223089AE}" {
+   Attributes SCR_ItemAttributeCollection "{5C946CE5312E449E}" {
+    CustomAttributes {
+     PreviewRenderAttributes "{5C946CE50DF003B0}" {
+      PreviewPrefab "{E49B4C9AEA70BE3F}Prefabs/Vehicles/Wheeled/JLTV/OGPK/M2HB/JLTV_OGPK.et"
+     }
+    }
+   }
+   MultiSlots {
+    MultiSlotConfiguration "{633A2A73E1980EEC}" {
+     SlotTemplate InventoryStorageSlot Magazines {
+      Prefab "{C45AE68B74B6136D}Prefabs/Weapons/Tripods/BGM71_TOW/Pod_BGM-71_TOW.et"
+     }
+     NumSlots 3
+    }
+    MultiSlotConfiguration "{665C28770DA8E272}" {
+     SlotTemplate InventoryStorageSlot Turret {
+      Prefab "{C45AE68B74B6136D}Prefabs/Weapons/Tripods/BGM71_TOW/Pod_BGM-71_TOW.et"
+     }
+     NumSlots 3
+    }
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    EntitySlotInfo Roof {
+     Enabled 0
+    }
+    RegisteringComponentSlotInfo Turret {
+     Prefab "{1CDA36376CD566C3}Prefabs/Vehicles/Wheeled/JLTV/VehParts/Turrets/TOW/JLTV_OGPK_TOW.et"
+     DisablePhysicsInteraction 1
+     RegisterActions 1
+     RegisterDamage 1
+     RegisterControllers 1
+     RegisterCompartments 1
+    }
+   }
+   SlotMappers {
+    CompartmentToSlotMapping Turret {
+     SlotName "Turret"
+     Coverage 0.75
+     Compartments {
+      "PilotCompartment" "Passenger_L02" "Passenger_R02" "Passenger_R01"
+     }
+    }
+   }
+  }
+  ActionsManagerComponent "{C97BE5489221AE18}" {
+   ActionContexts {
+    UserActionContext "{665C28770DA8E245}" {
+     ContextName "Gunner_SwitchSeat"
+     Position PointInfo "{665C28770DA8E24A}" {
+      PivotID "Gunner_SwitchSeat"
+     }
+    }
+   }
+   additionalActions {
+    WCS_RearmVehicleAtRepairStationAction "{633A2A732CC2E5C2}" {
+     ParentContextList {
+      "door_l02" "door_r02"
+     }
+     UIInfo SCR_ActionContextUIInfo "{633A2A735AA87AB7}" {
+      Name "#WCS-UserAction_RearmVehicle M2HB #AR-AmmunitionID_127x99mm"
+     }
+     m_aRearmData {
+      WCS_VehicleRearmData "{62A1474EC72288A4}" {
+       magazine "{4EC57F7A71F869BF}Prefabs/Weapons/Magazines/Box_127x99_CROWS_M2_200rnd_4AP_1APIT.et"
+       maxAmount 4
+       unitSupplyCost 20
+      }
+     }
+    }
+   }
+  }
+ }
+ coords 0 0 0
+}

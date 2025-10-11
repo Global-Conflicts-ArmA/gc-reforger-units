@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{4B1E42F72C091C90}Prefabs/Groups/OPFOR/Russia/1990s/Airborne Infantry 1993/AFRF_VDV_1993_PHQ_P.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

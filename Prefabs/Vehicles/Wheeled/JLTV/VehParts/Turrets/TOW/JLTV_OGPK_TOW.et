@@ -1,0 +1,48 @@
+Turret : "{9D9A4C546BA1CCFF}Prefabs/Vehicles/Wheeled/JLTV/VehParts/Turrets/JLTV_OGPK.et" {
+ ID "51ACD0965653D003"
+ components {
+  LM_SuppressionVehicleComponent "{665C287685294132}" {
+   m_aSuppressionDefinitions {
+    LM_SuppressionVehicleSuppressionData "{665C28768FF878CB}" {
+     m_fDampenProjectile 0.3
+     m_fDampenProjectileGunner 0
+     m_fDampenExplosion 0.5
+    }
+   }
+  }
+  SCR_BaseCompartmentManagerComponent "{51ACFBB07A14CFA6}" {
+   CompartmentSlots {
+    TurretCompartmentSlot TurretCompartment {
+     CompartmentUniqueName "pilot"
+     PassengerPositionInfo EntitySlotInfo "{B1CB25848A3D93A8}" {
+      Offset -0.2153 -0.0525 0.22
+     }
+    }
+   }
+  }
+  TurretControllerComponent "{51ACD09C61C183E4}" {
+   LimitsHoriz -5 5
+   LimitsVert -20 30
+  }
+  WCS_Armament_LoadoutComponentProxy "{665C2876237E4EF9}" {
+  }
+  SlotManagerComponent "{665C28779BF57C07}" {
+   Slots {
+    EntitySlotInfo Magazine {
+     PivotID "v_turret_01"
+     Offset 0 -0.945 0.7517
+     Angles 0 -17.1952 0
+     MergePhysics 0
+     Prefab "{9021495A6CBF0D50}Prefabs/Weapons/Tripods/BGM71_TOW/Pod_BGM-71_TOW_Turret.et"
+     DisablePhysicsInteraction 1
+    }
+   }
+  }
+  WeaponSlotComponent "{51ACD09C6BFEEE6A}" {
+   AttachType InventoryStorageSlot "{0AACE7470E421D82}" {
+    Offset 0 0.0434 0
+   }
+   WeaponTemplate "{52120E4BA120661B}Prefabs/Weapons/Core/Armament_Empty.et"
+  }
+ }
+}

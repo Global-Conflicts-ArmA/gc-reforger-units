@@ -1,0 +1,21 @@
+GameEntity : "{BBA08EC4EC40FA94}Prefabs/Characters/Uniforms/Jacket_M70.et" {
+ ID "5104869D194C6243"
+ components {
+  MeshObject "{5104869D194C6262}" {
+   Materials {
+    MaterialAssignClass "{6671171A5F80228A}" {
+     SourceMaterial "Jacket_M70_01_item"
+     AssignedMaterial "{1BCC2D6368539F3E}Assets/Characters/Uniforms/Jacket_M70/Data/Jacket_M70_Green_item.emat"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5104869D194C627A}" {
+   WornMaterialsOverride {
+    "{91998878F8C724D7}Assets/Characters/Uniforms/Jacket_M70/Data/Jacket_M70_Green.emat"
+   }
+   ItemMaterialsOverride {
+    "{1BCC2D6368539F3E}Assets/Characters/Uniforms/Jacket_M70/Data/Jacket_M70_Green_item.emat"
+   }
+  }
+ }
+}

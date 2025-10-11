@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{CDAABCC4924E71CE}Prefabs/Groups/OPFOR/Russia/1990s/Naval Infantry 1993/AFRF_VMF_1993_RifleSquad.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

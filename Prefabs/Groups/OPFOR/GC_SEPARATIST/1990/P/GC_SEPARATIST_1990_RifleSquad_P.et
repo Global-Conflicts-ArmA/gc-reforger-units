@@ -1,0 +1,14 @@
+SCR_AIGroup : "{B50B7BF31273C2A6}Prefabs/Groups/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Group_RHS_RF_MSV_VKPO_DS_Base.et" {
+ ID "0000000000000001"
+ components {
+  SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+   m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+    m_sFaction "GC_SEPARATIST"
+   }
+  }
+ }
+ m_faction "GC_SEPARATIST"
+ m_aUnitPrefabSlots {
+  "{730520492F439698}Prefabs/Characters/Factions/OPFOR/GC_SEP/1990/P/Character_SEP_1990_SL_P.et" "{D68098C4FB0522F2}Prefabs/Characters/Factions/OPFOR/GC_SEP/1990/P/Character_SEP_1990_AR_P.et" "{6B50CA43841E3EEC}Prefabs/Characters/Factions/OPFOR/GC_SEP/1990/P/Character_SEP_1990_AT_P.et" "{0CBAE3124787C4BC}Prefabs/Characters/Factions/OPFOR/GC_SEP/1990/P/Character_SEP_1990_GL_P.et" "{A183104FB634329A}Prefabs/Characters/Factions/OPFOR/GC_SEP/1990/P/Character_SEP_1990_TL_P.et" "{43ED5345D6FF976B}Prefabs/Characters/Factions/OPFOR/GC_SEP/1990/P/Character_SEP_1990_MG_P.et" "{C62B9817669A3BAC}Prefabs/Characters/Factions/OPFOR/GC_SEP/1990/P/Character_SEP_1990_Rifleman_P.et"
+ }
+}

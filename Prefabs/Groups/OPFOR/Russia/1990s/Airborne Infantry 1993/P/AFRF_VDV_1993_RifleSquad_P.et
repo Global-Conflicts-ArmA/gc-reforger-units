@@ -1,0 +1,12 @@
+SCR_AIGroup : "{FBCBEC3350A421B1}Prefabs/Groups/OPFOR/Russia/1990s/Airborne Infantry 1993/AFRF_VDV_1993_RifleSquad.et" {
+ ID "0000000000000001"
+ components {
+  SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+   m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+   }
+  }
+ }
+ m_aUnitPrefabSlots {
+  "{9D463D61EE2EA031}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/VSR/P/Character_RHS_RF_VDV_VSR_SL_P.et" "{38C385EC3A68145B}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/VSR/P/Character_RHS_RF_VDV_VSR_AR_P.et" "{8513D76B45730845}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/VSR/P/Character_RHS_RF_VDV_VSR_AT_P.et" "{730E2EA93D2B6374}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/VSR/P/Character_RHS_RF_VDV_VSR_AAT_P.et" "{5236E62C3E8DA171}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/VSR/P/Character_RHS_RF_VDV_VSR_SR_P.et" "{9C8B9873CCDE470E}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/VSR/P/Character_RHS_RF_VDV_VSR_Rifleman_P.et"
+ }
+}

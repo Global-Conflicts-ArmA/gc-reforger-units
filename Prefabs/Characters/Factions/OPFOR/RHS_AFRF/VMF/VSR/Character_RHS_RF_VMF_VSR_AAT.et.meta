@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{476458A6BDE778C2}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VMF/VSR/Character_RHS_RF_VMF_VSR_AAT.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

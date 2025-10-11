@@ -1,0 +1,15 @@
+Vehicle : "{B120CDDBEF8DB007}Prefabs/Vehicles/Wheeled/M998/M1025_armed_base.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+   MultiSlots {
+    MultiSlotConfiguration "{665C3221AB898DCC}" {
+     SlotTemplate InventoryStorageSlot "{665C3221A92A8177}" {
+      Prefab "{C45AE68B74B6136D}Prefabs/Weapons/Tripods/BGM71_TOW/Pod_BGM-71_TOW.et"
+     }
+     NumSlots 6
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{BED60C6D1A60FB31}Prefabs/Characters/Factions/OPFOR/GC_SEP/1990/Character_SEP_1990_CrewDriver_p.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

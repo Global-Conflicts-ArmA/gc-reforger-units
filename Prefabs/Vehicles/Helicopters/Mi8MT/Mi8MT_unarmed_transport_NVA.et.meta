@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{466DA56F8591A722}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_unarmed_transport_NVA.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

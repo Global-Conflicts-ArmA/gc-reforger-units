@@ -25,6 +25,12 @@ Vehicle : "{254289B9C09904AB}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2.et" {
    }
    m_iMaxAllowedDepth 2
   }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    Name "SPW-40P2"
+    m_sFaction "GC_NVA"
+   }
+  }
   SCR_UniversalInventoryStorageComponent "{607E9AA3D83AA29D}" {
    MultiSlots {
     MultiSlotConfiguration "{62F49BC4717082CC}" {

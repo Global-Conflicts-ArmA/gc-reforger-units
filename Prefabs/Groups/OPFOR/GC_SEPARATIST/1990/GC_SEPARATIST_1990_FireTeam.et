@@ -1,0 +1,15 @@
+SCR_AIGroup : "{B50B7BF31273C2A6}Prefabs/Groups/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Group_RHS_RF_MSV_VKPO_DS_Base.et" {
+ ID "0000000000000001"
+ components {
+  SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+   m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+    m_sFaction "GC_SEPARATIST"
+   }
+  }
+ }
+ coords 309.126 15.856 2957.85
+ m_faction "GC_SEPARATIST"
+ m_aUnitPrefabSlots {
+  "{F47196272B75A80D}Prefabs/Characters/Factions/OPFOR/GC_SEP/1990/Character_SEP_TL.et" "{161FD52D4BBE0DFC}Prefabs/Characters/Factions/OPFOR/GC_SEP/1990/Character_SEP_MG.et" "{4EB2EF8AB2F10DEB}Prefabs/Characters/Factions/OPFOR/GC_SEP/1990/Character_SEP_Sharpshooter.et" "{5B882C82EF033ABD}Prefabs/Characters/Factions/OPFOR/GC_SEP/1990/Character_SEP_Rifleman.et"
+ }
+}

@@ -1,0 +1,5 @@
+MatPBRDecal : "{0418C5226701B4E1}Assets/Vehicles/Helicopters/Mi8/Data/MI8_Flag_decals_01.emat" {
+ AlphaMul 0
+ BCRMap "{94FDB5FCA6CFA9A4}Assets/Vehicles/Helicopters/Mi8/Data/emblem_nva_lsk_BCR.edds"
+ OpacityMap "{E9854324351940E2}Assets/Vehicles/Helicopters/Mi8/Data/emblem_nva_lsk_O.edds"
+}

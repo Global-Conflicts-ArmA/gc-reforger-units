@@ -1,0 +1,11 @@
+SCR_AIGroup : "{A6E7FBD99B47CC72}Prefabs/Groups/CIV/Generic/Group_CIV_Generic_03.et" {
+ ID "0000000000000001"
+ components {
+  PS_GroupCallsignAssigner "{6664B57E9D08CD4F}" {
+  }
+ }
+ m_aUnitPrefabSlots {
+  "{BF38869730F83577}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_Randomized_P.et" "{BF38869730F83577}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_Randomized_P.et" "{BF38869730F83577}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_Randomized_P.et"
+ }
+ m_bPlayable 1
+}

@@ -1,0 +1,13 @@
+Vehicle : "{3085BE631A0DDBDE}Prefabs/Vehicles/Wheeled/M998/M1025_armed_BGM-71.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+   MultiSlots {
+    MultiSlotConfiguration "{665C3221AB898DCC}" {
+     SlotTemplate InventoryStorageSlot "{665C3221A92A8177}" {
+     }
+    }
+   }
+  }
+ }
+}

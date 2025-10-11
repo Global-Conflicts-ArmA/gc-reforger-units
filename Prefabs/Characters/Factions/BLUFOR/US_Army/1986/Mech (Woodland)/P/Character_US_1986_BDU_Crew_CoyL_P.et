@@ -1,0 +1,14 @@
+SCR_ChimeraCharacter : "{4455EACEA2B6602B}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Mech (Woodland)/Character_US_1986_BDU_Brad_CO_AI.et" {
+ ID "520EC961A090B1EE"
+ components {
+  PS_PlayableComponent "{5EFCC1946F475F15}" {
+   m_bIsPlayable 1
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Company Commander"
+    Icon "{A26C465A6AE2AA17}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_Leader.edds"
+   }
+  }
+ }
+}

@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{4D2C3C1544AE13CF}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/VSR/P/Character_RHS_RF_VDV_VSR_HeliCrew_P.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

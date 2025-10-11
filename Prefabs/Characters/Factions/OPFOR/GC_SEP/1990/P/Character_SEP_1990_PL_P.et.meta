@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{79A070049953651F}Prefabs/Characters/Factions/OPFOR/GC_SEP/1990/Character_SEP_1990_PL_P.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

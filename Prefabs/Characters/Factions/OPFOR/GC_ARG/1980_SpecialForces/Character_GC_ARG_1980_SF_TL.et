@@ -33,7 +33,7 @@ SCR_ChimeraCharacter : "{0E74C9F36755655C}Prefabs/Characters/Factions/BLUFOR/UK_
    WeaponTemplate "{880A80C1FD1AE546}Prefabs/Weapons/Handguns/APS/Handgun_APS.et"
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
-   WeaponTemplate "{CB8B89B1BEAAE71D}Prefabs/Weapons/Rifles/AR15_604/Rifle_CAR15_653.et"
+   WeaponTemplate "{506C8219CF6F46B8}Prefabs/Weapons/Rifles/M16/Rifle_CAR15_653.et"
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
    WeaponTemplate ""

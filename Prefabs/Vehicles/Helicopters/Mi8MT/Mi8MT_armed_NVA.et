@@ -1,0 +1,25 @@
+Vehicle : "{7BD282AF716ED639}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_armed.et" {
+ ID "5A7CEB06421662F8"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{6684CE25835B1F48}" {
+     SourceMaterial "Exterier_35715EB3956D22B9"
+     AssignedMaterial "{D9F69D256814AF95}Assets/Vehicles/Helicopters/Mi8/Data/Mi8_Body_NVA.emat"
+    }
+    MaterialAssignClass "{6684CE25835B1F59}" {
+     SourceMaterial "Flag_decals_01_0418C5226701B4E1"
+     AssignedMaterial "{F862852174A6178B}Assets/Vehicles/Helicopters/Mi8/Data/MI8_Flag_decals_01_NVA.emat"
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    m_sFaction "GC_NVA"
+   }
+  }
+  SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+   "faction affiliation" "GC_NVA"
+  }
+ }
+}

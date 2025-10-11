@@ -1,0 +1,85 @@
+SCR_ChimeraCharacter : "{290CC7354CC97778}Prefabs/Characters/Factions/OPFOR/GC_SEP/1990/Character_SEP_1990_BaseLoadout.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_Sharpshooter"
+    Icon "{0A78405E73C36477}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_Sharpshooter.edds"
+    m_Image "{8EFE184F9A90211B}UI/Textures/EditorPreviews/Characters/INDFOR/FIA/Character_FIA_Sharpshooter.edds"
+    m_aAuthoredLabels + {
+     33
+    }
+    m_aAutoLabels {
+     122 47
+    }
+   }
+  }
+  CharacterGrenadeSlotComponent "{520EA1D2F659CE6E}" {
+   WeaponTemplate "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{C1B4F7B87B720EE8}Prefabs/Weapons/Rifles/Mosin/BC_Rifle_Mosin_Nagant_B32.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
+   WeaponTemplate "{C0F7DD85A86B2900}Prefabs/Weapons/Handguns/PM/Handgun_PM.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{6E3CF6FD00EEDA1D}Prefabs/Characters/HeadGear/Hat_Knitted_01/Cap_Comforter_OD_02.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{C7861F11D5334C0E}Prefabs/Characters/Uniforms/Jacket_US_BDU.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{6925E6C63EBCF623}Prefabs/Characters/Uniforms/Pants_Trousers_01/Pants_Trousers_01_DarkBrown.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{4C6029AB8BF5C044}Prefabs/Characters/Footwear/CombatBoots_Soviet_01_Dirty.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{12C8933903D18885}Prefabs/Characters/Vests/Vest_SovietHarness/Variants/Vest_SovietHarness_sharpshooter.et"
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab ""
+    }
+    LoadoutSlotInfo Face {
+     Prefab "{DBFF84DD336E1065}Prefabs/Characters/HeadGear/Masks/Masks_Keela_Snood/Masks_Keela_Snood_GRN.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6642965313B334DF}" {
+     TargetStorage "Pants/Pants_Trousers_01_DarkBrown.et"
+     PrefabsToSpawn {
+      "{C819E0B7454461F2}Prefabs/Items/Equipment/Compass/Compass_Adrianov_Map.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et" "{F759F0488730620F}Prefabs/Items/Equipment/Accessories/Scabbard_Bayonet_6Kh4/Scabbard_Bayonet_6Kh4.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6642965313B334DB}" {
+     TargetStorage "Jacket/Jacket_US_BDU.et"
+    }
+    ItemsInitConfigurationItem "{66429653138A3B03}" {
+     TargetStorage "Vest/Vest_SovietHarness_sharpshooter.et/MagPouch_6Sh46/Pouch_Soviet_10rnd_SVD.et"
+     PrefabsToSpawn {
+      "{4A5DC7CD376BCA74}Prefabs/Weapons/Magazines/BC_Magazine_762x54_B32_Mosin_Nagant.et" "{4A5DC7CD376BCA74}Prefabs/Weapons/Magazines/BC_Magazine_762x54_B32_Mosin_Nagant.et" "{4A5DC7CD376BCA74}Prefabs/Weapons/Magazines/BC_Magazine_762x54_B32_Mosin_Nagant.et" "{4A5DC7CD376BCA74}Prefabs/Weapons/Magazines/BC_Magazine_762x54_B32_Mosin_Nagant.et" "{4A5DC7CD376BCA74}Prefabs/Weapons/Magazines/BC_Magazine_762x54_B32_Mosin_Nagant.et" "{4A5DC7CD376BCA74}Prefabs/Weapons/Magazines/BC_Magazine_762x54_B32_Mosin_Nagant.et" "{4A5DC7CD376BCA74}Prefabs/Weapons/Magazines/BC_Magazine_762x54_B32_Mosin_Nagant.et" "{4A5DC7CD376BCA74}Prefabs/Weapons/Magazines/BC_Magazine_762x54_B32_Mosin_Nagant.et" "{4A5DC7CD376BCA74}Prefabs/Weapons/Magazines/BC_Magazine_762x54_B32_Mosin_Nagant.et" "{4A5DC7CD376BCA74}Prefabs/Weapons/Magazines/BC_Magazine_762x54_B32_Mosin_Nagant.et" "{4A5DC7CD376BCA74}Prefabs/Weapons/Magazines/BC_Magazine_762x54_B32_Mosin_Nagant.et" "{4A5DC7CD376BCA74}Prefabs/Weapons/Magazines/BC_Magazine_762x54_B32_Mosin_Nagant.et" "{4A5DC7CD376BCA74}Prefabs/Weapons/Magazines/BC_Magazine_762x54_B32_Mosin_Nagant.et" "{4A5DC7CD376BCA74}Prefabs/Weapons/Magazines/BC_Magazine_762x54_B32_Mosin_Nagant.et" "{4A5DC7CD376BCA74}Prefabs/Weapons/Magazines/BC_Magazine_762x54_B32_Mosin_Nagant.et" "{4A5DC7CD376BCA74}Prefabs/Weapons/Magazines/BC_Magazine_762x54_B32_Mosin_Nagant.et" "{4A5DC7CD376BCA74}Prefabs/Weapons/Magazines/BC_Magazine_762x54_B32_Mosin_Nagant.et" "{4A5DC7CD376BCA74}Prefabs/Weapons/Magazines/BC_Magazine_762x54_B32_Mosin_Nagant.et" "{4A5DC7CD376BCA74}Prefabs/Weapons/Magazines/BC_Magazine_762x54_B32_Mosin_Nagant.et" "{4A5DC7CD376BCA74}Prefabs/Weapons/Magazines/BC_Magazine_762x54_B32_Mosin_Nagant.et" "{4A5DC7CD376BCA74}Prefabs/Weapons/Magazines/BC_Magazine_762x54_B32_Mosin_Nagant.et" "{4A5DC7CD376BCA74}Prefabs/Weapons/Magazines/BC_Magazine_762x54_B32_Mosin_Nagant.et" "{4A5DC7CD376BCA74}Prefabs/Weapons/Magazines/BC_Magazine_762x54_B32_Mosin_Nagant.et" "{4A5DC7CD376BCA74}Prefabs/Weapons/Magazines/BC_Magazine_762x54_B32_Mosin_Nagant.et" "{4A5DC7CD376BCA74}Prefabs/Weapons/Magazines/BC_Magazine_762x54_B32_Mosin_Nagant.et" "{4A5DC7CD376BCA74}Prefabs/Weapons/Magazines/BC_Magazine_762x54_B32_Mosin_Nagant.et" "{4A5DC7CD376BCA74}Prefabs/Weapons/Magazines/BC_Magazine_762x54_B32_Mosin_Nagant.et" "{4A5DC7CD376BCA74}Prefabs/Weapons/Magazines/BC_Magazine_762x54_B32_Mosin_Nagant.et" "{4A5DC7CD376BCA74}Prefabs/Weapons/Magazines/BC_Magazine_762x54_B32_Mosin_Nagant.et" "{4A5DC7CD376BCA74}Prefabs/Weapons/Magazines/BC_Magazine_762x54_B32_Mosin_Nagant.et" "{4A5DC7CD376BCA74}Prefabs/Weapons/Magazines/BC_Magazine_762x54_B32_Mosin_Nagant.et" "{4A5DC7CD376BCA74}Prefabs/Weapons/Magazines/BC_Magazine_762x54_B32_Mosin_Nagant.et" "{4A5DC7CD376BCA74}Prefabs/Weapons/Magazines/BC_Magazine_762x54_B32_Mosin_Nagant.et" "{4A5DC7CD376BCA74}Prefabs/Weapons/Magazines/BC_Magazine_762x54_B32_Mosin_Nagant.et" "{4A5DC7CD376BCA74}Prefabs/Weapons/Magazines/BC_Magazine_762x54_B32_Mosin_Nagant.et" "{4A5DC7CD376BCA74}Prefabs/Weapons/Magazines/BC_Magazine_762x54_B32_Mosin_Nagant.et" "{4A5DC7CD376BCA74}Prefabs/Weapons/Magazines/BC_Magazine_762x54_B32_Mosin_Nagant.et" "{4A5DC7CD376BCA74}Prefabs/Weapons/Magazines/BC_Magazine_762x54_B32_Mosin_Nagant.et" "{4A5DC7CD376BCA74}Prefabs/Weapons/Magazines/BC_Magazine_762x54_B32_Mosin_Nagant.et" "{4A5DC7CD376BCA74}Prefabs/Weapons/Magazines/BC_Magazine_762x54_B32_Mosin_Nagant.et" "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et" "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et"
+     }
+    }
+    ItemsInitConfigurationItem "{66429653138A12CE}" {
+     TargetStorage "Pants/Pants_Trousers_01_DarkBrown.et"
+     PrefabsToSpawn {
+      "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+     }
+    }
+    ItemsInitConfigurationItem "{66429653138A12C3}" {
+     TargetStorage "Jacket/Jacket_US_BDU.et"
+     PrefabsToSpawn {
+      "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{F849217AB3BA88BE}Prefabs/Items/Equipment/Maps/PaperMap_01_folded_USSR.et"
+     }
+    }
+   }
+  }
+ }
+}
