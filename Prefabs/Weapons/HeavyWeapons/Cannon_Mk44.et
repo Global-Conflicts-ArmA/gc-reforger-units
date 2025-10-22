@@ -5,13 +5,8 @@ GenericEntity : "{F54F6C453A8CB478}Prefabs/Weapons/Core/MachineGun_Base.et" {
    components {
     MuzzleComponent "{50F64C4591CD7AA6}" {
      FireModes {
-      BaseFireMode "{B80A64F4A8EF8333}" {
-       RoundsPerMinute 200
-       UIName "200RPM"
-      }
       BaseFireMode "{655556C6FD6F5E67}" {
-       RoundsPerMinute 100
-       UIName "100RPM"
+       RoundsPerMinute 200
       }
      }
     }
