@@ -1,0 +1,64 @@
+Turret : "{78E9F4C87A36268F}Prefabs/Vehicles/Wheeled/K17/Turret_K17_Berezok.et" {
+ ID "51ACD0965653D003"
+ components {
+  SCR_BaseCompartmentManagerComponent "{51ACFBB07A14CFA6}" {
+   DoorInfoList {
+    CompartmentDoorInfo "{50B917CA9C90BD91}" {
+     EntryPositionInfo PointInfo "{50B917CA96E757AA}" {
+      Offset 0 2.1293 1.2923
+     }
+     ExitPositionInfo PointInfo "{608F2EE8B0901FC2}" {
+      Offset 0 2.1293 1.2923
+     }
+     GetInTeleport 1
+     GetOutTeleport 1
+    }
+   }
+   CompartmentSlots {
+    RHS_TurretCompartmentSlot TurretCompartment {
+     CompartmentAction RHS_GetInK17UserAction "{5086CC2CFDD3A05A}" {
+      ParentContextList {
+       "default" "Ramp" "GoBackToMainCompartment"
+      }
+     }
+     PassengerPositionInfo EntitySlotInfo "{B1CB25848A3D93A8}" {
+      Offset 0.4092 0.7478 0.7162
+      MergePhysics 1
+     }
+     m_DefaultOccupantData SCR_DefaultOccupantData "{5C829B12B0DE6BBB}" {
+      m_sDefaultOccupantPrefab "{0848BAB1B94FCBBA}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_Crew.et"
+     }
+    }
+   }
+  }
+  WeaponSlotComponent "{51ACD09C6BFEEE6A}" {
+   WeaponType Autocannon
+  }
+  WeaponSlotComponent "{5C829B12B0DE0800}" {
+   WeaponType Autocannon
+  }
+  WeaponSlotComponent "{5C829B13B1076010}" {
+   WeaponType MachineGun
+  }
+  WeaponSlotComponent "{5C8E982104284E92}" {
+   WeaponType GrenadeLauncher
+   WeaponTemplate "{52120E4BA120661B}Prefabs/Weapons/Core/Armament_Empty.et"
+  }
+  WeaponSlotComponent "{5CE63AF8CC840DCE}" {
+   WeaponType RocketLauncher
+  }
+  WeaponSlotComponent "{5E1115FC7EA8AAEE}" {
+   WeaponType SmokeGrenade
+  }
+  ActionsManagerComponent "{51ACD09C7181BA0B}" {
+   ActionContexts {
+    UserActionContext "{6107222E0030333B}" {
+     Position PointInfo "{5EC5119E2465F248}" {
+      Offset 0 2.0636 -0.9288
+     }
+    }
+   }
+  }
+ }
+ coords 0.003 -0.845 0.923
+}
