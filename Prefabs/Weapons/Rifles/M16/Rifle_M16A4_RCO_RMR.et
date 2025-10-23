@@ -1,0 +1,14 @@
+GenericEntity : "{7E9CD221A58D3ECB}Prefabs/Weapons/Rifles/M16/Rifle_M16A4.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{5E0EEDB0BD59EE7D}" {
+     AttachmentSlot RHS_SlidingInventoryStorageSlot Optics {
+      Prefab "{6080874CFDB25EB6}Prefabs/Weapons/Attachments/Optics/Scopes/Optic_TrijiconACOGTA31_RMR/Optic_TrijiconACOGTA31_RMR_ARD.et"
+     }
+    }
+   }
+  }
+ }
+}

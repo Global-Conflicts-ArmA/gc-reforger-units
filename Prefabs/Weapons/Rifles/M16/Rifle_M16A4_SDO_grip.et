@@ -1,0 +1,21 @@
+GenericEntity : "{D5996A54E58B174A}Prefabs/Weapons/Rifles/M16/Rifle_M16A4_SDO.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{5EA2BE953838E77C}" {
+     AttachmentSlot InventoryStorageSlot "{5EA2BE95244FA719}" {
+      Angles 0 0 0
+      Prefab "{0F46DA93CB81F141}Prefabs/Weapons/Attachments/Grips/Grip_KAC_Vertical/RHS_KacVertical_base.et"
+     }
+    }
+    AttachmentSlotComponent "{5EA2BE95B630A07A}" {
+     AttachmentSlot InventoryStorageSlot "{5EA2BE95B7F1B3D5}" {
+      Prefab "{BF667B2E6FAE8C84}Prefabs/Weapons/Attachments/Misc/KacRailCover/KacRailCover_kit_m16a4_ras.et"
+     }
+    }
+   }
+  }
+ }
+ coords 0 5 0
+}
