@@ -1,0 +1,20 @@
+SCR_ChimeraCharacter : "{98B115D8BA2F7392}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Delta/P/Character_CRX_Delta_RF_Random_P.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{36503949C8FDDFBF}Prefabs/Weapons/Rifles/M4A1/USSF/Delta/Rifle_M4A1_BLOCK_0_NT4_FORECON17.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Boots {
+     Prefab "{660952F979E8EBF2}Prefabs/Characters/Footwear/Boots_solomon_ultra_x/Footwear_Altama_Boots.et"
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab "{B9FA26F5990CDEDD}Prefabs/Characters/Handwear/Gloves_MechanixMpact/Gloves_mpack_MC.et"
+    }
+   }
+  }
+ }
+ coords 1837.784 64.344 3353.074
+ angleY 0
+}
