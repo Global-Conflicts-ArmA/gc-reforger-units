@@ -1,0 +1,44 @@
+GenericEntity : "{D5996A54E58B174A}Prefabs/Weapons/Rifles/M16/Rifle_M16A4_SDO.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{5E0EEDB0BD59EE7D}" {
+     AttachmentSlot RHS_SlidingInventoryStorageSlot Optics {
+      Prefab "{ACC9B43941CE5EA6}Prefabs/Weapons/Attachments/Optics/Optic_leupoldMK4/Optic_leupoldMK4.et"
+     }
+    }
+    AttachmentSlotComponent "{5EA2BE953838E77C}" {
+     AttachmentSlot InventoryStorageSlot "{5EA2BE95244FA719}" {
+      Angles 0 0 0
+      Prefab "{0F46DA93CB81F141}Prefabs/Weapons/Attachments/Grips/Grip_KAC_Vertical/RHS_KacVertical_base.et"
+     }
+    }
+    AttachmentSlotComponent "{629ADD50107BFFEA}" {
+     AttachmentSlot RHS_SlidingInventoryStorageSlot "{629ADD500DE777C8}" {
+      Prefab "{A7C848BABE4F4577}Prefabs/Weapons/Attachments/Lasers/psq23/LaserRangefinder_PSQ23_base.et"
+     }
+    }
+    AttachmentSlotComponent "{629ADD528EE856C1}" {
+     AttachmentSlot RHS_SlidingInventoryStorageSlot "{629ADD52ACAC8DC6}" {
+     }
+    }
+    AttachmentSlotComponent "{647D57A4E99CBFA3}" {
+     AttachmentSlot InventoryStorageSlot "{647D57BB184D5F9B}" {
+      Prefab "{23D34FB66BBC8BEE}Prefabs/Weapons/Attachments/Bipods/harris_bipod/rhs_lt706_harris.et"
+     }
+    }
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     components {
+      AttachmentSlotComponent "{626713EF43D3CC9E}" {
+       AttachmentSlot InventoryStorageSlot Muzzle {
+        Prefab "{6188691D38DA6E2D}Prefabs/Weapons/Attachments/Muzzle/SUREFIRE/SF_RC2.et"
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+ coords 0 4 0
+}

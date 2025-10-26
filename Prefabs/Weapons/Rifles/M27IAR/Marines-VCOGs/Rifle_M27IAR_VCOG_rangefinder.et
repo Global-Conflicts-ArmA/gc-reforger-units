@@ -1,0 +1,23 @@
+GenericEntity : "{E4BD8EF0745F0C30}Prefabs/Weapons/Rifles/M27IAR/Rifle_M27IAR_VCOG.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{5CF88C80AF78DA73}" {
+     AttachmentSlot RHS_SlidingInventoryStorageSlot PicattinyRailTop {
+      Prefab ""
+     }
+    }
+    AttachmentSlotComponent "{62995D48566EF6D2}" {
+     AttachmentSlot RHS_SlidingInventoryStorageSlot "{62995D484DB4389A}" {
+     }
+    }
+    AttachmentSlotComponent "{62995D492878682F}" {
+     AttachmentSlot RHS_SlidingInventoryStorageSlot "{62995D4921F33D80}" {
+      Prefab "{A7C848BABE4F4577}Prefabs/Weapons/Attachments/Lasers/psq23/LaserRangefinder_PSQ23_base.et"
+     }
+    }
+   }
+  }
+ }
+}
