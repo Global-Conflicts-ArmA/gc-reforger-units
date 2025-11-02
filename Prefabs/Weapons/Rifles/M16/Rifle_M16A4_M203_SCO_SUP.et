@@ -1,0 +1,55 @@
+GenericEntity : "{1D0C3A3964B578ED}Prefabs/Weapons/Rifles/M16/Rifle_M16A4_M203_SCO.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{5E0EEDA5B623AB37}" {
+     AttachmentSlot InventoryStorageSlot Handguard_lower {
+      Prefab ""
+     }
+    }
+    AttachmentSlotComponent "{5E0EEDB0BD59EE7D}" {
+     AttachmentSlot RHS_SlidingInventoryStorageSlot Optics {
+      Prefab "{E78D21AD695D0342}Prefabs/Weapons/Attachments/Optics/vc18dsco/optic_vc18dsco_rmr.et"
+     }
+    }
+    AttachmentSlotComponent "{5EA2BE953838E77C}" {
+     AttachmentSlot InventoryStorageSlot "{5EA2BE95244FA719}" {
+      Offset 0 0.0813 0.1184
+      Angles 0 0 0
+      Prefab "{239CEF0C9AB5556E}Prefabs/Weapons/Attachments/Underbarrel/UGL_RHS_M203.et"
+     }
+     AttachmentType AttachmentUnderBarrelM203 "{5EA2BE9520A33E05}" {
+     }
+    }
+    AttachmentSlotComponent "{61749A66C4BA094E}" {
+     Enabled 0
+     AttachmentSlot InventoryStorageSlot bayonet {
+      Enabled 0
+     }
+    }
+    AttachmentSlotComponent "{629ADD50107BFFEA}" {
+     AttachmentSlot RHS_SlidingInventoryStorageSlot "{629ADD500DE777C8}" {
+      Prefab "{0FFFB0BCE1A21A2E}Prefabs/Weapons/Attachments/Lasers/anpeq16/Laser_ANPEQ16.et"
+     }
+    }
+    AttachmentSlotComponent "{647D57A4E99CBFA3}" {
+     Enabled 0
+     AttachmentSlot InventoryStorageSlot "{647D57BB184D5F9B}" {
+      Enabled 0
+     }
+    }
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     components {
+      AttachmentSlotComponent "{626713EF43D3CC9E}" {
+       AttachmentSlot InventoryStorageSlot Muzzle {
+        Prefab "{EF8F44E10F9B7A9D}Prefabs/Weapons/Attachments/Muzzle/KAC_NT4_QDSS/KAC_NT4_QDSS_Covered.et"
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+ coords 0 1 0
+}

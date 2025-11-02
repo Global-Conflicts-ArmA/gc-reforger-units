@@ -1,56 +1,8 @@
-SCR_ChimeraCharacter : "{124577CE46390EBD}Prefabs/Characters/Factions/INDFOR/RHS_ION/Character_RHS_ION_GC.et" {
+SCR_ChimeraCharacter : "{A69945F5A5F1B46C}Prefabs/Characters/Factions/INDFOR/RHS_ION/VIP_Protection/Character_RHS_ION_VIP_Bodyguard_Black.et" {
  ID "520EC961A090B1EE"
  components {
-  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
-   components {
-    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
-     InitialStorageSlots {
-      SCR_EquipmentStorageSlot WristwatchSlot {
-       Prefab "{CCB365E9B5737ECD}Prefabs/Items/Equipment/Watches/Watch_GarminTactixBravo_black.et"
-      }
-     }
-    }
-   }
-  }
   PS_PlayableComponent "{5EFCC1946F475F15}" {
-   m_sName "Personal Bodyguard"
    m_bIsPlayable 1
   }
-  CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
-   WeaponTemplate "{8069A3DF6410FDDF}Prefabs/Weapons/Handguns/M17/Handgun_M17.et"
-  }
-  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
-   Slots {
-    LoadoutSlotInfo Hat {
-     Prefab "{79A869C91A7A1368}Prefabs/Characters/Eyewear/gascan/Eyewear_gascan_Blk.et"
-    }
-    LoadoutSlotInfo Jacket {
-     Prefab "{AE93D885FDF713D4}Prefabs/Characters/Uniforms/Jacket_Suit_01/Jacket_Suit_01_black_V1.et"
-    }
-    LoadoutSlotInfo Pants {
-     Prefab "{1A65EADE4B08583E}Prefabs/Characters/Uniforms/Pants_Suit_01/Pants_Suit_01_black_V1.et"
-    }
-    LoadoutSlotInfo Boots {
-     Prefab "{C7923961D7235D70}Prefabs/Characters/Footwear/CombatBoots_Soviet_01.et"
-    }
-   }
-  }
-  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
-   InitialInventoryItems {
-    ItemsInitConfigurationItem "{65580774304F6001}" {
-     TargetStorage "Pants/Pants_Suit_01_black_V1.et"
-     PrefabsToSpawn {
-      "{13772C903CB5E4F7}Prefabs/Items/Equipment/Maps/PaperMap_01_folded.et" "{61D4F80E49BF9B12}Prefabs/Items/Equipment/Compass/Compass_SY183.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et"
-     }
-    }
-    ItemsInitConfigurationItem "{65580775B6DF2B08}" {
-     TargetStorage "Jacket/Jacket_Suit_01_black_V1.et"
-     PrefabsToSpawn {
-      "{73950FBA2D7DB5C5}Prefabs/Items/Equipment/Radios/Radio_ANPRC68.et" "{8FF49793853DB2F9}Prefabs/Weapons/Magazines/m17_magazines/Magazine_9x19_m17_17rnd.et" "{8FF49793853DB2F9}Prefabs/Weapons/Magazines/m17_magazines/Magazine_9x19_m17_17rnd.et"
-     }
-    }
-   }
-  }
  }
- coords 82.872 4.709 63.444
 }

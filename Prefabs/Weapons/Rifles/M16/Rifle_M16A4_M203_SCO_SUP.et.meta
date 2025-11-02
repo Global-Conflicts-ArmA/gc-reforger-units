@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{23A4C2032C087708}Prefabs/Characters/Factions/INDFOR/RHS_ION/VIP_Protection/Character_RHS_ION_VIP_Bodyguard_Black_P.et"
+ Name "{6A61294F9FE7A0B5}Prefabs/Weapons/Rifles/M16/Rifle_M16A4_M203_SCO_SUP.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }
@@ -12,6 +12,8 @@ MetaFileClass {
   EntityTemplateResourceClass PS5 : PC {
   }
   EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
   }
  }
 }

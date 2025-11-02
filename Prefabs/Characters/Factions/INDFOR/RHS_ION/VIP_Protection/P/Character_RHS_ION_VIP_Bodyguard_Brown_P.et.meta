@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{9E6A9FABAD422D6D}Prefabs/Characters/Factions/INDFOR/RHS_ION/VIP_Protection/P/RHS_ION_VIP_Bodyguard_Brown_P.et"
+ Name "{41CB64855793A80F}Prefabs/Characters/Factions/INDFOR/RHS_ION/VIP_Protection/Character_RHS_ION_VIP_Bodyguard_Brown_P.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }

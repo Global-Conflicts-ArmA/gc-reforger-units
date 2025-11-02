@@ -1,3 +1,4 @@
+/*
 [ComponentEditorProps(category: "GameScripted/GameMode/Components", description: "")]
 class GC_ExplosivesManagerClass : SCR_ExplosiveTriggerComponentClass
 {
@@ -168,3 +169,4 @@ modded class SCR_CharacterControllerComponent
 		super.OnLifeStateChanged(previousLifeState, newLifeState);
 	}
 }
+*/
