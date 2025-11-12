@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{0C5F013876010DB8}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/P/Character_RHS_USAF_USMC_BaseLoadout.et"
+ Name "{BAF15EFF4D7971BD}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_SF/Character_CDF_Modern_SF_OperatorAT.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }
