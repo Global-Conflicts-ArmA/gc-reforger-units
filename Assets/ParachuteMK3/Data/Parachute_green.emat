@@ -1,0 +1,10 @@
+MatPBRBasic {
+ Color 0.105 0.165 0.09 1
+ RoughnessScale 1.25
+ BCRMap "{CF89BBD2398AE81A}Assets/_SharedData/Fabric/ST_Fabric_RoughAligned01_1m_BCR.edds"
+ NMOMap "{F7510040E0FDBA84}Assets/_SharedData/Fabric/ST_Fabric_RoughAligned01_1m_NMO.edds"
+ GlobalMapsUVTransform MatUVTransform "{66D562F0C8E47B85}" {
+  TilingU 5
+  TilingV 5
+ }
+}

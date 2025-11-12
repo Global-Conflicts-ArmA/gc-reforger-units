@@ -1,0 +1,8 @@
+GenericEntity : "{23DA0939B0158024}Prefabs/Items/Equipment/Backpacks/Backpack_Kolobok_Parachute.et" {
+ ID "511E9C6ADE70F798"
+ components {
+  ParachuteItemComponent "{6594945265DDB21D}" {
+   m_ParachutePrefab "{19163A5CEB7B7F4B}Prefabs/DeployedParachutes/Core/DeployedParachuteMK3_green.et"
+  }
+ }
+}
