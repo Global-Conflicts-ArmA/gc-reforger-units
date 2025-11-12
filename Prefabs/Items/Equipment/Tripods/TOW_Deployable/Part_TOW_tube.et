@@ -20,5 +20,12 @@ GenericEntity : "{61127FAA581F91FB}Prefabs/Items/Core/DeployablePart_Base.et" {
   BaseLoadoutClothComponent "{618CCE7DB8D53A4E}" {
    ItemModel "{8B18F253431C769C}Assets/Items/Equipment/Backpacks/Backpack_TeamWeaponBag/Backpack_TeamWeaponBag_item.xob"
   }
+  SCR_EditableEntityComponent "{66D929B19B57D8B7}" {
+   m_EntityType ITEM
+   m_UIInfo SCR_EditableEntityUIInfo "{66D929B19F0C9B2D}" {
+    Name "TOW Tube Ruck"
+    m_sFaction "US"
+   }
+  }
  }
 }

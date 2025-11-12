@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{A59B0B4F266E09B8}Prefabs/Items/Core/TOW_tube_TEST.et"
+ Name "{7B2ACBF99D5E6604}Prefabs/Items/Equipment/Tripods/TOW_Deployable_TEST/Part_TOW_tube_TEST.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }
