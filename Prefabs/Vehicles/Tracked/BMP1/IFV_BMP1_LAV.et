@@ -1,0 +1,20 @@
+Vehicle : "{3CDE8B1088474B56}Prefabs/Vehicles/Tracked/BMP1/IFV_BMP1_base.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    Name "BMP1 with RHS LAV Turret"
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Turret {
+     Offset 0 0.6362 -0.1424
+     Prefab "{EFF08C8B467C3380}Prefabs/Vehicles/Wheeled/LAV25/VehParts/Turret/LAV25_turret_rhs.et"
+     DisablePhysicsInteraction 1
+     RegisterActions 1
+    }
+   }
+  }
+ }
+}

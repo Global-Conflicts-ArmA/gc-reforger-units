@@ -1,0 +1,145 @@
+Turret : "{8021A4D1ADFCF506}Prefabs/Vehicles/Tracked/BMP1/VehParts/Turret/BMP1_Turret.et" {
+ ID "51ACD0965653D003"
+ components {
+  SCR_BaseCompartmentManagerComponent "{51ACFBB07A14CFA6}" {
+   DoorInfoList {
+    CompartmentDoorReference "{631B71C1445DE82C}" {
+    }
+    CompartmentDoorInfo "{631B5770CB4B4109}" {
+     AnimDoorIndex 1
+     OpenDoorAction SCR_OpenVehicleDoorUserAction "{666326A69105B04E}" {
+      ParentContextList {
+       "gunnerHatch"
+      }
+      UIInfo SCR_ActionUIInfo "{666326A69105B04C}" {
+       Name "#AR-UserAction_Open"
+       m_sIconName "use"
+      }
+      "Sort Priority" 5
+     }
+     CloseDoorAction SCR_CloseVehicleDoorUserAction "{666326A69105B053}" {
+      ParentContextList {
+       "gunnerHatch"
+      }
+      UIInfo SCR_ActionUIInfo "{666326A691059887}" {
+       Name "#AR-UserAction_Close"
+       m_sIconName "use"
+      }
+      "Sort Priority" 5
+     }
+     EntryPositionInfo PointInfo "{666326A691059882}" {
+     }
+     ExitPositionInfo PointInfo "{666326A691059883}" {
+     }
+     AccessibilitySettings CompartmentAccessibilityContext "{666326A69105988E}" {
+     }
+    }
+   }
+   CompartmentSlots {
+    TurretCompartmentSlot TurretCompartment {
+     CompartmentAction SCR_GetInUserAction "{5086CC2CFDD3A05A}" {
+      ParentContextList + {
+       "door_back_right" "door_back_left"
+      }
+     }
+     SwitchSeatAction SCR_SwitchSeatAction "{509D566648F37562}" {
+     }
+     AdditionalActions {
+      SCR_RemoveCasualtyUserAction "{5D56867A46DBE769}" {
+      }
+      SCR_RemoveCasualtyUserAction "{61089D59F48D7BD2}" {
+      }
+     }
+     PassengerPositionInfo EntitySlotInfo "{B1CB25848A3D93A8}" {
+     }
+     DoorInfoList {
+      1 2 3
+     }
+     UIInfo UIInfo "{50870A10DCCDED83}" {
+     }
+     m_DefaultOccupantData SCR_DefaultOccupantData "{666326A6910598FE}" {
+     }
+    }
+   }
+  }
+  TurretControllerComponent "{51ACD09C61C183E4}" {
+   LimitsVert -4 30
+  }
+  TurretComponent "{5E52AE0A31173B5F}" {
+   components {
+    SCR_2DSightsComponent "{5E52AE0A31173B59}" {
+     SightsFOVInfo SCR_SightsZoomFOVInfo "{5E52AE0A31173B5A}" {
+      m_fBaseZoom 6.7
+      m_fZoomMax 6.7
+     }
+     m_fMagnification 6.7
+     m_fObjectiveFov 7
+    }
+   }
+  }
+  WCS_Armament_LoadoutComponent "{631B65CED86F63D9}" {
+   m_ArmamentGroups {
+    WCS_ArmamentWeaponGroup "{631B65CEC82D33F6}" {
+     prefab "{D8164D5681A8FE4D}Prefabs/Weapons/AircraftWeapons/MissilePods/Pod_9M113.et"
+     weaponsInfo {
+      WCS_ArmamentWeaponInfo "{631B65CF475E623B}" {
+       Position PointInfo rocket {
+        PivotID "v_gun_02"
+       }
+      }
+     }
+    }
+   }
+  }
+  SlotManagerComponent "{5E52AE0A31173B6B}" {
+   Slots {
+    EntitySlotInfo Backing {
+     Prefab "{8AC34F414573FD57}Prefabs/Vehicles/Tracked/BMP1/VehParts/Turret/BMP1P_Turret_Back.et"
+    }
+   }
+  }
+  WeaponSlotComponent "{51ACD09C6BFEEE6A}" {
+   WeaponType SmokeGrenade
+   AttachType InventoryStorageSlot "{0AACE7470E421D82}" {
+    Offset 0 0 1.4
+   }
+   WeaponTemplate "{50441A9C9DA65037}Prefabs/Weapons/HeavyWeapons/2A42/Weapon_2A42.et"
+  }
+  WeaponSlotComponent "{5E52AE02F56B04C8}" {
+   WeaponType Autocannon
+   AttachType InventoryStorageSlot "{5E52AE02C9C7228C}" {
+    PivotID "v_gun_01_front"
+    Offset 0 0 1.4
+   }
+   WeaponTemplate "{E6C710B3D6043754}Prefabs/Weapons/HeavyWeapons/2A42/Weapon_2A42_HE.et"
+   WeaponSlotIndex 1
+  }
+  WeaponSlotComponent "{5E52AE0A31173B77}" {
+   WeaponType MachineGun
+  }
+  WeaponSlotComponent "{64E93AAE9DD3BC5B}" {
+   Enabled 0
+   WeaponType RocketLauncher
+  }
+  ActionsManagerComponent "{51ACD09C7181BA0B}" {
+   additionalActions {
+    SCR_ResupplyTurretBeltSupportStationAction "{64E237D1CE8D1664}" {
+     "Sort Priority" 22
+    }
+    SCR_ResupplyTurretBeltSupportStationAction "{64E237D12A706AE6}" {
+     "Sort Priority" 23
+    }
+    WCS_RearmVehicleAtRepairStationAction "{64F3486162868A70}" {
+     "Sort Priority" 0
+     m_bSameVehicleOnly 1
+     m_aRearmData {
+      WCS_VehicleRearmData "{62A1474EC72288A4}" {
+       magazine "{34E865245A558C62}Prefabs/Weapons/Ammo/Ammo_Missile_9K11.et"
+       unitSupplyCost 50
+      }
+     }
+    }
+   }
+  }
+ }
+}
