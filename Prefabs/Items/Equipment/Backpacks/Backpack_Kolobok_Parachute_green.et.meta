@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{0C5F013876010DB8}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/P/Character_RHS_USAF_USMC_BaseLoadout.et"
+ Name "{DB1A767F2E5EDDA9}Prefabs/Items/Equipment/Backpacks/Backpack_Kolobok_Parachute_green.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }
