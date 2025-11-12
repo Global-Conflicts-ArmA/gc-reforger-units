@@ -3,10 +3,10 @@ Vehicle : "{E62EEF185EC31C54}Prefabs/Vehicles/Wheeled/JLTV/Unarmed/JLTV_Unarmed.
  components {
   SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
    m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
-    Name "#SPC_EditableEntity_JLTV_OGPK_Name"
+    Name "JLTV OGPK BGM-71 TOW"
     m_Image "{41F0D81E32784B2E}UI/Textures/EditorPreviews/Vehicles/Wheeled/JLTV/JLTV_OGPK.edds"
     m_aAuthoredLabels {
-     3 36 20 200 21 1001
+     ENTITYTYPE_VEHICLE TRAIT_PASSENGERS_SMALL TRAIT_ARMOR TRAIT_SUPPLYSTORAGE_SMALL TRAIT_ARMED CONTENT_MODDED TRAIT_ARMORPIERCING ROLE_ANTITANK
     }
     m_EntityBudgetCost {
      SCR_EntityBudgetValue "{5EDC86E4AF8908B6}" {
@@ -16,7 +16,7 @@ Vehicle : "{E62EEF185EC31C54}Prefabs/Vehicles/Wheeled/JLTV/Unarmed/JLTV_Unarmed.
      }
     }
     m_aOccupantFillCompartmentTypes + {
-     1
+     TURRET TURRET
     }
     m_aCrewEntityBudgetCost {
      SCR_EntityBudgetValue "{665C28770DA8E260}" {
@@ -61,15 +61,6 @@ Vehicle : "{E62EEF185EC31C54}Prefabs/Vehicles/Wheeled/JLTV/Unarmed/JLTV_Unarmed.
      RegisterDamage 1
      RegisterControllers 1
      RegisterCompartments 1
-    }
-   }
-   SlotMappers {
-    CompartmentToSlotMapping Turret {
-     SlotName "Turret"
-     Coverage 0.75
-     Compartments {
-      "PilotCompartment" "Passenger_L02" "Passenger_R02" "Passenger_R01"
-     }
     }
    }
   }

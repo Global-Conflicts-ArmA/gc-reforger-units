@@ -9,6 +9,12 @@ Vehicle : "{70D98AF3555BB341}Prefabs/Vehicles/Wheeled/JLTV/OGPK/TOW/JLTV_OGPK_TO
     }
    }
   }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    Name "JLTV OGPK BGM-71 TOW OD"
+    m_Image "{A07FEEEC6EC83D12}UI/Textures/EditorPreviews/Vehicles/Wheeled/JLTV/JLTV_OGPK_Olive.edds"
+   }
+  }
   SlotManagerComponent "{55BCE45E438E4CFF}" {
    Slots {
     RegisteringComponentSlotInfo Turret {
