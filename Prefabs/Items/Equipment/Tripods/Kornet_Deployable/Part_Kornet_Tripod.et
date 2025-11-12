@@ -4,20 +4,14 @@ GenericEntity : "{6A3EF260029FE220}Prefabs/Items/Equipment/Tripods/M2/Part_M3_Tr
   SCR_DeployableInventoryItemInventoryComponent "{5222EB4D0C73006B}" {
    Attributes SCR_ItemAttributeCollection "{5222EB4D0A2B466B}" {
     ItemDisplayName SCR_ItemHintUIInfo "{5222EB4D07D865FA}" {
-     Name "Kornet Tripod test"
-     Description "The tripod part of the test"
+     Name "Kornet Tripod"
+     Description "The tripod part"
      m_aItemHints {
       SCR_DeployableHintUIInfo "{6550AB11AF606194}" {
        Description "Kornet"
       }
      }
     }
-   }
-  }
-  SCR_EditableEntityComponent "{66D929B0F26608A8}" {
-   m_UIInfo SCR_EditableEntityUIInfo "{66D929B0F4CFE5DF}" {
-    Name "Kornet Tripod Ruck"
-    m_sFaction "USSR"
    }
   }
   SCR_MultiPartDeployableItemComponent "{61B46B9C8F38F759}" {
@@ -27,7 +21,7 @@ GenericEntity : "{6A3EF260029FE220}Prefabs/Items/Equipment/Tripods/M2/Part_M3_Tr
      m_sPreviewObject "{009A2768EB347511}Assets/Weapons/Tripods/9M133_Kornet/9M133_Kornet.xob"
      m_aRequiredElements {
       SCR_RequiredDeployablePart "{6554A5A990E8F1B0}" {
-       m_sPrefab "{B3F0D0BA91997196}Prefabs/Items/Equipment/Tripods/Kornet_Deployable_Test/Part_Kornet_tube_TEST.et"
+       m_sPrefab "{B3F0D0BA91997196}Prefabs/Items/Equipment/Tripods/Kornet_Deployable/Part_Kornet_tube.et"
        m_sPartName "Kornet Tripod"
       }
      }
@@ -36,6 +30,15 @@ GenericEntity : "{6A3EF260029FE220}Prefabs/Items/Equipment/Tripods/M2/Part_M3_Tr
   }
   BaseLoadoutClothComponent "{618CCE7DB8D53A4E}" {
    ItemModel "{8B18F253431C769C}Assets/Items/Equipment/Backpacks/Backpack_TeamWeaponBag/Backpack_TeamWeaponBag_item.xob"
+  }
+  ActionsManagerComponent "{508AB5952B584B2E}" {
+   additionalActions {
+    SCR_DeployMultiPartInventoryItemAction "{61B48E9F0815DDEA}" {
+     UIInfo SCR_ActionContextUIInfo "{61B48E9F567C096C}" {
+      Description "Kornet"
+     }
+    }
+   }
   }
  }
 }

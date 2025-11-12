@@ -7,21 +7,14 @@ GenericEntity : "{61127FAA581F91FB}Prefabs/Items/Core/DeployablePart_Base.et" {
   SCR_DeployableInventoryItemInventoryComponent "{5222EB4D0C73006B}" {
    Attributes SCR_ItemAttributeCollection "{5222EB4D0A2B466B}" {
     ItemDisplayName SCR_ItemHintUIInfo "{5222EB4D07D865FA}" {
-     Name "Kornet Tube TEST"
+     Name "Kornet Tube"
      m_aItemHints {
       SCR_CombiningInventoryItemHintUIInfo "{6550AB11AF606194}" {
        Name "Kornet Tube"
-       Description "Builds a Kornet Tripod"
+       Description "Builds a Kornet Tripod; Needs the Tripod"
       }
      }
     }
-   }
-  }
-  SCR_EditableEntityComponent "{66D929B08895FE26}" {
-   m_EntityType ITEM
-   m_UIInfo SCR_EditableEntityUIInfo "{66D929B0974ADD50}" {
-    Name "Kornet Tube Ruck"
-    m_sFaction "USSR"
    }
   }
   BaseLoadoutClothComponent "{618CCE7DB8D53A4E}" {
