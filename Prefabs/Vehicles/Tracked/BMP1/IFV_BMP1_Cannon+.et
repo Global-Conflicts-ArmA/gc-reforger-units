@@ -1,0 +1,17 @@
+Vehicle : "{3CDE8B1088474B56}Prefabs/Vehicles/Tracked/BMP1/IFV_BMP1_base.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    Name "BMP1 with 30mm autocannon"
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Turret {
+     Prefab "{8D156898FAFA2CAE}Prefabs/Vehicles/Tracked/BMP1/VehParts/Turret/BMP1P_Turret_30mm_mod_fix.et"
+    }
+   }
+  }
+ }
+}

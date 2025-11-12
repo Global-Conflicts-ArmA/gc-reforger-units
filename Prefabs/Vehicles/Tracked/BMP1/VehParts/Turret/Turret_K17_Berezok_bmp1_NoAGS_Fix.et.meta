@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{51A1942C866BF11D}Prefabs/Vehicles/Tracked/BMP1/VehParts/Turret/Turret_K17_Berezok_bmp1_NoAGS_Fix.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}
