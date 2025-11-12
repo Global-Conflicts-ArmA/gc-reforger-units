@@ -1,0 +1,35 @@
+GenericEntity : "{6A3EF260029FE220}Prefabs/Items/Equipment/Tripods/M2/Part_M3_Tripod.et" {
+ ID "508AB2013EEE1E00"
+ components {
+  SCR_DeployableInventoryItemInventoryComponent "{5222EB4D0C73006B}" {
+   Attributes SCR_ItemAttributeCollection "{5222EB4D0A2B466B}" {
+    ItemDisplayName SCR_ItemHintUIInfo "{5222EB4D07D865FA}" {
+     Name "Tow Tripod test"
+     Description "The tripod part of the test"
+     m_aItemHints {
+      SCR_DeployableHintUIInfo "{6550AB11AF606194}" {
+       Description "Tow"
+      }
+     }
+    }
+   }
+  }
+  SCR_MultiPartDeployableItemComponent "{61B46B9C8F38F759}" {
+   m_aVariants {
+    SCR_DeployableVariantContainer "{6554A5A99893A7F3}" {
+     m_sReplacementPrefab "{023236B2A390BA5B}Prefabs/Weapons/Tripods/BGM71_TOW/Tripod_BGM-71_TOW.et"
+     m_sPreviewObject "{C3729285C713303A}Assets/Weapons/Tripods/BGM71_TOW/BGM-71_Tripod.xob"
+     m_aRequiredElements {
+      SCR_RequiredDeployablePart "{6554A5A990E8F1B0}" {
+       m_sPrefab "{A59B0B4F266E09B8}Prefabs/Items/Equipment/Tripods/TOW_Deployable_TEST/Part_TOW_tube_TEST.et"
+       m_sPartName "TOW Tripod"
+      }
+     }
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{618CCE7DB8D53A4E}" {
+   ItemModel "{8B18F253431C769C}Assets/Items/Equipment/Backpacks/Backpack_TeamWeaponBag/Backpack_TeamWeaponBag_item.xob"
+  }
+ }
+}
