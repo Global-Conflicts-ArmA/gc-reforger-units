@@ -1,0 +1,54 @@
+SCR_ChimeraCharacter : "{F92C060CACCE8143}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marine Rifles/Character_2025_USMC_BaseW.et" {
+ ID "520EC961A090BBD5"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Mortarman Gunner"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   AttachType InventoryStorageSlot "{0C3DA650B52E120B}" {
+   }
+   WeaponTemplate "{3BB52CEF1659F3C0}Prefabs/Weapons/Rifles/M27IAR/Rifle_M27IAR_camo1_su231A.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{AD8E2730CD2E7E0F}Prefabs/Characters/HeadGear/Helmet_ECH/Helmet_ECH_lc_v_p.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{68CF844B606428D8}Prefabs/Characters/Vests/Vest_PCGen_III/Vest_PCGen_III_light.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{62B704DD79A3B5BE}Prefabs/Items/Equipment/Mortars/M252/Part_M252_Barrel.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{468B5FB07076FA9E}Prefabs/Characters/Vests/Vest_PCGen_III/Variants/Vest_PCGen_III_light_blueforce.et"
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab "{C37319084759FB90}Prefabs/Characters/Handwear/Gloves_MechanixMpact/Gloves_mpack.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{61B52C4506FFE973}" {
+     TargetStorage "Vest/Vest_PCGen_III_light_blueforce.et/radio/Pouch_152_Radio.et"
+    }
+    ItemsInitConfigurationItem "{64A8A6CECABD9FC5}" {
+     TargetStorage "Vest/Vest_PCGen_III_light_blueforce.et/triple/Pouch_Blueforce_Tri.et"
+     TargetPurpose 1
+     PrefabsToSpawn {
+      "{B5693611B92F0BAA}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_Coy_30rnd_M855A1.et" "{B5693611B92F0BAA}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_Coy_30rnd_M855A1.et" "{B5693611B92F0BAA}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_Coy_30rnd_M855A1.et"
+     }
+    }
+    ItemsInitConfigurationItem "{633B07DBBB713D2A}" {
+     TargetStorage "ArmoredVest/Vest_PCGen_III_light.et"
+     PrefabsToSpawn {
+      "{B385064A383A384B}Prefabs/Items/Equipment/Nightvision/PVS14/NVG_PVS14Dual_WP.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{B3F2B47340817ED6}Prefabs/Items/GC_Facepaint_01_US.et"
+     }
+    }
+   }
+  }
+ }
+}

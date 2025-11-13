@@ -1,0 +1,66 @@
+SCR_ChimeraCharacter : "{01F69D7FC332756C}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marine Rifles/WIP/Character_2025_USMC_Corpsman.et" {
+ ID "520EC961A090BBD5"
+ components {
+  PS_PlayableComponent "{5EFCC1946F475F15}" {
+   m_bIsPlayable 1
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{633B07DBBB713D2A}" {
+     PrefabsToSpawn {
+      "{59E0D9B5B6967152}Prefabs/Items/Equipment/Nightvision/PVS31/NVG_PVS31_WP.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{B3F2B47340817ED6}Prefabs/Items/GC_Facepaint_01_US.et"
+     }
+    }
+    ItemsInitConfigurationItem "{66BB748105B50EC1}" {
+     TargetStorage "Vest/Vest_PCGen_III_Medic_shawplacard2.et/Placard/Pouch_Placard.et"
+     PrefabsToSpawn {
+      "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et" "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et"
+     }
+    }
+    ItemsInitConfigurationItem "{66BB748105B50ECC}" {
+     TargetStorage "Vest/Vest_PCGen_III_Medic_shawplacard2.et/flex/Pouch_Shaw_Flex.et"
+     PrefabsToSpawn {
+      "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et"
+     }
+    }
+    ItemsInitConfigurationItem "{66BB748105B50ED2}" {
+     TargetStorage "Vest/Vest_PCGen_III_Medic_shawplacard2.et/flex2/Pouch_FILBE_doubleM4_2.et"
+     PrefabsToSpawn {
+      "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et"
+     }
+    }
+    ItemsInitConfigurationItem "{66BB748105B50ED3}" {
+     TargetStorage "Vest/Vest_PCGen_III_Medic_shawplacard2.et/filbe/Pouch_FILBE_doubleM4_2.et"
+     PrefabsToSpawn {
+      "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et"
+     }
+    }
+    ItemsInitConfigurationItem "{66BB748105B50ED0}" {
+     TargetStorage "Back/FILBE_Backpack.et"
+    }
+    ItemsInitConfigurationItem "{66BB748105B50ED6}" {
+     TargetStorage "Vest/Vest_PCGen_III_Medic_shawplacard2.et/radio/Pouch_152_Radio.et"
+     PrefabsToSpawn {
+      "{5D948A57AF3432ED}Prefabs/Items/Equipment/Radios/Radio_ANPRC152A_OLD_Single.et"
+     }
+    }
+    ItemsInitConfigurationItem "{66BB748105B50ED7}" {
+     TargetStorage "Back/FILBE_Backpack.et"
+     PrefabsToSpawn {
+      "{58CF3AB87C441295}Prefabs/Items/Medicine/AmmoniumCarbonatePackage/ACE_Medical_AmmoniumCarbonatePackage.et" "{58CF3AB87C441295}Prefabs/Items/Medicine/AmmoniumCarbonatePackage/ACE_Medical_AmmoniumCarbonatePackage.et" "{58CF3AB87C441295}Prefabs/Items/Medicine/AmmoniumCarbonatePackage/ACE_Medical_AmmoniumCarbonatePackage.et" "{58CF3AB87C441295}Prefabs/Items/Medicine/AmmoniumCarbonatePackage/ACE_Medical_AmmoniumCarbonatePackage.et" "{58CF3AB87C441295}Prefabs/Items/Medicine/AmmoniumCarbonatePackage/ACE_Medical_AmmoniumCarbonatePackage.et" "{5B2FD067D70C1E8F}Prefabs/Items/Medicine/EpinephrineInjection/ACE_Medical_EpinephrineInjection.et" "{5B2FD067D70C1E8F}Prefabs/Items/Medicine/EpinephrineInjection/ACE_Medical_EpinephrineInjection.et" "{5B2FD067D70C1E8F}Prefabs/Items/Medicine/EpinephrineInjection/ACE_Medical_EpinephrineInjection.et" "{5B2FD067D70C1E8F}Prefabs/Items/Medicine/EpinephrineInjection/ACE_Medical_EpinephrineInjection.et" "{5B2FD067D70C1E8F}Prefabs/Items/Medicine/EpinephrineInjection/ACE_Medical_EpinephrineInjection.et" "{5B2FD067D70C1E8F}Prefabs/Items/Medicine/EpinephrineInjection/ACE_Medical_EpinephrineInjection.et" "{D0434D5215B54181}Prefabs/Items/Medicine/MetoprololInjection/ACE_Medical_MetoprololInjection.et" "{D0434D5215B54181}Prefabs/Items/Medicine/MetoprololInjection/ACE_Medical_MetoprololInjection.et" "{D0434D5215B54181}Prefabs/Items/Medicine/MetoprololInjection/ACE_Medical_MetoprololInjection.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{02DD34077F51F65E}Prefabs/Items/Medicine/NaloxoneInjection/ACE_Medical_NaloxoneInjection.et" "{02DD34077F51F65E}Prefabs/Items/Medicine/NaloxoneInjection/ACE_Medical_NaloxoneInjection.et" "{02DD34077F51F65E}Prefabs/Items/Medicine/NaloxoneInjection/ACE_Medical_NaloxoneInjection.et" "{9BBA766CD869002C}Prefabs/Items/Medicine/PhenylephrineInjection/ACE_Medical_PhenylephrineInjection.et" "{9BBA766CD869002C}Prefabs/Items/Medicine/PhenylephrineInjection/ACE_Medical_PhenylephrineInjection.et" "{9BBA766CD869002C}Prefabs/Items/Medicine/PhenylephrineInjection/ACE_Medical_PhenylephrineInjection.et" "{8435F7561C0FBB44}Prefabs/Items/Medicine/SalineBag_01/SalineBag_01_base.et" "{8435F7561C0FBB44}Prefabs/Items/Medicine/SalineBag_01/SalineBag_01_base.et" "{8435F7561C0FBB44}Prefabs/Items/Medicine/SalineBag_01/SalineBag_01_base.et" "{8435F7561C0FBB44}Prefabs/Items/Medicine/SalineBag_01/SalineBag_01_base.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et" "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et" "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et" "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et" "{C98FCC6CA6C56069}Prefabs/Items/Medicine/AspirinBottle.et" "{C98FCC6CA6C56069}Prefabs/Items/Medicine/AspirinBottle.et" "{C98FCC6CA6C56069}Prefabs/Items/Medicine/AspirinBottle.et" "{C98FCC6CA6C56069}Prefabs/Items/Medicine/AspirinBottle.et" "{C98FCC6CA6C56069}Prefabs/Items/Medicine/AspirinBottle.et"
+     }
+    }
+    ItemsInitConfigurationItem "{66BB748105B50EDA}" {
+     PrefabsToSpawn {
+     }
+    }
+    ItemsInitConfigurationItem "{66BB748105B50EDB}" {
+     TargetStorage "Vest/Vest_PCGen_III_Medic_shawplacard2.et/pistol2/Pouch_Filbe_M18_1.et"
+    }
+    ItemsInitConfigurationItem "{66BB748105B50ED9}" {
+     TargetStorage "Vest/Vest_PCGen_III_Medic_shawplacard2.et/m67_2/Pouch_Filbe_M18_2.et"
+    }
+   }
+  }
+ }
+}

@@ -1,2 +1,22 @@
 # Exclude resource database, since it is locally regenerated anyway, and does not contain important information
 resourceDatabase.rdb
+Prefabs/Weapons/Rifles/M16/Rifle_M16A4_SDO_grip.et.meta
+Prefabs/Weapons/Rifles/M16/Rifle_M16A4_SDO_grip.et
+Prefabs/Weapons/Rifles/M16/Rifle_M16A4_SDO.et
+Prefabs/Weapons/Rifles/M16/Rifle_M16A4_RCO_RMR_grip.et.meta
+Prefabs/Weapons/Rifles/M16/Rifle_M16A4_RCO_RMR_grip.et
+Prefabs/Weapons/Rifles/M16/Rifle_M16A4_RCO_RMR.et.meta
+Prefabs/Weapons/Rifles/M16/Rifle_M16A4_RCO_RMR.et
+Prefabs/Weapons/Rifles/M16/Rifle_M16A4_RCO_Grip.et.meta
+Prefabs/Weapons/Rifles/M16/Rifle_M16A4_RCO_Grip.et
+Prefabs/Weapons/Rifles/M16/Rifle_M16A4_RCO.et.meta
+Prefabs/Weapons/Rifles/M16/Rifle_M16A4_RCO.et
+Prefabs/Weapons/Rifles/M16/Rifle_M16A4_Mk12_SPR_Sup.et.meta
+Prefabs/Weapons/Rifles/M16/Rifle_M16A4_Mk12_SPR_Sup.et
+Prefabs/Weapons/Rifles/M16/Rifle_M16A4_M203_SCO_SUP.et.meta
+Prefabs/Weapons/Rifles/M16/Rifle_M16A4_M203_SCO_SUP.et
+Prefabs/Weapons/Rifles/M16/Rifle_M16A4_M203_SCO.et
+Prefabs/Weapons/Rifles/M16/Rifle_M16A4_M203_RCO_RMR.et.meta
+Prefabs/Weapons/Rifles/M16/Rifle_M16A4_M203_RCO_RMR.et
+Prefabs/Weapons/Rifles/M16/Rifle_M16A4_M203_RCO.et.meta
+Prefabs/Weapons/Rifles/M16/Rifle_M16A4_M203_RCO.et

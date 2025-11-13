@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{912F28481A0B1A7D}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marine Rifles/Desert/Character_2025_USMC_GL_D_P.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

@@ -1,0 +1,27 @@
+GameEntity : "{24465F297D0F664A}Prefabs/Characters/HeadGear/Helmet_ECH/Helmet_ECH_lc_v_r.et" {
+ ID "50D485E1435D6C72"
+ components {
+  SCR_HeadgearInventoryItemComponent "{5244E4431E28A759}" {
+   Attributes SCR_ItemAttributeCollection "{5244E4431DA56D64}" {
+    ItemDisplayName UIInfo "{5DB13C575E2AFE37}" {
+     Name "#RHS-Headgear_ECHM_Name #RHS-Headgear_Helmet_Cut_LC_Name (#RHS-Attachment_Rail/#RHS-Attachment_Velcro)"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    RHS_LoadoutSlotInfo MeshCover {
+     Prefab "{87B6A8830247C33E}Prefabs/Characters/HeadGear/Helmet_ECH/Headgear_ECH_cover_d.et"
+    }
+    RHS_LoadoutSlotInfo Headset {
+     Prefab "{85D618A51C013F7A}Prefabs/Characters/HeadGear/Headphones_Peltor/Headphones_Peltor_yellow.et"
+    }
+    RHS_LoadoutSlotInfo Rail_Right {
+    }
+    RHS_LoadoutSlotInfo Rail_Left {
+     Prefab "{0F6075686526F51D}Prefabs/Items/Equipment/Nightvision/ChargePro/ChargePro.et"
+    }
+   }
+  }
+ }
+}

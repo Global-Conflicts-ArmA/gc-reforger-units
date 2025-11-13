@@ -1,0 +1,21 @@
+GameEntity : "{483A80042765275F}Prefabs/Characters/HeadGear/Helmet_SPH4_01/Helmet_SPH4_01.et" {
+ ID "5102FE5F1C91AA14"
+ components {
+  RHS_HelmetNodeStorageComponent "{66D9299FDA992573}" {
+   Attributes SCR_ItemAttributeCollection "{66D9299FDD173E03}" {
+    ItemDisplayName UIInfo "{5DB13C575E2AFE37}" {
+     Name "#RHS-Headgear_ECHM_Name #RHS-Headgear_Helmet_Cut_LC_Name (#RHS-Attachment_Rail/#RHS-Attachment_Velcro)"
+     Description "#RHS-Headgear_ECH_Description"
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{5DB13C57226FEA81}" {
+     }
+     RHS_CustomAttributes "{5DB8F5B9ACB547EA}" {
+     }
+    }
+   }
+   Priority 150
+   StoragePurpose 0x40 0x1
+  }
+ }
+}
