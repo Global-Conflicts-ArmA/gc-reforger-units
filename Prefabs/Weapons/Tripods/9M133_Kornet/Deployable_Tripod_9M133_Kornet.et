@@ -1,0 +1,268 @@
+Turret : "{16CAF1AAD82A3127}Prefabs/Weapons/Core/Tripod_Base.et" {
+ ID "52D30EFBEBC74642"
+ components {
+  SoundComponent "{58E0961DB6C453D6}" {
+   Filenames {
+    "{F94EBC8AD1849DF9}Sounds/Weapons/Tripods/M3/Weapons_Tripod_M3.acp"
+   }
+  }
+  MeshObject "{51ACD09C4E0B7D16}" {
+   Object "{009A2768EB347511}Assets/Weapons/Tripods/9M133_Kornet/9M133_Kornet.xob"
+  }
+  RigidBody "{51ACD09C423F175F}" {
+   ModelGeometry 1
+   Static 1
+  }
+  ProcAnimComponent "{51ACD09DB14C45C0}" {
+   Parameters {
+    ProcAnimParams "{66DE24885F46382D}" {
+     ResourceName "{D2CFDCABBEF6CED6}Assets/Weapons/Tripods/BGM71_TOW/anm/Tripod_BGM71_TOW.pap"
+     BoneNames {
+      "wtp_pitch" "wtp_yaw"
+     }
+     SimulationDistance 1000
+    }
+   }
+  }
+  SCR_BaseCompartmentManagerComponent "{51ACFBB07A14CFA6}" {
+   DoorInfoList {
+    CompartmentDoorInfo "{6084956E6D716EEF}" {
+     ExitPositionInfo PointInfo "{6084956E6B8ADFE0}" {
+      Offset 0 0 -1.1792
+     }
+    }
+   }
+   CompartmentSlots {
+    TurretCompartmentSlot TurretCompartment {
+     CompartmentUniqueName "pilot"
+     PassengerPositionInfo EntitySlotInfo "{51ACFBB1D6C27024}" {
+      Offset -0.1196 0 -0.5192
+     }
+     m_DefaultOccupantData SCR_DefaultOccupantData "{66DE24885F46383D}" {
+      m_sDefaultOccupantPrefab "{26A9756790131354}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Rifleman.et"
+     }
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{58FE9E4F05DC95A3}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    Name "#WCS-Weapon_9M133_Name - #WCS-Vehicle_Tripod_Name"
+    Icon "{5F6834E9954ABAC4}UI/Textures/Editor/EditableEntities/Vehicles/EditableEntity_Vehicle_Mortar.edds"
+    m_Image "{DBBB315354502E4A}UI/Textures/EditorPreviews/Weapons/Tripods/Tripod_9M133_Kornet.edds"
+    m_sFaction "USSR"
+    m_aAuthoredLabels {
+     FACTION_USSR ENTITYTYPE_VEHICLE TRAIT_MORTAR SERVICE_MORTAR
+    }
+    m_aAutoLabels {
+     THEME_MILITARY SIZE_S
+    }
+    m_aOccupantFillCompartmentTypes +{
+    }
+    m_aCrewEntityBudgetCost {
+     SCR_EntityBudgetValue "{66DE24885F463806}" {
+      m_BudgetType AI
+      m_Value 1
+     }
+    }
+   }
+  }
+  SCR_MultiPartDeployableItemComponent "{66DE24897E927F23}" {
+   m_aVariants {
+    SCR_DeployableVariantContainer "{66DE24895313223A}" {
+     m_sReplacementPrefab "{6A3EF260029FE220}Prefabs/Items/Equipment/Tripods/M2/Part_M3_Tripod.et"
+     m_aAdditionalPrefabs {
+      SCR_AdditionalDeployablePart "{656479547EE80F52}" {
+       m_sPrefab "{9B625CAE6DEE1DAB}Prefabs/Items/Equipment/Tripods/M2/Part_M2_Gun.et"
+      }
+     }
+     m_bUsePartRotationAndPosition 1
+    }
+   }
+  }
+  SCR_TurretControllerComponent "{51ACD09C61C183E4}" {
+   LimitsHoriz -40 40
+   LimitsVert -20 20
+   LimitsHorizProne -40 40
+   LimitsVertProne -40 40
+  }
+  SCR_UniversalInventoryStorageComponent "{570EACF4F2F94F1B}" {
+   Enabled 0
+  }
+  SCR_VehicleFactionAffiliationComponent "{59107AF83E654ABA}" {
+   "faction affiliation" "USSR"
+  }
+  TurretComponent "{66DE24885F46380A}" {
+   components {
+    SightsComponent "{66DE24885F463808}" {
+     Enabled 0
+     SightsPosition PointInfo "{66DE24885F463809}" {
+      PivotID "w_optic"
+     }
+     SightsFOVInfo SCR_SightsZoomFOVInfo "{66DE24885F46380F}" {
+      m_fBaseZoom 2.6
+      m_fInterpolationSpeed 25
+     }
+     SightsPointFront PointInfo "{66DE24885F46380C}" {
+      PivotID "w_optic"
+     }
+     SightsPointRear PointInfo "{66DE24885F46380D}" {
+      PivotID "w_optic"
+      Offset 0 0 -0.0132
+     }
+    }
+    SCR_2DSightsComponent "{66DE24885F463812}" {
+     SightsPosition PointInfo "{66DE24885F463810}" {
+      PivotID "w_optic"
+     }
+     SightsFOVInfo SCR_SightsZoomFOVInfo "{66DE24885F463811}" {
+      m_fBaseZoom 2.6
+      m_fZoomMax 5.6
+      m_fStepZoomSize 3
+      m_fInterpolationSpeed 25
+     }
+     SightsPointFront PointInfo "{66DE24885F463817}" {
+      PivotID "w_optic"
+      Offset 0 0 0.05
+     }
+     SightsPointRear PointInfo "{66DE24885F463818}" {
+      PivotID "w_optic"
+      Offset 0 0 0
+     }
+     m_sReticleTexture "{A009DF559C3392DD}Assets/Weapons/Tripods/9M133_Kornet/KORNET_reticle.edds"
+     m_sReticleGlowTexture "{A009DF559C3392DD}Assets/Weapons/Tripods/9M133_Kornet/KORNET_reticle.edds"
+     m_bHasIllumination 1
+     m_cReticleTextureIllumination 0.88 0.423 0.031 1
+     m_fReticleTextureGlowAlpha 0.5
+     m_fMagnification 2.6
+     m_fReticleAngularSize 3.6
+     m_fReticlePortion 0.4
+     m_fReticleBaseZoom 2.6
+     m_fObjectiveFov 23
+     m_fObjectiveScale 0.77
+     m_fVignetteScale 0.847
+     m_bShouldHideParentObject 0
+    }
+   }
+   SignalsSourceAccess SignalsSourceAccessClass "{66DE24885F46381F}" {
+    signalsSuffix "Turret"
+   }
+   ProvideAimingType MainTurret
+   AimingMaxSpeed 1.2 1.2
+   AimingSpeedControls 0.4 0.4
+   ikTargets {
+    AnimationIKTargetInfo "{66DE24885F46381D}" {
+     BindingName "LHandIKTarget"
+     PositionInfo PointInfo "{66DE24885F4638E2}" {
+      PivotID "w_hand_L_fake_target"
+      Offset -0.0292 0.0976 0.1031
+      Angles -1.7862 -81.1317 -16.3302
+     }
+    }
+    AnimationIKTargetInfo "{66DE24885F4638E3}" {
+     BindingName "RHandIKTarget"
+     PositionInfo PointInfo "{66DE24885F4638E0}" {
+      PivotID "w_fake_hand_R_target.002"
+      Offset -0.0103 0.0497 0.0846
+      Angles 0 -90 -61.608
+     }
+    }
+   }
+   TurretSpeed 20 22
+   TurretAcceleration 343.77 343.77
+   TurretDeceleration 687.54 687.54
+  }
+  WCS_Armament_LoadoutComponent "{66DE24885F4638E7}" {
+   Enabled 1
+   m_ArmamentGroups {
+    WCS_ArmamentWeaponGroup "{66DE24885F4638E4}" {
+     prefab "{1845D7099C6F1323}Prefabs/Weapons/Tripods/9M133_Kornet/Pod_9M133_Kornet.et"
+     weaponsInfo {
+      WCS_ArmamentWeaponInfo "{66DE24885F4638E5}" {
+       Position PointInfo "{66DE24885F4638EA}" {
+        PivotID "wtp_pitch"
+        Offset 0 0 0
+       }
+      }
+     }
+     fireModes {
+      WCS_Armament_WeaponSingleFireMode "{66DE24885F4638E8}" {
+       m_iFireIntervalMS 0
+      }
+     }
+    }
+   }
+  }
+  WCS_Armament_VehicleWeaponStationComponent "{66DE24885F4638F3}" {
+  }
+  WeaponSlotComponent "{51ACD09C6BFEEE6A}" {
+   AttachType InventoryStorageSlot "{0AACE7470E421D82}" {
+    PivotID "w_weapon_holder_01"
+    Offset 0 0 0
+   }
+   WeaponTemplate "{52120E4BA120661B}Prefabs/Weapons/Core/Armament_Empty.et"
+  }
+  InventoryStorageManagerComponent "{570EB718136CC976}" {
+   Enabled 0
+  }
+  ActionsManagerComponent "{51ACD09C7181BA0B}" {
+   ActionContexts {
+    UserActionContext "{51ACFBB064390C6E}" {
+     Position PointInfo "{51ACFBB061993925}" {
+      Offset 0 0.9649 0
+     }
+    }
+    UserActionContext "{66DE2488CD7E07F1}" {
+     ContextName "deployable"
+     Position PointInfo "{6552B95D5AF8688E}" {
+      Offset 0 0.2854 0
+      Angles 90 0 0
+     }
+     Height 1.2
+    }
+   }
+   additionalActions {
+    SCR_OpenTurretStorageAction "{570EACF46E2143AC}" {
+     ParentContextList {
+     }
+    }
+    WCS_Armament_RearmLauncherFromHandAction "{66DE24885F4638FB}" {
+     ParentContextList {
+      "default"
+     }
+     UIInfo UIInfo "{66DE24885F4638F8}" {
+      Name "Rearm"
+     }
+     m_bLoopAction 0
+     m_sCompatibleProjectiles {
+      "{1845D7099C6F1323}Prefabs/Weapons/Tripods/9M133_Kornet/Pod_9M133_Kornet.et" "{EDBE3901C06BF287}Prefabs/Weapons/Tripods/9M133_Kornet/Pod_9M133_Kornet_Turret.et"
+     }
+     m_vWeaponEjectLinearVelocity 2 3 0
+    }
+    SCR_DeployMultiPartInventoryItemAction "{66DE24889B40B64F}" {
+     ParentContextList {
+      "deployable"
+     }
+     UIInfo SCR_ActionUIInfo "{61B48E9F567C096C}" {
+      Name "#AR-UserAction_DisassembleItem"
+      Description "Kornet"
+      m_sIconName "building"
+     }
+     ActionTitle "Disassemble multipart deployable prefab"
+     Duration 5.5
+     "Sort Priority" -1
+     m_bReportAsDismantling 1
+     m_eRequiredGadget BUILDING_TOOL
+    }
+   }
+  }
+  BaseItemAnimationComponent "{5242E42C7B4B2CEE}" {
+   AnimGraph "{F39F9D0B13D41304}Assets/Weapons/HeavyWeapons/workspaces/Kornet_Tripod/Kornet_tripod.agr"
+   AnimInstance "{3243ED611EC99612}Assets/Weapons/HeavyWeapons/workspaces/NSV_tripod.asi"
+   AlwaysActive 1
+   AnimInjection AnimationAttachmentInfo "{5242E42C74AC2BF7}" {
+    AnimGraph "{F39F9D0B13D41304}Assets/Weapons/HeavyWeapons/workspaces/Kornet_Tripod/Kornet_tripod.agr"
+    AnimInstance "{EB24F944B94390FC}Assets/Weapons/HeavyWeapons/workspaces/Kornet_Tripod/Kornet_Player_tripod.asi"
+   }
+  }
+ }
+}
