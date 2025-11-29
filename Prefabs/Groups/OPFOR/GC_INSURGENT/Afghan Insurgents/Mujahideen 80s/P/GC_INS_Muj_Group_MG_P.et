@@ -1,0 +1,6 @@
+SCR_AIGroup : "{776A0E35AF7C62AE}Prefabs/Groups/OPFOR/GC_INSURGENT/Afghan Insurgents/Mujahideen 80s/GC_INS_Muj_Group_MG.et" {
+ ID "0000000000000001"
+ m_aUnitPrefabSlots {
+  "{E786F2A16BDD3655}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Mujahideen 80s/P/Character_GC_INS_Muj_SL_P.et" "{2B3F3BC3F24CC73B}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Mujahideen 80s/P/Character_GC_INS_Muj_PKM_P.et" "{64F3695A593846E6}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Mujahideen 80s/P/Character_GC_INS_Muj_MGASST_P.et" "{64F3695A593846E6}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Mujahideen 80s/P/Character_GC_INS_Muj_MGASST_P.et"
+ }
+}

@@ -1,0 +1,15 @@
+SCR_ChimeraCharacter : "{1AB2EFD3E48A91D8}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/P/Character_GC_INS_Afghan_Rifleman_Enfield_P.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{F37E8195BD4BBAA8}Prefabs/Characters/HeadGear/Hat_FlatCap_01/Pakol_Hat_2.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{7D5C60B175E988FF}Prefabs/Characters/Uniforms/Jacket_ShirtLong_2.et"
+    }
+   }
+  }
+ }
+}
