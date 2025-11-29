@@ -1,0 +1,12 @@
+Tank : "{BC07885176C7FF8A}Prefabs/Vehicles/Tracked/T-72A/T72A_base.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Turret {
+     Prefab "{12F8F660588215E8}Prefabs/Vehicles/Tracked/T-72A/VehParts/Turret/T72_turret_Green_AI.et"
+    }
+   }
+  }
+ }
+}
