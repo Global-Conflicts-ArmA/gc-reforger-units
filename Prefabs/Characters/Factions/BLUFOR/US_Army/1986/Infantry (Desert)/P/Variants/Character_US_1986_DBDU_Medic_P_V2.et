@@ -1,16 +1,25 @@
-SCR_ChimeraCharacter : "{E9712ADAC8EA9396}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Desert (DBDU)/P/Character_US_1986_DBDU_Medic_P.et" {
+SCR_ChimeraCharacter : "{E9712ADAC8EA9396}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Desert)/P/Character_US_1986_DBDU_Medic_P.et" {
  ID "520EC961A090B1EE"
  components {
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {
-     Prefab "{CFB78E1FAB0109FA}Prefabs/Characters/HeadGear/Helmet_PASGT_01/Helmet_PASGT_DBDU_cover.et"
+     Prefab "{7396C6AB427D9CF3}Prefabs/Characters/HeadGear/Helmet_PASGT_01/Helmet_PASGT_DBDU_cover_RAS.et"
     }
     LoadoutSlotInfo ArmoredVest {
      Prefab "{725C5E1C75CADAF4}Prefabs/Characters/Vests/Vest_M69/Vest_M69_M81woodland.et"
     }
     LoadoutSlotInfo HandWear {
      Prefab ""
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{657EF76360CE45A2}" {
+     PrefabsToSpawn + {
+      "{632CAEF08C102091}Prefabs/Items/Medicine/Splint_01/GC_Splint_01_Base.et" "{632CAEF08C102091}Prefabs/Items/Medicine/Splint_01/GC_Splint_01_Base.et" "{632CAEF08C102091}Prefabs/Items/Medicine/Splint_01/GC_Splint_01_Base.et" "{632CAEF08C102091}Prefabs/Items/Medicine/Splint_01/GC_Splint_01_Base.et" "{632CAEF08C102091}Prefabs/Items/Medicine/Splint_01/GC_Splint_01_Base.et" "{632CAEF08C102091}Prefabs/Items/Medicine/Splint_01/GC_Splint_01_Base.et"
+     }
     }
    }
   }

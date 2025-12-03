@@ -4,7 +4,7 @@ SCR_ChimeraCharacter : "{33C657018C0D19C9}Prefabs/Characters/Factions/BLUFOR/US_
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {
-     Prefab "{1048918893CAD906}Prefabs/Characters/HeadGear/Helmet_PASGT_01/Helmet_PASGT_DBDU_cover_w_goggles.et"
+     Prefab "{76CF80C2F39E0ABE}Prefabs/Characters/HeadGear/Helmet_PASGT_01/Helmet_PASGT_DBDU_cover_w_goggles_RAS.et"
     }
     LoadoutSlotInfo ArmoredVest {
      Prefab "{725C5E1C75CADAF4}Prefabs/Characters/Vests/Vest_M69/Vest_M69_M81woodland.et"

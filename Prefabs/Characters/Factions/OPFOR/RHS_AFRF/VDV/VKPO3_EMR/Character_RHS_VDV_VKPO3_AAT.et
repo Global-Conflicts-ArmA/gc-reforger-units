@@ -1,0 +1,112 @@
+SCR_ChimeraCharacter : "{BAAED66388CF5D06}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/VKPO3_EMR/Character_RHS_VDV_VKPO3_Base.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_AntiTankAssistant"
+    Icon "{FB48FAD32DA8BC91}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_AmmoBearer.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{60528AC1EFB34750}Prefabs/Weapons/Rifles/AK200/variants/Rifle_AK205_XPS_m300.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{7E4302FF560EE02A}Prefabs/Characters/HeadGear/Helmet_Kiver_RSP/Variants/Helmet_Kiver_RSP_VKPO3.0.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{A18238B56E378F4B}Prefabs/Characters/Uniforms/Crye_Shirt/Jacket_Crye_Combat_Shirt_ATACS.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{FAECE2A4CCD7FB96}Prefabs/Characters/Vests/Vest_TV102/Vest_TV102_EMR.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{6A39B5843B3F36DA}Prefabs/Items/Equipment/Backpacks/Backpack_RPG_Assistant.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{3153CA82B4F37635}Prefabs/Characters/Vests/Vest_TV102/variants/Vest_TV102_rifleman_EMR_5.et"
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab "{8D4A4DF9111F0682}Prefabs/Characters/Handwear/Gloves_MechanixMpact/Gloves_mpack_Blk.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{66AC913AB40CA16B}" {
+     TargetStorage "Jacket/Jacket_Crye_Combat_Shirt_ATACS.et"
+    }
+    ItemsInitConfigurationItem "{66B699F846A3E189}" {
+     TargetStorage "Jacket/Jacket_Crye_Combat_Shirt_ATACS.et"
+    }
+    ItemsInitConfigurationItem "{66ACA546BE4728AA}" {
+     TargetStorage "Vest/Vest_TV102_rifleman_EMR_5.et/arsbelt/Pouch_wartech_magpouch_mp117_emr_3.et"
+     PrefabsToSpawn {
+      "{B39F57E7FB003434}Prefabs/Weapons/Magazines/AK12_magazine/Magazine_545x39_AK12_30rnd_Base.et"
+     }
+    }
+    ItemsInitConfigurationItem "{66ACA546BE4728A7}" {
+     TargetStorage "Vest/Vest_TV102_rifleman_EMR_5.et/arsbelt2/Pouch_wartech_magpouch_mp117_emr_2.et"
+     PrefabsToSpawn {
+      "{B39F57E7FB003434}Prefabs/Weapons/Magazines/AK12_magazine/Magazine_545x39_AK12_30rnd_Base.et"
+     }
+    }
+    ItemsInitConfigurationItem "{66ACA546BE472F59}" {
+     TargetStorage "Vest/Vest_TV102_rifleman_EMR_5.et/placard/Pouch_wartech_magpouch_mp117_emr.et"
+     PrefabsToSpawn {
+      "{B39F57E7FB003434}Prefabs/Weapons/Magazines/AK12_magazine/Magazine_545x39_AK12_30rnd_Base.et"
+     }
+    }
+    ItemsInitConfigurationItem "{66ACA546BE472F5B}" {
+     TargetStorage "Vest/Vest_TV102_rifleman_EMR_5.et/up101/Pouch_wartech_magpouch_mp117_emr_2.et"
+     PrefabsToSpawn {
+      "{B39F57E7FB003434}Prefabs/Weapons/Magazines/AK12_magazine/Magazine_545x39_AK12_30rnd_Base.et"
+     }
+    }
+    ItemsInitConfigurationItem "{66ACA546BE472F5C}" {
+     TargetStorage "Vest/Vest_TV102_rifleman_EMR_5.et/pistol1/Pouch_wartech_magpouch_mp117_emr_3.et"
+     PrefabsToSpawn {
+      "{B39F57E7FB003434}Prefabs/Weapons/Magazines/AK12_magazine/Magazine_545x39_AK12_30rnd_Base.et"
+     }
+    }
+    ItemsInitConfigurationItem "{66ACA544F56C1DE7}" {
+     TargetStorage "Vest/Vest_TV102_rifleman_EMR_5.et/pistol/Pouch_wartech_magpouch_mp117_emr.et"
+     PrefabsToSpawn {
+      "{B39F57E7FB003434}Prefabs/Weapons/Magazines/AK12_magazine/Magazine_545x39_AK12_30rnd_Base.et"
+     }
+    }
+    ItemsInitConfigurationItem "{66BAA82ACF618C3C}" {
+     TargetStorage "Vest/Vest_TV102_rifleman_EMR_5.et/holster/Pouch_wartech_magpouch_mp117_emr_3.et"
+     PrefabsToSpawn {
+      "{B39F57E7FB003434}Prefabs/Weapons/Magazines/AK12_magazine/Magazine_545x39_AK12_30rnd_Base.et"
+     }
+    }
+    ItemsInitConfigurationItem "{66ACA546BE472F5D}" {
+     TargetStorage "Vest/Vest_TV102_rifleman_EMR_5.et/Grenade/Pouch_GP106_RGD_Pouch_EMR.et"
+     PrefabsToSpawn {
+      "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+     }
+    }
+    ItemsInitConfigurationItem "{66ACA546BE472F5F}" {
+     TargetStorage "Vest/Vest_TV102_rifleman_EMR_5.et/grenade2/Pouch_GP106_RGD_Pouch_2_EMR.et"
+     PrefabsToSpawn {
+      "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+     }
+    }
+    ItemsInitConfigurationItem "{66ACA546BE472F51}" {
+     TargetStorage "Vest/Vest_TV102_rifleman_EMR_5.et/medkit/Pouch_UP103_Medkit_EMR.et"
+     PrefabsToSpawn {
+      "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+     }
+    }
+    ItemsInitConfigurationItem "{66ACA547ED9416E8}" {
+     TargetStorage "Back/Backpack_RPG_Assistant.et"
+     PrefabsToSpawn {
+      "{32E12D322E107F1C}Prefabs/Weapons/Ammo/Ammo_Rocket_PG7VM.et" "{32E12D322E107F1C}Prefabs/Weapons/Ammo/Ammo_Rocket_PG7VM.et" "{4A3B196E4EA820E9}Prefabs/Weapons/Ammo/RPG/RHS_AmmoRocket_OG7V.et"
+     }
+    }
+   }
+  }
+ }
+}

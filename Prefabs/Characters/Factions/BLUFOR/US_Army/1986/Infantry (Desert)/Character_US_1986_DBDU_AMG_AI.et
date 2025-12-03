@@ -30,16 +30,16 @@ SCR_ChimeraCharacter : "{284E735C6C70DAD2}Prefabs/Characters/Factions/BLUFOR/US_
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {
-     Prefab "{1048918893CAD906}Prefabs/Characters/HeadGear/Helmet_PASGT_01/Helmet_PASGT_DBDU_cover_w_goggles.et"
+     Prefab "{76CF80C2F39E0ABE}Prefabs/Characters/HeadGear/Helmet_PASGT_01/Helmet_PASGT_DBDU_cover_w_goggles_RAS.et"
     }
     LoadoutSlotInfo Jacket {
-     Prefab "{9CB400AED977501E}Prefabs/Characters/Uniforms/Jacket_US_DBDU.et"
+     Prefab "{EB12020607004F7D}Prefabs/Characters/Uniforms/Jacket_US_DBDU_RAS.et"
     }
     LoadoutSlotInfo ArmoredVest {
      Prefab "{4B57C11AA5161760}Prefabs/Characters/Vests/Vest_PASGT/Vest_PASGT.et"
     }
     LoadoutSlotInfo Pants {
-     Prefab "{E5BE6AD5A2955467}Prefabs/Characters/Uniforms/Pants_US_DBDU.et"
+     Prefab "{469C996CD43EAF42}Prefabs/Characters/Uniforms/Pants_US_DBDU_RAS.et"
     }
     LoadoutSlotInfo Back {
      Prefab "{06B68C58B72EAAC6}Prefabs/Items/Equipment/Backpacks/Backpack_ALICE_Medium.et"

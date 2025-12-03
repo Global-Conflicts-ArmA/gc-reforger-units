@@ -1,0 +1,11 @@
+SCR_ChimeraCharacter : "{95A1F97572D8C9DA}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/VKPO3_EMR/Character_RHS_VDV_VKPO3_SL.et" {
+ ID "520EC961A090B1EE"
+ components {
+  PS_PlayableComponent "{5EFCC1946F475F15}" {
+   m_bIsPlayable 1
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{3DBB4247B22DF129}Prefabs/Weapons/Rifles/AK200/variants/Rifle_AK200_B9M_1P90.et"
+  }
+ }
+}

@@ -1,0 +1,73 @@
+SCR_ChimeraCharacter : "{BAAED66388CF5D06}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/VKPO3_EMR/Character_RHS_VDV_VKPO3_Base.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_MachineGunner"
+    Icon "{EF1F445746A3391A}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_MachineGunner.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{57CD8C476F94E1A8}Prefabs/Weapons/MachineGuns/PKP_Pecheneg/MG_PKP_Pecheneg_1p29_TF.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{7E4302FF560EE02A}Prefabs/Characters/HeadGear/Helmet_Kiver_RSP/Variants/Helmet_Kiver_RSP_VKPO3.0.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{3ED38EF89B66D310}Prefabs/Characters/Vests/Vest_TV102/Vest_TV102_FG_GroinTriple.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{45DC01791EBE2349}Prefabs/Items/Equipment/Backpacks/backpack_Wartech_BB102/Backpack_Wartech_BB102_EMR.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{A4F7A1D88887396F}Prefabs/Characters/Vests/Vest_TV102/variants/Vest_TV102_MG_FG_1.et"
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab "{0D9D0C18303F6D76}Prefabs/Characters/Handwear/Gloves_511_Competition/Gloves_511_Comp_Black.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{66ACA547DF910552}" {
+     TargetStorage "Vest/Vest_TV102_MG_FG_1.et/PKM1/Pouch_Mordor_PKM.et"
+     PrefabsToSpawn {
+      "{E5E9C5897CF47F44}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_4Ball_1Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{66ACA547DF910540}" {
+     TargetStorage "Vest/Vest_TV102_MG_FG_1.et/PKM2/Pouch_Mordor_PKM.et"
+     PrefabsToSpawn {
+      "{E5E9C5897CF47F44}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_4Ball_1Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{66ACA547DF910544}" {
+     TargetStorage "Vest/Vest_TV102_MG_FG_1.et/grenade2/Pouch_GP106_RGD_Pouch_FG.et"
+     PrefabsToSpawn {
+      "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+     }
+    }
+    ItemsInitConfigurationItem "{66ACA547DF910546}" {
+     TargetStorage "Vest/Vest_TV102_MG_FG_1.et/grenade/Pouch_GP106_RGD_Pouch_2_FG.et"
+     PrefabsToSpawn {
+      "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+     }
+    }
+    ItemsInitConfigurationItem "{66ACA547DF910547}" {
+     TargetStorage "Vest/Vest_TV102_MG_FG_1.et/drop/Pouch_UP103_Medkit_FG.et"
+     PrefabsToSpawn {
+      "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+     }
+    }
+    ItemsInitConfigurationItem "{66ACA5441A6C5556}" {
+     TargetStorage "Back/Backpack_Wartech_BB102_EMR.et"
+     PrefabsToSpawn {
+      "{E5E9C5897CF47F44}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_4Ball_1Tracer.et" "{E5E9C5897CF47F44}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_4Ball_1Tracer.et" "{E5E9C5897CF47F44}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_4Ball_1Tracer.et"
+     }
+    }
+   }
+  }
+ }
+}

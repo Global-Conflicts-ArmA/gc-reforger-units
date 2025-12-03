@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{25FECB70EBFE3EDA}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/2009/Character_RHS_RANGER_09_SL.et" {
+SCR_ChimeraCharacter : "{25FECB70EBFE3EDA}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Rangers/Character_RHS_RANGER_09_SL.et" {
  ID "520EC961A090B1EE"
  components {
   SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
@@ -26,10 +26,8 @@ SCR_ChimeraCharacter : "{25FECB70EBFE3EDA}Prefabs/Characters/Factions/BLUFOR/RHS
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{61E88418254009A3}" {
-     TargetStorage "Pants/crye_pants_mc.et"
     }
     ItemsInitConfigurationItem "{61E88418254009AC}" {
-     TargetStorage "Jacket/Jacket_Crye_Combat_Shirt_OD.et"
     }
     ItemsInitConfigurationItem "{625B1A6305F13210}" {
      TargetStorage "Prefabs/Items/Equipment/Backpacks/backpack_511_rush12/Backpack_511_rush12_od.et"
