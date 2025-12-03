@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{D6E00D1D655B6C68}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/Light Infantry/Character_UK_1989_Regulars_Medic_P.et" {
+SCR_ChimeraCharacter : "{D6E00D1D655B6C68}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/Light Infantry/P/Character_UK_1989_Regulars_Medic_P.et" {
  ID "520EC961A090B1EE"
  components {
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
@@ -12,6 +12,11 @@ SCR_ChimeraCharacter : "{D6E00D1D655B6C68}Prefabs/Characters/Factions/BLUFOR/UK_
     ItemsInitConfigurationItem "{62A74B5BE373CB7E}" {
      PrefabsToSpawn + {
       "{ED612C5D75C69BA9}Prefabs/Items/Equipment/Accessories/68Pat_Combat_Smock_Hood/Smock_Hood_68Pattern.et"
+     }
+    }
+    ItemsInitConfigurationItem "{627950EAB8C1D429}" {
+     PrefabsToSpawn + {
+      "{632CAEF08C102091}Prefabs/Items/Medicine/Splint_01/GC_Splint_01_Base.et" "{632CAEF08C102091}Prefabs/Items/Medicine/Splint_01/GC_Splint_01_Base.et" "{632CAEF08C102091}Prefabs/Items/Medicine/Splint_01/GC_Splint_01_Base.et" "{632CAEF08C102091}Prefabs/Items/Medicine/Splint_01/GC_Splint_01_Base.et" "{632CAEF08C102091}Prefabs/Items/Medicine/Splint_01/GC_Splint_01_Base.et" "{632CAEF08C102091}Prefabs/Items/Medicine/Splint_01/GC_Splint_01_Base.et"
      }
     }
    }

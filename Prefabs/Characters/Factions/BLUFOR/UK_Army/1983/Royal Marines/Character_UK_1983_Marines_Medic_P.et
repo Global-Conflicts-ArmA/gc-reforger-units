@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{88ACC9B4B3FB7303}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Light Infantry/Character_UK_1983_Regulars_Medic_P.et" {
+SCR_ChimeraCharacter : "{88ACC9B4B3FB7303}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Light Infantry/P/Character_UK_1983_Regulars_Medic_P.et" {
  ID "520EC961A090B1EE"
  components {
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
@@ -19,6 +19,10 @@ SCR_ChimeraCharacter : "{88ACC9B4B3FB7303}Prefabs/Characters/Factions/BLUFOR/UK_
     ItemsInitConfigurationItem "{62A74B5BE373CB7E}" {
      PrefabsToSpawn + {
       "{ED612C5D75C69BA9}Prefabs/Items/Equipment/Accessories/68Pat_Combat_Smock_Hood/Smock_Hood_68Pattern.et"
+     }
+    }
+    ItemsInitConfigurationItem "{615727C0269B973F}" {
+     PrefabsToSpawn +{
      }
     }
    }

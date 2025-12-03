@@ -4,5 +4,11 @@ SCR_ChimeraCharacter : "{346E135A6C621C2F}Prefabs/Characters/Factions/BLUFOR/GC_
   PS_PlayableComponent "{5EFCC1946F475F15}" {
    m_bIsPlayable 1
   }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6518F7F890D43C0C}" {
+    }
+   }
+  }
  }
 }
