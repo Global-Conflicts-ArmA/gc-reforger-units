@@ -4,7 +4,7 @@ SCR_ChimeraCharacter : "{A9565A78B4EB4E8B}Prefabs/Characters/Factions/BLUFOR/US_
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Jacket {
-     Prefab "{9C520ACFC4183EFF}Prefabs/Characters/Uniforms/Jacket_US_DBDU_rolledup.et"
+     Prefab "{8B04C60261FB67B5}Prefabs/Characters/Uniforms/Jacket_US_DBDU_rolledup_RAS.et"
     }
    }
   }

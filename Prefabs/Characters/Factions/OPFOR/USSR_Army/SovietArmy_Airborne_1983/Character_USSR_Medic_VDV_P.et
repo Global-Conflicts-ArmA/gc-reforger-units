@@ -19,6 +19,15 @@ SCR_ChimeraCharacter : "{D66C215D6F03EFFD}Prefabs/Characters/Factions/OPFOR/USSR
       "{F5347DE84CA1E3EE}Prefabs/Characters/HeadGear/Hat_VDV_Beret/Hat_VDV_Beret.et"
      }
     }
+    ItemsInitConfigurationItem "{5A5CCAB6745FD597}" {
+     PrefabsToSpawn + {
+      "{632CAEF08C102091}Prefabs/Items/Medicine/Splint_01/GC_Splint_01_Base.et" "{632CAEF08C102091}Prefabs/Items/Medicine/Splint_01/GC_Splint_01_Base.et" "{632CAEF08C102091}Prefabs/Items/Medicine/Splint_01/GC_Splint_01_Base.et" "{632CAEF08C102091}Prefabs/Items/Medicine/Splint_01/GC_Splint_01_Base.et" "{632CAEF08C102091}Prefabs/Items/Medicine/Splint_01/GC_Splint_01_Base.et" "{632CAEF08C102091}Prefabs/Items/Medicine/Splint_01/GC_Splint_01_Base.et"
+     }
+    }
+    ItemsInitConfigurationItem "{5D2678DF51A4FB4E}" {
+     PrefabsToSpawn +{
+     }
+    }
    }
   }
  }

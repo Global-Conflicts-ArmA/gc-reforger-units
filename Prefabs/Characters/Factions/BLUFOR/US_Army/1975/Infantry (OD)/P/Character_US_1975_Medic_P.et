@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{586DF8C76C63B293}Prefabs/Characters/Factions/BLUFOR/US_Army/1980_Rifles/Character_US_80_Medic_P.et" {
+SCR_ChimeraCharacter : "{586DF8C76C63B293}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/Infantry (Woodland)/P/Character_US_1981_Medic_P.et" {
  ID "51FA8A5F10E81780"
  components {
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
@@ -18,6 +18,10 @@ SCR_ChimeraCharacter : "{586DF8C76C63B293}Prefabs/Characters/Factions/BLUFOR/US_
    InitialInventoryItems {
     ItemsInitConfigurationItem "{5D7CAAFB9235E902}" {
      TargetStorage "Pants/Pants_US_M65.et"
+    }
+    ItemsInitConfigurationItem "{5538C29CBE93E810}" {
+     PrefabsToSpawn +{
+     }
     }
    }
   }

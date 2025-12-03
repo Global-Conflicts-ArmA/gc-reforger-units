@@ -1,3 +1,14 @@
 SCR_ChimeraCharacter : "{CF305EE842BBA3E4}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VSR/Character_RHS_RF_MSV_VSR_BaseLoadout.et" {
  ID "520EC961A090B1EE"
+ components {
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6062F65EC3690C43}" {
+     PrefabsToSpawn + {
+      "{632CAEF08C102091}Prefabs/Items/Medicine/Splint_01/GC_Splint_01_Base.et"
+     }
+    }
+   }
+  }
+ }
 }

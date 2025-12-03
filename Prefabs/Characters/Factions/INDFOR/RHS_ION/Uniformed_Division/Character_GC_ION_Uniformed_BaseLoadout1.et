@@ -22,7 +22,7 @@ SCR_ChimeraCharacter : "{124577CE46390EBD}Prefabs/Characters/Factions/INDFOR/RHS
     ItemsInitConfigurationItem "{655A0835547EEE1B}" {
      TargetStorage "Pants/Crye_G4_Combat_Pants_Black.et"
      PrefabsToSpawn {
-      "{922F95F91943F69A}Prefabs/Items/Equipment/Maps/PaperMap_01_folded_US.et" "{61D4F80E49BF9B12}Prefabs/Items/Equipment/Compass/Compass_SY183.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et"
+      "{922F95F91943F69A}Prefabs/Items/Equipment/Maps/Map_Paper_01/PaperMap_01_folded_US.et" "{61D4F80E49BF9B12}Prefabs/Items/Equipment/Compass/Compass_SY183.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{632CAEF08C102091}Prefabs/Items/Medicine/Splint_01/GC_Splint_01_Base.et"
      }
     }
     ItemsInitConfigurationItem "{655A08355419B690}" {

@@ -1,0 +1,16 @@
+SCR_AIGroup : "{B50B7BF31273C2A6}Prefabs/Groups/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Group_RHS_RF_MSV_VKPO_DS_Base.et" {
+ ID "0000000000000001"
+ components {
+  SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+   m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+    Name "Rifle Squad"
+    m_aAuthoredLabels {
+     4 1653989487 10509 10503
+    }
+   }
+  }
+ }
+ m_aUnitPrefabSlots {
+  "{95A1F97572D8C9DA}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/VKPO3_EMR/Character_RHS_VDV_VKPO3_SL.et" "{F829086A405C6BC9}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/VKPO3_EMR/Character_RHS_VDV_VKPO3_AR.et" "{208161AB39D57595}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/VKPO3_EMR/Character_RHS_VDV_VKPO3_AT.et" "{26B2153C1911C560}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/VKPO3_EMR/Character_RHS_VDV_VKPO3_AAT.et" "{E8B9158D174BF543}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/VKPO3_EMR/Character_RHS_VDV_VKPO3_SR.et" "{48BE85C0A079AEEE}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/VKPO3_EMR/Character_RHS_VDV_VKPO3_Rifleman.et"
+ }
+}

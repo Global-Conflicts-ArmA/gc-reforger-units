@@ -50,7 +50,7 @@ SCR_ChimeraCharacter : "{C84E16880ACA62B8}Prefabs/Characters/Factions/OPFOR/GC_I
     ItemsInitConfigurationItem "{633D261B375DC59C}" {
      TargetStorage "Back/Backpack_Medical_Soviet.et"
      PrefabsToSpawn {
-      "{D511F5C330B1697E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01_Base.et" "{D511F5C330B1697E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01_Base.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et" "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et"
+      "{D511F5C330B1697E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01_Base.et" "{D511F5C330B1697E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01_Base.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et" "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et" "{632CAEF08C102091}Prefabs/Items/Medicine/Splint_01/GC_Splint_01_Base.et" "{632CAEF08C102091}Prefabs/Items/Medicine/Splint_01/GC_Splint_01_Base.et" "{632CAEF08C102091}Prefabs/Items/Medicine/Splint_01/GC_Splint_01_Base.et" "{632CAEF08C102091}Prefabs/Items/Medicine/Splint_01/GC_Splint_01_Base.et" "{632CAEF08C102091}Prefabs/Items/Medicine/Splint_01/GC_Splint_01_Base.et" "{632CAEF08C102091}Prefabs/Items/Medicine/Splint_01/GC_Splint_01_Base.et"
      }
     }
     ItemsInitConfigurationItem "{633D261BFBAE3374}" {
