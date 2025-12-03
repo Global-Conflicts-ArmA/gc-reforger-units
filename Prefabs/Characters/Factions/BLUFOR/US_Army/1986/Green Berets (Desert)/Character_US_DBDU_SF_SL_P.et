@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{EDAC3CB642EB38B8}Prefabs/Characters/Factions/BLUFOR/US_Army/GreenBerets/Character_US_DBDU_SF_SL.et" {
+SCR_ChimeraCharacter : "{3372420B712CDC9F}Prefabs/Characters/Factions/BLUFOR/US_Army/GreenBerets/Character_US_SF_SL_DBDU_RAS.et" {
  ID "520EC961A090B1EE"
  components {
   PS_PlayableComponent "{5EFCC1946F475F15}" {

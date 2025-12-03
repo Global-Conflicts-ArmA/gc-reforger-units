@@ -1,0 +1,11 @@
+SCR_AIGroup : "{7CF011F81436EE0F}Prefabs/Groups/OPFOR/Russia/2020/VDV/AFRF_VDV_2021_CHQ.et" {
+ ID "0000000000000001"
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "Column"
+  }
+ }
+ m_aUnitPrefabSlots {
+  "{B250882E93898CCF}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/VKPO3_EMR/P/Character_RHS_VDV_VKPO3_CoyCO_P.et" "{1A5E4F6933734B10}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/VKPO3_EMR/P/Character_RHS_VDV_VKPO3_Coy2IC_P.et" "{F4A421AFFE056D76}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/VKPO3_EMR/P/Character_RHS_VDV_VKPO3_RTO_P.et" "{67AA06E9DD667E9D}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/VKPO3_EMR/P/Character_RHS_VDV_VKPO3_Medic_P.et"
+ }
+}
