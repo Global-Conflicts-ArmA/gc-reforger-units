@@ -1,0 +1,8 @@
+Turret : "{E3F865A4A17187DA}Prefabs/Vehicles/Tracked/2S1/VehParts/Turret/2S1_Turret.et" {
+ ID "51ACD0965653D003"
+ components {
+  SCR_BaseLockComponent "{6706F570B6F58CBB}" {
+   m_bIsLocked 1
+  }
+ }
+}
