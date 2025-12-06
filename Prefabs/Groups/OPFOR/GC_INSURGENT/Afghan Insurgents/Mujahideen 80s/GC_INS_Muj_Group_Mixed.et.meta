@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{81A45DE2A1C7C267}Prefabs/Groups/OPFOR/GC_INSURGENT/Afghan Insurgents/Mujahideen 80s/GC_INS_Muj_Group_Mixed.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

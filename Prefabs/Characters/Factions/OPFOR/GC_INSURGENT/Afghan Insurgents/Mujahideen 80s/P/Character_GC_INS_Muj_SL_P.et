@@ -1,0 +1,35 @@
+SCR_ChimeraCharacter : "{2CD9683057C04459}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Mujahideen 80s/Character_GC_INS_Muj_SL.et" {
+ ID "520EC961A090B1EE"
+ components {
+  PS_PlayableComponent "{5EFCC1946F475F15}" {
+   m_bIsPlayable 1
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_VariantData SCR_EditableEntityVariantData "{66B538E90E719B17}" {
+    m_aVariants {
+     SCR_EditableEntityVariant "{66B538E90FA4A005}" {
+      m_sVariantPrefab "{52D0ED5B18658F7A}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Mujahideen 80s/P/Variants/Character_GC_INS_Muj_SL_P_1.et"
+     }
+     SCR_EditableEntityVariant "{66B538E90FC3B3A0}" {
+      m_sVariantPrefab "{3E84D9BBA4A10054}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Mujahideen 80s/P/Variants/Character_GC_INS_Muj_SL_P_2.et"
+     }
+     SCR_EditableEntityVariant "{66B538E90C6CC58A}" {
+      m_sVariantPrefab "{DB189542A844973F}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Mujahideen 80s/P/Variants/Character_GC_INS_Muj_SL_P_3.et"
+     }
+     SCR_EditableEntityVariant "{66B538E90CBAE6AC}" {
+      m_sVariantPrefab "{E62CB07ADD281E08}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Mujahideen 80s/P/Variants/Character_GC_INS_Muj_SL_P_4.et"
+     }
+     SCR_EditableEntityVariant "{66B538E90C918A54}" {
+      m_sVariantPrefab "{03B0FC83D1CD8963}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Mujahideen 80s/P/Variants/Character_GC_INS_Muj_SL_P_5.et"
+     }
+     SCR_EditableEntityVariant "{66B538E90CD8AF91}" {
+      m_sVariantPrefab "{6FE4C8636D09064D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Mujahideen 80s/P/Variants/Character_GC_INS_Muj_SL_P_6.et"
+     }
+     SCR_EditableEntityVariant "{66B97550BE9D36B7}" {
+      m_sVariantPrefab "{8A78849A61EC9126}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Mujahideen 80s/P/Variants/Character_GC_INS_Muj_SL_P_7.et"
+     }
+    }
+   }
+  }
+ }
+}
