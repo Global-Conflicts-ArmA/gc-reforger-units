@@ -1,0 +1,17 @@
+Vehicle : "{FC835A35A16C5695}Prefabs/Vehicles/Tracked/BMP1/IFV_BMP1_Berezok.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    Name "BMP1 Berezok turret no AGS"
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Turret {
+     Prefab "{51A1942C866BF11D}Prefabs/Vehicles/Tracked/BMP1/VehParts/Turret/Turret_K17_Berezok_bmp1_NoAGS_Fix.et"
+    }
+   }
+  }
+ }
+}
