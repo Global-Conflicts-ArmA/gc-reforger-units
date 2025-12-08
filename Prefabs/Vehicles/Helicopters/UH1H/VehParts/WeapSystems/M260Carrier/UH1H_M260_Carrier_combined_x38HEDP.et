@@ -1,0 +1,15 @@
+Turret : "{EA9C5B7C5F4C7EEC}Prefabs/Vehicles/Helicopters/UH1H/VehParts/WeapSystems/M260Carrier/UH1H_M260_Carrier_combined_base.et" {
+ ID "4B42E71698F5739C"
+ components {
+  WeaponSlotComponent "{51ACD09C6BFEEE6A}" {
+   AttachType InventoryStorageSlot "{0AACE7470E421D82}" {
+   }
+   WeaponTemplate "{60EF0CDEAE3003AF}Prefabs/Weapons/AircraftWeapons/RocketPods/LAU61/Pod_LAU61.et"
+  }
+  WeaponSlotComponent "{61A6A09E71318336}" {
+   AttachType InventoryStorageSlot Pylon {
+   }
+   WeaponTemplate "{60EF0CDEAE3003AF}Prefabs/Weapons/AircraftWeapons/RocketPods/LAU61/Pod_LAU61.et"
+  }
+ }
+}

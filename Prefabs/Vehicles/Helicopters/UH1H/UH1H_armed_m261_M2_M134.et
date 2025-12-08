@@ -1,0 +1,73 @@
+Vehicle : "{BDE43262FC05B4D7}Prefabs/Vehicles/Helicopters/UH1H/UH1H_armed_gunship_empty_sharkNose.et" {
+ ID "5DB688595BAB2FD7"
+ components {
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    Name "#WCS-Vehicle_UH1H_Armed_Name - #WCS-Weapon_M261_Name"
+    m_Image "{1B5615F64E2A3FFD}UI/Textures/EditorPreviews/Vehicles/Helicopters/UH1H/UH1H_armed_m261.edds"
+   }
+  }
+  BaseVehicleNodeComponent "{57DA667544C3090A}" {
+   components {
+    BaseHUDComponent "{50F09A38B4352300}" {
+     InfoDisplays {
+      WCS_Armament_WeaponInfoVehicle "{62CEE7E7CACC9CBE}" {
+       m_bIsEnabled 1
+      }
+      SCR_WeaponInfo_MultiWeaponTurret "{646EB6A3C2DA06F1}" {
+       m_bIsEnabled 0
+      }
+     }
+    }
+   }
+  }
+  WCS_Armament_LoadoutComponent "{66E126FA05CDB144}" {
+   m_ArmamentGroups {
+    WCS_ArmamentWeaponGroup "{66E126FA05CD4267}" {
+     prefab "{19017870538CA350}Prefabs/Weapons/AircraftWeapons/RocketPods/M261/Pod_M261_base.et"
+     weaponsInfo {
+      WCS_ArmamentWeaponInfo "{66E126FA05CD426F}" {
+       Position PointInfo "{66E126FA05CD4273}" {
+        Offset -1.5742 0.458 0.0934
+       }
+      }
+      WCS_ArmamentWeaponInfo "{66E126FA05CD4270}" {
+       Position PointInfo "{66E126FA05CD4271}" {
+        Offset 1.5766 0.458 0.0934
+       }
+      }
+     }
+     fireModes {
+      WCS_Armament_WeaponSingleFireMode "{66E126FA05CD4274}" {
+       m_iFireIntervalMS 200
+      }
+      WCS_Armament_WeaponSalvoFireMode "{66E126FA05CD427B}" {
+      }
+      WCS_Armament_WeaponRippleFireMode "{66E126FA05CD4278}" {
+      }
+      WCS_Armament_WeaponFullRippleFireMode "{66E126FA05CD427E}" {
+      }
+     }
+    }
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo GunnerLeft {
+     Prefab "{E1B686BEA9631953}Prefabs/Vehicles/Helicopters/UH1H/VehParts/WeapSystems/UH1H_M134_gunner_left.et"
+    }
+    RegisteringComponentSlotInfo GunnerRight {
+     Prefab "{9E8DA08BB32F2E95}Prefabs/Vehicles/Helicopters/UH1H/VehParts/WeapSystems/UH1H_M2_gunner_right.et"
+    }
+   }
+  }
+  WeaponSlotComponent "{66E126FA05CD4240}" {
+   shouldHandleObstruction 0
+   AttachType InventoryStorageSlot Armament {
+    PivotID "Scene_Root"
+   }
+   WeaponTemplate "{52120E4BA120661B}Prefabs/Weapons/Core/Armament_Empty.et"
+   WeaponSlotIndex 0
+  }
+ }
+}
