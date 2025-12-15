@@ -1,0 +1,6 @@
+SCR_AIGroup : "{776A0E35AF7C62AE}Prefabs/Groups/INDFOR/GC_MUJ/Group_MUJ_MG.et" {
+ ID "0000000000000001"
+ m_aUnitPrefabSlots {
+  "{E786F2A16BDD3655}Prefabs/Characters/Factions/INDFOR/GC_MUJ/P/Character_MUJ_SL_P.et" "{2B3F3BC3F24CC73B}Prefabs/Characters/Factions/INDFOR/GC_MUJ/P/Character_MUJ_PKM_P.et" "{64F3695A593846E6}Prefabs/Characters/Factions/INDFOR/GC_MUJ/P/Character_MUJ_MGASST_P.et" "{64F3695A593846E6}Prefabs/Characters/Factions/INDFOR/GC_MUJ/P/Character_MUJ_MGASST_P.et"
+ }
+}

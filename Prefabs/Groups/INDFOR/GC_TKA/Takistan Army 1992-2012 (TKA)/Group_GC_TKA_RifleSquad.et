@@ -1,17 +1,12 @@
-SCR_AIGroup : "{8DE0C0830FE0C33D}Prefabs/Groups/OPFOR/Group_USSR_Base.et" {
+SCR_AIGroup : "{CF1973477149D919}Prefabs/Groups/INDFOR/GC_TKA/Group_TKA_base.et" {
  ID "0000000000000001"
  components {
   SCR_EditableGroupComponent "{50D291F6C83FA532}" {
    m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
     Name "Rifle Squad"
-    m_sFaction "GC_TKA"
-    m_aAuthoredLabels {
-     4
-    }
    }
   }
  }
- m_faction "GC_TKA"
  m_aUnitPrefabSlots {
   "{92E1FCD527319EC9}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Character_GC_TKA_SL.et" "{581D9CB4D35A3203}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Character_GC_TKA_AT1.et" "{3449A8546F9EBD2D}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Character_GC_TKA_AT2.et" "{23AFF7E5ACF2A14A}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Character_GC_TKA_AutoRifleman.et" "{2C2031FC799B0EEC}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Character_GC_TKA_SrRifleman.et" "{21A1481C0C4345AF}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Character_GC_TKA_Rifleman.et"
  }

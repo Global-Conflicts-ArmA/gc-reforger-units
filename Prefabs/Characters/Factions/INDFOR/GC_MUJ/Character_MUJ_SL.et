@@ -1,0 +1,72 @@
+SCR_ChimeraCharacter : "{3993601378439CD1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Variants/Character_MUJ_AK_8.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot {
+       Prefab "{243948B23D90BECB}Prefabs/Items/Equipment/Binoculars/Binoculars_B8/Binoculars_B8.et"
+      }
+     }
+    }
+   }
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Group Leader"
+    Icon "{A26C465A6AE2AA17}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_Leader.edds"
+   }
+   m_VariantData SCR_EditableEntityVariantData "{66B538E90E719B17}" {
+    m_bRandomizeDefaultVariant 0
+    m_aVariants {
+     SCR_EditableEntityVariant "{66B538E90FA4A005}" {
+      m_sVariantPrefab "{5DE2798491D5C6C8}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Variants/Character_MUJ_SL_1.et"
+     }
+     SCR_EditableEntityVariant "{66B538E90FC3B3A0}" {
+      m_sVariantPrefab "{31B64D642D1149E6}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Variants/Character_MUJ_SL_2.et"
+     }
+     SCR_EditableEntityVariant "{66B538E90C6CC58A}" {
+      m_sVariantPrefab "{D42A019D21F4DE8D}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Variants/Character_MUJ_SL_3.et"
+     }
+     SCR_EditableEntityVariant "{66B538E90CBAE6AC}" {
+      m_sVariantPrefab "{E91E24A5549857BA}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Variants/Character_MUJ_SL_4.et"
+     }
+     SCR_EditableEntityVariant "{66B538E90C918A54}" {
+      m_sVariantPrefab "{0C82685C587DC0D1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Variants/Character_MUJ_SL_5.et"
+     }
+     SCR_EditableEntityVariant "{66B538E90CD8AF91}" {
+      m_sVariantPrefab "{60D65CBCE4B94FFF}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Variants/Character_MUJ_SL_6.et"
+     }
+     SCR_EditableEntityVariant "{66B97550A0C9309E}" {
+      m_sVariantPrefab "{F959DBF82244F0EE}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Variants/Character_MUJ_SL_7.et"
+     }
+    }
+   }
+   m_vIconPos 0 0 0
+  }
+  CharacterGrenadeSlotComponent "{5A6CDA0CCF43068E}" {
+   WeaponTemplate "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{66A130BB52DE58C1}" {
+     PrefabsToSpawn + {
+      "{9361BEC03E52E6F8}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_White.et"
+     }
+    }
+    ItemsInitConfigurationItem "{66A130BB52DE5B30}" {
+     PrefabsToSpawn {
+      "{E039E897BD5A339E}Prefabs/Weapons/Magazines/AK/BC_Magazine_762x39_AK_30rnd_Ball.et" "{E039E897BD5A339E}Prefabs/Weapons/Magazines/AK/BC_Magazine_762x39_AK_30rnd_Ball.et" "{E039E897BD5A339E}Prefabs/Weapons/Magazines/AK/BC_Magazine_762x39_AK_30rnd_Ball.et" "{E039E897BD5A339E}Prefabs/Weapons/Magazines/AK/BC_Magazine_762x39_AK_30rnd_Ball.et"
+     }
+    }
+    ItemsInitConfigurationItem "{66B538EEF741DE13}" {
+     TargetStorage "Jacket/Jacket_ShirtSmall_1.et"
+     PrefabsToSpawn {
+      "{E039E897BD5A339E}Prefabs/Weapons/Magazines/AK/BC_Magazine_762x39_AK_30rnd_Ball.et"
+     }
+    }
+   }
+  }
+ }
+}

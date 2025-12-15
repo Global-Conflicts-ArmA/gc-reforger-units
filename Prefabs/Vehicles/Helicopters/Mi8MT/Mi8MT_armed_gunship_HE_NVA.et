@@ -13,5 +13,12 @@ Vehicle : "{3C6B3ED0C3AC30D5}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_armed_guns
     }
    }
   }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    m_aAutoLabels {
+     FACTION_GC_NVA SIZE_L
+    }
+   }
+  }
  }
 }

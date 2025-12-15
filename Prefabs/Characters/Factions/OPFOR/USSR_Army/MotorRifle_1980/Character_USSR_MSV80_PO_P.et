@@ -1,6 +1,16 @@
 SCR_ChimeraCharacter : "{8558FB262DBF1D64}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_1980/Character_USSR_MSV80_CoyL_P.et" {
  ID "520EC961A090B1EE"
  components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot {
+      }
+     }
+    }
+   }
+  }
   PS_PlayableComponent "{5EFCC1946F475F15}" {
    m_sName "Political Officer"
   }

@@ -1,0 +1,33 @@
+SCR_ChimeraCharacter : "{A667669A9E7F19D4}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Variants/Character_MUJ_AK_7.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Radioman"
+    Icon "{B9F0BD39FF1881A3}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_RadioOperator.edds"
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Back {
+     Prefab "{4181B1C8B5E56392}Prefabs/Items/Equipment/Radios/Radio_R107M_FIA.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{66A130BB3D6B1BAC}" {
+     PrefabsToSpawn {
+      "{E039E897BD5A339E}Prefabs/Weapons/Magazines/AK/BC_Magazine_762x39_AK_30rnd_Ball.et" "{E039E897BD5A339E}Prefabs/Weapons/Magazines/AK/BC_Magazine_762x39_AK_30rnd_Ball.et" "{E039E897BD5A339E}Prefabs/Weapons/Magazines/AK/BC_Magazine_762x39_AK_30rnd_Ball.et" "{E039E897BD5A339E}Prefabs/Weapons/Magazines/AK/BC_Magazine_762x39_AK_30rnd_Ball.et"
+     }
+    }
+    ItemsInitConfigurationItem "{66B0EB636E5BF07E}" {
+     TargetStorage "Jacket/Jacket_ShirtSmall_6.et"
+     PrefabsToSpawn {
+      "{E039E897BD5A339E}Prefabs/Weapons/Magazines/AK/BC_Magazine_762x39_AK_30rnd_Ball.et"
+     }
+    }
+   }
+  }
+ }
+}

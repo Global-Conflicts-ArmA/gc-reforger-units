@@ -1,0 +1,51 @@
+SCR_ChimeraCharacter : "{D3F29763F96877CD}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_base.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Icon "{AE53796BC5D21A08}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_Rifleman.edds"
+   }
+  }
+  CharacterGrenadeSlotComponent "{520EA1D2F659CE6E}" {
+   WeaponTemplate "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{24FFA508861139C9}Prefabs/Weapons/Rifles/L42A1/Rifle_L8.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{5A293B86B4EDF486}Prefabs/Characters/HeadGear/Hat_FlatCap_01/Pakol_Hat_1.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{0048AA56450ED17F}Prefabs/Characters/Uniforms/Jacket_ShirtSmall_1.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{F8F61736427CD5C2}Prefabs/Characters/Uniforms/Pants_Cargo_3.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{B12C47DF95EC9C17}Prefabs/Characters/Footwear/CombatBoots_Insurgents.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{6670741861B607F0}Prefabs/Characters/Vests/Vest_ChestRigSmal/Vest_ChestRigSmall_1.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6699608FA87488EA}" {
+     TargetStorage "Pants/Pants_Cargo_3.et"
+     PrefabsToSpawn {
+      "{7CEF68E2BC68CE71}Prefabs/Items/Equipment/Compass/Compass_Adrianov.et" "{13772C903CB5E4F7}Prefabs/Items/Equipment/Maps/PaperMap_01_folded.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et" "{062E2F1D7F6739D6}Prefabs/Items/Equipment/Accessories/ETool_MPL50/ETool_MPL50_FreeRoamBuilding_Gadget.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6699608FA87488DC}" {
+     TargetStorage "Vest/Vest_ChestRigSmall_1.et"
+     PrefabsToSpawn {
+      "{4F4439BAA80A7A66}Prefabs/Weapons/Magazines/Magazine_762x51_L42a1_10rnd_Base.et" "{4F4439BAA80A7A66}Prefabs/Weapons/Magazines/Magazine_762x51_L42a1_10rnd_Base.et" "{4F4439BAA80A7A66}Prefabs/Weapons/Magazines/Magazine_762x51_L42a1_10rnd_Base.et" "{4F4439BAA80A7A66}Prefabs/Weapons/Magazines/Magazine_762x51_L42a1_10rnd_Base.et" "{4F4439BAA80A7A66}Prefabs/Weapons/Magazines/Magazine_762x51_L42a1_10rnd_Base.et" "{4F4439BAA80A7A66}Prefabs/Weapons/Magazines/Magazine_762x51_L42a1_10rnd_Base.et" "{4F4439BAA80A7A66}Prefabs/Weapons/Magazines/Magazine_762x51_L42a1_10rnd_Base.et" "{4F4439BAA80A7A66}Prefabs/Weapons/Magazines/Magazine_762x51_L42a1_10rnd_Base.et"
+     }
+    }
+   }
+  }
+ }
+}

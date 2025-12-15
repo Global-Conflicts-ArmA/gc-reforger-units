@@ -7,9 +7,10 @@ SCR_ChimeraCharacter : "{DE3786C0C6C978D4}Prefabs/Characters/Factions/INDFOR/FIA
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
     Name "Soldier"
+    m_Image "{2B0877799B9B6C66}UI/Textures/EditorPreviews/Characters/BLUFOR/US_Army/Character_US_Rifleman.edds"
     m_sFaction "GC_TKA"
     m_aAuthoredLabels {
-     ENTITYTYPE_CHARACTER
+     ENTITYTYPE_CHARACTER FACTION_GC_TKA
     }
    }
   }

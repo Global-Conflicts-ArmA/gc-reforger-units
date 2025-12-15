@@ -1,0 +1,6 @@
+SCR_AIGroup : "{1FABF63E0F58019F}Prefabs/Groups/OPFOR/GC_SEPARATIST/2020/GC_SEPARATIST_RifleSquad_2.et" {
+ ID "0000000000000001"
+ m_aUnitPrefabSlots {
+  "{730520492F439698}Prefabs/Characters/Factions/OPFOR/GC_SEP/1990/P/Character_SEP_1990_SL_P.et" "{D68098C4FB0522F2}Prefabs/Characters/Factions/OPFOR/GC_SEP/1990/P/Character_SEP_1990_AR_P.et" "{6B50CA43841E3EEC}Prefabs/Characters/Factions/OPFOR/GC_SEP/1990/P/Character_SEP_1990_AT_P.et" "{0CBAE3124787C4BC}Prefabs/Characters/Factions/OPFOR/GC_SEP/1990/P/Character_SEP_1990_GL_P.et" "{A183104FB634329A}Prefabs/Characters/Factions/OPFOR/GC_SEP/1990/P/Character_SEP_1990_TL_P.et" "{43ED5345D6FF976B}Prefabs/Characters/Factions/OPFOR/GC_SEP/1990/P/Character_SEP_1990_MG_P.et" "{C62B9817669A3BAC}Prefabs/Characters/Factions/OPFOR/GC_SEP/1990/P/Character_SEP_1990_Rifleman_P.et"
+ }
+}

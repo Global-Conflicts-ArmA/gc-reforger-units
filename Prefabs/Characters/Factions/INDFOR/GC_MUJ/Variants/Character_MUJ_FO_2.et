@@ -1,0 +1,20 @@
+SCR_ChimeraCharacter : "{0C82685C587DC0D1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Variants/Character_MUJ_SL_5.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Forward Observer"
+    Icon "{9A61AD7EADB131FD}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_Spotter.edds"
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{4181B1C8B5E56392}Prefabs/Items/Equipment/Radios/Radio_R107M_FIA.et"
+    }
+   }
+  }
+ }
+}

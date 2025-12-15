@@ -1,0 +1,8 @@
+SCR_ChimeraCharacter : "{0374166DBD02EADB}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Variants/Character_MUJ_MGASST_3.et" {
+ ID "520EC961A090B1EE"
+ components {
+  PS_PlayableComponent "{5EFCC1946F475F15}" {
+   m_bIsPlayable 1
+  }
+ }
+}

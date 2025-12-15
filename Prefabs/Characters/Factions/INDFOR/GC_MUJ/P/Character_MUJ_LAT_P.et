@@ -1,0 +1,36 @@
+SCR_ChimeraCharacter : "{1F5012C522E2356A}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_LAT.et" {
+ ID "520EC961A090B1EE"
+ components {
+  PS_PlayableComponent "{5EFCC1946F475F15}" {
+   m_bIsPlayable 1
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Fighter (AT)"
+    Icon "{00B30C29FAF85E1C}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_AntiTank.edds"
+   }
+   m_VariantData SCR_EditableEntityVariantData "{66E37D2B624C112D}" {
+    m_aVariants {
+     SCR_EditableEntityVariant "{66E37D2B6344A5C3}" {
+      m_sVariantPrefab "{B58FB37AB6EF0B1F}Prefabs/Characters/Factions/INDFOR/GC_MUJ/P/Variants/Character_MUJ_LAT_1_P.et"
+     }
+     SCR_EditableEntityVariant "{66E37D2B63C9A9B5}" {
+      m_sVariantPrefab "{EB679A3909628510}Prefabs/Characters/Factions/INDFOR/GC_MUJ/P/Variants/Character_MUJ_LAT_2_P.et"
+     }
+     SCR_EditableEntityVariant "{66E37D2B600E0007}" {
+      m_sVariantPrefab "{1F6FDDA104BFED64}Prefabs/Characters/Factions/INDFOR/GC_MUJ/P/Variants/Character_MUJ_LAT_3_P.et"
+     }
+     SCR_EditableEntityVariant "{66E37D2B605627D2}" {
+      m_sVariantPrefab "{56B7C8BE7679990E}Prefabs/Characters/Factions/INDFOR/GC_MUJ/P/Variants/Character_MUJ_LAT_4_P.et"
+     }
+     SCR_EditableEntityVariant "{66E37D2B60A3708D}" {
+      m_sVariantPrefab "{A2BF8F267BA4F17A}Prefabs/Characters/Factions/INDFOR/GC_MUJ/P/Variants/Character_MUJ_LAT_5_P.et"
+     }
+     SCR_EditableEntityVariant "{66E37D2B60F2DB8C}" {
+      m_sVariantPrefab "{FC57A665C4297F75}Prefabs/Characters/Factions/INDFOR/GC_MUJ/P/Variants/Character_MUJ_LAT_6_P.et"
+     }
+    }
+   }
+  }
+ }
+}

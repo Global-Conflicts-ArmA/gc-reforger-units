@@ -29,6 +29,9 @@ Vehicle : "{254289B9C09904AB}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2.et" {
    m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
     Name "SPW-40P2"
     m_sFaction "GC_NVA"
+    m_aAutoLabels {
+     FACTION_GC_NVA SIZE_M
+    }
    }
   }
   SCR_UniversalInventoryStorageComponent "{607E9AA3D83AA29D}" {

@@ -1,0 +1,30 @@
+SCR_ChimeraCharacter : "{B3E96BAF62B0AB1E}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Variants/Character_MUJ_SMG_1.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Fighter (AT)"
+    Icon "{00B30C29FAF85E1C}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_AntiTank.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+   WeaponTemplate "{722CE6FEC39EE896}Prefabs/Weapons/Launchers/RPG22/Launcher_RPG22.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{E6A32FCB9CAD03D2}Prefabs/Characters/Uniforms/Jacket_ShirtSmall_2.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{66B11472B32C7033}" {
+     TargetStorage "Jacket/Jacket_ShirtSmall_2.et"
+    }
+   }
+  }
+ }
+}

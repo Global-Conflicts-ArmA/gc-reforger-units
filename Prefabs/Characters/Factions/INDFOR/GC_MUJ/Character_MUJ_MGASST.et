@@ -1,0 +1,24 @@
+SCR_ChimeraCharacter : "{8ABC6E740D23F29E}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Variants/Character_MUJ_MGASST_1.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_VariantData SCR_EditableEntityVariantData "{66F837542BC77A83}" {
+    m_bRandomizeDefaultVariant 0
+    m_aVariants {
+     SCR_EditableEntityVariant "{66F83754296C1EE7}" {
+      m_sVariantPrefab "{8ABC6E740D23F29E}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Variants/Character_MUJ_MGASST_1.et"
+     }
+     SCR_EditableEntityVariant "{66F83754299FC6BA}" {
+      m_sVariantPrefab "{E6E85A94B1E77DB0}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Variants/Character_MUJ_MGASST_2.et"
+     }
+     SCR_EditableEntityVariant "{66F8375429DBBC98}" {
+      m_sVariantPrefab "{0374166DBD02EADB}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Variants/Character_MUJ_MGASST_3.et"
+     }
+     SCR_EditableEntityVariant "{66F8375436A4A8D5}" {
+      m_sVariantPrefab "{3E403355C86E63EC}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Variants/Character_MUJ_MGASST_4.et"
+     }
+    }
+   }
+  }
+ }
+}

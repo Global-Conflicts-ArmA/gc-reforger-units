@@ -1,0 +1,27 @@
+SCR_ChimeraCharacter : "{90214E35AA363179}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Variants/Character_MUJ_AK_1.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Icon "{FB48FAD32DA8BC91}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_AmmoBearer.edds"
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Back {
+     Prefab "{6A39B5843B3F36DA}Prefabs/Items/Equipment/Backpacks/Backpack_RPG_Assistant.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{66A1309F94BAC7C6}" {
+     TargetStorage "Back/Backpack_RPG_Assistant.et"
+     PrefabsToSpawn {
+      "{32E12D322E107F1C}Prefabs/Weapons/Ammo/Ammo_Rocket_PG7VM.et" "{32E12D322E107F1C}Prefabs/Weapons/Ammo/Ammo_Rocket_PG7VM.et" "{32E12D322E107F1C}Prefabs/Weapons/Ammo/Ammo_Rocket_PG7VM.et"
+     }
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{CC7164055A654D6D}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Enfield_3.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

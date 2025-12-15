@@ -1,0 +1,35 @@
+SCR_ChimeraCharacter : "{5DE2798491D5C6C8}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Variants/Character_MUJ_SL_1.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Forward Observer"
+    Icon "{9A61AD7EADB131FD}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_Spotter.edds"
+   }
+   m_VariantData SCR_EditableEntityVariantData "{66B9755EB491AB76}" {
+    m_bRandomizeDefaultVariant 0
+    m_aVariants {
+     SCR_EditableEntityVariant "{66B9755EB289C66B}" {
+      m_sVariantPrefab "{BB790301B3CA59EF}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Variants/Character_MUJ_FO_1.et"
+     }
+     SCR_EditableEntityVariant "{66B9755EB3017374}" {
+      m_sVariantPrefab "{D72D37E10F0ED6C1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Variants/Character_MUJ_FO_2.et"
+     }
+    }
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{F37E8195BD4BBAA8}Prefabs/Characters/HeadGear/Hat_FlatCap_01/Pakol_Hat_2.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{4181B1C8B5E56392}Prefabs/Items/Equipment/Radios/Radio_R107M_FIA.et"
+    }
+    LoadoutSlotInfo Head {
+     Prefab "{29BA8EECE1EFD977}Prefabs/Characters/HeadGear/Hat_FlatCap_01/Scarf_1.et"
+    }
+   }
+  }
+ }
+}

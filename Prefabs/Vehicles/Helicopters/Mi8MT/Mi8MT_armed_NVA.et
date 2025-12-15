@@ -16,6 +16,9 @@ Vehicle : "{7BD282AF716ED639}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_armed.et" 
   SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
     m_sFaction "GC_NVA"
+    m_aAutoLabels {
+     FACTION_GC_NVA SIZE_L
+    }
    }
   }
   SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {

@@ -22,7 +22,11 @@ SCR_ChimeraCharacter : "{5346CF7E39A65A6B}Prefabs/Characters/Factions/OPFOR/USSR
   }
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    m_Image "{40D8AF992EF6DF97}UI/Textures/EditorPreviews/Characters/OPFOR/USSR_Army/Character_USSR_NI_Rifleman.edds"
     m_sFaction "GC_NVA"
+    m_aAuthoredLabels {
+     GROUPSIZE_SMALL ENTITYTYPE_CHARACTER FACTION_GC_NVA
+    }
    }
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {

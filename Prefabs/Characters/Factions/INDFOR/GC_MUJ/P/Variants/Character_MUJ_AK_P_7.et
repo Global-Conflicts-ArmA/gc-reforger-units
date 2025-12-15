@@ -1,0 +1,8 @@
+SCR_ChimeraCharacter : "{A667669A9E7F19D4}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Variants/Character_MUJ_AK_7.et" {
+ ID "520EC961A090B1EE"
+ components {
+  PS_PlayableComponent "{5EFCC1946F475F15}" {
+   m_bIsPlayable 1
+  }
+ }
+}

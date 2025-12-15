@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{B220432E33048D74}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Variants/Character_MUJ_Mortar_3.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

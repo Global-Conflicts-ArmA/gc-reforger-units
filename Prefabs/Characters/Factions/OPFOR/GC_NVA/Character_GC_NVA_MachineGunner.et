@@ -29,7 +29,7 @@ SCR_ChimeraCharacter : "{DC30E1E42C6BA859}Prefabs/Characters/Factions/OPFOR/GC_N
     ItemsInitConfigurationItem "{652F4ADEF12E1167}" {
      TargetStorage "Vest/Vest_NVA_Autorifleman.et/MagPouch_6Sh46/Vest_NVA_Magpouch_AK74.et"
      PrefabsToSpawn {
-      "{9A0E9828AEEBA8B0}Prefabs/Weapons/Magazines/RPK/BC_Magazine_762x39_RPK_40rnd_Ball.et" "{9A0E9828AEEBA8B0}Prefabs/Weapons/Magazines/RPK/BC_Magazine_762x39_RPK_40rnd_Ball.et" "{9A0E9828AEEBA8B0}Prefabs/Weapons/Magazines/RPK/BC_Magazine_762x39_RPK_40rnd_Ball.et" "{9A0E9828AEEBA8B0}Prefabs/Weapons/Magazines/RPK/BC_Magazine_762x39_RPK_40rnd_Ball.et"
+      "{9A0E9828AEEBA8B0}Prefabs/Weapons/Magazines/RPK/BC_Magazine_762x39_RPK_40rnd_Ball.et" "{9A0E9828AEEBA8B0}Prefabs/Weapons/Magazines/RPK/BC_Magazine_762x39_RPK_40rnd_Ball.et" "{9A0E9828AEEBA8B0}Prefabs/Weapons/Magazines/RPK/BC_Magazine_762x39_RPK_40rnd_Ball.et" "{9A0E9828AEEBA8B0}Prefabs/Weapons/Magazines/RPK/BC_Magazine_762x39_RPK_40rnd_Ball.et" "{9A0E9828AEEBA8B0}Prefabs/Weapons/Magazines/RPK/BC_Magazine_762x39_RPK_40rnd_Ball.et" "{9A0E9828AEEBA8B0}Prefabs/Weapons/Magazines/RPK/BC_Magazine_762x39_RPK_40rnd_Ball.et"
      }
     }
     ItemsInitConfigurationItem "{6530245273152B10}" {

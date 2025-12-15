@@ -1,12 +1,12 @@
-SCR_ChimeraCharacter : "{21A1481C0C4345AF}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army, 1992-2012 (TKA)/Character_GC_TKA_Rifleman.et" {
+SCR_ChimeraCharacter : "{21A1481C0C4345AF}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Character_GC_TKA_Rifleman.et" {
  ID "520EC961A090B1EE"
  components {
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
     Name "AT Specialist"
     Icon "{00B30C29FAF85E1C}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_AntiTank.edds"
-    m_aAuthoredLabels {
-     2
+    m_aAuthoredLabels + {
+     FACTION_GC_TKA
     }
    }
   }

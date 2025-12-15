@@ -1,0 +1,33 @@
+SCR_AIGroup : "{000CD338713F2B5A}Prefabs/AI/Groups/Group_Base.et" {
+ ID "0000000000000001"
+ components {
+  PS_GroupCallsignAssigner "{67115DD1C26794AA}" {
+  }
+  SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+   m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+    m_Image "{E4745904C45FC059}UI/Textures/EditorPreviews/Groups/OPFOR/Group_USSR_RifleSquad.edds"
+    m_sFaction "GC_CDF"
+    m_aAuthoredLabels + {
+     FACTION_GC_CDF
+    }
+    m_aAutoLabels {
+    }
+    m_bUseUIInfoName 1
+    m_MilitarySymbol SCR_MilitarySymbol "{67115DD1C2679422}" {
+     m_Identity BLUFOR
+     m_Dimension LAND
+     m_Icons INFANTRY
+     m_Amplifier SQUAD
+    }
+   }
+  }
+  SCR_GroupIdentityComponent "{56366C5C50AD3CF2}" {
+   m_MilitarySymbol SCR_MilitarySymbol "{56366C5C4E32A359}" {
+    m_Identity BLUFOR
+    m_Icons INFANTRY
+    m_Amplifier SQUAD
+   }
+  }
+ }
+ m_faction "GC_CDF"
+}

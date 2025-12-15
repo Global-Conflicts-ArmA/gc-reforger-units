@@ -1,0 +1,13 @@
+SCR_AIGroup : "{28582B54ECB0C9D1}Prefabs/Groups/OPFOR/GC_SEPARATIST/Group_SEP_base.et" {
+ ID "0000000000000001"
+ components {
+  SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+   m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+    Name "Sharpshooter (2020)"
+   }
+  }
+ }
+ m_aUnitPrefabSlots {
+  "{78EF9F722E522CCF}Prefabs/Characters/Factions/OPFOR/GC_SEPARATIST/Character_GC_SEPARATIST_Sharpshooter.et"
+ }
+}

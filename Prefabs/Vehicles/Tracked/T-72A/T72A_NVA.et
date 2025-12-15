@@ -36,6 +36,9 @@ Tank : "{BC07885176C7FF8A}Prefabs/Vehicles/Tracked/T-72A/T72A_base.et" {
   SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
    m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
     m_sFaction "GC_NVA"
+    m_aAutoLabels {
+     FACTION_GC_NVA SIZE_M VEHICLE_TANK
+    }
    }
   }
   SCR_UniversalInventoryStorageComponent "{5E38B925DD33F65F}" {
