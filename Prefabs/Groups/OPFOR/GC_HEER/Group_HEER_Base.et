@@ -1,0 +1,12 @@
+SCR_AIGroup : "{8DE0C0830FE0C33D}Prefabs/Groups/OPFOR/Group_USSR_Base.et" {
+ ID "0000000000000001"
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation ""
+  }
+  PS_GroupCallsignAssigner "{671F7EA93DB526AC}" {
+  }
+ }
+ coords 3638.52 28.33 3709.453
+ m_faction "GC_HEER"
+}

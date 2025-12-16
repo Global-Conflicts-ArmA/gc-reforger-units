@@ -1,0 +1,7 @@
+SCR_AIGroup : "{55F0FD746519A30D}Prefabs/Groups/OPFOR/GC_HEER/Group_HEER_Base.et" {
+ ID "0000000000000001"
+ coords 3637.358 28.16 3705.436
+ m_aUnitPrefabSlots {
+  "{60455214F0FF9EB3}Prefabs/Characters/Factions/OPFOR/GC_HEER/P/Character_GC_HEER_SL_P.et" "{B2C3621269883AB1}Prefabs/Characters/Factions/OPFOR/GC_HEER/P/Character_GC_HEER_TL_P.et" "{50AD211809439F40}Prefabs/Characters/Factions/OPFOR/GC_HEER/P/Character_GC_HEER_MG_P.et" "{3EA37D6AB5D56756}Prefabs/Characters/Factions/OPFOR/GC_HEER/P/Character_GC_HEER_Rifleman_P.et" "{3EA37D6AB5D56756}Prefabs/Characters/Factions/OPFOR/GC_HEER/P/Character_GC_HEER_Rifleman_P.et" "{3EA37D6AB5D56756}Prefabs/Characters/Factions/OPFOR/GC_HEER/P/Character_GC_HEER_Rifleman_P.et" "{3EA37D6AB5D56756}Prefabs/Characters/Factions/OPFOR/GC_HEER/P/Character_GC_HEER_Rifleman_P.et"
+ }
+}

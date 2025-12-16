@@ -1,0 +1,9 @@
+GameEntity : "{A080C1AEBF921DC4}Prefabs/Characters/Uniforms/Jacket_US_BDU_rolledup_02.et" {
+ ID "5104869D194C6243"
+ components {
+  ParametricMaterialInstanceComponent "{56C6C01F261424B9}" {
+   ColorAlbedo 0.1329 0.1329 0.1329 1
+  }
+ }
+ coords 3776.317 27.324 3634.228
+}
