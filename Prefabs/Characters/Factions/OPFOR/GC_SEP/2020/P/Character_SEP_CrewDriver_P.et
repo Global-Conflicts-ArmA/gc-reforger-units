@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{D0448B34C8BB43D9}Prefabs/Characters/Factions/OPFOR/GC_SEPARATIST/Character_GC_SEPARATIST_Crew.et" {
+SCR_ChimeraCharacter : "{D0448B34C8BB43D9}Prefabs/Characters/Factions/OPFOR/GC_SEP/2020/Character_SEP_Crew.et" {
  ID "520EC961A090B1EE"
  components {
   PS_PlayableComponent "{5EFCC1946F475F15}" {
@@ -9,5 +9,21 @@ SCR_ChimeraCharacter : "{D0448B34C8BB43D9}Prefabs/Characters/Factions/OPFOR/GC_S
     Name "Vehicle Driver"
    }
   }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Back {
+     Prefab "{54C68E438DD34265}Prefabs/Items/Equipment/Radios/Radio_R107M.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{5D7CC173FAA7C00C}" {
+     PrefabsToSpawn {
+     }
+    }
+   }
+  }
  }
+ coords 1.778 -0.095 -1.786
 }

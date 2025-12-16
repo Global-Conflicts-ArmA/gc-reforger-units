@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{D0448B34C8BB43D9}Prefabs/Characters/Factions/OPFOR/GC_SEPARATIST/Character_GC_SEPARATIST_Crew.et" {
+SCR_ChimeraCharacter : "{D0448B34C8BB43D9}Prefabs/Characters/Factions/OPFOR/GC_SEP/2020/Character_SEP_Crew.et" {
  ID "520EC961A090B1EE"
  components {
   PS_PlayableComponent "{5EFCC1946F475F15}" {
@@ -17,12 +17,16 @@ SCR_ChimeraCharacter : "{D0448B34C8BB43D9}Prefabs/Characters/Factions/OPFOR/GC_S
     LoadoutSlotInfo Pants {
      Prefab "{86BB79B9A2233780}Prefabs/Characters/Uniforms/Pants_US_M65.et"
     }
+    LoadoutSlotInfo Back {
+     Prefab "{54C68E438DD34265}Prefabs/Items/Equipment/Radios/Radio_R107M.et"
+    }
    }
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
-    ItemsInitConfigurationItem "{5D7CC173FAA7C00E}" {
-     TargetStorage "Pants/Pants_US_M65.et"
+    ItemsInitConfigurationItem "{5D7CC173FAA7C00C}" {
+     PrefabsToSpawn {
+     }
     }
     ItemsInitConfigurationItem "{65D912283DB5C2ED}" {
      TargetStorage "Pants/Pants_US_M65.et"
@@ -33,7 +37,11 @@ SCR_ChimeraCharacter : "{D0448B34C8BB43D9}Prefabs/Characters/Factions/OPFOR/GC_S
     ItemsInitConfigurationItem "{65D912283DB5C29D}" {
      TargetStorage "Pants/Pants_US_M65.et"
     }
+    ItemsInitConfigurationItem "{5D7CC173FAA7C00E}" {
+     TargetStorage "Pants/Pants_US_M65.et"
+    }
    }
   }
  }
+ coords -2.722 -0.088 -1.792
 }

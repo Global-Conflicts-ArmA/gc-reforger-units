@@ -1,11 +1,23 @@
-SCR_ChimeraCharacter : "{D45D3F2DCDEFD057}Prefabs/Characters/Factions/INDFOR/FIA/Extra/Character_FIA_Crew_P.et" {
+SCR_ChimeraCharacter : "{D45D3F2DCDEFD057}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Crew_P.et" {
  ID "520EC961A090B1EE"
  components {
   PS_PlayableComponent "{5EFCC1946F475F15}" {
    m_sName "Crewman (Commander)"
   }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Back {
+     Prefab "{4181B1C8B5E56392}Prefabs/Items/Equipment/Radios/Radio_R107M_FIA.et"
+    }
+   }
+  }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
+    ItemsInitConfigurationItem "{5D7CC173FAA7C00E}" {
+     PrefabsToSpawn {
+      "{7CEF68E2BC68CE71}Prefabs/Items/Equipment/Compass/Compass_Adrianov.et" "{983B57B8E95C1F52}Prefabs/Items/Equipment/Maps/Map_Paper_01/PaperMap_01_folded_FIA.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et" "{062E2F1D7F6739D6}Prefabs/Items/Equipment/Accessories/ETool_MPL50/ETool_MPL50_FreeRoamBuilding_Gadget.et" "{3F1B1BAD1F6DDC28}Prefabs/Weapons/Attachments/Bayonets/Bayonet_VZ58/Bayonet_VZ58_v1.et"
+     }
+    }
     ItemsInitConfigurationItem "{5EE323B09A236F45}" {
      PrefabsToSpawn {
       "{02CF96D8F971B5B7}Prefabs/Items/Equipment/Radios/Radio_R148_FIA_Multi.et" "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et" "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et"
@@ -14,4 +26,5 @@ SCR_ChimeraCharacter : "{D45D3F2DCDEFD057}Prefabs/Characters/Factions/INDFOR/FIA
    }
   }
  }
+ coords -2.676 -1.262 -1.512
 }

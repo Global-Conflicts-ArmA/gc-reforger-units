@@ -1,8 +1,24 @@
-SCR_ChimeraCharacter : "{570AB803A7EB4E31}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/2020/Character_RHS_RANGER_VehicleDriver.et" {
+SCR_ChimeraCharacter : "{570AB803A7EB4E31}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Rangers/Character_RHS_RANGER_VehicleDriver.et" {
  ID "520EC961A090B1EE"
  components {
   PS_PlayableComponent "{5EFCC1946F475F15}" {
    m_bIsPlayable 1
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Back {
+     Prefab "{9B6B61BB3FE3DFB0}Prefabs/Items/Equipment/Radios/Radio_ANPRC77.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6512D231A62AFA49}" {
+     PrefabsToSpawn {
+      "{5D948A57AF3432ED}Prefabs/Items/Equipment/Radios/Radio_ANPRC152A_OLD_Single.et"
+     }
+    }
+   }
   }
  }
 }

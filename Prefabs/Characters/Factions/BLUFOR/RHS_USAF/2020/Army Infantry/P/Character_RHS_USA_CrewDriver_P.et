@@ -10,5 +10,12 @@ SCR_ChimeraCharacter : "{9FA8EA484A66D014}Prefabs/Characters/Factions/BLUFOR/RHS
     Icon "{A489F552FB7489C3}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_Custom.edds"
    }
   }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Back {
+    }
+   }
+  }
  }
+ coords -0.3 -0.971 -7.242
 }

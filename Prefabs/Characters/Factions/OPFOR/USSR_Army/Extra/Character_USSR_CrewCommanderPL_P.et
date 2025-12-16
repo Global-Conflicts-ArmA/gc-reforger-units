@@ -6,5 +6,12 @@ SCR_ChimeraCharacter : "{B4A947AA09E9F15E}Prefabs/Characters/Factions/OPFOR/USSR
     Name "#AR-Role_PlatoonLeader"
    }
   }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Back {
+     Prefab "{54C68E438DD34265}Prefabs/Items/Equipment/Radios/Radio_R107M.et"
+    }
+   }
+  }
  }
 }

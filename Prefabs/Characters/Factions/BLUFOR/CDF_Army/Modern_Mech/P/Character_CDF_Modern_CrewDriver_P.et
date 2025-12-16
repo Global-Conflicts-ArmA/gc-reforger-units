@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{7AFB5290811A6B99}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern/Character_CDF_Modern_Crew.et" {
+SCR_ChimeraCharacter : "{7AFB5290811A6B99}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Mech/Character_CDF_Modern_Crew.et" {
  ID "520EC961A090B1EE"
  components {
   PS_PlayableComponent "{5EFCC1946F475F15}" {
@@ -7,6 +7,14 @@ SCR_ChimeraCharacter : "{7AFB5290811A6B99}Prefabs/Characters/Factions/BLUFOR/CDF
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
     Name "Crewman (Driver)"
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Back {
+     Enabled 1
+     Prefab "{B8C0F56D9F1E4FCD}Prefabs/Characters/Backpacks/Radio/Kombat_Radio/Kombat_Radio_Pack_CB_CDF.et"
+    }
    }
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
@@ -19,4 +27,5 @@ SCR_ChimeraCharacter : "{7AFB5290811A6B99}Prefabs/Characters/Factions/BLUFOR/CDF
    }
   }
  }
+ coords -0.909 -1.059 -3.485
 }
