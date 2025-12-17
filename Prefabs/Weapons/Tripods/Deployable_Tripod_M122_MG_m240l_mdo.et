@@ -1,0 +1,111 @@
+Turret : "{5568074F16296642}Prefabs/Weapons/Tripods/Deployable_Tripod_M122_MG_M60.et" {
+ ID "52D30EFBEBC74642"
+ components {
+  SCR_BaseCompartmentManagerComponent "{51ACFBB07A14CFA6}" {
+   CompartmentSlots {
+    TurretCompartmentSlot TurretCompartment {
+     AdditionalActions {
+      SCR_RemoveCasualtyUserAction "{5D56867A46DBE769}" {
+      }
+      SCR_RemoveCasualtyUserAction "{61089D59F48D7BD2}" {
+      }
+     }
+     PassengerPositionInfo EntitySlotInfo "{51ACFBB1D6C27024}" {
+      Offset 0 0 -0.7113
+     }
+     RestrictedItemTypes {
+     }
+     CharacterWeaponHandling 0
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{58FE9E4F05DC95A3}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    Name "M240L MDO Tripod"
+   }
+  }
+  SCR_MultiPartDeployableItemComponent "{6556B930A1BCD626}" {
+   m_aVariants {
+    SCR_DeployableVariantContainer "{65647005E652B458}" {
+     m_aAdditionalPrefabs {
+      SCR_WeaponDeployablePart "{656479545A5127C8}" {
+       m_sPrefab "{BA87F78D0E7E3A90}Prefabs/Weapons/MachineGuns/M240/MG_M240_Light_MDO.et"
+      }
+     }
+    }
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{570EACF4F2F94F1B}" {
+   Attributes SCR_ItemAttributeCollection "{5C467C398F90D778}" {
+    ItemDisplayName WeaponUIInfo "{5C467C398E5CAE40}" {
+     Name "M240L MDO"
+    }
+   }
+  }
+  TurretComponent "{54E0CDCE18E2A490}" {
+   components {
+    SCR_2DSightsComponent "{6722FB6496A4BF93}" {
+     SightsPosition PointInfo "{6722FB64A2FBACBB}" {
+      PivotID "w_weapon_holder_tripod"
+      Offset 0 0.1424 -0.1035
+     }
+     SightsFOVInfo SCR_SightsZoomFOVInfo "{6722FB64B19E764F}" {
+      m_fBaseZoom 6
+      m_fZoomMax 0.1
+     }
+     SightsPointFront PointInfo "{6722FB64BC33351E}" {
+      PivotID "w_weapon_holder_tripod"
+      Offset 0 0.1424 -0.142
+     }
+     SightsPointRear PointInfo "{6722FB64B9443584}" {
+      PivotID "w_weapon_holder_tripod"
+      Offset 0 0.1424 -0.3706
+     }
+     CameraRecoilAmount -0.8
+     SightsPriority 1
+     m_bIsNVGCompatible 1
+     m_sReticleTexture "{25974EBAE8D3FCF5}Assets/Weapons/Attachments/Optics/ta648mdo/data/rhs_mdo_reticle_UI.edds"
+     m_sReticleGlowTexture "{25974EBAE8D3FCF5}Assets/Weapons/Attachments/Optics/ta648mdo/data/rhs_mdo_reticle_UI.edds"
+     m_cReticleTextureIllumination 0.768 0 0 1
+     m_fMagnification 6
+     m_fReticleAngularSize 2.813
+     m_fReticlePortion 0.61
+     m_fReticleBaseZoom 6
+     m_fObjectiveFov 3.3
+     m_fVignetteScale 1
+     m_bShouldHideParentObject 0
+    }
+    SightsComponent "{548ACB4CB39992AB}" {
+     Enabled 0
+    }
+   }
+   ikTargets {
+    AnimationIKTargetInfo "{551071F2532CCFEE}" {
+     PositionInfo PointInfo "{551071F26C4B22E4}" {
+      Offset -0.0796 0.0075 -0.523
+     }
+    }
+    AnimationIKTargetInfo "{551071F3FDAC825C}" {
+     PositionInfo PointInfo "{551071F3F1A91821}" {
+      Offset 0.0221 -0.0795 -0.4444
+     }
+    }
+   }
+  }
+  WeaponSlotComponent "{51ACD09C6BFEEE6A}" {
+   AttachType InventoryStorageSlot "{0AACE7470E421D82}" {
+    Offset 0 -0.0108 -0.2336
+   }
+   WeaponTemplate "{689D0B2A2E276C9A}Prefabs/Weapons/MachineGuns/M240/MG_M240_Light_MDO_mounted.et"
+  }
+  ActionsManagerComponent "{51ACD09C7181BA0B}" {
+   additionalActions {
+    SCR_DeployMultiPartInventoryItemAction "{6556B937A406EE6F}" {
+     UIInfo SCR_ActionUIInfo "{61B48E9F567C096C}" {
+      Description "M240L MDO"
+     }
+    }
+   }
+  }
+ }
+}

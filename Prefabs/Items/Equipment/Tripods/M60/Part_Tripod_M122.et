@@ -1,0 +1,207 @@
+GenericEntity : "{E0DDD854DF1DE9E2}Prefabs/Items/Core/DeployablePart_Main_Base.et" {
+ ID "508AB2013EEE1E00"
+ components {
+  SCR_MultiPartDeployableItemComponent "{61B46B9C8F38F759}" {
+   m_aVariants {
+    SCR_DeployableVariantContainer "{6556A2F1632DEABF}" {
+    }
+    SCR_DeployableVariantContainer "{67214E9D946C4A3D}" {
+     m_iVariantId 1
+     m_sReplacementPrefab "{1F9F69EB6A9B5886}Prefabs/Weapons/Tripods/newwork/Deployable_Tripod_M122_MG_m240l_pas13_mdo.et"
+     m_sPreviewObject "{1F9F69EB6A9B5886}Prefabs/Weapons/Tripods/newwork/Deployable_Tripod_M122_MG_m240l_pas13_mdo.et"
+     m_aRequiredElements {
+      SCR_AlternativeRequirementsDeployablePart "{672165E8E620AEEF}" {
+       m_sPrefab "{7EC5B94D400082BF}Prefabs/Weapons/MachineGuns/M240/MG_M240_Light_Therm.et"
+       m_sPartName "M240L PAS13 MDO"
+       m_AlternativeRequirement SCR_ComboRequiredDeployableParts "{672165E8E33DDBD0}" {
+        m_sPrefab "{24A824857ADC84CF}Prefabs/Weapons/MachineGuns/M240/MG_M240_Light.et"
+        m_sPartName "M240L"
+        m_sOtherPrefab "{8650539567168155}Prefabs/Weapons/Attachments/Optics/pas13g/Optic_Thermal_pas13g_mdo.et"
+        m_sOtherPartName "PAS13g MDO"
+       }
+       m_bCanMix 0
+      }
+     }
+     m_vReplacementPrefabBoundingBoxMins -0.4 0.05 -1.1
+     m_vReplacementPrefabBoundingBoxMaxs 0.4 0.4 0.65
+     m_fMaxAllowedTilt 25
+    }
+    SCR_DeployableVariantContainer "{67214E9D7FA76777}" {
+     m_iVariantId 2
+     m_sReplacementPrefab "{C9418716D879E824}Prefabs/Weapons/Tripods/newwork/Deployable_Tripod_M122_MG_m240l_mdo.et"
+     m_sPreviewObject "{C9418716D879E824}Prefabs/Weapons/Tripods/newwork/Deployable_Tripod_M122_MG_m240l_mdo.et"
+     m_aRequiredElements {
+      SCR_AlternativeRequirementsDeployablePart "{67230811251B5730}" {
+       m_sPrefab "{BA87F78D0E7E3A90}Prefabs/Weapons/MachineGuns/M240/MG_M240_Light_MDO.et"
+       m_sPartName "M240L MDO RMR"
+       m_AlternativeRequirement SCR_ComboRequiredDeployableParts "{67230811267B2E44}" {
+        m_sPrefab "{24A824857ADC84CF}Prefabs/Weapons/MachineGuns/M240/MG_M240_Light.et"
+        m_sPartName "M240L"
+        m_sOtherPrefab "{36EF773EB236A891}Prefabs/Weapons/Attachments/Optics/ta648mdo/Optic_TA648MDO_rmr.et"
+        m_sOtherPartName "TA648MDO RMR"
+       }
+       m_bCanMix 0
+      }
+     }
+     m_vReplacementPrefabBoundingBoxMins -0.4 0.05 -1.1
+     m_vReplacementPrefabBoundingBoxMaxs 0.4 0.4 0.65
+     m_fMaxAllowedTilt 25
+    }
+    SCR_DeployableVariantContainer "{67214E9FC2492A6C}" {
+     m_iVariantId 3
+     m_sReplacementPrefab "{D4F8DC025474C87A}Prefabs/Weapons/Tripods/newwork/Deployable_Tripod_M122_MG_L6GPMG.et"
+     m_sPreviewObject "{D4F8DC025474C87A}Prefabs/Weapons/Tripods/newwork/Deployable_Tripod_M122_MG_L6GPMG.et"
+     m_aRequiredElements {
+      SCR_RequiredDeployablePart "{672165E1FB2CA10D}" {
+       m_sPrefab "{05EF641019EA53FE}Prefabs/Weapons/MachineGuns/FN MAG/MG_L6.et"
+       m_sPartName "L6 GPMG GC_CAF version of L7A1"
+      }
+     }
+     m_vReplacementPrefabBoundingBoxMins -0.4 0.05 -1.1
+     m_vReplacementPrefabBoundingBoxMaxs 0.4 0.4 0.65
+     m_fMaxAllowedTilt 25
+    }
+    SCR_DeployableVariantContainer "{67214E931C9646B5}" {
+     m_iVariantId 4
+     m_sReplacementPrefab "{8F9C3911B60DDA13}Prefabs/Weapons/Tripods/newwork/Deployable_Tripod_M122_MG_M240b.et"
+     m_sPreviewObject "{8F9C3911B60DDA13}Prefabs/Weapons/Tripods/newwork/Deployable_Tripod_M122_MG_M240b.et"
+     m_aRequiredElements {
+      SCR_RequiredDeployablePart "{672165E1F16DE840}" {
+       m_sPrefab "{A87B0A22462E20B1}Prefabs/Weapons/MachineGuns/M240/MG_M240.et"
+       m_sPartName "M240B"
+      }
+     }
+     m_vReplacementPrefabBoundingBoxMins -0.4 0.05 -1.1
+     m_vReplacementPrefabBoundingBoxMaxs 0.4 0.4 0.65
+     m_fMaxAllowedTilt 25
+    }
+    SCR_DeployableVariantContainer "{67214E931EF5C675}" {
+     m_iVariantId 6
+     m_sReplacementPrefab "{B52EEA47EA9C5245}Prefabs/Weapons/Tripods/Deployable_Tripod_L4A1_GPMG_UK.et"
+     m_sPreviewObject "{D2F8CEEAE5CFC920}Prefabs/Items/Equipment/Tripods/M60/DeployablePreview_Tripod_L4A1_GPMG.et"
+     m_aRequiredElements {
+      SCR_RequiredDeployablePart "{672165E1EC1E06FF}" {
+       m_sPrefab "{78975C5D9C1AFA4C}Prefabs/Weapons/MachineGuns/GPMG/MG_GPMG_L7A2.et"
+       m_sPartName "L7A2"
+      }
+     }
+     m_vReplacementPrefabBoundingBoxMins -0.4 0.05 -1.1
+     m_vReplacementPrefabBoundingBoxMaxs 0.4 0.4 0.65
+     m_fMaxAllowedTilt 25
+    }
+   }
+  }
+  ActionsManagerComponent "{508AB5952B584B2E}" {
+   ActionContexts {
+    UserActionContext "{508AC2ABEC97066C}" {
+    }
+    UserActionContext "{67230803B7784645}" {
+     ContextName "assemble"
+     Position PointInfo "{508AC2ABEAC4A0F5}" {
+      Offset 0 0.3358 -0.1595
+     }
+    }
+   }
+   additionalActions {
+    SCR_DeployMultiPartInventoryItemAction "{61B48E9F0815DDEA}" {
+     ParentContextList {
+      "assemble"
+     }
+     UIInfo SCR_ActionContextUIInfo "{61B48E9F567C096C}" {
+      Description "#AR-Weapon_M60_Name"
+     }
+    }
+    SCR_DeployMultiPartInventoryItemAction "{672165EFA8016CCC}" {
+     ParentContextList {
+      "assemble"
+     }
+     UIInfo SCR_ActionContextUIInfo "{61B48E9F567C096C}" {
+      Name "M240L PAS13 and MDO"
+     }
+     ActionTitle "Assemble multipart deployable prefab"
+     Duration 5.5
+     m_iVariantId 1
+     m_bCheckTilt 1
+     m_bCheckForAvailableSpace 1
+     m_bShowVisualisation 1
+     m_eRequiredGadget BUILDING_TOOL
+    }
+    SCR_DeployMultiPartInventoryItemAction "{672165EFAA997C45}" {
+     ParentContextList {
+      "assemble"
+     }
+     UIInfo SCR_ActionContextUIInfo "{61B48E9F567C096C}" {
+      Name "M240L MDO"
+     }
+     ActionTitle "Assemble multipart deployable prefab"
+     Duration 5.5
+     m_iVariantId 2
+     m_bCheckTilt 1
+     m_bCheckForAvailableSpace 1
+     m_bShowVisualisation 1
+     m_eRequiredGadget BUILDING_TOOL
+    }
+    SCR_DeployMultiPartInventoryItemAction "{672165EFB59C2018}" {
+     ParentContextList {
+      "assemble"
+     }
+     UIInfo SCR_ActionContextUIInfo "{61B48E9F567C096C}" {
+      Name "L6 GPMG"
+     }
+     ActionTitle "Assemble multipart deployable prefab"
+     Duration 5.5
+     m_iVariantId 3
+     m_bCheckTilt 1
+     m_bCheckForAvailableSpace 1
+     m_bShowVisualisation 1
+     m_eRequiredGadget BUILDING_TOOL
+    }
+    SCR_DeployMultiPartInventoryItemAction "{672165EFB4453363}" {
+     ParentContextList {
+      "assemble"
+     }
+     UIInfo SCR_ActionContextUIInfo "{61B48E9F567C096C}" {
+      Name "M240B"
+     }
+     ActionTitle "Assemble multipart deployable prefab"
+     Duration 5.5
+     m_iVariantId 4
+     m_bCheckTilt 1
+     m_bCheckForAvailableSpace 1
+     m_bShowVisualisation 1
+     m_eRequiredGadget BUILDING_TOOL
+    }
+    SCR_DeployMultiPartInventoryItemAction "{672165EFB6C64C76}" {
+     ParentContextList {
+      "assemble"
+     }
+     UIInfo SCR_ActionContextUIInfo "{61B48E9F567C096C}" {
+      Name "M240L"
+     }
+     ActionTitle "Assemble multipart deployable prefab"
+     Duration 5.5
+     m_iVariantId 5
+     m_bCheckTilt 1
+     m_bCheckForAvailableSpace 1
+     m_bShowVisualisation 1
+     m_eRequiredGadget BUILDING_TOOL
+    }
+    SCR_DeployMultiPartInventoryItemAction "{67230800C27EA05F}" {
+     ParentContextList {
+      "assemble"
+     }
+     UIInfo SCR_ActionContextUIInfo "{67230800C27EA022}" {
+      Name "L7A2"
+     }
+     ActionTitle "Assemble multipart deployable prefab"
+     Duration 5.5
+     m_iVariantId 6
+     m_bCheckTilt 1
+     m_bCheckForAvailableSpace 1
+     m_bShowVisualisation 1
+     m_eRequiredGadget BUILDING_TOOL
+    }
+   }
+  }
+ }
+}
