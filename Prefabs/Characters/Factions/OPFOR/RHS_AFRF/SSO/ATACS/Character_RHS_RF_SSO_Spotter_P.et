@@ -70,7 +70,7 @@ SCR_ChimeraCharacter : "{C0B0F929BB41FC6E}Prefabs/Characters/Factions/OPFOR/RHS_
      TargetStorage "Vest/Vest_AACPC_arsarmaHSGI_FG_2.et/grenade1/Pouch_GP106_RGD_Pouch_2_FG.et"
     }
     ItemsInitConfigurationItem "{648D545D460E6F9A}" {
-     TargetStorage "Pants/Triada_Combat_Pants_EMR.et"
+     TargetStorage "Pants/crye_pants_atacs.et"
      PrefabsToSpawn {
       "{B7BA7694F821F556}Prefabs/Items/Equipment/Nightvision/PVS14/NVG_PVS14Dual.et"
      }
