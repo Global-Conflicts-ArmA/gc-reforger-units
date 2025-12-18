@@ -1,5 +1,5 @@
-SCR_ChimeraCharacter : "{284E735C6C70DAD2}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_BaseLoadout.et" {
- ID "520EC961A090B1EE"
+SCR_ChimeraCharacter : "{836E7E39AAC5888B}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Base.et" {
+ ID "836E7E39AAC5888B"
  components {
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
@@ -20,6 +20,9 @@ SCR_ChimeraCharacter : "{284E735C6C70DAD2}Prefabs/Characters/Factions/BLUFOR/US_
     LoadoutSlotInfo Pants {
      Prefab "{86BB79B9A2233780}Prefabs/Characters/Uniforms/Pants_US_M65.et"
     }
+    LoadoutSlotInfo Boots {
+     Prefab "{DAAFD15478BDE1C3}Prefabs/Characters/Footwear/CombatBoots_US_01.et"
+    }
     LoadoutSlotInfo Back {
      Prefab "{5A34C780FBE95C2E}worlds/HotMic/Prefabs/WW2_Kolobok_Parachute.et"
     }
@@ -35,8 +38,8 @@ SCR_ChimeraCharacter : "{284E735C6C70DAD2}Prefabs/Characters/Factions/BLUFOR/US_
    InitialInventoryItems {
     ItemsInitConfigurationItem "{5D7CAAFB9235E902}" {
      TargetStorage "Vest/Vest_ALICE_rifleman.et/Buttpack/Vest_ALICE_buttpack.et"
-     PrefabsToSpawn + {
-      "{8554ED3F088BADA6}Prefabs/Items/Core/Wirecutters/wirecutters.et" "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
+     PrefabsToSpawn {
+      "{42232FFE6E7AC415}Prefabs/Items/Core/Wirecutters/wirecutters.et" "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
      }
     }
     ItemsInitConfigurationItem "{5D7CAAFB9235E903}" {
