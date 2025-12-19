@@ -4,6 +4,9 @@ SCR_ChimeraCharacter : "{AF48EDCB379A5380}Prefabs/Characters/Factions/OPFOR/RHS_
   PS_PlayableComponent "{5EFCC1946F475F15}" {
    m_bIsPlayable 1
   }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{4E19AD4425B66610}Prefabs/Weapons/Rifles/AK74M/variants/Rifle_AK74M_npz_b10m_b19n_tgpa_GP25_SSO.et"
+  }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {
@@ -20,7 +23,6 @@ SCR_ChimeraCharacter : "{AF48EDCB379A5380}Prefabs/Characters/Factions/OPFOR/RHS_
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{63349A03F1411D2D}" {
-     TargetStorage "Pants/Triada_Combat_Pants_EMR.et"
     }
     ItemsInitConfigurationItem "{63349A03F1411D1D}" {
     }
@@ -52,7 +54,7 @@ SCR_ChimeraCharacter : "{AF48EDCB379A5380}Prefabs/Characters/Factions/OPFOR/RHS_
      TargetStorage "Vest/Vest_AACPC_arsarmaHSGI_FG_6.et/grenade1/Pouch_GP106_RGD_Pouch_2_MC.et"
     }
     ItemsInitConfigurationItem "{648D51E69FAFAF4F}" {
-     TargetStorage "Pants/Triada_Combat_Pants_EMR.et"
+     TargetStorage "Pants/crye_pants_atacs.et"
      PrefabsToSpawn {
       "{B7BA7694F821F556}Prefabs/Items/Equipment/Nightvision/PVS14/NVG_PVS14Dual.et"
      }
