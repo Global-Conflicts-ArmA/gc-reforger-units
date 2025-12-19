@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{502BD928BC3202E7}Prefabs/Vehicles/Tracked/BMP1/IFV_BMP1_Cannon+.et"
+ Name "{502BD928BC3202E7}Prefabs/Vehicles/Tracked/BMP1/IFV_BMP1_Cannon.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }
