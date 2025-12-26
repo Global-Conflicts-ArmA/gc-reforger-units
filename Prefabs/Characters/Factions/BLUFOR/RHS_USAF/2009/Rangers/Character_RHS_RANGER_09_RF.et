@@ -23,6 +23,8 @@ SCR_ChimeraCharacter : "{696F50187F58A9C1}Prefabs/Characters/Factions/BLUFOR/RHS
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
+    LoadoutSlotInfo Jacket {
+    }
     LoadoutSlotInfo Vest {
      Prefab "{F53F30123F54F3A3}Prefabs/Characters/Vests/Vest_JPC/variants/Vest_JPC_ronin_RGR.et"
     }

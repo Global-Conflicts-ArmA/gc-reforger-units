@@ -25,6 +25,9 @@ SCR_ChimeraCharacter : "{FE0970414F43AF15}Prefabs/Characters/Factions/BLUFOR/RHS
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
+    ItemsInitConfigurationItem "{65214E7772E2493A}" {
+     TargetStorage "Jacket/Jacket_Crye_Combat_Shirt_OD.et"
+    }
     ItemsInitConfigurationItem "{64F0DE920D201659}" {
      TargetStorage "Back/Backpack_IIFS_FieldPack.et"
      PrefabsToSpawn {

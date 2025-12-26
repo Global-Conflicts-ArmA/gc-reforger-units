@@ -1,0 +1,36 @@
+Vehicle : "{3133602B406D131C}Prefabs/Vehicles/Helicopters/UH1H/UH1H_armed_gunship_HEDP_sharkNose.et" {
+ ID "5DB688595BAB2FD7"
+ components {
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    Name "UH-1H HEDP Rockets x14 M2 and M134"
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{5E1E994304F0E0D3}" {
+   MultiSlots {
+    MultiSlotConfiguration "{60F686523ED8885E}" {
+     SlotTemplate InventoryStorageSlot MGammo {
+      Prefab "{C820846B0521423B}Prefabs/Weapons/Magazines/Box_127x99_M2_100rnd_4AP_1APIT.et"
+     }
+     NumSlots 7
+    }
+    MultiSlotConfiguration "{66E119351998C629}" {
+     SlotTemplate InventoryStorageSlot MGammo {
+      Prefab "{452F569291FEC21A}Prefabs/Weapons/Magazines/M134/Box_762x51_M134_2500rnd_Tracer.et"
+     }
+     NumSlots 1
+    }
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo GunnerLeft {
+     Prefab "{E1B686BEA9631953}Prefabs/Vehicles/Helicopters/UH1H/VehParts/WeapSystems/UH1H_M134_gunner_left.et"
+    }
+    RegisteringComponentSlotInfo GunnerRight {
+     Prefab "{9E8DA08BB32F2E95}Prefabs/Vehicles/Helicopters/UH1H/VehParts/WeapSystems/UH1H_M2_gunner_right.et"
+    }
+   }
+  }
+ }
+}

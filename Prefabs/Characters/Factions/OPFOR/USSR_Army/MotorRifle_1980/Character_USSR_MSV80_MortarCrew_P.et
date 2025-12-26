@@ -6,5 +6,11 @@ SCR_ChimeraCharacter : "{A491F9108F01E180}Prefabs/Characters/Factions/OPFOR/USSR
     Name "Mortar Crewman"
    }
   }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{5D7CC173E6675BF7}" {
+    }
+   }
+  }
  }
 }

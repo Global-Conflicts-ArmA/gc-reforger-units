@@ -1,0 +1,18 @@
+RHS_Tank : "{D8136D90BE12445F}Prefabs/Vehicles/Tracked/2S1/Tank_2S1.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  SCR_BaseLockComponent "{54D6FBC0EA806FE5}" {
+   m_bIsLocked 1
+   m_lockPilot 1
+   m_lockTurret 1
+   m_lockCargo 1
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Turret {
+     Prefab "{8AEF1F362CB6D346}Prefabs/Vehicles/Tracked/2S1/VehParts/Turret/2S1_Turret_locked.et"
+    }
+   }
+  }
+ }
+}

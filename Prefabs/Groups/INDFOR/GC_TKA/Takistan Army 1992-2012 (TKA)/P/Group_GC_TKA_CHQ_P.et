@@ -1,17 +1,12 @@
-SCR_AIGroup : "{8DE0C0830FE0C33D}Prefabs/Groups/OPFOR/Group_USSR_Base.et" {
+SCR_AIGroup : "{2B24EF789452269D}Prefabs/Groups/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Group_GC_TKA_PHQ.et" {
  ID "0000000000000001"
  components {
   SCR_EditableGroupComponent "{50D291F6C83FA532}" {
    m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
     Name "Company HQ"
-    m_sFaction "GC_TKA"
-    m_aAuthoredLabels {
-     4
-    }
    }
   }
  }
- m_faction "GC_TKA"
  m_aUnitPrefabSlots {
   "{563E798C359BD3B3}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/P/Character_GC_TKA_CoyL_P.et" "{3FED9C90937CCCBA}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/P/Character_GC_TKA_CoySGTMaj_P.et" "{5762D45504A9E461}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/P/Character_GC_TKA_Signaller_P.et" "{3E2D415F404A1EE5}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/P/Character_GC_TKA_ForwardObserver_P.et"
  }

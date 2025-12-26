@@ -17,6 +17,9 @@ Vehicle : "{7BD282AF716ED639}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_armed.et" 
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
     Name "Mi-8MT, Armed (CDF)"
     m_sFaction "GC_CDF"
+    m_aAutoLabels {
+     FACTION_GC_CDF SIZE_L
+    }
    }
   }
  }

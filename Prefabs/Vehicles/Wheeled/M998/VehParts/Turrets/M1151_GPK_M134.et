@@ -1,0 +1,12 @@
+Turret : "{EBBA338CCDE146A2}Prefabs/Vehicles/Wheeled/M998/VehParts/Turrets/M1151_GPK.et" {
+ ID "51ACD0965653D003"
+ components {
+  WeaponSlotComponent "{51ACD09C6BFEEE6A}" {
+   AttachType InventoryStorageSlot "{0AACE7470E421D82}" {
+    Offset 0.0154 -0.0537 0.0571
+   }
+   WeaponTemplate "{424D5FAA62E24194}Prefabs/Weapons/HeavyWeapons/M134/M134_Turret_shield.et"
+  }
+ }
+ coords 1654.764 8.062 3571.934
+}

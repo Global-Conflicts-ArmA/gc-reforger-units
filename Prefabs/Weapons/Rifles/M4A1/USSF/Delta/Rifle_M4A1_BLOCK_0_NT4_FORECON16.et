@@ -1,6 +1,15 @@
-GenericEntity : "{6308F0F06E2069DC}Prefabs/Weapons/Rifles/M4A1/USSF/Rifle_M4A1_BLOCK_0_NT4_FORECON15.et" {
+GenericEntity : "{6308F0F06E2069DC}Prefabs/Weapons/Rifles/M4A1/USSF/Delta/Rifle_M4A1_BLOCK_0_NT4_FORECON15.et" {
  ID "CFBAA4B725411E45"
  components {
+  ProcAnimComponent "{5E0ED058CD731B36}" {
+   Parameters {
+    ProcAnimParams "{5E0ED058CD731B3B}" {
+     BoneNames {
+      "w_root"
+     }
+    }
+   }
+  }
   WeaponComponent "{CFBAA4B706BA66E8}" {
    components {
     AttachmentSlotComponent "{5E0EEDA47E3F452D}" {

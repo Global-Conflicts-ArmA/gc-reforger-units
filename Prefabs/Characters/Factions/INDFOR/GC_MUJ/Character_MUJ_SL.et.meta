@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{2CD9683057C04459}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Variants/Character_MUJ_SL.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

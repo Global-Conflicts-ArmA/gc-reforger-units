@@ -1,0 +1,222 @@
+GenericEntity : "{12EB211A330C2999}Prefabs/Weapons/Rifles/SR25/Rifle_SR25_base.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  MeshObject "{CFBAA4B701F95D69}" {
+   Materials {
+    MaterialAssignClass "{672D019BC235A82A}" {
+     SourceMaterial "KACCBT"
+     AssignedMaterial "{1ED6A287CA5C4014}Assets/Weapons/Rifles/M110/Data/KAC_Buffer_Tube.emat"
+    }
+    MaterialAssignClass "{672D019BC235A9E0}" {
+     SourceMaterial "SR25_AMBI_CHA"
+     AssignedMaterial "{F7233B905C1DB9D1}Assets/Weapons/Rifles/M110/Data/M110_Charge_Handle.emat"
+    }
+    MaterialAssignClass "{672D019BC235A9D1}" {
+     SourceMaterial "SR25_Bolt_Group"
+     AssignedMaterial "{B9298F50DA325672}Assets/Weapons/Rifles/M110/Data/M110_Bolt_Group.emat"
+    }
+    MaterialAssignClass "{672D019BC235A9C2}" {
+     SourceMaterial "SR25_Lower"
+     AssignedMaterial "{3A7E94187DBC68D2}Assets/Weapons/Rifles/M110/Data/M110_Lower_FDE.emat"
+    }
+    MaterialAssignClass "{672D019BC235A9B7}" {
+     SourceMaterial "SR25_Upper"
+     AssignedMaterial "{F249238F04CAEEE3}Assets/Weapons/Rifles/M110/Data/M110_Upper.emat"
+    }
+   }
+  }
+  RHS_SGC_RadialMenuComponent "{672D540A79E22385}" {
+   m_sDisplayName "SR-25"
+  }
+  RHS_WeaponRplComponent "{672D540A955E9324}" {
+  }
+  ProcAnimComponent "{672EB9D9AD1BE120}" {
+   Parameters {
+    ProcAnimParams "{672EB9D9A48C9A45}" {
+     ResourceName "{D829D69CF4000344}Assets/Weapons/Rifles/m27iar/anims/M27_flipsight_actions.pap"
+     BoneNames {
+      "" "w_rear_sight"
+     }
+    }
+   }
+  }
+  SCR_WeaponAttachmentsStorageComponent "{51F080D5CE45A1A2}" {
+   Attributes SCR_ItemAttributeCollection "{51F080D5C64F12C5}" {
+    ItemAnimationAttributes ItemAnimationAttributes "{5284960E1D29F45C}" {
+     AnimInjectionPriority 1
+    }
+    CustomAttributes {
+     AimingModifierAttributes "{566C7D15A071B88E}" {
+      DeploymentPoints {
+       PivotPointInfoItem "{658290F958FB0E4B}" {
+        "Point info" DeploymentPointInfo dp {
+         PivotID ""
+         Offset 0 0.0366 0.363
+        }
+        StabilizationPoints {
+         DeploymentPointInfo bipod_pos {
+          Offset 0 0 0.3625
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+  SlotManagerComponent "{658290F948576C49}" {
+   Slots {
+    EntitySlotInfo PistolGrip {
+     Prefab "{D26D1D7553582B32}Prefabs/Weapons/Attachments/PistolGrips/AR_Platform/ColtA2/PistolGrip_AR_ColtA2_FDE.et"
+    }
+    EntitySlotInfo Buttstockk {
+     Offset 0 -0.0792 0.1163
+     Prefab "{16238C369C1342AB}Prefabs/Weapons/Attachments/Stocks/Stock_AR15_SOPMOD/RHS_M4_SOPMOD_DDC.et"
+    }
+    EntitySlotInfo Handguard {
+     Prefab "{2D8C35B9C322E48B}Prefabs/Weapons/Attachments/Handguards/AR10_Platform/URX2/Handguard_AR10_URX2.et"
+    }
+   }
+  }
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{658290F958FB0E5D}" {
+     AttachmentSlot RHS_SlidingInventoryStorageSlot optics {
+      PivotID ""
+      Offset -0.0265 0.0865 0.3792
+      Angles 0 0 -90
+      DisablePhysicsInteraction 0
+      InspectionWidgetOffset -0.0265 0.0865 0.3792
+     }
+     AttachmentType AttachmentRIS1913 "{65831DCD1CF3A02E}" {
+     }
+    }
+    AttachmentSlotComponent "{672D01889847E573}" {
+     AttachmentSlot InventoryStorageSlot "{672D01888B7C8171}" {
+      Offset 0 0.0619 0.3781
+      MergePhysics 1
+      Prefab "{23D34FB66BBC8BEE}Prefabs/Weapons/Attachments/Bipods/harris_bipod/rhs_lt706_harris.et"
+      DisablePhysicsInteraction 1
+      InspectionWidgetOffset 0 0.0318 0.3815
+     }
+     AttachmentType AttachmentRIS1913Bipod "{672D01A7EC9983D9}" {
+     }
+     ShowInInspection 1
+    }
+    AttachmentSlotComponent "{672D019DCEB92ABF}" {
+     AttachmentSlot InventoryStorageSlot "{672D019DC0CBAD3B}" {
+      PivotID "slot_optic"
+      Offset 0 0 0.0294
+      Prefab "{ACC9B43941CE5EA6}Prefabs/Weapons/Attachments/Optics/Optic_leupoldMK4/Optic_leupoldMK4.et"
+      InspectionWidgetOffset 0 0.1179 0.0294
+     }
+     AttachmentType AttachmentOpticsRIS1913 "{672D019DB87F0BBD}" {
+     }
+     ShowInInspection 1
+    }
+    AttachmentSlotComponent "{672D019E83AB9DBC}" {
+     AttachmentSlot RHS_SlidingInventoryStorageSlot "{672D019E7A1DBA33}" {
+      Offset 0.0265 0.0865 0.3792
+      Angles 0 0 90
+      Prefab "{9A185BC14F1166B4}Prefabs/Weapons/Attachments/Lasers/anpeq15/Laser_ANPEQ15_tan.et"
+      InspectionWidgetOffset 0.0265 0.0865 0.3792
+      m_fMaximumNegativeSlideOffset -0.184
+     }
+     AttachmentType AttachmentRIS1913 "{672D019E76A7C9B7}" {
+     }
+     ShowInInspection 1
+    }
+    AttachmentSlotComponent "{672D019F353F620D}" {
+     AttachmentSlot InventoryStorageSlot "{672D019F31350CF1}" {
+      PivotID "slot_optic"
+      Offset 0 0 -0.0144
+      Prefab "{41F3C10C4FEBC1FF}Prefabs/Weapons/Attachments/Optics/kac_folding_sights_600/kac_folding_sight_600_rear.et"
+      InspectionWidgetOffset 0 0.1202 -0.0425
+     }
+     AttachmentType AttachmentRIS1913BUISRear "{672D019DDD71743D}" {
+     }
+     ShowInInspection 1
+    }
+    AttachmentSlotComponent "{672D40DFAE634B27}" {
+     AttachmentSlot InventoryStorageSlot "{672D40DFADDEC552}" {
+      PivotID "slot_handguard"
+      Offset 0 0.0306 0.2823
+      Prefab "{BC01D4724626132E}Prefabs/Weapons/Attachments/Optics/kac_folding_sights_600/kac_folding_sight_front.et"
+      InspectionWidgetOffset 0 0.1137 0.3815
+     }
+     AttachmentType AttachmentRIS1913BUISFront "{672D40DAE59F0C5A}" {
+     }
+     ShowInInspection 1
+    }
+    SightsComponent "{BB23A637957CFFF8}" {
+     SightsPointRear PointInfo "{658290F958F45BA8}" {
+     }
+     m_iOpticDOFDistanceScale -1
+    }
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     components {
+      AttachmentSlotComponent "{658290F958F45BAC}" {
+       AttachmentSlot InventoryStorageSlot Muzzle {
+        Prefab ""
+       }
+      }
+      AttachmentSlotComponent "{672D019B9703751A}" {
+       AttachmentSlot InventoryStorageSlot "{672D019B96772048}" {
+        PivotID "slot_barrel_muzzle"
+        Offset 0 0 -0.1539
+        Prefab "{727AB5567E71B5C9}Prefabs/Weapons/Attachments/Muzzle/SUREFIRE/SF_FA762SS_TAN.et"
+        DisablePhysicsInteraction 1
+        InspectionWidgetOffset 0 0.0826 0.6897
+       }
+       AttachmentType AttachmentSuppressorFA762SS "{672D019B85E2654C}" {
+       }
+       ShowInInspection 1
+      }
+      CaseEjectingEffectComponent "{5122AAD190FCA21D}" {
+       ParticleEffect "{6A0F068A792EA37C}Particles/Weapon/Casing_762x51.ptc"
+      }
+     }
+    }
+   }
+  }
+  ActionsManagerComponent "{A29AE67FF4D82B0F}" {
+   ActionContexts {
+    UserActionContext "{672D540A1D85B001}" {
+     ContextName "flipsightfront"
+     Position PointInfo "{5CCF4B9B252C8FE1}" {
+      PivotID "w_front_sight"
+     }
+     Radius 0.05
+    }
+    UserActionContext "{672D540A1C2AC188}" {
+     ContextName "flipsightback"
+     Position PointInfo "{5CD11C9DEAC66917}" {
+      PivotID "w_rear_sight"
+     }
+     Radius 0.05
+    }
+   }
+   additionalActions {
+    RHS_FlipSightUserAction "{672D540A3C745A26}" {
+     ParentContextList {
+      "flipsightfront"
+     }
+     m_bIgnoreInRadial 0
+     m_sRadialLabelOverride "Flip Front Sight"
+     m_sSignalName "FrontSight"
+     m_bShouldBeFoldedByDefault 1
+    }
+    RHS_FlipSightUserAction "{672D540A3A52ED33}" {
+     ParentContextList {
+      "flipsightback"
+     }
+     m_bIgnoreInRadial 0
+     m_sRadialLabelOverride "Flip Back Sight"
+     m_sSignalName "BackSight"
+     m_bShouldBeFoldedByDefault 1
+    }
+   }
+  }
+ }
+ coords 0 0 0.036
+}

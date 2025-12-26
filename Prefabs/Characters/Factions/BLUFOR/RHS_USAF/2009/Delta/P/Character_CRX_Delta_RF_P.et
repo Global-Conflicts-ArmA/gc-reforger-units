@@ -42,7 +42,6 @@ SCR_ChimeraCharacter : "{692B5A0EFD7FD678}Prefabs/Characters/Factions/BLUFOR/RHS
      Prefab "{8EA3CB650C1DF461}Prefabs/Characters/Vests/Vest_AVS/Vest_AVS_6x9_Coy.et"
     }
     LoadoutSlotInfo Pants {
-     Prefab "{ECCC7BDEA2F3D3A5}Prefabs/Characters/Uniforms/Crye_Pants/crye_pants_CoyoteBrown.et"
     }
     LoadoutSlotInfo Boots {
      Prefab "{057E63449502EBCA}Prefabs/Characters/Footwear/Boots_Salomon/Footwear_Salomon.et"
@@ -61,6 +60,9 @@ SCR_ChimeraCharacter : "{692B5A0EFD7FD678}Prefabs/Characters/Factions/BLUFOR/RHS
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{65214E7772E2492B}" {
+    }
+    ItemsInitConfigurationItem "{65214E7772E2493A}" {
+     TargetStorage "Jacket/Jacket_Crye_Combat_Shirt_M81.et"
     }
     ItemsInitConfigurationItem "{652158990DD603C4}" {
      TargetStorage "Vest/Vest_JPC_okinawa_Coy.et/pistol/Pouch_Highspeed_Pistol.et"
@@ -137,5 +139,4 @@ SCR_ChimeraCharacter : "{692B5A0EFD7FD678}Prefabs/Characters/Factions/BLUFOR/RHS
    }
   }
  }
- coords 1233.969 7.437 3210.219
 }

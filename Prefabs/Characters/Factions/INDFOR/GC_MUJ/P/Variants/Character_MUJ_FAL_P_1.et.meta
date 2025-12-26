@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{62E31E2BC4792C54}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Variants/Character_MUJ_FAL_P_1.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -33,6 +33,9 @@ Vehicle : "{C012BB3488BEA0C2}Prefabs/Vehicles/Wheeled/BTR70/BTR70.et" {
    m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
     Name "SPW-70"
     m_sFaction "GC_NVA"
+    m_aAutoLabels {
+     FACTION_GC_NVA SIZE_M
+    }
    }
   }
   SCR_UniversalInventoryStorageComponent "{59168B38F20DFF74}" {

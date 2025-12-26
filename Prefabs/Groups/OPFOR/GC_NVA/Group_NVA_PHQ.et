@@ -1,5 +1,12 @@
 SCR_AIGroup : "{2BA4FF1232A6371C}Prefabs/Groups/OPFOR/GC_NVA/Group_GC_NVA_Base.et" {
  ID "0000000000000001"
+ components {
+  SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+   m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+    Name "Platoon HQ"
+   }
+  }
+ }
  m_aUnitPrefabSlots {
   "{31652FA527DDAF8A}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_PlatoonLeader.et" "{875EA11CB3FA1F2B}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_DeputyPlatoonLeader.et" "{03ADE746594FC316}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_Radioman.et" "{5A90F3CBD1731260}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_Medic.et"
  }

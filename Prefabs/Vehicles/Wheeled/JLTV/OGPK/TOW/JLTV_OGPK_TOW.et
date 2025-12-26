@@ -3,10 +3,9 @@ Vehicle : "{E62EEF185EC31C54}Prefabs/Vehicles/Wheeled/JLTV/Unarmed/JLTV_Unarmed.
  components {
   SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
    m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
-    Name "#SPC_EditableEntity_JLTV_OGPK_Name"
-    m_Image "{41F0D81E32784B2E}UI/Textures/EditorPreviews/Vehicles/Wheeled/JLTV/JLTV_OGPK.edds"
+    Name "JLTV OGPK BGM-71 TOW"
     m_aAuthoredLabels {
-     3 36 20 200 21 1001
+     ENTITYTYPE_VEHICLE TRAIT_PASSENGERS_SMALL TRAIT_ARMOR TRAIT_SUPPLYSTORAGE_SMALL TRAIT_ARMED CONTENT_MODDED TRAIT_ARMORPIERCING ROLE_ANTITANK
     }
     m_EntityBudgetCost {
      SCR_EntityBudgetValue "{5EDC86E4AF8908B6}" {
@@ -16,13 +15,7 @@ Vehicle : "{E62EEF185EC31C54}Prefabs/Vehicles/Wheeled/JLTV/Unarmed/JLTV_Unarmed.
      }
     }
     m_aOccupantFillCompartmentTypes + {
-     1
-    }
-    m_aCrewEntityBudgetCost {
-     SCR_EntityBudgetValue "{665C28770DA8E260}" {
-      m_BudgetType AI
-      m_Value 1
-     }
+     TURRET TURRET
     }
    }
   }
@@ -63,15 +56,6 @@ Vehicle : "{E62EEF185EC31C54}Prefabs/Vehicles/Wheeled/JLTV/Unarmed/JLTV_Unarmed.
      RegisterCompartments 1
     }
    }
-   SlotMappers {
-    CompartmentToSlotMapping Turret {
-     SlotName "Turret"
-     Coverage 0.75
-     Compartments {
-      "PilotCompartment" "Passenger_L02" "Passenger_R02" "Passenger_R01"
-     }
-    }
-   }
   }
   ActionsManagerComponent "{C97BE5489221AE18}" {
    ActionContexts {
@@ -88,12 +72,13 @@ Vehicle : "{E62EEF185EC31C54}Prefabs/Vehicles/Wheeled/JLTV/Unarmed/JLTV_Unarmed.
       "door_l02" "door_r02"
      }
      UIInfo SCR_ActionContextUIInfo "{633A2A735AA87AB7}" {
-      Name "#WCS-UserAction_RearmVehicle M2HB #AR-AmmunitionID_127x99mm"
+      Name "Restock TOW"
+      Description "Restocks TOW missile"
      }
      m_aRearmData {
       WCS_VehicleRearmData "{62A1474EC72288A4}" {
-       magazine "{4EC57F7A71F869BF}Prefabs/Weapons/Magazines/Box_127x99_CROWS_M2_200rnd_4AP_1APIT.et"
-       maxAmount 4
+       magazine "{C45AE68B74B6136D}Prefabs/Weapons/Tripods/BGM71_TOW/Pod_BGM-71_TOW.et"
+       maxAmount 6
        unitSupplyCost 20
       }
      }

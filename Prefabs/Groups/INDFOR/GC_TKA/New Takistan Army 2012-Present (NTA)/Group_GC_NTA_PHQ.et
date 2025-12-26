@@ -1,17 +1,12 @@
-SCR_AIGroup : "{8DE0C0830FE0C33D}Prefabs/Groups/OPFOR/Group_USSR_Base.et" {
+SCR_AIGroup : "{CF1973477149D919}Prefabs/Groups/INDFOR/GC_TKA/Group_TKA_base.et" {
  ID "0000000000000001"
  components {
   SCR_EditableGroupComponent "{50D291F6C83FA532}" {
    m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
-    Name "Platoon HQ"
-    m_sFaction "GC_TKA"
-    m_aAuthoredLabels {
-     4
-    }
+    Name "Platoon HQ (NTA)"
    }
   }
  }
- m_faction "GC_TKA"
  m_aUnitPrefabSlots {
   "{0B7E67C780AAB9D0}Prefabs/Characters/Factions/INDFOR/GC_TKA/New Takistan Army 2012-Present (NTA)/Character_GC_NTA_PL.et" "{F2FED645A6220C1C}Prefabs/Characters/Factions/INDFOR/GC_TKA/New Takistan Army 2012-Present (NTA)/Character_GC_NTA_Sergeant.et" "{B52CF4F563C10633}Prefabs/Characters/Factions/INDFOR/GC_TKA/New Takistan Army 2012-Present (NTA)/Character_GC_NTA_RTO.et" "{108907D9DA21E9EE}Prefabs/Characters/Factions/INDFOR/GC_TKA/New Takistan Army 2012-Present (NTA)/Character_GC_NTA_Medic.et"
  }

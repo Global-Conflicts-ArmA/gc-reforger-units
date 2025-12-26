@@ -1,0 +1,23 @@
+SCR_ChimeraCharacter : "{D7506F007D0B1ADD}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Rad.et" {
+ ID "520EC961A090B1EE"
+ components {
+  PS_PlayableComponent "{5EFCC1946F475F15}" {
+   m_bIsPlayable 1
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_VariantData SCR_EditableEntityVariantData "{66B538E85AB20270}" {
+    m_aVariants {
+     SCR_EditableEntityVariant "{66B538E85B8FC813}" {
+      m_sVariantPrefab "{14CB615907E04330}Prefabs/Characters/Factions/INDFOR/GC_MUJ/P/Variants/Character_MUJ_Rad_P_1.et"
+     }
+     SCR_EditableEntityVariant "{66B538E85BCD99E9}" {
+      m_sVariantPrefab "{789F55B9BB24CC1E}Prefabs/Characters/Factions/INDFOR/GC_MUJ/P/Variants/Character_MUJ_Rad_P_2.et"
+     }
+     SCR_EditableEntityVariant "{66B538E858A1FD2B}" {
+      m_sVariantPrefab "{9D031940B7C15B75}Prefabs/Characters/Factions/INDFOR/GC_MUJ/P/Variants/Character_MUJ_Rad_P_3.et"
+     }
+    }
+   }
+  }
+ }
+}

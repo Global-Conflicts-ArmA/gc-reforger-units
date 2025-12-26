@@ -1,0 +1,157 @@
+GenericEntity {
+ ID "672EDBFBD09A1100"
+ components {
+  Persistence "{672EDBFBD09A1EFB}" {
+  }
+  ColliderHistoryComponent "{672EDBFBD09A1EBC}" {
+   Enabled 0
+  }
+  MeshObject "{672EDBFBD09A1EBE}" {
+   Object "{63A13E285662C4E9}Assets/Vehicles/Wheeled/M1151/M1151A1.xob"
+   Materials {
+    MaterialAssignClass "{672EDBFBD09A1EB3}" {
+     SourceMaterial "Base"
+     AssignedMaterial "{46FEDD000FAE454D}Assets/Vehicles/Wheeled/M1151/Data/HMMWV_Body_Roof_Invisible.emat"
+    }
+    MaterialAssignClass "{672EDBFBD09A1EB5}" {
+     SourceMaterial "Base_Decals"
+     AssignedMaterial "{46FEDD000FAE454D}Assets/Vehicles/Wheeled/M1151/Data/HMMWV_Body_Roof_Invisible.emat"
+    }
+    MaterialAssignClass "{672EDBFBD09A1EB7}" {
+     SourceMaterial "HMMWV_Body_Roof_Int_38AD25796F1BEB94"
+     AssignedMaterial "{46FEDD000FAE454D}Assets/Vehicles/Wheeled/M1151/Data/HMMWV_Body_Roof_Invisible.emat"
+    }
+    MaterialAssignClass "{672EDBFBD09A1EB6}" {
+     SourceMaterial "HMMWV_Decals02_Int_709BF534A2D43DAD"
+     AssignedMaterial "{46FEDD000FAE454D}Assets/Vehicles/Wheeled/M1151/Data/HMMWV_Body_Roof_Invisible.emat"
+    }
+    MaterialAssignClass "{672EDBFBD09A1EA8}" {
+     SourceMaterial "m_PRT_Doors_half_CE936A913B4C878C"
+     AssignedMaterial "{46FEDD000FAE454D}Assets/Vehicles/Wheeled/M1151/Data/HMMWV_Body_Roof_Invisible.emat"
+    }
+    MaterialAssignClass "{672EDBFBD09A1EAB}" {
+     SourceMaterial "m_PRT_Windows_opened_FCD51D86A834D109"
+     AssignedMaterial "{46FEDD000FAE454D}Assets/Vehicles/Wheeled/M1151/Data/HMMWV_Body_Roof_Invisible.emat"
+    }
+    MaterialAssignClass "{672EDBFBD09A1EAA}" {
+     SourceMaterial "m_PRT_windows_7F41239123A6DE22"
+     AssignedMaterial "{46FEDD000FAE454D}Assets/Vehicles/Wheeled/M1151/Data/HMMWV_Body_Roof_Invisible.emat"
+    }
+   }
+   LODFactors {
+   }
+   PixelSizeScale 10
+   CastShadow 1
+  }
+  RigidBody "{672EDBFBD09A1EAC}" {
+   SimState Collision
+   ModelGeometry 1
+  }
+  SCR_DamageManagerComponent "{672EDBFBD09A1EAE}" {
+   "Additional hit zones" {
+    SCR_DestructibleHitzone Roof {
+     HZDefault 1
+     BaseDamageMultiplier 0
+     "Collision multiplier" 0
+     m_aDamagePassRules {
+      SCR_DamagePassRule "{672EDBFBD09A1EA6}" {
+       m_fMultiplier 1
+       m_bPassToParent 1
+      }
+     }
+     m_pDestructionHandler SCR_DestructionBaseHandler "{672EDBFBD09A1E80}" {
+      m_sWreckModel "{F00CBE06B08B2E21}Assets/Vehicles/Wheeled/M998/VehParts/M1025_Roof_Wreck.xob"
+      m_bDeleteAfterParentDestroyed 0
+     }
+    }
+   }
+  }
+  SlotManagerComponent "{672EDBFBD09A1E84}" {
+   Slots {
+    RegisteringComponentSlotInfo Window_LR {
+     PivotID "v_door_L02"
+     Offset -0.0665 0 -0.0931
+     Enabled 1
+     Prefab "{B8614E7BE4431862}Prefabs/Vehicles/Wheeled/M998/Dst/M1151_roof_window_lr.et"
+     DeactivatePhysicsOnAtaching 1
+     RegisterDamage 1
+    }
+    RegisteringComponentSlotInfo Window_RR {
+     PivotID "v_door_R02"
+     Offset 0.0665 0 -0.0931
+     Enabled 1
+     Prefab "{496A762F971C2D8E}Prefabs/Vehicles/Wheeled/M998/Dst/M1151_roof_window_rr.et"
+     DeactivatePhysicsOnAtaching 1
+     RegisterDamage 1
+    }
+    RegisteringComponentSlotInfo Window_RF {
+     PivotID "v_door_R01"
+     Offset 0.0693 0 0.0296
+     Enabled 1
+     Prefab "{1F7AC17FD1FE0560}Prefabs/Vehicles/Wheeled/M998/Dst/M1151_roof_window_rf.et"
+     DeactivatePhysicsOnAtaching 1
+     RegisterDamage 1
+    }
+    RegisteringComponentSlotInfo Window_LF {
+     PivotID "v_door_L01"
+     Offset -0.0693 0 0.0296
+     Enabled 1
+     Prefab "{EE71F92BA2A1308C}Prefabs/Vehicles/Wheeled/M998/Dst/M1151_roof_window_lf.et"
+     DeactivatePhysicsOnAtaching 1
+     RegisterDamage 1
+    }
+    RegisteringComponentSlotInfo Turret {
+     Offset 0 -0.2731 0.303
+     MergePhysics 1
+     Prefab "{AC152FEBB52EB9A4}Prefabs/Vehicles/Wheeled/M998/VehParts/Turrets/M1151_gun_mount_M2HB_Shield.et"
+     DisablePhysicsInteraction 0
+     RegisterActions 1
+     RegisterDamage 1
+     RegisterControllers 1
+     RegisterWeapons 1
+     RegisterCompartments 1
+    }
+    RegisteringComponentSlotInfo Window_LF2 {
+     PivotID "v_door_L01"
+     Offset -0.1075 0 0.0296
+     Enabled 1
+     Prefab "{EE71F92BA2A1308C}Prefabs/Vehicles/Wheeled/M998/Dst/M1151_roof_window_lf.et"
+     DeactivatePhysicsOnAtaching 1
+     RegisterDamage 1
+    }
+    RegisteringComponentSlotInfo Window_LR2 {
+     PivotID "v_door_L02"
+     Offset -0.1075 0 -0.0931
+     Enabled 1
+     Prefab "{B8614E7BE4431862}Prefabs/Vehicles/Wheeled/M998/Dst/M1151_roof_window_lr.et"
+     DeactivatePhysicsOnAtaching 1
+     RegisterDamage 1
+    }
+    RegisteringComponentSlotInfo Window_RF2 {
+     PivotID "v_door_R01"
+     Offset 0.1075 0 0.0296
+     Enabled 1
+     Prefab "{1F7AC17FD1FE0560}Prefabs/Vehicles/Wheeled/M998/Dst/M1151_roof_window_rf.et"
+     DeactivatePhysicsOnAtaching 1
+     RegisterDamage 1
+    }
+    RegisteringComponentSlotInfo Window_RR2 {
+     PivotID "v_door_R02"
+     Offset 0.1075 0 -0.0931
+     Enabled 1
+     Prefab "{496A762F971C2D8E}Prefabs/Vehicles/Wheeled/M998/Dst/M1151_roof_window_rr.et"
+     DeactivatePhysicsOnAtaching 1
+     RegisterDamage 1
+    }
+   }
+  }
+  ActionsManagerComponent "{672EDBFBD09A1E7D}" {
+   AllowCrossHierarchy 1
+  }
+  RplComponent "{672EDBFBD09A1E7F}" {
+  }
+  Hierarchy "{672EDBFBD09A1E71}" {
+  }
+ }
+ coords 4.769 -3.05 -6.442
+}

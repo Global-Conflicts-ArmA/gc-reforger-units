@@ -41,13 +41,13 @@ SCR_ChimeraCharacter : "{FE0970414F43AF15}Prefabs/Characters/Factions/BLUFOR/RHS
      Prefab "{20C0E8D4EE46F569}Prefabs/Characters/HeadGear/Helmet_MICH_ACH/Helmet_MICH2000_norotos_rail_green1_nvg.et"
     }
     LoadoutSlotInfo Jacket {
-     Prefab "{59671155DDBAD871}Prefabs/Characters/Uniforms/Crye_Shirt/Jacket_Crye_Combat_Shirt_M81.et"
+     Prefab "{801763CF140F78D8}Prefabs/Characters/Uniforms/Crye_shirt/Crye_G3_Shirt_M81.et"
     }
     LoadoutSlotInfo ArmoredVest {
      Prefab "{8EA3CB650C1DF461}Prefabs/Characters/Vests/Vest_AVS/Vest_AVS_6x9_Coy.et"
     }
     LoadoutSlotInfo Pants {
-     Prefab "{ECCC7BDEA2F3D3A5}Prefabs/Characters/Uniforms/Crye_Pants/crye_pants_CoyoteBrown.et"
+     Prefab "{C83D445A20ACA490}Prefabs/Characters/Uniforms/Crye_pants/Crye_G3_Pants_MC.et"
     }
     LoadoutSlotInfo Boots {
      Prefab "{057E63449502EBCA}Prefabs/Characters/Footwear/Boots_Salomon/Footwear_Salomon.et"
@@ -66,6 +66,9 @@ SCR_ChimeraCharacter : "{FE0970414F43AF15}Prefabs/Characters/Factions/BLUFOR/RHS
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{65214E7772E2492B}" {
+     TargetStorage "Pants/Crye_G3_Pants_MC.et"
+    }
+    ItemsInitConfigurationItem "{65214E7772E2493A}" {
     }
     ItemsInitConfigurationItem "{65214E7772E24936}" {
      PrefabsToSpawn {
@@ -159,5 +162,4 @@ SCR_ChimeraCharacter : "{FE0970414F43AF15}Prefabs/Characters/Factions/BLUFOR/RHS
    }
   }
  }
- coords 1233.969 7.437 3210.219
 }

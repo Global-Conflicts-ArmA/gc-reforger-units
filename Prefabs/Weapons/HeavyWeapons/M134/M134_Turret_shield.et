@@ -1,0 +1,32 @@
+GenericEntity : "{36863CB2F8885364}Prefabs/Weapons/HeavyWeapons/M134/M134_Turret_Base_shield.et" {
+ ID "629D584AB4B5971F"
+ components {
+  TurretComponent "{672EDBF74FF85BD7}" {
+   TurretSpeed 100 120
+   TurretAcceleration 343.77 343.77
+   TurretDeceleration 687.54 687.54
+  }
+  SlotManagerComponent "{672EDBF735B404F1}" {
+   Slots {
+    EntitySlotInfo Shield {
+     PivotID "w_root"
+     Offset 0.0302 -1.9979 -0.366
+     Angles 0 -7.7426 0
+     Prefab "{94CAC7D1F7A4D2BA}Prefabs/Vehicles/Wheeled/M998/VehParts/Turrets/Gun_Shield_GPK.et"
+    }
+   }
+  }
+  WeaponComponent "{629D584A845F8B28}" {
+   components {
+    MuzzleComponent "{629D584A80C39F75}" {
+     WeaponAimModifiers {
+      SwayWeaponAimModifier "{672EDBF74FF9D8E7}" {
+       "Lower Rotation" 0 0 0
+      }
+     }
+    }
+   }
+  }
+ }
+ coords 1658.167 9.148 3572.367
+}

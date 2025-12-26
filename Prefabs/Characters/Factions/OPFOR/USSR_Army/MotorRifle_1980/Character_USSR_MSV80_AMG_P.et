@@ -9,6 +9,11 @@ SCR_ChimeraCharacter : "{D1786D7659BC2E7C}Prefabs/Characters/Factions/OPFOR/USSR
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
+    ItemsInitConfigurationItem "{5D7CC173E6675BF7}" {
+     PrefabsToSpawn + {
+      "{98C79F5FAE12F9B6}Prefabs/Weapons/Attachments/Bayonets/Bayonet_6Kh4.et"
+     }
+    }
     ItemsInitConfigurationItem "{54A68D6519318E4B}" {
     }
     ItemsInitConfigurationItem "{554AE55DB4147348}" {

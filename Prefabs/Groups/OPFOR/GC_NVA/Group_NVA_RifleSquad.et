@@ -1,5 +1,12 @@
 SCR_AIGroup : "{2BA4FF1232A6371C}Prefabs/Groups/OPFOR/GC_NVA/Group_GC_NVA_Base.et" {
  ID "0000000000000001"
+ components {
+  SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+   m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+    Name "Rifle Squad"
+   }
+  }
+ }
  m_aUnitPrefabSlots {
   "{4BCF6B26E6A0AFCB}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_SquadLeader.et" "{B68CA75549A1027E}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_DeputySquadLeader.et" "{F1CB21A84852A5B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_MachineGunner.et" "{F1CB21A84852A5B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_MachineGunner.et" "{23B2DF1E01071F18}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_AT1.et" "{4FE6EBFEBDC39036}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_AT2.et" "{DC30E1E42C6BA859}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_Rifleman.et"
  }

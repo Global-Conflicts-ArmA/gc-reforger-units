@@ -1,4 +1,4 @@
-Vehicle : "{98225ED6D5F724D7}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_armed_gunship.et" {
+Vehicle : "{98225ED6D5F724D7}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_armed_gunship_empty.et" {
  ID "5A7CEB06421662F8"
  components {
   MeshObject "{51DAA09FEFBFC0E7}" {
@@ -17,6 +17,9 @@ Vehicle : "{98225ED6D5F724D7}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_armed_guns
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
     Name "Mi-8MT, Rockets (CDF)"
     m_sFaction "GC_CDF"
+    m_aAutoLabels {
+     FACTION_GC_CDF SIZE_L
+    }
    }
   }
   WCS_Armament_LoadoutComponent "{62E655E8858CCBBC}" {

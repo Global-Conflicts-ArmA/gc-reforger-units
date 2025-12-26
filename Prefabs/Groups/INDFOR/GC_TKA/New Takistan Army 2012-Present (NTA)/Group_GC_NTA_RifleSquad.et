@@ -1,17 +1,12 @@
-SCR_AIGroup : "{8DE0C0830FE0C33D}Prefabs/Groups/OPFOR/Group_USSR_Base.et" {
+SCR_AIGroup : "{CF1973477149D919}Prefabs/Groups/INDFOR/GC_TKA/Group_TKA_base.et" {
  ID "0000000000000001"
  components {
   SCR_EditableGroupComponent "{50D291F6C83FA532}" {
    m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
-    Name "Rifle Squad"
-    m_sFaction "GC_TKA"
-    m_aAuthoredLabels {
-     4
-    }
+    Name "Rifle Squad (NTA)"
    }
   }
  }
- m_faction "GC_TKA"
  m_aUnitPrefabSlots {
   "{9260DE5E9D4D8840}Prefabs/Characters/Factions/INDFOR/GC_TKA/New Takistan Army 2012-Present (NTA)/Character_GC_NTA_SL.et" "{27404680D640340F}Prefabs/Characters/Factions/INDFOR/GC_TKA/New Takistan Army 2012-Present (NTA)/Character_GC_NTA_AT.et" "{CD6C66B503BA73C6}Prefabs/Characters/Factions/INDFOR/GC_TKA/New Takistan Army 2012-Present (NTA)/Character_GC_NTA_ATA.et" "{F23D5160587E4379}Prefabs/Characters/Factions/INDFOR/GC_TKA/New Takistan Army 2012-Present (NTA)/Character_GC_NTA_GL.et" "{95A7240FFBCB3283}Prefabs/Characters/Factions/INDFOR/GC_TKA/New Takistan Army 2012-Present (NTA)/Character_GC_NTA_TL.et" "{ADFFF15BC1863EB0}Prefabs/Characters/Factions/INDFOR/GC_TKA/New Takistan Army 2012-Present (NTA)/Character_GC_NTA_MG.et" "{93A6573FF7D30C93}Prefabs/Characters/Factions/INDFOR/GC_TKA/New Takistan Army 2012-Present (NTA)/Character_GC_NTA_MGA.et" "{A0D907E81E14CFD0}Prefabs/Characters/Factions/INDFOR/GC_TKA/New Takistan Army 2012-Present (NTA)/Character_GC_NTA_Rifleman.et"
  }

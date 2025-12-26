@@ -1,0 +1,14 @@
+GenericEntity : "{E517E6CCC1DF5737}Prefabs/Weapons/HeavyWeapons/HMG_M2HB_pintle_M1025.et" {
+ ID "476AE74DE20E1061"
+ components {
+  SlotManagerComponent "{672EDBF8F8A7EF92}" {
+   Slots {
+    EntitySlotInfo Shield {
+     PivotID "w_turret_vertical"
+     Offset -0.0024 -2.5728 -0.1121
+     Prefab "{56B53243D7F72F68}Prefabs/Vehicles/Wheeled/IvecoLMV/VehParts/Turret/Gun_Shield_IvecoLMV.et"
+    }
+   }
+  }
+ }
+}

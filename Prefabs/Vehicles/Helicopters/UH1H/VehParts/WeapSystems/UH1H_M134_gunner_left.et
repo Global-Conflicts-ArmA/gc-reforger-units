@@ -1,0 +1,12 @@
+Turret : "{273A9AE09880628E}Prefabs/Vehicles/Helicopters/UH1H/VehParts/WeapSystems/UH1H_M60D_gunner_left.et" {
+ ID "51ACD0965653D003"
+ components {
+  WeaponSlotComponent "{51ACD09C6BFEEE6A}" {
+   AttachType InventoryStorageSlot "{0AACE7470E421D82}" {
+    Offset 0 0.1679 0.1436
+    DisablePhysicsInteraction 1
+   }
+   WeaponTemplate "{E471FB3713727B86}Prefabs/Weapons/HeavyWeapons/M134/M134_Weapon_Base.et"
+  }
+ }
+}

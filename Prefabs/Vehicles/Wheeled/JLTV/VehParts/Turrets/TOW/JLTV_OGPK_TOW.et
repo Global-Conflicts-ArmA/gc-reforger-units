@@ -20,6 +20,17 @@ Turret : "{9D9A4C546BA1CCFF}Prefabs/Vehicles/Wheeled/JLTV/VehParts/Turrets/JLTV_
     }
    }
   }
+  SCR_BaseHUDComponent "{51ACD09C5E194510}" {
+   InfoDisplays {
+    WCS_Armament_WeaponInfoVehicle "{62CEE7E79461A975}" {
+     m_aHandlers {
+      SCR_InfoDisplaySlotHandler "{62CEE7E673328131}" {
+      }
+     }
+     m_sSlotToHookInto "Magazine"
+    }
+   }
+  }
   TurretControllerComponent "{51ACD09C61C183E4}" {
    LimitsHoriz -5 5
    LimitsVert -20 30

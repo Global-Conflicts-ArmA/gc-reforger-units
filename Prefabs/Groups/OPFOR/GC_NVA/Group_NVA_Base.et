@@ -3,7 +3,12 @@ SCR_AIGroup : "{8DE0C0830FE0C33D}Prefabs/Groups/OPFOR/Group_USSR_Base.et" {
  components {
   SCR_EditableGroupComponent "{50D291F6C83FA532}" {
    m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+    m_Image "{B3388EBBC8D82B81}UI/Textures/EditorPreviews/Groups/OPFOR/Group_USSR_RifleSquad_NI.edds"
     m_sFaction "GC_NVA"
+    m_aAuthoredLabels {
+     ENTITYTYPE_GROUP FACTION_GC_NVA
+    }
+    m_bUseUIInfoName 1
    }
   }
  }

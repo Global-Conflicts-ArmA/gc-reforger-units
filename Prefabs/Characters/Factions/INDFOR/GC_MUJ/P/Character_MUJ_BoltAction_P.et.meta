@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{41FB180A9CD7BBE5}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_BoltAction_P.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,17 @@
+GenericEntity {
+ ID "629D11C8BD6AE717"
+ components {
+  WCS_Armament_LoadoutComponent "{65A3055EE4F49D82}" {
+   FireInputActionName "CharacterFire"
+  }
+  ActionsManagerComponent "{629D11CAB6B28AE6}" {
+   additionalActions {
+    WCS_RearmPodAtRepairStationAction "{629D11D464DEC282}" {
+     ParentContextList {
+      "main"
+     }
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,325 @@
+GenericEntity : "{3C86902420C4EFB4}Prefabs/Weapons/Core/Armament_MachineGun_Base.et" {
+ ID "629D584AB4B5971F"
+ components {
+  WeaponSoundComponent "{629D584ABD6BB655}" {
+   Filenames {
+    "{1E33DAD7EEF0F32C}Sounds/Weapons/HeavyWeapons/M134/Weapons_HeavyWeapons_M134_Shot.acp"
+   }
+   SoundPoints {
+    SoundPointInfo point {
+     PivotID "w_muzzle"
+     Offset 0 0 -0.2513
+    }
+   }
+  }
+  AITurretAimingComponent "{672EDBF74FF85A02}" {
+  }
+  BaseWeaponManagerComponent "{672EDBF74FF85BF6}" {
+  }
+  ControllersManagerComponent "{672EDBF74FF85BEA}" {
+  }
+  MeshObject "{629D584A9761CFD4}" {
+   Object "{C9D2677E4EF27712}Assets/Weapons/HeavyWeapons/M134/M134_turret.xob"
+  }
+  RigidBody "{629D584A92730C41}" {
+   SimState Simulation
+  }
+  ProcAnimComponent "{672EDBF74FF85BEF}" {
+   Parameters {
+    ProcAnimParams "{672EDBF74FF85BE1}" {
+     ResourceName "{F41BA441BB78161D}anims/proc/turret.pap"
+     BoneNames {
+      "w_root" "w_turret_vertical"
+     }
+     AlwaysSimulateOwner 1
+    }
+   }
+  }
+  SCR_WeaponAttachmentsStorageComponent "{631F0482536F5451}" {
+   Attributes SCR_ItemAttributeCollection "{631F0482FE22D8E1}" {
+    ItemDisplayName WeaponUIInfo "{672EDBF74FF85BE4}" {
+     Name "#WCS-Weapon_M134_Name"
+     Description "#WCS-Weapon_M134_Description"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{631F04832312D72B}" {
+     Weight 38.1
+     ItemVolume 12000
+    }
+    CustomAttributes {
+     AimingModifierAttributes "{672EDBF74FF85BDB}" {
+      ProneLimitsVertical -90 90
+      DeploymentAimSpeedMultiplier 1 1
+      DeploymentHorizontalAimSensitivityMax 120
+      LowerGunCollisionDistance 0.05
+     }
+     ItemMovementSwayAttributes "{672EDBF74FF85BDC}" {
+      BobDamper 0.95 0.95 1
+      BobMagnitudeLinear 0.03 -0.01 -0.01
+      BobMagnitudeAngular -6.25 5 0
+      BobSpeed 16
+      MaxMagnitude 1
+      DefaultMagnitudeLinear 0 0.04 0
+      DefaultMagnitudeAngular 35 3 -40
+      LoweredMagnitudeLinear 0 0.125 0
+      LoweredMagnitudeAngular 90 7.5 -45
+      OneHandMagnitudeLinear 0 0.065 0
+      OneHandMagnitudeAngular 35 5 -40
+      ADSMagnitudeLinear -0.023 0 0
+      ADSMagnitudeAngular 8.84 10.6 20
+      InjuredMagnitudeLinear 0 0.065 0
+      InjuredMagnitudeAngular 35 5 -40
+      TargetVelocity 3.6
+      TargetVelocitySteepness 3
+      TargetVelocityLimit 3.6
+      MaxVelocity 2
+     }
+     SCR_RecoilCameraShakeParams "{672EDBF74FF85BDE}" {
+      m_fBlendOutTime 0.089
+      m_fMaxVelocity 15
+      m_fRecoilTarget 0.038
+      m_vTranslationMin 0.004 0.004 0
+      m_vTranslationMax 0.005 0.005 0
+      m_fFOVModifier 0.985
+      m_vRotationImpulseMin 0.005 0.005 7
+      m_vRotationImpulseMax 0.012 0.012 8
+      m_fMinImpulseThreshold 0.01
+      m_fImpulseCrouchMagnitudeModifier 0.7
+      m_fImpulseProneMagnitudeModifier 1
+      m_fCrouchMagnitudeModifier 0.5
+      m_fProneMagnitudeModifier 0.33
+     }
+     CharacterModifierAttributes "{672EDBF74FF85BD2}" {
+      ADSSpeedLimit 1.5
+      SpeedLimitHighready 1.8
+     }
+     PreviewRenderAttributes "{672EDBF74FF85BD5}" {
+      CameraPreset Right
+      CameraDistanceToItem 1.9
+      FOV 30
+      AspectRatio 1
+      AnimationInstance "{C79EA6F6F4EFE7CC}anims/workspaces/player/player_inventory_LMG.asi"
+     }
+    }
+   }
+  }
+  TurretComponent "{672EDBF74FF85BD7}" {
+   SignalsSourceAccess SignalsSourceAccessClass "{672EDBF74FF85BD6}" {
+    signalsSuffix "Turret"
+   }
+   CameraAdsAttachment PointInfo "{672EDBF74FF85BB8}" {
+   }
+   ikTargets {
+    AnimationIKTargetInfo "{672EDBF74FF85BBD}" {
+     BindingName "LHandIKTargetTurret"
+     PositionInfo PointInfo "{672EDBF74FF83A5E}" {
+      PivotID "w_m134"
+      Offset -0.1024 0 -0.2759
+      Angles 0 -90 90
+     }
+    }
+    AnimationIKTargetInfo "{672EDBF74FF83A5C}" {
+     BindingName "RHandIKTargetTurret"
+     PositionInfo PointInfo "{672EDBF74FF83A5D}" {
+      PivotID "w_m134"
+      Offset 0.1024 0 -0.2759
+      Angles 0 -90 -90
+     }
+    }
+   }
+  }
+  WCS_LoopedGunSound "{672EDBF74FF83A53}" {
+   Enabled 0
+   m_fSignalReleaseDelay 1000
+  }
+  WeaponComponent "{629D584A845F8B28}" {
+   components {
+    AttachmentSlotComponent "{672EDBF74FF83A57}" {
+     AttachmentSlot InventoryStorageSlot "{648423C1DCB48210}" {
+      PivotID "slot_optics"
+      ChildPivotID "snap_weapon"
+      Enabled 0
+     }
+    }
+    SightsComponent "{672EDBF74FF83A55}" {
+     SightsPosition PointInfo "{672EDBF74FF83A4A}" {
+      PivotID "w_muzzle"
+      Offset 0 0.0986 -0.8784
+     }
+     SightsPointFront PointInfo "{672EDBF74FF83A4B}" {
+      PivotID "w_muzzle"
+     }
+     SightsPointRear PointInfo "{672EDBF74FF83A48}" {
+      PivotID "w_muzzle"
+      Offset 0 0 -0.4576
+     }
+    }
+    MuzzleComponent "{629D584A80C39F75}" {
+     components {
+      CaseEjectingEffectComponent "{629D584A8A5C8AEE}" {
+       EffectPosition EntitySlotInfo First {
+        PivotID "w_barrel"
+       }
+      }
+      CaseEjectingEffectComponent "{672EDBF74FF83A45}" {
+       ParticleEffect "{F45312DA234A6A85}Particles/Weapon/Casing_M134.ptc"
+       EffectPosition EntitySlotInfo eject {
+        PivotID "w_eject"
+        Offset 0 0 0.0362
+       }
+       HasSound 0
+      }
+      SCR_MuzzleEffectComponent "{629D58457667B12A}" {
+       EffectPosition EntitySlotInfo First {
+        PivotID "w_muzzle"
+        Offset 0 -0.029 0.0539
+       }
+      }
+     }
+     MuzzleEndPositions {
+      PointInfo "{B80A64F4B6CFB9BF}" {
+       PivotID "w_muzzle"
+       Offset 0 0 0.0505
+      }
+     }
+     ProjectileSpawnPositions {
+      PointInfo "{50F64C476EC435CA}" {
+       PivotID "w_muzzle"
+       Offset 0 0 0.1043
+      }
+     }
+     FireModes {
+      BaseFireMode "{B80A64F4A8EF8333}" {
+       RoundsPerMinute 2500
+      }
+     }
+     MagazineWell WCS_MagazineWellM134 "{672EDBF74FF83A72}" {
+     }
+     DispersionDiameter 1
+     DispersionRange 75
+     WeaponAimModifiers {
+      RecoilWeaponAimModifier "{672EDBF74FF83A76}" {
+       LinearData RecoilData "{672EDBF74FF9D8F8}" {
+        "Curve X" {
+         0 0.5 1 0.5
+        }
+        "Curve Y" {
+         0 0.5 0.027 0.54 0.042 0.587 0.062 0.6 0.082 0.567 0.095 0.523 0.247 0.479 0.45 0.52 0.7 0.495 1 0.5
+        }
+        "Curve Z" {
+         0 0.5 0.026 0.627 0.045 0.749 0.065 0.749 0.086 0.646 0.112 0.571 0.237 0.45 0.245 0.447 0.45 0.537 0.7 0.485 1 0.5
+        }
+        "Curve Time Scale" 1
+        "Curve Magnitudes" 0.7 0.7 0.7
+        "Curve Mins" -0.001 -0.006 -0.022
+        "Curve Maxs" 0 -0.005 -0.018
+        "Base Recoil Scale" 3
+        "OneHand Scale" 2
+       }
+       AngularData RecoilData "{672EDBF74FF9D8FA}" {
+        "Curve X" {
+         0 0.5 0.019 0.411 0.055 0.539 0.11 0.474 0.216 0.497 1 0.5
+        }
+        "Curve Z" {
+         0 0.5 0.034 0.46 0.054 0.737 0.104 0.587 0.238 0.487 0.443 0.5 0.7 0.5 1 0.5
+        }
+        "Curve Time Scale" 1
+        "Curve Magnitudes" 1.8 1.8 0.8
+        "Curve Mins" -0.001 0.3 -4
+        "Curve Maxs" 0.001 0.6 4
+        "Base Recoil Scale" 3
+        "OneHand Scale" 2
+       }
+       TurnOffsetData RecoilData "{672EDBF74FF9D8FB}" {
+        "Curve X" {
+         0 0.5 0.017 0.434 0.055 0.539 0.11 0.474 0.216 0.497 1 0.5
+        }
+        "Curve Time Scale" 1
+        "Curve Magnitudes" 0.45 3.5 0
+        "Curve Mins" -0.5 0.3 0
+        "Base Recoil Scale" 1
+        "OneHand Scale" 2
+       }
+      }
+      OnHitAimModifier "{672EDBF74FF9D8E5}" {
+       IsEnabled 0
+      }
+      SwayWeaponAimModifier "{672EDBF74FF9D8E7}" {
+       Name "SWAY"
+       "Linear Damping" 0.85 0.5 0.825
+       "Linear Magnitude" 1
+       "Angular Damping" 0.95 0.3 0.4
+       "Angular Magnitude" 1
+       "ADS Multiplier" 0.3
+       "Focus Multiplier" 0.2
+       "Stamina Magnitude Curve" {
+        0 1 0.491 0.961 0.722 0.867 0.828 0.727 0.947 0.518 1 0.087
+       }
+       "Stamina Scale Mins" 0.4 0.5 0
+       "Stamina Scale Maxs" 1.4 1.4 0
+       "Linear Inertia Magnitude" 0.0015 0.02 0
+       "Angular Inertia Magnitude" 5 4 14
+       "Angular Inertia Magnitude ADS" 4 2 12
+       "Linear Inertia Decay Speed" 10
+       "Angular Inertia Decay Speed" 12
+       DamageToSway 2
+       OneHandMultiplier 2
+      }
+     }
+     UIInfo MuzzleUIInfo "{672EDBF74FF9D8E1}" {
+      m_bShowCaliber 1
+      m_sCaliber "#AR-AmmunitionID_762x51mm"
+      m_MagIndicator SCR_MagazineIndicatorConfiguration "{672EDBF74FF9D8EE}" {
+      }
+     }
+     MagazinePosition InventoryStorageSlot Magazine {
+     }
+     MagazineTemplate "{452F569291FEC21A}Prefabs/Weapons/Magazines/M134/Box_762x51_M134_2500rnd_Tracer.et"
+    }
+    WeaponAnimationComponent "{672EDBF74FF9D8E9}" {
+     AnimGraph "{B1C97F14796FFBC7}Assets/Weapons/HeavyWeapons/M134/Workspace/Turret/M134.agr"
+     AnimInstance "{7CF211481501841F}Assets/Weapons/HeavyWeapons/M134/Workspace/Turret/M134_weapon.asi"
+     AlwaysActive 1
+     AnimInjection AnimationAttachmentInfo "{672EDBF74FF9D8EB}" {
+      AnimGraph "{B1C97F14796FFBC7}Assets/Weapons/HeavyWeapons/M134/Workspace/Turret/M134.agr"
+      AnimInstance "{87AC80798D00E0F3}Assets/Weapons/HeavyWeapons/M134/Workspace/Turret/M134_player.asi"
+      BindingName "Weapon"
+     }
+     BindWithInjection 1
+     AnimVariablesToBind {
+      "WeaponInspectionState"
+     }
+    }
+   }
+   sightsCameraRollScaler -1
+   UIInfo WeaponUIInfo "{672EDBF74FF9D815}" {
+    Name "#WCS-Weapon_M134_Name"
+    Description "#WCS-Weapon_M134_Description"
+    m_bShowWeaponName 1
+    m_MagIndicator SCR_MagazineIndicatorConfiguration "{672EDBF74FF9D816}" {
+    }
+   }
+   WeaponSlotType "hmg"
+   CanBeOnSling 1
+  }
+  ActionsManagerComponent "{629D584571B44007}" {
+   Enabled 0
+   ActionContexts {
+    UserActionContext "{629D5845A544CEB7}" {
+     Position PointInfo "{629D58458B9C295C}" {
+      PivotID "w_m134"
+      Offset 0 -0.0554 -0.2081
+     }
+    }
+   }
+  }
+  SlotManagerComponent "{672EDBF735B404F1}" {
+   Slots {
+    EntitySlotInfo Shield {
+     Offset 0.0018 -2.4471 -0.1763
+     Angles 0 -6.7006 0
+     Prefab "{56B53243D7F72F68}Prefabs/Vehicles/Wheeled/IvecoLMV/VehParts/Turret/Gun_Shield_IvecoLMV.et"
+    }
+   }
+  }
+ }
+}

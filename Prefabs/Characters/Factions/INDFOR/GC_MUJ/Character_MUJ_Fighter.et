@@ -1,0 +1,167 @@
+SCR_ChimeraCharacter : "{D3F29763F96877CD}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_base.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_VariantData SCR_EditableEntityVariantData "{66B538FB99DDCDF6}" {
+    m_bRandomizeDefaultVariant 0
+    m_aVariants {
+     SCR_EditableEntityVariant "{66B538FB99DDCDE5}" {
+      m_sVariantPrefab "{90214E35AA363179}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Variants/Character_MUJ_AK_1.et"
+      m_iRandomizerWeight 2
+     }
+     SCR_EditableEntityVariant "{66B538FB99DDCDE9}" {
+      m_sVariantPrefab "{129B3BBB5B3288A6}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Variants/Character_MUJ_AK_2.et"
+      m_iRandomizerWeight 2
+     }
+     SCR_EditableEntityVariant "{66B538FB99DDCDEB}" {
+      m_sVariantPrefab "{F707774257D71FCD}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Variants/Character_MUJ_AK_3.et"
+      m_iRandomizerWeight 2
+     }
+     SCR_EditableEntityVariant "{66B538FB99DDCDED}" {
+      m_sVariantPrefab "{CA33527A22BB96FA}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Variants/Character_MUJ_AK_4.et"
+      m_iRandomizerWeight 2
+     }
+     SCR_EditableEntityVariant "{66B538FB99DDCDEC}" {
+      m_sVariantPrefab "{2FAF1E832E5E0191}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Variants/Character_MUJ_AK_5.et"
+      m_iRandomizerWeight 2
+     }
+     SCR_EditableEntityVariant "{66B538FB99DDCDEE}" {
+      m_sVariantPrefab "{43FB2A63929A8EBF}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Variants/Character_MUJ_AK_6.et"
+      m_iRandomizerWeight 2
+     }
+     SCR_EditableEntityVariant "{66B538FB99DDCDD0}" {
+      m_sVariantPrefab "{A667669A9E7F19D4}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Variants/Character_MUJ_AK_7.et"
+      m_iRandomizerWeight 2
+     }
+     SCR_EditableEntityVariant "{66B538FB99DDCDD2}" {
+      m_sVariantPrefab "{3993601378439CD1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Variants/Character_MUJ_AK_8.et"
+      m_iRandomizerWeight 2
+     }
+     SCR_EditableEntityVariant "{66B538FB99DDCDD5}" {
+      m_sVariantPrefab "{19082200798CCFDE}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Variants/Character_MUJ_FAL_1.et"
+     }
+     SCR_EditableEntityVariant "{66B538FB99DDCDD7}" {
+      m_sVariantPrefab "{755C16E0C54840F0}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Variants/Character_MUJ_FAL_2.et"
+     }
+     SCR_EditableEntityVariant "{66B538FB99DDCDD9}" {
+      m_sVariantPrefab "{90C05A19C9ADD79B}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Variants/Character_MUJ_FAL_3.et"
+     }
+     SCR_EditableEntityVariant "{66B538FB99DDCDDB}" {
+      m_sVariantPrefab "{BE1981AB26D200E1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Variants/Character_MUJ_G3_1.et"
+     }
+     SCR_EditableEntityVariant "{66B538FB99DDCDC2}" {
+      m_sVariantPrefab "{D24DB54B9A168FCF}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Variants/Character_MUJ_G3_2.et"
+     }
+     SCR_EditableEntityVariant "{66B538FB99DDCDC4}" {
+      m_sVariantPrefab "{37D1F9B296F318A4}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Variants/Character_MUJ_G3_3.et"
+     }
+     SCR_EditableEntityVariant "{66B538FB99DDCDC6}" {
+      m_sVariantPrefab "{FF53DA8351AA28AF}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Variants/Character_MUJ_M16_1.et"
+     }
+     SCR_EditableEntityVariant "{66B538FB99DDCDCD}" {
+      m_sVariantPrefab "{9307EE63ED6EA781}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Variants/Character_MUJ_M16_2.et"
+     }
+     SCR_EditableEntityVariant "{66B538FB99DDCDCC}" {
+      m_sVariantPrefab "{04686FBD3557715A}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Variants/Character_MUJ_M1_1.et"
+     }
+     SCR_EditableEntityVariant "{66B538FB99DDCDCE}" {
+      m_sVariantPrefab "{24DD13146F7BA00B}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Variants/Character_MUJ_M1_2.et"
+     }
+     SCR_EditableEntityVariant "{66B538FB99DDCC31}" {
+      m_sVariantPrefab "{B3E96BAF62B0AB1E}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Variants/Character_MUJ_SMG_1.et"
+      m_iRandomizerWeight 2
+     }
+     SCR_EditableEntityVariant "{66B538FB99DDCC33}" {
+      m_sVariantPrefab "{488927F4D3BF2F25}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Variants/Character_MUJ_SMG_2.et"
+      m_iRandomizerWeight 2
+     }
+     SCR_EditableEntityVariant "{66B538FB99DDCC35}" {
+      m_sVariantPrefab "{AD156B0DDF5AB84E}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Variants/Character_MUJ_SMG_3.et"
+     }
+     SCR_EditableEntityVariant "{66B538FBE1554A22}" {
+      m_sVariantPrefab "{29ED28FC5680DA06}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Variants/Character_MUJ_Enfield_1.et"
+      m_iRandomizerWeight 2
+     }
+     SCR_EditableEntityVariant "{66B538FBE1977A70}" {
+      m_sVariantPrefab "{B4C965FD6B3CB8DF}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Variants/Character_MUJ_Enfield_2.et"
+      m_iRandomizerWeight 2
+     }
+     SCR_EditableEntityVariant "{66B538FBE1E72C3E}" {
+      m_sVariantPrefab "{CC7164055A654D6D}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Variants/Character_MUJ_Enfield_3.et"
+      m_iRandomizerWeight 2
+     }
+     SCR_EditableEntityVariant "{66B538FBEE3C92B9}" {
+      m_sVariantPrefab "{F145413D2F09C45A}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Variants/Character_MUJ_Enfield_4.et"
+      m_iRandomizerWeight 2
+     }
+     SCR_EditableEntityVariant "{66B538FBEE0E50BE}" {
+      m_sVariantPrefab "{3B6A10189A42B849}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Variants/Character_MUJ_Mosin_1.et"
+      m_iRandomizerWeight 2
+     }
+     SCR_EditableEntityVariant "{66B538FBEE607410}" {
+      m_sVariantPrefab "{29ED28FC5680DA07}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Variants/Character_MUJ_Mosin_2.et"
+      m_iRandomizerWeight 2
+     }
+     SCR_EditableEntityVariant "{66FA0C504CB51F56}" {
+      m_sVariantPrefab "{90214E35AA36317A}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Variants/Character_MUJ_SMG_4.et"
+     }
+     SCR_EditableEntityVariant "{66FA0C504CCCE2C5}" {
+      m_sVariantPrefab "{75BD02CCA6D3A612}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Variants/Character_MUJ_SMG_5.et"
+     }
+    }
+   }
+  }
+  CharacterGrenadeSlotComponent "{520EA1D2F659CE6E}" {
+   WeaponTemplate "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+  }
+  CharacterGrenadeSlotComponent "{5A6CDA0CCF43068E}" {
+   WeaponTemplate "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{FA5C25BF66A53DCF}Prefabs/Weapons/Rifles/AK74/Rifle_AK74.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{5A293B86B4EDF486}Prefabs/Characters/HeadGear/Hat_FlatCap_01/Pakol_Hat_1.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{B7C33E13550505CB}Prefabs/Characters/Uniforms/Jacket_ShirtSmall_6.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{4C0A4A17873144B0}Prefabs/Characters/Uniforms/Pants_Cargo_6.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{B12C47DF95EC9C17}Prefabs/Characters/Footwear/CombatBoots_Insurgents.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{ED5574EA7F63B457}Prefabs/Characters/Vests/Vest_Type56/Vest_Type56.et"
+    }
+    LoadoutSlotInfo Head {
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{66B538FB99DDCC11}" {
+     TargetStorage "Pants/Pants_Cargo_6.et"
+     PrefabsToSpawn {
+      "{7CEF68E2BC68CE71}Prefabs/Items/Equipment/Compass/Compass_Adrianov.et" "{13772C903CB5E4F7}Prefabs/Items/Equipment/Maps/PaperMap_01_folded.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et" "{062E2F1D7F6739D6}Prefabs/Items/Equipment/Accessories/ETool_MPL50/ETool_MPL50_FreeRoamBuilding_Gadget.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et"
+     }
+    }
+    ItemsInitConfigurationItem "{66B538FB99DDCC19}" {
+     TargetStorage "Vest/Vest_Type56.et"
+     PrefabsToSpawn {
+      "{BBB50A815A2F916B}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Ball.et" "{BBB50A815A2F916B}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Ball.et" "{BBB50A815A2F916B}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Ball.et" "{BBB50A815A2F916B}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Ball.et" "{BBB50A815A2F916B}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Ball.et"
+     }
+    }
+    ItemsInitConfigurationItem "{66B538FB99DDCC00}" {
+     TargetStorage "Jacket/Jacket_ShirtSmall_6.et"
+     PrefabsToSpawn {
+      "{BBB50A815A2F916B}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Ball.et"
+     }
+    }
+   }
+  }
+ }
+}

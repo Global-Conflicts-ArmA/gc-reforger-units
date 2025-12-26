@@ -33,7 +33,14 @@ SCR_ChimeraCharacter : "{FE0970414F43AF15}Prefabs/Characters/Factions/BLUFOR/RHS
      Prefab "{59671155DDBAD871}Prefabs/Characters/Uniforms/Crye_Shirt/Jacket_Crye_Combat_Shirt_M81.et"
     }
     LoadoutSlotInfo Pants {
-     Prefab "{ECCC7BDEA2F3D3A5}Prefabs/Characters/Uniforms/Crye_Pants/crye_pants_CoyoteBrown.et"
+     Prefab "{C83D445A20ACA490}Prefabs/Characters/Uniforms/Crye_pants/Crye_G3_Pants_MC.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{65214E7772E2492B}" {
+     TargetStorage "Pants/Crye_G3_Pants_MC.et"
     }
    }
   }

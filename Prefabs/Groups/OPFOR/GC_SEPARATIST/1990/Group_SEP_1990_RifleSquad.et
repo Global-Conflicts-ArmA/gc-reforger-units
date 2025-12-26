@@ -1,0 +1,13 @@
+SCR_AIGroup : "{28582B54ECB0C9D1}Prefabs/Groups/OPFOR/GC_SEPARATIST/Group_SEP_base.et" {
+ ID "0000000000000001"
+ components {
+  SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+   m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+    Name "Rifle Squad (1990)"
+   }
+  }
+ }
+ m_aUnitPrefabSlots {
+  "{26F7A621B2020C0F}Prefabs/Characters/Factions/OPFOR/GC_SEP/1990/Character_SEP_1990_SL.et" "{83721EAC6644B865}Prefabs/Characters/Factions/OPFOR/GC_SEP/1990/Character_SEP_1990_AR.et" "{3EA24C2B195FA47B}Prefabs/Characters/Factions/OPFOR/GC_SEP/1990/Character_SEP_1990_AT.et" "{5948657ADAC65E2B}Prefabs/Characters/Factions/OPFOR/GC_SEP/1990/Character_SEP_1990_GL.et" "{F47196272B75A80D}Prefabs/Characters/Factions/OPFOR/GC_SEP/1990/Character_SEP_1990_TL.et" "{161FD52D4BBE0DFC}Prefabs/Characters/Factions/OPFOR/GC_SEP/1990/Character_SEP_1990_MG.et" "{5B882C82EF033ABD}Prefabs/Characters/Factions/OPFOR/GC_SEP/1990/Character_SEP_1990_Rifleman.et"
+ }
+}

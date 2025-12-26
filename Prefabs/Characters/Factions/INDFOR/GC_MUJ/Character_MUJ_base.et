@@ -1,0 +1,46 @@
+SCR_ChimeraCharacter : "{37578B1666981FCE}Prefabs/Characters/Core/Character_Base.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_CommunicationSoundComponent "{54FD05D0C92D071F}" {
+   Filenames {
+    "{609BC515708A6C91}Sounds/RadioProtocol/RadioProtocol_Report_FIA.acp" "{2BBB4A9DA10EE163}Sounds/RadioProtocol/RadioProtocol_Movement_FIA.acp" "{5B2A0174F1C27445}Sounds/RadioProtocol/RadioProtocol_Confirmations_FIA.acp" "{65F6CCB82ABA12FB}Sounds/RadioProtocol/RadioProtocol_Combat_FIA.acp" "{30C6D89341B1EA1A}Sounds/Character/Character_Voice_Code.acp" "{C9BE186498C3B447}Sounds/Character/Character_Voice_Animations.acp" "{EA06766D8B13B414}Sounds/RadioProtocol/RadioProtocol_Actions_FIA.acp" "{2B5C7E7FB00C9371}Sounds/RadioProtocol/RadioProtocol_Report_2_FIA.acp"
+   }
+  }
+  SCR_CharacterFactionAffiliationComponent "{669960828A235A2E}" {
+   "faction affiliation" "GC_MUJ"
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Fighter"
+    Icon "{A489F552FB7489C3}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_Custom.edds"
+    m_Image "{38AE6AC6D58DDCA4}UI/Textures/EditorPreviews/Characters/CIV/Character_CIV_Turtleneck_2.edds"
+    m_sFaction "GC_MUJ"
+    m_aAuthoredLabels + {
+     ENTITYTYPE_CHARACTER FACTION_GC_MUJ
+    }
+    m_aAutoLabels {
+    }
+   }
+  }
+  SCR_ExtendedCharacterIdentityComponent "{5AEEA3C8B2AA118B}" {
+   m_iMaxRandomAge 45
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponSlotIndex 0
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+   WeaponSlotIndex 1
+  }
+  SCR_CharacterIdentityComponent "{5584CBC63E092DBC}" {
+   Identity Identity "{5584CBC6363C648B}" {
+    VisualIdentity VisualIdentity "{56E6D9456009D1C4}" {
+     Head "{EAF055495BA85CA1}Prefabs/Characters/Heads/Head_White_02.et"
+    }
+    SoundIdentity SoundIdentity "{56E6D945D8F79290}" {
+     VoiceID 0
+    }
+   }
+  }
+ }
+ coords 0 0 0
+}

@@ -84,19 +84,25 @@ SCR_ChimeraCharacter : "{FF3F14A601D59541}Prefabs/Characters/Factions/INDFOR/RHS
     ItemsInitConfigurationItem "{655A083D640F2088}" {
      TargetStorage "Vest/Vest_AVS_6x9_MCBlk_ronin.et/hsgipistol/Pouch_Highspeed_Pistol_MCBlk.et"
      PrefabsToSpawn {
-      "{8FF49793853DB2F9}Prefabs/Weapons/Magazines/m17_magazines/Magazine_9x19_m17_17rnd.et"
+      "{8FF49793853DB2F9}Prefabs/Weapons/Magazines/m17_magazines/Magazine_9x19_m17_17rnd_M1152.et"
      }
     }
     ItemsInitConfigurationItem "{655A083D641A4376}" {
      TargetStorage "Vest/Vest_AVS_6x9_MCBlk_ronin.et/hsgipistol2/Pouch_Highspeed_Pistol_MCBlk.et"
      PrefabsToSpawn {
-      "{8FF49793853DB2F9}Prefabs/Weapons/Magazines/m17_magazines/Magazine_9x19_m17_17rnd.et"
+      "{8FF49793853DB2F9}Prefabs/Weapons/Magazines/m17_magazines/Magazine_9x19_m17_17rnd_M1152.et"
      }
     }
     ItemsInitConfigurationItem "{655A083D4D7D2DB1}" {
      TargetStorage "Vest/Vest_AVS_6x9_MCBlk_ronin.et/bleeder/Pouch_Highspeed_Bleeder_MCBlk.et"
      PrefabsToSpawn {
       "{9BBDEE253A16CC66}Prefabs/Weapons/Grenades/M18/Smoke_M18_Yellow.et" "{9BBDEE253A16CC66}Prefabs/Weapons/Grenades/M18/Smoke_M18_Yellow.et"
+     }
+    }
+    ItemsInitConfigurationItem "{672A3A16B6152659}" {
+     TargetStorage "Vest/Vest_AVS_6x9_MCBlk_ronin.et/mbitr/Pouch_AVS_MBITR_Radio_MCBlk.et"
+     PrefabsToSpawn {
+      "{5D948A57AF3432ED}Prefabs/Items/Equipment/Radios/Radio_ANPRC152A_OLD_Single.et"
      }
     }
    }

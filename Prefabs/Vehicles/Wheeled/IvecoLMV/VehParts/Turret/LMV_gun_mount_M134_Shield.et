@@ -1,0 +1,99 @@
+Turret : "{8C68C54F9C50A9AF}Prefabs/Vehicles/Wheeled/M998/VehParts/M1025_gun_mount.et" {
+ ID "51ACD0965653D003"
+ components {
+  MeshObject "{51ACD09C4E0B7D16}" {
+   Object "{0AC0B77D95521BD6}Assets/Vehicles/Wheeled/IvecoLMV/Dst/Gunner_Tower/Gunner_Tower.xob"
+  }
+  RigidBody "{51ACD09C423F175F}" {
+   Static 0
+   Kinematic 0
+  }
+  ProcAnimComponent "{51ACD09DB14C45C0}" {
+   Parameters {
+    ProcAnimParams "{54F1010AE098CCEB}" {
+     ResourceName "{6D4CF2EAD22A4D26}Prefabs/Vehicles/Wheeled/M998/ProcAnims/TurretHUMVEE.pap"
+     BoneNames +{
+     }
+    }
+   }
+  }
+  SCR_BaseCompartmentManagerComponent "{51ACFBB07A14CFA6}" {
+   DoorInfoList {
+    CompartmentDoorInfo "{60F6E79ABD1B5BFD}" {
+     AnimDoorIndex 5
+     EntryPositionInfo PointInfo "{62A0B694F034D697}" {
+      PivotID "v_gun_position"
+      Offset 0 0.1801 -0.4669
+     }
+     ExitPositionInfo PointInfo "{60F6E79A42A5EE0A}" {
+      PivotID "gunner_idle"
+      Offset 0 0 0
+     }
+     GetInTeleport 0
+     GetOutTeleport 0
+     AlignDuringGetOut 1
+     GetOutAligningTeleport 1
+    }
+   }
+   CompartmentSlots {
+    TurretCompartmentSlot TurretCompartment {
+     CompartmentAction SCR_TurretGetInUserAction "{5086CC2CFDD3A05A}" {
+      UIInfo SCR_ActionUIInfo "{5086CC2CF6E6E730}" {
+      }
+     }
+     GetOutAction SCR_GetOutAction "{509D56664FF79DDB}" {
+      ParentContextList {
+       "door_l02_int" "door_r02_int"
+      }
+      UIInfo SCR_ActionUIInfo "{672EDBF914A63821}" {
+      }
+     }
+     SwitchSeatAction SCR_SwitchSeatAction "{509D566648F37562}" {
+      CanAggregate 1
+     }
+     PassengerPositionInfo EntitySlotInfo "{B1CB25848A3D93A8}" {
+      Offset 0 -0.0977 -0.1465
+      Angles 0 0 0
+     }
+     SeatType 5
+     DoorInfoList {
+      2 1 0
+     }
+     UIInfo UIInfo "{50870A10DCCDED83}" {
+     }
+     AllowAiming 1
+    }
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{54C8A16E6F5ADEDE}" {
+   MultiSlots {
+    MultiSlotConfiguration "{672EDBF914A63809}" {
+     SlotTemplate InventoryStorageSlot M2ammunition {
+      Prefab "{C820846B0521423B}Prefabs/Weapons/Magazines/Box_127x99_M2_100rnd_4AP_1APIT.et"
+     }
+     NumSlots 4
+    }
+   }
+  }
+  TurretControllerComponent "{51ACD09C61C183E4}" {
+   LimitsVert -5 33
+  }
+  SlotManagerComponent "{672EDBF914A6380E}" {
+  }
+  WeaponSlotComponent "{51ACD09C6BFEEE6A}" {
+   AttachType InventoryStorageSlot "{0AACE7470E421D82}" {
+    PivotID "v_gun_position"
+    Offset 0 -0.0777 0
+    MergePhysics 1
+   }
+   WeaponTemplate "{17089C077CD40FFE}Assets/Weapons/HeavyWeapons/M2/HMG_M2HB_pintle_Shield_IvecoLMV.et"
+  }
+  BaseItemAnimationComponent "{5242E42C7B4B2CEE}" {
+   AnimInjection AnimationAttachmentInfo "{5242E42C74AC2BF7}" {
+    AnimGraph "{6791BE2144ADC6A3}Assets/Weapons/HeavyWeapons/workspaces/M2HB_m998.agr"
+    AnimInstance "{CD5600C70CCE5D46}Assets/Weapons/HeavyWeapons/workspaces/M2HB_Player_m1111.asi"
+   }
+  }
+ }
+ coords 1765.545 39.014 2880.287
+}

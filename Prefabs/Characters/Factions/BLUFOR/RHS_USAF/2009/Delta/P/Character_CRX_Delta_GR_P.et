@@ -13,10 +13,8 @@ SCR_ChimeraCharacter : "{FE0970414F43AF15}Prefabs/Characters/Factions/BLUFOR/RHS
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Jacket {
-     Prefab "{13C41E9932685FAC}Prefabs/Characters/Uniforms/Crye_Shirt/Jacket_Crye_Combat_Shirt_CoyoteBrown.et"
     }
     LoadoutSlotInfo Pants {
-     Prefab "{ECCC7BDEA2F3D3A5}Prefabs/Characters/Uniforms/Crye_Pants/crye_pants_CoyoteBrown.et"
     }
     LoadoutSlotInfo Vest {
      Prefab "{F9E67B4B40A98B22}Prefabs/Characters/Vests/Vest_JPC/variants/Vest_JPC_okinawa_Coy6.et"
@@ -26,7 +24,6 @@ SCR_ChimeraCharacter : "{FE0970414F43AF15}Prefabs/Characters/Factions/BLUFOR/RHS
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{65214E7772E2493A}" {
-     TargetStorage "Jacket/Jacket_Crye_Combat_Shirt_CoyoteBrown.et"
     }
     ItemsInitConfigurationItem "{65214E7772E24936}" {
      TargetStorage "Vest/Vest_JPC_okinawa_Coy6.et/saw/Pouch_AVS_MBITR_Radio_Coy.et"

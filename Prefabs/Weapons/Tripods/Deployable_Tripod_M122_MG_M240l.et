@@ -1,0 +1,84 @@
+Turret : "{5568074F16296642}Prefabs/Weapons/Tripods/Deployable_Tripod_M122_MG_M60.et" {
+ ID "52D30EFBEBC74642"
+ components {
+  SCR_BaseCompartmentManagerComponent "{51ACFBB07A14CFA6}" {
+   CompartmentSlots {
+    TurretCompartmentSlot TurretCompartment {
+     AdditionalActions {
+      SCR_RemoveCasualtyUserAction "{5D56867A46DBE769}" {
+      }
+      SCR_RemoveCasualtyUserAction "{61089D59F48D7BD2}" {
+      }
+     }
+     PassengerPositionInfo EntitySlotInfo "{51ACFBB1D6C27024}" {
+      Offset 0 0 -0.7113
+     }
+     RestrictedItemTypes {
+     }
+     CharacterWeaponHandling 0
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{58FE9E4F05DC95A3}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    Name "M240L Tripod"
+   }
+  }
+  SCR_MultiPartDeployableItemComponent "{6556B930A1BCD626}" {
+   m_aVariants {
+    SCR_DeployableVariantContainer "{65647005E652B458}" {
+     m_aAdditionalPrefabs {
+      SCR_WeaponDeployablePart "{656479545A5127C8}" {
+       m_sPrefab "{24A824857ADC84CF}Prefabs/Weapons/MachineGuns/M240/MG_M240_Light.et"
+      }
+     }
+    }
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{570EACF4F2F94F1B}" {
+   Attributes SCR_ItemAttributeCollection "{5C467C398F90D778}" {
+    ItemDisplayName WeaponUIInfo "{5C467C398E5CAE40}" {
+     Name "M240L"
+    }
+   }
+  }
+  TurretComponent "{54E0CDCE18E2A490}" {
+   components {
+    SightsComponent "{548ACB4CB39992AB}" {
+     SightsPosition PointInfo "{548ACB4CAD252930}" {
+      Offset 0 0.1043 -0.4683
+     }
+     m_bIsNVGCompatible 1
+    }
+   }
+   ikTargets {
+    AnimationIKTargetInfo "{551071F2532CCFEE}" {
+     PositionInfo PointInfo "{551071F26C4B22E4}" {
+      Offset -0.0796 0.0075 -0.523
+     }
+    }
+    AnimationIKTargetInfo "{551071F3FDAC825C}" {
+     PositionInfo PointInfo "{551071F3F1A91821}" {
+      Offset 0.0221 -0.0795 -0.4444
+     }
+    }
+   }
+  }
+  WeaponSlotComponent "{51ACD09C6BFEEE6A}" {
+   AttachType InventoryStorageSlot "{0AACE7470E421D82}" {
+    Offset 0 -0.0108 -0.2346
+   }
+   WeaponTemplate "{24A824857ADC84CF}Prefabs/Weapons/MachineGuns/M240/MG_M240_Light.et"
+  }
+  ActionsManagerComponent "{51ACD09C7181BA0B}" {
+   additionalActions {
+    SCR_DeployMultiPartInventoryItemAction "{6556B937A406EE6F}" {
+     UIInfo SCR_ActionUIInfo "{61B48E9F567C096C}" {
+      Description "M240L Tripod"
+     }
+    }
+   }
+  }
+ }
+ coords -5.805 7.268 11.656
+}
