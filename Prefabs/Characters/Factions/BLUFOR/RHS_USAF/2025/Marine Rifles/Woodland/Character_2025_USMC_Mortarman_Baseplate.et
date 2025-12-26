@@ -1,0 +1,51 @@
+SCR_ChimeraCharacter : "{F92C060CACCE8143}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marine Rifles/Character_2025_USMC_BaseW.et" {
+ ID "520EC961A090BBD5"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Mortarman Baseplate"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{F75E18A45A2AE74E}Prefabs/Weapons/Rifles/M4A1/Rifle_M4A1_RAS_NT4_Peq_RCO_RMR.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{68CF844B606428D8}Prefabs/Characters/Vests/Vest_PCGen_III/Vest_PCGen_III_light.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{0D540E16A6E53433}Prefabs/Items/Equipment/Mortars/M252/Part_M252_BasePlate.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{468B5FB07076FA9E}Prefabs/Characters/Vests/Vest_PCGen_III/Variants/Vest_PCGen_III_light_blueforce.et"
+    }
+    LoadoutSlotInfo Head {
+    }
+    LoadoutSlotInfo Eyes {
+     Prefab "{9C030889E9A05770}Prefabs/Characters/Eyewear/npp_strelok/Eyewear_npp_strelok.et"
+    }
+    LoadoutSlotInfo Ears {
+     Prefab "{0BAADA5C6E608DC7}Prefabs/Characters/HeadGear/Headsets/Headset_Comtac_IV/Headset_Comtac_IV_Green_Headband_01.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{61B52C4506FFE973}" {
+     TargetStorage "Vest/Vest_PCGen_III_light_blueforce.et/radio/Pouch_152_Radio.et"
+    }
+    ItemsInitConfigurationItem "{64A8A6CECABD9FC5}" {
+     TargetStorage "Vest/Vest_PCGen_III_light_blueforce.et/triple/Pouch_Blueforce_Tri.et"
+     TargetPurpose 1
+     PrefabsToSpawn {
+      "{DD5358193169908B}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1.et" "{DD5358193169908B}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1.et" "{DD5358193169908B}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1.et"
+     }
+    }
+    ItemsInitConfigurationItem "{633B07DBBB713D2A}" {
+     TargetStorage "ArmoredVest/Vest_PCGen_III_light.et"
+    }
+   }
+  }
+ }
+}

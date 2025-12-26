@@ -1,0 +1,139 @@
+SCR_ChimeraCharacter : "{F92C060CACCE8143}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marine Rifles/Woodland/Character_2025_USMC_BaseW.et" {
+ ID "520EC961A090BBD5"
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot {
+       Prefab "{FAE8B9F7CEA49696}Prefabs/Items/Equipment/Binoculars/Rangefinder_Vector21_lc.et"
+      }
+      SCR_EquipmentStorageSlot WristwatchSlot {
+       Prefab "{57C7E2D1FB25A85E}Prefabs/Items/Equipment/Watches/Watch_GarminTactixBravo_green.et"
+      }
+     }
+    }
+   }
+  }
+  SCR_CharacterRankComponent "{528E6D4286AA2D8F}" {
+   m_iRank LIEUTENANT
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_PlatoonSergeant"
+    Icon "{A26C465A6AE2AA17}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_Leader.edds"
+    m_aAuthoredLabels + {
+     33 34
+    }
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   AttachType InventoryStorageSlot "{0C3DA650B52E120B}" {
+   }
+   WeaponTemplate "{F75E18A45A2AE74E}Prefabs/Weapons/Rifles/M4A1/Rifle_M4A1_RAS_NT4_Peq_RCO_RMR.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
+   AttachType InventoryStorageSlot "{9113A68B4D97E2E6}" {
+    Prefab "{8069A3DF6410FDDF}Prefabs/Weapons/Handguns/M17/Handgun_M17.et"
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{BD36550CF97A7853}Prefabs/Characters/HeadGear/Helmet_ECH/variants/Helmet_ECH_hc_v_r_p_crossbow.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{1300A5F6CA51B206}Prefabs/Characters/Vests/Vest_PCGen_III/Vest_PCGen_III.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{9A26D311900C33EE}Prefabs/Items/Equipment/Backpacks/FILBE_hydration_pack.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{5899C493038A8E31}Prefabs/Characters/Vests/Vest_PCGen_III/Variants/Vest_PCGen_III_rifleman_shawplacard3.et"
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab "{C97555AEAF8BECA9}Prefabs/Characters/Handwear/Gloves_Oackley/Gloves_Oackley_Tan.et"
+    }
+    LoadoutSlotInfo Eyes {
+     Prefab "{2934192D7BA3465E}Prefabs/Characters/Eyewear/gascan/Eyewear_gascan.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{61B52C4506FFE973}" {
+     TargetStorage "Vest/Vest_PCGen_III_rifleman_shawplacard3.et/radio/Pouch_152_Radio.et"
+     PrefabsToSpawn {
+      "{340C133625BB688E}Prefabs/Items/Equipment/Radios/Radio_ANPRC152A_OLD_Multi.et"
+     }
+    }
+    ItemsInitConfigurationItem "{633B07DBBB713D2A}" {
+     TargetStorage "Pants/Pants_FROG_Trousers.et"
+     PrefabsToSpawn {
+      "{59E0D9B5B6967152}Prefabs/Items/Equipment/Nightvision/PVS31/NVG_PVS31_WP.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{B3F2B47340817ED6}Prefabs/Items/GC_Facepaint_01_US.et"
+     }
+    }
+    ItemsInitConfigurationItem "{66BB5D2D1E4BD6B2}" {
+     TargetStorage "Vest/Vest_PCGen_III_rifleman_shawplacard3.et/filbecamer2/Pouch_FILBE_doubleM4_3.et"
+     PrefabsToSpawn {
+      "{BD30BE4A3D8B9DAC}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1_last5tracer.et" "{BD30BE4A3D8B9DAC}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1_last5tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{66BB5D2D1E4BD6BB}" {
+     TargetStorage "Vest/Vest_PCGen_III_rifleman_shawplacard3.et/filbecamer2/Pouch_FILBE_doubleM4_3.et"
+     PrefabsToSpawn {
+      "{BD30BE4A3D8B9DAC}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1_last5tracer.et" "{BD30BE4A3D8B9DAC}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1_last5tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{66BB5D2D1E4BD6B9}" {
+     TargetStorage "Vest/Vest_PCGen_III_rifleman_shawplacard3.et/Placard/Pouch_Placard.et"
+     PrefabsToSpawn {
+      "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et" "{BD30BE4A3D8B9DAC}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1_last5tracer.et" "{9749CCE07F466A68}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M995.et" "{9749CCE07F466A68}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M995.et"
+     }
+    }
+    ItemsInitConfigurationItem "{66BB5D2D1E4BD6BF}" {
+     TargetStorage "Vest/Vest_PCGen_III_rifleman_shawplacard3.et/flex2/Pouch_Shaw_Flex.et"
+     PrefabsToSpawn {
+      "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et"
+     }
+    }
+    ItemsInitConfigurationItem "{66BB5D2D1E4BD6BC}" {
+     TargetStorage "Back/FILBE_hydration_pack.et"
+     PrefabsToSpawn {
+      "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et" "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et"
+     }
+    }
+    ItemsInitConfigurationItem "{66BB5D2D1E4BD6BD}" {
+     TargetStorage "Vest/Vest_PCGen_III_rifleman_shawplacard3.et/m67_2/Pouch_Filbe_M67_Base.et"
+     PrefabsToSpawn {
+      "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
+     }
+    }
+    ItemsInitConfigurationItem "{66BB5D2D1E4BD683}" {
+     TargetStorage "Vest/Vest_PCGen_III_rifleman_shawplacard3.et/m67/Pouch_Filbe_M67_2.et"
+     PrefabsToSpawn {
+      "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
+     }
+    }
+    ItemsInitConfigurationItem "{66BB5D2D1E4BD681}" {
+     TargetStorage "Vest/Vest_PCGen_III_rifleman_shawplacard3.et/pistol2/Pouch_Filbe_M18_2.et"
+     PrefabsToSpawn {
+      "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
+     }
+    }
+    ItemsInitConfigurationItem "{66BB5D2D1E4BD684}" {
+     TargetStorage "Vest/Vest_PCGen_III_rifleman_shawplacard3.et/m18_1/Pouch_Filbe_M18_1.et"
+     PrefabsToSpawn {
+      "{D41D22DD1B8E921E}Prefabs/Weapons/Grenades/M18/Smoke_M18_Green.et"
+     }
+    }
+    ItemsInitConfigurationItem "{66BB5D2D1E4BD68A}" {
+     TargetStorage "Back/FILBE_hydration_pack.et"
+     PrefabsToSpawn {
+      "{D41D22DD1B8E921E}Prefabs/Weapons/Grenades/M18/Smoke_M18_Green.et" "{3343A055A83CB30D}Prefabs/Weapons/Grenades/M18/Smoke_M18_Red.et" "{14C1A0F061D9DDEE}Prefabs/Weapons/Grenades/M18/Smoke_M18_Violet.et" "{8FF49793853DB2F9}Prefabs/Weapons/Magazines/m17_magazines/Magazine_9x19_m17_17rnd_M1152.et" "{6BF76E1E3BDC44F0}Prefabs/Weapons/Magazines/m17_magazines/Magazine_9x19_m17_17rnd_M1153.et"
+     }
+    }
+   }
+  }
+ }
+}

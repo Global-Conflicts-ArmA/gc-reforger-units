@@ -1,0 +1,10 @@
+SCR_ChimeraCharacter : "{5F1C46F21B4C4BF3}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marine Rifles/WIP/Character_2025_USMC_Pilot_D_P.et" {
+ ID "520EC961A090BBD5"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Flight Leader"
+   }
+  }
+ }
+}

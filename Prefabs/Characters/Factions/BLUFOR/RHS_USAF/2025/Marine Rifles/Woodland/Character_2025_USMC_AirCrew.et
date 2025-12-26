@@ -1,0 +1,87 @@
+SCR_ChimeraCharacter : "{F92C060CACCE8143}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marine Rifles/Character_2025_USMC_BaseW.et" {
+ ID "520EC961A090BBD5"
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot WristwatchSlot {
+       Prefab "{57C7E2D1FB25A85E}Prefabs/Items/Equipment/Watches/Watch_GarminTactixBravo_green.et"
+      }
+     }
+    }
+   }
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Air Crew"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{BD6357A24DB64C8B}Prefabs/Weapons/Rifles/M4A1/GC_US_Army_Rifle_M4A1_03.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{85ADC5E1BE7FACDB}Prefabs/Characters/HeadGear/Helmet_CVC_01/Helmet_CVC_Shroud_0.et"
+    }
+    LoadoutSlotInfo Jacket {
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{C4FEAEB4AAA7B6B2}Prefabs/Characters/Vests/Vest_JPC/Vest_JPC_Coy.et"
+    }
+    LoadoutSlotInfo Pants {
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{2F6209F3160513B0}Prefabs/Characters/Backpacks/Radio/Kombat_Radio/Kombat_Radio_Pack_CB.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{38D600B4D232D9D9}Prefabs/Characters/Vests/Vest_JPC/variants/Vest_JPC_okinawa_Coy_sniper.et"
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab "{D19C474FA0F42CC4}Prefabs/Characters/Handwear/Gloves_Pilot_US_01/Gloves_Pilot_US_01.et"
+    }
+    LoadoutSlotInfo Eyes {
+     Prefab "{9C030889E9A05770}Prefabs/Characters/Eyewear/npp_strelok/Eyewear_npp_strelok.et"
+    }
+    LoadoutSlotInfo Face {
+     Prefab "{B370D7A2DDBB73B7}Prefabs/Characters/HeadGear/Balaclavas/Balaclava_v1/Balaclava_v1_Coyote_brown.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6063106E91310A3D}" {
+     PrefabsToSpawn {
+      "{61D4F80E49BF9B12}Prefabs/Items/Equipment/Compass/Compass_SY183.et" "{13772C903CB5E4F7}Prefabs/Items/Equipment/Maps/PaperMap_01_folded.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et"
+     }
+    }
+    ItemsInitConfigurationItem "{61B52C4506FFE973}" {
+     PrefabsToSpawn {
+      "{340C133625BB688E}Prefabs/Items/Equipment/Radios/Radio_ANPRC152A_OLD_Multi.et"
+     }
+    }
+    ItemsInitConfigurationItem "{64A8A6CECABD9FC5}" {
+     TargetStorage "Jacket/Jacket_FROG_Combat_Shirt.et"
+    }
+    ItemsInitConfigurationItem "{633B07DBBB713D2A}" {
+     PrefabsToSpawn {
+      "{59E0D9B5B6967152}Prefabs/Items/Equipment/Nightvision/PVS31/NVG_PVS31_WP.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{B3F2B47340817ED6}Prefabs/Items/GC_Facepaint_01_US.et"
+     }
+    }
+    ItemsInitConfigurationItem "{66BB74871258030F}" {
+     TargetStorage "Vest/Vest_JPC_okinawa_Coy_sniper.et"
+     PrefabsToSpawn {
+      "{DD5358193169908B}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1.et" "{DD5358193169908B}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1.et" "{DD5358193169908B}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1.et"
+     }
+    }
+    ItemsInitConfigurationItem "{66BB748758262DF9}" {
+     TargetStorage "Vest/Vest_JPC_okinawa_Coy_sniper.et"
+     PrefabsToSpawn {
+      "{9BBDEE253A16CC66}Prefabs/Weapons/Grenades/M18/Smoke_M18_Yellow.et" "{9BBDEE253A16CC66}Prefabs/Weapons/Grenades/M18/Smoke_M18_Yellow.et" "{CE4BDC1B0C4C6965}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_Orange.et" "{CE4BDC1B0C4C6965}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_Orange.et"
+     }
+    }
+   }
+  }
+ }
+}

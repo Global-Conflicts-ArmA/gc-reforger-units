@@ -1,0 +1,15 @@
+SCR_AIGroup : "{EE8D60FCE6D3B856}Prefabs/Groups/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Group_USAF_USMC_MEF_Base.et" {
+ ID "0000000000000001"
+ components {
+  SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+   m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+    Name "2025 USMC Rifle Platoon HQ"
+   }
+  }
+ }
+ coords 4153.635 36.457 9937.596
+ m_aUnitPrefabSlots {
+  "{4550FBB2D47127DF}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marine Rifles/Woodland/Character_2025_USMC_PL.et" "{10E65D9754A620D1}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marine Rifles/Woodland/Character_2025_USMC_PSG.et" "{01F69D7FC332756C}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marine Rifles/Woodland/Character_2025_USMC_Corpsman.et" "{01F69D7FC332756C}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marine Rifles/Woodland/Character_2025_USMC_Corpsman.et" "{A74D917D44C3BD28}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marine Rifles/Woodland/Character_2025_USMC_FO.et" "{1F01EAAC1320705B}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marine Rifles/Woodland/Character_2025_USMC_RTO.et" "{F13BDD32489B55D7}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marine Rifles/Woodland/Character_2025_USMC_Rifle_M4.et"
+ }
+ m_sCustomNameSet "Rifle Platoon HQ"
+}

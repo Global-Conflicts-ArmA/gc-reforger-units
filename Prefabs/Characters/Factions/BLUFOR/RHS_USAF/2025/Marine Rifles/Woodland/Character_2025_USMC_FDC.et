@@ -1,0 +1,41 @@
+SCR_ChimeraCharacter : "{F92C060CACCE8143}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marine Rifles/Character_2025_USMC_BaseW.et" {
+ ID "520EC961A090BBD5"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Field Artillery Fire Control Man"
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{7CA231DDB758BEAE}Prefabs/Characters/HeadGear/Hat_USMC_Boonie/Hat_USMC_Boonie_wd_Comtac.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{68CF844B606428D8}Prefabs/Characters/Vests/Vest_PCGen_III/Vest_PCGen_III_light.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{B8C0F56D9F1E4FCD}Prefabs/Characters/Backpacks/Radio/Kombat_Radio/Kombat_Radio_Pack_CB_CDF.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{468B5FB07076FA9E}Prefabs/Characters/Vests/Vest_PCGen_III/Variants/Vest_PCGen_III_light_blueforce.et"
+    }
+    LoadoutSlotInfo Eyes {
+     Prefab "{79A869C91A7A1368}Prefabs/Characters/Eyewear/gascan/Eyewear_gascan_Blk.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{61B52C4506FFE973}" {
+     TargetStorage "Vest/Vest_PCGen_III_light_blueforce.et/radio/Pouch_152_Radio.et"
+    }
+    ItemsInitConfigurationItem "{64A8A6CECABD9FC5}" {
+     PrefabsToSpawn {
+      ""
+     }
+    }
+   }
+  }
+ }
+}
