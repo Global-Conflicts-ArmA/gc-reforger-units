@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{AEE253894DD97DF1}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army, 1992-2012 (TKA)/Character_GC_TKA_BaseLoadout.et" {
+SCR_ChimeraCharacter : "{AEE253894DD97DF1}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Character_GC_TKA_BaseLoadout.et" {
  ID "520EC961A090B1EE"
  components {
   SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
@@ -30,6 +30,9 @@ SCR_ChimeraCharacter : "{AEE253894DD97DF1}Prefabs/Characters/Factions/INDFOR/GC_
     }
     LoadoutSlotInfo Pants {
      Prefab "{86BB79B9A2233780}Prefabs/Characters/Uniforms/Pants_US_M65.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{4181B1C8B5E56392}Prefabs/Items/Equipment/Radios/Radio_R107M_FIA.et"
     }
     LoadoutSlotInfo Vest {
      Prefab "{ED5574EA7F63B457}Prefabs/Characters/Vests/Vest_Type56/Vest_Type56.et"

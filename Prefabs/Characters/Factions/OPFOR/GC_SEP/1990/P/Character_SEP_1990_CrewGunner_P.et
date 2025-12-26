@@ -18,6 +18,9 @@ SCR_ChimeraCharacter : "{140B6687EDDBF1FC}Prefabs/Characters/Factions/OPFOR/GC_S
     LoadoutSlotInfo Pants {
      Prefab "{86BB79B9A2233780}Prefabs/Characters/Uniforms/Pants_US_M65.et"
     }
+    LoadoutSlotInfo Back {
+     Prefab "{54C68E438DD34265}Prefabs/Items/Equipment/Radios/Radio_R107M.et"
+    }
    }
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
@@ -30,6 +33,8 @@ SCR_ChimeraCharacter : "{140B6687EDDBF1FC}Prefabs/Characters/Factions/OPFOR/GC_S
     }
     ItemsInitConfigurationItem "{6642965313B03A88}" {
      TargetStorage "Jacket/Jacket_Bomber_3.et"
+     PrefabsToSpawn {
+     }
     }
     ItemsInitConfigurationItem "{6642965313B03AB2}" {
      TargetStorage "Pants/Pants_US_M65.et"
@@ -40,4 +45,5 @@ SCR_ChimeraCharacter : "{140B6687EDDBF1FC}Prefabs/Characters/Factions/OPFOR/GC_S
    }
   }
  }
+ coords -0.834 -0.961 -1.732
 }
