@@ -1,18 +1,18 @@
-SCR_ChimeraCharacter : "{F92C060CACCE8143}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marine Rifles/Woodland/Character_2025_USMC_BaseW.et" {
+SCR_ChimeraCharacter : "{F92C060CACCE8143}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marine Rifles/Character_2025_USMC_BaseW.et" {
  ID "520EC961A090BBD5"
  components {
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
     Name "#AR-Role_Grenadier"
     m_aAuthoredLabels + {
-     33 34
+     TRAIT_OPTICS TRAIT_SUPPRESSIVE
     }
    }
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
    AttachType InventoryStorageSlot "{0C3DA650B52E120B}" {
    }
-   WeaponTemplate "{84D13FDEE82D4A72}Prefabs/Weapons/Rifles/M4A1/Rifle_M4A1_M203_PEQ16_SCO_BLOCK_II_20in_NT4.et"
+   WeaponTemplate "{6A61294F9FE7A0B5}Prefabs/Weapons/Rifles/M16/Rifle_M16A4_M203_SCO_SUP.et"
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
@@ -41,7 +41,7 @@ SCR_ChimeraCharacter : "{F92C060CACCE8143}Prefabs/Characters/Factions/BLUFOR/RHS
     ItemsInitConfigurationItem "{64A8A6CECABD9FC5}" {
      TargetStorage "Prefabs/Characters/Uniforms/Jacket_FROG_Combat_Shirt.et"
      TargetPurpose 64
-     PrefabsToSpawn +{
+     PrefabsToSpawn {
      }
     }
     ItemsInitConfigurationItem "{633B07DBBB713D2A}" {

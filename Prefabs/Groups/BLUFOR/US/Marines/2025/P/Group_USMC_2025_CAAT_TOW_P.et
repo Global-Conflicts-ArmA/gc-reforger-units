@@ -1,6 +1,6 @@
 SCR_AIGroup : "{4AA31BE6A5465459}Prefabs/Groups/BLUFOR/US/Marines/2025/Group_USMC_2025_CAAT_TOW.et" {
  ID "0000000000000001"
  m_aUnitPrefabSlots {
-  "{CF63002C303D73EF}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marine Rifles/Woodland/P/Character_2025_USMC_TL_P.et" "{0616B63E994C2234}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marine Rifles/WIP/Character_2025_USMC_TOW_Gunner_p.et" "{69FD4ABD72337F19}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marine Rifles/WIP/Character_2025_USMC_TOW_ASST_P.et" "{BFF23C0BF2B78051}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marine Rifles/Woodland/P/Character_2025_USMC_TOW_AMMO_P.et"
+  "{21859439FCA1A90D}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marine Rifles/Woodland/P/Character_2025_USMC_TOW_TL_P.et" "{0616B63E994C2234}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marine Rifles/Woodland/P/Character_2025_USMC_TOW_Gunner_p.et" "{B3FE657B5D755408}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marine Rifles/Woodland/P/Character_2025_USMC_TOW_FCS_P.et" "{69FD4ABD72337F19}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marine Rifles/Woodland/P/Character_2025_USMC_TOW_TRIPOD_P.et" "{BFF23C0BF2B78051}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marine Rifles/Woodland/P/Character_2025_USMC_TOW_AMMO_P.et" "{BFF23C0BF2B78051}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marine Rifles/Woodland/P/Character_2025_USMC_TOW_AMMO_P.et"
  }
 }

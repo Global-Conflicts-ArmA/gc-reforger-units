@@ -8,8 +8,8 @@ SCR_ChimeraCharacter : "{F92C060CACCE8143}Prefabs/Characters/Factions/BLUFOR/RHS
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
    AttachType InventoryStorageSlot "{0C3DA650B52E120B}" {
-    Prefab "{B5E0A699A18422F4}Prefabs/Weapons/Rifles/M4A1/USSF/Seal/Rifle_M4A1_kac600_SEAL_ACOG.et"
    }
+   WeaponTemplate "{B5E0A699A18422F4}Prefabs/Weapons/Rifles/M4A1/USSF/Seal/Rifle_M4A1_kac600_SEAL_ACOG.et"
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {

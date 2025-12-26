@@ -1,0 +1,15 @@
+SCR_ChimeraCharacter : "{BC68E7E9376FFB9F}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marine Rifles/WIP/Character_2025_USMC_MMG_Tripod.et" {
+ ID "520EC961A090BBD5"
+ components {
+  PS_PlayableComponent "{5EFCC1946F475F15}" {
+   m_bIsPlayable 1
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{AD8E2730CD2E7E0F}Prefabs/Characters/HeadGear/Helmet_ECH/Helmet_ECH_lc_v_p.et"
+    }
+   }
+  }
+ }
+}
