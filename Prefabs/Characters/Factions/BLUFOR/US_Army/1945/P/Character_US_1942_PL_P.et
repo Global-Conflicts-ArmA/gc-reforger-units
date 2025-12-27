@@ -1,0 +1,8 @@
+SCR_ChimeraCharacter : "{ED7E87E6526E5D16}Prefabs/Characters/Factions/BLUFOR/US_Army/1945/Character_US_1942_PL.et" {
+ ID "520EC961A090B1EE"
+ components {
+  PS_PlayableComponent "{5EFCC1946F475F15}" {
+   m_bIsPlayable 1
+  }
+ }
+}

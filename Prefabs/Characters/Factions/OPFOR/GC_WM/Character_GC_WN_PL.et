@@ -1,0 +1,31 @@
+SCR_ChimeraCharacter : "{8DD993D745B6658A}Prefabs/Characters/Factions/OPFOR/GC_HEER/Character_GC_HEER_BaseLoadout.et" {
+ ID "520EC961A090BE1E"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_PlatoonLeader"
+    Icon "{A26C465A6AE2AA17}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_Leader.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{24FFA508861139C9}Prefabs/Weapons/Rifles/L42A1/Rifle_L8.et"
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{652F4AD24B49D456}" {
+     PrefabsToSpawn {
+      "{8715AB1610736766}Prefabs/Weapons/Attachments/Bayonets/BC_Bayonet_6X2.et"
+     }
+    }
+    ItemsInitConfigurationItem "{652F4AD24B49D444}" {
+     PrefabsToSpawn {
+      "{4F4439BAA80A7A66}Prefabs/Weapons/Magazines/Magazine_762x51_L42a1_10rnd_Base.et" "{4F4439BAA80A7A66}Prefabs/Weapons/Magazines/Magazine_762x51_L42a1_10rnd_Base.et" "{4F4439BAA80A7A66}Prefabs/Weapons/Magazines/Magazine_762x51_L42a1_10rnd_Base.et" "{4F4439BAA80A7A66}Prefabs/Weapons/Magazines/Magazine_762x51_L42a1_10rnd_Base.et" "{4F4439BAA80A7A66}Prefabs/Weapons/Magazines/Magazine_762x51_L42a1_10rnd_Base.et"
+     }
+    }
+    ItemsInitConfigurationItem "{652F65D6D06276A7}" {
+     TargetStorage "Vest/Vest_ALICE_commander.et/MagPouch/Pouch_ALICE_30rnd_STANAG.et"
+    }
+   }
+  }
+ }
+}
