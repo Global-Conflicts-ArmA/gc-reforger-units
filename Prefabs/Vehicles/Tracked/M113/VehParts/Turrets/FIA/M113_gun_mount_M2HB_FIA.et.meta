@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{7477A43AA23952C8}Prefabs/Vehicles/Tracked/M113/VehParts/Turrets/MERDC/M113_gun_mount_M2HB_MERDC.et"
+ Name "{84BF7F67A05D6967}Prefabs/Vehicles/Tracked/M113/VehParts/Turrets/FIA/M113_gun_mount_M2HB_FIA.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }
