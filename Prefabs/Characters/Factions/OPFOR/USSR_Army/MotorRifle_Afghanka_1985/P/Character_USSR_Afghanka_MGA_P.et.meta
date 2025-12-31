@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{D99C403DFCE786BA}worlds/TheLocalPub/SD01_ConvoyChaos/Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_Afghanka_1985/Character_USSR_Afghanka_MGA_P.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}
