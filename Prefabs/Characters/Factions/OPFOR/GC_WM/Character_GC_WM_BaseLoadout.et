@@ -21,14 +21,19 @@ SCR_ChimeraCharacter : "{3ECA3A935BC069B9}Prefabs/Characters/Factions/OPFOR/USSR
     LoadoutSlotInfo Back {
     }
     LoadoutSlotInfo Vest {
-     Prefab "{2E8829632CBA7A9B}Prefabs/Characters/Vests/Vest_ALICE/Variants/Vest_ALICE_commander.et"
+     Prefab "{FD2EF7E70C8C0441}Prefabs/Characters/Vests/Vest_SovietHarness/Variants/Vest_SovietHarness_rifleman_Black.et"
     }
    }
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
+    ItemsInitConfigurationItem "{5D7CC173E6675BF7}" {
+     TargetStorage "Vest/Vest_SovietHarness_rifleman_Black.et/MagPouch_6Sh46/Pouch_Soviet_30rnd_AK74_Black.et"
+    }
+    ItemsInitConfigurationItem "{5D7CC173E6675BF5}" {
+     TargetStorage "Vest/Vest_SovietHarness_rifleman_Black.et/Suspenders/Vest_SovietHarness_Suspenders_Black.et"
+    }
     ItemsInitConfigurationItem "{652F4AD24B49D456}" {
-     TargetStorage "Jacket/Jacket_Germany.et"
     }
     ItemsInitConfigurationItem "{652F4AD24B49D444}" {
      TargetStorage "Vest/Vest_ALICE_commander.et/Suspenders/Vest_ALICE_suspenders_2.et"

@@ -7,6 +7,9 @@ SCR_ChimeraCharacter : "{8DD993D745B6658A}Prefabs/Characters/Factions/OPFOR/GC_W
     Icon "{EF1F445746A3391A}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_MachineGunner.edds"
    }
   }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{B2BA1AE9A3155618}Prefabs/Weapons/MachineGuns/MG42/MG_42.et"
+  }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Back {

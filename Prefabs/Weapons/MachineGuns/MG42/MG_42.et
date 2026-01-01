@@ -19,6 +19,7 @@ GenericEntity : "{6E42C85D9FC0CA5D}Prefabs/Weapons/MachineGuns/M60/MG_M60_base.e
      }
      MagazinePosition InventoryStorageSlot "{B80A64F4C834E9CB}" {
      }
+     MagazineTemplate "{1232E4D20F857DBC}Prefabs/Weapons/Ammo/m60_250rd_4Ball_1Tracer.et"
     }
    }
   }

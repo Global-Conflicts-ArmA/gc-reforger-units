@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{8DD993D745B6658A}Prefabs/Characters/Factions/OPFOR/GC_HEER/Character_GC_HEER_BaseLoadout.et" {
+SCR_ChimeraCharacter : "{8DD993D745B6658A}Prefabs/Characters/Factions/OPFOR/GC_WM/Character_GC_WM_BaseLoadout.et" {
  ID "520EC961A090BE1E"
  components {
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
@@ -13,12 +13,13 @@ SCR_ChimeraCharacter : "{8DD993D745B6658A}Prefabs/Characters/Factions/OPFOR/GC_H
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{652F4AD24B49D456}" {
+     TargetStorage "Vest/Vest_SovietHarness_rifleman_Black.et/Bayonet/Scabbard_Bayonet_6Kh4.et"
      PrefabsToSpawn {
       "{8715AB1610736766}Prefabs/Weapons/Attachments/Bayonets/BC_Bayonet_6X2.et"
      }
     }
     ItemsInitConfigurationItem "{652F65D6D06276A7}" {
-     TargetStorage "Vest/Vest_ALICE_commander.et/MagPouch/Pouch_ALICE_30rnd_STANAG.et"
+     TargetStorage "Vest/Vest_SovietHarness_rifleman_Black.et/GrenadePouch/Vest_SovietHarness_GrenadePouch_Black.et"
      PrefabsToSpawn {
       "{4F4439BAA80A7A66}Prefabs/Weapons/Magazines/Magazine_762x51_L42a1_10rnd_Base.et" "{4F4439BAA80A7A66}Prefabs/Weapons/Magazines/Magazine_762x51_L42a1_10rnd_Base.et" "{4F4439BAA80A7A66}Prefabs/Weapons/Magazines/Magazine_762x51_L42a1_10rnd_Base.et" "{4F4439BAA80A7A66}Prefabs/Weapons/Magazines/Magazine_762x51_L42a1_10rnd_Base.et" "{4F4439BAA80A7A66}Prefabs/Weapons/Magazines/Magazine_762x51_L42a1_10rnd_Base.et"
      }
