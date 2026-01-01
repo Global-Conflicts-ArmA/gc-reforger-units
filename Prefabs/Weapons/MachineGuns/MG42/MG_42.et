@@ -14,12 +14,11 @@ GenericEntity : "{6E42C85D9FC0CA5D}Prefabs/Weapons/MachineGuns/M60/MG_M60_base.e
     MuzzleComponent "{50F64C4591CD7AA6}" {
      FireModes {
       BaseFireMode "{B80A64F4A8EF8333}" {
-       RoundsPerMinute 1200
+       RoundsPerMinute 1300
       }
      }
      MagazinePosition InventoryStorageSlot "{B80A64F4C834E9CB}" {
      }
-     MagazineTemplate "{1232E4D20F857DBC}worlds/HotMic/Prefabs/m60_250rd_4Ball_1Tracer.et"
     }
    }
   }
