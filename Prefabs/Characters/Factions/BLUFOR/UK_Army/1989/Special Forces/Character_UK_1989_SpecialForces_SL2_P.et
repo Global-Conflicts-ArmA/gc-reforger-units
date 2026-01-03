@@ -1,0 +1,25 @@
+SCR_ChimeraCharacter : "{0F68127A99BCD429}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/Special Forces/Character_UK_1989_SpecialForces_Trooper_P.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_GreenBeret_SL"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{1D6BD78F7C9FA9D3}Prefabs/Weapons/Rifles/M16/Variants/Rifle_CAR15_653_OliveGreen_Solid.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+   WeaponTemplate ""
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{610CC31428816D50}" {
+     PrefabsToSpawn + {
+      "{1A7FE1AC9E645F27}Prefabs/Items/Equipment/Radios/Radio_PRC349.et"
+     }
+    }
+   }
+  }
+ }
+}

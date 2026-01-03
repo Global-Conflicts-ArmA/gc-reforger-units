@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{89F7B786D21EC49C}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/SpecialForces/Character_UK_1989_SpecialForces_GPMG_P.et" {
+SCR_ChimeraCharacter : "{89F7B786D21EC49C}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/Special Forces/Character_UK_1989_SpecialForces_GPMG_P.et" {
  ID "520EC961A090B1EE"
  components {
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
@@ -8,6 +8,9 @@ SCR_ChimeraCharacter : "{89F7B786D21EC49C}Prefabs/Characters/Factions/BLUFOR/UK_
    Slots {
     LoadoutSlotInfo Vest {
      Prefab "{9AB0215B78B3F7CA}Prefabs/Characters/Vests/Vest_58Pattern/Variants/Vest_P58_rifleman_L85.et"
+    }
+    LoadoutSlotInfo Face {
+     Prefab "{7621C7D9145AF8D5}Prefabs/Characters/HeadGear/Balaclavas/Balaclava_v1/Balaclava_v1_OD.et"
     }
    }
   }

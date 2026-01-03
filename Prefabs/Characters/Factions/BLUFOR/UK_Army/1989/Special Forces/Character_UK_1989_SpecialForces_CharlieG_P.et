@@ -4,5 +4,12 @@ SCR_ChimeraCharacter : "{B801B6E50A01209F}Prefabs/Characters/Factions/BLUFOR/UK_
   PS_PlayableComponent "{5EFCC1946F475F15}" {
    m_bIsPlayable 1
   }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Face {
+     Prefab "{240E826D55D56039}Prefabs/Characters/HeadGear/Masks/Masks_Arcteryx_LEAF/Masks_Arcteryx_LEAF_Ranger_Green.et"
+    }
+   }
+  }
  }
 }

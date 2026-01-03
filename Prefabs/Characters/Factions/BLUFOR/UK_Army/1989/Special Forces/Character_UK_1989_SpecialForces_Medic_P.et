@@ -4,6 +4,16 @@ SCR_ChimeraCharacter : "{58BD727F9736FC19}Prefabs/Characters/Factions/BLUFOR/UK_
   PS_PlayableComponent "{5EFCC1946F475F15}" {
    m_bIsPlayable 1
   }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{709EA8530C2E5F7D}Prefabs/Characters/HeadGear/Hat_ECW/Hat_ECW_EarsDown_DPM_01.et"
+    }
+    LoadoutSlotInfo Face {
+     Prefab "{240E826D55D56039}Prefabs/Characters/HeadGear/Masks/Masks_Arcteryx_LEAF/Masks_Arcteryx_LEAF_Ranger_Green.et"
+    }
+   }
+  }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{62849D41EBD11FB2}" {

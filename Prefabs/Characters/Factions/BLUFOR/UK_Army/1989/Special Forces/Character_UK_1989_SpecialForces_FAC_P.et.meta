@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{7FAB363E22CEFD6F}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/Special Forces/Character_UK_1989_SpecialForces_FAC_P.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

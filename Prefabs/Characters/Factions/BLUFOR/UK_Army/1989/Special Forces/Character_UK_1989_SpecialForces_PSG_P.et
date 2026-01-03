@@ -1,0 +1,10 @@
+SCR_ChimeraCharacter : "{3CE5ECA660B55B94}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/Special Forces/Character_UK_1989_SpecialForces_SL_P.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Troop Sergeant"
+   }
+  }
+ }
+}

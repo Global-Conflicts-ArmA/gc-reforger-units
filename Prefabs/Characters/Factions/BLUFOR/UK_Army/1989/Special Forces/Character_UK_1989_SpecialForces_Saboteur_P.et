@@ -4,5 +4,12 @@ SCR_ChimeraCharacter : "{02DCDBEC77E1257E}Prefabs/Characters/Factions/BLUFOR/UK_
   PS_PlayableComponent "{5EFCC1946F475F15}" {
    m_bIsPlayable 1
   }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Face {
+     Prefab "{E1BB076DC948B7A5}Prefabs/Characters/HeadGear/Masks/Masks_Keela_Snood/Masks_Keela_Snood_GRY.et"
+    }
+   }
+  }
  }
 }
