@@ -1,0 +1,8 @@
+GenericEntity : "{CFA240BE56511D5B}Prefabs/Weapons/HeavyWeapons/HMG_M2HB_pintle_M113.et" {
+ ID "476AE74DE20E1061"
+ components {
+  SlotManagerComponent "{6322DEE7147E9A21}" {
+   Enabled 0
+  }
+ }
+}

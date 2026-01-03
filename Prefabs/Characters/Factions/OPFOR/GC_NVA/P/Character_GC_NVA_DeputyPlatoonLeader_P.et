@@ -1,6 +1,16 @@
 SCR_ChimeraCharacter : "{875EA11CB3FA1F2B}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_DeputyPlatoonLeader.et" {
  ID "520EC961A090BE1E"
  components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot {
+      }
+     }
+    }
+   }
+  }
   PS_PlayableComponent "{5EFCC1946F475F15}" {
    m_bIsPlayable 1
   }

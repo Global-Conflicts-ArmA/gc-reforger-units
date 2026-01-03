@@ -1,0 +1,14 @@
+Vehicle : "{249A75FB99B24A57}Prefabs/Vehicles/Wheeled/Stryker/M1126/Stryker_APC.et" {
+ ID "0000000000000001"
+ components {
+  SCR_UniversalInventoryStorageComponent "{5EAD79DA34C92091}" {
+   MultiSlots {
+    MultiSlotConfiguration "{60DE236EF75CAE7B}" {
+     SlotTemplate InventoryStorageSlot Ammo {
+      Prefab "{6BDE074614145A32}Prefabs/Weapons/Magazines/Magazine_M2_CROWS/Box_127x99_M2_CROWS_200rnd_4AP_1APIT.et"
+     }
+    }
+   }
+  }
+ }
+}

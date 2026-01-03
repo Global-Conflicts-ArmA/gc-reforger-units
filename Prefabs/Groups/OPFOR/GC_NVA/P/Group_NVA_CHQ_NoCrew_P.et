@@ -1,6 +1,6 @@
-SCR_AIGroup : "{EF9B0C908458D07E}Prefabs/Groups/OPFOR/GC_NVA/P/Group_GC_NVA_CHQ_P.et" {
+SCR_AIGroup : "{EF9B0C908458D07E}Prefabs/Groups/OPFOR/GC_NVA/P/Group_NVA_CHQ_P.et" {
  ID "0000000000000001"
  m_aUnitPrefabSlots {
-  "{DB3CB8C4B9FE5219}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_CompanyCommander_P.et" "{C503AFF96F792C9F}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_CompanySergeantMajor_P.et" "{69E1927251152E5D}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Radioman_P.et"
+  "{DB3CB8C4B9FE5219}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_CompanyCommander_P.et" "{C503AFF96F792C9F}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_CompanySergeantMajor_P.et" "{69E1927251152E5D}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Radioman_P.et" "{2DF30A80B14F510E}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Medic_P.et"
  }
 }

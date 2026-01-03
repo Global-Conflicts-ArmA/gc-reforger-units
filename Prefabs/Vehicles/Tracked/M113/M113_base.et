@@ -1,0 +1,26 @@
+Tank : "{8A883ABED22B6E27}Prefabs/Vehicles/Core/Tracked_Base.et" {
+ ID "62A96969CEBF1CD4"
+ components {
+  VehicleWheeledSimulation "{731B26FCA2F19855}" {
+   Simulation Wheeled "{5E78B2EECD01E204}" {
+    Axles {
+     Axle "{5E78B2EECD01E21E}" {
+      Wheel Wheel "{5CB63E75C05DD829}" {
+       HandbrakeTorqueFactor 4.5
+      }
+     }
+     Axle "{5E78B2EECD01E215}" {
+      Wheel Wheel "{5CB63E75C3728451}" {
+       HandbrakeTorqueFactor 4.5
+      }
+     }
+     Axle "{5E78B2EECD01E22B}" {
+      Wheel Wheel "{5CB63E75D071A4F0}" {
+       HandbrakeTorqueFactor 4.5
+      }
+     }
+    }
+   }
+  }
+ }
+}
