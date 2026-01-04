@@ -3,7 +3,7 @@ SCR_ChimeraCharacter : "{D0B3CA0BB493B929}Prefabs/Characters/Factions/OPFOR/USSR
  components {
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
-    Name "Squad Leader"
+    Name "#AR-Role_SquadLeader"
    }
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {

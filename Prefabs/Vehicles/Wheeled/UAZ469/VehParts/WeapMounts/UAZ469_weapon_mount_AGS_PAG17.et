@@ -1,0 +1,46 @@
+Turret : "{D6F8F1DE71A7226B}Prefabs/Vehicles/Wheeled/UAZ469/VehParts/WeapMounts/UAZ469_weapon_mount_AGS.et" {
+ ID "51ACD0965653D003"
+ components {
+  SCR_2DOpticsComponent "{673F61016671CF75}" {
+   Enabled 0
+  }
+  TurretComponent "{609096442AD20C22}" {
+   components {
+    SCR_2DSightsComponent "{673F610171A454E2}" {
+     SightsPosition PointInfo "{673F61018263C1C5}" {
+      PivotID "v_mount_pitch"
+      Offset -0.0854 0.3184 -0.4937
+      Angles -2 0 0
+     }
+     SightsFOVInfo SCR_SightsZoomFOVInfo "{673F61019799BB38}" {
+      m_fBaseZoom 2.5
+      m_fZoomMax 2.5
+      m_fStepZoomSize 0.1
+      m_fInterpolationSpeed 100
+     }
+     SightsPointFront PointInfo "{673F6101937BB61A}" {
+      PivotID "v_mount_jaw"
+      Offset 0.362 0.1279 -0.0059
+     }
+     SightsPointRear PointInfo "{673F610191DDDFB5}" {
+      PivotID "v_mount_jaw"
+      Offset 0.362 0.0796 -0.1567
+     }
+     SightsPriority 1
+     m_sReticleTexture "{38922DDA59111BCF}UI/Textures/Sights/PAG17/PAG17_Reticle.edds"
+     m_sReticleGlowTexture "{38922DDA59111BCF}UI/Textures/Sights/PAG17/PAG17_Reticle.edds"
+     m_bHasIllumination 1
+     m_fMagnification 2.5
+     m_fReticleAngularSize 3.612
+     m_fReticlePortion 0.297
+     m_fObjectiveFov 12
+     m_bShouldHideParentObject 1
+     m_fVignetteMoveSpeed 3
+    }
+   }
+  }
+  WeaponSlotComponent "{51ACD09C6BFEEE6A}" {
+   WeaponTemplate "{293AED86B0AD71C9}Prefabs/Vehicles/Wheeled/TIGR/VehParts/Turrets/Weapons/AGS/AGS17_Pintle_TIGR_PAG17.et"
+  }
+ }
+}

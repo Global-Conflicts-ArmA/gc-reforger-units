@@ -1,0 +1,22 @@
+Vehicle : "{0B4DEA8078B78A9B}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_PKM.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  SCR_UniversalInventoryStorageComponent "{5AD4F813E67ECB5D}" {
+   MultiSlots {
+    MultiSlotConfiguration "{6064D13A1F7F88F4}" {
+     SlotTemplate InventoryStorageSlot PKM_ammo {
+      Prefab "{1085CCC052C7F50D}Prefabs/Weapons/Magazines/AGS-17/Magazine_30mm_AGS17_29rnd_VOG17M.et"
+     }
+    }
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Weapon {
+     Prefab "{D6F8F1DE71A7226B}Prefabs/Vehicles/Wheeled/UAZ469/VehParts/WeapMounts/UAZ469_weapon_mount_AGS.et"
+    }
+   }
+  }
+ }
+ coords 0 0 0
+}

@@ -1,0 +1,12 @@
+Vehicle : "{3F069520019E9C84}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_AGS.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Weapon {
+     Prefab "{DD39E7B9AE0CBFDD}Prefabs/Vehicles/Wheeled/UAZ469/VehParts/WeapMounts/UAZ469_weapon_mount_AGS_PAG17.et"
+    }
+   }
+  }
+ }
+}

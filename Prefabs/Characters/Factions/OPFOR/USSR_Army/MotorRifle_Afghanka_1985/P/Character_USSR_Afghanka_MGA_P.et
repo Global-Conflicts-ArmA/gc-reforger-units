@@ -1,0 +1,8 @@
+SCR_ChimeraCharacter : "{76BDE76891211C0A}worlds/TheLocalPub/SD01_ConvoyChaos/Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_Afghanka_1985/Character_USSR_Afghanka_MGA.et" {
+ ID "520EC961A090B1EE"
+ components {
+  PS_PlayableComponent "{5EFCC1946F475F15}" {
+   m_bIsPlayable 1
+  }
+ }
+}

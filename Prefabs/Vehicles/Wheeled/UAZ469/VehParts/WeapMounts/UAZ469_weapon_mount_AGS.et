@@ -1,0 +1,49 @@
+Turret : "{E2B38E7E088E3474}Prefabs/Vehicles/Wheeled/UAZ469/VehParts/WeapMounts/UAZ469_weapon_mount_6T5_PKM.et" {
+ ID "51ACD0965653D003"
+ components {
+  SCR_2DOpticsComponent "{673F61016671CF75}" {
+   Enabled 0
+  }
+  SCR_BaseCompartmentManagerComponent "{51ACFBB07A14CFA6}" {
+   CompartmentSlots {
+    TurretCompartmentSlot TurretCompartment {
+     CharacterWeaponHandling 0
+    }
+   }
+  }
+  TurretComponent "{609096442AD20C22}" {
+   components {
+    SightsComponent "{609A9358BB1FBBF7}" {
+     SightsPosition PointInfo "{609A9358BA451E13}" {
+      Offset -0.0576 0.3106 -0.4175
+     }
+    }
+   }
+   ikTargets {
+    AnimationIKTargetInfo "{609096442AD20C24}" {
+     BindingName "LHandIKTargetTurret"
+     PositionInfo PointInfo "{52A8F6FBF92A2E39}" {
+      PivotID "v_mount_pitch"
+      Offset -0.1499 0.1977 -0.1958
+      Angles 0 0 0
+     }
+    }
+    AnimationIKTargetInfo "{609096442AD20C59}" {
+     BindingName "RHandIKTargetTurret"
+     PositionInfo PointInfo "{52A8F6FBF1B039F8}" {
+      PivotID "v_mount_pitch"
+      Offset 0.1343 0.1977 -0.1958
+      Angles 0 0 0
+     }
+    }
+   }
+  }
+  WeaponSlotComponent "{51ACD09C6BFEEE6A}" {
+   WeaponType GrenadeLauncher
+   AttachType InventoryStorageSlot "{0AACE7470E421D82}" {
+    Offset 0 -0.0845 0.2968
+   }
+   WeaponTemplate "{480A243CA87BE5D1}Prefabs/Vehicles/Wheeled/TIGR/VehParts/Turrets/Weapons/AGS/AGS17_Pintle_TIGR.et"
+  }
+ }
+}
