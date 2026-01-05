@@ -10,5 +10,21 @@ SCR_ChimeraCharacter : "{140B6687EDDBF1FC}Prefabs/Characters/Factions/OPFOR/GC_S
     Icon "{A489F552FB7489C3}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_Custom.edds"
    }
   }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Back {
+     Prefab "{54C68E438DD34265}Prefabs/Items/Equipment/Radios/Radio_R107M.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6642965313B03A88}" {
+     PrefabsToSpawn {
+     }
+    }
+   }
+  }
  }
+ coords 0.944 -0.961 -1.732
 }
