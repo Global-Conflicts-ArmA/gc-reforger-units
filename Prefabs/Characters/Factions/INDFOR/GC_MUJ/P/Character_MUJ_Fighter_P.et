@@ -85,9 +85,11 @@ SCR_ChimeraCharacter : "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_
      }
      SCR_EditableEntityVariant "{66B538FBEE0E50BE}" {
       m_sVariantPrefab "{AB047769B8B633CD}Prefabs/Characters/Factions/INDFOR/GC_MUJ/P/Variants/Character_MUJ_Mosin_P_1.et"
+      m_bEnabled 0
      }
      SCR_EditableEntityVariant "{66B538FBEE607410}" {
       m_sVariantPrefab "{C75043890472BCE3}Prefabs/Characters/Factions/INDFOR/GC_MUJ/P/Variants/Character_MUJ_Mosin_P_2.et"
+      m_bEnabled 0
      }
      SCR_EditableEntityVariant "{66FA0C504CB51F56}" {
       m_sVariantPrefab "{09981380AFD4EB5B}Prefabs/Characters/Factions/INDFOR/GC_MUJ/P/Variants/Character_MUJ_SMG_4_P.et"

@@ -6,22 +6,24 @@ SCR_ChimeraCharacter : "{D3F29763F96877CD}Prefabs/Characters/Factions/INDFOR/GC_
     m_bRandomizeDefaultVariant 0
     m_aVariants {
      SCR_EditableEntityVariant "{6699608B7D784E64}" {
-      m_sVariantPrefab "{29ED28FC5680DA06}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Enfield_1.et"
+      m_sVariantPrefab "{29ED28FC5680DA06}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Variants/Character_MUJ_Enfield_1.et"
      }
      SCR_EditableEntityVariant "{6699608B49A78BF8}" {
-      m_sVariantPrefab "{B4C965FD6B3CB8DF}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Enfield_2.et"
+      m_sVariantPrefab "{B4C965FD6B3CB8DF}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Variants/Character_MUJ_Enfield_2.et"
      }
      SCR_EditableEntityVariant "{66996089AF5347A3}" {
-      m_sVariantPrefab "{CC7164055A654D6D}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Enfield_3.et"
+      m_sVariantPrefab "{CC7164055A654D6D}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Variants/Character_MUJ_Enfield_3.et"
      }
      SCR_EditableEntityVariant "{6699608C2FDD72F0}" {
-      m_sVariantPrefab "{F145413D2F09C45A}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Enfield_4.et"
+      m_sVariantPrefab "{F145413D2F09C45A}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Variants/Character_MUJ_Enfield_4.et"
      }
      SCR_EditableEntityVariant "{669B08EC610633FF}" {
-      m_sVariantPrefab "{3B6A10189A42B849}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Mosin_1.et"
+      m_sVariantPrefab "{3B6A10189A42B849}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Variants/Character_MUJ_Mosin_1.et"
+      m_bEnabled 0
      }
      SCR_EditableEntityVariant "{669B08EC61634565}" {
-      m_sVariantPrefab "{29ED28FC5680DA07}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Mosin_2.et"
+      m_sVariantPrefab "{29ED28FC5680DA07}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Variants/Character_MUJ_Mosin_2.et"
+      m_bEnabled 0
      }
     }
    }
