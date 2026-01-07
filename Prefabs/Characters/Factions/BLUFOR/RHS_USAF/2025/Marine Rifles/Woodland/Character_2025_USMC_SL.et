@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{F92C060CACCE8143}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marine Rifles/Woodland/Character_2025_USMC_BaseW.et" {
+SCR_ChimeraCharacter : "{F92C060CACCE8143}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marine Rifles/Character_2025_USMC_BaseW.et" {
  ID "520EC961A090BBD5"
  components {
   SCR_CharacterRankComponent "{528E6D4286AA2D8F}" {
@@ -9,9 +9,15 @@ SCR_ChimeraCharacter : "{F92C060CACCE8143}Prefabs/Characters/Factions/BLUFOR/RHS
     Name "#AR-Role_SquadLeader"
     Icon "{A26C465A6AE2AA17}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_Leader.edds"
     m_aAuthoredLabels + {
-     33 34
+     TRAIT_OPTICS TRAIT_SUPPRESSIVE
     }
    }
+  }
+  CharacterGrenadeSlotComponent "{520EA1D2F659CE6E}" {
+   WeaponTemplate "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
+  }
+  CharacterGrenadeSlotComponent "{5A6CDA0CCF43068E}" {
+   WeaponTemplate "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
    AttachType InventoryStorageSlot "{0C3DA650B52E120B}" {
@@ -48,6 +54,11 @@ SCR_ChimeraCharacter : "{F92C060CACCE8143}Prefabs/Characters/Factions/BLUFOR/RHS
      TargetStorage "Vest/Vest_PCGen_III_rifleman_taco3.et/radio/Pouch_152_Radio.et"
      PrefabsToSpawn {
       "{340C133625BB688E}Prefabs/Items/Equipment/Radios/Radio_ANPRC152A_OLD_Multi.et"
+     }
+    }
+    ItemsInitConfigurationItem "{66B4211E199B8F9A}" {
+     PrefabsToSpawn {
+      ""
      }
     }
     ItemsInitConfigurationItem "{633B07DBBB713D2A}" {

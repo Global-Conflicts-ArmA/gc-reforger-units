@@ -1,13 +1,16 @@
-SCR_ChimeraCharacter : "{F92C060CACCE8143}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marine Rifles/Woodland/Character_2025_USMC_BaseW.et" {
+SCR_ChimeraCharacter : "{F92C060CACCE8143}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marine Rifles/Character_2025_USMC_BaseW.et" {
  ID "520EC961A090BBD5"
  components {
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
     Name "#AR-Role_MachineGunner"
     m_aAuthoredLabels + {
-     33 34
+     TRAIT_OPTICS TRAIT_SUPPRESSIVE
     }
    }
+  }
+  CharacterGrenadeSlotComponent "{520EA1D2F659CE6E}" {
+   WeaponTemplate "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
    AttachType InventoryStorageSlot "{0C3DA650B52E120B}" {
@@ -16,8 +19,8 @@ SCR_ChimeraCharacter : "{F92C060CACCE8143}Prefabs/Characters/Factions/BLUFOR/RHS
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
    AttachType InventoryStorageSlot "{9113A68B4D97E2E6}" {
-    Prefab "{8069A3DF6410FDDF}Prefabs/Weapons/Handguns/M17/Handgun_M17.et"
    }
+   WeaponTemplate "{8069A3DF6410FDDF}Prefabs/Weapons/Handguns/M17/Handgun_M17.et"
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
@@ -49,6 +52,11 @@ SCR_ChimeraCharacter : "{F92C060CACCE8143}Prefabs/Characters/Factions/BLUFOR/RHS
     ItemsInitConfigurationItem "{652B48EE86F65FD5}" {
      TargetStorage "Hat/Helmet_ECH_lc_p.et"
      PrefabsToSpawn {
+     }
+    }
+    ItemsInitConfigurationItem "{66B4211E199B8F9A}" {
+     PrefabsToSpawn {
+      ""
      }
     }
     ItemsInitConfigurationItem "{64A8A6CECABD9FC5}" {

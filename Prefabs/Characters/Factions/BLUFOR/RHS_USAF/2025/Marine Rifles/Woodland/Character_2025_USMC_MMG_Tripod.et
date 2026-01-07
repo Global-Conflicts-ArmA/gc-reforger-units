@@ -6,6 +6,12 @@ SCR_ChimeraCharacter : "{F92C060CACCE8143}Prefabs/Characters/Factions/BLUFOR/RHS
     Name "#AR-Role_AssistantMachineGunner With Tripod"
    }
   }
+  CharacterGrenadeSlotComponent "{520EA1D2F659CE6E}" {
+   WeaponTemplate "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
+  }
+  CharacterGrenadeSlotComponent "{5A6CDA0CCF43068E}" {
+   WeaponTemplate "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
+  }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
    WeaponTemplate "{82F02392064F28B8}Prefabs/Weapons/Rifles/M27IAR/Marines-VCOGs/Rifle_M27IAR_VCOG_railcovers.et"
   }
@@ -37,6 +43,11 @@ SCR_ChimeraCharacter : "{F92C060CACCE8143}Prefabs/Characters/Factions/BLUFOR/RHS
     }
     ItemsInitConfigurationItem "{61B52C4506FFE973}" {
      TargetStorage "Vest/Vest_PCGen_III_rifleman_taco3.et/radio/Pouch_152_Radio.et"
+    }
+    ItemsInitConfigurationItem "{66B4211E199B8F9A}" {
+     PrefabsToSpawn {
+      ""
+     }
     }
     ItemsInitConfigurationItem "{67354871FDAADA0F}" {
      TargetStorage "Vest/Vest_PCGen_III_rifleman_taco3.et/Taco_chest1/Pouch_PCGEN3_takoPouch.et"

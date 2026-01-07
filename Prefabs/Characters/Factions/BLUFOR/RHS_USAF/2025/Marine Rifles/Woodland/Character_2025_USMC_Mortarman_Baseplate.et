@@ -6,6 +6,9 @@ SCR_ChimeraCharacter : "{F92C060CACCE8143}Prefabs/Characters/Factions/BLUFOR/RHS
     Name "Mortarman Baseplate"
    }
   }
+  CharacterGrenadeSlotComponent "{520EA1D2F659CE6E}" {
+   WeaponTemplate "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
+  }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
    WeaponTemplate "{F75E18A45A2AE74E}Prefabs/Weapons/Rifles/M4A1/Rifle_M4A1_RAS_NT4_Peq_RCO_RMR.et"
   }
@@ -34,6 +37,11 @@ SCR_ChimeraCharacter : "{F92C060CACCE8143}Prefabs/Characters/Factions/BLUFOR/RHS
    InitialInventoryItems {
     ItemsInitConfigurationItem "{61B52C4506FFE973}" {
      TargetStorage "Vest/Vest_PCGen_III_light_blueforce.et/radio/Pouch_152_Radio.et"
+    }
+    ItemsInitConfigurationItem "{66B4211E199B8F9A}" {
+     PrefabsToSpawn {
+      ""
+     }
     }
     ItemsInitConfigurationItem "{64A8A6CECABD9FC5}" {
      TargetStorage "Vest/Vest_PCGen_III_light_blueforce.et/triple/Pouch_Blueforce_Tri.et"

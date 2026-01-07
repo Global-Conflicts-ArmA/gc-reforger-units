@@ -61,6 +61,12 @@ SCR_ChimeraCharacter : "{F92C060CACCE8143}Prefabs/Characters/Factions/BLUFOR/RHS
       "{340C133625BB688E}Prefabs/Items/Equipment/Radios/Radio_ANPRC152A_OLD_Multi.et"
      }
     }
+    ItemsInitConfigurationItem "{66B4211E199B8F9A}" {
+     Enabled 0
+     PrefabsToSpawn {
+      ""
+     }
+    }
     ItemsInitConfigurationItem "{64A8A6CECABD9FC5}" {
      TargetStorage "Jacket/Jacket_FROG_Combat_Shirt.et"
     }

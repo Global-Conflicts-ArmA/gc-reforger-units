@@ -6,6 +6,9 @@ SCR_ChimeraCharacter : "{F92C060CACCE8143}Prefabs/Characters/Factions/BLUFOR/RHS
     Name "#AR-Role_Sniper"
    }
   }
+  CharacterGrenadeSlotComponent "{520EA1D2F659CE6E}" {
+   WeaponTemplate "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
+  }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
    WeaponTemplate "{56CE827F9AD5880E}Prefabs/Weapons/Rifles/M40/Rifle_M40A5_Optic_PEQ.et"
   }
@@ -41,6 +44,11 @@ SCR_ChimeraCharacter : "{F92C060CACCE8143}Prefabs/Characters/Factions/BLUFOR/RHS
    InitialInventoryItems {
     ItemsInitConfigurationItem "{61B52C4506FFE973}" {
      TargetStorage "Vest/Vest_PCGen_III_light1.et/radio/Pouch_152_Radio.et"
+    }
+    ItemsInitConfigurationItem "{66B4211E199B8F9A}" {
+     PrefabsToSpawn {
+      ""
+     }
     }
     ItemsInitConfigurationItem "{64A8A6CECABD9FC5}" {
      TargetStorage "Vest/Vest_PCGen_III_light1.et"

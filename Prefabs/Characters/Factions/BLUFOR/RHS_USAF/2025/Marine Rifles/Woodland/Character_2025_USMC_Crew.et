@@ -7,6 +7,12 @@ SCR_ChimeraCharacter : "{F92C060CACCE8143}Prefabs/Characters/Factions/BLUFOR/RHS
     "#AR-Role_Crew"
    }
   }
+  CharacterGrenadeSlotComponent "{520EA1D2F659CE6E}" {
+   WeaponTemplate "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
+  }
+  CharacterGrenadeSlotComponent "{5A6CDA0CCF43068E}" {
+   WeaponTemplate "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
+  }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
    AttachType InventoryStorageSlot "{0C3DA650B52E120B}" {
    }
@@ -46,6 +52,11 @@ SCR_ChimeraCharacter : "{F92C060CACCE8143}Prefabs/Characters/Factions/BLUFOR/RHS
      TargetStorage "Vest/Vest_PCGen_II_crewman.et"
      PrefabsToSpawn {
       "{DD5358193169908B}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1.et" "{DD5358193169908B}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1.et"
+     }
+    }
+    ItemsInitConfigurationItem "{66B4211E199B8F9A}" {
+     PrefabsToSpawn {
+      ""
      }
     }
     ItemsInitConfigurationItem "{64A8A6CECABD9FC5}" {

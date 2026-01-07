@@ -6,6 +6,12 @@ SCR_ChimeraCharacter : "{F92C060CACCE8143}Prefabs/Characters/Factions/BLUFOR/RHS
     Name "Field Artillery Fire Control Man"
    }
   }
+  CharacterGrenadeSlotComponent "{520EA1D2F659CE6E}" {
+   WeaponTemplate "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{F75E18A45A2AE74E}Prefabs/Weapons/Rifles/M4A1/Rifle_M4A1_RAS_NT4_Peq_RCO_RMR.et"
+  }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {
@@ -29,6 +35,11 @@ SCR_ChimeraCharacter : "{F92C060CACCE8143}Prefabs/Characters/Factions/BLUFOR/RHS
    InitialInventoryItems {
     ItemsInitConfigurationItem "{61B52C4506FFE973}" {
      TargetStorage "Vest/Vest_PCGen_III_light_blueforce.et/radio/Pouch_152_Radio.et"
+    }
+    ItemsInitConfigurationItem "{66B4211E199B8F9A}" {
+     PrefabsToSpawn {
+      ""
+     }
     }
     ItemsInitConfigurationItem "{64A8A6CECABD9FC5}" {
      PrefabsToSpawn {

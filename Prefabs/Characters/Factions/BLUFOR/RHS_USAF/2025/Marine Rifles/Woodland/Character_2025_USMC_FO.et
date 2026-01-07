@@ -24,6 +24,12 @@ SCR_ChimeraCharacter : "{F92C060CACCE8143}Prefabs/Characters/Factions/BLUFOR/RHS
     }
    }
   }
+  CharacterGrenadeSlotComponent "{520EA1D2F659CE6E}" {
+   WeaponTemplate "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
+  }
+  CharacterGrenadeSlotComponent "{5A6CDA0CCF43068E}" {
+   WeaponTemplate "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
+  }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
    AttachType InventoryStorageSlot "{0C3DA650B52E120B}" {
    }
@@ -65,6 +71,11 @@ SCR_ChimeraCharacter : "{F92C060CACCE8143}Prefabs/Characters/Factions/BLUFOR/RHS
     }
     ItemsInitConfigurationItem "{651D048C906638EA}" {
      PrefabsToSpawn {
+     }
+    }
+    ItemsInitConfigurationItem "{66B4211E199B8F9A}" {
+     PrefabsToSpawn {
+      ""
      }
     }
     ItemsInitConfigurationItem "{64A8A6CECABD9FC5}" {

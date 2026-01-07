@@ -9,6 +9,9 @@ SCR_ChimeraCharacter : "{F92C060CACCE8143}Prefabs/Characters/Factions/BLUFOR/RHS
     }
    }
   }
+  CharacterGrenadeSlotComponent "{520EA1D2F659CE6E}" {
+   WeaponTemplate "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
+  }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
    AttachType InventoryStorageSlot "{0C3DA650B52E120B}" {
    }
@@ -37,6 +40,11 @@ SCR_ChimeraCharacter : "{F92C060CACCE8143}Prefabs/Characters/Factions/BLUFOR/RHS
    InitialInventoryItems {
     ItemsInitConfigurationItem "{61B52C4506FFE973}" {
      TargetStorage "Vest/Vest_PCGen_III_rifleman_blueforcetriple.et/radio/Pouch_152_Radio.et"
+    }
+    ItemsInitConfigurationItem "{66B4211E199B8F9A}" {
+     PrefabsToSpawn {
+      ""
+     }
     }
     ItemsInitConfigurationItem "{633B07DBBB713D2A}" {
      TargetStorage "Pants/Pants_FROG_Trousers.et"
