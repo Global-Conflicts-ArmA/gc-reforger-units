@@ -12,7 +12,7 @@ SCR_AIGroup : "{8DE0C0830FE0C33D}Prefabs/Groups/OPFOR/Group_USSR_Base.et" {
    }
   }
  }
- m_faction "GC_NVA"
+ m_faction "GC_HEER"
  m_aUnitPrefabSlots {
  }
 }
