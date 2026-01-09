@@ -1,0 +1,262 @@
+Vehicle : "{E3DD72FD06BA2320}Prefabs/Vehicles/Wheeled/Stryker/M1126/CROWS/Stryker_CROWS.et" {
+ ID "0000000000000001"
+ components {
+  RigidBody "{51DAA09FECF52BBF}" {
+   Mass 26500
+   CenterOfMass 0 1.2 0.139
+  }
+  SCR_BaseCompartmentManagerComponent "{20FB66C5DCB8DF72}" {
+   CompartmentSlots {
+    CargoCompartmentSlot C1 : "{073C255B1E107721}Prefabs/Vehicles/Wheeled/Stryker/Configs/PassengerL.conf" {
+     DefaultOccupantName "C1"
+     CompartmentUniqueName "C1"
+     CompartmentAction SCR_GetInUserAction "{5086CC2FCCAA457D}" {
+      ParentContextList {
+       "passenger_L_4_idle" "RearEntry"
+      }
+     }
+     SwitchSeatAction SCR_SwitchSeatAction "{509D56665850650D}" {
+      ParentContextList {
+       "passenger_L_4_idle"
+      }
+     }
+     AdditionalActions {
+      SCR_RemoveCasualtyUserAction "{5D528255CC646B68}" {
+       ParentContextList {
+        "passenger_L_4_idle" "backRamp"
+       }
+      }
+      SCR_RemoveCasualtyUserAction "{61089D5E00C44348}" {
+       ParentContextList {
+        "passenger_L_4_idle"
+       }
+      }
+     }
+     PassengerPositionInfo EntitySlotInfo "5B16A1F3A7D334C4" {
+      PivotID "passenger_L_4_idle"
+      Offset 0.0195 0 0.5887
+      Angles 0 -90.7825 0
+     }
+     SeatType 4
+     DoorInfoList {
+      2
+     }
+     BaseCoverage 1
+     ContextName "C1"
+     m_bIsWaterTight 1
+     m_DefaultOccupantData SCR_DefaultOccupantData "{68432BC0F0B61DE2}" {
+      m_sDefaultOccupantPrefab "{E398E44759DA1A43}Prefabs/Characters/Factions/BLUFOR/US_Army/Deprecated/Character_US_TL.et"
+     }
+    }
+    CargoCompartmentSlot C2 : "{073C255B1E107721}Prefabs/Vehicles/Wheeled/Stryker/Configs/PassengerL.conf" {
+     DefaultOccupantName "C2"
+     CompartmentUniqueName "C2"
+     CompartmentAction SCR_GetInUserAction "{5086CC2FCCAA457D}" {
+      ParentContextList {
+       "passenger_L_4_idle" "RearEntry"
+      }
+     }
+     SwitchSeatAction SCR_SwitchSeatAction "{509D56665850650D}" {
+      ParentContextList {
+       "passenger_L_4_idle"
+      }
+     }
+     AdditionalActions {
+      SCR_RemoveCasualtyUserAction "{5D528255CC646B68}" {
+       ParentContextList {
+        "passenger_L_4_idle" "backRamp"
+       }
+      }
+      SCR_RemoveCasualtyUserAction "{61089D5E00C44348}" {
+       ParentContextList {
+        "passenger_L_4_idle"
+       }
+      }
+     }
+     PassengerPositionInfo EntitySlotInfo "5B16A1F3A7D334C4" {
+      PivotID "passenger_L_4_idle"
+      Offset -1.5986 0 0.4846
+      Angles 0 -90.7825 0
+     }
+     SeatType 4
+     DoorInfoList {
+      2
+     }
+     BaseCoverage 1
+     ContextName "C2"
+     m_bIsWaterTight 1
+     m_DefaultOccupantData SCR_DefaultOccupantData "{68432BCF284D214D}" {
+      m_sDefaultOccupantPrefab "{E398E44759DA1A43}Prefabs/Characters/Factions/BLUFOR/US_Army/Deprecated/Character_US_TL.et"
+     }
+    }
+    CargoCompartmentSlot C3 : "{073C255B1E107721}Prefabs/Vehicles/Wheeled/Stryker/Configs/PassengerL.conf" {
+     DefaultOccupantName "C3"
+     CompartmentUniqueName "C3"
+     CompartmentAction SCR_GetInUserAction "{5086CC2FCCAA457D}" {
+      ParentContextList {
+       "passenger_L_4_idle" "RearEntry"
+      }
+     }
+     SwitchSeatAction SCR_SwitchSeatAction "{509D56665850650D}" {
+      ParentContextList {
+       "passenger_L_4_idle"
+      }
+     }
+     AdditionalActions {
+      SCR_RemoveCasualtyUserAction "{5D528255CC646B68}" {
+       ParentContextList {
+        "passenger_L_4_idle" "backRamp"
+       }
+      }
+      SCR_RemoveCasualtyUserAction "{61089D5E00C44348}" {
+       ParentContextList {
+        "passenger_L_4_idle"
+       }
+      }
+     }
+     PassengerPositionInfo EntitySlotInfo "5B16A1F3A7D334C4" {
+      PivotID "passenger_L_3_idle"
+      Offset -3.432 0 0.5039
+      Angles 0 88.7053 0
+     }
+     SeatType 5
+     DoorInfoList {
+      2
+     }
+     BaseCoverage 1
+     ContextName "C3"
+     m_bIsWaterTight 1
+     m_DefaultOccupantData SCR_DefaultOccupantData "{68432BCF8D37C1ED}" {
+      m_sDefaultOccupantPrefab "{E398E44759DA1A43}Prefabs/Characters/Factions/BLUFOR/US_Army/Deprecated/Character_US_TL.et"
+     }
+    }
+    CargoCompartmentSlot C4 : "{073C255B1E107721}Prefabs/Vehicles/Wheeled/Stryker/Configs/PassengerL.conf" {
+     DefaultOccupantName "C4"
+     CompartmentUniqueName "C4"
+     CompartmentAction SCR_GetInUserAction "{5086CC2FCCAA457D}" {
+      ParentContextList {
+       "passenger_L_4_idle" "RearEntry"
+      }
+     }
+     SwitchSeatAction SCR_SwitchSeatAction "{509D56665850650D}" {
+      ParentContextList {
+       "passenger_L_4_idle"
+      }
+     }
+     AdditionalActions {
+      SCR_RemoveCasualtyUserAction "{5D528255CC646B68}" {
+       ParentContextList {
+        "passenger_L_4_idle" "backRamp"
+       }
+      }
+      SCR_RemoveCasualtyUserAction "{61089D5E00C44348}" {
+       ParentContextList {
+        "passenger_L_4_idle"
+       }
+      }
+     }
+     PassengerPositionInfo EntitySlotInfo "5B16A1F3A7D334C4" {
+      PivotID "passenger_L_4_idle"
+      Offset -0.2115 0 0.9749
+      Angles 0 -90.7825 0
+     }
+     DoorInfoList {
+      2
+     }
+     BaseCoverage 1
+     ContextName "C4"
+     m_bIsWaterTight 1
+     m_DefaultOccupantData SCR_DefaultOccupantData "{68432BCFCDEDFE48}" {
+      m_sDefaultOccupantPrefab "{E398E44759DA1A43}Prefabs/Characters/Factions/BLUFOR/US_Army/Deprecated/Character_US_TL.et"
+     }
+    }
+    CargoCompartmentSlot Passenger_R01 {
+     m_bIsWaterTight 1
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    Name "ACV 1.0"
+   }
+  }
+  SCR_VehicleBuoyancyComponent "{5ECC936F0C77E390}" {
+   Buoyancy 0.8
+   BuoyancyApplyDistanceScale 0.5
+   BuoyancyDepthOffset 1.5
+   HydrodynamicScaleLinear 4 4 1
+   BoundingBoxScale 1 0.5 1
+   BoundingBoxOffset 0 0.55 0
+   ThrustPoints {
+    0.85 0.9 -3.4 -0.85 0.9 -3.4
+   }
+   ThurstForward 0.3
+   ThurstReverse 0.1
+   ThurstSteering 5
+   BuoyancyLoss 0
+   BuoyancyGain 0
+  }
+  VehicleWheeledSimulation "{731B26FCA2F19855}" {
+   Simulation Wheeled "{4D8B26DEA5F25978}" {
+    Engine Engine Engine {
+     Inertia 3
+     MaxPower 522
+     MaxTorque 3000
+     RpmMaxTorque 1500
+     RpmIdle 650
+    }
+    Axles {
+     Axle "{4D8B26DF957A8E1C}" {
+      Wheel Wheel "{4D8B26DFFE211745}" {
+       Radius 0.67
+       Mass 150
+       BrakeTorque 8000
+      }
+      Tyre Tyre "{5B1A3DA83287CD2E}" {
+       Roughness 0.35
+       RollingResistance 0.02
+       RollingDrag 0.1
+      }
+     }
+     Axle "{4D8B26DF8CF2F3D8}" {
+      Wheel Wheel "{4D8B26DF30A4E4D7}" {
+       Radius 0.67
+       Mass 150
+       BrakeTorque 8000
+      }
+      Tyre Tyre "{5B1A3DAF9F0DB983}" {
+       Roughness 0.35
+       RollingResistance 0.02
+       RollingDrag 0.1
+      }
+     }
+     Axle "{5EAD79DA34CB219A}" {
+      Wheel Wheel "{5B1A3DAFC128BDBA}" {
+       Radius 0.67
+       Mass 150
+       BrakeTorque 8000
+      }
+      Tyre Tyre "{5B1A3DAFC360D85B}" {
+       Roughness 0.35
+       RollingResistance 0.02
+       RollingDrag 0.1
+      }
+     }
+     Axle "{5EAD79DA34CB2192}" {
+      Wheel Wheel "{5B1A3DAFDC28DCF8}" {
+       Radius 0.67
+       Mass 150
+       BrakeTorque 8000
+      }
+      Tyre Tyre "{5B1A3DAFDF03ACCC}" {
+       Roughness 0.35
+       RollingResistance 0.02
+       RollingDrag 0.1
+      }
+     }
+    }
+   }
+  }
+ }
+ scale 1.2
+}

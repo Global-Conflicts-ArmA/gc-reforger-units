@@ -1,0 +1,18 @@
+SCR_ChimeraCharacter : "{BC13CD150CA5DD76}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marine Rifles/Woodland/Character_2025_USMC_GL.et" {
+ ID "520EC961A090BBD5"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{32A9B6C3F80142A2}Prefabs/Characters/HeadGear/Helmet_ECH/Helmet_ECH_hc_v_r_p_cd.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{7A31BAAF2D74B8B4}Prefabs/Characters/Uniforms/Jacket_FROG_Combat_Shirt_Arid.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{F6A9C2400BE103E4}Prefabs/Characters/Uniforms/Pants_FROG_Trousers_Arid.et"
+    }
+   }
+  }
+ }
+}

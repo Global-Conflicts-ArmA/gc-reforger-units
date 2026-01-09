@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{D6860842497877ED}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marine Rifles/WIP/Character_2025_USMC_Mortarman_Baseplate_D_P.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

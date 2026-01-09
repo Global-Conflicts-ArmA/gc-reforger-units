@@ -1,0 +1,8 @@
+SCR_ChimeraCharacter : "{DAE1D0BAC7DEE85E}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marine Rifles/Desert/Character_2025_USMC_MMG_ASST_D.et" {
+ ID "520EC961A090BBD5"
+ components {
+  PS_PlayableComponent "{5EFCC1946F475F15}" {
+   m_bIsPlayable 1
+  }
+ }
+}
