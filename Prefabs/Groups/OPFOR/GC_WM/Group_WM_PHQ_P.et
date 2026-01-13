@@ -1,0 +1,7 @@
+SCR_AIGroup : "{55F0FD746519A30D}Prefabs/Groups/OPFOR/GC_HEER/Group_HEER_Base.et" {
+ ID "0000000000000001"
+ coords 3643.11 28.866 3709.64
+ m_aUnitPrefabSlots {
+  "{6AE0025946EF6D34}Prefabs/Characters/Factions/OPFOR/GC_HEER/P/Character_GC_Germany_PL_P.et" "{41EDBBEEC1EA6C15}Prefabs/Characters/Factions/OPFOR/GC_HEER/P/Character_GC_Germany_PSG_P.et" "{A9C8BC48371437C9}Prefabs/Characters/Factions/OPFOR/GC_HEER/P/Character_GC_Germany_Medic_P.et"
+ }
+}
