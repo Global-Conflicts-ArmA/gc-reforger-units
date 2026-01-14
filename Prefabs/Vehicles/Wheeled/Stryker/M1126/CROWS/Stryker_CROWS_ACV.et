@@ -7,12 +7,6 @@ Vehicle : "{E3DD72FD06BA2320}Prefabs/Vehicles/Wheeled/Stryker/M1126/CROWS/Stryke
   }
   SCR_BaseCompartmentManagerComponent "{20FB66C5DCB8DF72}" {
    CompartmentSlots {
-<<<<<<< Updated upstream
-=======
-    CargoCompartmentSlot Passenger_R01 {
-     m_bIsWaterTight 1
-    }
->>>>>>> Stashed changes
     CargoCompartmentSlot C1 : "{073C255B1E107721}Prefabs/Vehicles/Wheeled/Stryker/Configs/PassengerL.conf" {
      DefaultOccupantName "C1"
      CompartmentUniqueName "C1"
@@ -176,12 +170,9 @@ Vehicle : "{E3DD72FD06BA2320}Prefabs/Vehicles/Wheeled/Stryker/M1126/CROWS/Stryke
       m_sDefaultOccupantPrefab "{E398E44759DA1A43}Prefabs/Characters/Factions/BLUFOR/US_Army/Deprecated/Character_US_TL.et"
      }
     }
-<<<<<<< Updated upstream
     CargoCompartmentSlot Passenger_R01 {
      m_bIsWaterTight 1
     }
-=======
->>>>>>> Stashed changes
    }
   }
   SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
