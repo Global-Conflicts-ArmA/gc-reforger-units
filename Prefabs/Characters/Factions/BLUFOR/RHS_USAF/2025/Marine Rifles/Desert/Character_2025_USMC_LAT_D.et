@@ -14,5 +14,12 @@ SCR_ChimeraCharacter : "{0EC2678E52CCF8B9}Prefabs/Characters/Factions/BLUFOR/RHS
     }
    }
   }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6063106E91310A3D}" {
+     TargetStorage "Pants/Pants_FROG_Trousers_Arid.et"
+    }
+   }
+  }
  }
 }

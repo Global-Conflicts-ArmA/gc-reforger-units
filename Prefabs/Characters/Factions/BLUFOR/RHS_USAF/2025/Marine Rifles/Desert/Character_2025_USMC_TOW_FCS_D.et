@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{99A09CB626797F50}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marine Rifles/Character_2025_USMC_TOW_FCS.et" {
+SCR_ChimeraCharacter : "{99A09CB626797F50}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marine Rifles/Woodland/Character_2025_USMC_TOW_FCS.et" {
  ID "520EC961A090BBD5"
  components {
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
@@ -11,6 +11,13 @@ SCR_ChimeraCharacter : "{99A09CB626797F50}Prefabs/Characters/Factions/BLUFOR/RHS
     }
     LoadoutSlotInfo Pants {
      Prefab "{F6A9C2400BE103E4}Prefabs/Characters/Uniforms/Pants_FROG_Trousers_Arid.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6063106E91310A3D}" {
+     TargetStorage "Pants/Pants_FROG_Trousers_Arid.et"
     }
    }
   }

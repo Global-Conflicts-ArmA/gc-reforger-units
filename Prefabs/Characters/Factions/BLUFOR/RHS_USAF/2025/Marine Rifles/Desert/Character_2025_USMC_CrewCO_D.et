@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{F4A5D8E2672E8D2B}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marine Rifles/WIP/Character_2025_USMC_CrewCO.et" {
+SCR_ChimeraCharacter : "{F4A5D8E2672E8D2B}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marine Rifles/Woodland/Character_2025_USMC_CrewCO.et" {
  ID "520EC961A090BBD5"
  components {
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
@@ -8,6 +8,16 @@ SCR_ChimeraCharacter : "{F4A5D8E2672E8D2B}Prefabs/Characters/Factions/BLUFOR/RHS
     }
     LoadoutSlotInfo Pants {
      Prefab "{F6A9C2400BE103E4}Prefabs/Characters/Uniforms/Pants_FROG_Trousers_Arid.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{76092EF06FE739D7}Prefabs/Items/Equipment/Radios/US/Radio_MARPATD_GC_PRC119.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6063106E91310A3D}" {
+     TargetStorage "Pants/Pants_FROG_Trousers_Arid.et"
     }
    }
   }
