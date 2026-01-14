@@ -4,9 +4,17 @@ TracerProjectile : "{67FED88E5085F63F}Prefabs/Weapons/Core/Ammo_Bullet_Base.et" 
   CollisionTriggerComponent "{6607322497EE7CAD}" {
    PROJECTILE_EFFECTS {
     ProjectileDamage "{66073227B59D2BBF}" {
-     DamageValue 4
+     DamageValue 100
      DamageEffects {
       BaseDamageEffect "{6607322782F998A6}" {
+      }
+     }
+    }
+    ProjectileDamage "{684F4BEB24819C45}" {
+     DamageValue 7
+     DamageType Incendiary
+     DamageEffects {
+      BaseDamageEffect "{684F4BEB24818862}" {
       }
      }
     }
@@ -17,7 +25,11 @@ TracerProjectile : "{67FED88E5085F63F}Prefabs/Weapons/Core/Ammo_Bullet_Base.et" 
    }
   }
   ShellMoveComponent "{851AA4A2AE0A5691}" {
-   TumblingDamageMultiplier 0.05
+   AirDrag 0.15
+   Diameter 12
+   Length 0.23
+   TumblingDamageMultiplier 0.5
   }
  }
+ ProjectileModel "{D807332FCA58B894}Assets/Weapons/Ammo/Tracers/Tracer_red.xob"
 }

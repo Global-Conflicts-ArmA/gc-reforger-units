@@ -1,0 +1,31 @@
+GenericEntity : "{D584F2FFFDC7DE49}Prefabs/Weapons/Warheads/Warhead_Shell_HE.et" {
+ ID "9D9BE68EA2672F76"
+ components {
+  BaseTriggerComponent "{55129E81CBAA1390}" {
+   PROJECTILE_EFFECTS {
+    ExplosionDamageContainer "{5D38C8F8C6A477C7}" {
+     ExplosionEffects {
+      BaseExplosionDamage "{5D8D1EB3EF9D02C6}" {
+       DamageDistance 1
+      }
+      BaseExplosionDamage "{61DAF5E24D9CA168}" {
+       DamageValue 150
+       DamageDistance 2.5
+      }
+      BaseExplosionDamage "{5D8D1EB3EBB36077}" {
+       DamageDistance 2
+      }
+      ExplosionImpulseEffect "{5E6D1CEE09A33086}" {
+       DamageValue 60
+       ExplosionImpulseMultiplier 1
+      }
+      ExplosionFragmentationEffect "{567CBC1D7AB652C7}" {
+       DamageValue 35
+       DamageFragmentCount 50
+      }
+     }
+    }
+   }
+  }
+ }
+}
