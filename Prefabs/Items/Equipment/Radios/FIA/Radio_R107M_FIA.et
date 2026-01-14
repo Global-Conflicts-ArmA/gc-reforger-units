@@ -1,0 +1,20 @@
+GenericEntity : "{5879D8E9C56E358E}Prefabs/Items/Equipment/Radios/Radio_Deployable_Base.et" {
+ ID "508AB2013EEE1E00"
+ components {
+  BaseRadioComponent "{5A30BAE7673C63CA}" {
+   Enabled 0
+  }
+  BaseRadioComponent "{685AE240F64FF474}" {
+   "Encryption key" "candleSauce"
+   "Turned on" 1
+   Transceivers {
+    RadioTransceiver "{685AE240F64FF788}" {
+     "Transmitting Range" 4500
+     "Min tunable frequency" 20000
+     "Max tunable frequency" 52000
+     "Frequency resolution" 100
+    }
+   }
+  }
+ }
+}

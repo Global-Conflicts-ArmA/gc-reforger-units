@@ -1,0 +1,14 @@
+SCR_AIGroup : "{DEE4F567595DE7AE}Prefabs/Groups/OPFOR/GC_SEPARATIST/2020/Group_SEP_PHQ.et" {
+ ID "0000000000000001"
+ components {
+  SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+   m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+    m_sFaction "GC_SEPARATIST"
+   }
+  }
+ }
+ m_aUnitPrefabSlots {
+  "{16DF68186E285EC2}Prefabs/Characters/Factions/OPFOR/GC_SEP/2020/P/Character_SEP_CoyCO_P.et" "{E60D0BEEC012D5DC}Prefabs/Characters/Factions/OPFOR/GC_SEP/2020/P/Character_SEP_Coy2IC_P.et" "{E31FE387C44DE69B}Prefabs/Characters/Factions/OPFOR/GC_SEP/2020/P/Character_SEP_Medic_P.et" "{E31FE387C44DE69B}Prefabs/Characters/Factions/OPFOR/GC_SEP/2020/P/Character_SEP_Medic_P.et"
+ }
+ m_bSetPlayable 1
+}

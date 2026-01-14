@@ -33,7 +33,7 @@ SCR_ChimeraCharacter : "{BF79A1A472FA63F2}Prefabs/Characters/Factions/OPFOR/GC_N
      }
     }
     ItemsInitConfigurationItem "{658530D7B80744E7}" {
-     TargetStorage "Vest/Vest_NVA_Rifleman_AKM.et/GasmaskBag/Vest_NVA_GasmaskBag.et"
+     TargetStorage "Jacket/Jacket_Kfz1979.et"
      PrefabsToSpawn {
       "{B41607EAB58A4252}Prefabs/Items/Equipment/BalisticTable/BalisticTable_USSR.et"
      }

@@ -1,14 +1,21 @@
-SCR_ChimeraCharacter : "{D45D3F2DCDEFD057}Prefabs/Characters/Factions/INDFOR/FIA/Extra/Character_FIA_Crew_P.et" {
+SCR_ChimeraCharacter : "{D45D3F2DCDEFD057}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Crew_P.et" {
  ID "520EC961A090B1EE"
  components {
   PS_PlayableComponent "{5EFCC1946F475F15}" {
    m_sName "Crewman (Commander)"
   }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Back {
+     Prefab "{4181B1C8B5E56392}Prefabs/Items/Equipment/Radios/FIA/Radio_R107M_FIA.et"
+    }
+   }
+  }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{5EE323B09A236F45}" {
      PrefabsToSpawn {
-      "{02CF96D8F971B5B7}Prefabs/Items/Equipment/Radios/Radio_R148_FIA_Multi.et" "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et" "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et"
+      "{540C08AD5F21A5FA}Prefabs/Items/Equipment/Radios/FIA/Radio_R148_FIA.et" "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et" "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et"
      }
     }
    }

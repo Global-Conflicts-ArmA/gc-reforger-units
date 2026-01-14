@@ -7,6 +7,7 @@ SCR_AIGroup : "{28582B54ECB0C9D1}Prefabs/Groups/OPFOR/GC_SEPARATIST/Group_SEP_ba
    }
   }
  }
+ m_faction "GC_SEPARATIST"
  m_aUnitPrefabSlots {
   "{4EB2EF8AB2F10DEB}Prefabs/Characters/Factions/OPFOR/GC_SEP/1990/Character_SEP_1990_Sharpshooter.et"
  }

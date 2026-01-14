@@ -1,0 +1,6 @@
+SCR_AIGroup : "{2CDEC04E2AA5F452}Prefabs/Groups/OPFOR/GC_SEPARATIST/1990/Group_SEP_1990_PHQ.et" {
+ ID "0000000000000001"
+ m_aUnitPrefabSlots {
+  "{0ADB20CF3E5F0DE6}Prefabs/Characters/Factions/OPFOR/GC_SEP/1990/P/Character_SEP_1990_CoyCO_P.et" "{5F2D0E8E35674152}Prefabs/Characters/Factions/OPFOR/GC_SEP/1990/P/Character_SEP_1990_Coy2IC_P.et" "{05F03DE9BBD6488E}Prefabs/Characters/Factions/OPFOR/GC_SEP/1990/P/Character_SEP_1990_RiflemanAT_P.et" "{C62B9817669A3BAC}Prefabs/Characters/Factions/OPFOR/GC_SEP/1990/P/Character_SEP_1990_Rifleman_P.et"
+ }
+}

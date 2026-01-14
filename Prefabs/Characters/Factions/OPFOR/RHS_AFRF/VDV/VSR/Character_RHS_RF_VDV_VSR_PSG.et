@@ -46,7 +46,7 @@ SCR_ChimeraCharacter : "{2AADF14AA3F98373}Prefabs/Characters/Factions/OPFOR/RHS_
     ItemsInitConfigurationItem "{6672A943D31020BC}" {
      TargetStorage "ArmoredVest/Vest_6B3.et"
      PrefabsToSpawn {
-      "{88B4E9C3B4F3B89D}Prefabs/Items/Equipment/Radios/Radio_R148_Multi.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+      "{E1A5D4B878AA8980}Prefabs/Items/Equipment/Radios/RU/Radio_R148.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
      }
     }
    }

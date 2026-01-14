@@ -4,5 +4,15 @@ SCR_ChimeraCharacter : "{E65AE41D857BDBC6}Prefabs/Characters/Factions/BLUFOR/RHS
   PS_PlayableComponent "{5EFCC1946F475F15}" {
    m_bIsPlayable 1
   }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{5DF4933859A5CF08}Prefabs/Characters/HeadGear/Hats/Baseball_Cap/Hat_Baseball_Cap_Green.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{B874899943AC87C3}Prefabs/Characters/Uniforms/Crye_shirt/Crye_G3_Shirt_M81_rolledup.et"
+    }
+   }
+  }
  }
 }

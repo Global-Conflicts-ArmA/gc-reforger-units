@@ -11,7 +11,7 @@ SCR_ChimeraCharacter : "{D4F690DE83BEA3DA}Prefabs/Characters/Factions/BLUFOR/RHS
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Jacket {
-     Prefab "{EAFA87B10814B801}Prefabs/Characters/Uniforms/Crye/Crye_G3/Crye_G3_Combat_Shirt_Rolled_UKC_MC.et"
+     Prefab "{5C9C056FE69B3B59}Prefabs/Characters/Uniforms/Crye_shirt/Crye_G3_Shirt_MC_rolledup.et"
     }
     LoadoutSlotInfo Back {
      Prefab "{48602F57998AB597}Prefabs/Items/Equipment/Backpacks/FILBE_Backpack.et"

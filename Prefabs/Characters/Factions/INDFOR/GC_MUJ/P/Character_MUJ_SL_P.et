@@ -25,7 +25,7 @@ SCR_ChimeraCharacter : "{2CD9683057C04459}Prefabs/Characters/Factions/INDFOR/GC_
      SCR_EditableEntityVariant "{66B538E90CD8AF91}" {
       m_sVariantPrefab "{6FE4C8636D09064D}Prefabs/Characters/Factions/INDFOR/GC_MUJ/P/Variants/Character_MUJ_SL_P_6.et"
      }
-     SCR_EditableEntityVariant "{66B97550BE9D36B7}" {
+     SCR_EditableEntityVariant "{66B97550A0C9309E}" {
       m_sVariantPrefab "{8A78849A61EC9126}Prefabs/Characters/Factions/INDFOR/GC_MUJ/P/Variants/Character_MUJ_SL_P_7.et"
      }
     }

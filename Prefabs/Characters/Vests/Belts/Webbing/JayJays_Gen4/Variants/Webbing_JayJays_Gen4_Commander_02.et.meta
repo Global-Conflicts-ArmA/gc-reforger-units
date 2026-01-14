@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{D63296EBAC577F98}Prefabs/Characters/Vests/Belts/Webbing/JayJays_Gen4/Variants/Webbing_JayJays_Gen4_Commander_02.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

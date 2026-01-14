@@ -8,12 +8,12 @@ SCR_AIGroup : "{B50B7BF31273C2A6}Prefabs/Groups/OPFOR/RHS_AFRF/MSV/VKPO_Demiseas
    m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
     Name "Rifle Squad"
     m_aAuthoredLabels {
-     4 1653989487 10511 10503
+     ENTITYTYPE_GROUP FACTION_RHS_AFRF SUBBRANCH_RHS_AFRF_VMF TYPE_RHS_AFRF_REGULAR
     }
    }
   }
  }
  m_aUnitPrefabSlots {
-  "{5C10E61AF0DCEFFF}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VMF/VSR/P/Character_RHS_RF_VMF_VSR_SL_P.et" "{F9955E97249A5B95}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VMF/VSR/P/Character_RHS_RF_VMF_VSR_AR_P.et" "{44450C105B81478B}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VMF/VSR/P/Character_RHS_RF_VMF_VSR_AT_P.et" "{4BDA5389F1D0CE05}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VMF/VSR/P/Character_RHS_RF_VMF_VSR_AAT_P.et" "{93603D57207FEEBF}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VMF/VSR/P/Character_RHS_RF_VMF_VSR_SR_P.et" "{4455ADDC97E5DDFB}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VMF/VSR/P/Character_RHS_RF_VMF_VSR_Rifleman_P.et"
+  "{5C10E61AF0DCEFFF}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VMF/VSR/P/Character_RHS_RF_VMF_VSR_SL_P.et" "{F9955E97249A5B95}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VMF/VSR/P/Character_RHS_RF_VMF_VSR_AR_P.et" "{44450C105B81478B}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VMF/VSR/P/Character_RHS_RF_VMF_VSR_AT_P.et" "{4BDA5389F1D0CE05}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VMF/VSR/P/Character_RHS_RF_VMF_VSR_AAT_P.et" "{93603D57207FEEBF}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VMF/VSR/P/Character_RHS_RF_VMF_VSR_SR_P.et" "{4455ADDC97E5DDFB}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VMF/VSR/P/Character_RHS_RF_VMF_VSR_Rifleman_P.et" "{8E461907FA345841}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VMF/VSR/P/Character_RHS_RF_VMF_VSR_CrewGunner_P.et" "{099EA118A10313C3}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VMF/VSR/P/Character_RHS_RF_VMF_VSR_CrewDriver_P.et"
  }
 }

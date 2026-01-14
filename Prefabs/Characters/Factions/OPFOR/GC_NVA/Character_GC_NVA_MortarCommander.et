@@ -33,7 +33,7 @@ SCR_ChimeraCharacter : "{BF79A1A472FA63F2}Prefabs/Characters/Factions/OPFOR/GC_N
      Prefab "{097D09902D4C8318}Prefabs/Characters/Headgear/Helmet_M56/Helmet_M56_Cover.et"
     }
     LoadoutSlotInfo Back {
-     Prefab "{54C68E438DD34265}Prefabs/Items/Equipment/Radios/Radio_R107M.et"
+     Prefab "{54C68E438DD34265}Prefabs/Items/Equipment/Radios/RU/Radio_R107M.et"
     }
     LoadoutSlotInfo Vest {
      Prefab "{D0D01C5002BAF8FA}Prefabs/Characters/Vests/Vest_NVA/Variants/Vest_NVA_Rifleman_AKM.et"
@@ -49,7 +49,7 @@ SCR_ChimeraCharacter : "{BF79A1A472FA63F2}Prefabs/Characters/Factions/OPFOR/GC_N
      }
     }
     ItemsInitConfigurationItem "{658530D6D5152B9A}" {
-     TargetStorage "Vest/Vest_NVA_Rifleman_AKM.et/GasmaskBag/Vest_NVA_GasmaskBag.et"
+     TargetStorage "Jacket/Jacket_Kfz1979.et"
      PrefabsToSpawn {
       "{B41607EAB58A4252}Prefabs/Items/Equipment/BalisticTable/BalisticTable_USSR.et"
      }

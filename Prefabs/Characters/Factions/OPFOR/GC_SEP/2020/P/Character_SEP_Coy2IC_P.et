@@ -1,0 +1,13 @@
+SCR_ChimeraCharacter : "{FC2A26B65689D91D}Prefabs/Characters/Factions/OPFOR/GC_SEP/2020/Character_SEP_PSG.et" {
+ ID "520EC961A090B1EE"
+ components {
+  PS_PlayableComponent "{5EFCC1946F475F15}" {
+   m_bIsPlayable 1
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Company 2IC"
+   }
+  }
+ }
+}

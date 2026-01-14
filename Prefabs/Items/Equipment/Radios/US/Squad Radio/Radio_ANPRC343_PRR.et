@@ -1,0 +1,18 @@
+GenericEntity : "{43ACEE27F8F3EE97}Prefabs/Items/Equipment/Radios/ANPRC343/Radio_ANPRC343_PRR_Base.et" {
+ ID "508AB2013EEE1E00"
+ components {
+  BaseRadioComponent "{5A30BAE7673C63CA}" {
+   "Encryption key" "grits"
+   Transceivers {
+    RadioTransceiver "{652EC97BF7BB2B56}" {
+     "Min tunable frequency" 30000
+     "Max tunable frequency" 55600
+     "Frequency resolution" 100
+    }
+   }
+  }
+  SCR_RadioComponent "{5A30BAE7673C63D4}" {
+   m_bTuneToSquadFrequency 1
+  }
+ }
+}

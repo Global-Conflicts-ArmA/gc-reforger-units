@@ -1,0 +1,19 @@
+SCR_AIGroup : "{B50B7BF31273C2A6}Prefabs/Groups/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Group_RHS_RF_MSV_VKPO_DS_Base.et" {
+ ID "0000000000000001"
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "Column"
+  }
+  SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+   m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+    Name "Platoon HQ"
+    m_aAuthoredLabels {
+     ENTITYTYPE_GROUP FACTION_RHS_AFRF SUBBRANCH_RHS_AFRF_VMF TYPE_RHS_AFRF_REGULAR
+    }
+   }
+  }
+ }
+ m_aUnitPrefabSlots {
+  "{E2AE390354B8CD3A}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VMF/VSR/P/Character_RHS_RF_VMF_VSR_CoyCO_P.et" "{58D7184478BF1AD0}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VMF/VSR/P/Character_RHS_RF_VMF_VSR_Coy2IC_P.et" "{F16932D8F17360D1}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VMF/VSR/P/Character_RHS_RF_VMF_VSR_1SG_P.et" "{4F5FB88A94007497}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VMF/VSR/P/Character_RHS_RF_VMF_VSR_RTO_P.et" "{8E461907FA345841}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VMF/VSR/P/Character_RHS_RF_VMF_VSR_CrewGunner_P.et" "{099EA118A10313C3}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VMF/VSR/P/Character_RHS_RF_VMF_VSR_CrewDriver_P.et"
+ }
+}

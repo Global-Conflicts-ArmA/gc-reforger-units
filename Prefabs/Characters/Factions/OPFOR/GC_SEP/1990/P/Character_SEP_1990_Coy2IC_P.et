@@ -1,0 +1,30 @@
+SCR_ChimeraCharacter : "{13CA3EF02763BC0E}Prefabs/Characters/Factions/OPFOR/GC_SEP/1990/Character_SEP_1990_PSG.et" {
+ ID "520EC961A090B1EE"
+ components {
+  PS_PlayableComponent "{5EFCC1946F475F15}" {
+   m_bIsPlayable 1
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Company 2IC"
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{9911F55EC05D1A64}Prefabs/Characters/HeadGear/Hat_Patrol_US_01/Hat_Patrol_US_02.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{6D73910B984C8F97}Prefabs/Characters/Uniforms/Jacket_Bomber_4.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6642965313B334DB}" {
+     TargetStorage "Jacket/Jacket_Bomber_4.et"
+    }
+   }
+  }
+ }
+}

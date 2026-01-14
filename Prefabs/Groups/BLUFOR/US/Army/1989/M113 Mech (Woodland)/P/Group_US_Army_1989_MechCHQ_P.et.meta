@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{6CB3F76882F1EA08}Prefabs/Groups/BLUFOR/US/Army/1989/M113 Mech (Woodland)/P/Group_US_Army_1989_MechCHQ_P.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

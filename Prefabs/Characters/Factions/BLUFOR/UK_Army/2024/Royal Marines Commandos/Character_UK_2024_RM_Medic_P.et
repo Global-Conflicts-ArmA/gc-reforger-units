@@ -26,6 +26,10 @@ SCR_ChimeraCharacter : "{52E1968F69C21D5B}Prefabs/Characters/Factions/BLUFOR/UK_
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
+    ItemsInitConfigurationItem "{610CC312DBF11ACA}" {
+     PrefabsToSpawn +{
+     }
+    }
     ItemsInitConfigurationItem "{65C2BC4EBE944CD3}" {
      TargetStorage "Back/Camelbak_BFM_MC.et"
      PrefabsToSpawn {

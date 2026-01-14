@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{D4F690DE83BEA3DA}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/2020/rebuild/Character_RHS_RANGER_Base.et" {
+SCR_ChimeraCharacter : "{D4F690DE83BEA3DA}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Rangers/Character_RHS_RANGER_Base.et" {
  ID "520EC961A090B1EE"
  components {
   SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
@@ -31,6 +31,9 @@ SCR_ChimeraCharacter : "{D4F690DE83BEA3DA}Prefabs/Characters/Factions/BLUFOR/RHS
     }
     LoadoutSlotInfo Boots {
      Prefab "{934C7275AC865817}Prefabs/Characters/Footwear/Boots_BCT/Footwear_BCT.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{78AD6277BCA654C4}Prefabs/Items/Equipment/Radios/US/Radio_M81_GC_PRC119.et"
     }
     LoadoutSlotInfo Vest {
      Prefab "{C5300A62C49815FF}Prefabs/Characters/Vests/Vest_AVS/Variants/Vest_AVS_okinawa_Coy.et"
@@ -68,8 +71,7 @@ SCR_ChimeraCharacter : "{D4F690DE83BEA3DA}Prefabs/Characters/Factions/BLUFOR/RHS
     }
     ItemsInitConfigurationItem "{6512D231A62AFA49}" {
      TargetStorage "Vest/Vest_AVS_okinawa_Coy.et/radio/Pouch_AVS_MBITR_Radio_Coy.et"
-     PrefabsToSpawn {
-      "{340C133625BB688E}Prefabs/Items/Equipment/Radios/Radio_ANPRC152A_OLD_Multi.et"
+     PrefabsToSpawn +{
      }
     }
     ItemsInitConfigurationItem "{6512D2367C52BB6F}" {

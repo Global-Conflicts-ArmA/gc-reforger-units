@@ -28,7 +28,7 @@ SCR_ChimeraCharacter : "{D4F690DE83BEA3DA}Prefabs/Characters/Factions/BLUFOR/RHS
      Prefab "{31655A6BE8C4879E}Prefabs/Characters/HeadGear/Helmet_OPSCORE/Helmet_OPSCORE_SF_RGR02.et"
     }
     LoadoutSlotInfo Jacket {
-     Prefab "{EAFA87B10814B801}Prefabs/Characters/Uniforms/Crye/Crye_G3/Crye_G3_Combat_Shirt_Rolled_UKC_MC.et"
+     Prefab "{5C9C056FE69B3B59}Prefabs/Characters/Uniforms/Crye_shirt/Crye_G3_Shirt_MC_rolledup.et"
     }
     LoadoutSlotInfo Boots {
      Prefab "{21B331B5FA807997}Prefabs/Characters/Footwear/Boots_Rocky_SV2/Footwear_Rocky_SV2.et"
@@ -64,7 +64,7 @@ SCR_ChimeraCharacter : "{D4F690DE83BEA3DA}Prefabs/Characters/Factions/BLUFOR/RHS
     ItemsInitConfigurationItem "{6512D231A62AFA49}" {
      TargetStorage "Vest/Vest_AVS_6x6_MC.et/zip/Minimap_JPC_ZipOnPanel2.0_MC.et"
      PrefabsToSpawn {
-      "{340C133625BB688E}Prefabs/Items/Equipment/Radios/Radio_ANPRC152A_OLD_Multi.et"
+      "{D69684663E89D6EA}Prefabs/Items/Equipment/Radios/US/Radio_ANPRC152A_OLD.et"
      }
     }
     ItemsInitConfigurationItem "{6514A55D600D464F}" {

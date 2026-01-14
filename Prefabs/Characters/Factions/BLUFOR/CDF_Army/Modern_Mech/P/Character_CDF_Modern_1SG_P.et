@@ -1,0 +1,20 @@
+SCR_ChimeraCharacter : "{C49AF8E592633C0E}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Mech/Character_CDF_Modern_Sergeant.et" {
+ ID "520EC961A090B1EE"
+ components {
+  PS_PlayableComponent "{5EFCC1946F475F15}" {
+   m_bIsPlayable 1
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "First Sergeant"
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{58DD402E6A25C776}Prefabs/Characters/HeadGear/Helmet_OPSCORE/Helmet_OPSCORE_XP_MC_Liberator.et"
+    }
+   }
+  }
+ }
+}

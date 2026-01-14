@@ -14,6 +14,9 @@ SCR_ChimeraCharacter : "{9FFEF10757E742EB}Prefabs/Characters/Factions/OPFOR/USSR
     LoadoutSlotInfo Hat {
      Prefab "{EB2F05A3751B905A}Prefabs/Characters/HeadGear/Helmet_TSh4_01/Helmet_TSh4_01.et"
     }
+    LoadoutSlotInfo Face {
+     Prefab "{54C68E438DD34265}Prefabs/Items/Equipment/Radios/RU/Radio_R107M.et"
+    }
    }
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
@@ -25,8 +28,8 @@ SCR_ChimeraCharacter : "{9FFEF10757E742EB}Prefabs/Characters/Factions/OPFOR/USSR
     }
     ItemsInitConfigurationItem "{5DA0B05C22AFE85A}" {
      TargetStorage "Jacket/Jacket_Tanker_USSR_01.et"
-     PrefabsToSpawn + {
-      "{E1A5D4B878AA8980}Prefabs/Items/Equipment/Radios/Radio_R148.et"
+     PrefabsToSpawn {
+      "{E1A5D4B878AA8980}Prefabs/Items/Equipment/Radios/RU/Radio_R148.et"
      }
     }
    }

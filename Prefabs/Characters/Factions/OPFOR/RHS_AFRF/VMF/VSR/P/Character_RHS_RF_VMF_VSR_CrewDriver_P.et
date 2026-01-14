@@ -9,5 +9,11 @@ SCR_ChimeraCharacter : "{661AC0E31A8EDC96}Prefabs/Characters/Factions/OPFOR/RHS_
     Name "Vehicle Driver"
    }
   }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6062F65EC3690C43}" {
+    }
+   }
+  }
  }
 }

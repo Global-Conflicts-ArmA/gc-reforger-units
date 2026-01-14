@@ -1,0 +1,11 @@
+SCR_ChimeraCharacter : "{D18131EDC15F76FC}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Army Infantry/P/Character_RHS_USA_PL_P.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "First Sergeant"
+   }
+  }
+ }
+ coords 7045.35 61.48 4597.987
+}

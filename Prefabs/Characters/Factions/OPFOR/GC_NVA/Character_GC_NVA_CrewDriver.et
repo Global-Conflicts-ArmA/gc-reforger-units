@@ -14,13 +14,16 @@ SCR_ChimeraCharacter : "{BF79A1A472FA63F2}Prefabs/Characters/Factions/OPFOR/GC_N
     LoadoutSlotInfo Hat {
      Prefab "{D6B1ACA46036E9CE}Prefabs/Characters/HeadGear/Helmet_TSh4_01/Helmet_TSh4_01_open.et"
     }
+    LoadoutSlotInfo Back {
+     Prefab "{54C68E438DD34265}Prefabs/Items/Equipment/Radios/RU/Radio_R107M.et"
+    }
    }
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{652F4AD24B49D456}" {
      PrefabsToSpawn + {
-      "{E1A5D4B878AA8980}Prefabs/Items/Equipment/Radios/Radio_R148.et"
+      "{E1A5D4B878AA8980}Prefabs/Items/Equipment/Radios/RU/Radio_R148.et"
      }
     }
     ItemsInitConfigurationItem "{652F65D7EDF29A56}" {

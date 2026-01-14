@@ -4,5 +4,21 @@ SCR_ChimeraCharacter : "{C5746D78F7E68FE6}Prefabs/Characters/Factions/BLUFOR/RHS
   PS_PlayableComponent "{5EFCC1946F475F15}" {
    m_bIsPlayable 1
   }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Jacket {
+     Prefab "{801763CF140F78D8}Prefabs/Characters/Uniforms/Crye_shirt/Crye_G3_Shirt_M81.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{61E884192043D2D2}" {
+     PrefabsToSpawn {
+      "{D69684663E89D6EA}Prefabs/Items/Equipment/Radios/US/Radio_ANPRC152A_OLD.et"
+     }
+    }
+   }
+  }
  }
 }

@@ -1,0 +1,16 @@
+GenericEntity : "{76092EF06FE739D7}Prefabs/Items/Equipment/Radios/US/Radio_MARPATD_GC_PRC119.et" {
+ ID "508AB2013EEE1E00"
+ components {
+  BaseRadioComponent "{5A30BAE7673C63CA}" {
+   "Encryption key" "chickenNuggets"
+  }
+  BaseLoadoutClothComponent "{5EA4A89F0D06E1DE}" {
+   WornMaterialsOverride {
+    "{5FAFCB6B07DD96C6}Assets/Items/Equipment/Backpacks/Backpack_Radio/Data/antenna_01.emat" "{4DF7340B15B4A14A}Prefabs/Items/Equipment/Radios/Assets/RadioBag_M81.emat"
+   }
+   ItemMaterialsOverride {
+    "{5FAFCB6B07DD96C6}Assets/Items/Equipment/Backpacks/Backpack_Radio/Data/antenna_01.emat" "{4DF7340B15B4A14A}Prefabs/Items/Equipment/Radios/Assets/RadioBag_M81.emat"
+   }
+  }
+ }
+}

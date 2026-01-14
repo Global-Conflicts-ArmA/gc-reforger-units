@@ -1,8 +1,0 @@
-GenericEntity : "{2AB2EA12CC29E764}Prefabs/Items/Equipment/Radios/ANPRC152/Radio_ANPRC152_Base.et" {
- ID "508AB2013EEE1E00"
- components {
-  BaseRadioComponent "{5A30BAE7673C63CA}" {
-   "Encryption key" "royalCrown"
-  }
- }
-}

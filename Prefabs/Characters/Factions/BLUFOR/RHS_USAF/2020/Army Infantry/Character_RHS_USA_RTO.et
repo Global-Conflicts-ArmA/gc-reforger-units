@@ -16,7 +16,7 @@ SCR_ChimeraCharacter : "{36A12DD1497EDED6}Prefabs/Characters/Factions/BLUFOR/RHS
     LoadoutSlotInfo ArmoredVest {
     }
     LoadoutSlotInfo Back {
-     Prefab "{9B6B61BB3FE3DFB0}Prefabs/Items/Equipment/Radios/Radio_ANPRC77.et"
+     Prefab "{78AD6277BCA654C4}Prefabs/Items/Equipment/Radios/US/Radio_M81_GC_PRC119.et"
     }
     LoadoutSlotInfo Vest {
      Prefab "{AC5D02C03D0CE456}Prefabs/Characters/Vests/Vest_IMTV/Pouches/Pouches_IMTV_Rifleman.et"

@@ -7,7 +7,7 @@ SCR_ChimeraCharacter : "{290CC7354CC97778}Prefabs/Characters/Factions/OPFOR/GC_S
     Icon "{A26C465A6AE2AA17}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_Leader.edds"
     m_Image "{6601A3AE17EA976D}UI/Textures/EditorPreviews/Characters/INDFOR/FIA/Character_FIA_Rifleman.edds"
     m_aAutoLabels {
-     122 46
+     SIZE_M ROLE_RIFLEMAN
     }
    }
   }
@@ -64,7 +64,7 @@ SCR_ChimeraCharacter : "{290CC7354CC97778}Prefabs/Characters/Factions/OPFOR/GC_S
      TargetStorage "Pants/Trousers_Combat_68Pat_DPM_Tropical_01.et"
      TargetPurpose 1
      PrefabsToSpawn {
-      "{399EBA1849BFF48C}Prefabs/Items/Equipment/Radios/Radio_R187P1_OLD_Single_Separatist.et"
+      "{19D74C99726B69F3}Prefabs/Items/Equipment/Radios/Radio_R148_Seperatist.et"
      }
     }
     ItemsInitConfigurationItem "{664296531389A082}" {

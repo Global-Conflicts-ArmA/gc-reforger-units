@@ -1,0 +1,6 @@
+SCR_AIGroup : "{F6FEAC4B533C5A2E}Prefabs/Groups/BLUFOR/US/Army/1986/M113 Mech (Woodland)/Group_US_Army_1985_MechPHQ.et" {
+ ID "0000000000000001"
+ m_aUnitPrefabSlots {
+  "{45CD2BA057ADDCF5}Prefabs/Characters/Factions/BLUFOR/US_Army/1989/Infantry (Woodland)/P/Character_US_1989_BDU_COY_CO_P.et" "{1A42F980513AB34A}Prefabs/Characters/Factions/BLUFOR/US_Army/1989/Infantry (Woodland)/P/Character_US_1989_BDU_COY_XO_P.et" "{32DF7DDCD4B62929}Prefabs/Characters/Factions/BLUFOR/US_Army/1989/Infantry (Woodland)/P/Character_US_1989_BDU_COY_FS_P.et" "{9FDABBA1FA4E0382}Prefabs/Characters/Factions/BLUFOR/US_Army/1989/Infantry (Woodland)/P/Character_US_1989_BDU_RTO_P.et" "{05237B0E17127E74}Prefabs/Characters/Factions/BLUFOR/US_Army/Deprecated/Mechanised_Infantry/Character_US_1989_M113_Driver_P.et"
+ }
+}

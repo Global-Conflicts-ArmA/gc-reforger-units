@@ -64,7 +64,7 @@ SCR_ChimeraCharacter : "{D4F690DE83BEA3DA}Prefabs/Characters/Factions/BLUFOR/RHS
     ItemsInitConfigurationItem "{6512D231A62AFA49}" {
      TargetStorage "Vest/Vest_AVS_okinawa_MC.et/radio/Pouch_AVS_MBITR_Radio_MC.et"
      PrefabsToSpawn {
-      "{340C133625BB688E}Prefabs/Items/Equipment/Radios/Radio_ANPRC152A_OLD_Multi.et"
+      "{D69684663E89D6EA}Prefabs/Items/Equipment/Radios/US/Radio_ANPRC152A_OLD.et"
      }
     }
     ItemsInitConfigurationItem "{6514A55A222BF242}" {

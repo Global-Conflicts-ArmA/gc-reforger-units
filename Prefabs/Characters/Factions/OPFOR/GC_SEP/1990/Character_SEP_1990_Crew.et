@@ -7,7 +7,7 @@ SCR_ChimeraCharacter : "{290CC7354CC97778}Prefabs/Characters/Factions/OPFOR/GC_S
     Icon "{A489F552FB7489C3}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_Custom.edds"
     m_Image "{6601A3AE17EA976D}UI/Textures/EditorPreviews/Characters/INDFOR/FIA/Character_FIA_Rifleman.edds"
     m_aAutoLabels {
-     122 46
+     SIZE_M ROLE_RIFLEMAN
     }
    }
   }
@@ -33,6 +33,9 @@ SCR_ChimeraCharacter : "{290CC7354CC97778}Prefabs/Characters/Factions/OPFOR/GC_S
     LoadoutSlotInfo Boots {
      Prefab "{DAAFD15478BDE1C3}Prefabs/Characters/Footwear/CombatBoots_US_01.et"
     }
+    LoadoutSlotInfo Back {
+     Prefab "{E39332268603B622}Prefabs/Items/Equipment/Radios/Separatist/Radio_R107M_Separatist.et"
+    }
     LoadoutSlotInfo Vest {
      Prefab "{08155E701A949620}Prefabs/Characters/Vests/Vest_SovietHarness/Variants/Vest_SovietHarness_rifleman.et"
     }
@@ -50,7 +53,7 @@ SCR_ChimeraCharacter : "{290CC7354CC97778}Prefabs/Characters/Factions/OPFOR/GC_S
      TargetStorage "Pants/Pants_M88.et"
      TargetPurpose 1
      PrefabsToSpawn {
-      "{44CFE42B0ACF6451}Prefabs/Items/Equipment/Radios/Radio_R187P1_OLD_Multi_Separatist.et"
+      "{19D74C99726B69F3}Prefabs/Items/Equipment/Radios/Separatist/Radio_R148_Seperatist.et"
      }
     }
     ItemsInitConfigurationItem "{6642965313B03AB2}" {

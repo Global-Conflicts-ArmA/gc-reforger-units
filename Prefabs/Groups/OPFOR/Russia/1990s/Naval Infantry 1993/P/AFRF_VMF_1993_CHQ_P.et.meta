@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{1DD8C49AF3C39CA4}Prefabs/Groups/OPFOR/Russia/1990s/Naval Infantry 1993/P/AFRF_VMF_1993_CHQ_P.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

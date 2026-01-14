@@ -71,6 +71,9 @@ SCR_ChimeraCharacter : "{FEC3CB0B1E9A0CA0}Prefabs/Characters/Factions/INDFOR/GC_
       m_sVariantPrefab "{E9AD0ACEEAED3BC9}Prefabs/Characters/Factions/INDFOR/GC_MUJ/P/Variants/Character_MUJ_SMG_P_3.et"
       m_iRandomizerWeight 2
      }
+     SCR_EditableEntityVariant "{66B975591E11B9FA}" {
+      m_sVariantPrefab "{EDB42F7FCB70626F}Prefabs/Characters/Factions/INDFOR/GC_MUJ/P/Variants/Character_MUJ_AK_P_9.et"
+     }
      SCR_EditableEntityVariant "{66E0142A08EB0225}" {
       m_sVariantPrefab "{09981380AFD4EB5B}Prefabs/Characters/Factions/INDFOR/GC_MUJ/P/Variants/Character_MUJ_SMG_4_P.et"
      }

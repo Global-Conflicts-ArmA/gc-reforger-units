@@ -18,5 +18,14 @@ SCR_ChimeraCharacter : "{DC30E1E42C6BA859}Prefabs/Characters/Factions/OPFOR/GC_N
     Icon "{9A61AD7EADB131FD}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_Spotter.edds"
    }
   }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{652F4AD24B49D456}" {
+     PrefabsToSpawn + {
+      "{E1A5D4B878AA8980}Prefabs/Items/Equipment/Radios/RU/Radio_R148.et"
+     }
+    }
+   }
+  }
  }
 }

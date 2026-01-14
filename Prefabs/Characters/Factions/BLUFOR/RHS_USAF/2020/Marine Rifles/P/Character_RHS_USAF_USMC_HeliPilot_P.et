@@ -10,12 +10,17 @@ SCR_ChimeraCharacter : "{42A502E3BB727CEC}Prefabs/Characters/Factions/BLUFOR/RHS
      Prefab "{85ADC5E1BE7FACDB}Prefabs/Characters/HeadGear/Helmet_CVC_01/Helmet_CVC_Shroud_0.et"
     }
     LoadoutSlotInfo Back {
-     Prefab "{9B6B61BB3FE3DFB0}Prefabs/Items/Equipment/Radios/Radio_ANPRC77.et"
+     Prefab "{0D5E78711F52F010}Prefabs/Items/Equipment/Radios/US/Radio_MARPATWD_GC_PRC119.et"
     }
    }
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
+    ItemsInitConfigurationItem "{61B52C4506FFE973}" {
+     PrefabsToSpawn {
+      "{D69684663E89D6EA}Prefabs/Items/Equipment/Radios/US/Radio_ANPRC152A_OLD.et"
+     }
+    }
     ItemsInitConfigurationItem "{5D7CAAFB9235E902}" {
      TargetStorage "Jacket/Suit_Pilot_US_01.et"
      PrefabsToSpawn {

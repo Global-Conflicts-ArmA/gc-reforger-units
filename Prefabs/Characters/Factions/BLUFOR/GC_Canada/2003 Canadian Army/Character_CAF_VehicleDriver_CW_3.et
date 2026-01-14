@@ -27,7 +27,7 @@ SCR_ChimeraCharacter : "{27BF1FF235DD6036}Prefabs/Characters/Factions/BLUFOR/US_
    }
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
-   WeaponTemplate "{B759A0B9337E2A7A}Prefabs/Weapons/Rifles/M16/Variants/Rifle_C7.et"
+   WeaponTemplate "{B759A0B9337E2A7A}Prefabs/Weapons/Rifles/M16/Variants/Rifle_C7_OLD.et"
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
    WeaponTemplate ""
@@ -49,6 +49,9 @@ SCR_ChimeraCharacter : "{27BF1FF235DD6036}Prefabs/Characters/Factions/BLUFOR/US_
     LoadoutSlotInfo Boots {
      Prefab "{320FA1CD5B1D5601}Prefabs/Characters/Footwear/Boots_USMC_Combat/Footwear_USMC_Combat.et"
     }
+    LoadoutSlotInfo Back {
+     Prefab "{9B6B61BB3FE3DFB0}Prefabs/Items/Equipment/Radios/US/Radio_ANPRC77.et"
+    }
    }
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
@@ -66,7 +69,7 @@ SCR_ChimeraCharacter : "{27BF1FF235DD6036}Prefabs/Characters/Factions/BLUFOR/US_
     ItemsInitConfigurationItem "{651521AEC073DE7C}" {
      TargetStorage "Jacket/Jacket_CAF_BDU.et"
      PrefabsToSpawn {
-      "{73950FBA2D7DB5C5}Prefabs/Items/Equipment/Radios/Radio_ANPRC68.et"
+      "{73950FBA2D7DB5C5}Prefabs/Items/Equipment/Radios/US/Radio_ANPRC68.et"
      }
     }
    }

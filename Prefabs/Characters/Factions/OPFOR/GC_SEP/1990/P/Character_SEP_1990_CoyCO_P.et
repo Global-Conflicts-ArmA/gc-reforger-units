@@ -1,0 +1,36 @@
+SCR_ChimeraCharacter : "{2C52F66C0412FF88}Prefabs/Characters/Factions/OPFOR/GC_SEP/1990/Character_SEP_1990_PL.et" {
+ ID "520EC961A090B1EE"
+ components {
+  PS_PlayableComponent "{5EFCC1946F475F15}" {
+   m_bIsPlayable 1
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Company Comander"
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{B54B78383E64268F}Prefabs/Characters/HeadGear/Hat_M88_01/Hat_M88_01_v2.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{F6C7806DBBF26C50}Prefabs/Characters/Uniforms/Jacket_M88_rolledup_TTsKO.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6642965313B334DB}" {
+     TargetStorage "Jacket/Jacket_M88_rolledup_TTsKO.et"
+    }
+    ItemsInitConfigurationItem "{6642965313894E05}" {
+     TargetStorage "Jacket/Jacket_M88_rolledup_TTsKO.et"
+    }
+    ItemsInitConfigurationItem "{6642965313894E0A}" {
+     TargetStorage "Jacket/Jacket_M88_rolledup_TTsKO.et"
+    }
+   }
+  }
+ }
+}

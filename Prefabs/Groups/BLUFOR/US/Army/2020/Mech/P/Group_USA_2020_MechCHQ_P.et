@@ -1,0 +1,6 @@
+SCR_AIGroup : "{560B438ED1D1BBAC}Prefabs/Groups/BLUFOR/US/Army/2020/Mech/Group_USA_2020_MechPHQ.et" {
+ ID "0000000000000001"
+ m_aUnitPrefabSlots {
+  "{9BA5A8A566653980}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Army Infantry/P/Character_RHS_USA_CoyCO_P.et" "{F39218024B6AE0E3}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Army Infantry/P/Character_RHS_USA_Coy2IC_P.et" "{6021FBEF26F3C949}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Army Infantry/P/Character_RHS_USA_1SG_P.et" "{0968B9123279513A}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Army Infantry/P/Character_RHS_USA_RTO_P.et" "{6FE1861E4D73D425}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Army Infantry/P/Character_RHS_USA_Medic_P.et" "{6FE1861E4D73D425}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Army Infantry/P/Character_RHS_USA_Medic_P.et" "{953A28107E57C278}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Army Infantry/P/Character_RHS_USA_CrewGunner_P.et" "{97DB1731DB72FF81}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Army Infantry/P/Character_RHS_USA_CrewDriver_P.et"
+ }
+}

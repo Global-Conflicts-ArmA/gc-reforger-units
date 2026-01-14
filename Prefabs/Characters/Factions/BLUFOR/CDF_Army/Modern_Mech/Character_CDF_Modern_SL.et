@@ -49,7 +49,7 @@ SCR_ChimeraCharacter : "{CAF8467FB693C584}Prefabs/Characters/Factions/BLUFOR/CDF
     ItemsInitConfigurationItem "{5D7CC173E6675BF5}" {
      TargetStorage "Vest/Vest_TV110_arsarmaHSGI_OD_2.et/radio/Pouch_UP111_radioClosed_OD.et"
      PrefabsToSpawn {
-      "{4F6D4E77A6570C04}Prefabs/Items/Equipment/Radios/Radio_R148_CDF_Multi.et"
+      "{3183B4B5A27056CE}Prefabs/Items/Equipment/Radios/CDF/Radio_R148_CDF.et"
      }
     }
     ItemsInitConfigurationItem "{62FB097A778BD827}" {

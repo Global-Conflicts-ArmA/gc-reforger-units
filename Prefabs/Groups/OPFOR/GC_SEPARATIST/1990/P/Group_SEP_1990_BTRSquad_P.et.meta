@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{DE22B47BD1A643A9}Prefabs/Groups/OPFOR/GC_SEPARATIST/1990/P/Group_SEP_1990_BTRSquad_P.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

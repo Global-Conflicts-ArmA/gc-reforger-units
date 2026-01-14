@@ -1,0 +1,30 @@
+GenericEntity : "{2DEE1C3D93F591CD}Prefabs/Items/Equipment/Radios/UK/Radio_PRC320.et" {
+ ID "508AB2013EEE1E00"
+ components {
+  BaseRadioComponent "{5A30BAE7673C63CA}" {
+   "Encryption key" "coldBorscht"
+   Transceivers {
+    RadioTransceiver "{5EA4A89F0D06E18F}" {
+     ChannelFrequency 42000
+     "Frequency resolution" 100
+    }
+   }
+  }
+  SCR_DeployableInventoryItemInventoryComponent "{5222EB4D0C73006B}" {
+   Attributes SCR_ItemAttributeCollection "{5222EB4D0A2B466B}" {
+    ItemDisplayName UIInfo "{5222EB4D07D865FA}" {
+     Name "R-168 Akveduk"
+     Description "Russian manpack radio. Fun fact: Akveduk translates to aqueduct."
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5EA4A89F0D06E1DE}" {
+   WornMaterialsOverride {
+    "{5FAFCB6B07DD96C6}Assets/Items/Equipment/Backpacks/Backpack_Radio/Data/antenna_01.emat" "{B5458E1AD4B0676D}Assets/Items/Equipment/Radios/Assets/RadioBag_EMR.emat"
+   }
+   ItemMaterialsOverride {
+    "{5FAFCB6B07DD96C6}Assets/Items/Equipment/Backpacks/Backpack_Radio/Data/antenna_01.emat" "{B5458E1AD4B0676D}Assets/Items/Equipment/Radios/Assets/RadioBag_EMR.emat"
+   }
+  }
+ }
+}

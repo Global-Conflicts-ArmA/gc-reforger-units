@@ -14,6 +14,7 @@ SCR_ChimeraCharacter : "{77F5DF1C44F71C37}Prefabs/Characters/Factions/BLUFOR/GC_
      Prefab "{C8EAB0985B66824A}Prefabs/Characters/HeadGear/Helmet_DH132_01/Helmet_DH132A_01.et"
     }
     LoadoutSlotInfo Back {
+     Prefab "{9B6B61BB3FE3DFB0}Prefabs/Items/Equipment/Radios/US/Radio_ANPRC77.et"
     }
    }
   }
@@ -25,7 +26,7 @@ SCR_ChimeraCharacter : "{77F5DF1C44F71C37}Prefabs/Characters/Factions/BLUFOR/GC_
     }
     ItemsInitConfigurationItem "{65174682E071E18A}" {
      PrefabsToSpawn {
-      "{59CA00DA0E8F426B}Prefabs/Items/Equipment/Radios/Radio_ANPRC68_Single.et"
+      "{73950FBA2D7DB5C5}Prefabs/Items/Equipment/Radios/US/Radio_ANPRC68.et"
      }
     }
    }

@@ -1,0 +1,15 @@
+SCR_AIGroup : "{B50B7BF31273C2A6}Prefabs/Groups/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Group_RHS_RF_MSV_VKPO_DS_Base.et" {
+ ID "0000000000000001"
+ components {
+  SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+   m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+    m_sFaction "GC_SEPARATIST"
+   }
+  }
+ }
+ m_faction "GC_SEPARATIST"
+ m_aUnitPrefabSlots {
+  "{EA4EADCD22E970B0}Prefabs/Characters/Factions/OPFOR/GC_SEP/2020/P/Character_SEP_SL_P.et" "{4FCB1540F6AFC4DA}Prefabs/Characters/Factions/OPFOR/GC_SEP/2020/P/Character_SEP_AR_P.et" "{F21B47C789B4D8C4}Prefabs/Characters/Factions/OPFOR/GC_SEP/2020/P/Character_SEP_AT_P.et" "{95F16E964A2D2294}Prefabs/Characters/Factions/OPFOR/GC_SEP/2020/P/Character_SEP_GL_P.et" "{38C89DCBBB9ED4B2}Prefabs/Characters/Factions/OPFOR/GC_SEP/2020/P/Character_SEP_TL_P.et" "{A7BA9DA98C655A24}Prefabs/Characters/Factions/OPFOR/GC_SEP/2020/P/Character_SEP_Rifleman_P.et" "{393715C9B024A706}Prefabs/Characters/Factions/OPFOR/GC_SEP/2020/P/Character_SEP_CrewGunner_P.et" "{1346878B0E02169F}Prefabs/Characters/Factions/OPFOR/GC_SEP/2020/P/Character_SEP_CrewDriver_P.et"
+ }
+ m_bSetPlayable 1
+}

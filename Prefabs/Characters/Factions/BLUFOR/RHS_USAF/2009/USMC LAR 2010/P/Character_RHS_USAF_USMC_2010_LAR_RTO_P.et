@@ -15,6 +15,9 @@ SCR_ChimeraCharacter : "{9A38B3DFD014403C}Prefabs/Characters/Factions/BLUFOR/RHS
     LoadoutSlotInfo ArmoredVest {
      Prefab "{822B66CBF331F844}Prefabs/Characters/Vests/Vest_PCGen_II/Vest_PCGen_II_base.et"
     }
+    LoadoutSlotInfo Back {
+     Prefab "{0D5E78711F52F010}Prefabs/Items/Equipment/Radios/US/Radio_MARPATWD_GC_PRC119.et"
+    }
     LoadoutSlotInfo Vest {
      Prefab "{541A06BBBA3C8569}Prefabs/Characters/Vests/Vest_PCGen_II/Variants/Vest_PCGen_II_rifleman.et"
     }
@@ -24,9 +27,9 @@ SCR_ChimeraCharacter : "{9A38B3DFD014403C}Prefabs/Characters/Factions/BLUFOR/RHS
    InitialInventoryItems {
     ItemsInitConfigurationItem "{61B52C4506FFE973}" {
      TargetStorage "Vest/Vest_PCGen_II_rifleman.et/radio/Pouch_152_Radio.et"
-    }
-    ItemsInitConfigurationItem "{64A8A6CECABD9FC5}" {
-     TargetStorage "Jacket/Jacket_FROG_Combat_Shirt.et"
+     PrefabsToSpawn {
+      "{D69684663E89D6EA}Prefabs/Items/Equipment/Radios/US/Radio_ANPRC152A_OLD.et"
+     }
     }
     ItemsInitConfigurationItem "{60CA1641A3B5C9A3}" {
      TargetStorage "Vest/Vest_PCGen_II_rifleman.et/Pouch1/Pouch_OpenTop_M27_1_pouch.et"
@@ -51,6 +54,9 @@ SCR_ChimeraCharacter : "{9A38B3DFD014403C}Prefabs/Characters/Factions/BLUFOR/RHS
     }
     ItemsInitConfigurationItem "{62B69B4ACA6543F2}" {
      TargetStorage "Vest/Vest_PCGen_II_rifleman.et/m18_2/Pouch_Filbe_M18_2.et"
+    }
+    ItemsInitConfigurationItem "{64A8A6CECABD9FC5}" {
+     TargetStorage "Jacket/Jacket_FROG_Combat_Shirt.et"
     }
     ItemsInitConfigurationItem "{651301B2D9812773}" {
      TargetStorage "Hat/Helmet_LWH_Shroud_marpatWoodland.et"

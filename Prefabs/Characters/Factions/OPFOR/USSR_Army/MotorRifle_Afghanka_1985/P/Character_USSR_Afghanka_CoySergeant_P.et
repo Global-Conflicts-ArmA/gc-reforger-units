@@ -10,7 +10,7 @@ SCR_ChimeraCharacter : "{318E775193ED4578}Prefabs/Characters/Factions/OPFOR/USSR
    InitialInventoryItems {
     ItemsInitConfigurationItem "{5D7CC173E6675BF7}" {
      PrefabsToSpawn + {
-      "{715F17F82E028CF5}Prefabs/Items/Equipment/Radios/Radio_R148_Single.et"
+      "{E1A5D4B878AA8980}Prefabs/Items/Equipment/Radios/RU/Radio_R148.et"
      }
     }
    }

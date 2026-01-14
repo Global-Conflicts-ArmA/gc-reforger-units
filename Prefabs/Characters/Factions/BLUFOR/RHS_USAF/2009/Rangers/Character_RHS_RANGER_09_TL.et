@@ -26,7 +26,7 @@ SCR_ChimeraCharacter : "{D9936548CBBAA1CD}Prefabs/Characters/Factions/BLUFOR/RHS
     ItemsInitConfigurationItem "{65770A32779A3B04}" {
      TargetStorage "Vest/Vest_JPC_ronin_RGR.et/Tako/Pouch_AVS_MBITR_Radio_RGR.et"
      PrefabsToSpawn {
-      "{5D948A57AF3432ED}Prefabs/Items/Equipment/Radios/Radio_ANPRC152A_OLD_Single.et"
+      "{D69684663E89D6EA}Prefabs/Items/Equipment/Radios/US/Radio_ANPRC152A_OLD.et"
      }
     }
    }

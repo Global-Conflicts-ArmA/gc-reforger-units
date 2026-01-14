@@ -1,0 +1,77 @@
+SCR_ChimeraCharacter : "{94DB2F66DDCD8783}Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/Royal Marines Commandos/Character_UK_2024_RM_Section1IC_P.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Company Commander"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{E284DC8401AE8648}Prefabs/Weapons/Rifles/KAC KS/KAC_KS1_L403A1_FDE.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{F4EA5339BC3DA620}Prefabs/Characters/HeadGear/Helmet_OPSCORE/Helmet_OPSCORE_MT_MC_Liberator.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{2765CDAAA6FE1C73}Prefabs/Characters/Uniforms/Crye/Crye_G4/Crye_G4_Combat_Shirt_MC.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{6170F376E4C8D3B9}Prefabs/Characters/Uniforms/Crye/Crye_G4/Crye_G4_Combat_Pants_MC.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{02585ED96CFE147F}Prefabs/Characters/Footwear/Saloman_XUltra/Boots_Salomon_XUltra_Black.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{A50C7282CFC3B562}Prefabs/Characters/Backpacks/Panels/Crye_ZipOn_Pack/Crye_ZipOn_Pack_MC.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{D63296EBAC577F98}Prefabs/Characters/Vests/Belts/Webbing/JayJays_Gen4/Variants/Webbing_JayJays_Gen4_Commander_02.et"
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab "{0D9D0C18303F6D76}Prefabs/Characters/Handwear/Gloves_511_Competition/Gloves_511_Comp_Black.et"
+    }
+    LoadoutSlotInfo Head {
+    }
+    LoadoutSlotInfo Ears {
+    }
+    LoadoutSlotInfo Face {
+     Prefab "{75F3ED41A7F79D93}Prefabs/Characters/HeadGear/Masks/Masks_Keela_Snood/Masks_Keela_Snood_MC.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{610CC3129E7848BC}" {
+     TargetStorage "Vest/Webbing_JayJays_Gen4_Commander_02.et/MagPouch/Pouch_JayJays_MagazineDouble_1_MC.et"
+    }
+    ItemsInitConfigurationItem "{610CC3129FF70707}" {
+     TargetStorage "Vest/Webbing_JayJays_Gen4_Commander_02.et/MagPouch2/Pouch_JayJays_MagazineDouble_2_MC.et"
+    }
+    ItemsInitConfigurationItem "{610CC312DBF11ACA}" {
+     TargetStorage "Vest/Webbing_JayJays_Gen4_Commander_02.et/Utility1/Pouch_JayJays_Radio_MC.et"
+     PrefabsToSpawn +{
+     }
+    }
+    ItemsInitConfigurationItem "{610CC31278A75ED6}" {
+     TargetStorage "Vest/Webbing_JayJays_Gen4_Commander_02.et/Utility2/Pouch_JayJays_Utility2_MC.et"
+    }
+    ItemsInitConfigurationItem "{6488D76467B90CEE}" {
+     TargetStorage "Vest/Webbing_JayJays_Gen4_Commander_02.et/MagPouch3/Pouch_JayJays_MagazineDouble_2_MC.et"
+    }
+    ItemsInitConfigurationItem "{65C2BC45F347AF95}" {
+     TargetStorage "Vest/Webbing_JayJays_Gen4_Commander_02.et/MagPouch4/Pouch_JayJays_MagazineDouble_1_MC.et"
+    }
+    ItemsInitConfigurationItem "{6488D76467B90F4B}" {
+     TargetStorage "Vest/Webbing_JayJays_Gen4_Commander_02.et/Utility3/Pouch_JayJays_Utility3_MC.et"
+    }
+    ItemsInitConfigurationItem "{6488D76467B90F01}" {
+     TargetStorage "Vest/Webbing_JayJays_Gen4_Commander_02.et/Utility4/Pouch_JayJays_Utility4_MC.et"
+    }
+   }
+  }
+ }
+}
