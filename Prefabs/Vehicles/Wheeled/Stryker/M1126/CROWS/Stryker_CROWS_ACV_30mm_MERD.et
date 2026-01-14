@@ -1,0 +1,13 @@
+Vehicle : "{010B668CFACA4711}Prefabs/Vehicles/Wheeled/Stryker/M1126/CROWS/Stryker_CROWS_ACV_30mm.et" {
+ ID "0000000000000001"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{685D46242AAD8A73}" {
+     SourceMaterial "STYKER_base_exterior_Body"
+     AssignedMaterial "{86D026CD28DAE14E}Assets/Vehicles/Wheeled/SPC_Stryker/data/STRYKER_base_exterior_MERDC.emat"
+    }
+   }
+  }
+ }
+}
