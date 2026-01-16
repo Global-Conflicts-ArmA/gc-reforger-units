@@ -1,0 +1,12 @@
+Tank : "{24223D0679CDD612}Prefabs/Vehicles/Tracked/BFV/M2A2_OD.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Turret {
+     Prefab "{6CE44F0A2127416F}Prefabs/Vehicles/Tracked/BFV/VehParts/Turret/M2A2_Turret_BASE_linebacker.et"
+    }
+   }
+  }
+ }
+}
