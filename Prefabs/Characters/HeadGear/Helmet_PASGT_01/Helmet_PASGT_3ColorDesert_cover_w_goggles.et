@@ -1,0 +1,9 @@
+GameEntity : "{4848BD3BA3326555}Prefabs/Characters/HeadGear/Helmet_PASGT_01/Helmet_PASGT_3ColorDesert_cover.et" {
+ ID "50D485E1435D6C72"
+ components {
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   WornModel "{80051C2DA887BC0F}Assets/Characters/HeadGear/Helmet_PASGT/Helmet_PASGT_01_cover_with_goggles.xob"
+   ItemModel "{6957A8C0CB8F4F60}Assets/Characters/HeadGear/Helmet_PASGT/Helmet_PASGT_01_cover_with_goggles_item.xob"
+  }
+ }
+}

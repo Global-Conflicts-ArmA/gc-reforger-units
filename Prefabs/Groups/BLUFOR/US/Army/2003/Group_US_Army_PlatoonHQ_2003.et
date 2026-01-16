@@ -1,0 +1,7 @@
+SCR_AIGroup : "{B4C624C9BF8B9561}Prefabs/Groups/BLUFOR/US/Army/2003/Group_US_Army_CoyHQ_2003.et" {
+ ID "0000000000000001"
+ coords -4.167 4.152 3.238
+ m_aUnitPrefabSlots {
+  "{C84638A40B8838A6}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/Character_US_PL_2003.et" "{A3BB30CA634BE861}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/Character_US_PSG_2003.et" "{019D4960635AFCA8}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/Character_US_RTO_2003.et" "{DD1D09684EFD53BB}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/Character_US_Medic_2003.et"
+ }
+}

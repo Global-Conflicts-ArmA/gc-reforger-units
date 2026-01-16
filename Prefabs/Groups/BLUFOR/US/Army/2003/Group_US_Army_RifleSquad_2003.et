@@ -1,0 +1,6 @@
+SCR_AIGroup : "{B7995B801AFAA900}Prefabs/Groups/BLUFOR/US/Army/2003/Group_US_Army_PlatoonHQ_2003.et" {
+ ID "0000000000000001"
+ m_aUnitPrefabSlots {
+  "{88B61981BD94BAE1}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/Character_US_SL_2003.et" "{F7561B8F24FFD223}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/Character_US_TL_2003.et" "{4BE6B6062F3CFA70}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/Character_US_Grenadier_2003.et" "{A6C85E9CD7539F9A}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/Character_US_AR_2003.et" "{43A3C6E50D1EE238}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/Character_US_RiflemanLAT_2003.et" "{F7561B8F24FFD223}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/Character_US_TL_2003.et" "{4BE6B6062F3CFA70}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/Character_US_Grenadier_2003.et" "{A6C85E9CD7539F9A}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/Character_US_AR_2003.et" "{43A3C6E50D1EE238}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/Character_US_RiflemanLAT_2003.et"
+ }
+}

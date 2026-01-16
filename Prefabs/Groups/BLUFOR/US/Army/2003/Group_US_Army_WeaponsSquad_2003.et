@@ -1,0 +1,6 @@
+SCR_AIGroup : "{B784B16AB3F17CF9}Prefabs/Groups/BLUFOR/US/Army/2003/Group_US_Army_RifleSquad_2003.et" {
+ ID "0000000000000001"
+ m_aUnitPrefabSlots {
+  "{A0D66C995C649E88}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/Character_US_WeaponsSL_2003.et" "{AA86CB4755FD1B1B}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/Character_US_MG_2003.et" "{19EF5C0DB7AFC643}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/Character_US_MGAsst_2003.et" "{AA86CB4755FD1B1B}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/Character_US_MG_2003.et" "{19EF5C0DB7AFC643}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/Character_US_MGAsst_2003.et" "{ABC3D8CD62F8B5D9}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/Character_US_CarlG_2003.et" "{BBAF60B2DB241158}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/Character_US_CarlGAsst_2003.et" "{ABC3D8CD62F8B5D9}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/Character_US_CarlG_2003.et" "{BBAF60B2DB241158}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/Character_US_CarlGAsst_2003.et"
+ }
+}
