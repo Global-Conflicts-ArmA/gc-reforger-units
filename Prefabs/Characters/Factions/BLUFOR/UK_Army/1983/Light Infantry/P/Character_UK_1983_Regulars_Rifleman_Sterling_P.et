@@ -18,9 +18,14 @@ SCR_ChimeraCharacter : "{AD4C5059DE96F917}Prefabs/Characters/Factions/BLUFOR/UK_
       "{05E4A7305629F332}Prefabs/Characters/HeadGear/Hat_Beret_01/Hat_Beret_01_Rifles.et"
      }
     }
+    ItemsInitConfigurationItem "{610CC3129E7848BC}" {
+     PrefabsToSpawn {
+      "{91EA3DF1BA0AB1EF}Prefabs/Weapons/Magazines/Magazine_9x19_L2A3_34rnd_Ball.et" "{91EA3DF1BA0AB1EF}Prefabs/Weapons/Magazines/Magazine_9x19_L2A3_34rnd_Ball.et" "{91EA3DF1BA0AB1EF}Prefabs/Weapons/Magazines/Magazine_9x19_L2A3_34rnd_Ball.et" "{91EA3DF1BA0AB1EF}Prefabs/Weapons/Magazines/Magazine_9x19_L2A3_34rnd_Ball.et"
+     }
+    }
     ItemsInitConfigurationItem "{610CC312DBF11ACA}" {
-     PrefabsToSpawn + {
-      "{01F56F6D9A15D96A}Prefabs/Weapons/Magazines/Magazine_9x19_L2A3_34rnd_BattleMix.et"
+     PrefabsToSpawn {
+      "{91EA3DF1BA0AB1EF}Prefabs/Weapons/Magazines/Magazine_9x19_L2A3_34rnd_Ball.et" "{91EA3DF1BA0AB1EF}Prefabs/Weapons/Magazines/Magazine_9x19_L2A3_34rnd_Ball.et" "{91EA3DF1BA0AB1EF}Prefabs/Weapons/Magazines/Magazine_9x19_L2A3_34rnd_Ball.et" "{91EA3DF1BA0AB1EF}Prefabs/Weapons/Magazines/Magazine_9x19_L2A3_34rnd_Ball.et"
      }
     }
     ItemsInitConfigurationItem "{610CC31278A75ED6}" {

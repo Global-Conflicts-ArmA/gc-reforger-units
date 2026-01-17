@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{0F68127A99BCD429}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/SpecialForces/Character_UK_1989_SpecialForces_Trooper_P.et" {
+SCR_ChimeraCharacter : "{0F68127A99BCD429}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/Special Forces/Character_UK_1989_SpecialForces_Trooper_P.et" {
  ID "520EC961A090B1EE"
  components {
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
@@ -33,6 +33,9 @@ SCR_ChimeraCharacter : "{0F68127A99BCD429}Prefabs/Characters/Factions/BLUFOR/UK_
     }
     ItemsInitConfigurationItem "{62849D41EBD4ECE0}" {
      TargetStorage "Vest/Vest_P58_rifleman_2_L85.et/MagPouch/Pouch_P58_20rnd_L1A1_Left_L3A1.et"
+     PrefabsToSpawn {
+      "{F605A4A0573F4BED}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_RadwayGreen_2+2.et" "{F605A4A0573F4BED}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_RadwayGreen_2+2.et" "{F605A4A0573F4BED}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_RadwayGreen_2+2.et" "{E882742A33858D5A}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_RadwayGreen_Ball.et"
+     }
     }
     ItemsInitConfigurationItem "{62849D41EBD4ECE4}" {
      TargetStorage "Vest/Vest_P58_rifleman_2_L85.et/KidneyRight/Vest_P58_water_bottle_utility.et"
@@ -40,7 +43,7 @@ SCR_ChimeraCharacter : "{0F68127A99BCD429}Prefabs/Characters/Factions/BLUFOR/UK_
     ItemsInitConfigurationItem "{62849D41EBD52DB8}" {
      TargetStorage "Vest/Vest_P58_rifleman_2_L85.et/MagPouch/Pouch_P58_20rnd_L1A1_Left_L3A1.et"
      PrefabsToSpawn + {
-      "{F605A4A0573F4BED}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_RadwayGreen_2+2.et"
+      "{E882742A33858D5A}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_RadwayGreen_Ball.et"
      }
     }
     ItemsInitConfigurationItem "{62849D41EBD52DBA}" {
