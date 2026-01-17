@@ -1,0 +1,48 @@
+SCR_ChimeraCharacter : "{3A10CE06B37CDCC1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_CrewGunner.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_VariantData SCR_EditableEntityVariantData "{685144E3F4A1735B}" {
+    m_bRandomizeDefaultVariant 0
+    m_aVariants {
+     SCR_EditableEntityVariant "{685144E3F5E8E670}" {
+      m_sVariantPrefab ""
+      m_bEnabled 0
+     }
+     SCR_EditableEntityVariant "{68531DFA8BF120DA}" {
+      m_sVariantPrefab ""
+      m_bEnabled 0
+     }
+    }
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{AD1B343E015F2D11}Prefabs/Weapons/Rifles/M3A1/BC_M3A1.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{5D7350496AEA24C8}Prefabs/Characters/HeadGear/Hat_RadiovkaBeret_01/Hat_RadiovkaBeret_01_black_Dirty.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{A707F4543A61CA8B}Prefabs/Characters/Uniforms/Suit_Tanker_US_01/Suit_GroundCrew_UK_01_tucked.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab ""
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68512154CB74203B}" {
+     TargetStorage "Jacket/Suit_GroundCrew_UK_01_tucked.et"
+    }
+    ItemsInitConfigurationItem "{68512154C8364623}" {
+     PrefabsToSpawn {
+      "{0B17FB1F4A9F5289}Prefabs/Weapons/Magazines/M3A1/BC_Magazine_45acp_M3A1_30rnd_Ball.et" "{0B17FB1F4A9F5289}Prefabs/Weapons/Magazines/M3A1/BC_Magazine_45acp_M3A1_30rnd_Ball.et" "{0B17FB1F4A9F5289}Prefabs/Weapons/Magazines/M3A1/BC_Magazine_45acp_M3A1_30rnd_Ball.et"
+     }
+    }
+   }
+  }
+ }
+}

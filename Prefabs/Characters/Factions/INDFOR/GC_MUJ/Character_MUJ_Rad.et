@@ -27,7 +27,7 @@ SCR_ChimeraCharacter : "{B3E96BAF62B0AB1E}Prefabs/Characters/Factions/INDFOR/GC_
      Prefab "{F37E8195BD4BBAA8}Prefabs/Characters/HeadGear/Hat_FlatCap_01/Pakol_Hat_2.et"
     }
     LoadoutSlotInfo Back {
-     Prefab "{4181B1C8B5E56392}Prefabs/Items/Equipment/Radios/Radio_R107M_FIA.et"
+     Prefab ""
     }
    }
   }

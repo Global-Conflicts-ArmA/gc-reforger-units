@@ -1,0 +1,48 @@
+SCR_ChimeraCharacter : "{C3479D865ABE2C9E}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_CrewCmdr.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_VariantData SCR_EditableEntityVariantData "{684F4DAB590A404D}" {
+    m_aVariants {
+     SCR_EditableEntityVariant "{669B08DE8BF89469}" {
+      m_sVariantPrefab ""
+      m_bEnabled 0
+     }
+     SCR_EditableEntityVariant "{68531DFAB49BA547}" {
+      m_sVariantPrefab ""
+      m_bEnabled 0
+     }
+    }
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{D6B1ACA46036E9CE}Prefabs/Characters/HeadGear/Helmet_TSh4_01/Helmet_TSh4_01_open.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{A707F4543A61CA8B}Prefabs/Characters/Uniforms/Suit_Tanker_US_01/Suit_GroundCrew_UK_01_tucked.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab ""
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{B12C47DF95EC9C17}Prefabs/Characters/Footwear/CombatBoots_Insurgents.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{6670741861B607F0}Prefabs/Characters/Vests/Vest_ChestRigSmal/Vest_ChestRigSmall_1.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{684F4DA9B2678FAC}" {
+     TargetStorage "Jacket/Suit_GroundCrew_UK_01_tucked.et"
+    }
+    ItemsInitConfigurationItem "{684F4DA9AADB5196}" {
+     TargetStorage "Vest/Vest_ChestRigSmall_1.et"
+    }
+   }
+  }
+ }
+}

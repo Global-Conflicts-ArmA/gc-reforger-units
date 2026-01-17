@@ -1,6 +1,17 @@
 SCR_AIGroup : "{BBB7BD06A413240D}Prefabs/Groups/BLUFOR/British Forces/1983/P/Special Forces/Group_UK_1983_SpecialForces_Patrol_P.et" {
  ID "0000000000000001"
- m_aUnitPrefabSlots {
-  "{1C0D3DCDD1E766E0}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Special Forces/Character_UK_1983_SpecialForces_TroopLeader_P.et" "{205F4DC054E25829}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Special Forces/Character_UK_1983_SpecialForces_RTO_P.et" "{886234D583F13696}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Special Forces/Character_UK_1983_SpecialForces_GPMG_P.et" "{5059ACD39860C1EE}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Special Forces/Character_UK_1983_SpecialForces_GPMG_No2_P.et"
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "file"
+  }
+  PS_GroupCallsignAssigner "{684D655EF51CC087}" {
+   m_iCompanyCallsign 1
+   m_iPlatoonCallsign 1
+   m_iSquadCallsign 1
+  }
  }
+ m_aUnitPrefabSlots {
+  "{9E42C8957BC1DFD9}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Special Forces/P/Character_UK_1983_SpecialForces_TroopIC_P.et" "{205F4DC054E25829}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Special Forces/P/Character_UK_1983_SpecialForces_RTO_P.et" "{AA0F62256BE79EF2}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Special Forces/P/Character_UK_1983_SpecialForces_MG_P.et" "{B80EC0FA08ACDBD3}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Special Forces/P/Character_UK_1983_SpecialForces_MGA_P.et"
+ }
+ m_sCustomNameSet "Troop OC"
 }

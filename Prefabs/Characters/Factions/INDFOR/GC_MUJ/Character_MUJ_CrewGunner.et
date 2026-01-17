@@ -1,0 +1,67 @@
+SCR_ChimeraCharacter : "{D3F29763F96877CD}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_base.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-VehiclePosition_Gunner"
+    Icon "{EE0B4CDEA86FC24A}UI/Textures/DeployMenu/LoadoutIcons/LoadoutIcons.imageset"
+    IconSetName "EditableEntity_Character_Crew"
+   }
+   m_VariantData SCR_EditableEntityVariantData "{685144E3F4A1735B}" {
+    m_bRandomizeDefaultVariant 0
+    m_aVariants {
+     SCR_EditableEntityVariant "{685144E3F5E8E670}" {
+      m_sVariantPrefab "{3A10CE06B37CDCC1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_CrewGunner.et"
+     }
+     SCR_EditableEntityVariant "{68531DFA8BF120DA}" {
+      m_sVariantPrefab "{762FA2B0B868F31E}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Variants/Character_MUJ_CrewGunner1.et"
+     }
+    }
+   }
+  }
+  CharacterGrenadeSlotComponent "{520EA1D2F659CE6E}" {
+   WeaponTemplate "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+  }
+  CharacterGrenadeSlotComponent "{5A6CDA0CCF43068E}" {
+   WeaponTemplate "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{BFEA719491610A45}Prefabs/Weapons/Rifles/AKS74U/Rifle_AKS74U.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{EB2F05A3751B905A}Prefabs/Characters/HeadGear/Helmet_TSh4_01/Helmet_TSh4_01.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{0048AA56450ED17F}Prefabs/Characters/Uniforms/Jacket_ShirtSmall_1.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{86BB79B9A2233780}Prefabs/Characters/Uniforms/Pants_US_M65.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{3E907D6732445C0F}Prefabs/Characters/Footwear/Boots_DMS_UK_01.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{9713FE6DDCC9510D}Prefabs/Characters/Vests/Vest_Lifchik/Vest_Lifchik.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68512154CB74203B}" {
+     TargetStorage "Pants/Pants_US_M65.et"
+     PrefabsToSpawn {
+      "{7CEF68E2BC68CE71}Prefabs/Items/Equipment/Compass/Compass_Adrianov.et" "{13772C903CB5E4F7}Prefabs/Items/Equipment/Maps/PaperMap_01_folded.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et" "{062E2F1D7F6739D6}Prefabs/Items/Equipment/Accessories/ETool_MPL50/ETool_MPL50_FreeRoamBuilding_Gadget.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68512154C8364623}" {
+     TargetStorage "Vest/Vest_Lifchik.et"
+     PrefabsToSpawn {
+      "{BBB50A815A2F916B}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Ball.et" "{BBB50A815A2F916B}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Ball.et"
+     }
+    }
+   }
+  }
+ }
+}
