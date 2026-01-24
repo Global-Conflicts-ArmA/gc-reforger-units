@@ -1,0 +1,6 @@
+SCR_AIGroup : "{B784B16AB3F17CF9}Prefabs/Groups/BLUFOR/US/Army/2003/Group_US_Army_RifleSquad_2003.et" {
+ ID "0000000000000001"
+ m_aUnitPrefabSlots {
+  "{D4F6A0787181CB1F}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/P/Character_US_SL_2003_P.et" "{FD5490AFC17740B3}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/P/Character_US_TL_2003_P.et" "{A5ED8F8254FF6906}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/P/Character_US_Grenadier_2003_P.et" "{66A3913A20F33942}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/P/Character_US_AR_2003_P.et" "{46CF76BA1F697980}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/P/Character_US_RiflemanLAT_2003_P.et" "{FD5490AFC17740B3}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/P/Character_US_TL_2003_P.et" "{A5ED8F8254FF6906}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/P/Character_US_Grenadier_2003_P.et" "{66A3913A20F33942}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/P/Character_US_AR_2003_P.et" "{46CF76BA1F697980}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/P/Character_US_RiflemanLAT_2003_P.et"
+ }
+}

@@ -1,0 +1,8 @@
+SCR_ChimeraCharacter : "{19EF5C0DB7AFC643}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/Character_US_MGAsst_2003.et" {
+ ID "520EC961A090B1EE"
+ components {
+  PS_PlayableComponent "{5EFCC1946F475F15}" {
+   m_bIsPlayable 1
+  }
+ }
+}

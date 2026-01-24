@@ -1,0 +1,6 @@
+SCR_AIGroup : "{EACD97CF4A702FAE}Prefabs/Groups/BLUFOR/Group_US_Base.et" {
+ ID "0000000000000001"
+ m_aUnitPrefabSlots {
+  "{16D0668095D7F7E8}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/Character_US_CoyL_2003.et" "{30ED9B2AC84CACD6}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/Character_US_CoyXO_2003.et" "{C58DB8C891D5352A}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/Character_US_Coy1SG_2003.et" "{019D4960635AFCA8}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/Character_US_RTO_2003.et" "{DD1D09684EFD53BB}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/Character_US_Medic_2003.et"
+ }
+}
