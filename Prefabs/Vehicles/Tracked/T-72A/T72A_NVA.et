@@ -33,6 +33,9 @@ Tank : "{BC07885176C7FF8A}Prefabs/Vehicles/Tracked/T-72A/T72A_base.et" {
    }
    m_iMaxAllowedDepth 2
   }
+  RHS_GroupMaterialController "{686863902FC16A1D}" {
+   Enabled 0
+  }
   SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
    m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
     m_sFaction "GC_NVA"

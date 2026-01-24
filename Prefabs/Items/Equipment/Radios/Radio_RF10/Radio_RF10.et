@@ -5,7 +5,7 @@ GenericEntity : "{B15E9D81210CFC1C}Prefabs/Items/Equipment/Radios/Radio_RF10/Rad
    "Turned on" 1
    Transceivers {
     RadioTransceiver "{5EA4A89F0D06E18F}" {
-     "Transmitting Range" 1000
+     "Transmitting Range" 800
      "Frequency resolution" 100
     }
    }

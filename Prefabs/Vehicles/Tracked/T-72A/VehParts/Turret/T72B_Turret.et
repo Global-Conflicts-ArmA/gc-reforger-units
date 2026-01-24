@@ -5,9 +5,40 @@ Turret : "{3474BEBB23BA5793}Prefabs/Vehicles/Tracked/T-72A/VehParts/Turret/T72_t
    components {
     SCR_2DSightsComponent "{648607B051371298}" {
      SightsFOVInfo SCR_SightsZoomFOVInfo "{648607B05137129F}" {
-      m_fBaseZoom 0.8
+      m_fZoomMax 8
       m_fStepZoomSize 5
      }
+    }
+   }
+  }
+  SlotManagerComponent "{64863497471CD184}" {
+   Slots {
+    EntitySlotInfo Number_T_3 {
+     Enabled 0
+     Prefab ""
+    }
+    EntitySlotInfo Number_T_2 {
+     Enabled 0
+     Prefab ""
+    }
+    EntitySlotInfo Number_T_1 {
+     Enabled 0
+     Prefab ""
+    }
+    EntitySlotInfo Number_L_3 {
+     Offset -0.6109 0.7133 -0.3464
+     Angles -0.2552 -29.48 -14.5654
+     Prefab "{8AC1AB674F261603}Prefabs/Vehicles/Shared/decal_vehicle_group3.et"
+    }
+    EntitySlotInfo Number_L_2 {
+     Offset -0.705 0.7125 -0.1799
+     Angles -0.2552 -29.48 -14.5654
+     Prefab "{6F5DE79E43C38168}Prefabs/Vehicles/Shared/decal_vehicle_group2.et"
+    }
+    EntitySlotInfo Number_L_1 {
+     Offset -0.7998 0.7116 -0.0123
+     Angles -0.2552 -29.48 -14.5654
+     Prefab "{0309D37EFF070E46}Prefabs/Vehicles/Shared/decal_vehicle_group1.et"
     }
    }
   }

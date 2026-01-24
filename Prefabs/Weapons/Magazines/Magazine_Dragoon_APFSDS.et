@@ -1,0 +1,8 @@
+GenericEntity : "{F9E1A46E3ABA116F}Prefabs/Weapons/Core/Magazine_Base.et" {
+ ID "CA6BE4D6BB2D1077"
+ components {
+  MagazineComponent "{CA6BE4D6B4DAFD69}" {
+   AmmoConfig "{9820A6F5C6E71D68}Configs/Weapons/Ammo/Ammo_MK-44.conf"
+  }
+ }
+}

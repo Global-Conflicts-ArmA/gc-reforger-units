@@ -19,5 +19,12 @@ SCR_ChimeraCharacter : "{8558FB262DBF1D64}Prefabs/Characters/Factions/OPFOR/USSR
     Name "Political Officer"
    }
   }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Back {
+     Prefab ""
+    }
+   }
+  }
  }
 }

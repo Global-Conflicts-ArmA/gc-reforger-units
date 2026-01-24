@@ -68,10 +68,46 @@ Turret : "{3474BEBB23BA5793}Prefabs/Vehicles/Tracked/T-72A/VehParts/Turret/T72_t
      Angles 0.6795 -154.01131 -17.6806
      Prefab "{B06EA58EAE378ABB}Prefabs/Vehicles/Wheeled/BTR70/NVA/Assets/decal_vehicle_label_small_HTM.et"
     }
+    EntitySlotInfo Number_R_1 {
+     Enabled 0
+     Prefab ""
+    }
+    EntitySlotInfo Number_R_2 {
+     Enabled 0
+     Prefab ""
+    }
+    EntitySlotInfo Number_R_3 {
+     Enabled 0
+     Prefab ""
+    }
+    EntitySlotInfo Number_T_3 {
+     Enabled 0
+     Prefab ""
+    }
+    EntitySlotInfo Number_T_2 {
+     Enabled 0
+     Prefab ""
+    }
+    EntitySlotInfo Number_T_1 {
+     Enabled 0
+     Prefab ""
+    }
+    EntitySlotInfo Number_L_2 {
+     Enabled 0
+     Prefab ""
+    }
+    EntitySlotInfo Number_L_1 {
+     Enabled 0
+     Prefab ""
+    }
+    EntitySlotInfo Number_L_3 {
+     Enabled 0
+     Prefab ""
+    }
    }
   }
   WeaponSlotComponent "{51ACD09C6BFEEE6A}" {
-   WeaponTemplate "{E83D377FCAF4B121}Prefabs/Weapons/HeavyWeapons/2A46/Cannon_2A46_NVA.et"
+   WeaponTemplate "{E83D377FCAF4B121}Prefabs/Weapons/HeavyWeapons/Cannon_2A46_NVA.et"
   }
  }
 }
