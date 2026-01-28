@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{9A738505ABEFD747}Prefabs/Vehicles/Wheeled/Stryker/VehParts/Turrets/STRYKER_Dragoon_Turret_ACV.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}
