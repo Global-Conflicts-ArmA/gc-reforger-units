@@ -1,0 +1,12 @@
+SCR_AIGroup : "{272BCACDC2971B81}Prefabs/Groups/BLUFOR/US/Army/1945/Group_US_1945_Base.et" {
+ ID "0000000000000001"
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation ""
+  }
+ }
+ coords 3470.909 25.997 3654.168
+ m_aUnitPrefabSlots {
+  "{B7E4136A31917C5E}Prefabs/Characters/Factions/BLUFOR/US_Army/1945/P/Character_US_1942_PL_P.et" "{E899B48AA79C5BB8}Prefabs/Characters/Factions/BLUFOR/US_Army/1945/P/Character_US_1942_PSG_P.et" "{A53D7AE535E7F72C}Prefabs/Characters/Factions/BLUFOR/US_Army/1945/P/Character_US_1942_Aidman_P.et" "{A5E5B3CE65BCCB40}Prefabs/Characters/Factions/BLUFOR/US_Army/1945/P/Character_US_1942_PL_AT_P.et" "{C586D55898C7D4D3}Prefabs/Characters/Factions/BLUFOR/US_Army/1945/P/Character_US_1942_Messager_P.et" "{C586D55898C7D4D3}Prefabs/Characters/Factions/BLUFOR/US_Army/1945/P/Character_US_1942_Messager_P.et"
+ }
+}
