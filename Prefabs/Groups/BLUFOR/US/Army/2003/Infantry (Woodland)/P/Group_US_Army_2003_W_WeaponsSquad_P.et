@@ -1,0 +1,6 @@
+SCR_AIGroup : "{B5530141F6100356}Prefabs/Groups/BLUFOR/US/Army/2003/Infantry (Woodland)/Group_US_Army_2003_W_WeaponsSquad.et" {
+ ID "0000000000000001"
+ m_aUnitPrefabSlots {
+  "{A92D77FA83F9CDFB}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/Infantry (Woodland)/P/Character_US_2003_W_WeaponsSL_P.et" "{7844CDBFA0F681FB}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/Infantry (Woodland)/P/Character_US_2003_W_MG_P.et" "{23C7076E44574CF5}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/Infantry (Woodland)/P/Character_US_2003_W_MGAsst_P.et" "{7844CDBFA0F681FB}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/Infantry (Woodland)/P/Character_US_2003_W_MG_P.et" "{23C7076E44574CF5}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/Infantry (Woodland)/P/Character_US_2003_W_MGAsst_P.et" "{0A305CB4D5EF2A5B}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/Infantry (Woodland)/P/Character_US_2003_W_CarlG_P.et" "{0FEE19DD3B8C8C5E}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/Infantry (Woodland)/P/Character_US_2003_W_CarlGAsst_P.et" "{0A305CB4D5EF2A5B}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/Infantry (Woodland)/P/Character_US_2003_W_CarlG_P.et" "{0FEE19DD3B8C8C5E}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/Infantry (Woodland)/P/Character_US_2003_W_CarlGAsst_P.et"
+ }
+}

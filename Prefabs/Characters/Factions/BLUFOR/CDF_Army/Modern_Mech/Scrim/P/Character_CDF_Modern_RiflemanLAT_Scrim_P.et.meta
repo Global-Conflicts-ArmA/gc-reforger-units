@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{C9F2E4FF66D0C14B}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Mech/Scrim/Character_CDF_Modern_RiflemanLAT_Scrim_P.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

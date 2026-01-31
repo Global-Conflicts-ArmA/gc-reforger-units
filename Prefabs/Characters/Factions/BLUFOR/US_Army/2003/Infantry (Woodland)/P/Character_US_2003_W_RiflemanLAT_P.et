@@ -1,0 +1,17 @@
+SCR_ChimeraCharacter : "{292B72FCD3E78F51}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/Infantry (Woodland)/Character_US_2003_W_RiflemanLAT.et" {
+ ID "520EC961A090B1EE"
+ components {
+  PS_PlayableComponent "{5EFCC1946F475F15}" {
+   m_bIsPlayable 1
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_VariantData SCR_EditableEntityVariantData "{685884CB5CD3B4D4}" {
+    m_aVariants {
+     SCR_EditableEntityVariant "{685884CB59630905}" {
+      m_sVariantPrefab "{1161774CB964DBF2}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/Infantry (Woodland)/P/Variants_P/Character_US_2003_W_RiflemanLAT_Variant_P.et"
+     }
+    }
+   }
+  }
+ }
+}

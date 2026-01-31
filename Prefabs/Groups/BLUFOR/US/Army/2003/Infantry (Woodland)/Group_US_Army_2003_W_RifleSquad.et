@@ -1,0 +1,6 @@
+SCR_AIGroup : "{B7995B801AFAA900}Prefabs/Groups/BLUFOR/US/Army/2003/Infantry (Desert)/Group_US_Army_2003_D_PlatoonHQ.et" {
+ ID "0000000000000001"
+ m_aUnitPrefabSlots {
+  "{96BC236C0E598201}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/Infantry (Woodland)/Character_US_2003_W_SL.et" "{917BD93D68DF38C2}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/Infantry (Woodland)/Character_US_2003_W_TL.et" "{768B663653597C81}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/Infantry (Woodland)/Character_US_2003_W_Grenadier.et" "{FB34D2733CDD2012}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/Infantry (Woodland)/Character_US_2003_W_AR.et" "{292B72FCD3E78F51}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/Infantry (Woodland)/Character_US_2003_W_RiflemanLAT.et" "{917BD93D68DF38C2}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/Infantry (Woodland)/Character_US_2003_W_TL.et" "{768B663653597C81}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/Infantry (Woodland)/Character_US_2003_W_Grenadier.et" "{FB34D2733CDD2012}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/Infantry (Woodland)/Character_US_2003_W_AR.et" "{292B72FCD3E78F51}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/Infantry (Woodland)/Character_US_2003_W_RiflemanLAT.et"
+ }
+}

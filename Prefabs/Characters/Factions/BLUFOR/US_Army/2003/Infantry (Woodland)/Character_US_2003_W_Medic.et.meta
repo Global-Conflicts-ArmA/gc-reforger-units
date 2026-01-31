@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{F7BE719FD1F0F962}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/Infantry (Woodland)/Character_US_2003_W_Medic.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

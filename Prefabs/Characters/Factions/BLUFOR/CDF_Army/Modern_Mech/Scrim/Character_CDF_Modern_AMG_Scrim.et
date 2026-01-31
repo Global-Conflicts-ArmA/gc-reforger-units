@@ -1,0 +1,12 @@
+SCR_ChimeraCharacter : "{9D59765AD9CE8802}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Mech/Character_CDF_Modern_AMG.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{917CA3D41C6BD4AB}Prefabs/Characters/HeadGear/Helmet_MICH_ACH/Helmet_ACH_SHROUD_OEFCP_Scrim.et"
+    }
+   }
+  }
+ }
+}

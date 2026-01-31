@@ -1,8 +1,0 @@
-SCR_ChimeraCharacter : "{0E74C9F36755655C}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/SpecialForces/Character_UK_1983_SpecialForces_Trooper.et" {
- ID "520EC961A090B1EE"
- components {
-  PS_PlayableComponent "{5EFCC1946F475F15}" {
-   m_bIsPlayable 1
-  }
- }
-}

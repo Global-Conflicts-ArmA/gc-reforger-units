@@ -65,6 +65,9 @@ SCR_ChimeraCharacter : "{0E74C9F36755655C}Prefabs/Characters/Factions/BLUFOR/UK_
     }
     ItemsInitConfigurationItem "{64A8AB40750482B2}" {
      TargetStorage "Jacket/Suit_Tanker_US_01.et"
+     PrefabsToSpawn {
+      "{E67E7932C86FBB96}Prefabs/Items/Medicine/FieldDressing_UK_01.et" "{E67E7932C86FBB96}Prefabs/Items/Medicine/FieldDressing_UK_01.et" "{28FA34E692783ACB}Prefabs/Items/GC_Facepaint_01_USSR.et"
+     }
     }
     ItemsInitConfigurationItem "{62A74B5815AE4A1B}" {
      TargetStorage "Jacket/Suit_Tanker_US_01.et"

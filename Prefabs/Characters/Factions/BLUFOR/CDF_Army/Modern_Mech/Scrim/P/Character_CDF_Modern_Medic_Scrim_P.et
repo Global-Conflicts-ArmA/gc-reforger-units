@@ -1,0 +1,8 @@
+SCR_ChimeraCharacter : "{7931AF694B3778A9}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Mech/Scrim/Character_CDF_Modern_Medic_Scrim.et" {
+ ID "520EC961A090B1EE"
+ components {
+  PS_PlayableComponent "{5EFCC1946F475F15}" {
+   m_bIsPlayable 1
+  }
+ }
+}

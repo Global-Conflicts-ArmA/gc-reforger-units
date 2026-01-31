@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{1161774CB964DBF2}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/Infantry (Woodland)/Variants/Character_US_2003_W_RiflemanLAT_Variant_P.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

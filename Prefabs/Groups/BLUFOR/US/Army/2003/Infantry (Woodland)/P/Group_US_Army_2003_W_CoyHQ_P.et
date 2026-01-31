@@ -1,0 +1,6 @@
+SCR_AIGroup : "{9A11CF6CBEEB3CBB}Prefabs/Groups/BLUFOR/US/Army/2003/Infantry (Woodland)/Group_US_Army_2003_W_CoyHQ.et" {
+ ID "0000000000000001"
+ m_aUnitPrefabSlots {
+  "{77E7D63B1DD6BE1A}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/Infantry (Woodland)/P/Character_US_2003_W_CoyL_P.et" "{6FD2E3E708565ADC}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/Infantry (Woodland)/P/Character_US_2003_W_CoyXO_P.et" "{5958BCE934041BB5}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/Infantry (Woodland)/P/Character_US_2003_W_Coy1SG_P.et" "{D661153F209188AD}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/Infantry (Woodland)/P/Character_US_2003_W_RTO_P.et" "{E5A7BF00402EC731}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/Infantry (Woodland)/P/Character_US_2003_W_Medic_P.et"
+ }
+}

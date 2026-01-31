@@ -1,0 +1,24 @@
+SCR_ChimeraCharacter : "{C3479D865ABE2C9E}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_CrewCmdr.et" {
+ ID "520EC961A090B1EE"
+ components {
+  PS_PlayableComponent "{5EFCC1946F475F15}" {
+   m_bIsPlayable 1
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_VariantData SCR_EditableEntityVariantData "{684F4DAB590A404D}" {
+    m_aVariants {
+     SCR_EditableEntityVariant "{669B08DE8BF89469}" {
+      m_sVariantPrefab "{0CEB06532A001846}Prefabs/Characters/Factions/INDFOR/GC_MUJ/P/Character_MUJ_CrewCmdr_P.et"
+     }
+     SCR_EditableEntityVariant "{68531DFAB49BA547}" {
+      m_sVariantPrefab ""
+      m_bEnabled 0
+     }
+     SCR_EditableEntityVariant "{68531DFB05AD596B}" {
+      m_sVariantPrefab "{7E8A30A4CC683B46}Prefabs/Characters/Factions/INDFOR/GC_MUJ/P/Variants/Character_MUJ_CrewCmdr1_P.et"
+     }
+    }
+   }
+  }
+ }
+}

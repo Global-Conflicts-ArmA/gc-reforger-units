@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{9A11CF6CBEEB3CBB}Prefabs/Groups/BLUFOR/US/Army/2003/Infantry (Desert)/Group_US_Army_2003_W_CoyHQ.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}
