@@ -7,8 +7,8 @@ GenericEntity : "{E0DDD854DF1DE9E2}Prefabs/Items/Core/DeployablePart_Main_Base.e
     }
     SCR_DeployableVariantContainer "{67214E9D946C4A3D}" {
      m_iVariantId 1
-     m_sReplacementPrefab "{1F9F69EB6A9B5886}Prefabs/Weapons/Tripods/newwork/Deployable_Tripod_M122_MG_m240l_pas13_mdo.et"
-     m_sPreviewObject "{1F9F69EB6A9B5886}Prefabs/Weapons/Tripods/newwork/Deployable_Tripod_M122_MG_m240l_pas13_mdo.et"
+     m_sReplacementPrefab "{1F9F69EB6A9B5886}Prefabs/Weapons/Tripods/Deployable_Tripod_M122_MG_m240l_pas13_mdo.et"
+     m_sPreviewObject "{1F9F69EB6A9B5886}Prefabs/Weapons/Tripods/Deployable_Tripod_M122_MG_m240l_pas13_mdo.et"
      m_aRequiredElements {
       SCR_AlternativeRequirementsDeployablePart "{672165E8E620AEEF}" {
        m_sPrefab "{7EC5B94D400082BF}Prefabs/Weapons/MachineGuns/M240/MG_M240_Light_Therm.et"
@@ -28,8 +28,8 @@ GenericEntity : "{E0DDD854DF1DE9E2}Prefabs/Items/Core/DeployablePart_Main_Base.e
     }
     SCR_DeployableVariantContainer "{67214E9D7FA76777}" {
      m_iVariantId 2
-     m_sReplacementPrefab "{C9418716D879E824}Prefabs/Weapons/Tripods/newwork/Deployable_Tripod_M122_MG_m240l_mdo.et"
-     m_sPreviewObject "{C9418716D879E824}Prefabs/Weapons/Tripods/newwork/Deployable_Tripod_M122_MG_m240l_mdo.et"
+     m_sReplacementPrefab "{C9418716D879E824}Prefabs/Weapons/Tripods/Deployable_Tripod_M122_MG_m240l_mdo.et"
+     m_sPreviewObject "{C9418716D879E824}Prefabs/Weapons/Tripods/Deployable_Tripod_M122_MG_m240l_mdo.et"
      m_aRequiredElements {
       SCR_AlternativeRequirementsDeployablePart "{67230811251B5730}" {
        m_sPrefab "{BA87F78D0E7E3A90}Prefabs/Weapons/MachineGuns/M240/MG_M240_Light_MDO.et"
@@ -49,8 +49,8 @@ GenericEntity : "{E0DDD854DF1DE9E2}Prefabs/Items/Core/DeployablePart_Main_Base.e
     }
     SCR_DeployableVariantContainer "{67214E9FC2492A6C}" {
      m_iVariantId 3
-     m_sReplacementPrefab "{D4F8DC025474C87A}Prefabs/Weapons/Tripods/newwork/Deployable_Tripod_M122_MG_L6GPMG.et"
-     m_sPreviewObject "{D4F8DC025474C87A}Prefabs/Weapons/Tripods/newwork/Deployable_Tripod_M122_MG_L6GPMG.et"
+     m_sReplacementPrefab "{D4F8DC025474C87A}Prefabs/Weapons/Tripods/Deployable_Tripod_M122_MG_L6GPMG.et"
+     m_sPreviewObject "{D4F8DC025474C87A}Prefabs/Weapons/Tripods/Deployable_Tripod_M122_MG_L6GPMG.et"
      m_aRequiredElements {
       SCR_RequiredDeployablePart "{672165E1FB2CA10D}" {
        m_sPrefab "{05EF641019EA53FE}Prefabs/Weapons/MachineGuns/FN MAG/MG_L6.et"
@@ -63,8 +63,8 @@ GenericEntity : "{E0DDD854DF1DE9E2}Prefabs/Items/Core/DeployablePart_Main_Base.e
     }
     SCR_DeployableVariantContainer "{67214E931C9646B5}" {
      m_iVariantId 4
-     m_sReplacementPrefab "{8F9C3911B60DDA13}Prefabs/Weapons/Tripods/newwork/Deployable_Tripod_M122_MG_M240b.et"
-     m_sPreviewObject "{8F9C3911B60DDA13}Prefabs/Weapons/Tripods/newwork/Deployable_Tripod_M122_MG_M240b.et"
+     m_sReplacementPrefab "{8F9C3911B60DDA13}Prefabs/Weapons/Tripods/Deployable_Tripod_M122_MG_M240b.et"
+     m_sPreviewObject "{8F9C3911B60DDA13}Prefabs/Weapons/Tripods/Deployable_Tripod_M122_MG_M240b.et"
      m_aRequiredElements {
       SCR_RequiredDeployablePart "{672165E1F16DE840}" {
        m_sPrefab "{A87B0A22462E20B1}Prefabs/Weapons/MachineGuns/M240/MG_M240.et"
@@ -98,8 +98,9 @@ GenericEntity : "{E0DDD854DF1DE9E2}Prefabs/Items/Core/DeployablePart_Main_Base.e
     UserActionContext "{67230803B7784645}" {
      ContextName "assemble"
      Position PointInfo "{508AC2ABEAC4A0F5}" {
-      Offset 0 0.3358 -0.1595
+      Offset 0 0.3358 -0.2923
      }
+     Radius 0.4
     }
    }
    additionalActions {
