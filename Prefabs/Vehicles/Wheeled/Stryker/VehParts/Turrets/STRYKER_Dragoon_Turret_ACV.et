@@ -1,8 +1,0 @@
-Turret : "{DAA1E2C22905F361}Prefabs/Vehicles/Wheeled/Stryker/VehParts/Turrets/STRYKER_Dragoon_Turret.et" {
- ID "51ACD0965653D003"
- components {
-  WeaponSlotComponent "{5CE857D2864FE81D}" {
-   Enabled 0
-  }
- }
-}
