@@ -1,0 +1,8 @@
+GenericEntity : "{013A731E59E8FB61}Prefabs/Items/Equipment/Radios/UK/Radio_ANPRC152.et" {
+ ID "508AB2013EEE1E00"
+ components {
+  BaseRadioComponent "{5A30BAE7673C63CA}" {
+   "Encryption key" "ZelenegorskTacos"
+  }
+ }
+}

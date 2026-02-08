@@ -22,36 +22,41 @@ SCR_ChimeraCharacter : "{CAF8467FB693C584}Prefabs/Characters/Factions/BLUFOR/CDF
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
-    ItemsInitConfigurationItem "{5D7CC173E6675BF5}" {
-    }
     ItemsInitConfigurationItem "{62FB097A778BD827}" {
+     Enabled 0
      PrefabsToSpawn {
      }
     }
     ItemsInitConfigurationItem "{62FB097BD06666C8}" {
     }
     ItemsInitConfigurationItem "{62FB097A7477C905}" {
-     PrefabsToSpawn {
-      "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+     TargetStorage "Vest/Vest_TV102_MG_OD_1.et/grenade/Pouch_GP106_RGD_Pouch_OD.et"
+     PrefabsToSpawn +{
      }
     }
+    ItemsInitConfigurationItem "{6882AE8D2A5FCD09}" {
+     TargetStorage "Vest/Vest_TV102_MG_OD_1.et/grenade2/Pouch_GP106_RGD_Pouch_2_OD.et"
+    }
     ItemsInitConfigurationItem "{647D027B95B0EB26}" {
-     TargetStorage "Pants/ACU_pants_MC.et"
+     TargetStorage "Back/Backpack_511_rush12_od.et"
+    }
+    ItemsInitConfigurationItem "{5D7CC173E6675BF5}" {
+     Enabled 0
     }
     ItemsInitConfigurationItem "{647D0B61A5B17947}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_Taktika_Pouches/Pouch_Mordor_PKM_olive.et"
+     TargetStorage "Vest/Vest_TV102_MG_OD_1.et/PKM1/Pouch_Mordor_PKM_olive.et"
      PrefabsToSpawn {
       "{E5E9C5897CF47F44}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_4Ball_1Tracer.et"
      }
     }
     ItemsInitConfigurationItem "{647D0B61844E4BF5}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_Taktika_Pouches/Pouch_Mordor_PKM_olive.et"
+     TargetStorage "Vest/Vest_TV102_MG_OD_1.et/PKM2/Pouch_Mordor_PKM_olive.et"
      PrefabsToSpawn {
       "{E5E9C5897CF47F44}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_4Ball_1Tracer.et"
      }
     }
     ItemsInitConfigurationItem "{647D0B619CE1FDE4}" {
-     TargetStorage "Prefabs/Items/Equipment/Backpacks/backpack_511_rush12/Backpack_511_rush12_od.et"
+     TargetStorage "Back/Backpack_511_rush12_od.et"
      PrefabsToSpawn {
       "{E5E9C5897CF47F44}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_4Ball_1Tracer.et" "{E5E9C5897CF47F44}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_4Ball_1Tracer.et"
      }

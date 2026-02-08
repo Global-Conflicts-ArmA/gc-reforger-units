@@ -45,16 +45,14 @@ SCR_ChimeraCharacter : "{CAF8467FB693C584}Prefabs/Characters/Factions/BLUFOR/CDF
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{5D7CC173E6675BF7}" {
-    }
-    ItemsInitConfigurationItem "{5D7CC173E6675BF5}" {
-     TargetStorage "Vest/Vest_TV110_arsarmaHSGI_OD_2.et/radio/Pouch_UP111_radioClosed_OD.et"
-     PrefabsToSpawn {
-      "{3183B4B5A27056CE}Prefabs/Items/Equipment/Radios/CDF/Radio_R148_CDF.et"
+     PrefabsToSpawn + {
+      "{22A97034485DCC8A}Prefabs/Items/Equipment/Radios/CDF/Radio_ANPRC152_CDF.et"
      }
     }
     ItemsInitConfigurationItem "{62FB097A778BD827}" {
+     TargetStorage "ArmoredVest/Vest_TV110_OD.et/Pouch_kangoroo/pouch_tv110_kangroo_OD.et"
      PrefabsToSpawn {
-      "{DD810D0313E8C01A}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Ball_camo.et" "{DD810D0313E8C01A}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Ball_camo.et" "{DD810D0313E8C01A}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Ball_camo.et" "{DD810D0313E8C01A}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Ball_camo.et"
+      "{DD810D0313E8C01A}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Ball_camo.et" "{DD810D0313E8C01A}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Ball_camo.et" "{DD810D0313E8C01A}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Ball_camo.et"
      }
     }
     ItemsInitConfigurationItem "{62FB097BD06666C8}" {
@@ -63,25 +61,28 @@ SCR_ChimeraCharacter : "{CAF8467FB693C584}Prefabs/Characters/Factions/BLUFOR/CDF
     ItemsInitConfigurationItem "{62FB097A7477C905}" {
      TargetStorage "Vest/Vest_TV110_arsarmaHSGI_OD_2.et/GMR/Minimap_ArsArma_GMR_OD.et"
     }
+    ItemsInitConfigurationItem "{6882AE8D2A5FCD09}" {
+     TargetStorage "Vest/Vest_TV110_arsarmaHSGI_OD_2.et/GMR/Minimap_ArsArma_GMR_OD.et"
+    }
     ItemsInitConfigurationItem "{647D027B95B0EB26}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_UP109_utillmid_base.et"
+     TargetStorage "Vest/Vest_TV110_arsarmaHSGI_OD_2.et/GMR/Minimap_ArsArma_GMR_OD.et"
      PrefabsToSpawn +{
      }
     }
     ItemsInitConfigurationItem "{647D0B6316D756FC}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_TV110_Pouches/pouch_tv110_kangroo_OD.et"
+     TargetStorage "Vest/Vest_TV110_arsarmaHSGI_OD_2.et/arsbelt/Pouch_ArsArma_magouch_morphed_OD.et"
      PrefabsToSpawn {
-      "{DD810D0313E8C01A}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Ball_camo.et" "{DD810D0313E8C01A}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Ball_camo.et" "{DD810D0313E8C01A}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Ball_camo.et"
+      "{DD810D0313E8C01A}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Ball_camo.et" "{DD810D0313E8C01A}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Ball_camo.et"
      }
     }
     ItemsInitConfigurationItem "{647D0B63E776ADCF}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_MP118_PistolTako_OD.et"
+     TargetStorage "Vest/Vest_TV110_arsarmaHSGI_OD_2.et/pistol1/Pouch_MP118_PistolTako2_OD.et"
      PrefabsToSpawn {
       "{F20D1122BC5CD9F2}Prefabs/Weapons/Magazines/glock_magazine/Magazine_9x19_Glock_17rnd.et"
      }
     }
     ItemsInitConfigurationItem "{647D0B63C1B08AAA}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_MP118_PistolTako2_OD.et"
+     TargetStorage "Vest/Vest_TV110_arsarmaHSGI_OD_2.et/pistol2/Pouch_MP118_PistolTako_OD.et"
      PrefabsToSpawn {
       "{F20D1122BC5CD9F2}Prefabs/Weapons/Magazines/glock_magazine/Magazine_9x19_Glock_17rnd.et"
      }
@@ -93,7 +94,7 @@ SCR_ChimeraCharacter : "{CAF8467FB693C584}Prefabs/Characters/Factions/BLUFOR/CDF
      }
     }
     ItemsInitConfigurationItem "{647D0B66C55427C9}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_wartech_magpouch_mp103_OD.et"
+     TargetStorage "Vest/Vest_TV110_arsarmaHSGI_OD_2.et/arsbelt2/Pouch_ArsArma_magouch_morphed_OD.et"
      PrefabsToSpawn {
       "{DD810D0313E8C01A}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Ball_camo.et" "{DD810D0313E8C01A}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Ball_camo.et"
      }

@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{B522F4D4D4787B6B}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_SF/Character_CDF_Modern_SF_Base_Armed.et" {
+SCR_ChimeraCharacter : "{D0F41C8EA61619B8}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_SF/Character_CDF_Modern_SF_Base.et" {
  ID "520EC961A090B1EE"
  components {
   SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
@@ -44,45 +44,14 @@ SCR_ChimeraCharacter : "{B522F4D4D4787B6B}Prefabs/Characters/Factions/BLUFOR/CDF
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{5D7CC173E6675BF7}" {
-     PrefabsToSpawn {
-      "{062E2F1D7F6739D6}Prefabs/Items/Equipment/Accessories/ETool_MPL50/ETool_MPL50_FreeRoamBuilding_Gadget.et" "{7CEF68E2BC68CE71}Prefabs/Items/Equipment/Compass/Compass_Adrianov.et" "{13772C903CB5E4F7}Prefabs/Items/Equipment/Maps/PaperMap_01_folded.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{3183B4B5A27056CE}Prefabs/Items/Equipment/Radios/CDF/Radio_R148_CDF.et"
+     PrefabsToSpawn + {
+      "{22A97034485DCC8A}Prefabs/Items/Equipment/Radios/CDF/Radio_ANPRC152_CDF.et"
      }
     }
     ItemsInitConfigurationItem "{647D5B11AAD7A21D}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_NAZ/Vest_NAZ.et"
+     TargetStorage "Vest/Vest_NAZ.et"
      PrefabsToSpawn {
       "{B1798B0F1258B765}Prefabs/Items/Equipment/Navigation/DAGR/DAGR.et" "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et" "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et" "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et"
-     }
-    }
-    ItemsInitConfigurationItem "{647D5B112618E799}" {
-     TargetStorage ""
-     PrefabsToSpawn {
-     }
-    }
-    ItemsInitConfigurationItem "{647D5B1127F4DB0A}" {
-     PrefabsToSpawn {
-     }
-    }
-    ItemsInitConfigurationItem "{647D5B11103A12F3}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_NAZ/Vest_NAZ.et"
-    }
-    ItemsInitConfigurationItem "{647D5B1B4C061352}" {
-     PrefabsToSpawn {
-     }
-    }
-    ItemsInitConfigurationItem "{64D5052A4612B69A}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_FILBE_doubleM4_3.et"
-     PrefabsToSpawn {
-     }
-    }
-    ItemsInitConfigurationItem "{64D5052A4612B6A6}" {
-     TargetStorage ""
-     PrefabsToSpawn {
-     }
-    }
-    ItemsInitConfigurationItem "{64D5052A4612B6AA}" {
-     TargetStorage ""
-     PrefabsToSpawn {
      }
     }
    }

@@ -1,12 +1,26 @@
 Turret : "{4AD877DEA242E512}Prefabs/Weapons/Core/Turret_Base.et" {
  ID "51ACD0965653D003"
  components {
+  SCR_BaseCompartmentManagerComponent "{51ACFBB07A14CFA6}" {
+   CompartmentSlots {
+    TurretCompartmentSlot TurretCompartment {
+     PassengerPositionInfo EntitySlotInfo "{B1CB25848A3D93A8}" {
+      Offset -0.0664 0 0.3306
+     }
+     SeatType 1
+     RestrictedItemTypes {
+     }
+     CanTurnOut 1
+     TurnOutDoorIdx 2
+    }
+   }
+  }
   TurretComponent "{5E52AE0A31173B5F}" {
    components {
     SCR_2DSightsComponent "{5E52AE0A31173B59}" {
      SightsPosition PointInfo "{5E52AE0A31173B58}" {
       Offset -0.3002 0.1768 -0.2636
-      Angles -0.19688 0.02313 0
+      Angles -0.47 0.0231 0
      }
      SightsFOVInfo SCR_SightsZoomFOVInfo "{5E52AE0A31173B5A}" {
       m_fBaseZoom 6

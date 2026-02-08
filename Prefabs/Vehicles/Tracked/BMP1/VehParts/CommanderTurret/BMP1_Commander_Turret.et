@@ -1,6 +1,19 @@
 Turret : "{4AD877DEA242E512}Prefabs/Weapons/Core/Turret_Base.et" {
  ID "51ACD0965653D003"
  components {
+  SCR_BaseCompartmentManagerComponent "{51ACFBB07A14CFA6}" {
+   CompartmentSlots {
+    TurretCompartmentSlot TurretCompartment {
+     PassengerPositionInfo EntitySlotInfo "{B1CB25848A3D93A8}" {
+      Offset -0.0416 0 0.112
+     }
+     RestrictedItemTypes {
+     }
+     CanTurnOut 1
+     TurnOutDoorIdx 1
+    }
+   }
+  }
   ActionsManagerComponent "{51ACD09C7181BA0B}" {
    ActionContexts {
     UserActionContext "{64F40BE92AF854A1}" {

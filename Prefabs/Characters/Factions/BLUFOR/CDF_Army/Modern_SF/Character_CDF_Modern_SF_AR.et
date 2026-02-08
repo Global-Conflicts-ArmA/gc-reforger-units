@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{B522F4D4D4787B6B}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern/SF/Character_CDF_Modern_SF_Base_Armed.et" {
+SCR_ChimeraCharacter : "{B522F4D4D4787B6B}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_SF/Character_CDF_Modern_SF_Base_Armed.et" {
  ID "520EC961A090B1EE"
  components {
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
@@ -36,33 +36,37 @@ SCR_ChimeraCharacter : "{B522F4D4D4787B6B}Prefabs/Characters/Factions/BLUFOR/CDF
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{647D5B11AAD7A21D}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_Taktika_Pouches/Pouch_Taktika_magpouch_pistol_BLK.et"
-     PrefabsToSpawn {
-      "{F20D1122BC5CD9F2}Prefabs/Weapons/Magazines/glock_magazine/Magazine_9x19_Glock_17rnd.et"
+     TargetStorage "Vest/Vest_TV115_Rifleman_OD.et/pistol/Pouch_wartech_magpouch_mp103_OD.et"
+     PrefabsToSpawn +{
      }
+    }
+    ItemsInitConfigurationItem "{68829C1787C91897}" {
+     TargetStorage "Vest/Vest_TV115_Rifleman_OD.et/pistol2/Pouch_GP106_RGD_Pouch_OD.et"
     }
     ItemsInitConfigurationItem "{647D5B112618E799}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_GP106_RGD_Pouch_2_OD.et"
+     TargetStorage "Vest/Vest_TV115_Rifleman_OD.et/grenade1/Pouch_GP106_RGD_Pouch_2_OD.et"
     }
     ItemsInitConfigurationItem "{647D5B1127F4DB0A}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_GP106_RGD_Pouch_2_OD.et"
+     TargetStorage "Vest/Vest_TV115_Rifleman_OD.et/grenade2/Pouch_GP106_RGD_Pouch_2_OD.et"
     }
     ItemsInitConfigurationItem "{647D5B11103A12F3}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_GP106_RGD_Pouch_OD.et"
-     PrefabsToSpawn {
-      "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
+     TargetStorage "Vest/Vest_TV115_Rifleman_OD.et/up104/Pouch_UP108_utillong_OD.et"
+     PrefabsToSpawn +{
      }
     }
+    ItemsInitConfigurationItem "{68829C1060316CD0}" {
+     TargetStorage "Back/Backpack_511_rush12_od.et"
+    }
     ItemsInitConfigurationItem "{647D5B1B4C061352}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_TV110_Pouches/pouch_tv115_OD.et"
+     TargetStorage "Vest/Vest_TV115_Rifleman_OD.et/triple/pouch_tv115_OD.et"
      PrefabsToSpawn {
       "{240AF1BFB20278CD}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_7N22_AP.et" "{240AF1BFB20278CD}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_7N22_AP.et" "{240AF1BFB20278CD}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_7N22_AP.et"
      }
     }
     ItemsInitConfigurationItem "{647D5B1FB189C541}" {
-     TargetStorage "Prefabs/Items/Equipment/Backpacks/backpack_511_rush12/Backpack_511_rush12_od.et"
+     TargetStorage "Back/Backpack_511_rush12_od.et"
      PrefabsToSpawn {
-      "{D78C667F59829717}Prefabs/Weapons/Magazines/Magazine_545x39_RPK_45rnd_4Ball_1Tracer.et" "{D78C667F59829717}Prefabs/Weapons/Magazines/Magazine_545x39_RPK_45rnd_4Ball_1Tracer.et" "{D78C667F59829717}Prefabs/Weapons/Magazines/Magazine_545x39_RPK_45rnd_4Ball_1Tracer.et" "{D78C667F59829717}Prefabs/Weapons/Magazines/Magazine_545x39_RPK_45rnd_4Ball_1Tracer.et" "{D78C667F59829717}Prefabs/Weapons/Magazines/Magazine_545x39_RPK_45rnd_4Ball_1Tracer.et" "{D78C667F59829717}Prefabs/Weapons/Magazines/Magazine_545x39_RPK_45rnd_4Ball_1Tracer.et" "{D78C667F59829717}Prefabs/Weapons/Magazines/Magazine_545x39_RPK_45rnd_4Ball_1Tracer.et" "{D78C667F59829717}Prefabs/Weapons/Magazines/Magazine_545x39_RPK_45rnd_4Ball_1Tracer.et"
+      "{9FA7BF7227AF0CC2}Prefabs/Weapons/Magazines/6l26/Magazine_545x39_plastic_6l26_45_last5tracer.et" "{9FA7BF7227AF0CC2}Prefabs/Weapons/Magazines/6l26/Magazine_545x39_plastic_6l26_45_last5tracer.et" "{9FA7BF7227AF0CC2}Prefabs/Weapons/Magazines/6l26/Magazine_545x39_plastic_6l26_45_last5tracer.et" "{9FA7BF7227AF0CC2}Prefabs/Weapons/Magazines/6l26/Magazine_545x39_plastic_6l26_45_last5tracer.et" "{9FA7BF7227AF0CC2}Prefabs/Weapons/Magazines/6l26/Magazine_545x39_plastic_6l26_45_last5tracer.et" "{9FA7BF7227AF0CC2}Prefabs/Weapons/Magazines/6l26/Magazine_545x39_plastic_6l26_45_last5tracer.et" "{9FA7BF7227AF0CC2}Prefabs/Weapons/Magazines/6l26/Magazine_545x39_plastic_6l26_45_last5tracer.et" "{9FA7BF7227AF0CC2}Prefabs/Weapons/Magazines/6l26/Magazine_545x39_plastic_6l26_45_last5tracer.et"
      }
     }
    }
