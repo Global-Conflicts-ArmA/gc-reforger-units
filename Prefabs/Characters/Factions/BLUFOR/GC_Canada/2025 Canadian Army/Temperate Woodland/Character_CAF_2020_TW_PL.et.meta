@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{6B8232E5A8ED3EBA}Prefabs/Characters/Factions/BLUFOR/GC_Canada/2025 Canadian Army/Character_CAF_2020_TW_PL.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{534CCDD793823468}Prefabs/Groups/BLUFOR/GC_CAF/2025 Canadian Army/Group_CAF_2025_TW_Rifle_CompanyHQ.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

@@ -1,0 +1,26 @@
+SCR_AIGroup : "{5CC564DD03A08DC5}Prefabs/Groups/BLUFOR/GC_CAF/1993 Canadian Army/P/Group_CAF_1993_Base_P.et" {
+ ID "0000000000000001"
+ components {
+  SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+   m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+    Name "2025 Rifle Company HQ (CADPAT MT)"
+    m_Image "{ABA2D60082FFC2A4}UI/Textures/EditorPreviews/Groups/BLUFOR/Group_US_RifleSquad.edds"
+    m_aAuthoredLabels {
+     ENTITYTYPE_GROUP FACTION_GC_CAF
+    }
+    m_MilitarySymbol SCR_MilitarySymbol "{563682D06ED5ACD9}" {
+     m_Amplifier SQUAD
+    }
+   }
+  }
+  SCR_GroupIdentityComponent "{56366C5C50AD3CF2}" {
+   m_MilitarySymbol SCR_MilitarySymbol "{56366C5C4E32A359}" {
+    m_Amplifier SQUAD
+   }
+  }
+ }
+ m_aUnitPrefabSlots {
+  "{A8BAC89B0DCD7996}Prefabs/Characters/Factions/BLUFOR/GC_Canada/2025 Canadian Army/Character_CAF_2020_MT_CoyCO.et" "{04E38AB716C17F22}Prefabs/Characters/Factions/BLUFOR/GC_Canada/2025 Canadian Army/Character_CAF_2020_MT_Coy2IC.et" "{FC902F3B1363261E}Prefabs/Characters/Factions/BLUFOR/GC_Canada/2025 Canadian Army/Character_CAF_2020_MT_CSM.et" "{700EA6CAE197FFCE}Prefabs/Characters/Factions/BLUFOR/GC_Canada/2025 Canadian Army/Character_CAF_2020_MT_FO.et" "{B780FBAAABB5E187}Prefabs/Characters/Factions/BLUFOR/GC_Canada/2025 Canadian Army/Character_CAF_2020_MT_Signaller.et" "{F62DEAF37D8A5563}Prefabs/Characters/Factions/BLUFOR/GC_Canada/2025 Canadian Army/Character_CAF_2020_MT_Medic.et" "{F62DEAF37D8A5563}Prefabs/Characters/Factions/BLUFOR/GC_Canada/2025 Canadian Army/Character_CAF_2020_MT_Medic.et"
+ }
+ m_sCustomNameSet "Company HQ"
+}

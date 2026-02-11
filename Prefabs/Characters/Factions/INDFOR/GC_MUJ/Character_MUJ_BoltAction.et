@@ -19,11 +19,9 @@ SCR_ChimeraCharacter : "{D3F29763F96877CD}Prefabs/Characters/Factions/INDFOR/GC_
      }
      SCR_EditableEntityVariant "{669B08EC610633FF}" {
       m_sVariantPrefab "{3B6A10189A42B849}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Variants/Character_MUJ_Mosin_1.et"
-      m_bEnabled 0
      }
      SCR_EditableEntityVariant "{669B08EC61634565}" {
       m_sVariantPrefab "{29ED28FC5680DA07}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Variants/Character_MUJ_Mosin_2.et"
-      m_bEnabled 0
      }
     }
    }

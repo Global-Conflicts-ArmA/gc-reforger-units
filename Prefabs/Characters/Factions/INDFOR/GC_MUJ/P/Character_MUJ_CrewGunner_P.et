@@ -6,13 +6,14 @@ SCR_ChimeraCharacter : "{3A10CE06B37CDCC1}Prefabs/Characters/Factions/INDFOR/GC_
   }
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_VariantData SCR_EditableEntityVariantData "{685144E3F4A1735B}" {
+    m_bRandomizeDefaultVariant 0
     m_aVariants {
-     SCR_EditableEntityVariant "{685144E3F5E8E670}" {
-      m_sVariantPrefab "{33D8BAE96081D0D5}Prefabs/Characters/Factions/INDFOR/GC_MUJ/P/Character_MUJ_CrewGunner_P.et"
-     }
      SCR_EditableEntityVariant "{68531DFA8BF120DA}" {
       m_sVariantPrefab ""
       m_bEnabled 0
+     }
+     SCR_EditableEntityVariant "{685144E3F5E8E670}" {
+      m_sVariantPrefab "{33D8BAE96081D0D5}Prefabs/Characters/Factions/INDFOR/GC_MUJ/P/Character_MUJ_CrewGunner_P.et"
      }
      SCR_EditableEntityVariant "{68531DFB0EFF9154}" {
       m_sVariantPrefab "{FB358B1D147B48A3}Prefabs/Characters/Factions/INDFOR/GC_MUJ/P/Variants/Character_MUJ_CrewGunner1_P.et"

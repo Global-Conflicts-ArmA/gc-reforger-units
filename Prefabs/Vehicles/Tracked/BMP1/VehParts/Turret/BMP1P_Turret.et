@@ -1,0 +1,19 @@
+Turret : "{8021A4D1ADFCF506}Prefabs/Vehicles/Tracked/BMP1/VehParts/Turret/BMP1_Turret.et" {
+ ID "51ACD0965653D003"
+ components {
+  TurretComponent "{5E52AE0A31173B5F}" {
+   components {
+    SCR_2DSightsComponent "{5E52AE0A31173B59}" {
+     SightsFOVInfo SCR_SightsZoomFOVInfo "{5E52AE0A31173B5A}" {
+      m_fBaseZoom 6
+      m_fZoomMax 6
+     }
+     m_sReticleTexture "{D2602E583973B65E}UI/Textures/Sights/1PN22/1PN22M2-white_UI.edds"
+     m_sReticleGlowTexture "{CF4D95A63CAE2FCB}UI/Textures/Sights/1PN22/1PN22M2-glow_UI.edds"
+     m_fObjectiveFov 15
+     m_fMagnification 6
+    }
+   }
+  }
+ }
+}

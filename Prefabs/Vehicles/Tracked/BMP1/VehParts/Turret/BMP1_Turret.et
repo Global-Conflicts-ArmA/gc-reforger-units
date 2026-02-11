@@ -24,7 +24,7 @@ Turret : "{4AD877DEA242E512}Prefabs/Weapons/Core/Turret_Base.et" {
      }
      SightsFOVInfo SCR_SightsZoomFOVInfo "{5E52AE0A31173B5A}" {
       m_fBaseZoom 6
-      m_fZoomMax 0.1
+      m_fZoomMax 6
       m_fStepZoomSize 0.1
       m_fInterpolationSpeed 6
      }
@@ -45,5 +45,18 @@ Turret : "{4AD877DEA242E512}Prefabs/Weapons/Core/Turret_Base.et" {
     }
    }
   }
+  WeaponSlotComponent "{51ACD09C6BFEEE6A}" {
+   WeaponType RocketLauncher
+  }
+  WeaponSlotComponent "{5E52AE02F56B04C8}" {
+   WeaponType RocketLauncher
+  }
+  WeaponSlotComponent "{5E52AE0A31173B77}" {
+   WeaponType MachineGun
+  }
+  WeaponSlotComponent "{64E93AAE9DD3BC5B}" {
+   WeaponType RocketLauncher
+  }
  }
+ coords 2.756 -2.316 -1.338
 }

@@ -1,0 +1,26 @@
+SCR_AIGroup : "{5CC564DD03A08DC5}Prefabs/Groups/BLUFOR/GC_CAF/1993 Canadian Army/P/Group_CAF_1993_Base_P.et" {
+ ID "0000000000000001"
+ components {
+  SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+   m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+    Name "2025 10 Man Rifle Section (CADPAT Arid)"
+    m_Image "{ABA2D60082FFC2A4}UI/Textures/EditorPreviews/Groups/BLUFOR/Group_US_RifleSquad.edds"
+    m_aAuthoredLabels {
+     ENTITYTYPE_GROUP FACTION_GC_CAF
+    }
+    m_MilitarySymbol SCR_MilitarySymbol "{563682D06ED5ACD9}" {
+     m_Amplifier SQUAD
+    }
+   }
+  }
+  SCR_GroupIdentityComponent "{56366C5C50AD3CF2}" {
+   m_MilitarySymbol SCR_MilitarySymbol "{56366C5C4E32A359}" {
+    m_Amplifier SQUAD
+   }
+  }
+ }
+ m_aUnitPrefabSlots {
+  "{EA637704AF310880}Prefabs/Characters/Factions/BLUFOR/GC_Canada/2025 Canadian Army/Arid/Character_CAF_2020_ARID_SL.et" "{0A290B5C9E846298}Prefabs/Characters/Factions/BLUFOR/GC_Canada/2025 Canadian Army/Arid/Character_CAF_2020_ARID_Grenadier.et" "{E4EF5DDD6206A26D}Prefabs/Characters/Factions/BLUFOR/GC_Canada/2025 Canadian Army/Arid/Character_CAF_2020_ARID_RiflemanLAT.et" "{1D91C69BF41F7DCB}Prefabs/Characters/Factions/BLUFOR/GC_Canada/2025 Canadian Army/Arid/Character_CAF_2020_ARID_Rifleman.et" "{4FE6CF897B77BCEA}Prefabs/Characters/Factions/BLUFOR/GC_Canada/2025 Canadian Army/Arid/Character_CAF_2020_ARID_AR.et" "{70338086ED9C0223}Prefabs/Characters/Factions/BLUFOR/GC_Canada/2025 Canadian Army/Arid/Character_CAF_2020_ARID_S2IC.et" "{4FE6CF897B77BCEA}Prefabs/Characters/Factions/BLUFOR/GC_Canada/2025 Canadian Army/Arid/Character_CAF_2020_ARID_AR.et" "{1E7EBEDFD8FDECAB}Prefabs/Characters/Factions/BLUFOR/GC_Canada/2025 Canadian Army/Arid/Character_CAF_2020_ARID_S3IC.et" "{E4EF5DDD6206A26D}Prefabs/Characters/Factions/BLUFOR/GC_Canada/2025 Canadian Army/Arid/Character_CAF_2020_ARID_RiflemanLAT.et" "{1D91C69BF41F7DCB}Prefabs/Characters/Factions/BLUFOR/GC_Canada/2025 Canadian Army/Arid/Character_CAF_2020_ARID_Rifleman.et"
+ }
+ m_sCustomNameSet ""
+}

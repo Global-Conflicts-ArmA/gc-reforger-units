@@ -1,0 +1,89 @@
+SCR_ChimeraCharacter : "{92C31261310A2D90}Prefabs/Characters/Factions/BLUFOR/GC_Canada/2025 Canadian Army/Multi-Terrain/Character_CAF_2020_MT_BaseLoadout.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Company Commander"
+    Icon "{A26C465A6AE2AA17}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_Leader.edds"
+    m_Image "{E66FEBD3F049BF7D}UI/Textures/EditorPreviews/Characters/BLUFOR/US_Army/Character_US_SL.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{85A2A1CD6BA3A039}Prefabs/Weapons/Rifles/AR15/Rifle_Pronto_C8A1_GRN.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{CB9B66D3264DDC75}Prefabs/Characters/HeadGear/Helmet_ECH/Helmet_ECH_lc_CADPAT_MT2.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{1300A5F6CA51B206}Prefabs/Characters/Vests/Vest_PCGen_III/Vest_PCGen_III.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{3F09E61DCB860B81}Prefabs/Characters/Vests/Vest_PCGen_III/Variants/Vest_PCGen_III_rifleman_filbe.et"
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab "{4E37FE174E8C266C}Prefabs/Characters/Handwear/Gloves_MechanixMpact/Gloves_mpack_Coyote.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{689329975F2DC082}" {
+     TargetStorage "Vest/Vest_PCGen_III_rifleman_filbe.et/filbe/Pouch_FILBE_doubleM4_1.et"
+     PrefabsToSpawn {
+      "{2EBF60EF24B108FC}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_Ball.et" "{2EBF60EF24B108FC}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_Ball.et"
+     }
+    }
+    ItemsInitConfigurationItem "{689329975F2DC0BA}" {
+     TargetStorage "Vest/Vest_PCGen_III_rifleman_filbe.et/filbevest2/Pouch_FILBE_doubleM4_2.et"
+     PrefabsToSpawn {
+      "{2EBF60EF24B108FC}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_Ball.et" "{2EBF60EF24B108FC}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_Ball.et"
+     }
+    }
+    ItemsInitConfigurationItem "{689329975F2DC0BB}" {
+     TargetStorage "Vest/Vest_PCGen_III_rifleman_filbe.et/filbevest/Pouch_FILBE_doubleM4_1.et"
+     PrefabsToSpawn {
+      "{2EBF60EF24B108FC}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_Ball.et" "{2EBF60EF24B108FC}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_Ball.et"
+     }
+    }
+    ItemsInitConfigurationItem "{689329975F2DC0BC}" {
+     TargetStorage "Vest/Vest_PCGen_III_rifleman_filbe.et/filbevest3/Pouch_FILBE_doubleM4_3.et"
+     PrefabsToSpawn {
+      "{2EBF60EF24B108FC}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_Ball.et" "{2EBF60EF24B108FC}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_Ball.et"
+     }
+    }
+    ItemsInitConfigurationItem "{689329975F2DC0BD}" {
+     TargetStorage "Vest/Vest_PCGen_III_rifleman_filbe.et/m67/Pouch_Filbe_M67_Base.et"
+     PrefabsToSpawn {
+      "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
+     }
+    }
+    ItemsInitConfigurationItem "{689329975F2D9594}" {
+     TargetStorage "Vest/Vest_PCGen_III_rifleman_filbe.et/m67_2/Pouch_Filbe_M67_2.et"
+     PrefabsToSpawn {
+      "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
+     }
+    }
+    ItemsInitConfigurationItem "{689329975F2D9598}" {
+     TargetStorage "Vest/Vest_PCGen_III_rifleman_filbe.et/m18_1/Pouch_Filbe_M18_1.et"
+     PrefabsToSpawn {
+      "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
+     }
+    }
+    ItemsInitConfigurationItem "{689329975F2D959B}" {
+     TargetStorage "Vest/Vest_PCGen_III_rifleman_filbe.et/m18_2/Pouch_Filbe_M18_2.et"
+     PrefabsToSpawn {
+      "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
+     }
+    }
+    ItemsInitConfigurationItem "{689329975F2A3DCC}" {
+     TargetStorage "Vest/Vest_PCGen_III_rifleman_filbe.et/radio/Pouch_152_Radio.et"
+     PrefabsToSpawn {
+      "{8CA9C0573BD0B19F}Prefabs/Items/Equipment/Radios/CAF/Radio_ANPRC152_CAF.et"
+     }
+    }
+   }
+  }
+ }
+}
