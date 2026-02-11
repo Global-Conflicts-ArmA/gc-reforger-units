@@ -1,6 +1,0 @@
-SCR_AIGroup : "{C66BDBDA0E32A0DD}Prefabs/Groups/BLUFOR/US/Marines/2025/Group_USMC_2025_LAR_HQ.et" {
- ID "0000000000000001"
- m_aUnitPrefabSlots {
-  "{174060671F5A246A}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marine Rifles/Woodland/P/Character_2025_USMC_PL_P.et" "{625AF371C18E85CA}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marine Rifles/Woodland/P/Character_2025_USMC_GL_P.et" "{0608760D3C538677}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marine Rifles/Woodland/P/Character_2025_USMC_LAT_P.et" "{0608760D3C538677}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marine Rifles/Woodland/P/Character_2025_USMC_LAT_P.et" "{2C14230F6D8439BE}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marine Rifles/Woodland/P/Character_2025_USMC_Spotter_P.et" "{26D79313CEAD0C88}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marine Rifles/Woodland/P/Character_2025_USMC_Sniper_AMR_P.et" "{CC6F00C11F44975D}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marine Rifles/Woodland/P/Character_2025_USMC_CrewCO_P.et" "{BF37EF6602B85140}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marine Rifles/Woodland/P/Character_2025_USMC_CrewGunner_P.et" "{6E431168A738FC23}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marine Rifles/Woodland/P/Character_2025_USMC_CrewDriver_P.et"
- }
-}
