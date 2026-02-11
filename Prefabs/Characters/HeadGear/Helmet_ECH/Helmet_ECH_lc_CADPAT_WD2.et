@@ -21,6 +21,7 @@ GameEntity : "{970115A55E623C70}Prefabs/Characters/HeadGear/Helmet_ECH/Helmet_EC
   BaseLoadoutClothComponent "{5112706CD4157AF8}" {
    Slots {
     RHS_LoadoutSlotInfo MeshCover {
+     Prefab "{0359ABE16B5F8ACB}Prefabs/Characters/HeadGear/Helmet_ECH/Headgear_ECH_cover_c_tw.et"
      AreaType RHS_LoadoutECHCoverSlotArea "{5E92FB513DD3CEAF}" {
      }
     }

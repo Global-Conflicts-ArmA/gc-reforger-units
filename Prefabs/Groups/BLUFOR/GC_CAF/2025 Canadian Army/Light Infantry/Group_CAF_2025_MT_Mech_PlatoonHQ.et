@@ -1,0 +1,26 @@
+SCR_AIGroup : "{5CC564DD03A08DC5}Prefabs/Groups/BLUFOR/GC_CAF/1993 Canadian Army/P/Group_CAF_1993_Base_P.et" {
+ ID "0000000000000001"
+ components {
+  SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+   m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+    Name "2025 Rifle Platoon HQ (CADPAT MT)"
+    m_Image "{ABA2D60082FFC2A4}UI/Textures/EditorPreviews/Groups/BLUFOR/Group_US_RifleSquad.edds"
+    m_aAuthoredLabels {
+     ENTITYTYPE_GROUP FACTION_GC_CAF
+    }
+    m_MilitarySymbol SCR_MilitarySymbol "{563682D06ED5ACD9}" {
+     m_Amplifier SQUAD
+    }
+   }
+  }
+  SCR_GroupIdentityComponent "{56366C5C50AD3CF2}" {
+   m_MilitarySymbol SCR_MilitarySymbol "{56366C5C4E32A359}" {
+    m_Amplifier SQUAD
+   }
+  }
+ }
+ m_aUnitPrefabSlots {
+  "{F1802349655D63BC}Prefabs/Characters/Factions/BLUFOR/GC_Canada/2025 Canadian Army/Character_CAF_2020_MT_PL.et" "{38649290C583CE57}Prefabs/Characters/Factions/BLUFOR/GC_Canada/2025 Canadian Army/Character_CAF_2020_MT_PW.et" "{B780FBAAABB5E187}Prefabs/Characters/Factions/BLUFOR/GC_Canada/2025 Canadian Army/Character_CAF_2020_MT_Signaller.et" "{F62DEAF37D8A5563}Prefabs/Characters/Factions/BLUFOR/GC_Canada/2025 Canadian Army/Character_CAF_2020_MT_Medic.et" "{647E762AC48C0FC2}Prefabs/Characters/Factions/BLUFOR/GC_Canada/2025 Canadian Army/Character_CAF_2020_MT_CrewCommander.et" "{389597364A06CA5D}Prefabs/Characters/Factions/BLUFOR/GC_Canada/2025 Canadian Army/Character_CAF_2020_MT_CrewDriver.et" "{DFBE30D662F1C3F0}Prefabs/Characters/Factions/BLUFOR/GC_Canada/2025 Canadian Army/Character_CAF_2020_MT_CrewGunner.et"
+ }
+ m_sCustomNameSet "Platoon HQ"
+}

@@ -8,11 +8,7 @@ SCR_ChimeraCharacter : "{D3F29763F96877CD}Prefabs/Characters/Factions/INDFOR/GC_
     IconSetName "EditableEntity_Character_Driver"
    }
    m_VariantData SCR_EditableEntityVariantData "{685121488B132A6B}" {
-    m_bRandomizeDefaultVariant 0
     m_aVariants {
-     SCR_EditableEntityVariant "{685121488924EFFC}" {
-      m_sVariantPrefab "{DD3B69E69B8BD56C}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_CrewDriver.et"
-     }
      SCR_EditableEntityVariant "{68531DFAF3CD378C}" {
       m_sVariantPrefab "{332F10CB0D80B748}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Variants/Character_MUJ_CrewDriver1.et"
      }
@@ -26,12 +22,12 @@ SCR_ChimeraCharacter : "{D3F29763F96877CD}Prefabs/Characters/Factions/INDFOR/GC_
    WeaponTemplate "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
-   WeaponTemplate "{BFE79C383ABDE6D2}Prefabs/Weapons/Rifles/MP40/BC_MP40.et"
+   WeaponTemplate "{76BBE319BD647753}Prefabs/Weapons/Rifles/ARY_UZI/ARY_Rifle_Uzi.et"
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {
-     Prefab "{F37E8195BD4BBAA8}Prefabs/Characters/HeadGear/Hat_FlatCap_01/Pakol_Hat_2.et"
+     Prefab "{5A293B86B4EDF486}Prefabs/Characters/HeadGear/Hat_FlatCap_01/Pakol_Hat_1.et"
     }
     LoadoutSlotInfo Jacket {
      Prefab "{E6A32FCB9CAD03D2}Prefabs/Characters/Uniforms/Jacket_ShirtSmall_2.et"
@@ -58,7 +54,7 @@ SCR_ChimeraCharacter : "{D3F29763F96877CD}Prefabs/Characters/Factions/INDFOR/GC_
     ItemsInitConfigurationItem "{685121423431CB63}" {
      TargetStorage "Vest/Vest_ChestRigSmall_1.et"
      PrefabsToSpawn {
-      "{EA76BE12E7C97CF1}Prefabs/Weapons/Magazines/MP40/BC_Magazine_9x19_MP40_32rnd_Ball.et" "{EA76BE12E7C97CF1}Prefabs/Weapons/Magazines/MP40/BC_Magazine_9x19_MP40_32rnd_Ball.et"
+      "{5EF83165B9F3A519}Prefabs/Weapons/Magazines/ARY_Magazine_9x19_UZI_32rnd_Ball.et" "{5EF83165B9F3A519}Prefabs/Weapons/Magazines/ARY_Magazine_9x19_UZI_32rnd_Ball.et" "{5EF83165B9F3A519}Prefabs/Weapons/Magazines/ARY_Magazine_9x19_UZI_32rnd_Ball.et"
      }
     }
    }

@@ -1,0 +1,12 @@
+GenericEntity : "{2E0E3D7D1DD0FF8F}Prefabs/Weapons/Core/Attachment_Base.et" {
+ ID "4BA426CBAED42A14"
+ components {
+  InventoryItemComponent "{52627A1F45CD4EB6}" {
+   Enabled 0
+  }
+  MeshObject "{689343C829B95680}" {
+   Object "{44A0334F08B74A37}Assets/Weapons/Attachments/Rails/MLOK_MK16_URGI/MAG582_Rail.xob"
+  }
+ }
+ coords 0.055 -0.051 -0.149
+}

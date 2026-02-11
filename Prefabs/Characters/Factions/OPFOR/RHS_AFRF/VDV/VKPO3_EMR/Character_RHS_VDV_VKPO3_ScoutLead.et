@@ -1,0 +1,85 @@
+SCR_ChimeraCharacter : "{BAAED66388CF5D06}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/VKPO3_EMR/Character_RHS_VDV_VKPO3_Base.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Lead Scout"
+    Icon "{A26C465A6AE2AA17}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_Leader.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{60528AC1EFB34750}Prefabs/Weapons/Rifles/AK200/variants/Rifle_AK205_XPS_m300.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{465EC0BF096A5A84}Prefabs/Characters/HeadGear/Helmet_Spartan3/Variants/VKPO3/Helmet_Spartan3_OD_Peltor_VKPO3.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{02EE7A78CDF7EC68}Prefabs/Characters/Uniforms/Goblin_jacket/Goblin_jacket_GRN.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{1434EE7D082F04D4}Prefabs/Characters/Vests/Vest_TV110/Vest_TV110_FG.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{DE8616CA87C165E3}Prefabs/Characters/Uniforms/Goblin_pants/Goblin_pants_GRN.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{CE00F02072F25F02}Prefabs/Characters/Vests/Vest_TV110/Variants/Vest_TV110_arsarmaHSGI_FG_1.et"
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab "{0B75FB9C3FB74ADF}Prefabs/Characters/Handwear/Gloves_511_Competition/Gloves_511_Comp_Green.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{66AC913A4F681B3A}" {
+     TargetStorage "Pants/Goblin_pants_GRN.et"
+    }
+    ItemsInitConfigurationItem "{66AC913AB40CA16B}" {
+     TargetStorage "Jacket/Goblin_jacket_GRN.et"
+    }
+    ItemsInitConfigurationItem "{66B699F846A3E189}" {
+     TargetStorage "Jacket/Goblin_jacket_GRN.et"
+    }
+    ItemsInitConfigurationItem "{68956B4A528B094D}" {
+     TargetStorage "ArmoredVest/Vest_TV110_FG.et/Pouch_kangoroo/pouch_tv110_kangroo_FG.et"
+     PrefabsToSpawn {
+      "{B39F57E7FB003434}Prefabs/Weapons/Magazines/AK12_magazine/Magazine_545x39_AK12_30rnd_Base.et" "{B39F57E7FB003434}Prefabs/Weapons/Magazines/AK12_magazine/Magazine_545x39_AK12_30rnd_Base.et" "{B39F57E7FB003434}Prefabs/Weapons/Magazines/AK12_magazine/Magazine_545x39_AK12_30rnd_Base.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68956B4A528B095A}" {
+     TargetStorage "Vest/Vest_TV110_arsarmaHSGI_FG_1.et/arsbelt/Pouch_ArsArma_magouch_morphed_ATACS.et"
+     PrefabsToSpawn {
+      "{B39F57E7FB003434}Prefabs/Weapons/Magazines/AK12_magazine/Magazine_545x39_AK12_30rnd_Base.et" "{B39F57E7FB003434}Prefabs/Weapons/Magazines/AK12_magazine/Magazine_545x39_AK12_30rnd_Base.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68956B4A528B0959}" {
+     TargetStorage "Vest/Vest_TV110_arsarmaHSGI_FG_1.et/arsbelt2/Pouch_ArsArma_magouch_morphed_ATACS.et"
+     PrefabsToSpawn {
+      "{B39F57E7FB003434}Prefabs/Weapons/Magazines/AK12_magazine/Magazine_545x39_AK12_30rnd_Base.et" "{B39F57E7FB003434}Prefabs/Weapons/Magazines/AK12_magazine/Magazine_545x39_AK12_30rnd_Base.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68956B4A528B0958}" {
+     TargetStorage "Vest/Vest_TV110_arsarmaHSGI_FG_1.et/arsbeltpistol1/Pouch_GP106_RGD_Pouch_2_FG.et"
+     PrefabsToSpawn {
+      "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68956B4A528B095F}" {
+     TargetStorage "Vest/Vest_TV110_arsarmaHSGI_FG_1.et/grenade2/Pouch_GP106_RGD_Pouch_2_FG.et"
+     PrefabsToSpawn {
+      "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68956B4A528B095E}" {
+     TargetStorage "Vest/Vest_TV110_arsarmaHSGI_FG_1.et/arsbelt_up105_bigutil/Pouch_UP105_utilbig_FG.et"
+     PrefabsToSpawn {
+      "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+     }
+    }
+   }
+  }
+ }
+}

@@ -6,12 +6,14 @@ SCR_ChimeraCharacter : "{DD3B69E69B8BD56C}Prefabs/Characters/Factions/INDFOR/GC_
   }
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_VariantData SCR_EditableEntityVariantData "{685121488B132A6B}" {
+    m_bRandomizeDefaultVariant 0
     m_aVariants {
-     SCR_EditableEntityVariant "{685121488924EFFC}" {
-      m_sVariantPrefab "{E2AC44E7C5017DB6}Prefabs/Characters/Factions/INDFOR/GC_MUJ/P/Character_MUJ_CrewDriver_P.et"
-     }
      SCR_EditableEntityVariant "{68531DFAF3CD378C}" {
       m_sVariantPrefab ""
+      m_bEnabled 0
+     }
+     SCR_EditableEntityVariant "{685121488924EFFC}" {
+      m_sVariantPrefab "{E2AC44E7C5017DB6}Prefabs/Characters/Factions/INDFOR/GC_MUJ/P/Character_MUJ_CrewDriver_P.et"
      }
      SCR_EditableEntityVariant "{68531DFB1A8EA74D}" {
       m_sVariantPrefab "{87F9FB793A83CD3D}Prefabs/Characters/Factions/INDFOR/GC_MUJ/P/Variants/Character_MUJ_CrewDriver1_P.et"

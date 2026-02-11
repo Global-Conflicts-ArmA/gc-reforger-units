@@ -25,20 +25,18 @@ SCR_ChimeraCharacter : "{DD3B69E69B8BD56C}Prefabs/Characters/Factions/INDFOR/GC_
      Prefab "{D6B1ACA46036E9CE}Prefabs/Characters/HeadGear/Helmet_TSh4_01/Helmet_TSh4_01_open.et"
     }
     LoadoutSlotInfo Jacket {
-     Prefab "{C42C535F667B250E}Prefabs/Characters/Uniforms/Suit_Tanker_US_01/Suit_Tanker_UK_01_tucked.et"
+     Prefab "{B7C33E13550505CB}Prefabs/Characters/Uniforms/Jacket_ShirtSmall_6.et"
     }
     LoadoutSlotInfo Pants {
-     Prefab ""
     }
     LoadoutSlotInfo Boots {
-     Prefab "{F05A35BCC44BE9FC}Prefabs/Characters/Footwear/TankerBoots_US_01/TankerBoots_US_01.et"
+     Prefab "{4C6029AB8BF5C044}Prefabs/Characters/Footwear/CombatBoots_Soviet_01_Dirty.et"
     }
    }
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{68512142300EBBFB}" {
-     TargetStorage "Jacket/Suit_Tanker_UK_01_tucked.et"
     }
     ItemsInitConfigurationItem "{685121423431CB63}" {
      PrefabsToSpawn {

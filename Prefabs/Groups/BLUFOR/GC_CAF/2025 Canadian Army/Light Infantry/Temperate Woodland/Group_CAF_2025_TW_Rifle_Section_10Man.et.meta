@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{2D89E6C4ECD1C426}Prefabs/Groups/BLUFOR/GC_CAF/2025 Canadian Army/Light Infantry/Temperate Woodland/Group_CAF_2025_TW_Rifle_Section_10Man.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

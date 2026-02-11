@@ -17,29 +17,36 @@ SCR_ChimeraCharacter : "{3A10CE06B37CDCC1}Prefabs/Characters/Factions/INDFOR/GC_
    }
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
-   WeaponTemplate "{AD1B343E015F2D11}Prefabs/Weapons/Rifles/M3A1/BC_M3A1.et"
+   WeaponTemplate "{A314981748872A43}Prefabs/Weapons/Rifles/M1 Carbine/BC_Rifle_M1_Carbine.et"
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {
-     Prefab "{5D7350496AEA24C8}Prefabs/Characters/HeadGear/Hat_RadiovkaBeret_01/Hat_RadiovkaBeret_01_black_Dirty.et"
+     Prefab "{F37E8195BD4BBAA8}Prefabs/Characters/HeadGear/Hat_FlatCap_01/Pakol_Hat_2.et"
     }
     LoadoutSlotInfo Jacket {
-     Prefab "{A707F4543A61CA8B}Prefabs/Characters/Uniforms/Suit_Tanker_US_01/Suit_GroundCrew_UK_01_tucked.et"
+     Prefab "{C765CE33535F1B3E}Prefabs/Characters/Uniforms/Jacket_Bomber_1.et"
     }
     LoadoutSlotInfo Pants {
-     Prefab ""
+     Prefab "{713E6F2FF25DCD87}Prefabs/Characters/Uniforms/Pants_Cargo_1.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{B12C47DF95EC9C17}Prefabs/Characters/Footwear/CombatBoots_Insurgents.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{6923BCE821E23E40}Prefabs/Characters/Vests/Vest_ChestRigSmal/Vest_ChestRigSmall_3.et"
     }
    }
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{68512154CB74203B}" {
-     TargetStorage "Jacket/Suit_GroundCrew_UK_01_tucked.et"
+     TargetStorage "Pants/Pants_Cargo_1.et"
     }
     ItemsInitConfigurationItem "{68512154C8364623}" {
+     TargetStorage "Vest/Vest_ChestRigSmall_3.et"
      PrefabsToSpawn {
-      "{0B17FB1F4A9F5289}Prefabs/Weapons/Magazines/M3A1/BC_Magazine_45acp_M3A1_30rnd_Ball.et" "{0B17FB1F4A9F5289}Prefabs/Weapons/Magazines/M3A1/BC_Magazine_45acp_M3A1_30rnd_Ball.et" "{0B17FB1F4A9F5289}Prefabs/Weapons/Magazines/M3A1/BC_Magazine_45acp_M3A1_30rnd_Ball.et"
+      "{8A2D5C9766FE4375}Prefabs/Weapons/Magazines/M1 Carbine/BC_Magazine_30_Carbine_M1_Carbine_15rnd_Ball.et" "{8A2D5C9766FE4375}Prefabs/Weapons/Magazines/M1 Carbine/BC_Magazine_30_Carbine_M1_Carbine_15rnd_Ball.et" "{8A2D5C9766FE4375}Prefabs/Weapons/Magazines/M1 Carbine/BC_Magazine_30_Carbine_M1_Carbine_15rnd_Ball.et" "{8A2D5C9766FE4375}Prefabs/Weapons/Magazines/M1 Carbine/BC_Magazine_30_Carbine_M1_Carbine_15rnd_Ball.et" "{8A2D5C9766FE4375}Prefabs/Weapons/Magazines/M1 Carbine/BC_Magazine_30_Carbine_M1_Carbine_15rnd_Ball.et"
      }
     }
    }

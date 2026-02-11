@@ -8,11 +8,7 @@ SCR_ChimeraCharacter : "{D3F29763F96877CD}Prefabs/Characters/Factions/INDFOR/GC_
     IconSetName "EditableEntity_Character_Crew"
    }
    m_VariantData SCR_EditableEntityVariantData "{685144E3F4A1735B}" {
-    m_bRandomizeDefaultVariant 0
     m_aVariants {
-     SCR_EditableEntityVariant "{685144E3F5E8E670}" {
-      m_sVariantPrefab "{3A10CE06B37CDCC1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_CrewGunner.et"
-     }
      SCR_EditableEntityVariant "{68531DFA8BF120DA}" {
       m_sVariantPrefab "{762FA2B0B868F31E}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Variants/Character_MUJ_CrewGunner1.et"
      }
@@ -26,7 +22,7 @@ SCR_ChimeraCharacter : "{D3F29763F96877CD}Prefabs/Characters/Factions/INDFOR/GC_
    WeaponTemplate "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
-   WeaponTemplate "{BFEA719491610A45}Prefabs/Weapons/Rifles/AKS74U/Rifle_AKS74U.et"
+   WeaponTemplate "{995B334262EDDA95}Prefabs/Weapons/Rifles/AKM/BC_Rifle_AKM.et"
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
@@ -58,7 +54,7 @@ SCR_ChimeraCharacter : "{D3F29763F96877CD}Prefabs/Characters/Factions/INDFOR/GC_
     ItemsInitConfigurationItem "{68512154C8364623}" {
      TargetStorage "Vest/Vest_Lifchik.et"
      PrefabsToSpawn {
-      "{BBB50A815A2F916B}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Ball.et" "{BBB50A815A2F916B}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Ball.et"
+      "{E039E897BD5A339E}Prefabs/Weapons/Magazines/AK/BC_Magazine_762x39_AK_30rnd_Ball.et" "{E039E897BD5A339E}Prefabs/Weapons/Magazines/AK/BC_Magazine_762x39_AK_30rnd_Ball.et" "{E039E897BD5A339E}Prefabs/Weapons/Magazines/AK/BC_Magazine_762x39_AK_30rnd_Ball.et" "{E039E897BD5A339E}Prefabs/Weapons/Magazines/AK/BC_Magazine_762x39_AK_30rnd_Ball.et"
      }
     }
    }
