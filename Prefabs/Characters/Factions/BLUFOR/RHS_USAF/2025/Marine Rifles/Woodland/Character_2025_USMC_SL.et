@@ -22,7 +22,7 @@ SCR_ChimeraCharacter : "{F92C060CACCE8143}Prefabs/Characters/Factions/BLUFOR/RHS
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
    AttachType InventoryStorageSlot "{0C3DA650B52E120B}" {
    }
-   WeaponTemplate "{2F7ECD223F16E33A}Prefabs/Weapons/Rifles/M27IAR/Marines-VCOGs/Rifle_M27IAR_camo1_VCOG_railcoversgrip.et"
+   WeaponTemplate "{0190ED4D056E2C53}Prefabs/Weapons/Rifles/M27IAR/Marines-VCOGs/Rifle_M27IAR_camo1_VCOG_rangefinder.et"
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
    AttachType InventoryStorageSlot "{9113A68B4D97E2E6}" {
