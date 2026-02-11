@@ -7,10 +7,10 @@ SCR_ChimeraCharacter : "{BB9527E1BFD44D04}Prefabs/Characters/Factions/BLUFOR/RHS
      Prefab "{FAD7BB02C57FE437}Prefabs/Characters/HeadGear/Helmet_ECH/Helmet_ECH_hc_v_r_cd_p.et"
     }
     LoadoutSlotInfo Jacket {
-     Prefab "{7A31BAAF2D74B8B4}Prefabs/Characters/Uniforms/Jacket_FROG_Combat_Shirt_Arid.et"
+     Prefab "{E8EA7FFEFB072D20}Prefabs/Characters/Uniforms/Shirt_FROG/Shirt_FROG_Arid.et"
     }
     LoadoutSlotInfo Pants {
-     Prefab "{F6A9C2400BE103E4}Prefabs/Characters/Uniforms/Pants_FROG_Trousers_Arid.et"
+     Prefab "{7D4D8F909FCE3A04}Prefabs/Characters/Uniforms/Pants_FROG/Pants_FROG_Arid.et"
     }
    }
   }

@@ -3,9 +3,9 @@ SCR_ChimeraCharacter : "{F92C060CACCE8143}Prefabs/Characters/Factions/BLUFOR/RHS
  components {
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
-    Name "#AR-Role_AntiTank"
+    Name "Antitank Missile Gunner FGM-148 Javelin"
     m_aAuthoredLabels + {
-     TRAIT_OPTICS TRAIT_SUPPRESSIVE
+     ROLE_ANTITANK
     }
    }
   }
@@ -16,12 +16,10 @@ SCR_ChimeraCharacter : "{F92C060CACCE8143}Prefabs/Characters/Factions/BLUFOR/RHS
    WeaponTemplate "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
-   AttachType InventoryStorageSlot "{0C3DA650B52E120B}" {
-   }
-   WeaponTemplate "{A6D8BD34CBE899FE}Prefabs/Weapons/Rifles/M27IAR/Marines-VCOGs/Rifle_M27IAR_VCOG_railcoversgrip.et"
+   WeaponTemplate "{F75E18A45A2AE74E}Prefabs/Weapons/Rifles/M4A1/Rifle_M4A1_RAS_NT4_Peq_RCO_RMR.et"
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
-   WeaponTemplate "{35022055DCDDE98B}Prefabs/Weapons/Launchers/MK153/Launcher_MK153mod2.et"
+   WeaponTemplate "{246737687711A367}Prefabs/Weapons/Launchers/FGM148_Javelin/Launcher_FGM148_Javelin.et"
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
@@ -32,7 +30,7 @@ SCR_ChimeraCharacter : "{F92C060CACCE8143}Prefabs/Characters/Factions/BLUFOR/RHS
      Prefab "{1300A5F6CA51B206}Prefabs/Characters/Vests/Vest_PCGen_III/Vest_PCGen_III.et"
     }
     LoadoutSlotInfo Back {
-     Prefab "{BC4ABD18AF9564D5}Prefabs/Items/Equipment/Backpacks/FILBE_Backpack_Heavy.et"
+     Prefab "{9A26D311900C33EE}Prefabs/Items/Equipment/Backpacks/FILBE_hydration_pack.et"
     }
     LoadoutSlotInfo Vest {
      Prefab "{11810158D0BCABEF}Prefabs/Characters/Vests/Vest_PCGen_III/Variants/Vest_PCGen_III_rifleman_blueforcetriple.et"
@@ -48,81 +46,75 @@ SCR_ChimeraCharacter : "{F92C060CACCE8143}Prefabs/Characters/Factions/BLUFOR/RHS
      TargetStorage "Pants/Pants_FROG_WD.et"
     }
     ItemsInitConfigurationItem "{61B52C4506FFE973}" {
-     TargetStorage "Vest/Vest_PCGen_III_rifleman_blueforcetriple.et/radio/Pouch_152_Radio.et"
+     Enabled 0
     }
     ItemsInitConfigurationItem "{651D048C906638EA}" {
      TargetStorage "Jacket/Shirt_FROG_WD.et"
     }
     ItemsInitConfigurationItem "{652B48EE86F65FD5}" {
-     TargetStorage "Back/FILBE_Backpack_Heavy.et"
-    }
-    ItemsInitConfigurationItem "{66B4211E199B8F9A}" {
      TargetStorage "Jacket/Shirt_FROG_WD.et"
     }
-    ItemsInitConfigurationItem "{66B53425AD21BA6D}" {
+    ItemsInitConfigurationItem "{66B4211E199B8F9A}" {
+     TargetStorage "Back/FILBE_hydration_pack.et"
+    }
+    ItemsInitConfigurationItem "{68975A819ED54441}" {
      TargetStorage "Vest/Vest_PCGen_III_rifleman_blueforcetriple.et/flibe2/Pouch_FILBE_doubleM4_1.et"
      PrefabsToSpawn {
       "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et" "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et"
      }
     }
-    ItemsInitConfigurationItem "{66B53425AD21BA63}" {
+    ItemsInitConfigurationItem "{68975A819F116A04}" {
      TargetStorage "Vest/Vest_PCGen_III_rifleman_blueforcetriple.et/blueforce/Pouch_Blueforce_Tri.et"
      PrefabsToSpawn {
       "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et" "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et" "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et"
      }
     }
-    ItemsInitConfigurationItem "{66B53425AD21BA7E}" {
+    ItemsInitConfigurationItem "{68975A819F29522E}" {
      TargetStorage "Vest/Vest_PCGen_III_rifleman_blueforcetriple.et/flex/Pouch_Shaw_Flex.et"
      PrefabsToSpawn {
       "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et"
      }
     }
-    ItemsInitConfigurationItem "{66B53425AD21BA7F}" {
+    ItemsInitConfigurationItem "{68975A819CCAA3A5}" {
      TargetStorage "Vest/Vest_PCGen_III_rifleman_blueforcetriple.et/flex2/Pouch_Shaw_Flex_MC.et"
      PrefabsToSpawn {
       "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et"
      }
     }
-    ItemsInitConfigurationItem "{66B53425AD21BA78}" {
+    ItemsInitConfigurationItem "{68975A819CE695C6}" {
      TargetStorage "Vest/Vest_PCGen_III_rifleman_blueforcetriple.et/raid/Pouch_Shaw_Raid.et"
      PrefabsToSpawn {
       "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et"
      }
     }
-    ItemsInitConfigurationItem "{66B53425AD21BA79}" {
+    ItemsInitConfigurationItem "{68975A819C80FE34}" {
      TargetStorage "Vest/Vest_PCGen_III_rifleman_blueforcetriple.et/filbe/Pouch_FILBE_doubleM4_3.et"
      PrefabsToSpawn {
       "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et" "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et"
      }
     }
-    ItemsInitConfigurationItem "{66B53425AD21BA7A}" {
+    ItemsInitConfigurationItem "{68975A819CA37D54}" {
      TargetStorage "Vest/Vest_PCGen_III_rifleman_blueforcetriple.et/pistol2/Pouch_Filbe_M67_2.et"
      PrefabsToSpawn {
       "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
      }
     }
-    ItemsInitConfigurationItem "{66B53425AD21BA74}" {
+    ItemsInitConfigurationItem "{68975A819C4A711F}" {
      TargetStorage "Vest/Vest_PCGen_III_rifleman_blueforcetriple.et/m67/Pouch_Filbe_M67_Base.et"
      PrefabsToSpawn {
       "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
      }
     }
-    ItemsInitConfigurationItem "{66B53425AD21BA75}" {
+    ItemsInitConfigurationItem "{68975A819C662073}" {
      TargetStorage "Vest/Vest_PCGen_III_rifleman_blueforcetriple.et/m18/Pouch_Filbe_M18_1.et"
      PrefabsToSpawn {
       "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
      }
     }
-    ItemsInitConfigurationItem "{66B53425AD21BA77}" {
+    ItemsInitConfigurationItem "{68975A80020D3ED7}" {
      TargetStorage "Vest/Vest_PCGen_III_rifleman_blueforcetriple.et/m18_2/Pouch_Filbe_M18_2.et"
      PrefabsToSpawn {
       "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
-     }
-    }
-    ItemsInitConfigurationItem "{66B534262047E019}" {
-     TargetStorage "Back/FILBE_Backpack_Heavy.et"
-     PrefabsToSpawn {
-      "{2C935EF6F98E6354}Prefabs/Weapons/Magazines/MK153/Container_MK153_HEAA.et" "{27AC9FC7F5E2BEEB}Prefabs/Weapons/Magazines/MK153/Container_MK153_HEDP.et"
      }
     }
    }

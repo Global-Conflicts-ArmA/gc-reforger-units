@@ -6,11 +6,29 @@ SCR_ChimeraCharacter : "{3967948B72443B25}Prefabs/Characters/Factions/BLUFOR/RHS
     Name "#AR-Role_TeamLeader"
    }
   }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Jacket {
+     Prefab "{3CAAF09E83B1DC3C}Prefabs/Characters/Uniforms/Shirt_FROG/Shirt_FROG_WD.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{6AB179C7B0A85B55}Prefabs/Characters/Uniforms/Pants_FROG/Pants_FROG_WD.et"
+    }
+   }
+  }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{6063106E91310A3D}" {
+     TargetStorage "Pants/Pants_FROG_WD.et"
+    }
+    ItemsInitConfigurationItem "{651D048C906638EA}" {
+     TargetStorage "Jacket/Shirt_FROG_WD.et"
+    }
+    ItemsInitConfigurationItem "{652B48EE86F65FD5}" {
+     TargetStorage "Jacket/Shirt_FROG_WD.et"
     }
     ItemsInitConfigurationItem "{66B4211E199B8F9A}" {
+     TargetStorage "Jacket/Shirt_FROG_WD.et"
      PrefabsToSpawn {
       "{59E0D9B5B6967152}Prefabs/Items/Equipment/Nightvision/PVS31/NVG_PVS31_WP.et"
      }

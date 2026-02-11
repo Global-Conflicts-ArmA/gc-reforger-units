@@ -4,10 +4,10 @@ SCR_ChimeraCharacter : "{A74D917D44C3BD28}Prefabs/Characters/Factions/BLUFOR/RHS
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Jacket {
-     Prefab "{7A31BAAF2D74B8B4}Prefabs/Characters/Uniforms/Jacket_FROG_Combat_Shirt_Arid.et"
+     Prefab "{E8EA7FFEFB072D20}Prefabs/Characters/Uniforms/Shirt_FROG/Shirt_FROG_Arid.et"
     }
     LoadoutSlotInfo Pants {
-     Prefab "{F6A9C2400BE103E4}Prefabs/Characters/Uniforms/Pants_FROG_Trousers_Arid.et"
+     Prefab "{7D4D8F909FCE3A04}Prefabs/Characters/Uniforms/Pants_FROG/Pants_FROG_Arid.et"
     }
     LoadoutSlotInfo Back {
      Prefab "{76092EF06FE739D7}Prefabs/Items/Equipment/Radios/US/Radio_MARPATD_GC_PRC119.et"
