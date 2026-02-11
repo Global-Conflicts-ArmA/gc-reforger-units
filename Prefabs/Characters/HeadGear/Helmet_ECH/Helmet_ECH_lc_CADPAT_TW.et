@@ -1,0 +1,57 @@
+GameEntity : "{970115A55E623C70}Prefabs/Characters/HeadGear/Helmet_ECH/Helmet_ECH_base.et" {
+ ID "50D485E1435D6C72"
+ components {
+  InventoryItemComponent "{5244E4431E28A759}" {
+   Attributes SCR_ItemAttributeCollection "{6893746320076243}" {
+    ItemDisplayName UIInfo "{6893746320076279}" {
+     Name "#RHS-Headgear_ECHM_Name #RHS-Headgear_Helmet_Cut_LC_Name"
+    }
+   }
+  }
+  MeshObject "{5112706CD4157AE0}" {
+   Object "{F7E46B6E9D29B203}Assets/Characters/HeadGear/Helmet_ECH/rhs_ech_lc_item.xob"
+  }
+  RHS_HelmetNodeStorageComponent "{5DB13C5777E6E695}" {
+   Attributes SCR_ItemAttributeCollection "{5DB13C5760610D64}" {
+    ItemDisplayName UIInfo "{5DB13C575E2AFE37}" {
+     Name "#RHS-Headgear_ECHM_Name #RHS-Headgear_Helmet_Cut_LC_Name"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    RHS_LoadoutSlotInfo MeshCover {
+     Prefab "{99C15D04C2428ACA}Prefabs/Characters/HeadGear/Helmet_ECH/Headgear_ECH_cover_c_tw.et"
+     AreaType RHS_LoadoutECHCoverSlotArea "{5E92FB513DD3CEAF}" {
+     }
+    }
+    RHS_LoadoutSlotInfo BackVelcro {
+     Enabled 1
+     m_eSlotState UNAVAILABLE
+    }
+    RHS_LoadoutSlotInfo NVG {
+    }
+    RHS_LoadoutSlotInfo Rail_Right {
+     Enabled 0
+    }
+    RHS_LoadoutSlotInfo Rail_Left {
+     Enabled 0
+    }
+    RHS_LoadoutSlotInfo TopVelcro {
+     Enabled 1
+     m_eSlotState UNAVAILABLE
+    }
+    RHS_LoadoutSlotInfo LeftVelcro {
+     Enabled 1
+     m_eSlotState UNAVAILABLE
+    }
+    RHS_LoadoutSlotInfo RightVelcro {
+     Enabled 1
+     m_eSlotState UNAVAILABLE
+    }
+   }
+   WornModel "{05C6C54872A168D4}Assets/Characters/HeadGear/Helmet_ECH/rhs_ech_lc.xob"
+   ItemModel "{F7E46B6E9D29B203}Assets/Characters/HeadGear/Helmet_ECH/rhs_ech_lc_item.xob"
+  }
+ }
+}

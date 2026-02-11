@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{6D6427555A03F682}Prefabs/Groups/BLUFOR/GC_CAF/2025 Canadian Army/Temperate Woodland/Group_CAF_2025_ARID_AT_Section.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

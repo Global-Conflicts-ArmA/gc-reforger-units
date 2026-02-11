@@ -47,6 +47,9 @@ Tank : "{8A883ABED22B6E27}Prefabs/Vehicles/Core/Tracked_Base.et" {
    }
    m_sDamagedParticle "{838A58A1470EA1CD}Particles/Vehicle/Vehicle_smoke_LAV25_exhaust_damaged_01.ptc"
   }
+  SCR_UniversalInventoryStorageComponent "{5E529ED09B647D03}" {
+   MaxItemSize 35 35 100
+  }
   TF_EngineSmokeGeneratorComponent "{6873174F6D41D831}" {
    m_sParticle "{346502DDD97A3AF1}Particles/Weapon/Smoke_Generator_Particle.ptc"
    m_iSpawnPositions {
@@ -97,8 +100,6 @@ Tank : "{8A883ABED22B6E27}Prefabs/Vehicles/Core/Tracked_Base.et" {
      }
     }
    }
-  }
-  BaseVehicleNodeComponent "{20FB66C5B2237133}" {
   }
   SlotManagerComponent "{55BCE45E438E4CFF}" {
    Slots {

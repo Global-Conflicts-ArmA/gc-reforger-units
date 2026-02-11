@@ -1,0 +1,28 @@
+SCR_ChimeraCharacter : "{6983C2973D0A4A37}Prefabs/Characters/Factions/BLUFOR/GC_Canada/2025 Canadian Army/Character_CAF_2020_MT_Grenadier.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{E70DFF55F55D2DF6}Prefabs/Characters/HeadGear/Helmet_ECH/Helmet_ECH_lc_CADPAT_TW.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{3455E4CD37D5510C}Prefabs/Characters/Uniforms/Shirt_Crye_Rolled/Shirt_Crye_Rolled_CADPAT_Woodland.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{C24706C89C322E6F}Prefabs/Characters/Uniforms/Pants_CCUE/Pants_CCUE_Woodland.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{688CA2AC8C510A16}" {
+     TargetStorage "Pants/Pants_CCUE_Woodland.et"
+    }
+    ItemsInitConfigurationItem "{689329963CBA3B20}" {
+     TargetStorage "Jacket/Shirt_Crye_Rolled_CADPAT_Woodland.et"
+    }
+   }
+  }
+ }
+}

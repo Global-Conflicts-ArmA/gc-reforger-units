@@ -1,0 +1,46 @@
+GenericEntity : "{36B5A77EF3852E68}Prefabs/Weapons/Rifles/AR15/Rifle_Pronto_C7A2_GRN.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{5F16E0B4B2D0D72C}" {
+     AttachmentSlot InventoryStorageSlot BayonetSlot {
+      Enabled 0
+     }
+    }
+    AttachmentSlotComponent "{68900420389315C3}" {
+     AttachmentSlot InventoryStorageSlot "{6890042009AD2682}" {
+      PivotID "barrel_chamber"
+      Offset 0 -0.0023 0.0133
+      Prefab "{AAD55E46E75D3E1E}Prefabs/Weapons/Attachments/Underbarrel/UGL_RHS_M203_SU253.et"
+      InspectionWidgetOffset 0 0.0789 0.2607
+     }
+     AttachmentType AttachmentUnderBarrelM203 "{68937D5AFAA07A0C}" {
+     }
+    }
+    AttachmentSlotComponent "{68940709E2A40284}" {
+     AttachmentSlot RHS_SlidingInventoryStorageSlot "{68940709E36CAD95}" {
+      PivotID "barrel_muzzle"
+      Offset -0.0251 0.0001 -0.0834
+      Angles 0 0 270
+      Prefab "{C71190740C9E3FC8}Prefabs/Weapons/Attachments/Rails/b18/mag582.et"
+      InspectionWidgetOffset 0.0382 0.0934 0.347
+     }
+    }
+    WeaponAnimationComponent "{60B4EA76EB15F6E0}" {
+     AnimGraph "{288D8FF8F78E3DA0}Assets/Weapons/Rifles/workspaces/m16_M203.agr"
+     AnimInstance "{2960BD42164C5E89}Assets/Weapons/Rifles/workspaces/m16_M203_weapon.asi"
+     StartNode "RifleMasterControl"
+     AnimInjection AnimationAttachmentInfo "{5534745C44D1EF5A}" {
+      AnimGraph "{288D8FF8F78E3DA0}Assets/Weapons/Rifles/workspaces/m16_M203.agr"
+      AnimInstance "{D23E2C738E4D3A65}Assets/Weapons/Rifles/workspaces/m16_M203_player.asi"
+     }
+    }
+   }
+   UIInfo WeaponUIInfo "{CC3BA6A2C42F09F4}" {
+    Name "C7A2 (M203)"
+   }
+  }
+ }
+ coords 0.088 0 0
+}

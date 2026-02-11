@@ -1,0 +1,27 @@
+GenericEntity : "{85A2A1CD6BA3A039}Prefabs/Weapons/Rifles/AR15/Rifle_Pronto_C8A1_GRN.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{6893299A03DBBFDF}" {
+     AttachmentSlot InventoryStorageSlot "{6893299A1C4C9BC4}" {
+      PivotID "barrel_chamber"
+      Offset 0 -0.0029 0.0131
+      Prefab "{239CEF0C9AB5556E}Prefabs/Weapons/Attachments/Underbarrel/UGL_RHS_M203.et"
+      InspectionWidgetOffset 0 0.0789 0.2607
+     }
+     AttachmentType AttachmentUnderBarrelM203Carbine "{68937D5AF3BB961F}" {
+     }
+    }
+    WeaponAnimationComponent "{60B4EA76EB15F6E0}" {
+     AnimGraph "{288D8FF8F78E3DA0}Assets/Weapons/Rifles/workspaces/m16_M203.agr"
+     AnimInstance "{2960BD42164C5E89}Assets/Weapons/Rifles/workspaces/m16_M203_weapon.asi"
+     StartNode "RifleMasterControl"
+    }
+   }
+   UIInfo WeaponUIInfo "{CC3BA6A2C42F09F4}" {
+    Name "C8A1 (M203)"
+   }
+  }
+ }
+}

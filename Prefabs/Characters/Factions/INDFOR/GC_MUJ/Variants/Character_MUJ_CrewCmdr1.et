@@ -15,16 +15,19 @@ SCR_ChimeraCharacter : "{C3479D865ABE2C9E}Prefabs/Characters/Factions/INDFOR/GC_
     }
    }
   }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{067C721F30C8CB92}Prefabs/Weapons/Rifles/Type 56/BC_Rifle_Type56.et"
+  }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {
      Prefab "{D6B1ACA46036E9CE}Prefabs/Characters/HeadGear/Helmet_TSh4_01/Helmet_TSh4_01_open.et"
     }
     LoadoutSlotInfo Jacket {
-     Prefab "{A707F4543A61CA8B}Prefabs/Characters/Uniforms/Suit_Tanker_US_01/Suit_GroundCrew_UK_01_tucked.et"
+     Prefab "{0048AA56450ED17F}Prefabs/Characters/Uniforms/Jacket_ShirtSmall_1.et"
     }
     LoadoutSlotInfo Pants {
-     Prefab ""
+     Prefab "{4C0A4A17873144B0}Prefabs/Characters/Uniforms/Pants_Cargo_6.et"
     }
     LoadoutSlotInfo Boots {
      Prefab "{B12C47DF95EC9C17}Prefabs/Characters/Footwear/CombatBoots_Insurgents.et"
@@ -37,10 +40,13 @@ SCR_ChimeraCharacter : "{C3479D865ABE2C9E}Prefabs/Characters/Factions/INDFOR/GC_
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{684F4DA9B2678FAC}" {
-     TargetStorage "Jacket/Suit_GroundCrew_UK_01_tucked.et"
+     TargetStorage "Pants/Pants_Cargo_6.et"
     }
     ItemsInitConfigurationItem "{684F4DA9AADB5196}" {
      TargetStorage "Vest/Vest_ChestRigSmall_1.et"
+     PrefabsToSpawn {
+      "{E039E897BD5A339E}Prefabs/Weapons/Magazines/AK/BC_Magazine_762x39_AK_30rnd_Ball.et" "{E039E897BD5A339E}Prefabs/Weapons/Magazines/AK/BC_Magazine_762x39_AK_30rnd_Ball.et" "{E039E897BD5A339E}Prefabs/Weapons/Magazines/AK/BC_Magazine_762x39_AK_30rnd_Ball.et" "{E039E897BD5A339E}Prefabs/Weapons/Magazines/AK/BC_Magazine_762x39_AK_30rnd_Ball.et"
+     }
     }
    }
   }
