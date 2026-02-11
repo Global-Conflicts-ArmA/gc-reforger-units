@@ -1,8 +1,0 @@
-SCR_ChimeraCharacter : "{4F478BEF35E18EFC}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marine Rifles/WIP/Character_2025_USMC_Pilot.et" {
- ID "520EC961A090BBD5"
- components {
-  PS_PlayableComponent "{5EFCC1946F475F15}" {
-   m_bIsPlayable 1
-  }
- }
-}
