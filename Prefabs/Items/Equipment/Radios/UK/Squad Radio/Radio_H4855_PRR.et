@@ -1,0 +1,25 @@
+GenericEntity : "{43ACEE27F8F3EE97}Prefabs/Items/Equipment/Radios/ANPRC343/Radio_ANPRC343_PRR_Base.et" {
+ ID "508AB2013EEE1E00"
+ components {
+  BaseRadioComponent "{5A30BAE7673C63CA}" {
+   "Encryption key" "crumpets"
+   Transceivers {
+    RadioTransceiver "{652EC97BF7BB2B56}" {
+     "Min tunable frequency" 30000
+     "Max tunable frequency" 55600
+     "Frequency resolution" 100
+    }
+   }
+  }
+  InventoryItemComponent "{5222EB4D0C73006B}" {
+   Attributes SCR_ItemAttributeCollection "{5222EB4D0A2B466B}" {
+    ItemDisplayName UIInfo "{5222EB4D07D865FA}" {
+     Name "H4855 PRR"
+    }
+   }
+  }
+  SCR_RadioComponent "{5A30BAE7673C63D4}" {
+   m_bTuneToSquadFrequency 1
+  }
+ }
+}

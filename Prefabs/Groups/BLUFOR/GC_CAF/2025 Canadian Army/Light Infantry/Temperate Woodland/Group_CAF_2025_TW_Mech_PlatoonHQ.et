@@ -1,0 +1,26 @@
+SCR_AIGroup : "{5CC564DD03A08DC5}Prefabs/Groups/BLUFOR/GC_CAF/1993 Canadian Army/P/Group_CAF_1993_Base_P.et" {
+ ID "0000000000000001"
+ components {
+  SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+   m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+    Name "2025 Rifle Platoon HQ (CADPAT TW)"
+    m_Image "{ABA2D60082FFC2A4}UI/Textures/EditorPreviews/Groups/BLUFOR/Group_US_RifleSquad.edds"
+    m_aAuthoredLabels {
+     ENTITYTYPE_GROUP FACTION_GC_CAF
+    }
+    m_MilitarySymbol SCR_MilitarySymbol "{563682D06ED5ACD9}" {
+     m_Amplifier SQUAD
+    }
+   }
+  }
+  SCR_GroupIdentityComponent "{56366C5C50AD3CF2}" {
+   m_MilitarySymbol SCR_MilitarySymbol "{56366C5C4E32A359}" {
+    m_Amplifier SQUAD
+   }
+  }
+ }
+ m_aUnitPrefabSlots {
+  "{6B8232E5A8ED3EBA}Prefabs/Characters/Factions/BLUFOR/GC_Canada/2025 Canadian Army/Temperate Woodland/Character_CAF_2020_TW_PL.et" "{A266833C08339351}Prefabs/Characters/Factions/BLUFOR/GC_Canada/2025 Canadian Army/Temperate Woodland/Character_CAF_2020_TW_PW.et" "{4F6C8FB9E8542A0D}Prefabs/Characters/Factions/BLUFOR/GC_Canada/2025 Canadian Army/Temperate Woodland/Character_CAF_2020_TW_Signaller.et" "{10352806EAA89E11}Prefabs/Characters/Factions/BLUFOR/GC_Canada/2025 Canadian Army/Temperate Woodland/Character_CAF_2020_TW_Medic.et" "{B5EF64CA9CB359D6}Prefabs/Characters/Factions/BLUFOR/GC_Canada/2025 Canadian Army/Temperate Woodland/Character_CAF_2020_TW_CrewCommander.et" "{9AF7AB8365E90F97}Prefabs/Characters/Factions/BLUFOR/GC_Canada/2025 Canadian Army/Temperate Woodland/Character_CAF_2020_TW_CrewGunner.et" "{7DDC0C634D1E063A}Prefabs/Characters/Factions/BLUFOR/GC_Canada/2025 Canadian Army/Temperate Woodland/Character_CAF_2020_TW_CrewDriver.et"
+ }
+ m_sCustomNameSet "Platoon HQ"
+}

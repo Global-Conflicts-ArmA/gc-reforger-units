@@ -1,8 +1,0 @@
-GenericEntity : "{9B6B61BB3FE3DFB0}Prefabs/Items/Equipment/Radios/Radio_ANPRC77.et" {
- ID "508AB2013EEE1E00"
- components {
-  BaseRadioComponent "{5A30BAE7673C63CA}" {
-   "Encryption key" "Kebab"
-  }
- }
-}

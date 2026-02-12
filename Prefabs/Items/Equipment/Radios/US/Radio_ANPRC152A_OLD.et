@@ -1,0 +1,21 @@
+GenericEntity : "{5879D8E9C56E358D}Prefabs/Items/Core/Radio_base.et" {
+ ID "508AB2013EEE1E00"
+ components {
+  BaseRadioComponent "{5A30BAE7673C63CA}" {
+   Enabled 0
+  }
+  BaseRadioComponent "{685AE109DA0FC705}" {
+   "Encryption key" "chickenNuggets"
+   "Turned on" 1
+   Transceivers {
+    RadioTransceiver "{685AE109DC3FB400}" {
+     ChannelFrequency 48000
+     "Transmitting Range" 5000
+     "Min tunable frequency" 32000
+     "Max tunable frequency" 68000
+     "Frequency resolution" 100
+    }
+   }
+  }
+ }
+}

@@ -7,10 +7,10 @@ SCR_ChimeraCharacter : "{290CC7354CC97778}Prefabs/Characters/Factions/OPFOR/GC_S
     Icon "{A26C465A6AE2AA17}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_Leader.edds"
     m_Image "{C098D091AAC624A6}UI/Textures/EditorPreviews/Characters/INDFOR/FIA/Character_FIA_SL.edds"
     m_aAuthoredLabels + {
-     42
+     ROLE_LEADER
     }
     m_aAutoLabels {
-     122
+     SIZE_M
     }
    }
   }
@@ -79,7 +79,7 @@ SCR_ChimeraCharacter : "{290CC7354CC97778}Prefabs/Characters/Factions/OPFOR/GC_S
     ItemsInitConfigurationItem "{6642965313894E05}" {
      TargetStorage "Jacket/Jacket_Bomber_1.et"
      PrefabsToSpawn {
-      "{44CFE42B0ACF6451}Prefabs/Items/Equipment/Radios/Radio_R187P1_OLD_Multi_Separatist.et"
+      "{19D74C99726B69F3}Prefabs/Items/Equipment/Radios/Radio_R148_Seperatist.et"
      }
     }
     ItemsInitConfigurationItem "{6642965313894E0A}" {

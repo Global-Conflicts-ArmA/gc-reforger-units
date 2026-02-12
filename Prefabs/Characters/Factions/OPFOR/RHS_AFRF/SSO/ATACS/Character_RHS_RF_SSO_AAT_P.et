@@ -30,7 +30,7 @@ SCR_ChimeraCharacter : "{3996E00B5D9CB638}Prefabs/Characters/Factions/OPFOR/RHS_
     ItemsInitConfigurationItem "{633A34039984E5F1}" {
      TargetStorage "Vest/Vest_AACPC_arsarmaHSGI_MC_4.et/radio/Pouch_UP111_radioClosed_FG.et"
      PrefabsToSpawn {
-      "{AFBD4C5C1F83AC42}Prefabs/Items/Equipment/Radios/Radio_R187P1_OLD_Single.et"
+      "{B343AB76B0725657}Prefabs/Items/Equipment/Radios/RU/Radio_R187P1_OLD.et"
      }
     }
     ItemsInitConfigurationItem "{633A34039984E5E1}" {

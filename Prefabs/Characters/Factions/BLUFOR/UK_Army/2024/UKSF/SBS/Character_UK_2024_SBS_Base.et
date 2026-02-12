@@ -23,7 +23,7 @@ SCR_ChimeraCharacter : "{542CBB6908CA71D8}Prefabs/Characters/Factions/BLUFOR/UK_
      Prefab "{E5BC64A250BA6B94}Prefabs/Characters/HeadGear/Helmet_OPSCORE/Helmet_OPSCORE_SF_MC_AMP_UKSF.et"
     }
     LoadoutSlotInfo Jacket {
-     Prefab "{02B1EEE6DE71FDF8}Prefabs/Characters/Uniforms/Arcteryx/Gryphon_Jacket/Arcteryx_Gryphon_MC.et"
+     Prefab "{DD49E30B082C98CB}Prefabs/Characters/Uniforms/PCU_5lvl_Jacket/Jacket_PCU_5lvl_Base.et"
     }
     LoadoutSlotInfo ArmoredVest {
      Prefab "{28A81BA1BCCED69B}Prefabs/Characters/Vests/Body_Armour/Vest_Crye_CPC/Variants/Vest_Crye_CPC_Plain.et"
@@ -35,6 +35,7 @@ SCR_ChimeraCharacter : "{542CBB6908CA71D8}Prefabs/Characters/Factions/BLUFOR/UK_
      Prefab "{02585ED96CFE147F}Prefabs/Characters/Footwear/Saloman_XUltra/Boots_Salomon_XUltra_Black.et"
     }
     LoadoutSlotInfo Vest {
+     Prefab "{26918251753A100D}Prefabs/Characters/Vests/Belts/Webbing/JayJays_Gen4/Variants/Webbing_JayJays_Gen4_Rifleman_01.et"
     }
     LoadoutSlotInfo HandWear {
      Prefab "{0D9D0C18303F6D76}Prefabs/Characters/Handwear/Gloves_511_Competition/Gloves_511_Comp_Black.et"

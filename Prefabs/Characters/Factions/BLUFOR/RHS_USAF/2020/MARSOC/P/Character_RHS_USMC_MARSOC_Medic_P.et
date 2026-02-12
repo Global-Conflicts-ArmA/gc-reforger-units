@@ -4,6 +4,13 @@ SCR_ChimeraCharacter : "{1CE48B40E06B1DEE}Prefabs/Characters/Factions/BLUFOR/RHS
   PS_PlayableComponent "{5EFCC1946F475F15}" {
    m_bIsPlayable 1
   }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Jacket {
+     Prefab "{B874899943AC87C3}Prefabs/Characters/Uniforms/Crye_shirt/Crye_G3_Shirt_M81_rolledup.et"
+    }
+   }
+  }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{61E8A0D62B509D34}" {

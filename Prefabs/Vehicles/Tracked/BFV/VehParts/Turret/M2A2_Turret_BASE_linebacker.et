@@ -1,0 +1,31 @@
+Turret : "{70E0492DD7B8C988}Prefabs/Vehicles/Tracked/BFV/VehParts/Turret/M2A2_Turret_BASE.et" {
+ ID "51ACD0965653D003"
+ components {
+  WCS_Armament_LoadoutComponent "{62EF3AD14CD98BAA}" {
+   m_ArmamentGroups {
+    WCS_ArmamentWeaponGroup "{62EF3AD1A218B9F6}" {
+     prefab "{9D46A9BC88B46B36}Prefabs/Weapons/AircraftWeapons/MissilePods/AIM92/Pod_AIM92.et"
+     weaponsInfo {
+      WCS_ArmamentWeaponInfo "{62A10D8ED7DA8AA6}" {
+       Position PointInfo "{62A10D8EDAF6E15F}" {
+        Offset 0.0107 0.0788 0.0535
+        Angles 0 0 89.7981
+       }
+      }
+      WCS_ArmamentWeaponInfo "{6848269CB11E099F}" {
+       Position PointInfo "{62A10D8EDAF6E15F}" {
+        PivotID "TOW_rack"
+        Offset 0.0107 0.0788 0.0535
+        Angles 0 0 -90.1707
+       }
+      }
+     }
+     fireModes {
+      WCS_Armament_WeaponSingleFireMode "{630F535B7434A114}" {
+      }
+     }
+    }
+   }
+  }
+ }
+}

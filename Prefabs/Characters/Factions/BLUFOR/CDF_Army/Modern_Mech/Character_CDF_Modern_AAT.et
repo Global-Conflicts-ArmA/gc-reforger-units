@@ -29,35 +29,37 @@ SCR_ChimeraCharacter : "{CAF8467FB693C584}Prefabs/Characters/Factions/BLUFOR/CDF
    InitialInventoryItems {
     ItemsInitConfigurationItem "{5D7CC173E6675BF7}" {
     }
-    ItemsInitConfigurationItem "{5D7CC173E6675BF5}" {
-    }
     ItemsInitConfigurationItem "{62FB097A778BD827}" {
+     TargetStorage "Vest/Vest_TV110_arsarmaHSGI_OD.et/arsbelt/Pouch_ArsArma_magouch_morphed_OD.et"
      PrefabsToSpawn {
       "{DD810D0313E8C01A}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Ball_camo.et" "{DD810D0313E8C01A}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Ball_camo.et"
      }
     }
     ItemsInitConfigurationItem "{62FB097BD06666C8}" {
-     TargetStorage "Pants/ACU_pants_MC.et"
     }
     ItemsInitConfigurationItem "{62FB097A7477C905}" {
+     TargetStorage "Vest/Vest_TV110_arsarmaHSGI_OD.et/grenade1/Pouch_GP106_RGD_Pouch_OD.et"
+    }
+    ItemsInitConfigurationItem "{6882AE8D2A5FCD09}" {
+     TargetStorage "Vest/Vest_TV110_arsarmaHSGI_OD.et/grenade2/Pouch_GP106_RGD_Pouch_2_OD.et"
     }
     ItemsInitConfigurationItem "{647D027B95B0EB26}" {
-     TargetStorage "Pants/ACU_pants_MC.et"
+     TargetStorage "Vest/Vest_TV110_arsarmaHSGI_OD.et/camer_util_long/Pouch_UP108_utillong_OD.et"
     }
     ItemsInitConfigurationItem "{647D027A8C91829B}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_Taktika_Pouches/Pouch_ArsArma_magouch_morphed_MC.et"
+     TargetStorage "Vest/Vest_TV110_arsarmaHSGI_OD.et/arsbelt2/Pouch_ArsArma_magouch_morphed_MC.et"
      PrefabsToSpawn {
       "{DD810D0313E8C01A}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Ball_camo.et" "{DD810D0313E8C01A}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Ball_camo.et"
      }
     }
     ItemsInitConfigurationItem "{647D027B70B30A05}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_TV110_Pouches/pouch_tv110_kangroo_OD.et"
+     TargetStorage "ArmoredVest/Vest_TV110_OD.et/Pouch_kangoroo/pouch_tv110_kangroo_OD.et"
      PrefabsToSpawn {
       "{DD810D0313E8C01A}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Ball_camo.et" "{DD810D0313E8C01A}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Ball_camo.et" "{DD810D0313E8C01A}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Ball_camo.et"
      }
     }
     ItemsInitConfigurationItem "{647D027C3396636B}" {
-     TargetStorage "Prefabs/Items/Equipment/Backpacks/Backpack_RPG_Assistant.et"
+     TargetStorage "Back/Backpack_RPG_Assistant.et"
      PrefabsToSpawn {
       "{32E12D322E107F1C}Prefabs/Weapons/Ammo/Ammo_Rocket_PG7VM.et" "{32E12D322E107F1C}Prefabs/Weapons/Ammo/Ammo_Rocket_PG7VM.et" "{4A3B196E4EA820E9}Prefabs/Weapons/Ammo/RPG/RHS_AmmoRocket_OG7V.et"
      }

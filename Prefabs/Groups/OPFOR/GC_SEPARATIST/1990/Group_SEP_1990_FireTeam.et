@@ -7,7 +7,8 @@ SCR_AIGroup : "{28582B54ECB0C9D1}Prefabs/Groups/OPFOR/GC_SEPARATIST/Group_SEP_ba
    }
   }
  }
+ m_faction "GC_SEPARATIST"
  m_aUnitPrefabSlots {
-  "{F47196272B75A80D}Prefabs/Characters/Factions/OPFOR/GC_SEP/1990/Character_SEP_TL.et" "{161FD52D4BBE0DFC}Prefabs/Characters/Factions/OPFOR/GC_SEP/1990/Character_SEP_MG.et" "{4EB2EF8AB2F10DEB}Prefabs/Characters/Factions/OPFOR/GC_SEP/1990/Character_SEP_Sharpshooter.et" "{5B882C82EF033ABD}Prefabs/Characters/Factions/OPFOR/GC_SEP/1990/Character_SEP_Rifleman.et"
+  "{F47196272B75A80D}Prefabs/Characters/Factions/OPFOR/GC_SEP/1990/Character_SEP_1990_TL.et" "{161FD52D4BBE0DFC}Prefabs/Characters/Factions/OPFOR/GC_SEP/1990/Character_SEP_1990_MG.et" "{4EB2EF8AB2F10DEB}Prefabs/Characters/Factions/OPFOR/GC_SEP/1990/Character_SEP_1990_Sharpshooter.et" "{5B882C82EF033ABD}Prefabs/Characters/Factions/OPFOR/GC_SEP/1990/Character_SEP_1990_Rifleman.et"
  }
 }

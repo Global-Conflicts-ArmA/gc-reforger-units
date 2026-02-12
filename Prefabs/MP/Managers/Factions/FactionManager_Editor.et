@@ -1,17 +1,27 @@
 SCR_FactionManager : "{A242612865F2A48E}Prefabs/MP/Managers/Factions/FactionManager_Base.et" {
  ID "56B2B4776E6E4499"
  Factions {
-  SCR_Faction "{62EB308733CA83DD}" : "{DBFC0A411C082CF9}Configs/Factions/Separatists.conf" {
+  SCR_Faction "{56DEAC40D3C2E623}" {
+   m_rMapPrefab "{F849217AB3BA88BE}Prefabs/Items/Equipment/Maps/Map_Paper_01/PaperMap_01_folded_USSR.et"
   }
-  SCR_Faction "{632925D53C7F1148}" : "{2FCCF93D27A6ECC4}Configs/Factions/Insurgents.conf" {
+  SCR_Faction "{5978B9CE6585BBE8}" {
+   m_rMapPrefab "{F849217AB3BA88BE}Prefabs/Items/Equipment/Maps/Map_Paper_01/PaperMap_01_folded_USSR.et"
   }
-  SCR_Faction "{633D460D559977CA}" : "{23B783D419B87475}Configs/Factions/IRA.conf" {
+  SCR_Faction "{61500924662B6062}" {
+   m_rMapPrefab "{379F10C00559D45F}Prefabs/Items/Equipment/Maps/PaperMap_01_folded_UK.et"
   }
-  SCR_Faction "{648D46336748B246}" : "{B15B39077B0E1055}Configs/Factions/CDF.conf" {
+  SCR_Faction "{62EB308733CA83DD}" : "{DBFC0A411C082CF9}Configs/Factions/GC_SEP.conf" {
   }
-  SCR_Faction "{64AA098AEA5B1498}" : "{AEB4C9D1A13F04DC}Configs/Factions/CAF.conf" {
+  SCR_Faction "{632925D53C7F1148}" : "{2FCCF93D27A6ECC4}Configs/Factions/GC_INS.conf" {
+   m_rMapPrefab "{F849217AB3BA88BE}Prefabs/Items/Equipment/Maps/Map_Paper_01/PaperMap_01_folded_USSR.et"
   }
-  SCR_Faction "{652544E87DFA8253}" : "{0BE3E7B63E7C70AC}worlds/TheLocalPub/TopMaloHouse/Configs/Factions/Argentina.conf" {
+  SCR_Faction "{633D460D559977CA}" : "{23B783D419B87475}Configs/Factions/GC_IRA.conf" {
+  }
+  SCR_Faction "{648D46336748B246}" : "{B15B39077B0E1055}Configs/Factions/GC_CDF.conf" {
+  }
+  SCR_Faction "{64AA098AEA5B1498}" : "{AEB4C9D1A13F04DC}Configs/Factions/GC_CAF.conf" {
+  }
+  SCR_Faction "{652544E87DFA8253}" : "{0BE3E7B63E7C70AC}worlds/TheLocalPub/BebbleIslandRaid/Configs/Factions/Argentina.conf" {
   }
   SCR_Faction "{652F615735715119}" : "{99E84571ED1B21CF}Configs/Factions/GC_NVA.conf" {
    m_bIsPlayable 0

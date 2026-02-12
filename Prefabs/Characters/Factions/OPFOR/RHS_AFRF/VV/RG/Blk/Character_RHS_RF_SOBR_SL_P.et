@@ -52,7 +52,7 @@ SCR_ChimeraCharacter : "{7284A0C1AC626E1F}Prefabs/Characters/Factions/OPFOR/RHS_
     ItemsInitConfigurationItem "{60D3274ED273EC60}" {
      TargetStorage "Vest/Vest_Taktika_preset_black1.et/radio/Pouch_Taktika_radioPouch_BLK.et"
      PrefabsToSpawn {
-      "{D55C4F07EF14A878}Prefabs/Items/Equipment/Radios/Radio_R187P1_OLD_Multi.et"
+      "{B343AB76B0725657}Prefabs/Items/Equipment/Radios/RU/Radio_R187P1_OLD.et"
      }
     }
     ItemsInitConfigurationItem "{650E88691E53B04A}" {

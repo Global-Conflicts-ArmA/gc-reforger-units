@@ -1,0 +1,48 @@
+GenericEntity : "{1D75DAC4D2CBC0C9}Prefabs/Weapons/MachineGuns/M249/MG_M249_EXPS.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  MeshObject "{CFBAA4B701F95D69}" {
+   Materials {
+    MaterialAssignClass "{689004267852FF73}" {
+     SourceMaterial "M249_Body_2"
+     AssignedMaterial "{2B616FF153D29A36}Assets/Weapons/MachineGuns/M249/Data/M249_Body_2.emat"
+    }
+    MaterialAssignClass "{689004267852FF19}" {
+     SourceMaterial "M249_Body_3"
+     AssignedMaterial "{DF6928695E0FF242}Assets/Weapons/MachineGuns/M249/Data/M249_Body_3.emat"
+    }
+   }
+  }
+  SCR_WeaponAttachmentsStorageComponent "{51F080D5CE45A1A2}" {
+   Attributes SCR_ItemAttributeCollection "{51F080D5C64F12C5}" {
+    ItemDisplayName WeaponUIInfo "{5222CB07E1D123E9}" {
+     Name "C9A2"
+     Description ""
+    }
+   }
+  }
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{64E11B6DC6901822}" {
+     AttachmentSlot InventoryStorageSlot top_rail {
+     }
+    }
+    AttachmentSlotComponent "{64F0DE836B85937C}" {
+     AttachmentSlot InventoryStorageSlot "{64F0DE83909ACFFA}" {
+      Offset 0 0.0171 -0.1528
+      Prefab "{762A172DFFE56633}Prefabs/Weapons/Attachments/Optics/Optic_Elcan_C79/Pronto_Optic_Elcan_C79_GRN.et"
+     }
+    }
+    AttachmentSlotComponent "{64F0DE83B7A133DC}" {
+     AttachmentSlot InventoryStorageSlot "{64F0DE83B3FD5AE7}" {
+      Prefab ""
+     }
+    }
+   }
+   UIInfo WeaponUIInfo "{CC3BA6A2C42F09F4}" {
+    Name "C9A2"
+    Description ""
+   }
+  }
+ }
+}

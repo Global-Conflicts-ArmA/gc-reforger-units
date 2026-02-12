@@ -1,0 +1,9 @@
+GenericEntity : "{B343AB76B0725657}Prefabs/Items/Equipment/Radios/RU/Radio_R187P1_OLD.et" {
+ ID "508AB2013EEE1E00"
+ components {
+  BaseRadioComponent "{5A30BAE7673C63CA}" {
+   "Encryption key" "hotBaath"
+   "Turned on" 0
+  }
+ }
+}

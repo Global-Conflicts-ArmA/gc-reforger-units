@@ -1,0 +1,7 @@
+SCR_AIGroup : "{B4C624C9BF8B9561}Prefabs/Groups/BLUFOR/US/Army/2003/Infantry (Desert)/Group_US_Army_2003_D_CoyHQ.et" {
+ ID "0000000000000001"
+ coords -4.167 4.152 3.238
+ m_aUnitPrefabSlots {
+  "{0FA29AF513BEB391}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/Infantry (Woodland)/Character_US_2003_W_PL.et" "{2F0517183E0FFB66}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/Infantry (Woodland)/Character_US_2003_W_PSG.et" "{20E2A0237989ABEC}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/Infantry (Woodland)/Character_US_2003_W_RTO.et" "{F7BE719FD1F0F962}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/Infantry (Woodland)/Character_US_2003_W_Medic.et"
+ }
+}

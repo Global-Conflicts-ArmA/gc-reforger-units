@@ -1,0 +1,165 @@
+Tank : "{8A883ABED22B6E27}Prefabs/Vehicles/Core/Tracked_Base.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  SCR_VehicleSoundComponent "{55C2E66AD4EF2CA6}" {
+   Filenames {
+    "{91E318F189F09E6F}Sounds/Vehicles/Wheeled/BTR70/Vehicles_BTR70_Animations.acp" "{F2E8217B080100AA}Sounds/Vehicles/Wheeled/BRDM2/Vehicles_BMP1_Engine.acp" "{F7D2EDE33E61A12A}Sounds/Vehicles/Wheeled/BTR70/Vehicles_BTR70_Dampers.acp" "{B992B5065A62F9CA}Sounds/Vehicles/_SharedData/Crashes/APC/Vehicles_Crashes_APC.acp" "{8880F08042E64B12}Sounds/Vehicles/Wheeled/BTR70/Vehicles_BTR70_Horn.acp" "{BA8A5BD290F5FB34}Sounds/Vehicles/_SharedData/Destruction/Vehicles_Destruction.acp" "{02D73DA9F9AC3D48}Sounds/Vehicles/Wheeled/BTR70/Vehicles_BTR70_Rain.acp" "{E58AD1E99CBDA918}Sounds/Vehicles/Wheeled/BTR70/Vehicles_BTR70_Hatch.acp" "{F1030E91E4B33E24}Sounds/Vehicles/_SharedData/WaterInteractions/Vehicles_WaterInteractions.acp" "{9DD9C6279F4489B4}Sounds/SupportStations/SupportStations_Vehicles.acp" "{F41C3D53A2B69D85}Sounds/Vehicles/_SharedData/Destruction/Vehicles_Destruction_Fires.acp"
+   }
+   SoundPoints {
+    SoundPointInfo Engine {
+     Offset 1.1549 1.5954 1.0821
+     Angles 0 -180 -8.5119
+    }
+   }
+  }
+  RHS_GroupMaterialController "{68686390A098EBB2}" {
+   m_aGroups {
+    RHS_MaterialGroupProperties "{68686390A1D17A63}" {
+     m_iNumberOfTextures 10
+    }
+    RHS_MaterialGroupProperties "{68686390A1EBC4E8}" {
+     m_sGroupName "GROUP2"
+     m_iNumberOfTextures 10
+    }
+    RHS_MaterialGroupProperties "{68686390A150EE71}" {
+     m_sGroupName "GROUP3"
+     m_iNumberOfTextures 10
+    }
+   }
+   m_iMaxAllowedDepth 1
+  }
+  SCR_BaseCompartmentManagerComponent "{20FB66C5DCB8DF72}" {
+   CompartmentSlots {
+    PilotCompartmentSlot PilotCompartment {
+     CanTurnOut 1
+     TurnOutDoorIdx 0
+    }
+   }
+  }
+  SCR_MotorExhaustEffectGeneralComponent "{5E529ED09B647D06}" {
+   ParticleEffect "{97C365936C10D467}Particles/Vehicle/Vehicle_smoke_LAV25_exhaust_normal_01.ptc"
+   EffectOrientUp 1
+   MaxRPM 3000
+   EffectPosition EntitySlotInfo s {
+    PivotID "Root"
+    Offset 1.2893 1.6386 1.1513
+    Angles -26.1242 90 0
+   }
+   m_sDamagedParticle "{838A58A1470EA1CD}Particles/Vehicle/Vehicle_smoke_LAV25_exhaust_damaged_01.ptc"
+  }
+  SCR_UniversalInventoryStorageComponent "{5E529ED09B647D03}" {
+   MaxItemSize 35 35 100
+  }
+  TF_EngineSmokeGeneratorComponent "{6873174F6D41D831}" {
+   m_sParticle "{346502DDD97A3AF1}Particles/Weapon/Smoke_Generator_Particle.ptc"
+   m_iSpawnPositions {
+    PointInfo "{6873174FBD30511F}" {
+     Offset 1.2341 1.619 0.9713
+     Angles 0 0 18.6613
+    }
+   }
+  }
+  VehicleWheeledSimulation "{731B26FCA2F19855}" {
+   Simulation Wheeled "{5E529ED09B633C3F}" {
+    Engine Engine Engine {
+     RpmMaxPower 2600
+     RpmMaxTorque 1600
+     RpmIdle 800
+     RpmRedline 2880
+    }
+    Axles {
+     Axle "{5E529ED09B633C28}" {
+      Wheel Wheel "{5CB63E75C3728451}" {
+       HandbrakeTorqueFactor 4
+      }
+     }
+     Axle "{5E529ED09B633C55}" {
+      Wheel Wheel "{5CB63E75CEABD61F}" {
+       HandbrakeTorqueFactor 4
+      }
+     }
+     Axle "{5E529ED09B633C53}" {
+      Wheel Wheel "{5CB63E75CB21F1B9}" {
+       HandbrakeTorqueFactor 4
+      }
+     }
+     Axle "{5E529ED09B633C52}" {
+      Wheel Wheel "{5CB63E75D5F89198}" {
+       HandbrakeTorqueFactor 4
+      }
+     }
+     Axle "{5E529ED09B633C51}" {
+      Wheel Wheel "{5CB63E75D071A4F0}" {
+       HandbrakeTorqueFactor 4
+      }
+     }
+     Axle "{5E529ED09B633C50}" {
+      Wheel Wheel "{5CB63E75D2E13AEA}" {
+       HandbrakeTorqueFactor 4
+      }
+     }
+    }
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    EntitySlotInfo Number_L_1 {
+     Offset -1.3251 1.4235 0.3534
+     Angles 0 0 15.4343
+     Prefab "{A50BC13DB1FCF1FB}Prefabs/Vehicles/Shared/decal_vehicle_group1_small.et"
+    }
+    EntitySlotInfo Number_L_2 {
+     Offset -1.3251 1.4235 0.2487
+     Angles 0 0 15.4343
+     Prefab "{845BF318A6537093}Prefabs/Vehicles/Shared/decal_vehicle_group2_small.et"
+    }
+    EntitySlotInfo Number_L_3 {
+     Offset -1.3251 1.4235 0.1466
+     Angles 0 0 15.4343
+     Prefab "{7A5BB35D53011CDF}Prefabs/Vehicles/Shared/decal_vehicle_group3_small.et"
+    }
+    EntitySlotInfo Number_R_1 {
+     Offset 1.3626 1.4338 0.1538
+     Angles 0 180 15.4343
+     Prefab "{A50BC13DB1FCF1FB}Prefabs/Vehicles/Shared/decal_vehicle_group1_small.et"
+    }
+    EntitySlotInfo Number_R_2 {
+     Offset 1.3626 1.4338 0.2594
+     Angles 0 180 15.4343
+     Prefab "{845BF318A6537093}Prefabs/Vehicles/Shared/decal_vehicle_group2_small.et"
+    }
+    EntitySlotInfo Number_R_3 {
+     Offset 1.3626 1.4338 0.364
+     Angles 0 180 15.4343
+     Prefab "{7A5BB35D53011CDF}Prefabs/Vehicles/Shared/decal_vehicle_group3_small.et"
+    }
+   }
+  }
+  ActionsManagerComponent "{C97BE5489221AE18}" {
+   additionalActions {
+    TF_Action_RefuelSmokeGenerator "{6873174E5650B3CC}" {
+     ParentContextList {
+      "fuel_cap"
+     }
+     UIInfo SCR_ActionContextUIInfo "{663A9C44E2C02463}" {
+      Name "refuel smoke generator"
+     }
+     Duration -0.5
+     PerformPerFrame 1
+     m_eShownInVehicleState NOT_IN_VEHICLE
+    }
+    TF_Action_ToggleSmokeGenerator "{6873174E46D9F49C}" {
+     ParentContextList {
+      "starter_switch"
+     }
+     UIInfo SCR_ActionContextUIInfo "{6873174E6AE4B524}" {
+      Name "toggle engine generator"
+     }
+     Duration 1
+     m_bLoopAction 0
+     m_eShownInVehicleState IN_VEHICLE_PILOT
+    }
+   }
+  }
+ }
+}

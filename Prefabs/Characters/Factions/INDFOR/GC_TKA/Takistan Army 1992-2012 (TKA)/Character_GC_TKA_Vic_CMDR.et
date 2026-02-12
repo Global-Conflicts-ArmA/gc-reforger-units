@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{AEE253894DD97DF1}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army, 1992-2012 (TKA)/Character_GC_TKA_BaseLoadout.et" {
+SCR_ChimeraCharacter : "{AEE253894DD97DF1}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Character_GC_TKA_BaseLoadout.et" {
  ID "520EC961A090B1EE"
  components {
   SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
@@ -31,6 +31,9 @@ SCR_ChimeraCharacter : "{AEE253894DD97DF1}Prefabs/Characters/Factions/INDFOR/GC_
     LoadoutSlotInfo Pants {
      Prefab "{86BB79B9A2233780}Prefabs/Characters/Uniforms/Pants_US_M65.et"
     }
+    LoadoutSlotInfo Back {
+     Prefab "{54C68E438DD34265}Prefabs/Items/Equipment/Radios/RU/Radio_R107M.et"
+    }
     LoadoutSlotInfo Vest {
      Prefab "{ED5574EA7F63B457}Prefabs/Characters/Vests/Vest_Type56/Vest_Type56.et"
     }
@@ -41,7 +44,7 @@ SCR_ChimeraCharacter : "{AEE253894DD97DF1}Prefabs/Characters/Factions/INDFOR/GC_
     ItemsInitConfigurationItem "{5D7CC173FAA7C00E}" {
      TargetStorage "Pants/Pants_US_M65.et"
      PrefabsToSpawn + {
-      "{E1A5D4B878AA8980}Prefabs/Items/Equipment/Radios/Radio_R148.et"
+      "{E1A5D4B878AA8980}Prefabs/Items/Equipment/Radios/RU/Radio_R148.et"
      }
     }
     ItemsInitConfigurationItem "{5D7CC173FAA7C00C}" {

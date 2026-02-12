@@ -1,0 +1,27 @@
+TracerProjectile : "{67FED88E5085F63F}Prefabs/Weapons/Core/Ammo_Bullet_Base.et" {
+ ID "476AE74C1F2F140D"
+ components {
+  CollisionTriggerComponent "{5E6C3A87B8BB2C16}" {
+   PROJECTILE_EFFECTS {
+    ExplosionEffect "{5E6C3A87BD17BF09}" {
+     ParticleEffect "{6FE5C11AEE0A28A1}Particles/Weapon/Explosion_HEI.ptc"
+    }
+   }
+  }
+  ShellMoveComponent "{851AA4A2AE0A5691}" {
+   ProjectileEffects {
+    ExplosionEffect "{85DB664DDCA5D5B0}" {
+     EffectPrefab "{627F225E34E4B5F1}Prefabs/Weapons/Warheads/Warhead_HEIT_M792.et"
+     ParticleEffect "{6FE5C11AEE0A28A1}Particles/Weapon/Explosion_HEI.ptc"
+    }
+    HitSoundEffect "{2FC22748C7ABD466}" {
+     Filename "{823D315BE831E9EE}Sounds/Weapons/_SharedData/BulletHits/Weapons_BulletHits_25x137.acp"
+    }
+   }
+   AirDrag 0.000115
+   Length 117
+   DeflectionCriticalAngle 9
+  }
+ }
+ CartridgeModel "{A302B08CEAC1AD80}Assets/Weapons/Ammo/Bullets/25x137/Cartridge_25x137_M792.xob"
+}

@@ -1,21 +1,8 @@
-SCR_ChimeraCharacter : "{E250E0C58B7CF660}worlds/TheLocalPub/TopMaloHouse/Prefabs/Characters/Factions/OPFOR/ARG/1980_SpecialForces/Character_GC_ARG_1980_SF_SL.et" {
+SCR_ChimeraCharacter : "{E250E0C58B7CF660}Prefabs/Characters/Factions/OPFOR/GC_ARG/1980_SpecialForces/Character_GC_ARG_1980_SF_SL.et" {
  ID "520EC961A090B1EE"
  components {
   PS_PlayableComponent "{5EFCC1946F475F15}" {
    m_bIsPlayable 1
-  }
-  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
-   InitialInventoryItems {
-    ItemsInitConfigurationItem "{64A8AB40750482B2}" {
-     TargetStorage "Prefabs/Characters/Uniforms/Pants_Fisherman_01/Pants_Fisherman_01_green.et"
-     PrefabsToSpawn {
-      "{B3F2B47340817ED6}Prefabs/Items/GC_Facepaint_01_US.et"
-     }
-    }
-    ItemsInitConfigurationItem "{6282E825CD921202}" {
-     TargetStorage "Prefabs/Items/Equipment/Backpacks/Backpack_Kolobok.et"
-    }
-   }
   }
  }
 }

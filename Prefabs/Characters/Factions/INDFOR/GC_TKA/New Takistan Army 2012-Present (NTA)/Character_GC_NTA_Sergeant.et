@@ -71,7 +71,7 @@ SCR_ChimeraCharacter : "{E4CB968B7936E2C7}Prefabs/Characters/Factions/INDFOR/GC_
     ItemsInitConfigurationItem "{656B46A18B2A20E9}" {
      TargetStorage "Pants/Pants_Cuba.et"
      PrefabsToSpawn {
-      "{2A7F5B8F1077B264}Prefabs/Items/Equipment/Radios/TK/Radio_ANPRC68_TKR_M.et"
+      "{1B8BACDADBFF27DB}Prefabs/Items/Equipment/Radios/TK/Radio_ANPRC68_TKR.et"
      }
     }
     ItemsInitConfigurationItem "{656B46A18B2A20ED}" {

@@ -1,0 +1,62 @@
+Turret : "{4AD877DEA242E512}Prefabs/Weapons/Core/Turret_Base.et" {
+ ID "51ACD0965653D003"
+ components {
+  SCR_BaseCompartmentManagerComponent "{51ACFBB07A14CFA6}" {
+   CompartmentSlots {
+    TurretCompartmentSlot TurretCompartment {
+     PassengerPositionInfo EntitySlotInfo "{B1CB25848A3D93A8}" {
+      Offset -0.0664 0 0.3306
+     }
+     SeatType 1
+     RestrictedItemTypes {
+     }
+     CanTurnOut 1
+     TurnOutDoorIdx 2
+    }
+   }
+  }
+  TurretComponent "{5E52AE0A31173B5F}" {
+   components {
+    SCR_2DSightsComponent "{5E52AE0A31173B59}" {
+     SightsPosition PointInfo "{5E52AE0A31173B58}" {
+      Offset -0.3002 0.1768 -0.2636
+      Angles -0.47 0.0231 0
+     }
+     SightsFOVInfo SCR_SightsZoomFOVInfo "{5E52AE0A31173B5A}" {
+      m_fBaseZoom 6
+      m_fZoomMax 6
+      m_fStepZoomSize 0.1
+      m_fInterpolationSpeed 6
+     }
+     SightsPointFront PointInfo "{5E52AE0A31173B65}" {
+      Offset -0.3 0.1558 -0.0962
+     }
+     SightsPointRear PointInfo "{5E52AE0A31173B64}" {
+      Offset -0.3 0.1558 -0.2573
+     }
+     SightsPriority 1
+     m_sReticleTexture "{40F164041BA0B44B}UI/Textures/Sights/1PN22/1PN22M1-white_UI.edds"
+     m_sReticleGlowTexture "{B4FA3189C33109E4}UI/Textures/Sights/1PN22/1PN22M1-glow_UI.edds"
+     m_fVignetteScale 0.6
+     m_fObjectiveFov 15
+     m_fReticleAngularSize 5
+     m_fReticleBaseZoom 5.1
+     m_fMagnification 6
+    }
+   }
+  }
+  WeaponSlotComponent "{51ACD09C6BFEEE6A}" {
+   WeaponType RocketLauncher
+  }
+  WeaponSlotComponent "{5E52AE02F56B04C8}" {
+   WeaponType RocketLauncher
+  }
+  WeaponSlotComponent "{5E52AE0A31173B77}" {
+   WeaponType MachineGun
+  }
+  WeaponSlotComponent "{64E93AAE9DD3BC5B}" {
+   WeaponType RocketLauncher
+  }
+ }
+ coords 2.756 -2.316 -1.338
+}

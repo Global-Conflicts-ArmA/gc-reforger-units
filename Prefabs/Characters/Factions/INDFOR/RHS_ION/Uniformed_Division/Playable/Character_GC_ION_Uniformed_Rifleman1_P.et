@@ -46,7 +46,7 @@ SCR_ChimeraCharacter : "{936B2046BD111A6F}Prefabs/Characters/Factions/INDFOR/RHS
     ItemsInitConfigurationItem "{655A08311D28A3A4}" {
      TargetStorage "Vest/Vest_JPC_MCBlk_ronin2.et/mbiyt/Pouch_AVS_MBITR_Radio_MCBlk.et"
      PrefabsToSpawn {
-      "{5D948A57AF3432ED}Prefabs/Items/Equipment/Radios/Radio_ANPRC152A_OLD_Single.et"
+      "{D69684663E89D6EA}Prefabs/Items/Equipment/Radios/US/Radio_ANPRC152A_OLD.et"
      }
     }
     ItemsInitConfigurationItem "{655A0831088EC6A8}" {

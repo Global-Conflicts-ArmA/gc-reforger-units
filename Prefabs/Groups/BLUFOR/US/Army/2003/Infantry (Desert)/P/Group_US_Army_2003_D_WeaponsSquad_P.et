@@ -1,0 +1,6 @@
+SCR_AIGroup : "{FBACA20B4EFA4C2C}Prefabs/Groups/BLUFOR/US/Army/2003/Group_US_Army_WeaponsSquad_2003.et" {
+ ID "0000000000000001"
+ m_aUnitPrefabSlots {
+  "{4920D4ADE30B7D69}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/P/Character_US_WeaponsSL_2003_P.et" "{3DD6C617293C732C}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/P/Character_US_MG_2003_P.et" "{058B7571AF6D8CD9}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/P/Character_US_MGAsst_2003_P.et" "{3DD6C617293C732C}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/P/Character_US_MG_2003_P.et" "{058B7571AF6D8CD9}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/P/Character_US_MGAsst_2003_P.et" "{509F5EC299B45746}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/P/Character_US_CarlG_2003_P.et" "{C21F17D393E10CDE}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/P/Character_US_CarlGAsst_2003_P.et" "{509F5EC299B45746}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/P/Character_US_CarlG_2003_P.et" "{C21F17D393E10CDE}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/P/Character_US_CarlGAsst_2003_P.et"
+ }
+}

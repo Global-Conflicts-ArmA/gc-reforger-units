@@ -42,6 +42,11 @@ SCR_ChimeraCharacter : "{B522F4D4D4787B6B}Prefabs/Characters/Factions/BLUFOR/CDF
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
+    ItemsInitConfigurationItem "{5D7CC173E6675BF7}" {
+     PrefabsToSpawn + {
+      "{22A97034485DCC8A}Prefabs/Items/Equipment/Radios/CDF/Radio_ANPRC152_CDF.et"
+     }
+    }
     ItemsInitConfigurationItem "{5D7CC173E6675BF5}" {
     }
     ItemsInitConfigurationItem "{64A8A5EE3A0D0ABA}" {
@@ -50,36 +55,48 @@ SCR_ChimeraCharacter : "{B522F4D4D4787B6B}Prefabs/Characters/Factions/BLUFOR/CDF
     ItemsInitConfigurationItem "{647D5B1183FEE958}" {
     }
     ItemsInitConfigurationItem "{647D5B11AAD7A21D}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Highspeed_Pistol_MC.et"
+     TargetStorage "Vest/Vest_AVS_okinawa_MC_6x9.et/tako2/Pouch_Highspeed_Pistol_MC.et"
+    }
+    ItemsInitConfigurationItem "{68829C1787C91897}" {
+     TargetStorage "Vest/Vest_AVS_okinawa_MC_6x9.et/pistolcamer/Pouch_Highspeed_Pistol_MC.et"
+    }
+    ItemsInitConfigurationItem "{647D5B112618E799}" {
+     TargetStorage "Vest/Vest_AVS_okinawa_MC_6x9.et/m67_1/Pouch_Filbe_M67_2.et"
+    }
+    ItemsInitConfigurationItem "{647D5B1127F4DB0A}" {
+     TargetStorage "Vest/Vest_AVS_okinawa_MC_6x9.et/m67_2/Pouch_Filbe_M67_Base.et"
     }
     ItemsInitConfigurationItem "{647D5B11103A12F3}" {
-     PrefabsToSpawn {
-      "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
+     TargetStorage "Vest/Vest_AVS_okinawa_MC_6x9.et/m18_1/Pouch_Filbe_M18_1.et"
+     PrefabsToSpawn +{
      }
+    }
+    ItemsInitConfigurationItem "{68829C1060316CD0}" {
+     TargetStorage "Vest/Vest_AVS_okinawa_MC_6x9.et/m18_2/Pouch_Filbe_M18_2.et"
     }
     ItemsInitConfigurationItem "{647D5B1B4C061352}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_JPC_Pouches/Pouch_avs_front_elastic_MC.et"
-    }
-    ItemsInitConfigurationItem "{6487620E1B270391}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Filbe_M18_1.et"
-     PrefabsToSpawn {
-      "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
-     }
+     TargetStorage "Vest/Vest_AVS_okinawa_MC_6x9.et/Pouch1/Pouch_avs_front_elastic_MC.et"
     }
     ItemsInitConfigurationItem "{6487620ED82D12F4}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Shaw_Flex_MC.et"
-     PrefabsToSpawn {
-      "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et" "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et" "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et"
-     }
-    }
-    ItemsInitConfigurationItem "{6487620EBAD47E14}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_PCGEN3_takoPouch_MC.et"
+     TargetStorage "Vest/Vest_AVS_okinawa_MC_6x9.et/tako/Pouch_PCGEN3_takoPouch_MC.et"
      PrefabsToSpawn {
       "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et" "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et"
      }
     }
+    ItemsInitConfigurationItem "{6487620EBAD47E14}" {
+     TargetStorage "Vest/Vest_AVS_okinawa_MC_6x9.et/nerd/Pouch_Shaw_Flex_MC.et"
+     PrefabsToSpawn {
+      "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68829C1283D36F9F}" {
+     TargetStorage "Vest/Vest_AVS_okinawa_MC_6x9.et/flexcoret/Pouch_Shaw_Flex_MC.et"
+     PrefabsToSpawn {
+      "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et"
+     }
+    }
     ItemsInitConfigurationItem "{6487620E94EE5A25}" {
-     TargetStorage "Prefabs/Items/Equipment/Backpacks/backpack_Wartech_BB102/Backpack_Wartech_BB102_MC.et"
+     TargetStorage "Back/Backpack_Wartech_BB102_MC.et"
      PrefabsToSpawn {
       "{32E12D322E107F1C}Prefabs/Weapons/Ammo/Ammo_Rocket_PG7VM.et" "{4A3B196E4EA820E9}Prefabs/Weapons/Ammo/RPG/RHS_AmmoRocket_OG7V.et" "{3343A055A83CB30D}Prefabs/Weapons/Grenades/M18/Smoke_M18_Red.et" "{D41D22DD1B8E921E}Prefabs/Weapons/Grenades/M18/Smoke_M18_Green.et"
      }

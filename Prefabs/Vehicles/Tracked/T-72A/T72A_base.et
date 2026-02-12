@@ -1,6 +1,22 @@
 Tank : "{8A883ABED22B6E27}Prefabs/Vehicles/Core/Tracked_Base.et" {
  ID "BBCBA43A9778AE21"
  components {
+  RHS_GroupMaterialController "{686863902FC16A1D}" {
+   m_aGroups {
+    RHS_MaterialGroupProperties "{686863902F6ACF37}" {
+     m_iNumberOfTextures 10
+    }
+    RHS_MaterialGroupProperties "{6868639030BA1E45}" {
+     m_sGroupName "GROUP2"
+     m_iNumberOfTextures 10
+    }
+    RHS_MaterialGroupProperties "{6868639030E58630}" {
+     m_sGroupName "GROUP3"
+     m_iNumberOfTextures 10
+    }
+   }
+   m_iMaxAllowedDepth 2
+  }
   SCR_UniversalInventoryStorageComponent "{5E38B925DD33F65F}" {
    MultiSlots {
     MultiSlotConfiguration "{5E38B925DD33F646}" {

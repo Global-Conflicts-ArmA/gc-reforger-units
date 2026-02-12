@@ -1,0 +1,8 @@
+GenericEntity : "{26918251753A100D}Prefabs/Characters/Vests/Belts/Webbing/JayJays_Gen4/Variants/Webbing_JayJays_Gen4_Rifleman_01.et" {
+ ID "526492DCB8322C65"
+ components {
+  BaseRadioComponent "{65546A836F54BF99}" {
+   Enabled 0
+  }
+ }
+}

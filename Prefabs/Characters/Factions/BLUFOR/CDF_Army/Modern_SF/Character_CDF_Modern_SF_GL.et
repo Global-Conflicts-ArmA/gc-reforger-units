@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{B66AF3E631EF6B45}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_SF/Character_CDF_Modern_SF_Operator.et" {
+SCR_ChimeraCharacter : "{B66AF3E631EF6B45}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_SF/Character_CDF_Modern_SF_Rifleman.et" {
  ID "520EC961A090B1EE"
  components {
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
@@ -40,6 +40,9 @@ SCR_ChimeraCharacter : "{B66AF3E631EF6B45}Prefabs/Characters/Factions/BLUFOR/CDF
     ItemsInitConfigurationItem "{647D5B11AAD7A21D}" {
      TargetStorage "Back/Camelbak_BFM_MC.et"
     }
+    ItemsInitConfigurationItem "{68829C1787C91897}" {
+     TargetStorage "Back/Camelbak_BFM_MC.et"
+    }
     ItemsInitConfigurationItem "{647D5B112618E799}" {
      TargetStorage "Back/Camelbak_BFM_MC.et"
     }
@@ -47,31 +50,33 @@ SCR_ChimeraCharacter : "{B66AF3E631EF6B45}Prefabs/Characters/Factions/BLUFOR/CDF
      TargetStorage "Back/Camelbak_BFM_MC.et"
     }
     ItemsInitConfigurationItem "{647D5B11103A12F3}" {
-     TargetStorage "Jacket/Crye_G3_Combat_Shirt_UKC_MC.et"
-     PrefabsToSpawn {
-      "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
+     TargetStorage "Back/Camelbak_BFM_MC.et"
+     PrefabsToSpawn +{
      }
     }
+    ItemsInitConfigurationItem "{68829C1060316CD0}" {
+     TargetStorage "Back/Camelbak_BFM_MC.et"
+    }
     ItemsInitConfigurationItem "{647D5B1B4C061352}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_wartech_magpouch_mp105_OD.et"
+     TargetStorage "Vest/Vest_TV102_rifleman_OD_GM94.et/placard/Pouch_wartech_magpouch_mp105_OD.et"
      PrefabsToSpawn {
       "{DD810D0313E8C01A}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Ball_camo.et"
      }
     }
     ItemsInitConfigurationItem "{647D5B105A15B1A7}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_wartech_magpouch_mp105_3_OD.et"
+     TargetStorage "Vest/Vest_TV102_rifleman_OD_GM94.et/mp105_2/Pouch_wartech_magpouch_mp105_3_OD.et"
      PrefabsToSpawn {
       "{DD810D0313E8C01A}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Ball_camo.et"
      }
     }
     ItemsInitConfigurationItem "{647D5B1B1EFB2F28}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_wartech_magpouch_mp103_OD.et"
+     TargetStorage "Vest/Vest_TV102_rifleman_OD_GM94.et/mp105_3/Pouch_wartech_magpouch_mp105_2_OD.et"
      PrefabsToSpawn {
       "{DD810D0313E8C01A}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Ball_camo.et"
      }
     }
     ItemsInitConfigurationItem "{647E9E4986EEB671}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_wartech_magpouch_mp105_2_OD.et"
+     TargetStorage "Vest/Vest_TV102_rifleman_OD_GM94.et/Grenade/Pouch_wartech_magpouch_mp103_OD.et"
      PrefabsToSpawn {
       "{DD810D0313E8C01A}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Ball_camo.et"
      }
@@ -83,9 +88,9 @@ SCR_ChimeraCharacter : "{B66AF3E631EF6B45}Prefabs/Characters/Factions/BLUFOR/CDF
      }
     }
     ItemsInitConfigurationItem "{647E9E48BA0778B6}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_Taktika_Pouches/Pouch_ArsArma_A20_Blk.et"
+     TargetStorage "Back/Camelbak_BFM_MC.et"
      PrefabsToSpawn {
-      "{DD810D0313E8C01A}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Ball_camo.et" "{DD810D0313E8C01A}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Ball_camo.et"
+      "{DD810D0313E8C01A}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Ball_camo.et" "{DD810D0313E8C01A}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Ball_camo.et" "{DD810D0313E8C01A}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Ball_camo.et"
      }
     }
    }

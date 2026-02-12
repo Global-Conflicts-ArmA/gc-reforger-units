@@ -32,6 +32,11 @@ SCR_ChimeraCharacter : "{BE42B6E6DE18536B}Prefabs/Characters/Factions/BLUFOR/UK_
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
+    ItemsInitConfigurationItem "{6574E493A8452458}" {
+     PrefabsToSpawn {
+      "{68FE5703457F2FF5}Prefabs/Items/Equipment/Radios/UK/Radio_ANPRC163.et" "{389ACBD8C4991F74}Prefabs/Items/Equipment/Radios/UK/Radio_H4855_PRR.et"
+     }
+    }
     ItemsInitConfigurationItem "{65869A8114AE0F05}" {
      TargetStorage "ArmoredVest/Vest_Virtus_STV_Rifleman_01.et"
      TargetPurpose 64

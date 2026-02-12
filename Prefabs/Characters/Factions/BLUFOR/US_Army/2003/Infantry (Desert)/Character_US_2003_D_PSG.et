@@ -1,0 +1,13 @@
+SCR_ChimeraCharacter : "{F7561B8F24FFD223}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/Character_US_TL_2003.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_CharacterRankComponent "{528E6D4286AA2D8F}" {
+   m_iRank SERGEANT
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Platoon Sergeant"
+   }
+  }
+ }
+}

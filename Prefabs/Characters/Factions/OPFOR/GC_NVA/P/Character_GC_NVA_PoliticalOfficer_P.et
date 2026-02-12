@@ -13,11 +13,5 @@ SCR_ChimeraCharacter : "{DB3CB8C4B9FE5219}Prefabs/Characters/Factions/OPFOR/GC_N
     }
    }
   }
-  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
-   InitialInventoryItems {
-    ItemsInitConfigurationItem "{652F4AD24B49D456}" {
-    }
-   }
-  }
  }
 }

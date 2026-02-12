@@ -1,0 +1,6 @@
+SCR_AIGroup : "{F0FEFB11E4B5851B}Prefabs/Groups/BLUFOR/US/Army/2003/Infantry (Woodland)/Group_US_Army_2003_W_PlatoonHQ.et" {
+ ID "0000000000000001"
+ m_aUnitPrefabSlots {
+  "{4209EEFEEF5A738F}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/Infantry (Woodland)/P/Character_US_2003_W_PL_P.et" "{F61D213249B20575}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/Infantry (Woodland)/P/Character_US_2003_W_PSG_P.et" "{D661153F209188AD}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/Infantry (Woodland)/P/Character_US_2003_W_RTO_P.et" "{E5A7BF00402EC731}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/Infantry (Woodland)/P/Character_US_2003_W_Medic_P.et"
+ }
+}

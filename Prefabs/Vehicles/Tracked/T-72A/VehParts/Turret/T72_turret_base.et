@@ -5,7 +5,6 @@ Turret : "{4AD877DEA242E512}Prefabs/Weapons/Core/Turret_Base.et" {
    components {
     SCR_2DSightsComponent "{648607B051371298}" {
      SightsFOVInfo SCR_SightsZoomFOVInfo "{648607B05137129F}" {
-      m_fBaseZoom 0.8
       m_fZoomMax 8
       m_fStepZoomSize 5
       m_fInterpolationSpeed 25
@@ -13,6 +12,64 @@ Turret : "{4AD877DEA242E512}Prefabs/Weapons/Core/Turret_Base.et" {
     }
    }
   }
+  SlotManagerComponent "{64863497471CD184}" {
+   Slots {
+    EntitySlotInfo Number_R_1 {
+     PivotID "v_gunner_idle"
+     Offset 1.6379 0.7583 -0.4747
+     Angles 0.6795 -154.01131 -17.6806
+     Prefab "{0309D37EFF070E46}Prefabs/Vehicles/Shared/decal_vehicle_group1.et"
+    }
+    EntitySlotInfo Number_R_2 {
+     PivotID "v_gunner_idle"
+     Offset 1.7298 0.7559 -0.2865
+     Angles 0.6795 -154.01131 -17.6806
+     Prefab "{6F5DE79E43C38168}Prefabs/Vehicles/Shared/decal_vehicle_group2.et"
+    }
+    EntitySlotInfo Number_R_3 {
+     PivotID "v_gunner_idle"
+     Offset 1.8223 0.7533 -0.0968
+     Angles 0.6795 -154.01131 -17.6806
+     Prefab "{8AC1AB674F261603}Prefabs/Vehicles/Shared/decal_vehicle_group3.et"
+    }
+    EntitySlotInfo Number_T_3 {
+     PivotID "v_gunner_idle"
+     Offset 0.7484 0.7739 -0.9627
+     Angles 0 -90 -37.3184
+     Prefab "{8AC1AB674F261603}Prefabs/Vehicles/Shared/decal_vehicle_group3.et"
+    }
+    EntitySlotInfo Number_T_2 {
+     PivotID "v_gunner_idle"
+     Offset 0.5341 0.7739 -0.9627
+     Angles 0 -90 -37.3184
+     Prefab "{6F5DE79E43C38168}Prefabs/Vehicles/Shared/decal_vehicle_group2.et"
+    }
+    EntitySlotInfo Number_T_1 {
+     PivotID "v_gunner_idle"
+     Offset 0.3167 0.7739 -0.9627
+     Angles 0 -90 -37.3184
+     Prefab "{0309D37EFF070E46}Prefabs/Vehicles/Shared/decal_vehicle_group1.et"
+    }
+    EntitySlotInfo Number_L_3 {
+     PivotID "v_gunner_idle"
+     Offset -0.6851 0.685 0.7627
+     Angles 2.4538 0.8215 16.6315
+     Prefab "{7A5BB35D53011CDF}Prefabs/Vehicles/Shared/decal_vehicle_group3_small.et"
+    }
+    EntitySlotInfo Number_L_2 {
+     PivotID "v_gunner_idle"
+     Offset -0.6819 0.6883 0.8596
+     Angles 2.2521 0.8215 15.191
+     Prefab "{845BF318A6537093}Prefabs/Vehicles/Shared/decal_vehicle_group2_small.et"
+    }
+    EntitySlotInfo Number_L_1 {
+     PivotID "v_gunner_idle"
+     Offset -0.6607 0.6867 0.9557
+     Angles -3.1485 19.8764 18.2642
+     Prefab "{A50BC13DB1FCF1FB}Prefabs/Vehicles/Shared/decal_vehicle_group1_small.et"
+    }
+   }
+  }
  }
- coords 1416.007 38.138 2961.155
+ coords 0 0 0
 }

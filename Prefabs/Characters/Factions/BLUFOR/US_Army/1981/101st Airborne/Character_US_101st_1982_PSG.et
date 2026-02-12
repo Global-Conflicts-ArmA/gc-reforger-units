@@ -6,7 +6,6 @@ SCR_ChimeraCharacter : "{44982AC94BC1F2AE}Prefabs/Characters/Factions/BLUFOR/US_
     SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
      InitialStorageSlots {
       SCR_EquipmentStorageSlot BinocularSlot {
-       Prefab ""
       }
      }
     }

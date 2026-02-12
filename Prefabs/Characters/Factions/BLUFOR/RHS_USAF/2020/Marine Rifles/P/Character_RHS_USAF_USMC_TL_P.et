@@ -11,6 +11,11 @@ SCR_ChimeraCharacter : "{0CC861F88F205BDB}Prefabs/Characters/Factions/BLUFOR/RHS
       "{CBF9B9942E07B6B8}Prefabs/Items/Equipment/Accessories/ZipCuffs/ACE_Captives_ZipCuffs.et"
      }
     }
+    ItemsInitConfigurationItem "{61B52C4506FFE973}" {
+     PrefabsToSpawn {
+      "{D69684663E89D6EA}Prefabs/Items/Equipment/Radios/US/Radio_ANPRC152A_OLD.et"
+     }
+    }
    }
   }
  }

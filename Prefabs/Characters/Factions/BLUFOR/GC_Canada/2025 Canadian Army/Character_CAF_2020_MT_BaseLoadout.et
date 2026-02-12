@@ -1,0 +1,51 @@
+SCR_ChimeraCharacter : "{C160F122F00D12F9}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Character_CAF_Base.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot WristwatchSlot {
+       Prefab "{7C53E6DE2E4BD8CB}Prefabs/Items/Equipment/Watches/Watch_GarminTactixBravo.et"
+      }
+     }
+    }
+   }
+  }
+  SCR_CharacterFactionAffiliationComponent "{688B64AFCEF31092}" {
+   "faction affiliation" "GC_CAF"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{7D9509B05C402DF7}Prefabs/Characters/HeadGear/Helmet_ECH/Helmet_ECH_lc_CADPAT_MT.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{BA1EA4EDFB6A5E88}Prefabs/Characters/Uniforms/Shirt_Crye_Rolled/Shirt_Crye_Rolled_CADPAT_MT.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{0C34BD87FEA7061E}Prefabs/Characters/Uniforms/Pants_CCUE/Pants_CCUE.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{09E2F277F5B672E8}Prefabs/Characters/Footwear/Solomon_4dgtx.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{688CA2AC8C510A16}" {
+     TargetStorage "Pants/Pants_CCUE.et"
+     PrefabsToSpawn {
+      "{61D4F80E49BF9B12}Prefabs/Items/Equipment/Compass/Compass_SY183.et" "{13772C903CB5E4F7}Prefabs/Items/Equipment/Maps/PaperMap_01_folded.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{6E35D94130954509}Prefabs/Items/Equipment/Accessories/ETool_ALICE/ETool_ALICE_FreeRoamBuilding_Gadget.et" "{632CAEF08C102091}Prefabs/Items/Medicine/Splint_01/GC_Splint_01_Base.et" "{B3F2B47340817ED6}Prefabs/Items/GC_Facepaint_01_US.et" "{27940238325C43AF}Prefabs/Items/Equipment/Radios/CAF/Squad Radio/Radio_ANPRC343_PRR_CAF.et"
+     }
+    }
+    ItemsInitConfigurationItem "{689329963CBA3B20}" {
+     TargetStorage "Jacket/Shirt_Crye_Rolled_CADPAT_MT.et"
+     PrefabsToSpawn {
+      "{64322D5D501B7D79}Prefabs/Items/Equipment/Nightvision/PVS14/NVG_PVS14_Base.et"
+     }
+    }
+   }
+  }
+ }
+}

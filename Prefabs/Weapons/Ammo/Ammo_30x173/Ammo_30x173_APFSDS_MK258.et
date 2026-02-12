@@ -1,0 +1,66 @@
+TracerProjectile : "{DB3235C23AACE5FD}Prefabs/Weapons/Ammo/Ammo_30x173/Ammo_30x173_APFSDS_GAU-8.et" {
+ ID "70242781DB2FDA8A"
+ components {
+  CollisionTriggerComponent "{6607322497EE7CAD}" {
+   PROJECTILE_EFFECTS {
+    ProjectileDamage "{66073227B59D2BBF}" {
+     Enabled 0
+    }
+    SubmunitionEffect "{660732279F1D55F2}" {
+     Prefab "{16F3F5C6467D43DE}Prefabs/Weapons/Core/Ammo_Spall_Base.et"
+     Count 6
+     Dispersion 60
+     InitSpeedCoef 1
+    }
+    SubmunitionEffect "{686424A0E453D7C0}" {
+     Prefab "{EDC9C1FB7F55A32D}Prefabs/Weapons/Ammo/Ammo_Grenade_HEDP_M433_Spall.et"
+     Count 3
+     Dispersion 15
+    }
+    SpawnParticleEffect "{686424A1337216DE}" {
+     ParticleEffect "{36DB8CF2DAB471DD}Particles/Weapon/Explosion_APDS.ptc"
+    }
+   }
+   DELETE_ON_TRIGGER 0
+   TriggerOffset -0.2
+  }
+  ShellMoveComponent "{851AA4A2AE0A5691}" {
+   TimeToLive 10
+   ProjectileEffects {
+    ProjectileDamage "{5168BBF3DBD79134}" {
+     Enabled 1
+    }
+    HitSoundEffect "{2FC22748C7ABD466}" {
+     TriggerOnce 1
+     Filename "{B9C658F858BD06BC}Sounds/Weapons/_SharedData/BulletHits/Weapons_BulletHits_25x137_APDST.acp"
+    }
+    SubmunitionEffect "{686424AC065ECA86}" {
+     TriggerOnce 1
+     Enabled 0
+     Prefab "{16F3F5C6467D43DE}Prefabs/Weapons/Core/Ammo_Spall_Base.et"
+     Count 6
+     Dispersion 60
+    }
+    SpawnParticleEffect "{686424AC3C275BAC}" {
+     TriggerOnce 1
+     Enabled 0
+     UseFrameEvent 1
+     ParticleEffect "{36DB8CF2DAB471DD}Particles/Weapon/Explosion_APDS.ptc"
+    }
+   }
+   BallisticTableConfig "{E137982A07F8CF2C}Configs/Weapons/AIBallisticTables/AIBT_30x137_APFSDST_MK258.conf"
+   AirDrag 0.00003
+   Diameter 20
+   Length 173
+   TumblingDamageMultiplier 0
+   DeflectionCriticalAngle 5
+   DeflectionDirDistribution 0.1
+   PenetrationSpeed 1379
+   PenetrationDirDistribution 0.005
+  }
+ }
+ coords 0.036 -0.224 -0.184
+ ProjectileModel "{D807332FCA58B894}Assets/Weapons/Ammo/Tracers/Tracer_red.xob"
+ CartridgeModel "{3A1C0915F7269C10}Assets/Weapons/Ammo/Bullets/25x137/Cartridge_25x137_M791.xob"
+ "Tracer Burn Time" 1.5
+}

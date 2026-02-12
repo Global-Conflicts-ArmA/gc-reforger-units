@@ -100,7 +100,7 @@ SCR_ChimeraCharacter : "{DE3786C0C6C978D4}Prefabs/Characters/Factions/INDFOR/FIA
     ItemsInitConfigurationItem "{6326AD1736880486}" {
      TargetStorage "Jacket/Jacket_US_BDU_rolledup.et"
      PrefabsToSpawn {
-      "{139770CBE58E0303}Prefabs/Items/Equipment/Radios/Radio_R187P1_OLD_Multi_Insurgent.et"
+      "{5EA981DCE79C32B1}Prefabs/Items/Equipment/Radios/Radio_R187P1_OLD_Insurgent.et"
      }
     }
     ItemsInitConfigurationItem "{6326AD17368804B9}" {
