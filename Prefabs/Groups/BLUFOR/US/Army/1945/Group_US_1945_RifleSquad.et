@@ -1,0 +1,15 @@
+SCR_AIGroup : "{272BCACDC2971B81}Prefabs/Groups/BLUFOR/US/Army/1945/Group_US_1945_Base.et" {
+ ID "0000000000000001"
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation ""
+  }
+  PS_GroupCallsignAssigner "{670E4A93E8BE8A9B}" {
+   m_iSquadCallsign 1
+  }
+ }
+ coords 3470.909 25.997 3651.816
+ m_aUnitPrefabSlots {
+  "{BD41432787818FD9}Prefabs/Characters/Factions/BLUFOR/US_Army/1945/P/Character_US_1942_SL_P.et" "{6FC773211EF62BDB}Prefabs/Characters/Factions/BLUFOR/US_Army/1945/P/Character_US_1942_TL_P.et" "{3290D5B65CCD74DF}Prefabs/Characters/Factions/BLUFOR/US_Army/1945/P/Character_US_1942_BAR_P.et" "{2460E289FC5A4EF6}Prefabs/Characters/Factions/BLUFOR/US_Army/1945/P/Character_US_1942_Rifleman_P.et" "{2460E289FC5A4EF6}Prefabs/Characters/Factions/BLUFOR/US_Army/1945/P/Character_US_1942_Rifleman_P.et" "{2460E289FC5A4EF6}Prefabs/Characters/Factions/BLUFOR/US_Army/1945/P/Character_US_1942_Rifleman_P.et" "{2460E289FC5A4EF6}Prefabs/Characters/Factions/BLUFOR/US_Army/1945/P/Character_US_1942_Rifleman_P.et" "{2460E289FC5A4EF6}Prefabs/Characters/Factions/BLUFOR/US_Army/1945/P/Character_US_1942_Rifleman_P.et" "{2460E289FC5A4EF6}Prefabs/Characters/Factions/BLUFOR/US_Army/1945/P/Character_US_1942_Rifleman_P.et" "{2460E289FC5A4EF6}Prefabs/Characters/Factions/BLUFOR/US_Army/1945/P/Character_US_1942_Rifleman_P.et" "{2460E289FC5A4EF6}Prefabs/Characters/Factions/BLUFOR/US_Army/1945/P/Character_US_1942_Rifleman_P.et" "{2460E289FC5A4EF6}Prefabs/Characters/Factions/BLUFOR/US_Army/1945/P/Character_US_1942_Rifleman_P.et"
+ }
+}

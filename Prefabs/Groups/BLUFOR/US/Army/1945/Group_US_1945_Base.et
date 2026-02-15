@@ -1,0 +1,8 @@
+SCR_AIGroup : "{EACD97CF4A702FAE}Prefabs/Groups/BLUFOR/Group_US_Base.et" {
+ ID "0000000000000001"
+ components {
+  PS_GroupCallsignAssigner "{670E4A93E8BE8A9B}" {
+  }
+ }
+ coords 3477.467 25.899 3651.42
+}
