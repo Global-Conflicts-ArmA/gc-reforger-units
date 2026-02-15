@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{53FCA56CEFE94E7B}Prefabs/Groups/BLUFOR/US/Marines/2025/Marine Rifles/Woodland/Group_USMC_2025_MORTAR.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}
