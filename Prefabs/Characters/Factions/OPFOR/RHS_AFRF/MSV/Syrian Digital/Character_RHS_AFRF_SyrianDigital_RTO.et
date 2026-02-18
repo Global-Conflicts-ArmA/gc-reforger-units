@@ -1,0 +1,81 @@
+SCR_ChimeraCharacter : "{F598D28DE8F2EDAA}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Syrian Digital/Character_RHS_AFRF_SyrianDigital_Base.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_RadioOperator"
+    Icon "{B9F0BD39FF1881A3}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_RadioOperator.edds"
+    m_Image "{F416563303DC7093}UI/Textures/EditorPreviews/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_RTO.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{FA8BE6075AFFBCA8}Prefabs/Weapons/Rifles/AK74M/Rifle_AK74M.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{D8AB748C3E863310}Prefabs/Characters/Vests/Vest_6B45/TF_Vest_6B45_Syrian.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{595549A1D40B3DC9}Prefabs/Items/Equipment/Radios/RU/Radio_EMR_GC_R168.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{B3A5684BA5F8E100}Prefabs/Characters/Vests/Vest_6B45/Pouches/Pouches_6b45_Rifleman.et"
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab "{E9BD1B8888B6F37D}Prefabs/Characters/Handwear/Ratnik_gloves/Ratnik_gloves.et"
+    }
+    LoadoutSlotInfo Face {
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68A357171A844FA9}" {
+     TargetStorage "Vest/Pouches_6b45_Rifleman.et/AK1_Pouch/Pouch_Ratnik_AK_1.et"
+     PrefabsToSpawn {
+      "{1F6DC70B4798A3B4}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Ball.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68A357171A844F97}" {
+     TargetStorage "Vest/Pouches_6b45_Rifleman.et/AK2_Pouch/Pouch_Ratnik_AK_2.et"
+     PrefabsToSpawn {
+      "{1F6DC70B4798A3B4}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Ball.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68A357171A844F99}" {
+     TargetStorage "Vest/Pouches_6b45_Rifleman.et/AK3_Pouch/Pouch_Ratnik_AK_3.et"
+     PrefabsToSpawn {
+      "{1F6DC70B4798A3B4}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Ball.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68A357171A844F9B}" {
+     TargetStorage "Vest/Pouches_6b45_Rifleman.et/RGD_Pouch1/Pouch_Ratnik_Small2.et"
+     PrefabsToSpawn {
+      "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68A357171A844F9A}" {
+     TargetStorage "Vest/Pouches_6b45_Rifleman.et/RGD_Pouch2/Pouch_Ratnik_Small2.et"
+     PrefabsToSpawn {
+      "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68A357171A844F9D}" {
+     TargetStorage "Vest/Pouches_6b45_Rifleman.et/RGD_Pouch3/Pouch_Ratnik_Small2.et"
+     PrefabsToSpawn {
+      "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68A357171A844F9C}" {
+     TargetStorage "Jacket/Jacket_6Sh122_Syrian_Digital.et"
+     PrefabsToSpawn {
+      "{1F6DC70B4798A3B4}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Ball.et" "{1F6DC70B4798A3B4}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Ball.et" "{1F6DC70B4798A3B4}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Ball.et"
+     }
+    }
+   }
+  }
+ }
+}

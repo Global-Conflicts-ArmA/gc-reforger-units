@@ -1,0 +1,63 @@
+SCR_ChimeraCharacter : "{F598D28DE8F2EDAA}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Syrian Digital/Character_RHS_AFRF_SyrianDigital_Base.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Vehicle Driver"
+    m_Image "{552F6F910A0B4AE2}UI/Textures/EditorPreviews/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_Rifleman.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{CD432C415E527D79}Prefabs/Weapons/Rifles/AKS74UN/Rifle_AKS74UN_PlasticMag.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{D6B1ACA46036E9CE}Prefabs/Characters/HeadGear/Helmet_TSh4_01/Helmet_TSh4_01_open.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{099AE885BB314867}Prefabs/Characters/Vests/Vest_Ratnik3K_6B48/Vest_Ratnik_6B48.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{595549A1D40B3DC9}Prefabs/Items/Equipment/Radios/RU/Radio_EMR_GC_R168.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{F2850639D26CB41D}Prefabs/Characters/Vests/Vest_Ratnik3K_6B48/Variants/Vest_Ratnik-ZK_6B48_crewman.et"
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab "{E9BD1B8888B6F37D}Prefabs/Characters/Handwear/Ratnik_gloves/Ratnik_gloves.et"
+    }
+    LoadoutSlotInfo Face {
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68A3571570337E47}" {
+     TargetStorage "Vest/Vest_Ratnik-ZK_6B48_crewman.et/Pouch4/Pouch_Ratnik_ak_2_pouch.et"
+     PrefabsToSpawn {
+      "{1F6DC70B4798A3B4}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Ball.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68A3571570337E52}" {
+     TargetStorage "Vest/Vest_Ratnik-ZK_6B48_crewman.et/Pouch3/Pouch_Ratnik_ak_3_pouch.et"
+     PrefabsToSpawn {
+      "{1F6DC70B4798A3B4}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Ball.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68A3571570337E50}" {
+     TargetStorage "Vest/Vest_Ratnik-ZK_6B48_crewman.et/FirstAid/Pouch_Ratnik_appi_pouch.et"
+     PrefabsToSpawn {
+      "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68A3571570337E51}" {
+     TargetStorage "Jacket/Jacket_6Sh122_Syrian_Digital.et"
+     PrefabsToSpawn {
+      "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+     }
+    }
+   }
+  }
+ }
+}

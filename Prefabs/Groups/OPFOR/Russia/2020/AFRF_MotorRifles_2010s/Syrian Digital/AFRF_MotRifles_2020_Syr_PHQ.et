@@ -1,0 +1,13 @@
+SCR_AIGroup : "{B50B7BF31273C2A6}Prefabs/Groups/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Group_RHS_RF_MSV_VKPO_DS_Base.et" {
+ ID "0000000000000001"
+ components {
+  SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+   m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+    Name "Motor Rifle Platoon HQ (Syrian Digital)"
+   }
+  }
+ }
+ m_aUnitPrefabSlots {
+  "{15CDD8ADC00E4B45}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Syrian Digital/Character_RHS_AFRF_SyrianDigital_PL.et" "{31FD386951471E11}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Syrian Digital/Character_RHS_AFRF_SyrianDigital_PSG.et" "{71692B65A6740069}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Syrian Digital/Character_RHS_AFRF_SyrianDigital_Sharpshooter.et" "{B34C4E318122CC25}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Syrian Digital/Character_RHS_AFRF_SyrianDigital_MG.et" "{683EB6D61AEAAA1D}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Syrian Digital/Character_RHS_AFRF_SyrianDigital_AMG.et" "{7D211ED351040480}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Syrian Digital/Character_RHS_AFRF_SyrianDigital_Medic.et"
+ }
+}

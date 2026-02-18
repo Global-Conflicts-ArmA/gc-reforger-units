@@ -1,0 +1,13 @@
+SCR_AIGroup : "{B50B7BF31273C2A6}Prefabs/Groups/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Group_RHS_RF_MSV_VKPO_DS_Base.et" {
+ ID "0000000000000001"
+ components {
+  SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+   m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+    Name "Motor Rifle Squad - No Crew (Syrian Digital)"
+   }
+  }
+ }
+ m_aUnitPrefabSlots {
+  "{8CD36134DDE97AD5}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Syrian Digital/Character_RHS_AFRF_SyrianDigital_SL.et" "{E15B902BEF6DD8C6}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Syrian Digital/Character_RHS_AFRF_SyrianDigital_AR.et" "{39F3F9EA96E4C69A}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Syrian Digital/Character_RHS_AFRF_SyrianDigital_AT.et" "{E281010D0D2CA0A2}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Syrian Digital/Character_RHS_AFRF_SyrianDigital_AAT.et" "{F1CB8DCCB87A464C}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Syrian Digital/Character_RHS_AFRF_SyrianDigital_SR.et" "{17F1A2011A61F955}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Syrian Digital/Character_RHS_AFRF_SyrianDigital_Rifleman.et"
+ }
+}

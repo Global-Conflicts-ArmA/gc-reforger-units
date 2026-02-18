@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{FA620510D7557139}Prefabs/Groups/OPFOR/Russia/2020/AFRF_MotorRifles_2010s/Syrian Digital/AFRF_MotRifles_2020_Syr_RifleOnlySquad.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

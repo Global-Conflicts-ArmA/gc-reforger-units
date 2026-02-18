@@ -1,0 +1,82 @@
+SCR_ChimeraCharacter : "{F598D28DE8F2EDAA}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Syrian Digital/Character_RHS_AFRF_SyrianDigital_Base.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_AutomaticRifleman"
+    Icon "{EF1F445746A3391A}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_MachineGunner.edds"
+    m_Image "{833B2AAA284702EB}UI/Textures/EditorPreviews/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_AR.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{4EF6890D756306D1}Prefabs/Weapons/MachineGuns/RPK74M/MG_RPK74M.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{799EC7EFF768050C}Prefabs/Characters/HeadGear/Helmet_6B47/Helmet_6B47_Covered_Closed_6B50_Opened_Syrian.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{D8AB748C3E863310}Prefabs/Characters/Vests/Vest_6B45/TF_Vest_6B45_Syrian.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{45DC01791EBE2349}Prefabs/Items/Equipment/Backpacks/backpack_Wartech_BB102/Backpack_Wartech_BB102_EMR.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{B3A5684BA5F8E100}Prefabs/Characters/Vests/Vest_6B45/Pouches/Pouches_6b45_Rifleman.et"
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab "{E9BD1B8888B6F37D}Prefabs/Characters/Handwear/Ratnik_gloves/Ratnik_gloves.et"
+    }
+    LoadoutSlotInfo Face {
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68A35712B821DFD4}" {
+     TargetStorage "Vest/Pouches_6b45_Rifleman.et/AK1_Pouch/Pouch_Ratnik_AK_1.et"
+     PrefabsToSpawn {
+      "{D78C667F59829717}Prefabs/Weapons/Magazines/Magazine_545x39_RPK_45rnd_4Ball_1Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68A35712B7BDCFAD}" {
+     TargetStorage "Vest/Pouches_6b45_Rifleman.et/AK2_Pouch/Pouch_Ratnik_AK_2.et"
+     PrefabsToSpawn {
+      "{D78C667F59829717}Prefabs/Weapons/Magazines/Magazine_545x39_RPK_45rnd_4Ball_1Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68A35712B354A2AC}" {
+     TargetStorage "Vest/Pouches_6b45_Rifleman.et/AK3_Pouch/Pouch_Ratnik_AK_3.et"
+     PrefabsToSpawn {
+      "{D78C667F59829717}Prefabs/Weapons/Magazines/Magazine_545x39_RPK_45rnd_4Ball_1Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68A357128F175EB8}" {
+     TargetStorage "Vest/Pouches_6b45_Rifleman.et/RGD_Pouch1/Pouch_Ratnik_Small2.et"
+     PrefabsToSpawn {
+      "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68A357128B1F97CC}" {
+     TargetStorage "Vest/Pouches_6b45_Rifleman.et/RGD_Pouch2/Pouch_Ratnik_Small2.et"
+     PrefabsToSpawn {
+      "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68A35712802EC686}" {
+     TargetStorage "Vest/Pouches_6b45_Rifleman.et/RGD_Pouch3/Pouch_Ratnik_Small2.et"
+     PrefabsToSpawn {
+      "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68A357136D6EEA17}" {
+     TargetStorage "Back/Backpack_Wartech_BB102_EMR.et"
+     PrefabsToSpawn {
+      "{D78C667F59829717}Prefabs/Weapons/Magazines/Magazine_545x39_RPK_45rnd_4Ball_1Tracer.et" "{D78C667F59829717}Prefabs/Weapons/Magazines/Magazine_545x39_RPK_45rnd_4Ball_1Tracer.et" "{D78C667F59829717}Prefabs/Weapons/Magazines/Magazine_545x39_RPK_45rnd_4Ball_1Tracer.et" "{D78C667F59829717}Prefabs/Weapons/Magazines/Magazine_545x39_RPK_45rnd_4Ball_1Tracer.et" "{D78C667F59829717}Prefabs/Weapons/Magazines/Magazine_545x39_RPK_45rnd_4Ball_1Tracer.et"
+     }
+    }
+   }
+  }
+ }
+}

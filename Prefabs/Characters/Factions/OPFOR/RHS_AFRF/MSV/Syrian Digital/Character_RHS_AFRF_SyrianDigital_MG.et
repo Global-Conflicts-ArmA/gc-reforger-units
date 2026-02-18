@@ -1,0 +1,69 @@
+SCR_ChimeraCharacter : "{F598D28DE8F2EDAA}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Syrian Digital/Character_RHS_AFRF_SyrianDigital_Base.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_MachineGunner"
+    Icon "{EF1F445746A3391A}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_MachineGunner.edds"
+    m_Image "{1656E12B05BDB772}UI/Textures/EditorPreviews/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_MG.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{57CD8C476F94E1A8}Prefabs/Weapons/MachineGuns/PKP_Pecheneg/MG_PKP_Pecheneg_1p29_TF.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{D8AB748C3E863310}Prefabs/Characters/Vests/Vest_6B45/TF_Vest_6B45_Syrian.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{45DC01791EBE2349}Prefabs/Items/Equipment/Backpacks/backpack_Wartech_BB102/Backpack_Wartech_BB102_EMR.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{8691C9E92B766574}Prefabs/Characters/Vests/Vest_6B45/Pouches/Pouches_6b45_MG.et"
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab "{E9BD1B8888B6F37D}Prefabs/Characters/Handwear/Ratnik_gloves/Ratnik_gloves.et"
+    }
+    LoadoutSlotInfo Face {
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68A35711F6E2DF0E}" {
+     TargetStorage "Vest/Pouches_6b45_MG.et/PKM_Pouch1/Pouch_Ratnik_100rnd_PKM_base.et"
+     PrefabsToSpawn {
+      "{F03EAAE51C256CFA}Prefabs/Items/Equipment/Accessories/Pouch_Soviet_100rnd_PKM/Pouch_Soviet_100rnd_PKM.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68A35711CB768ED9}" {
+     TargetStorage "Vest/Pouches_6b45_MG.et/PKM_Pouch2/Pouch_Ratnik_100rnd_PKM_base.et"
+     PrefabsToSpawn {
+      "{F03EAAE51C256CFA}Prefabs/Items/Equipment/Accessories/Pouch_Soviet_100rnd_PKM/Pouch_Soviet_100rnd_PKM.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68A35711B5F5C515}" {
+     TargetStorage "Vest/Pouches_6b45_MG.et/RGD_Pouch1/Pouch_Ratnik_Small2.et"
+     PrefabsToSpawn {
+      "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68A35711B292299E}" {
+     TargetStorage "Vest/Pouches_6b45_MG.et/RGD_Pouch2/Pouch_Ratnik_Small2.et"
+     PrefabsToSpawn {
+      "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68A35711889CD377}" {
+     TargetStorage "Back/Backpack_Wartech_BB102_EMR.et"
+     PrefabsToSpawn {
+      "{F03EAAE51C256CFA}Prefabs/Items/Equipment/Accessories/Pouch_Soviet_100rnd_PKM/Pouch_Soviet_100rnd_PKM.et" "{F03EAAE51C256CFA}Prefabs/Items/Equipment/Accessories/Pouch_Soviet_100rnd_PKM/Pouch_Soviet_100rnd_PKM.et"
+     }
+    }
+   }
+  }
+ }
+}
