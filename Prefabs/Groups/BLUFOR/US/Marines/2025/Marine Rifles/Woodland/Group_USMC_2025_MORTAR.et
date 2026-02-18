@@ -1,0 +1,21 @@
+SCR_AIGroup : "{EE8D60FCE6D3B856}Prefabs/Groups/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Group_USAF_USMC_MEF_Base.et" {
+ ID "0000000000000001"
+ components {
+  SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+   m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+    Name "2025 USMC MORTAR TEAM"
+    m_aAuthoredLabels {
+     ENTITYTYPE_GROUP FACTION_RHS_USAF SUBBRANCH_RHS_USAF_MEF CAMO_RHS_MARPATD TRAIT_MORTAR
+    }
+    m_MilitarySymbol SCR_MilitarySymbol "{563682D06ED5ACD9}" {
+     m_Icons 1056769
+    }
+   }
+  }
+ }
+ coords 4153.635 36.457 9937.596
+ m_aUnitPrefabSlots {
+  "{330D79A0DC9BD50B}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marine Rifles/Desert/Character_2025_USMC_FDC_D.et" "{F76E3851067D33C3}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marine Rifles/Desert/Character_2025_USMC_Mortarman_Gunner_D.et" "{6E9C422E772C1E99}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marine Rifles/Desert/Character_2025_USMC_Mortarman_BIPOD_D.et" "{36C7D908EF974FDB}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marine Rifles/Desert/Character_2025_USMC_Mortarman_Baseplate_D.et" "{40A450657A2A77E0}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marine Rifles/Desert/Character_2025_USMC_Mortarman_AMMO_D.et" "{40A450657A2A77E0}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marine Rifles/Desert/Character_2025_USMC_Mortarman_AMMO_D.et"
+ }
+ m_sCustomNameSet "MMG Squad"
+}

@@ -1,0 +1,126 @@
+SCR_ChimeraCharacter : "{F92C060CACCE8143}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marine Rifles/Character_2025_USMC_BaseW.et" {
+ ID "520EC961A090BBD5"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_AssistantMachineGunner"
+    m_aAuthoredLabels + {
+     TRAIT_OPTICS TRAIT_SUPPRESSIVE
+    }
+   }
+  }
+  CharacterGrenadeSlotComponent "{520EA1D2F659CE6E}" {
+   WeaponTemplate "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
+  }
+  CharacterGrenadeSlotComponent "{5A6CDA0CCF43068E}" {
+   WeaponTemplate "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   AttachType InventoryStorageSlot "{0C3DA650B52E120B}" {
+   }
+   WeaponTemplate "{C2C30F73F41D88F8}Prefabs/Weapons/Rifles/M27IAR/Marines-VCOGs/Rifle_M27IAR_VCOG_rangefinder.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{1300A5F6CA51B206}Prefabs/Characters/Vests/Vest_PCGen_III/Vest_PCGen_III.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{BC4ABD18AF9564D5}Prefabs/Items/Equipment/Backpacks/FILBE_Backpack_Heavy.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{11810158D0BCABEF}Prefabs/Characters/Vests/Vest_PCGen_III/Variants/Vest_PCGen_III_rifleman_blueforcetriple.et"
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab "{2295354C283A1FBF}Prefabs/Characters/Handwear/Gloves_511_Competition/Gloves_511_Comp_Tan.et"
+    }
+    LoadoutSlotInfo Eyes {
+     Prefab "{9C030889E9A05770}Prefabs/Characters/Eyewear/npp_strelok/Eyewear_npp_strelok.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{61B52C4506FFE973}" {
+     TargetStorage "Vest/Vest_PCGen_III_rifleman_blueforcetriple.et/radio/Pouch_152_Radio.et"
+    }
+    ItemsInitConfigurationItem "{66B4211E199B8F9A}" {
+     PrefabsToSpawn {
+      ""
+     }
+    }
+    ItemsInitConfigurationItem "{633B07DBBB713D2A}" {
+     TargetStorage "Pants/Pants_FROG_Trousers.et"
+    }
+    ItemsInitConfigurationItem "{66B53421A1C95B2C}" {
+     TargetStorage "Vest/Vest_PCGen_III_rifleman_blueforcetriple.et/flibe2/Pouch_FILBE_doubleM4_1.et"
+     PrefabsToSpawn {
+      "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et" "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et"
+     }
+    }
+    ItemsInitConfigurationItem "{66B53421A1C95B21}" {
+     TargetStorage "Vest/Vest_PCGen_III_rifleman_blueforcetriple.et/blueforce/Pouch_Blueforce_Tri.et"
+     PrefabsToSpawn {
+      "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et" "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et" "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et"
+     }
+    }
+    ItemsInitConfigurationItem "{66B53421A1C95B23}" {
+     TargetStorage "Vest/Vest_PCGen_III_rifleman_blueforcetriple.et/flex/Pouch_Shaw_Flex.et"
+     PrefabsToSpawn {
+      "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et"
+     }
+    }
+    ItemsInitConfigurationItem "{66B53421A1C95B22}" {
+     TargetStorage "Vest/Vest_PCGen_III_rifleman_blueforcetriple.et/flex2/Pouch_Shaw_Flex_MC.et"
+     PrefabsToSpawn {
+      "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et"
+     }
+    }
+    ItemsInitConfigurationItem "{66B53421A1C95B3D}" {
+     TargetStorage "Vest/Vest_PCGen_III_rifleman_blueforcetriple.et/raid/Pouch_Shaw_Raid.et"
+     PrefabsToSpawn {
+      "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et"
+     }
+    }
+    ItemsInitConfigurationItem "{66B53421A1C95B3F}" {
+     TargetStorage "Vest/Vest_PCGen_III_rifleman_blueforcetriple.et/filbe/Pouch_FILBE_doubleM4_3.et"
+     PrefabsToSpawn {
+      "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et" "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et"
+     }
+    }
+    ItemsInitConfigurationItem "{66B53421A1C95B3E}" {
+     TargetStorage "Vest/Vest_PCGen_III_rifleman_blueforcetriple.et/pistol2/Pouch_Filbe_M67_2.et"
+     PrefabsToSpawn {
+      "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
+     }
+    }
+    ItemsInitConfigurationItem "{66B53421A1C95B38}" {
+     TargetStorage "Vest/Vest_PCGen_III_rifleman_blueforcetriple.et/m67/Pouch_Filbe_M67_Base.et"
+     PrefabsToSpawn {
+      "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
+     }
+    }
+    ItemsInitConfigurationItem "{66B53421A1C95B3B}" {
+     TargetStorage "Vest/Vest_PCGen_III_rifleman_blueforcetriple.et/m18/Pouch_Filbe_M18_1.et"
+     PrefabsToSpawn {
+      "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
+     }
+    }
+    ItemsInitConfigurationItem "{66B53421A1C95B35}" {
+     TargetStorage "Vest/Vest_PCGen_III_rifleman_blueforcetriple.et/m18_2/Pouch_Filbe_M18_2.et"
+     PrefabsToSpawn {
+      "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
+     }
+    }
+    ItemsInitConfigurationItem "{66B53421A1C95B37}" {
+     TargetStorage "Back/FILBE_Backpack_Heavy.et"
+     PrefabsToSpawn {
+      "{AAF51CFA75A9CF8B}Prefabs/Weapons/Magazines/Box_762x51_M60_100rnd_4AP_1Tracer.et" "{4D2C1E8F3A81F894}Prefabs/Weapons/Magazines/Box_762x51_M60_100rnd_4Ball_1Tracer.et" "{AAF51CFA75A9CF8B}Prefabs/Weapons/Magazines/Box_762x51_M60_100rnd_4AP_1Tracer.et" "{AAF51CFA75A9CF8B}Prefabs/Weapons/Magazines/Box_762x51_M60_100rnd_4AP_1Tracer.et" "{AD8AB93729348C3E}Prefabs/Weapons/Magazines/Box_762x51_M60_100rnd_Tracer.et"
+     }
+    }
+   }
+  }
+ }
+}

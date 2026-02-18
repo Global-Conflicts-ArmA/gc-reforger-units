@@ -1,0 +1,74 @@
+SCR_ChimeraCharacter : "{F92C060CACCE8143}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marine Rifles/Character_2025_USMC_BaseW.et" {
+ ID "520EC961A090BBD5"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_Sniper"
+   }
+  }
+  CharacterGrenadeSlotComponent "{520EA1D2F659CE6E}" {
+   WeaponTemplate "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{56CE827F9AD5880E}Prefabs/Weapons/Rifles/M40/Rifle_M40A5_Optic_PEQ.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
+   WeaponTemplate "{8069A3DF6410FDDF}Prefabs/Weapons/Handguns/M17/Handgun_M17.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{61C29A76F89C770A}Prefabs/Characters/HeadGear/Helmet_ECH/variants/Helmet_ECH_hc_v_r_p_hs.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{68CF844B606428D8}Prefabs/Characters/Vests/Vest_PCGen_III/Vest_PCGen_III_light.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{9A26D311900C33EE}Prefabs/Items/Equipment/Backpacks/FILBE_hydration_pack.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{08A450F2C0F712EC}Prefabs/Characters/Vests/Vest_PCGen_III/Variants/Vest_PCGen_III_light1.et"
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab "{495F14155B2A1981}Prefabs/Characters/Handwear/Gloves_Leather_01/BC_Gloves_Leather_01.et"
+    }
+    LoadoutSlotInfo Eyes {
+     Prefab "{D4ABE8F396146587}Prefabs/Characters/Eyewear/crossbow/Eyewear_ess_crossbow_clr.et"
+    }
+    LoadoutSlotInfo Face {
+     Prefab "{B370D7A2DDBB73B7}Prefabs/Characters/HeadGear/Balaclavas/Balaclava_v1/Balaclava_v1_Coyote_brown.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{61B52C4506FFE973}" {
+     TargetStorage "Vest/Vest_PCGen_III_light1.et/radio/Pouch_152_Radio.et"
+    }
+    ItemsInitConfigurationItem "{66B4211E199B8F9A}" {
+     PrefabsToSpawn {
+      ""
+     }
+    }
+    ItemsInitConfigurationItem "{64A8A6CECABD9FC5}" {
+     TargetStorage "Vest/Vest_PCGen_III_light1.et"
+     PrefabsToSpawn {
+      "{8FF49793853DB2F9}Prefabs/Weapons/Magazines/m17_magazines/Magazine_9x19_m17_17rnd_M1152.et" "{8FF49793853DB2F9}Prefabs/Weapons/Magazines/m17_magazines/Magazine_9x19_m17_17rnd_M1152.et"
+     }
+    }
+    ItemsInitConfigurationItem "{633B07DBBB713D2A}" {
+     TargetStorage "ArmoredVest/Vest_PCGen_III_light.et"
+     PrefabsToSpawn {
+      "{275F298DE10E7A15}Prefabs/Items/Equipment/Nightvision/PVS31/NVG_PVS31_WP_TAN_MC.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{B3F2B47340817ED6}Prefabs/Items/GC_Facepaint_01_US.et"
+     }
+    }
+    ItemsInitConfigurationItem "{66D92991BF24CDBE}" {
+     TargetStorage "Back/FILBE_hydration_pack.et"
+     PrefabsToSpawn {
+      "{22E51EE7DB41E2F0}Prefabs/Weapons/Attachments/Optics/reap_ir/snipe_ir_m40.et" "{925F3A6F7FE0DE64}Prefabs/Weapons/Magazines/Magazine_762x51_M40_5rnd_M61AP.et" "{925F3A6F7FE0DE64}Prefabs/Weapons/Magazines/Magazine_762x51_M40_5rnd_M61AP.et" "{925F3A6F7FE0DE64}Prefabs/Weapons/Magazines/Magazine_762x51_M40_5rnd_M61AP.et" "{6CDC3AA07A9A639E}Prefabs/Weapons/Magazines/Magazine_762x51_M40_5rnd_M62_T.et" "{6CDC3AA07A9A639E}Prefabs/Weapons/Magazines/Magazine_762x51_M40_5rnd_M62_T.et" "{EC9E0F22B90013F3}Prefabs/Weapons/Magazines/Magazine_762x51_M40_5rnd_M80.et" "{EC9E0F22B90013F3}Prefabs/Weapons/Magazines/Magazine_762x51_M40_5rnd_M80.et" "{EC9E0F22B90013F3}Prefabs/Weapons/Magazines/Magazine_762x51_M40_5rnd_M80.et" "{EC9E0F22B90013F3}Prefabs/Weapons/Magazines/Magazine_762x51_M40_5rnd_M80.et" "{EC9E0F22B90013F3}Prefabs/Weapons/Magazines/Magazine_762x51_M40_5rnd_M80.et"
+     }
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,69 @@
+SCR_ChimeraCharacter : "{F92C060CACCE8143}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marine Rifles/Character_2025_USMC_BaseW.et" {
+ ID "520EC961A090BBD5"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Sniper anti material rifle"
+    m_aAuthoredLabels + {
+     TRAIT_ARMORPIERCING
+    }
+   }
+  }
+  CharacterGrenadeSlotComponent "{520EA1D2F659CE6E}" {
+   WeaponTemplate "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{38BE8797791CE635}Prefabs/Weapons/Rifles/M107A1/Barret_M107A1_MK4.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
+   WeaponTemplate "{8069A3DF6410FDDF}Prefabs/Weapons/Handguns/M17/Handgun_M17.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{31A190D0ECB3B5AB}Prefabs/Characters/HeadGear/Helmet_ECH/Helmet_ECH_hc_v_r_p_c.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{68CF844B606428D8}Prefabs/Characters/Vests/Vest_PCGen_III/Vest_PCGen_III_light.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{46D824AAD12330B2}Prefabs/Items/Equipment/Backpacks/backpack_511_rush12/Backpack_511_rush12_Coy.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{8CCD7C0728F3BD3D}Prefabs/Characters/Vests/Vest_PCGen_III/Variants/Vest_PCGen_III_nobelt_MG.et"
+    }
+    LoadoutSlotInfo Head {
+     Prefab "{B370D7A2DDBB73B7}Prefabs/Characters/HeadGear/Balaclavas/Balaclava_v1/Balaclava_v1_Coyote_brown.et"
+    }
+    LoadoutSlotInfo Eyes {
+     Prefab "{BA0AD5FBC86E88D3}Prefabs/Characters/Eyewear/crossbow/Eyewear_ess_crossbow.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{61B52C4506FFE973}" {
+     TargetStorage "Vest/Vest_PCGen_III_nobelt_MG.et/radio/Pouch_152_Radio.et"
+    }
+    ItemsInitConfigurationItem "{64A8A6CECABD9FC5}" {
+     TargetStorage "Vest/Vest_PCGen_III_nobelt_MG.et"
+     PrefabsToSpawn {
+      "{E492E22BD825BBA9}Prefabs/Weapons/Magazines/M107A1/Magazine_127x99_M107A1_10rnd_M20.et" "{E492E22BD825BBA9}Prefabs/Weapons/Magazines/M107A1/Magazine_127x99_M107A1_10rnd_M20.et"
+     }
+    }
+    ItemsInitConfigurationItem "{66D92993F6F95AC9}" {
+     TargetStorage "Vest/Vest_PCGen_III_nobelt_MG.et"
+     PrefabsToSpawn {
+      "{E492E22BD825BBA9}Prefabs/Weapons/Magazines/M107A1/Magazine_127x99_M107A1_10rnd_M20.et" "{378685356C8F72E6}Prefabs/Weapons/Magazines/m17_magazines/Magazine_9x19_m17_24rnd_M1152.et"
+     }
+    }
+    ItemsInitConfigurationItem "{66D9299039F22FB1}" {
+     TargetStorage "Back/Backpack_511_rush12_Coy.et"
+     PrefabsToSpawn {
+      "{E492E22BD825BBA9}Prefabs/Weapons/Magazines/M107A1/Magazine_127x99_M107A1_10rnd_M20.et" "{2547E56DB9E6831C}Prefabs/Weapons/Magazines/M107A1/Magazine_127x99_M107A1_10rnd_M2_M20.et" "{2547E56DB9E6831C}Prefabs/Weapons/Magazines/M107A1/Magazine_127x99_M107A1_10rnd_M2_M20.et" "{F30B5EEADDEFCD43}Prefabs/Weapons/Attachments/Optics/reap_ir/snipe_ir.et" "{2547E56DB9E6831C}Prefabs/Weapons/Magazines/M107A1/Magazine_127x99_M107A1_10rnd_M2_M20.et" "{AB5AAFA893C60C2D}Prefabs/Weapons/Magazines/M107A1/Magazine_127x99_M107A1_10rnd_M33_M10.et" "{AB5AAFA893C60C2D}Prefabs/Weapons/Magazines/M107A1/Magazine_127x99_M107A1_10rnd_M33_M10.et" "{378685356C8F72E6}Prefabs/Weapons/Magazines/m17_magazines/Magazine_9x19_m17_24rnd_M1152.et"
+     }
+    }
+   }
+  }
+ }
+}

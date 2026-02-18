@@ -1,0 +1,21 @@
+SCR_AIGroup : "{EE8D60FCE6D3B856}Prefabs/Groups/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Group_USAF_USMC_MEF_Base.et" {
+ ID "0000000000000001"
+ components {
+  SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+   m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+    Name "2025 USMC CAAT JAV Team"
+    m_aAuthoredLabels + {
+     TRAIT_ARMORPIERCING
+    }
+    m_MilitarySymbol SCR_MilitarySymbol "{563682D06ED5ACD9}" {
+     m_Icons 1048585
+    }
+   }
+  }
+ }
+ coords 4153.635 36.457 9937.596
+ m_aUnitPrefabSlots {
+  "{DB89B87AAF10AC8C}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marine Rifles/Woodland/Character_2025_USMC_TL.et" "{BA537A031DC35829}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marine Rifles/Woodland/Character_2025_USMC_JAV.et" "{BA537A031DC35829}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marine Rifles/Woodland/Character_2025_USMC_JAV.et"
+ }
+ m_sCustomNameSet "Anti Armor Team"
+}

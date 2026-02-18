@@ -1,0 +1,18 @@
+SCR_AIGroup : "{EE8D60FCE6D3B856}Prefabs/Groups/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Group_USAF_USMC_MEF_Base.et" {
+ ID "0000000000000001"
+ components {
+  SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+   m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+    Name "2025 USMC Rifle Squad MAAW"
+    m_MilitarySymbol SCR_MilitarySymbol "{563682D06ED5ACD9}" {
+     m_Icons 1048577
+    }
+   }
+  }
+ }
+ coords 4153.635 36.457 9937.596
+ m_aUnitPrefabSlots {
+  "{DC4E422BC996164F}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marine Rifles/Woodland/Character_2025_USMC_SL.et" "{DB89B87AAF10AC8C}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marine Rifles/Woodland/Character_2025_USMC_TL.et" "{3552758BEBD374F4}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marine Rifles/Woodland/Character_2025_USMC_IAR.et" "{BC13CD150CA5DD76}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marine Rifles/Woodland/Character_2025_USMC_GL.et" "{0EC2678E52CCF8B9}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marine Rifles/Woodland/Character_2025_USMC_LAT.et" "{DB89B87AAF10AC8C}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marine Rifles/Woodland/Character_2025_USMC_TL.et" "{3552758BEBD374F4}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marine Rifles/Woodland/Character_2025_USMC_IAR.et" "{BC13CD150CA5DD76}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marine Rifles/Woodland/Character_2025_USMC_GL.et" "{0EC2678E52CCF8B9}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marine Rifles/Woodland/Character_2025_USMC_LAT.et" "{8CBFED356393597F}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marine Rifles/Woodland/Character_2025_USMC_TL_DMR.et" "{BC13CD150CA5DD76}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marine Rifles/Woodland/Character_2025_USMC_GL.et" "{5CE20CCD29DE76DB}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marine Rifles/Woodland/Character_2025_USMC_MAAW.et" "{42D0F5438096A912}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marine Rifles/Woodland/Character_2025_USMC_MAAW_ASST.et"
+ }
+ m_sCustomNameSet "Rifle Squad"
+}

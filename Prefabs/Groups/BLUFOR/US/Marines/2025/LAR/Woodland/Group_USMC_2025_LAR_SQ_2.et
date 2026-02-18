@@ -1,0 +1,15 @@
+SCR_AIGroup : "{EE8D60FCE6D3B856}Prefabs/Groups/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Group_USAF_USMC_MEF_Base.et" {
+ ID "0000000000000001"
+ components {
+  SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+   m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+    Name "2025 LAR SQ"
+   }
+  }
+ }
+ coords 4153.635 36.457 9937.596
+ m_aUnitPrefabSlots {
+  "{F4A5D8E2672E8D2B}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marine Rifles/Woodland/Character_2025_USMC_CrewCO.et" "{142D5B9C9D92B6B2}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marine Rifles/Woodland/Character_2025_USMC_Crew.et" "{142D5B9C9D92B6B2}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marine Rifles/Woodland/Character_2025_USMC_Crew.et" "{8CBFED356393597F}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marine Rifles/Woodland/Character_2025_USMC_TL_DMR.et" "{703162D46EC6EB22}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marine Rifles/Woodland/Character_2025_USMC_Sniper_AMR.et" "{DEA78F55B4114096}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marine Rifles/Woodland/Character_2025_USMC_Spotter.et" "{6CAFB2D7E9ADC951}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marine Rifles/Woodland/Character_2025_USMC_Rifle.et"
+ }
+ m_sCustomNameSet "LAR Team"
+}

@@ -1,0 +1,15 @@
+SCR_AIGroup : "{CBFD915E0246EC47}Prefabs/Groups/BLUFOR/US/Marines/2025/Marine Rifles/Woodland/Group_USMC_2025_RifleSquad_MAAW.et" {
+ ID "0000000000000001"
+ components {
+  SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+   m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+    m_aAuthoredLabels {
+     ENTITYTYPE_GROUP FACTION_RHS_USAF SUBBRANCH_RHS_USAF_MEF CAMO_RHS_MARPATD
+    }
+   }
+  }
+ }
+ m_aUnitPrefabSlots {
+  "{DC4E422BC996164F}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marine Rifles/Woodland/Character_2025_USMC_SL.et" "{9973B77C76DF5B01}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marine Rifles/Desert/Character_2025_USMC_TL_D.et" "{7841B50C4CA6D0BC}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marine Rifles/Desert/Character_2025_USMC_IAR_D.et" "{344A4421876CAD27}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marine Rifles/Desert/Character_2025_USMC_GL_D.et" "{5018C15D7AB1AE99}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marine Rifles/Desert/Character_2025_USMC_LAT_D.et" "{9973B77C76DF5B01}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marine Rifles/Desert/Character_2025_USMC_TL_D.et" "{7841B50C4CA6D0BC}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marine Rifles/Desert/Character_2025_USMC_IAR_D.et" "{344A4421876CAD27}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marine Rifles/Desert/Character_2025_USMC_GL_D.et" "{5018C15D7AB1AE99}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marine Rifles/Desert/Character_2025_USMC_LAT_D.et" "{9F318E347C7D1DDE}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marine Rifles/Desert/Character_2025_USMC_TL_DMR_D.et" "{7841B50C4CA6D0BC}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marine Rifles/Desert/Character_2025_USMC_IAR_D.et" "{344A4421876CAD27}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marine Rifles/Desert/Character_2025_USMC_GL_D.et" "{5018C15D7AB1AE99}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marine Rifles/Desert/Character_2025_USMC_LAT_D.et"
+ }
+}

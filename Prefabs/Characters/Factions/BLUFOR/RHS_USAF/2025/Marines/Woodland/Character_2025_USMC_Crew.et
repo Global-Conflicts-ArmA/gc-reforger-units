@@ -1,0 +1,83 @@
+SCR_ChimeraCharacter : "{F92C060CACCE8143}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marine Rifles/Character_2025_USMC_BaseW.et" {
+ ID "520EC961A090BBD5"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name ""\
+    "#AR-Role_Crew"
+   }
+  }
+  CharacterGrenadeSlotComponent "{520EA1D2F659CE6E}" {
+   WeaponTemplate "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
+  }
+  CharacterGrenadeSlotComponent "{5A6CDA0CCF43068E}" {
+   WeaponTemplate "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   AttachType InventoryStorageSlot "{0C3DA650B52E120B}" {
+   }
+   WeaponTemplate "{BD6357A24DB64C8B}Prefabs/Weapons/Rifles/M4A1/GC_US_Army_Rifle_M4A1_03.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{85ADC5E1BE7FACDB}Prefabs/Characters/HeadGear/Helmet_CVC_01/Helmet_CVC_Shroud_0.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{68CF844B606428D8}Prefabs/Characters/Vests/Vest_PCGen_III/Vest_PCGen_III_light.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{9A26D311900C33EE}Prefabs/Items/Equipment/Backpacks/FILBE_hydration_pack.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{B18FBF7059854EB3}Prefabs/Characters/Vests/Vest_PCGen_II/Variants/Vest_PCGen_II_crewman.et"
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab "{8D4A4DF9111F0682}Prefabs/Characters/Handwear/Gloves_MechanixMpact/Gloves_mpack_Blk.et"
+    }
+    LoadoutSlotInfo Eyes {
+     Prefab "{D4ABE8F396146587}Prefabs/Characters/Eyewear/crossbow/Eyewear_ess_crossbow_clr.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6063106E91310A3D}" {
+     TargetStorage "Pants/Pants_FROG_WD.et"
+    }
+    ItemsInitConfigurationItem "{61B52C4506FFE973}" {
+     TargetStorage "Vest/Vest_PCGen_II_crewman.et/radio/Pouch_152_Radio.et"
+     PrefabsToSpawn {
+      "{D69684663E89D6EA}Prefabs/Items/Equipment/Radios/US/Radio_ANPRC152A_OLD.et"
+     }
+    }
+    ItemsInitConfigurationItem "{651D048C906638EA}" {
+     TargetStorage "Vest/Vest_PCGen_II_crewman.et"
+     PrefabsToSpawn {
+      "{DD5358193169908B}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1.et" "{DD5358193169908B}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1.et"
+     }
+    }
+    ItemsInitConfigurationItem "{66B4211E199B8F9A}" {
+     PrefabsToSpawn {
+      ""
+     }
+    }
+    ItemsInitConfigurationItem "{64A8A6CECABD9FC5}" {
+     TargetStorage "Jacket/Jacket_FROG_Combat_Shirt.et"
+    }
+    ItemsInitConfigurationItem "{633B07DBBB713D2A}" {
+     TargetStorage "Jacket/Jacket_FROG_Combat_Shirt.et"
+     PrefabsToSpawn {
+      "{59E0D9B5B6967152}Prefabs/Items/Equipment/Nightvision/PVS31/NVG_PVS31_WP.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{B3F2B47340817ED6}Prefabs/Items/GC_Facepaint_01_US.et"
+     }
+    }
+    ItemsInitConfigurationItem "{66D929AD4CBD8E4A}" {
+     TargetStorage "Jacket/Jacket_FROG_Combat_Shirt.et"
+     PrefabsToSpawn {
+      "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et" "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et" "{D41D22DD1B8E921E}Prefabs/Weapons/Grenades/M18/Smoke_M18_Green.et" "{9BBDEE253A16CC66}Prefabs/Weapons/Grenades/M18/Smoke_M18_Yellow.et"
+     }
+    }
+   }
+  }
+ }
+}

@@ -1,3 +1,0 @@
-# Exclude resource database, since it is locally regenerated anyway, and does not contain important information
-resourceDatabase.rdb
-UserMaps.desc
