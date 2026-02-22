@@ -1,0 +1,8 @@
+SCR_ChimeraCharacter : "{807086AD21811A0A}Prefabs/Characters/Factions/OPFOR/GC_Krasnovia/53/Character_Kras_53_MGAS.et" {
+ ID "520EC961A090B1EE"
+ components {
+  PS_PlayableComponent "{5EFCC1946F475F15}" {
+   m_bIsPlayable 1
+  }
+ }
+}

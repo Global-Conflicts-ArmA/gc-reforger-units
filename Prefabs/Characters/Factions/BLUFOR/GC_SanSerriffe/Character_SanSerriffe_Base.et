@@ -1,0 +1,47 @@
+SCR_ChimeraCharacter : "{376676E968BA3518}Prefabs/Characters/Factions/BLUFOR/UK_Army/Character_UK_BaseLoadout.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_CharacterFactionAffiliationComponent "{610725BE89F30BF3}" {
+   "faction affiliation" "San_Serriffe"
+  }
+  CharacterGrenadeSlotComponent "{520EA1D2F659CE6E}" {
+   WeaponTemplate "{CE179546A16382BA}Prefabs/Weapons/Grenades/Grenade_L2A2.et"
+  }
+  CharacterGrenadeSlotComponent "{5A6CDA0CCF43068E}" {
+   WeaponTemplate "{96FFE213B19D1D57}Prefabs/Weapons/Grenades/Smoke_No80_WP.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{24FFA508861139C9}Prefabs/Weapons/Rifles/L42A1/Rifle_L8.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{77100AC98292072F}Prefabs/Characters/HeadGear/Helmet_Mk5_01/Helmet_Mk5_cover_scrim_01.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{9594BA28F5A60A9A}Prefabs/Characters/Uniforms/Jacket_M70_Green.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{99AC8884E9595B90}Prefabs/Characters/Uniforms/Trousers_Lightweight_OD_01.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{1033EBAF2CD0FD52}Prefabs/Characters/Vests/Vest_58Pattern/Variants/Vest_P58_rifleman_2.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{610CC31428816D50}" {
+     TargetStorage "Jacket/Jacket_M70_Green.et"
+     PrefabsToSpawn {
+      "{C8B6565467AA8CB7}Prefabs/Items/Equipment/Compass/Compass_Baseplate.et" "{379F10C00559D45F}Prefabs/Items/Equipment/Maps/PaperMap_01_folded_UK.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{E67E7932C86FBB96}Prefabs/Items/Medicine/FieldDressing_UK_01.et" "{E67E7932C86FBB96}Prefabs/Items/Medicine/FieldDressing_UK_01.et" "{348AFA29B6D6BE0A}Prefabs/Items/Equipment/Accessories/ETool_ALICE/ETool_ALICE_FreeRoamBuilding_Gadget_UK_OD.et"
+     }
+    }
+    ItemsInitConfigurationItem "{64A8AB40750482B2}" {
+     TargetStorage "Pants/Trousers_Lightweight_OD_01.et"
+    }
+   }
+  }
+ }
+ coords 11784.564 33.769 10439.34
+}

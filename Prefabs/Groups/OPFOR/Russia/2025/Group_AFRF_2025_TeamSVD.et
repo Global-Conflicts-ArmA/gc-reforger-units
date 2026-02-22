@@ -1,0 +1,6 @@
+SCR_AIGroup : "{CF909E9A9490A227}Prefabs/Groups/OPFOR/Russia/2025/Group_AFRF_2025_Base.et" {
+ ID "0000000000000001"
+ m_aUnitPrefabSlots {
+  "{9B49FF5DE6DB6F53}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2025/Character_AFRF_2025_TL.et" "{E98C9BC8E2F0EFA2}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2025/Character_AFRF_2025_Sharpshooter.et"
+ }
+}

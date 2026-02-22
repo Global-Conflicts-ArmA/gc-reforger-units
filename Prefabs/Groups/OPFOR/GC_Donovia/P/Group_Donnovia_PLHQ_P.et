@@ -1,0 +1,16 @@
+SCR_AIGroup : "{84DB9729BBE1C2A4}Prefabs/Groups/OPFOR/GC_Donovia/Group_Donnovia_PLHQ.et" {
+ ID "0000000000000001"
+ components {
+  PS_GroupCallsignAssigner "{689B7287881DFAFB}" {
+   m_iCompanyCallsign 2
+   m_iPlatoonCallsign 1
+  }
+ }
+ coords 4119.166 398.835 6034.485
+ angles 0 44.402 0
+ m_aUnitPrefabSlots {
+  "{2762A958A1B652BC}Prefabs/Characters/Factions/OPFOR/GC_Donovia/53/P/Character_Don_53_PL_P.et" "{68894C28CFCEC83B}Prefabs/Characters/Factions/OPFOR/GC_Donovia/53/P/Character_Don_53_ASPL_P.et" "{DFAF0E7E03056789}Prefabs/Characters/Factions/OPFOR/GC_Donovia/53/P/Character_Don_53_Sniper_P.et" "{669D1807BF81A769}Prefabs/Characters/Factions/OPFOR/GC_Donovia/53/P/Character_Don_53_Runner_P.et" "{47F96E0EAFC93D37}Prefabs/Characters/Factions/OPFOR/GC_Donovia/53/Character_Don_53_Medic.et"
+ }
+ m_sCustomNameSet "Platoon Command"
+ m_bSetPlayable 1
+}

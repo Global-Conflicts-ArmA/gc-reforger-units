@@ -1,0 +1,48 @@
+SCR_ChimeraCharacter : "{1822A9AD92A7F139}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2025/Uniforms/Character_AFRF_2025_U15.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Rifleman (LAT)"
+    Icon "{AE53796BC5D21A08}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_Rifleman.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{C867CEF614892A30}Prefabs/Weapons/Rifles/AK74M/Rifle_AK74M_PlumMag.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+   WeaponTemplate "{722CE6FEC39EE896}Prefabs/Weapons/Launchers/RPG22/Launcher_RPG22.et"
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68A3756BC7C54865}" {
+     Enabled 1
+    }
+    ItemsInitConfigurationItem "{68A5110E6741CF2C}" {
+     TargetStorage "Vest/Vest_KBS_Strelok_preset_rifleman1.et/mag1/Pouch_KBS_Mag_1.et"
+     PrefabsToSpawn {
+      "{BBB50A815A2F916C}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_Ball.et" "{BBB50A815A2F916C}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_Ball.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68A5110E670C1121}" {
+     TargetStorage "Vest/Vest_KBS_Strelok_preset_rifleman1.et/mag2/Pouch_KBS_Mag_2.et"
+     PrefabsToSpawn {
+      "{BBB50A815A2F916C}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_Ball.et" "{BBB50A815A2F916C}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_Ball.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68A5110E67D8BF43}" {
+     TargetStorage "Vest/Vest_KBS_Strelok_preset_rifleman1.et/mag3/Pouch_KBS_Mag_3.et"
+     PrefabsToSpawn {
+      "{BBB50A815A2F916C}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_Ball.et" "{BBB50A815A2F916C}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_Ball.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68A5110E788D306A}" {
+     TargetStorage "Vest/Vest_KBS_Strelok_preset_rifleman1.et/mag4/Pouch_KBS_Mag_4.et"
+     PrefabsToSpawn {
+      "{BBB50A815A2F916C}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_Ball.et" "{BBB50A815A2F916C}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_Ball.et"
+     }
+    }
+   }
+  }
+ }
+}

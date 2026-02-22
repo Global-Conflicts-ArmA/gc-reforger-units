@@ -1,0 +1,20 @@
+SCR_ChimeraCharacter : "{45E26CD50226E27B}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2025/Uniforms/Character_RHS_AFRF_2025_Base.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_VariantData SCR_EditableEntityVariantData "{68A37577446D2F01}" {
+    m_aVariants {
+     SCR_EditableEntityVariant "{68A37577CC097AA0}" {
+      m_sVariantPrefab "{2243299091EBB4D0}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2025/Loadouts/Character_RHS_AFRF_2025_LAT_1.et"
+     }
+     SCR_EditableEntityVariant "{68A37577CCC8C7C6}" {
+      m_sVariantPrefab "{4E171D702D2F3BFE}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2025/Loadouts/Character_RHS_AFRF_2025_LAT_2.et"
+     }
+     SCR_EditableEntityVariant "{68A37577D6043134}" {
+      m_sVariantPrefab "{AB8B518921CAAC95}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2025/Loadouts/Character_RHS_AFRF_2025_LAT_3.et"
+     }
+    }
+   }
+  }
+ }
+}

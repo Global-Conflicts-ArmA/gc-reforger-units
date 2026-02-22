@@ -1,0 +1,39 @@
+SCR_ChimeraCharacter : "{1A0DCD3C98573D10}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2025/Uniforms/Character_AFRF_2025_U03.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_AutomaticRifleman"
+    Icon "{EF1F445746A3391A}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_MachineGunner.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{04EF72C0FE07A93F}Prefabs/Weapons/MachineGuns/RPK74N/MG_RPK74N_1P78.et"
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68A3756BC7C54865}" {
+     Enabled 1
+    }
+    ItemsInitConfigurationItem "{68A541E7955C9282}" {
+     TargetStorage "Vest/Vest_TV110_arsarmaHSGI_MC_1.et/arsbelt2/Pouch_ArsArma_magouch_morphed_MC.et"
+     PrefabsToSpawn {
+      "{240AF1BFB20278CD}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_7N22_AP.et" "{240AF1BFB20278CD}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_7N22_AP.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68A541E7953AA6BE}" {
+     TargetStorage "ArmoredVest/Vest_TV110_MC.et/Pouch_kangoroo/pouch_tv110_kangroo_MC.et"
+     PrefabsToSpawn {
+      "{240AF1BFB20278CD}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_7N22_AP.et" "{240AF1BFB20278CD}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_7N22_AP.et" "{240AF1BFB20278CD}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_7N22_AP.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68A541E795150062}" {
+     TargetStorage "Vest/Vest_TV110_arsarmaHSGI_MC_1.et/arsbelt_up105_bigutil/Pouch_UP105_utilbig_MC.et"
+     PrefabsToSpawn {
+      "{52FE3E0398FEEBC4}Prefabs/Weapons/Magazines/6l26/Magazine_545x39_plastic_6l26_45_4Ball_1Tracer.et" "{52FE3E0398FEEBC4}Prefabs/Weapons/Magazines/6l26/Magazine_545x39_plastic_6l26_45_4Ball_1Tracer.et" "{52FE3E0398FEEBC4}Prefabs/Weapons/Magazines/6l26/Magazine_545x39_plastic_6l26_45_4Ball_1Tracer.et" "{DBDDFA7E6E392CBF}Prefabs/Weapons/Magazines/6l26/Magazine_545x39_plastic_6l26_45_ball.et" "{DBDDFA7E6E392CBF}Prefabs/Weapons/Magazines/6l26/Magazine_545x39_plastic_6l26_45_ball.et" "{DBDDFA7E6E392CBF}Prefabs/Weapons/Magazines/6l26/Magazine_545x39_plastic_6l26_45_ball.et"
+     }
+    }
+   }
+  }
+ }
+}

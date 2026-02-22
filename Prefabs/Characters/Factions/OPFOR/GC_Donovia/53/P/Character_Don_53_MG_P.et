@@ -1,0 +1,22 @@
+SCR_ChimeraCharacter : "{A5819C7C7C525309}Prefabs/Characters/Factions/OPFOR/GC_Donovia/53/Character_Don_53_MG.et" {
+ ID "520EC961A090B1EE"
+ components {
+  PS_PlayableComponent "{5EFCC1946F475F15}" {
+   m_bIsPlayable 1
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{4D26D7D3139066F4}Prefabs/Weapons/MachineGuns/UK59/MG_UK59_base.et"
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{5D7CC173E6675BF7}" {
+     TargetStorage "Jacket/ARY_Jacket_M69_base.et"
+    }
+    ItemsInitConfigurationItem "{5D7CC173E6675BF5}" {
+     TargetStorage "Jacket/ARY_Jacket_M69_base.et"
+    }
+   }
+  }
+ }
+ coords 11334.41 89.622 10486.199
+}

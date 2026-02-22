@@ -1,0 +1,49 @@
+SCR_ChimeraCharacter : "{C2A5A4FDE1DE234C}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2025/Uniforms/Character_AFRF_2025_U05.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_RadioOperator"
+    Icon "{B9F0BD39FF1881A3}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_RadioOperator.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{BFEA719491610A45}Prefabs/Weapons/Rifles/AKS74U/Rifle_AKS74U.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Back {
+     Prefab "{595549A1D40B3DC9}Prefabs/Items/Equipment/Radios/RU/Radio_EMR_GC_R168.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68A3756BC7C54865}" {
+     Enabled 1
+     PrefabsToSpawn {
+      "{B343AB76B0725657}Prefabs/Items/Equipment/Radios/RU/Radio_R187P1_OLD.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68A57819841078A2}" {
+     TargetStorage "Vest/Vest_Ratnik_6B45_rifleman.et/Pouch1/Pouch_Ratnik_ak_1_pouch.et"
+     PrefabsToSpawn {
+      "{BBB50A815A2F916B}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Ball.et" "{BBB50A815A2F916B}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Ball.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68A5781984EDC955}" {
+     TargetStorage "Vest/Vest_Ratnik_6B45_rifleman.et/Pouch2/Pouch_Ratnik_ak_2_pouch.et"
+     PrefabsToSpawn {
+      "{BBB50A815A2F916B}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Ball.et" "{BBB50A815A2F916B}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Ball.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68A5781992C4BB6E}" {
+     TargetStorage "Vest/Vest_Ratnik_6B45_rifleman.et/Pouch3/Pouch_Ratnik_ak_3_pouch.et"
+     PrefabsToSpawn {
+      "{1F6DC70B4798A3B4}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Ball.et" "{1F6DC70B4798A3B4}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Ball.et"
+     }
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,7 @@
+SCR_AIGroup : "{C9694CB40E51EEF4}Prefabs/Groups/OPFOR/GC_Donovia/Group_Krasnovia_Base.et" {
+ ID "0000000000000001"
+ coords 3.076 0.139 4.857
+ m_aUnitPrefabSlots {
+  "{9FB2DB2288205A13}Prefabs/Characters/Factions/OPFOR/GC_Donovia/53/Character_Don_53_SL.et" "{A5819C7C7C525309}Prefabs/Characters/Factions/OPFOR/GC_Donovia/53/Character_Don_53_MG.et" "{807086AD21811A0A}Prefabs/Characters/Factions/OPFOR/GC_Donovia/53/Character_Don_53_MGAS.et" "{807086AD21811A0A}Prefabs/Characters/Factions/OPFOR/GC_Donovia/53/Character_Don_53_MGAS.et" "{6901B7523FC7F29F}Prefabs/Characters/Factions/OPFOR/GC_Donovia/53/Character_Don_53_ASSL.et" "{A5819C7C7C525309}Prefabs/Characters/Factions/OPFOR/GC_Donovia/53/Character_Don_53_MG.et" "{807086AD21811A0A}Prefabs/Characters/Factions/OPFOR/GC_Donovia/53/Character_Don_53_MGAS.et" "{807086AD21811A0A}Prefabs/Characters/Factions/OPFOR/GC_Donovia/53/Character_Don_53_MGAS.et"
+ }
+}

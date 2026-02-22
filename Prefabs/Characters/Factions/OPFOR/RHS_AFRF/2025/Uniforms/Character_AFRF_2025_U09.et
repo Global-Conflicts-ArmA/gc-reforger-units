@@ -1,0 +1,37 @@
+SCR_ChimeraCharacter : "{45E26CD50226E27B}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2025/Uniforms/Character_AFRF_2025_Base.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{93346FBCF0E18517}Prefabs/Characters/HeadGear/Helmet_LShZ/Helmet_LShZ_6m2_emr.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{03FF161D3AC1E1DF}Prefabs/Characters/Uniforms/VKPO/Field_Jacket_VKPO.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{16876720DFA7021C}Prefabs/Characters/Vests/Vest_KBS_Strelok/Vest_KBS_Strelok.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{2FDEBA2FF1B7759E}Prefabs/Characters/Uniforms/Crye_Pants/crye_pants_mc.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{21B331B5FA807997}Prefabs/Characters/Footwear/Boots_Rocky_SV2/Footwear_Rocky_SV2.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{656C8EFD381E6D80}Prefabs/Characters/Vests/Vest_KBS_Strelok_Pouches/Variants/Vest_KBS_Strelok_preset_rifleman1.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68A375773CB2CC67}" {
+     TargetStorage "Jacket/Field_Jacket_VKPO.et"
+    }
+    ItemsInitConfigurationItem "{68A3756BC7C54865}" {
+     TargetStorage "Jacket/Field_Jacket_VKPO.et"
+    }
+   }
+  }
+ }
+}

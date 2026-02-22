@@ -1,0 +1,32 @@
+GenericEntity : "{6702F05F5B26CDCF}Prefabs/Weapons/Rifles/L42A1/Rifle_Enfield_base.et" {
+ ID "5260C45AAAA407F4"
+ components {
+  SCR_MeleeWeaponProperties "{6156CB66A3B97B0D}" {
+   m_fDamage 25
+  }
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{6156CB66A3B97AEB}" {
+     AttachmentSlot InventoryStorageSlot Scope {
+     }
+    }
+    AttachmentSlotComponent "{689CE9A5497EA169}" {
+     AttachmentSlot InventoryStorageSlot "{689CE9A5DF241F6F}" {
+      PivotID "barrel_muzzle"
+      ChildPivotID "snap_weapon"
+      InspectionWidgetOffset 0 0.0851 0.8008
+     }
+     AttachmentType AttachmentBayonetL1A1 "{689CE9A5EAEE33F7}" {
+     }
+     AttachmentObstructs 0
+     ShowInInspection 1
+    }
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     DispersionDiameter 0.174
+     DispersionRange 200
+    }
+   }
+  }
+ }
+ coords 5082.696 690.263 6338.325
+}

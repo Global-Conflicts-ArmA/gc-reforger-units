@@ -1,0 +1,12 @@
+SCR_ChimeraCharacter : "{F01F0ECB2220C30F}Prefabs/Characters/Factions/OPFOR/GC_Donovia/53/Character_Don_53_ASPL.et" {
+ ID "520EC961A090B1EE"
+ components {
+  PS_PlayableComponent "{5EFCC1946F475F15}" {
+   m_bIsPlayable 1
+  }
+  SCR_CharacterRankComponent "{528E6D4286AA2D8F}" {
+   m_iRank SERGEANT
+  }
+ }
+ coords 11331.522 89.335 10482.245
+}

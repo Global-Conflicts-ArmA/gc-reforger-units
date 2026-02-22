@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{FFB31BB4E2FA0689}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2025/Loadouts/Character_AFRF_2025_Medic_2.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

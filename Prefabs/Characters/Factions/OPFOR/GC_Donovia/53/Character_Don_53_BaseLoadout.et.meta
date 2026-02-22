@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{E58D38C2AE3E0A36}Prefabs/Characters/Factions/OPFOR/GC_Krasnovia/Character_Kras_53_BaseLoadout.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

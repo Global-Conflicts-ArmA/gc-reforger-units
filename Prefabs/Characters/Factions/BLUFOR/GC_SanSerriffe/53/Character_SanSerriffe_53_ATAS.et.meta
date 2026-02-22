@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{8AC278ABB93A931E}Prefabs/Characters/Factions/BLUFOR/GC_SanSerriffe/53/Character_SanSerriffe_53_ATAS.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

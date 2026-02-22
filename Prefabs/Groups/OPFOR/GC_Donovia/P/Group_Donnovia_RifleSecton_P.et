@@ -1,0 +1,10 @@
+SCR_AIGroup : "{EAF8EB316524AE0E}Prefabs/Groups/OPFOR/GC_Donovia/Group_Donnovia_RifleSecton.et" {
+ ID "0000000000000001"
+ coords 11329.796 89.529 10485.292
+ angles 0 88.573 0
+ m_faction "GC_DON"
+ m_aUnitPrefabSlots {
+  "{2DC7F91517A6A13B}Prefabs/Characters/Factions/OPFOR/GC_Donovia/53/P/Character_Don_53_SL_P.et" "{32B9AF4DA81B2542}Prefabs/Characters/Factions/OPFOR/GC_Donovia/53/P/Character_Don_53_Rifleman_P.et" "{32B9AF4DA81B2542}Prefabs/Characters/Factions/OPFOR/GC_Donovia/53/P/Character_Don_53_Rifleman_P.et" "{32B9AF4DA81B2542}Prefabs/Characters/Factions/OPFOR/GC_Donovia/53/P/Character_Don_53_Rifleman_P.et" "{32B9AF4DA81B2542}Prefabs/Characters/Factions/OPFOR/GC_Donovia/53/P/Character_Don_53_Rifleman_P.et" "{32B9AF4DA81B2542}Prefabs/Characters/Factions/OPFOR/GC_Donovia/53/P/Character_Don_53_Rifleman_P.et" "{622C1C6579DE3BBC}Prefabs/Characters/Factions/OPFOR/GC_Donovia/53/P/Character_Don_53_ASSL_P.et" "{1D2F8A19EE1AA0C8}Prefabs/Characters/Factions/OPFOR/GC_Donovia/53/P/Character_Don_53_MG_P.et" "{D81DAADE207C3D00}Prefabs/Characters/Factions/OPFOR/GC_Donovia/53/P/Character_Don_53_MGAS_P.et"
+ }
+ m_sCustomNameSet "Rifle Section"
+}

@@ -1,0 +1,13 @@
+GenericEntity : "{B31929F65F0D0279}Prefabs/Weapons/Rifles/M14/Rifle_M21.et" {
+ ID "5254ACCA959048B9"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     DispersionDiameter 0.18
+     DispersionRange 200
+    }
+   }
+  }
+ }
+}

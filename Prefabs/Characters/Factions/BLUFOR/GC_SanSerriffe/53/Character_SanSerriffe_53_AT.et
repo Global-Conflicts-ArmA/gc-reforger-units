@@ -1,0 +1,42 @@
+SCR_ChimeraCharacter : "{3D0593BACE3AFBA1}Prefabs/Characters/Factions/BLUFOR/GC_SanSerriffe/53/Character_SanSerriffe_53_Base.et" {
+ ID "520EC961A090B1EE"
+ components {
+  PS_PlayableComponent "{5EFCC1946F475F15}" {
+   m_sName "AT Gunner"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{ADDB4062CA2910CB}Prefabs/Weapons/Rifles/L2A3/Rifle_L2A3_Sterling.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+   WeaponTemplate "{A6ACF0C81DCC2390}Prefabs/Weapons/Launchers/M67/BC_Launcher_M67.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Back {
+     Prefab "{0960A1A0B891F243}Prefabs/Items/Equipment/Backpacks/Rucksack_P58_Large_Pack.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{64A8AB40750482B2}" {
+     PrefabsToSpawn + {
+      "{CE179546A16382BA}Prefabs/Weapons/Grenades/Grenade_L2A2.et" "{96FFE213B19D1D57}Prefabs/Weapons/Grenades/Smoke_No80_WP.et"
+     }
+    }
+    ItemsInitConfigurationItem "{671716C89FCBF9A1}" {
+     TargetStorage "Vest/Vest_P58_rifleman_2.et/5174C3E96ACD276B/Vest_P58_suspenders.et"
+     PrefabsToSpawn {
+      "{91EA3DF1BA0AB1EF}Prefabs/Weapons/Magazines/Magazine_9x19_L2A3_34rnd_Ball.et" "{91EA3DF1BA0AB1EF}Prefabs/Weapons/Magazines/Magazine_9x19_L2A3_34rnd_Ball.et" "{91EA3DF1BA0AB1EF}Prefabs/Weapons/Magazines/Magazine_9x19_L2A3_34rnd_Ball.et" "{91EA3DF1BA0AB1EF}Prefabs/Weapons/Magazines/Magazine_9x19_L2A3_34rnd_Ball.et" "{91EA3DF1BA0AB1EF}Prefabs/Weapons/Magazines/Magazine_9x19_L2A3_34rnd_Ball.et" "{91EA3DF1BA0AB1EF}Prefabs/Weapons/Magazines/Magazine_9x19_L2A3_34rnd_Ball.et"
+     }
+    }
+    ItemsInitConfigurationItem "{671716C89FCBF9B6}" {
+     TargetStorage "Back/Rucksack_P58_Large_Pack.et"
+     PrefabsToSpawn {
+      "{4D44C563104F77BB}Prefabs/Weapons/Ammo/BC_Ammo_Rocket_M37A1.et" "{4D44C563104F77BB}Prefabs/Weapons/Ammo/BC_Ammo_Rocket_M37A1.et"
+     }
+    }
+   }
+  }
+ }
+}

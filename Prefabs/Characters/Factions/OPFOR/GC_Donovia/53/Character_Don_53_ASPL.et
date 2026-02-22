@@ -1,0 +1,40 @@
+SCR_ChimeraCharacter : "{E58D38C2AE3E0A36}Prefabs/Characters/Factions/OPFOR/GC_Donovia/53/Character_Don_53_BaseLoadout.et" {
+ ID "520EC961A090B1EE"
+ components {
+  PS_PlayableComponent "{5EFCC1946F475F15}" {
+   m_sName "Assistant Platoon Commander"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{6AA1C567A2F7F8CE}Prefabs/Weapons/Rifles/PPSH41/BC_PPSh41.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+    }
+    LoadoutSlotInfo Jacket {
+    }
+    LoadoutSlotInfo Pants {
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{574C12EE0F37DDFF}Prefabs/Characters/Footwear/ARY_CombatBoots_Soviet_Kirza_01.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{08155E701A949620}Prefabs/Characters/Vests/Vest_SovietHarness/Variants/Vest_SovietHarness_rifleman.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{5D7CC173E6675BF7}" {
+    }
+    ItemsInitConfigurationItem "{6892ED712C62EEEA}" {
+     TargetStorage "Vest/Vest_SovietHarness_rifleman.et/MagPouch_6Sh46/Pouch_Soviet_30rnd_AK74.et"
+     PrefabsToSpawn {
+      "{5587A9FD1C78FE17}Prefabs/Weapons/Magazines/PPSH41/BC_Magazine_Ppsh41_35rnd_Stick.et" "{5587A9FD1C78FE17}Prefabs/Weapons/Magazines/PPSH41/BC_Magazine_Ppsh41_35rnd_Stick.et" "{5587A9FD1C78FE17}Prefabs/Weapons/Magazines/PPSH41/BC_Magazine_Ppsh41_35rnd_Stick.et" "{5587A9FD1C78FE17}Prefabs/Weapons/Magazines/PPSH41/BC_Magazine_Ppsh41_35rnd_Stick.et" "{5587A9FD1C78FE17}Prefabs/Weapons/Magazines/PPSH41/BC_Magazine_Ppsh41_35rnd_Stick.et" "{5587A9FD1C78FE17}Prefabs/Weapons/Magazines/PPSH41/BC_Magazine_Ppsh41_35rnd_Stick.et"
+     }
+    }
+   }
+  }
+ }
+ coords 11334.117 89.532 10485.043
+}
