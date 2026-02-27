@@ -5,15 +5,15 @@ SCR_ChimeraCharacter : "{5F04E03AF4AF8616}Prefabs/Characters/Factions/CIV/Afghan
    m_VariantData SCR_EditableEntityVariantData "{660EF7E49A6CCDFA}" {
     m_aVariants {
      SCR_EditableEntityVariant "{660EF7E49FA5B67D}" {
-      m_sVariantPrefab "{5F04E03AF4AF8616}Prefabs/Characters/Factions/CIV/Afghan/Civ_1.et"
+      m_sVariantPrefab "{3350D4DA486B0938}Prefabs/Characters/Factions/CIV/Afghan/Civ_2.et"
      }
      SCR_EditableEntityVariant "{660EF7E49D8C5540}" {
-      m_sVariantPrefab "{3350D4DA486B0938}Prefabs/Characters/Factions/CIV/Afghan/Civ_2.et"
+      m_sVariantPrefab "{D6CC9823448E9E53}Prefabs/Characters/Factions/CIV/Afghan/Civ_3.et"
      }
     }
    }
   }
  }
  coords 8514.229 78.344 4993.765
- angleY 0
+ angles 0 0 0
 }

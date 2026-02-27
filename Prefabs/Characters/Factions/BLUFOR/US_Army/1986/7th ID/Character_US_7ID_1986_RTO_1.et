@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{94C2153770EAEA71}Prefabs/Characters/Factions/BLUFOR/US_Army/7th ID/1986/Character_US_7ID_1986_Rifleman_1.et" {
+SCR_ChimeraCharacter : "{94C2153770EAEA71}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/7th ID/Character_US_7ID_1986_Rifleman_1.et" {
  ID "520EC961A090B1EE"
  components {
   PS_PlayableComponent "{5EFCC1946F475F15}" {
@@ -8,11 +8,24 @@ SCR_ChimeraCharacter : "{94C2153770EAEA71}Prefabs/Characters/Factions/BLUFOR/US_
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
     Name "#AR-Role_RadioOperator"
    }
+   m_VariantData SCR_EditableEntityVariantData "{6539390B8863F1DE}" {
+    m_aVariants {
+     SCR_EditableEntityVariant "{6539390BB60997D5}" {
+      m_sVariantPrefab "{BBD030523130F17B}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/7th ID/Character_US_7ID_1986_RTO_1.et"
+     }
+     SCR_EditableEntityVariant "{6539390BB6729942}" {
+      m_sVariantPrefab "{D78404B28DF47E55}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/7th ID/Character_US_7ID_1986_RTO_2.et"
+     }
+     SCR_EditableEntityVariant "{6539390BC3A15412}" {
+      m_sVariantPrefab "{3218484B8111E93E}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/7th ID/Character_US_7ID_1986_RTO_3.et"
+     }
+    }
+   }
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Back {
-     Prefab "{9B6B61BB3FE3DFB0}Prefabs/Items/Equipment/Radios/Radio_ANPRC77.et"
+     Prefab "{9B6B61BB3FE3DFB0}Prefabs/Items/Equipment/Radios/US/Radio_ANPRC77.et"
     }
    }
   }
@@ -30,5 +43,5 @@ SCR_ChimeraCharacter : "{94C2153770EAEA71}Prefabs/Characters/Factions/BLUFOR/US_
    }
   }
  }
- coords 2530.961 307.343 6388.321
+ coords 3735.554 213.783 8313.66
 }

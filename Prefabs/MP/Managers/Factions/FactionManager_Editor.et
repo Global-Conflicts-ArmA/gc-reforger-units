@@ -1,5 +1,6 @@
 SCR_FactionManager : "{A242612865F2A48E}Prefabs/MP/Managers/Factions/FactionManager_Base.et" {
  ID "56B2B4776E6E4499"
+ coords 0 -0.002 -0.003
  Factions {
   SCR_Faction "{56DEAC40D3C2E623}" {
    m_rMapPrefab "{F849217AB3BA88BE}Prefabs/Items/Equipment/Maps/Map_Paper_01/PaperMap_01_folded_USSR.et"
@@ -30,6 +31,10 @@ SCR_FactionManager : "{A242612865F2A48E}Prefabs/MP/Managers/Factions/FactionMana
    m_bIsPlayable 0
   }
   SCR_Faction "{67113837D561FA9B}" : "{7C5EDA9DBA134554}Configs/Factions/GC_MUJ.conf" {
+  }
+  SCR_Faction "{689335519C96785B}" : "{4C09F340F4719A00}Configs/Factions/San_Serriffe.conf" {
+  }
+  SCR_Faction "{6893355199B1327F}" : "{055496607B698CBE}Configs/Factions/GC_DON.conf" {
   }
  }
 }

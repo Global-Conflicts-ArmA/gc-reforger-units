@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{EE2C98FEE892D5A6}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2025/Character_RHS_AFRF_2025_U1.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

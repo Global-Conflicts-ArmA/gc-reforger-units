@@ -1,0 +1,11 @@
+SCR_ChimeraCharacter : "{3BD897FCDF2916DA}Prefabs/Characters/Factions/BLUFOR/GC_SanSerriffe/53/Character_SanSerriffe_53_Rifleman.et" {
+ ID "520EC961A090B1EE"
+ components {
+  PS_PlayableComponent "{5EFCC1946F475F15}" {
+   m_sName "Platoon 2IC"
+  }
+  SCR_CharacterRankComponent "{528E6D4286AA2D8F}" {
+   m_iRank SERGEANT
+  }
+ }
+}

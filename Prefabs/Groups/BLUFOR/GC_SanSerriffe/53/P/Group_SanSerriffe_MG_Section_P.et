@@ -1,0 +1,8 @@
+SCR_AIGroup : "{889B75B1902C0D12}Prefabs/Groups/BLUFOR/GC_SanSerriffe/53/Group_SanSerriffe_MG_Section.et" {
+ ID "0000000000000001"
+ coords 0.375 -0.366 -0.167
+ m_aUnitPrefabSlots {
+  "{FBBEFDD0808BD67E}Prefabs/Characters/Factions/BLUFOR/GC_SanSerriffe/53/P/Character_SanSerriffe_53_SIC_P.et" "{3F20ED192440805B}Prefabs/Characters/Factions/BLUFOR/GC_SanSerriffe/53/P/Character_SanSerriffe_53_MG_P.et" "{BB025A2CEA7ED8A0}Prefabs/Characters/Factions/BLUFOR/GC_SanSerriffe/53/P/Character_SanSerriffe_53_MGASS_P.et" "{BB025A2CEA7ED8A0}Prefabs/Characters/Factions/BLUFOR/GC_SanSerriffe/53/P/Character_SanSerriffe_53_MGASS_P.et" "{3F20ED192440805B}Prefabs/Characters/Factions/BLUFOR/GC_SanSerriffe/53/P/Character_SanSerriffe_53_MG_P.et" "{BB025A2CEA7ED8A0}Prefabs/Characters/Factions/BLUFOR/GC_SanSerriffe/53/P/Character_SanSerriffe_53_MGASS_P.et" "{BB025A2CEA7ED8A0}Prefabs/Characters/Factions/BLUFOR/GC_SanSerriffe/53/P/Character_SanSerriffe_53_MGASS_P.et" "{BDCF737F8D9B08EB}Prefabs/Characters/Factions/BLUFOR/GC_SanSerriffe/53/P/Character_SanSerriffe_53_S2IC_P.et" "{3F20ED192440805B}Prefabs/Characters/Factions/BLUFOR/GC_SanSerriffe/53/P/Character_SanSerriffe_53_MG_P.et" "{BB025A2CEA7ED8A0}Prefabs/Characters/Factions/BLUFOR/GC_SanSerriffe/53/P/Character_SanSerriffe_53_MGASS_P.et"
+ }
+ m_sCustomNameSet "Machinegun Section"
+}

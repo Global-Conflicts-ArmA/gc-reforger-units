@@ -1,0 +1,43 @@
+SCR_AIGroup : "{FA77FB102E05692C}Prefabs/Groups/BLUFOR/British Forces/Group_UK_Base.et" {
+ ID "0000000000000001"
+ components {
+  SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+   m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+    m_aAuthoredLabels {
+     ENTITYTYPE_GROUP FACTION_BRITISH
+    }
+   }
+  }
+  SCR_PreviewEntityComponent "{671716CB56BF3A27}" {
+   m_bRuntime 0
+   m_aEntries {
+    SCR_BasePreviewEntry "{671716CB55FA759E}" {
+     m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+     m_Shape PREFAB
+     m_iPivotID ""
+    }
+    SCR_BasePreviewEntry "{671716CB55DC5430}" {
+     m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+     m_Shape PREFAB
+     m_iPivotID ""
+    }
+    SCR_BasePreviewEntry "{671716CB54253241}" {
+     m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+     m_Shape PREFAB
+     m_iPivotID ""
+    }
+    SCR_BasePreviewEntry "{671716CB5477251F}" {
+     m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+     m_Shape PREFAB
+     m_iPivotID ""
+    }
+    SCR_BasePreviewEntry "{671716CB50A447D7}" {
+     m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+     m_Shape PREFAB
+     m_iPivotID ""
+    }
+   }
+  }
+ }
+ m_faction "San_Serriffe"
+}

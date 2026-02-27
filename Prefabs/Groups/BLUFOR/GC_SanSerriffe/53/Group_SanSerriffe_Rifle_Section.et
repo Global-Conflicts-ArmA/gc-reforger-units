@@ -1,0 +1,38 @@
+SCR_AIGroup : "{E6CCF06F33FFCD3F}Prefabs/Groups/BLUFOR/GC_SanSerriffe/Group_SanSerriffe_Base.et" {
+ ID "0000000000000001"
+ components {
+  SCR_PreviewEntityComponent "{671716CB56BF3A27}" {
+   m_aEntries {
+    SCR_BasePreviewEntry "{67171D22D31C9502}" {
+     m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+     m_Shape PREFAB
+     m_iPivotID ""
+    }
+    SCR_BasePreviewEntry "{67171D22D120595B}" {
+     m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+     m_Shape PREFAB
+     m_iPivotID ""
+    }
+    SCR_BasePreviewEntry "{67171D22D1FAC875}" {
+     m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+     m_Shape PREFAB
+     m_iPivotID ""
+    }
+    SCR_BasePreviewEntry "{67171D22DF361286}" {
+     m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+     m_Shape PREFAB
+     m_iPivotID ""
+    }
+    SCR_BasePreviewEntry "{67171D22D23EF73C}" {
+     m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+     m_Shape PREFAB
+     m_iPivotID ""
+    }
+   }
+  }
+ }
+ m_aUnitPrefabSlots {
+  "{8CB53C5BCBBFF14D}Prefabs/Characters/Factions/BLUFOR/GC_SanSerriffe/53/Character_SanSerriffe_53_SIC.et" "{3BD897FCDF2916DA}Prefabs/Characters/Factions/BLUFOR/GC_SanSerriffe/53/Character_SanSerriffe_53_Rifleman.et" "{3BD897FCDF2916DA}Prefabs/Characters/Factions/BLUFOR/GC_SanSerriffe/53/Character_SanSerriffe_53_Rifleman.et" "{3BD897FCDF2916DA}Prefabs/Characters/Factions/BLUFOR/GC_SanSerriffe/53/Character_SanSerriffe_53_Rifleman.et" "{3BD897FCDF2916DA}Prefabs/Characters/Factions/BLUFOR/GC_SanSerriffe/53/Character_SanSerriffe_53_Rifleman.et" "{3BD897FCDF2916DA}Prefabs/Characters/Factions/BLUFOR/GC_SanSerriffe/53/Character_SanSerriffe_53_Rifleman.et" "{3BD897FCDF2916DA}Prefabs/Characters/Factions/BLUFOR/GC_SanSerriffe/53/Character_SanSerriffe_53_Rifleman.et" "{4B80952163009B27}Prefabs/Characters/Factions/BLUFOR/GC_SanSerriffe/53/Character_SanSerriffe_53_S2IC.et" "{B32A135E977447BD}Prefabs/Characters/Factions/BLUFOR/GC_SanSerriffe/53/Character_SanSerriffe_53_MG.et" "{814AF7777D457DF5}Prefabs/Characters/Factions/BLUFOR/GC_SanSerriffe/53/Character_SanSerriffe_53_MGASS.et"
+ }
+ m_sCustomNameSet "Section"
+}

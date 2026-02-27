@@ -14,6 +14,21 @@ modded class SCR_GroupsManagerComponent
 		GetGame().GetCallqueue().CallLater(GCC_SetEncryptionKey, 1, false, -1, child.GetControlledEntity());
 	}
 	
+	protected array<SCR_GadgetComponent> GetRadios(SCR_GadgetManagerComponent gadgetManager)
+	{
+		array<SCR_GadgetComponent> radios = {};
+		
+		array<SCR_GadgetComponent> handheld = gadgetManager.GetGadgetsByType(EGadgetType.RADIO);
+		if (handheld)
+			radios.InsertAll(handheld);
+		
+		array<SCR_GadgetComponent> backpack = gadgetManager.GetGadgetsByType(EGadgetType.RADIO_BACKPACK);
+		if (backpack)
+			radios.InsertAll(backpack);
+		
+		return radios;
+	}
+	
 	protected void GCC_SetEncryptionKey(int playerId, IEntity player)
 	{
 		SCR_ChimeraCharacter cc = SCR_ChimeraCharacter.Cast(player);
@@ -27,10 +42,8 @@ modded class SCR_GroupsManagerComponent
 		SCR_GadgetManagerComponent gadgetManager = SCR_GadgetManagerComponent.GetGadgetManager(player);
 		if (!gadgetManager)
 			return;
-
-		array<SCR_GadgetComponent> radios = gadgetManager.GetGadgetsByType(EGadgetType.RADIO);
 		
-		foreach (SCR_GadgetComponent r : radios)
+		foreach (SCR_GadgetComponent r : GetRadios(gadgetManager))
 		{
 			BaseRadioComponent radioComponent = BaseRadioComponent.Cast(r.GetOwner().FindComponent(BaseRadioComponent));
 			if (!radioComponent)
@@ -44,9 +57,7 @@ modded class SCR_GroupsManagerComponent
 	
 	protected void GCC_TuneRadios(SCR_GadgetManagerComponent gadgetManager, int frequency)
 	{
-		array<SCR_GadgetComponent> radios = gadgetManager.GetGadgetsByType(EGadgetType.RADIO);
-		
-		foreach (SCR_GadgetComponent gc : radios)
+		foreach (SCR_GadgetComponent gc : GetRadios(gadgetManager))
 		{
 			SCR_RadioComponent rc = SCR_RadioComponent.Cast(gc);
 			if (!rc || !rc.m_bTuneToSquadFrequency)

@@ -1,0 +1,6 @@
+SCR_AIGroup : "{CF909E9A9490A227}Prefabs/Groups/OPFOR/Russia/2025/Group_AFRF_2025_Base.et" {
+ ID "0000000000000001"
+ m_aUnitPrefabSlots {
+  "{9C8E050C805DD590}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2025/Character_AFRF_2025_SL.et" "{F106F413B2D97783}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2025/Character_AFRF_2025_AR.et" "{29AE9DD2CB5069DF}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2025/Character_AFRF_2025_AT.et" "{D9D841AF2962604D}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2025/Character_AFRF_2025_AAT.et" "{9B49FF5DE6DB6F53}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2025/Character_AFRF_2025_TL.et" "{9ED29A9BECAF6BD5}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2025/Character_AFRF_2025_Rifle.et"
+ }
+}

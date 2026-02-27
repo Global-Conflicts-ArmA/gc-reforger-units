@@ -1,0 +1,25 @@
+SCR_ChimeraCharacter : "{3BD897FCDF2916DA}Prefabs/Characters/Factions/BLUFOR/GC_SanSerriffe/53/Character_SanSerriffe_53_Rifleman.et" {
+ ID "520EC961A090B1EE"
+ components {
+  PS_PlayableComponent "{5EFCC1946F475F15}" {
+   m_sName "Bren No2"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Back {
+     Prefab "{0960A1A0B891F243}Prefabs/Items/Equipment/Backpacks/Rucksack_P58_Large_Pack.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{689B1CA0E8F3055A}" {
+     TargetStorage "Back/Rucksack_P58_Large_Pack.et"
+     PrefabsToSpawn {
+      "{610F92DFDCCCAF80}Prefabs/Weapons/Magazines/Magazine_762x51_Bren_Commonwealth_30rnd_Ball.et" "{610F92DFDCCCAF80}Prefabs/Weapons/Magazines/Magazine_762x51_Bren_Commonwealth_30rnd_Ball.et" "{610F92DFDCCCAF80}Prefabs/Weapons/Magazines/Magazine_762x51_Bren_Commonwealth_30rnd_Ball.et" "{610F92DFDCCCAF80}Prefabs/Weapons/Magazines/Magazine_762x51_Bren_Commonwealth_30rnd_Ball.et" "{610F92DFDCCCAF80}Prefabs/Weapons/Magazines/Magazine_762x51_Bren_Commonwealth_30rnd_Ball.et" "{610F92DFDCCCAF80}Prefabs/Weapons/Magazines/Magazine_762x51_Bren_Commonwealth_30rnd_Ball.et" "{610F92DFDCCCAF80}Prefabs/Weapons/Magazines/Magazine_762x51_Bren_Commonwealth_30rnd_Ball.et" "{610F92DFDCCCAF80}Prefabs/Weapons/Magazines/Magazine_762x51_Bren_Commonwealth_30rnd_Ball.et" "{610F92DFDCCCAF80}Prefabs/Weapons/Magazines/Magazine_762x51_Bren_Commonwealth_30rnd_Ball.et" "{610F92DFDCCCAF80}Prefabs/Weapons/Magazines/Magazine_762x51_Bren_Commonwealth_30rnd_Ball.et"
+     }
+    }
+   }
+  }
+ }
+}

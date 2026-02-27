@@ -1,0 +1,12 @@
+Projectile : "{7018A917ED080F86}Prefabs/Weapons/Core/FlareEffect_Base.et" {
+ ID "5A52CD9231D8AB66"
+ components {
+  SCR_FlareEffectComponent "{611868B460E2F003}" {
+   m_aLightData {
+    SCR_BaseLightData "{611868B4754ECDDD}" {
+     m_fRadius 150
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,25 @@
+SCR_ChimeraCharacter : "{F9D704CE6C653413}Prefabs/Characters/Factions/BLUFOR/GC_SanSerriffe/Character_SanSerriffe_Base.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{610CC31428816D50}" {
+     PrefabsToSpawn + {
+      "{842E93279EA18647}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_UK_01.et" "{632CAEF08C102091}Prefabs/Items/Medicine/Splint_01/GC_Splint_01_Base.et"
+     }
+    }
+    ItemsInitConfigurationItem "{64A8AB40750482B2}" {
+     PrefabsToSpawn + {
+      "{9361BEC03E52E6F8}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_White.et"
+     }
+    }
+    ItemsInitConfigurationItem "{689CE9A486ED1B94}" {
+     TargetStorage "Vest/Vest_P58_rifleman_2.et/Scabbard/Scabbard_Bayonet_L1A4_Filled.et"
+     PrefabsToSpawn {
+      "{96BCB89AF006E26F}Prefabs/Weapons/Attachments/Bayonets/Bayonet_L1A4_SLR.et"
+     }
+    }
+   }
+  }
+ }
+}

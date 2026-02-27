@@ -1,0 +1,7 @@
+SCR_AIGroup : "{C9694CB40E51EEF4}Prefabs/Groups/OPFOR/GC_Donovia/Group_Donnovia_Base.et" {
+ ID "0000000000000001"
+ coords 4169.17 401.04 5998.891
+ m_aUnitPrefabSlots {
+  "{03000AE03D7ED469}Prefabs/Characters/Factions/OPFOR/GC_Donovia/53/Character_Don_53_PL.et" "{F01F0ECB2220C30F}Prefabs/Characters/Factions/OPFOR/GC_Donovia/53/Character_Don_53_ASPL.et" "{25A2E51820CC2C75}Prefabs/Characters/Factions/OPFOR/GC_Donovia/53/Character_Don_53_Sniper.et" "{120F1F8B87510695}Prefabs/Characters/Factions/OPFOR/GC_Donovia/53/Character_Don_53_Runner.et" "{47F96E0EAFC93D37}Prefabs/Characters/Factions/OPFOR/GC_Donovia/53/Character_Don_53_Medic.et"
+ }
+}

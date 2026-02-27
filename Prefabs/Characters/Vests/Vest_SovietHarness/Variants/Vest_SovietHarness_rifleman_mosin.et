@@ -1,0 +1,16 @@
+GenericEntity : "{08155E701A949620}Prefabs/Characters/Vests/Vest_SovietHarness/Variants/Vest_SovietHarness_rifleman.et" {
+ ID "50D8C49B3558F152"
+ components {
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Slots {
+    LoadoutSlotInfo Bayonet {
+     Offset 0.1481 0.0748 -0.0426
+     Angles -77.8971 100.8907 0
+     Enabled 1
+     Prefab "{4788E8C5C04D2A49}Prefabs/Weapons/Attachments/Bayonets/BC_Bayonet_Mosin.et"
+    }
+   }
+  }
+ }
+ coords 5082.564 689.539 6337.966
+}

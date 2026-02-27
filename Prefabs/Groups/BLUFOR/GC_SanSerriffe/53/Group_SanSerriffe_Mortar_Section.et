@@ -1,0 +1,15 @@
+SCR_AIGroup : "{E6CCF06F33FFCD3F}Prefabs/Groups/BLUFOR/GC_SanSerriffe/Group_SanSerriffe_Base.et" {
+ ID "0000000000000001"
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "line"
+  }
+ }
+ coords 5081.329 689.164 6342.214
+ angles 0 -104.661 0
+ m_aUnitPrefabSlots {
+  "{8A1C3EC922A4A93F}Prefabs/Characters/Factions/BLUFOR/GC_SanSerriffe/53/Character_SanSerriffe_53_MortarSL.et" "{F424E0A5E68EFF74}Prefabs/Characters/Factions/BLUFOR/GC_SanSerriffe/53/Character_SanSerriffe_53_Mortarman.et" "{F424E0A5E68EFF74}Prefabs/Characters/Factions/BLUFOR/GC_SanSerriffe/53/Character_SanSerriffe_53_Mortarman.et"
+ }
+ m_sCustomNameSet "Mortar Section"
+ m_bSetPlayable 1
+}

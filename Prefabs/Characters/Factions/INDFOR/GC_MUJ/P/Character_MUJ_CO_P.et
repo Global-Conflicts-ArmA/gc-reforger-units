@@ -1,0 +1,36 @@
+SCR_ChimeraCharacter : "{E786F2A16BDD3655}Prefabs/Characters/Factions/INDFOR/GC_MUJ/P/Character_MUJ_SL_P.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Commander"
+   }
+   m_VariantData SCR_EditableEntityVariantData "{66B538E90E719B17}" {
+    m_aVariants {
+     SCR_EditableEntityVariant "{66B538E90FA4A005}" {
+      m_bEnabled 0
+     }
+     SCR_EditableEntityVariant "{66B538E90FC3B3A0}" {
+      m_bEnabled 0
+     }
+     SCR_EditableEntityVariant "{66B538E90C6CC58A}" {
+      m_bEnabled 0
+     }
+     SCR_EditableEntityVariant "{66B538E90CBAE6AC}" {
+      m_bEnabled 0
+     }
+     SCR_EditableEntityVariant "{66B538E90C918A54}" {
+      m_bEnabled 0
+     }
+     SCR_EditableEntityVariant "{66B538E90CD8AF91}" {
+      m_bEnabled 0
+     }
+     SCR_EditableEntityVariant "{66B97550A0C9309E}" {
+      m_bEnabled 0
+     }
+    }
+   }
+  }
+ }
+ coords 3285.205 9.156 2568.662
+}

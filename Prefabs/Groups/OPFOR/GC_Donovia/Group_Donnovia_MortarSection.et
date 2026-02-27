@@ -1,0 +1,8 @@
+SCR_AIGroup : "{C9694CB40E51EEF4}Prefabs/Groups/OPFOR/GC_Donovia/Group_Donnovia_Base.et" {
+ ID "0000000000000001"
+ coords -1.453 0.68 0.179
+ m_aUnitPrefabSlots {
+  "{376168C95B4DE2B3}Prefabs/Characters/Factions/OPFOR/GC_Donovia/53/Character_Don_53_MortarSL.et" "{4C6AC73878F88A7A}Prefabs/Characters/Factions/OPFOR/GC_Donovia/53/Character_Don_53_Mortarman.et" "{4C6AC73878F88A7A}Prefabs/Characters/Factions/OPFOR/GC_Donovia/53/Character_Don_53_Mortarman.et"
+ }
+ m_sCustomNameSet "Mortar Section"
+}

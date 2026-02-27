@@ -1,0 +1,8 @@
+SCR_AIGroup : "{98B7D4024292ACC3}Prefabs/Groups/OPFOR/GC_Donovia/Group_Krasnovia_MGSection.et" {
+ ID "0000000000000001"
+ coords 0.254 -0.432 -0.223
+ m_aUnitPrefabSlots {
+  "{2DC7F91517A6A13B}Prefabs/Characters/Factions/OPFOR/GC_Donovia/53/P/Character_Don_53_SL_P.et" "{1D2F8A19EE1AA0C8}Prefabs/Characters/Factions/OPFOR/GC_Donovia/53/P/Character_Don_53_MG_P.et" "{D81DAADE207C3D00}Prefabs/Characters/Factions/OPFOR/GC_Donovia/53/P/Character_Don_53_MGAS_P.et" "{D81DAADE207C3D00}Prefabs/Characters/Factions/OPFOR/GC_Donovia/53/P/Character_Don_53_MGAS_P.et" "{622C1C6579DE3BBC}Prefabs/Characters/Factions/OPFOR/GC_Donovia/53/P/Character_Don_53_ASSL_P.et" "{1D2F8A19EE1AA0C8}Prefabs/Characters/Factions/OPFOR/GC_Donovia/53/P/Character_Don_53_MG_P.et" "{D81DAADE207C3D00}Prefabs/Characters/Factions/OPFOR/GC_Donovia/53/P/Character_Don_53_MGAS_P.et" "{D81DAADE207C3D00}Prefabs/Characters/Factions/OPFOR/GC_Donovia/53/P/Character_Don_53_MGAS_P.et"
+ }
+ m_sCustomNameSet "Machinegun Section"
+}

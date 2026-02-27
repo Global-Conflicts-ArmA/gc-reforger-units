@@ -1,0 +1,6 @@
+SCR_AIGroup : "{DF688F0BC937BFC7}Prefabs/Groups/CIV/Group_CIV_Base.et" {
+ ID "0000000000000001"
+ m_aUnitPrefabSlots {
+  "{2DFC92038A21BA8A}Prefabs/Characters/Factions/CIV/Afghan/Civ_Random.et" "{2DFC92038A21BA8A}Prefabs/Characters/Factions/CIV/Afghan/Civ_Random.et" "{2DFC92038A21BA8A}Prefabs/Characters/Factions/CIV/Afghan/Civ_Random.et" "{2DFC92038A21BA8A}Prefabs/Characters/Factions/CIV/Afghan/Civ_Random.et" "{2DFC92038A21BA8A}Prefabs/Characters/Factions/CIV/Afghan/Civ_Random.et" "{2DFC92038A21BA8A}Prefabs/Characters/Factions/CIV/Afghan/Civ_Random.et"
+ }
+}
