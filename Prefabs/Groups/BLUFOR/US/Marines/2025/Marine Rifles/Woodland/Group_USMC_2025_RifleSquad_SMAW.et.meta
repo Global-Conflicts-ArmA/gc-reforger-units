@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{0B1BDF6B0935A5D9}Prefabs/Groups/BLUFOR/US/Marines/2025/Group_USMC_2025_RifleSquad_SMAW.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

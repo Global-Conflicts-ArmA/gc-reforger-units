@@ -1,0 +1,91 @@
+SCR_ChimeraCharacter : "{F92C060CACCE8143}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marine Rifles/Character_2025_USMC_BaseW.et" {
+ ID "520EC961A090BBD5"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_AssistantMachineGunner With Tripod"
+   }
+  }
+  CharacterGrenadeSlotComponent "{520EA1D2F659CE6E}" {
+   WeaponTemplate "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
+  }
+  CharacterGrenadeSlotComponent "{5A6CDA0CCF43068E}" {
+   WeaponTemplate "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{82F02392064F28B8}Prefabs/Weapons/Rifles/M27IAR/Marines-VCOGs/Rifle_M27IAR_VCOG_railcovers.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{AD8E2730CD2E7E0F}Prefabs/Characters/HeadGear/Helmet_ECH/Helmet_ECH_lc_v_p.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{1300A5F6CA51B206}Prefabs/Characters/Vests/Vest_PCGen_III/Vest_PCGen_III.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{EF55A296E50DC8B8}Prefabs/Items/Equipment/Tripods/M60/Part_Tripod_M122.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{04F6C334B02D345E}Prefabs/Characters/Vests/Vest_PCGen_III/Variants/Vest_PCGen_III_rifleman_taco3.et"
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab "{2295354C283A1FBF}Prefabs/Characters/Handwear/Gloves_511_Competition/Gloves_511_Comp_Tan.et"
+    }
+    LoadoutSlotInfo Eyes {
+     Prefab "{F3672F802360D2E4}Prefabs/Characters/Eyewear/crossbow/Eyewear_ess_crossbow_blk_clr.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6063106E91310A3D}" {
+    }
+    ItemsInitConfigurationItem "{61B52C4506FFE973}" {
+     TargetStorage "Vest/Vest_PCGen_III_rifleman_taco3.et/radio/Pouch_152_Radio.et"
+    }
+    ItemsInitConfigurationItem "{66B4211E199B8F9A}" {
+     PrefabsToSpawn {
+      ""
+     }
+    }
+    ItemsInitConfigurationItem "{67354871FDAADA0F}" {
+     TargetStorage "Vest/Vest_PCGen_III_rifleman_taco3.et/Taco_chest1/Pouch_PCGEN3_takoPouch.et"
+     PrefabsToSpawn {
+      "{3F0A5A1F17A46418}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_EPM_HP_T_30rnd_m995.et" "{3F0A5A1F17A46418}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_EPM_HP_T_30rnd_m995.et"
+     }
+    }
+    ItemsInitConfigurationItem "{67354871FD464ACF}" {
+     TargetStorage "Vest/Vest_PCGen_III_rifleman_taco3.et/Taco_chest2/Pouch_PCGEN3_takoPouch.et"
+     PrefabsToSpawn {
+      "{3F0A5A1F17A46418}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_EPM_HP_T_30rnd_m995.et" "{3F0A5A1F17A46418}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_EPM_HP_T_30rnd_m995.et"
+     }
+    }
+    ItemsInitConfigurationItem "{67354871FD613DF2}" {
+     TargetStorage "Vest/Vest_PCGen_III_rifleman_taco3.et/Taco_chest3/Pouch_PCGEN3_takoPouch.et"
+     PrefabsToSpawn {
+      "{32AE84333B764CB9}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_EPM_HP_T_30rnd_M855A1_last5tracer.et" "{32AE84333B764CB9}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_EPM_HP_T_30rnd_M855A1_last5tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{67354871FD7C87FB}" {
+     TargetStorage "Vest/Vest_PCGen_III_rifleman_taco3.et/Taco_belt/Pouch_FILBE_doubleM4_3.et"
+     PrefabsToSpawn {
+      "{3F0A5A1F17A46418}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_EPM_HP_T_30rnd_m995.et" "{3F0A5A1F17A46418}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_EPM_HP_T_30rnd_m995.et"
+     }
+    }
+    ItemsInitConfigurationItem "{67354871FD194ACF}" {
+     TargetStorage "Vest/Vest_PCGen_III_rifleman_taco3.et/pistol/Pouch_Filbe_M67_2.et"
+     PrefabsToSpawn {
+      "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
+     }
+    }
+    ItemsInitConfigurationItem "{67354871FD34ECBF}" {
+     TargetStorage "Vest/Vest_PCGen_III_rifleman_taco3.et/m18/Pouch_Filbe_M18_1.et"
+     PrefabsToSpawn {
+      "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
+     }
+    }
+   }
+  }
+ }
+}
