@@ -1,0 +1,54 @@
+SCR_ChimeraCharacter : "{B304BA84C088D8AE}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2000/Standard dress/Character_IRAQ_2000_Base.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-VehiclePosition_Gunner"
+    IconSetName "EditableEntity_Character_Driver"
+    m_Image "{2BD44B75425A52FD}UI/Textures/EditorPreviews/Characters/OPFOR/USSR_Army/Character_USSR_Crew.edds"
+   }
+   m_VariantData SCR_EditableEntityVariantData "{68CD3BCC525E039A}" {
+    m_aVariants {
+     SCR_EditableEntityVariant "{68CD3BCC50BC2D3F}" {
+      m_sVariantPrefab "{FED757A34B546CD5}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2000/Standard dress/Variants/Character_IRAQ_2000_CrewGunner1.et"
+     }
+    }
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
+   WeaponTemplate "{B7132459C07777CA}Prefabs/Weapons/Handguns/PM/Handgun_PM_base.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{EB2F05A3751B905A}Prefabs/Characters/HeadGear/Helmet_TSh4_01/Helmet_TSh4_01.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{A707F4543A61CA8B}Prefabs/Characters/Uniforms/Suit_Tanker_US_01/Suit_GroundCrew_UK_01_tucked.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab ""
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{6065A0A410E65A45}Prefabs/Characters/Vests/Vest_SovietHarness/Variants/Vest_SovietHarness_officer_Black.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68C7255E8C84E586}" {
+     TargetStorage "Jacket/Suit_GroundCrew_UK_01_tucked.et"
+    }
+    ItemsInitConfigurationItem "{68C7255EE950DD72}" {
+     TargetStorage "Vest/Vest_SovietHarness_officer_Black.et/Suspenders/Vest_SovietHarness_Suspenders_Black.et"
+    }
+    ItemsInitConfigurationItem "{68C72570A15E1D70}" {
+     TargetStorage "Vest/Vest_SovietHarness_officer_Black.et/MagPouch_6Sh46/Holster_PM_magpouch_Black.et"
+     PrefabsToSpawn {
+      "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et" "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et"
+     }
+    }
+   }
+  }
+ }
+}

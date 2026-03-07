@@ -1,9 +1,11 @@
-SCR_ChimeraCharacter : "{BBAF60B2DB241158}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/Character_US_CarlGAsst_2003.et" {
+SCR_ChimeraCharacter : "{BBAF60B2DB241158}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/Infantry (Desert)/Character_US_2003_D_CarlGAsst.et" {
  ID "520EC961A090B1EE"
  components {
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
     Name "Anti-Tank Gunner (Carl Gustaf)"
+    Icon "{00B30C29FAF85E1C}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_AntiTank.edds"
+    IconSetName ""
    }
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {

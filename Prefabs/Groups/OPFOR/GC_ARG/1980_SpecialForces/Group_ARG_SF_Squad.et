@@ -1,14 +1,24 @@
 SCR_AIGroup : "{8DE0C0830FE0C33D}Prefabs/Groups/OPFOR/Group_USSR_Base.et" {
  ID "0000000000000001"
  components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "File"
+  }
   SCR_EditableGroupComponent "{50D291F6C83FA532}" {
    m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+    Name "#AR-Group_GreenBeret_Squad"
+    Icon "{B39BECD24FB5BB9D}UI/PreviewImages/Groups/BLUFOR/BritishForces/Group_UK_1983_SpecialForces_Team.edds"
+    m_Image "{B39BECD24FB5BB9D}UI/PreviewImages/Groups/BLUFOR/BritishForces/Group_UK_1983_SpecialForces_Team.edds"
     m_sFaction "GC_ARG"
+    m_aAuthoredLabels {
+     ENTITYTYPE_GROUP FACTION_GC_ARG
+    }
+    m_bUseUIInfoName 1
    }
   }
  }
  m_faction "GC_ARG"
  m_aUnitPrefabSlots {
-  "{E250E0C58B7CF660}worlds/TheLocalPub/TopMaloHouse/Prefabs/Characters/Factions/OPFOR/ARG/1980_SpecialForces/Character_GC_ARG_1980_SF_SL.et"
+  "{E250E0C58B7CF660}Prefabs/Characters/Factions/OPFOR/GC_ARG/1980_SpecialForces/Character_GC_ARG_1980_SF_SL.et" "{38CB76DFB5F81154}Prefabs/Characters/Factions/OPFOR/GC_ARG/1980_SpecialForces/Character_GC_ARG_1980_SF_RTO.et" "{44A959250DE25466}Prefabs/Characters/Factions/OPFOR/GC_ARG/1980_SpecialForces/Character_GC_ARG_1980_SF_MED.et" "{42EE235682EEC8F3}Prefabs/Characters/Factions/OPFOR/GC_ARG/1980_SpecialForces/Character_GC_ARG_1980_SF_TL.et" "{6E2BC3B6DD0083A5}Prefabs/Characters/Factions/OPFOR/GC_ARG/1980_SpecialForces/Character_GC_ARG_1980_SF_SHARP.et" "{192BEA2733BB8937}Prefabs/Characters/Factions/OPFOR/GC_ARG/1980_SpecialForces/Character_GC_ARG_1980_SF_RF.et" "{192BEA2733BB8937}Prefabs/Characters/Factions/OPFOR/GC_ARG/1980_SpecialForces/Character_GC_ARG_1980_SF_RF.et" "{192BEA2733BB8937}Prefabs/Characters/Factions/OPFOR/GC_ARG/1980_SpecialForces/Character_GC_ARG_1980_SF_RF.et"
  }
 }
