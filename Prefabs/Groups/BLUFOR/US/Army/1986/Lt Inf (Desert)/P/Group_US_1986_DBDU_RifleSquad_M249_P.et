@@ -4,7 +4,7 @@ SCR_AIGroup : "{EACD97CF4A702FAE}Prefabs/Groups/BLUFOR/Group_US_Base.et" {
   AIFormationComponent "{507E9DC12F541FE6}" {
    DefaultFormation "line"
   }
-  PS_GroupCallsignAssigner "{6582D124C67B1D55}" {
+  PS_GroupCallsignAssigner "{63616C6C7369676E}" {
   }
  }
  m_aUnitPrefabSlots {

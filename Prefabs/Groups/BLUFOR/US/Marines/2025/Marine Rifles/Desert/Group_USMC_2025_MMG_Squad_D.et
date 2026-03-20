@@ -1,0 +1,21 @@
+SCR_AIGroup : "{EE8D60FCE6D3B856}Prefabs/Groups/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Group_USAF_USMC_MEF_Base.et" {
+ ID "0000000000000001"
+ components {
+  SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+   m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+    Name "2025 USMC MMG Squad"
+    m_aAuthoredLabels {
+     ENTITYTYPE_GROUP FACTION_RHS_USAF SUBBRANCH_RHS_USAF_MEF CAMO_RHS_MARPATD
+    }
+    m_MilitarySymbol SCR_MilitarySymbol "{563682D06ED5ACD9}" {
+     m_Icons 1056769
+    }
+   }
+  }
+ }
+ coords 4153.635 36.457 9937.596
+ m_aUnitPrefabSlots {
+  "{4BF5877AEFA8FF03}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marine Rifles/Desert/Character_2025_USMC_SL_D.et" "{16E866021D31E996}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marine Rifles/Desert/Character_2025_USMC_MMG_D.et" "{DAE1D0BAC7DEE85E}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marine Rifles/Desert/Character_2025_USMC_MMG_ASST_D.et" "{A589BF1BB0B2A21B}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marine Rifles/Desert/Character_2025_USMC_MMG_Tripod_D.et" "{16E866021D31E996}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marine Rifles/Desert/Character_2025_USMC_MMG_D.et" "{DAE1D0BAC7DEE85E}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marine Rifles/Desert/Character_2025_USMC_MMG_ASST_D.et" "{A589BF1BB0B2A21B}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marine Rifles/Desert/Character_2025_USMC_MMG_Tripod_D.et"
+ }
+ m_sCustomNameSet "MMG Squad"
+}

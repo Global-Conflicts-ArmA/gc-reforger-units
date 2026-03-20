@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{B49BEE78AB3B6850}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/Infantry (Desert)/Character_US_2003_D_CrewGunner.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

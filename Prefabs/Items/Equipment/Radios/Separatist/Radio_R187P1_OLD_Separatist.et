@@ -2,6 +2,7 @@ GenericEntity : "{B343AB76B0725657}Prefabs/Items/Equipment/Radios/RU/Radio_R187P
  ID "508AB2013EEE1E00"
  components {
   BaseRadioComponent "{5A30BAE7673C63CA}" {
+   "Encryption key" "warmBorscht"
    "Turned on" 0
   }
   BaseRadioComponent "{685AE575F907B329}" {

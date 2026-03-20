@@ -1,0 +1,28 @@
+GenericEntity : "{597378E657C7290A}Prefabs/Weapons/Rifles/SR25/Rifle_M110_base.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{658290F958FB0E5D}" {
+     AttachmentSlot InventoryStorageSlot optics {
+      Prefab "{9793014B3640A504}Prefabs/Weapons/Attachments/Optics/Vortex/Optic_Vortex_GE.et"
+     }
+    }
+    AttachmentSlotComponent "{687741D7E1130CE3}" {
+     AttachmentSlot InventoryStorageSlot bipod {
+      Prefab "{23D34FB66BBC8BEE}Prefabs/Weapons/Attachments/Bipods/harris_bipod/rhs_lt706_harris.et"
+     }
+    }
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     components {
+      AttachmentSlotComponent "{658290F958F45BAC}" {
+       AttachmentSlot InventoryStorageSlot Muzzle {
+        Prefab "{9ED493AD2832F610}Prefabs/Weapons/Attachments/Muzzle/Suppressor_M110/Suppressor_M110_PRG.et"
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}

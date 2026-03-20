@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{0F40B7C9697E9742}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2000/Character_IraqiArmy_PLTCmdr.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

@@ -1,0 +1,22 @@
+SCR_ChimeraCharacter : "{F6D1007DA886E99E}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2000/Standard dress/Character_IRAQ_2000_CrewCmdr.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{D6B1ACA46036E9CE}Prefabs/Characters/HeadGear/Helmet_TSh4_01/Helmet_TSh4_01_open.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{C42C535F667B250E}Prefabs/Characters/Uniforms/Suit_Tanker_US_01/Suit_Tanker_UK_01_tucked.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68C7255E8C84E586}" {
+     TargetStorage "Jacket/Suit_Tanker_UK_01_tucked.et"
+    }
+   }
+  }
+ }
+}

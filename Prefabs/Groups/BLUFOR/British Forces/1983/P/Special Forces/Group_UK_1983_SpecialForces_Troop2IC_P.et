@@ -4,7 +4,7 @@ SCR_AIGroup : "{1404CF2F8181C224}Prefabs/Groups/BLUFOR/British Forces/1983/P/Spe
   AIFormationComponent "{507E9DC12F541FE6}" {
    DefaultFormation "File"
   }
-  PS_GroupCallsignAssigner "{684D655D273A6D04}" {
+  PS_GroupCallsignAssigner "{63616C6C7369676E}" {
    m_iCompanyCallsign 1
    m_iPlatoonCallsign 1
    m_iSquadCallsign 2

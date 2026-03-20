@@ -1,0 +1,11 @@
+SCR_ChimeraCharacter : "{B49BEE78AB3B6850}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/Infantry (Desert)/Character_US_2003_D_CrewGunner.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-VehiclePosition_Driver"
+    IconSetName "EditableEntity_Character_Driver"
+   }
+  }
+ }
+}

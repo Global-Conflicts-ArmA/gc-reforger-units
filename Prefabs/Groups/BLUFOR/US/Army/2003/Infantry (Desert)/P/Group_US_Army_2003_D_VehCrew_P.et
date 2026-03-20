@@ -1,0 +1,7 @@
+SCR_AIGroup : "{8A85D951C1BD17FC}Prefabs/Groups/BLUFOR/US/Army/2003/Infantry (Desert)/Group_US_Army_2003_D_VehCrew.et" {
+ ID "0000000000000001"
+ coords 2.159 1.263 -0.524
+ m_aUnitPrefabSlots {
+  "{3D83A5A0EC9F7416}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/Infantry (Desert)/P/Character_US_2003_D_CrewCommander_P.et" "{5641A9512EC10ABE}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/Infantry (Desert)/P/Character_US_2003_D_CrewGunner_P.et" "{8735575F8B41A7DD}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/Infantry (Desert)/P/Character_US_2003_D_CrewDriver_P.et"
+ }
+}

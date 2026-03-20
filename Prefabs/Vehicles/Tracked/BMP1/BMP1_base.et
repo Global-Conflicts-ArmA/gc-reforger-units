@@ -49,6 +49,13 @@ Tank : "{8A883ABED22B6E27}Prefabs/Vehicles/Core/Tracked_Base.et" {
   }
   SCR_UniversalInventoryStorageComponent "{5E529ED09B647D03}" {
    MaxItemSize 35 35 100
+   MultiSlots {
+    MultiSlotConfiguration "{64F343DF231043AD}" {
+     SlotTemplate InventoryStorageSlot PKMammunition {
+      Prefab "{30FB0E5B1AFA2314}Prefabs/Weapons/Tripods/9P135/Part_9K11_Launcher.et"
+     }
+    }
+   }
   }
   TF_EngineSmokeGeneratorComponent "{6873174F6D41D831}" {
    m_sParticle "{346502DDD97A3AF1}Particles/Weapon/Smoke_Generator_Particle.ptc"

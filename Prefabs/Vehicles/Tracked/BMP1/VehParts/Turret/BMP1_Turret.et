@@ -1,6 +1,8 @@
 Turret : "{4AD877DEA242E512}Prefabs/Weapons/Core/Turret_Base.et" {
  ID "51ACD0965653D003"
  components {
+  BaseWeaponManagerComponent "{51ACD09C55D6C1AD}" {
+  }
   SCR_BaseCompartmentManagerComponent "{51ACFBB07A14CFA6}" {
    CompartmentSlots {
     TurretCompartmentSlot TurretCompartment {
@@ -13,6 +15,16 @@ Turret : "{4AD877DEA242E512}Prefabs/Weapons/Core/Turret_Base.et" {
      CanTurnOut 1
      TurnOutDoorIdx 2
     }
+   }
+  }
+  TF_SACLOS_MissileController "{68E1406829AE0791}" {
+   m_bDeactivePrevMissile 1
+   m_bIsATGM 1
+   m_bCanReloadWhenActive 0
+  }
+  TF_WeaponReloadComponent "{68E140685469EA98}" {
+   m_fImpulseStrength 1.5
+   m_SupportedMagazine MagazineWellKornet "{68E16AF12996743F}" {
    }
   }
   TurretComponent "{5E52AE0A31173B5F}" {
@@ -45,6 +57,15 @@ Turret : "{4AD877DEA242E512}Prefabs/Weapons/Core/Turret_Base.et" {
     }
    }
   }
+  WCS_Armament_LoadoutComponent "{631B65CED86F63D9}" {
+   Enabled 0
+  }
+  WCS_Armament_VehicleCameraComponent "{64F41693693EFC09}" {
+   Enabled 0
+  }
+  WCS_Armament_VehicleWeaponStationComponent "{631B6C431BF4FE01}" {
+   Enabled 0
+  }
   WeaponSlotComponent "{51ACD09C6BFEEE6A}" {
    WeaponType RocketLauncher
   }
@@ -55,7 +76,39 @@ Turret : "{4AD877DEA242E512}Prefabs/Weapons/Core/Turret_Base.et" {
    WeaponType MachineGun
   }
   WeaponSlotComponent "{64E93AAE9DD3BC5B}" {
+   useAimingType Weapon
    WeaponType RocketLauncher
+   AttachType InventoryStorageSlot Gun {
+    PivotID "v_gun_01"
+    DisablePhysicsInteraction 1
+    ActivatePhysicsOnDetaching 1
+    DeactivatePhysicsOnAtaching 1
+   }
+   WeaponTemplate "{13D04F09E8A23584}Prefabs/Weapons/HeavyWeapons/9P135/Vehicle_Launcher_9K11.et"
+  }
+  ActionsManagerComponent "{51ACD09C7181BA0B}" {
+   ActionContexts {
+    UserActionContext "{68E1406D1B0CEEE6}" {
+     ContextName "reload"
+     Position PointInfo "{68E1406D0C4BE72B}" {
+      PivotID "v_gun_01"
+      Offset 0 0.2639 0.2245
+     }
+    }
+   }
+   additionalActions {
+    TF_Action_ReloadSaclos "{68E1406D2214825A}" {
+     ParentContextList {
+      "reload"
+     }
+     UIInfo UIInfo "{68E1406D53089E43}" {
+      Name "Reload Saclos"
+     }
+     VisibilityRange 1
+     Duration 5
+     m_iWeaponSlotIndex 3
+    }
+   }
   }
  }
  coords 2.756 -2.316 -1.338

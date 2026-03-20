@@ -1,0 +1,6 @@
+SCR_AIGroup : "{9985542B7E8DC3F0}Prefabs/Groups/BLUFOR/US/Army/2003/Infantry (Woodland)/Group_US_Army_2003_W_VehCrew.et" {
+ ID "0000000000000001"
+ m_aUnitPrefabSlots {
+  "{F873DC80C4E3809C}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/Infantry (Woodland)/P/Character_US_2003_W_CrewCommander_P.et" "{C4AFD2ADF8E935F1}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/Infantry (Woodland)/P/Character_US_2003_W_CrewGunner_P.et" "{15DB2CA35D699892}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/Infantry (Woodland)/P/Character_US_2003_W_CrewDriver_P.et"
+ }
+}

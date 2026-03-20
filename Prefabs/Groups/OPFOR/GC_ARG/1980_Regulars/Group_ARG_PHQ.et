@@ -1,14 +1,24 @@
 SCR_AIGroup : "{8DE0C0830FE0C33D}Prefabs/Groups/OPFOR/Group_USSR_Base.et" {
  ID "0000000000000001"
  components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "File"
+  }
   SCR_EditableGroupComponent "{50D291F6C83FA532}" {
    m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+    Name "#AR-Group_PlatoonHQ"
+    Icon "{FDD21947594DEEFF}UI/PreviewImages/Groups/BLUFOR/BritishForces/Group_UK_1989_Regulars_PlatoonHQ.edds"
+    m_Image "{FDD21947594DEEFF}UI/PreviewImages/Groups/BLUFOR/BritishForces/Group_UK_1989_Regulars_PlatoonHQ.edds"
     m_sFaction "GC_ARG"
+    m_aAuthoredLabels {
+     ENTITYTYPE_GROUP FACTION_GC_ARG
+    }
+    m_bUseUIInfoName 1
    }
   }
  }
  m_faction "GC_ARG"
  m_aUnitPrefabSlots {
-  "{4B8EAC9813AB26D4}worlds/TheLocalPub/BebbleIslandRaid/Prefabs/Characters/Factions/OPFOR/ARG/1980_Regulars/Character_GC_ARG_1980_PL.et" "{90051E48CFB47396}worlds/TheLocalPub/BebbleIslandRaid/Prefabs/Characters/Factions/OPFOR/ARG/1980_Regulars/Character_GC_ARG_1980_PSG.et" "{9FE2A9738832231C}worlds/TheLocalPub/BebbleIslandRaid/Prefabs/Characters/Factions/OPFOR/ARG/1980_Regulars/Character_GC_ARG_1980_RTO.et" "{524DCDF2CEA932E5}worlds/TheLocalPub/BebbleIslandRaid/Prefabs/Characters/Factions/OPFOR/ARG/1980_Regulars/Character_GC_ARG_1980_MED.et"
+  "{4B8EAC9813AB26D4}Prefabs/Characters/Factions/OPFOR/GC_ARG/1980_Regulars/Character_GC_ARG_1980_PL.et" "{90051E48CFB47396}Prefabs/Characters/Factions/OPFOR/GC_ARG/1980_Regulars/Character_GC_ARG_1980_PSG.et" "{9FE2A9738832231C}Prefabs/Characters/Factions/OPFOR/GC_ARG/1980_Regulars/Character_GC_ARG_1980_RTO.et" "{524DCDF2CEA932E5}Prefabs/Characters/Factions/OPFOR/GC_ARG/1980_Regulars/Character_GC_ARG_1980_MED.et"
  }
 }

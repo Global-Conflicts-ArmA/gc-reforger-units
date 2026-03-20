@@ -1,0 +1,18 @@
+SCR_AIGroup : "{EE8D60FCE6D3B856}Prefabs/Groups/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Group_USAF_USMC_MEF_Base.et" {
+ ID "0000000000000001"
+ components {
+  SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+   m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+    Name "2025 LAR SQ 2"
+    m_aAuthoredLabels {
+     ENTITYTYPE_GROUP FACTION_RHS_USAF SUBBRANCH_RHS_USAF_MEF CAMO_RHS_MARPATD
+    }
+   }
+  }
+ }
+ coords 4153.635 36.457 9937.596
+ m_aUnitPrefabSlots {
+  "{A79C33B3A933A2E9}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marine Rifles/Desert/Character_2025_USMC_CrewCO_D.et" "{180E58FB284B70FC}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marine Rifles/Desert/Character_2025_USMC_Crew_D.et" "{180E58FB284B70FC}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marine Rifles/Desert/Character_2025_USMC_Crew_D.et" "{9F318E347C7D1DDE}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marine Rifles/Desert/Character_2025_USMC_TL_DMR_D.et" "{70C72443884F2466}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marine Rifles/Desert/Character_2025_USMC_Sniper_AMR_D.et" "{7A04945F2B661150}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marine Rifles/Desert/Character_2025_USMC_Spotter_D.et" "{C37D40695771FA0D}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marine Rifles/Desert/Character_2025_USMC_Rifle_D.et"
+ }
+ m_sCustomNameSet "LAR Team"
+}

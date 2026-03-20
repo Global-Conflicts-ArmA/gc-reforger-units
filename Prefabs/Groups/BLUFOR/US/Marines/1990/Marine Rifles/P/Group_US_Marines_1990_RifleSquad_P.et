@@ -4,7 +4,7 @@ SCR_AIGroup : "{DDF3799FA1387848}Prefabs/Groups/BLUFOR/Group_US_RifleSquad.et" {
   AIFormationComponent "{507E9DC12F541FE6}" {
    DefaultFormation "Column"
   }
-  PS_GroupCallsignAssigner "{650ACCA066DD9B15}" {
+  PS_GroupCallsignAssigner "{63616C6C7369676E}" {
    Enabled 0
   }
  }

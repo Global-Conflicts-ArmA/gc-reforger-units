@@ -5,5 +5,8 @@ GenericEntity : "{B343AB76B0725657}Prefabs/Items/Equipment/Radios/RU/Radio_R187P
    "Encryption key" "hotBaath"
    "Turned on" 0
   }
+  BaseRadioComponent "{685AE575F907B329}" {
+   "Encryption key" "hotBaath"
+  }
  }
 }

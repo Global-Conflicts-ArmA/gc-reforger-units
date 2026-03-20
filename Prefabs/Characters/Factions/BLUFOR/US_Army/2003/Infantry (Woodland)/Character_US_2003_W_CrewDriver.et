@@ -1,0 +1,11 @@
+SCR_ChimeraCharacter : "{10804BFD95F5DAC1}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/Infantry (Woodland)/Character_US_2003_W_CrewGunner.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-VehiclePosition_Driver"
+    IconSetName "EditableEntity_Character_Driver"
+   }
+  }
+ }
+}

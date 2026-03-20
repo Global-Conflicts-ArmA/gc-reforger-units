@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{5DD63836B4F85135}Prefabs/Groups/BLUFOR/US/Marines/2025/LAR/Woodland/Group_USMC_2025_LAR_SQ_2.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

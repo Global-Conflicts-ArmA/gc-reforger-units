@@ -83,6 +83,12 @@ SCR_ChimeraCharacter : "{92C31261310A2D90}Prefabs/Characters/Factions/BLUFOR/GC_
       "{8CA9C0573BD0B19F}Prefabs/Items/Equipment/Radios/CAF/Radio_ANPRC152_CAF.et"
      }
     }
+    ItemsInitConfigurationItem "{68E731FB891B45B0}" {
+     TargetStorage "Jacket/Shirt_Crye_Rolled_CADPAT_MT.et"
+     PrefabsToSpawn {
+      "{6113990D163E5249}Prefabs/Items/Equipment/BalisticTable/BalisticTable_US.et"
+     }
+    }
    }
   }
  }

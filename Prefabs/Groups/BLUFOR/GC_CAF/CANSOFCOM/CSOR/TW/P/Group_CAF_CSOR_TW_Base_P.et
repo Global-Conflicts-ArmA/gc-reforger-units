@@ -4,7 +4,7 @@ SCR_AIGroup : "{000CD338713F2B5A}Prefabs/AI/Groups/Group_Base.et" {
   AIFormationComponent "{507E9DC12F541FE6}" {
    DefaultFormation "line"
   }
-  PS_GroupCallsignAssigner "{652B355765D354A1}" {
+  PS_GroupCallsignAssigner "{63616C6C7369676E}" {
   }
   SCR_EditableGroupComponent "{50D291F6C83FA532}" {
    m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {

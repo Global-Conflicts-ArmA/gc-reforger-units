@@ -22,6 +22,9 @@ SCR_ChimeraCharacter : "{6A17C0BF8322F77F}Prefabs/Characters/Factions/BLUFOR/GC_
     ItemsInitConfigurationItem "{689329963CBA3B20}" {
      TargetStorage "Jacket/Shirt_Crye_Rolled_CADPAT_Woodland.et"
     }
+    ItemsInitConfigurationItem "{68E731FBB083B88B}" {
+     TargetStorage "Jacket/Shirt_Crye_Rolled_CADPAT_Woodland.et"
+    }
    }
   }
  }

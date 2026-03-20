@@ -1,0 +1,23 @@
+SCR_ChimeraCharacter : "{0CB483461C8B7A8B}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marines/Woodland/Character_2025_USMC_Sniper.et" {
+ ID "520EC961A090BBD5"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{FCBEBEE7EDB7C6CA}Prefabs/Weapons/Rifles/SR25/Rifle_M110_Vort_Harris_Supp.et"
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{633B07DBBB713D2A}" {
+     TargetStorage "Jacket/Shirt_FROG_WD.et"
+     PrefabsToSpawn {
+      "{275F298DE10E7A15}Prefabs/Items/Equipment/Nightvision/PVS31/NVG_PVS31_WP_TAN_MC.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et"
+     }
+    }
+    ItemsInitConfigurationItem "{66D92991BF24CDBE}" {
+     PrefabsToSpawn {
+      "{22E51EE7DB41E2F0}Prefabs/Weapons/Attachments/Optics/reap_ir/snipe_ir_m40.et" "{BC91E8D11A5C778B}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m80_m62.et" "{BC91E8D11A5C778B}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m80_m62.et" "{BC91E8D11A5C778B}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m80_m62.et" "{CDA8C59B712B6B90}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m80.et" "{CDA8C59B712B6B90}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m80.et" "{CDA8C59B712B6B90}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m80.et" "{4BEF49200C070653}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m62.et" "{4BEF49200C070653}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m62.et" "{4BEF49200C070653}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m62.et" "{E14E40270E445307}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m61_m62.et"
+     }
+    }
+   }
+  }
+ }
+}

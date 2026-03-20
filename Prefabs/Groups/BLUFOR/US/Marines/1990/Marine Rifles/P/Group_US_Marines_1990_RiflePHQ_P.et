@@ -1,7 +1,7 @@
 SCR_AIGroup : "{0C5E312755DB1D2F}Prefabs/Groups/BLUFOR/US/Marines/1990/Marine Rifles/Group_US_Marines_1990_RiflePHQ.et" {
  ID "0000000000000001"
  components {
-  PS_GroupCallsignAssigner "{65136701971EC67A}" {
+  PS_GroupCallsignAssigner "{63616C6C7369676E}" {
    Enabled 0
   }
  }

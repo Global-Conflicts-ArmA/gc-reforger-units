@@ -4,6 +4,7 @@ SCR_ChimeraCharacter : "{C2D1F12C893279D2}Prefabs/Characters/Factions/BLUFOR/US_
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
     Name "Combat Medic"
+    IconSetName "EditableEntity_Character_Medic"
    }
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {

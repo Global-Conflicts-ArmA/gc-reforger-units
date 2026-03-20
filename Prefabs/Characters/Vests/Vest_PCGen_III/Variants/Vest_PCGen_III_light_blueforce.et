@@ -1,0 +1,14 @@
+GenericEntity : "{08A450F2C0F712EC}Prefabs/Characters/Vests/Vest_PCGen_III/Variants/Vest_PCGen_III_light1.et" {
+ ID "50D8C49B3558F152"
+ components {
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Slots {
+    LoadoutSlotInfo triple {
+     Offset 0 -0.0039 0.1975
+    }
+   }
+  }
+ }
+ coords 0.865 -1.616 -2.399
+ angles 0 17.355 0
+}

@@ -1,0 +1,18 @@
+SCR_AIGroup : "{C55EC82EF9347B58}Prefabs/Groups/OPFOR/GC_IRAQ/Group_IRAQBase.et" {
+ ID "0000000000000001"
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "File"
+  }
+  SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+   m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+    Name "#AR-Group_MortarSquad"
+    Icon "{F53C3FC1D78A49C7}UI/Textures/EditorPreviews/Groups/OPFOR/USSR/Group_USSR_AmmoTeam_Late.edds"
+    m_Image "{F53C3FC1D78A49C7}UI/Textures/EditorPreviews/Groups/OPFOR/USSR/Group_USSR_AmmoTeam_Late.edds"
+   }
+  }
+ }
+ m_aUnitPrefabSlots {
+  "{7DE2BE4795D42197}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2000/Standard dress/Character_IRAQ_2000_MortarCmdr.et" "{A47689A7155AAFB8}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2000/Standard dress/Character_IRAQ_2000_MortarGunner.et" "{6095388F04D4C164}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2000/Standard dress/Character_IRAQ_2000_MortarLoader.et" "{A47689A7155AAFB8}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2000/Standard dress/Character_IRAQ_2000_MortarGunner.et" "{6095388F04D4C164}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2000/Standard dress/Character_IRAQ_2000_MortarLoader.et" "{A47689A7155AAFB8}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2000/Standard dress/Character_IRAQ_2000_MortarGunner.et" "{6095388F04D4C164}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2000/Standard dress/Character_IRAQ_2000_MortarLoader.et"
+ }
+}

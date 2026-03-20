@@ -4,7 +4,7 @@ SCR_AIGroup : "{EE8D60FCE6D3B856}Prefabs/Groups/BLUFOR/RHS_USAF/RHS_USAF_USMC_ME
   AIFormationComponent "{507E9DC12F541FE6}" {
    DefaultFormation "line"
   }
-  PS_GroupCallsignAssigner "{6508C358B1348652}" {
+  PS_GroupCallsignAssigner "{63616C6C7369676E}" {
    m_iPlatoonCallsign 1
    m_iSquadCallsign 8
   }

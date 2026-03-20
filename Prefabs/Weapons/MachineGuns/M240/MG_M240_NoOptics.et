@@ -1,0 +1,12 @@
+GenericEntity : "{A87B0A22462E20B1}Prefabs/Weapons/MachineGuns/M240/MG_M240.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{60FF5961466DAFF8}" {
+     Enabled 0
+    }
+   }
+  }
+ }
+}

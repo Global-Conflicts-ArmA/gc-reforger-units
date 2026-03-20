@@ -1,0 +1,14 @@
+Tank : "{1DC01AAACFFA8B63}Prefabs/Vehicles/Tracked/BMP1/BMP1_base.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  SCR_UniversalInventoryStorageComponent "{5E529ED09B647D03}" {
+   MultiSlots {
+    MultiSlotConfiguration "{64F343DF231043AD}" {
+     SlotTemplate InventoryStorageSlot PKMammunition {
+      Prefab "{2E67D8C37F0EA33D}Prefabs/Weapons/Tripods/9P135/Part_9P135_Launcher.et"
+     }
+    }
+   }
+  }
+ }
+}

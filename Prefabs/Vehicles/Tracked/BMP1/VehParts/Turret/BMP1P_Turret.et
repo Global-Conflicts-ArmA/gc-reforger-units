@@ -1,6 +1,23 @@
 Turret : "{8021A4D1ADFCF506}Prefabs/Vehicles/Tracked/BMP1/VehParts/Turret/BMP1_Turret.et" {
  ID "51ACD0965653D003"
  components {
+  TF_WeaponReloadComponent "{68E140685469EA98}" {
+   m_ImpulsTo PointInfo "{68E1576F183FE3CE}" {
+    PivotID "v_gun_02"
+    Offset 0.7241 0.1971 0
+   }
+   m_fImpulseStrength 1.5
+   m_SupportedMagazine MagazineWellKornet "{68E1576EFA46C15E}" {
+   }
+   m_DetachSound SCR_AudioSourceConfiguration "{68E1576F058D5016}" {
+    m_sSoundProject "{EEAE2427DD990D12}Sounds/Weapons/AircraftWeapons/RocketPods/Weapons_RocketPods_Generic_Handling.acp"
+    m_sSoundEventName "SOUND_UNLOAD"
+   }
+   m_AttachSound SCR_AudioSourceConfiguration "{68E1576F3CA251C4}" {
+    m_sSoundProject "{EEAE2427DD990D12}Sounds/Weapons/AircraftWeapons/RocketPods/Weapons_RocketPods_Generic_Handling.acp"
+    m_sSoundEventName "SOUND_PYLON_ATTACH"
+   }
+  }
   TurretComponent "{5E52AE0A31173B5F}" {
    components {
     SCR_2DSightsComponent "{5E52AE0A31173B59}" {
@@ -12,6 +29,22 @@ Turret : "{8021A4D1ADFCF506}Prefabs/Vehicles/Tracked/BMP1/VehParts/Turret/BMP1_T
      m_sReticleGlowTexture "{CF4D95A63CAE2FCB}UI/Textures/Sights/1PN22/1PN22M2-glow_UI.edds"
      m_fObjectiveFov 15
      m_fMagnification 6
+    }
+   }
+  }
+  WeaponSlotComponent "{64E93AAE9DD3BC5B}" {
+   AttachType InventoryStorageSlot Gun {
+    PivotID "v_gun_02"
+   }
+   WeaponTemplate "{CB648E90A21513E8}Prefabs/Weapons/HeavyWeapons/9P135/Vehicle_Launcher_9P135.et"
+  }
+  ActionsManagerComponent "{51ACD09C7181BA0B}" {
+   ActionContexts {
+    UserActionContext "{68E1406D1B0CEEE6}" {
+     Position PointInfo "{68E1406D0C4BE72B}" {
+      PivotID "v_gun_02"
+      Offset 0 0.0904 -0.4336
+     }
     }
    }
   }

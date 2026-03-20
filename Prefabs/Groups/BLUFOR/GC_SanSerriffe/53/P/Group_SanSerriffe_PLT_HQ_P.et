@@ -4,7 +4,7 @@ SCR_AIGroup : "{E6CCF06F33FFCD3F}Prefabs/Groups/BLUFOR/GC_SanSerriffe/Group_SanS
   AIFormationComponent "{507E9DC12F541FE6}" {
    DefaultFormation "line"
   }
-  PS_GroupCallsignAssigner "{689B7287D134F9C8}" {
+  PS_GroupCallsignAssigner "{63616C6C7369676E}" {
    m_iCompanyCallsign 1
    m_iPlatoonCallsign 1
    m_iSquadCallsign 1
