@@ -12,7 +12,7 @@ SCR_ChimeraCharacter : "{41CDB471E3B9A02F}Prefabs/Characters/Factions/BLUFOR/CDF
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {
-     Prefab "{0C04EB95B5DFA2A8}Prefabs/Characters/HeadGear/Helmet_OPSCORE/Helmet_OPSCORE_XP_FG_PELTOR.et"
+     Prefab "{79125112CD4BC0C4}Prefabs/Characters/HeadGear/Helmet_OPSCORE/Helmet_OPSCORE_XP_FG_AMP.et"
     }
     LoadoutSlotInfo Jacket {
      Prefab "{290C6108C3B81DF8}Prefabs/Characters/Uniforms/ACU_jacket/ACU_jacket_MC.et"
@@ -21,10 +21,10 @@ SCR_ChimeraCharacter : "{41CDB471E3B9A02F}Prefabs/Characters/Factions/BLUFOR/CDF
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
-    ItemsInitConfigurationItem "{5D7CC173E6675BF5}" {
+    ItemsInitConfigurationItem "{62FB097A7477C905}" {
      TargetStorage "Jacket/ACU_jacket_MC.et"
     }
-    ItemsInitConfigurationItem "{62FB097A7477C905}" {
+    ItemsInitConfigurationItem "{5D7CC173E6675BF5}" {
      TargetStorage "Jacket/ACU_jacket_MC.et"
     }
    }

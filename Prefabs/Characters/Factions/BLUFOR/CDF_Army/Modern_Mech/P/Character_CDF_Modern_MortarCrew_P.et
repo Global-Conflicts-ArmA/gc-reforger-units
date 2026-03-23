@@ -1,8 +1,13 @@
-SCR_ChimeraCharacter : "{6DF39536B5532DF0}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Mech/Character_CDF_Modern_AT.et" {
+SCR_ChimeraCharacter : "{597FEF0054FC7880}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Mech/Character_CDF_Modern_Rifleman.et" {
  ID "520EC961A090B1EE"
  components {
   PS_PlayableComponent "{5EFCC1946F475F15}" {
    m_bIsPlayable 1
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Mortar Crew"
+   }
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {

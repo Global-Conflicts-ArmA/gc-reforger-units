@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{64C5EA150F2E60CD}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Mech/P/Character_CDF_Modern_FO_P.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}
