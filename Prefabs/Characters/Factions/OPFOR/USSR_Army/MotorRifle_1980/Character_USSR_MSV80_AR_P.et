@@ -28,6 +28,7 @@ SCR_ChimeraCharacter : "{00716F7369F3C5E8}Prefabs/Characters/Factions/OPFOR/USSR
      }
     }
     ItemsInitConfigurationItem "{5590D9E7EF8BF25D}" {
+     TargetStorage "Vest/Vest_SovietHarness_AR.et/Bayonet/Scabbard_Bayonet_6Kh4.et"
      PrefabsToSpawn {
       "{D78C667F59829717}Prefabs/Weapons/Magazines/Magazine_545x39_RPK_45rnd_4Ball_1Tracer.et" "{D78C667F59829717}Prefabs/Weapons/Magazines/Magazine_545x39_RPK_45rnd_4Ball_1Tracer.et" "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
      }

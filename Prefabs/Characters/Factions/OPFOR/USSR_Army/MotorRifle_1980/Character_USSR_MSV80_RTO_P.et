@@ -15,6 +15,9 @@ SCR_ChimeraCharacter : "{F72805D5D2D05F63}Prefabs/Characters/Factions/OPFOR/USSR
       "{98C79F5FAE12F9B6}Prefabs/Weapons/Attachments/Bayonets/Bayonet_6Kh4.et"
      }
     }
+    ItemsInitConfigurationItem "{568AD286A60FCA13}" {
+     TargetStorage "Vest/Vest_SovietHarness_rifleman.et/MagPouch_6Sh46/Pouch_Soviet_30rnd_AK74.et"
+    }
    }
   }
  }

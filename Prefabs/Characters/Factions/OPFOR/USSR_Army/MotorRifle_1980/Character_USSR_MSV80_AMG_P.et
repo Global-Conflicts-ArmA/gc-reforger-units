@@ -3,6 +3,9 @@ SCR_ChimeraCharacter : "{D1786D7659BC2E7C}Prefabs/Characters/Factions/OPFOR/USSR
  components {
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
+    LoadoutSlotInfo Jacket {
+     Prefab "{DF51FBE916A0A9FF}Prefabs/Characters/Uniforms/ARY_M69/ARY_Jacket_M69_base.et"
+    }
     LoadoutSlotInfo Back {
     }
    }
@@ -13,6 +16,8 @@ SCR_ChimeraCharacter : "{D1786D7659BC2E7C}Prefabs/Characters/Factions/OPFOR/USSR
      PrefabsToSpawn + {
       "{98C79F5FAE12F9B6}Prefabs/Weapons/Attachments/Bayonets/Bayonet_6Kh4.et"
      }
+    }
+    ItemsInitConfigurationItem "{5D7CC173E6675BF5}" {
     }
     ItemsInitConfigurationItem "{54A68D6519318E4B}" {
     }
