@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{787E5C0C98A80A3F}Prefabs/Groups/BLUFOR/US/Marines/2020/Marine Rifles/Group_USMC_2009_RiflePHQ.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

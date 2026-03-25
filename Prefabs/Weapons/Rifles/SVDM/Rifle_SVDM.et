@@ -1,0 +1,15 @@
+GenericEntity : "{A1D362D6C404CACB}Prefabs/Weapons/Rifles/SVDM/Rifle_SVDM_base.et" {
+ ID "5260C45AAAA407F4"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{68A124C80D2384B5}" {
+     AttachmentSlot InventoryStorageSlot RIS {
+      Offset 0 0 -0.0399
+      Prefab "{7D56528E155B37F5}Prefabs/Weapons/Attachments/Optics/1P69/Optic_1P69.et"
+     }
+    }
+   }
+  }
+ }
+}

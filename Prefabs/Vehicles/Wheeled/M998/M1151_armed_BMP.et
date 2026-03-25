@@ -1,0 +1,26 @@
+Vehicle : "{20166CE7255DF1E2}Prefabs/Vehicles/Wheeled/M998/M1151_armed_BTR.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+   MultiSlots {
+    MultiSlotConfiguration "{66F2D69AD3FC9116}" {
+     SlotTemplate InventoryStorageSlot M2Ammo {
+      Prefab "{D8421F6E70B2FB4F}Prefabs/Weapons/Magazines/Box_762x54_PK_250rnd_4Ball_1Tracer.et"
+     }
+    }
+    MultiSlotConfiguration "{66F2D69AD3FC911C}" {
+     SlotTemplate InventoryStorageSlot ATmine {
+      Enabled 0
+     }
+    }
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Roof {
+     Prefab "{C0203542B09268D2}Prefabs/Vehicles/Wheeled/M998/VehParts/M1151_roof_BMP1.et"
+    }
+   }
+  }
+ }
+}

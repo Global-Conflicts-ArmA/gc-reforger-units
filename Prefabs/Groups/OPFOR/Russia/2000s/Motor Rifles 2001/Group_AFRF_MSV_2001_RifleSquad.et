@@ -1,0 +1,17 @@
+SCR_AIGroup : "{B50B7BF31273C2A6}Prefabs/Groups/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Group_RHS_RF_MSV_VKPO_DS_Base.et" {
+ ID "0000000000000001"
+ components {
+  SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+   m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+    Name "2001 Motor Rifle Squad"
+    m_Image "{F751D43C2950C39C}UI/Textures/EditorPreviews/Groups/OPFOR/USSR/Group_USSR_RifleSquad_Late.edds"
+    m_aAuthoredLabels {
+     ENTITYTYPE_GROUP FACTION_RHS_AFRF SUBBRANCH_RHS_AFRF_MSV TYPE_RHS_AFRF_REGULAR CAMO_RHS_FLORA
+    }
+   }
+  }
+ }
+ m_aUnitPrefabSlots {
+  "{7B3956EFB4BC6008}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2001/MSV/Character_AFRF_2001_SL.et" "{16B1A7F08638C21B}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2001/MSV/Character_AFRF_2001_AR.et" "{CE19CE31FFB1DC47}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2001/MSV/Character_AFRF_2001_AT.et" "{002CF0C88A36111B}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2001/MSV/Character_AFRF_2001_AAT.et" "{0621BA17D12F5C91}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2001/MSV/Character_AFRF_2001_SR.et" "{28734D22D0422CFC}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2001/MSV/Character_AFRF_2001_Rifleman.et" "{68FB72F3C62C4872}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2001/MSV/Character_AFRF_2001_CrewGunner.et" "{8FD0D513EEDB41DF}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2001/MSV/Character_AFRF_2001_CrewDriver.et"
+ }
+}

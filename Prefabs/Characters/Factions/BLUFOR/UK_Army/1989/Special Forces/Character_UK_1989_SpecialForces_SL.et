@@ -1,11 +1,11 @@
-SCR_ChimeraCharacter : "{3B397572207A25EA}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/SpecialForces/Character_UK_1989_SpecialForces_BaseLoadout.et" {
+SCR_ChimeraCharacter : "{3B397572207A25EA}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/Special Forces/Character_UK_1989_SpecialForces_BaseLoadout.et" {
  ID "520EC961A090B1EE"
  components {
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{610CC31428816D50}" {
-     PrefabsToSpawn {
-      "{C8B6565467AA8CB7}Prefabs/Items/Equipment/Compass/Compass_Baseplate.et" "{13772C903CB5E4F7}Prefabs/Items/Equipment/Maps/PaperMap_01_folded.et" "{842E93279EA18647}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_UK_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{E67E7932C86FBB96}Prefabs/Items/Medicine/FieldDressing_UK_01.et" "{E67E7932C86FBB96}Prefabs/Items/Medicine/FieldDressing_UK_01.et" "{1A7FE1AC9E645F27}Prefabs/Items/Equipment/Radios/Radio_PRC349.et" "{6E35D94130954509}Prefabs/Items/Equipment/Accessories/ETool_ALICE/ETool_ALICE_FreeRoamBuilding_Gadget.et" "{D13A99EEED51784B}Prefabs/Items/Equipment/Flashlights/Flashlight_UK.et" "{96FFE213B19D1D57}Prefabs/Weapons/Grenades/Smoke_No80_WP.et" "{D950FADF7FC188C0}Prefabs/Weapons/Grenades/Smoke_No83_Yellow.et"
+     PrefabsToSpawn + {
+      "{1A7FE1AC9E645F27}Prefabs/Items/Equipment/Radios/UK/Radio_PRC349.et"
      }
     }
    }

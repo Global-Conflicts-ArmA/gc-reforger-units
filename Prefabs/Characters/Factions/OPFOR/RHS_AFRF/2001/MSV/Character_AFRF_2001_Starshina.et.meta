@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{B9A831D2BF35C837}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2001/Character_AFRF_2001_Starshina.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

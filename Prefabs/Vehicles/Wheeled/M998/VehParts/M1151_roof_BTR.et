@@ -1,0 +1,13 @@
+GenericEntity : "{FFDA1E42195C57EA}Prefabs/Vehicles/Wheeled/M998/VehParts/M1151_roof_M2HB.et" {
+ ID "66F2D698167A077C"
+ components {
+  SlotManagerComponent "{66F2D6986D44629B}" {
+   Slots {
+    RegisteringComponentSlotInfo Turret {
+     Offset 0 0.0303 -0.1391
+     Prefab "{66596659FB0F645B}Prefabs/Vehicles/Wheeled/BTR70/VehParts/Turret/BTR70_Turret.et"
+    }
+   }
+  }
+ }
+}

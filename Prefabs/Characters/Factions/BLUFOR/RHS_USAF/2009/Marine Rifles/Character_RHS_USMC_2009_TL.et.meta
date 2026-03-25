@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{38010640C166CBE5}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2008/Marines/Character_RHS_USMC_2008_TL.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

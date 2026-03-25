@@ -21,12 +21,6 @@ SCR_ChimeraCharacter : "{2C69231254D1AEDB}Prefabs/Characters/Factions/BLUFOR/UK_
    InitialInventoryItems {
     ItemsInitConfigurationItem "{610CC31428816D50}" {
      TargetStorage "Pants/Trousers_Combat_68Pat_DPM_01.et"
-     PrefabsToSpawn + {
-      "{05E4A7305629F332}Prefabs/Characters/HeadGear/Hat_Beret_01/Hat_Beret_01_Rifles.et"
-     }
-    }
-    ItemsInitConfigurationItem "{64A8AB40750482B2}" {
-     TargetStorage "Jacket/Smock_Combat_68Pat_DPM_01.et"
     }
     ItemsInitConfigurationItem "{62A74B5BE373CB7E}" {
      TargetStorage "Jacket/Smock_Combat_68Pat_DPM_01.et"
@@ -67,6 +61,9 @@ SCR_ChimeraCharacter : "{2C69231254D1AEDB}Prefabs/Characters/Factions/BLUFOR/UK_
     ItemsInitConfigurationItem "{610D52FBCFED0072}" {
      PrefabsToSpawn {
      }
+    }
+    ItemsInitConfigurationItem "{64A8AB40750482B2}" {
+     TargetStorage "Jacket/Smock_Combat_68Pat_DPM_01.et"
     }
    }
   }

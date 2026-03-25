@@ -1,0 +1,5 @@
+MatPBRBasic {
+ Color 1 1 1 1
+ SpecularIBL 0.535 0.535 0.535 1
+ SpecularMul 0.75
+}

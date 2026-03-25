@@ -1,0 +1,62 @@
+SCR_ChimeraCharacter : "{F08A4DF0AE622E49}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/SSO/ATACS/Character_RHS_RF_SSO_MG.et" {
+ ID "520EC961A090B1EE"
+ components {
+  PS_PlayableComponent "{5EFCC1946F475F15}" {
+   m_bIsPlayable 1
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{57CD8C476F94E1A8}Prefabs/Weapons/MachineGuns/PKP_Pecheneg/MG_PKP_Pecheneg_1p29_TF.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{C12FBA6C70D1EE93}Prefabs/Characters/HeadGear/Helmet_LShZ/variants/SSO/Helmet_LShZ_new_OD_SSO5.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{71994C074722FD7E}Prefabs/Characters/Uniforms/VKPO/Triada_Combat_Shirt_EMR.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{727037C2C61797A8}Prefabs/Characters/Uniforms/VKPO/Triada_Combat_Pants_EMR.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{63349A03F1411D2D}" {
+     TargetStorage "Pants/Triada_Combat_Pants_EMR.et"
+    }
+    ItemsInitConfigurationItem "{63349A03F1411D1D}" {
+    }
+    ItemsInitConfigurationItem "{633A340047396C8D}" {
+     TargetStorage "Vest/Vest_AACPC_arsarmaHSGI_FG_MG.et/radio/Pouch_UP111_radioClosed_OD.et"
+     PrefabsToSpawn +{
+     }
+    }
+    ItemsInitConfigurationItem "{633A94706A3EF2C1}" {
+     TargetStorage "Vest/Vest_AACPC_arsarmaHSGI_FG_MG.et/pkm_1/Pouch_Mordor_PKM.et"
+     PrefabsToSpawn {
+      "{0EAB3482EA2FD181}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_7N13.et"
+     }
+    }
+    ItemsInitConfigurationItem "{633AA253C88F8A41}" {
+     TargetStorage "Vest/Vest_AACPC_arsarmaHSGI_FG_MG.et/grn1/Pouch_GP106_RGD_Pouch_OD.et"
+    }
+    ItemsInitConfigurationItem "{633AA253C8DCA368}" {
+     TargetStorage "Vest/Vest_AACPC_arsarmaHSGI_FG_MG.et/grn2/Pouch_GP106_RGD_Pouch_2_OD.et"
+    }
+    ItemsInitConfigurationItem "{648D51E76026829C}" {
+     TargetStorage "Pants/Triada_Combat_Pants_EMR.et"
+     PrefabsToSpawn {
+      "{B7BA7694F821F556}Prefabs/Items/Equipment/Nightvision/PVS14/NVG_PVS14Dual.et"
+     }
+    }
+    ItemsInitConfigurationItem "{650E8865FB9D6950}" {
+     TargetStorage "Vest/Vest_AACPC_arsarmaHSGI_FG_MG.et/pkm_2/Pouch_Mordor_PKM.et"
+     PrefabsToSpawn {
+      "{0EAB3482EA2FD181}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_7N13.et"
+     }
+    }
+   }
+  }
+ }
+}

@@ -31,9 +31,7 @@ SCR_ChimeraCharacter : "{B9CFB916A26682D6}Prefabs/Characters/Factions/BLUFOR/UK_
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{610CC31428816D50}" {
-     PrefabsToSpawn + {
-      "{05E4A7305629F332}Prefabs/Characters/HeadGear/Hat_Beret_01/Hat_Beret_01_Rifles.et"
-     }
+     TargetStorage ""
     }
     ItemsInitConfigurationItem "{62A74B5BE373CB7E}" {
      PrefabsToSpawn {

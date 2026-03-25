@@ -4,6 +4,7 @@ SCR_ChimeraCharacter : "{FED05851B3B9586F}Prefabs/Characters/Factions/BLUFOR/UK_
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
     Name "Runner"
+    Icon "{3DF5F07FF6670728}UI/Textures/EditableEntities/Characters/Character_Runner.edds"
    }
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {

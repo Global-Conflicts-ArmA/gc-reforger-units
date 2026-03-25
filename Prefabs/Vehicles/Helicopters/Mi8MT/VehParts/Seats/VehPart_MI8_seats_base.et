@@ -1,0 +1,321 @@
+GenericEntity : "{278E487E19D82680}Prefabs/Vehicles/Core/Vehicle_Cargo_Base.et" {
+ ID "4B42E71698F5739C"
+ components {
+  SCR_BaseCompartmentManagerComponent "{2CD4A765A7D52986}" {
+   DoorInfoList {
+    CompartmentDoorInfo "{68E70C3960485E0C}" {
+     ContextName "door_l001"
+     EntryPositionInfo PointInfo "{68E70C398FCECE0F}" {
+      Offset -3 0.5 6
+     }
+     ExitPositionInfo PointInfo "{68E73E266232D1DC}" {
+      Offset -3 0.5 6
+     }
+     GetInTeleport 1
+     GetOutTeleport 1
+     AlignDuringGetOut 1
+     GetInAligningTeleport 1
+     GetOutAligningTeleport 1
+     GetInSeatAligningOnEvent 1
+     GetOutAligningOnEvent 1
+     FakeDoor 1
+    }
+    CompartmentDoorInfo "{68E73E266C2D342C}" {
+     ContextName "door_l002"
+     EntryPositionInfo PointInfo "{68E73E266C2D37C3}" {
+      Offset -3 0.5 5
+     }
+     ExitPositionInfo PointInfo "{68E73E269A2F0F62}" {
+      Offset -3 0.5 5
+     }
+     GetInTeleport 1
+     GetOutTeleport 1
+     AlignDuringGetOut 1
+     GetInAligningTeleport 1
+     GetOutAligningTeleport 1
+     GetInSeatAligningOnEvent 1
+     GetOutAligningOnEvent 1
+     FakeDoor 1
+    }
+    CompartmentDoorInfo "{68E73E270AB6DD03}" {
+     ContextName "door_l003"
+     EntryPositionInfo PointInfo "{68E73E270AB6DCBE}" {
+      Offset -3 0.5 4
+     }
+     ExitPositionInfo PointInfo "{68E73E270AB6DCB1}" {
+      Offset -3 0.5 4
+     }
+     GetInTeleport 1
+     GetOutTeleport 1
+     AlignDuringGetOut 1
+     GetInAligningTeleport 1
+     GetOutAligningTeleport 1
+     GetInSeatAligningOnEvent 1
+     GetOutAligningOnEvent 1
+     FakeDoor 1
+    }
+    CompartmentDoorInfo "{68E73E275C1AB1C2}" {
+     ContextName "door_l004"
+     EntryPositionInfo PointInfo "{68E73E275C1AB17A}" {
+      Offset -3 0.5 3
+     }
+     ExitPositionInfo PointInfo "{68E73E275C1AB17D}" {
+      Offset -3 0.5 3
+     }
+     GetInTeleport 1
+     GetOutTeleport 1
+     AlignDuringGetOut 1
+     GetInAligningTeleport 1
+     GetOutAligningTeleport 1
+     GetInSeatAligningOnEvent 1
+     GetOutAligningOnEvent 1
+     FakeDoor 1
+    }
+    CompartmentDoorInfo "{68E73E27523F618B}" {
+     ContextName "door_l005"
+     EntryPositionInfo PointInfo "{68E73E27523F6156}" {
+      Offset -3 0.5 2
+     }
+     ExitPositionInfo PointInfo "{68E73E27523F614A}" {
+      Offset -3 0.5 2
+     }
+     GetInTeleport 1
+     GetOutTeleport 1
+     AlignDuringGetOut 1
+     GetInAligningTeleport 1
+     GetOutAligningTeleport 1
+     GetInSeatAligningOnEvent 1
+     GetOutAligningOnEvent 1
+     FakeDoor 1
+    }
+    CompartmentDoorInfo "{68E73E277F6922B3}" {
+     ContextName "door_l006"
+     EntryPositionInfo PointInfo "{68E73E277F692263}" {
+      Offset -3 0.5 1
+     }
+     ExitPositionInfo PointInfo "{68E73E277F692265}" {
+      Offset -3 0.5 1
+     }
+     GetInTeleport 1
+     GetOutTeleport 1
+     AlignDuringGetOut 1
+     GetInAligningTeleport 1
+     GetOutAligningTeleport 1
+     GetInSeatAligningOnEvent 1
+     GetOutAligningOnEvent 1
+     FakeDoor 1
+    }
+    CompartmentDoorInfo "{68E73E27B00F2F1D}" {
+     ContextName "door_r001"
+     EntryPositionInfo PointInfo "{68E73E27B00F2ECD}" {
+      Offset -4 0.5 6
+     }
+     ExitPositionInfo PointInfo "{68E73E27B00F2ECF}" {
+      Offset -4 0.5 6
+     }
+     GetInTeleport 1
+     GetOutTeleport 1
+     AlignDuringGetOut 1
+     GetInAligningTeleport 1
+     GetOutAligningTeleport 1
+     GetInSeatAligningOnEvent 1
+     GetOutAligningOnEvent 1
+     FakeDoor 1
+    }
+    CompartmentDoorInfo "{68E73E27DCB9D1AF}" {
+     ContextName "door_r002"
+     EntryPositionInfo PointInfo "{68E73E27DCB9D159}" {
+      Offset -4 0.5 5
+     }
+     ExitPositionInfo PointInfo "{68E73E27DCB9D15C}" {
+      Offset -4 0.5 5
+     }
+     GetInTeleport 1
+     GetOutTeleport 1
+     AlignDuringGetOut 1
+     GetInAligningTeleport 1
+     GetOutAligningTeleport 1
+     GetInSeatAligningOnEvent 1
+     GetOutAligningOnEvent 1
+     FakeDoor 1
+    }
+    CompartmentDoorInfo "{68E73E241AB0BEDC}" {
+     ContextName "door_r003"
+     EntryPositionInfo PointInfo "{68E73E241AB0BE89}" {
+      Offset -4 0.5 4
+     }
+     ExitPositionInfo PointInfo "{68E73E241AB0BE8C}" {
+      Offset -4 0.5 4
+     }
+     GetInTeleport 1
+     GetOutTeleport 1
+     AlignDuringGetOut 1
+     GetInAligningTeleport 1
+     GetOutAligningTeleport 1
+     GetInSeatAligningOnEvent 1
+     GetOutAligningOnEvent 1
+     FakeDoor 1
+    }
+    CompartmentDoorInfo "{68E73E240C6DC0A0}" {
+     ContextName "door_r004"
+     EntryPositionInfo PointInfo "{68E73E240C6DC05A}" {
+      Offset -4 0.5 3
+     }
+     ExitPositionInfo PointInfo "{68E73E240C6DC05C}" {
+      Offset -4 0.5 3
+     }
+     GetInTeleport 1
+     GetOutTeleport 1
+     AlignDuringGetOut 1
+     GetInAligningTeleport 1
+     GetOutAligningTeleport 1
+     GetInSeatAligningOnEvent 1
+     GetOutAligningOnEvent 1
+     FakeDoor 1
+    }
+    CompartmentDoorInfo "{68E73E24054C46F8}" {
+     ContextName "door_r005"
+     EntryPositionInfo PointInfo "{68E73E24054C46C1}" {
+      Offset -4 0.5 2
+     }
+     ExitPositionInfo PointInfo "{68E73E24054C46C4}" {
+      Offset -4 0.5 2
+     }
+     GetInTeleport 1
+     GetOutTeleport 1
+     AlignDuringGetOut 1
+     GetInAligningTeleport 1
+     GetOutAligningTeleport 1
+     GetInSeatAligningOnEvent 1
+     GetOutAligningOnEvent 1
+     FakeDoor 1
+    }
+    CompartmentDoorInfo "{68E73E243A92214B}" {
+     ContextName "door_r006"
+     EntryPositionInfo PointInfo "{68E73E243A922107}" {
+      Offset -4 0.5 1
+     }
+     ExitPositionInfo PointInfo "{68E73E243A9220F9}" {
+      Offset -4 0.5 1
+     }
+     GetInTeleport 1
+     GetOutTeleport 1
+     AlignDuringGetOut 1
+     GetInAligningTeleport 1
+     GetOutAligningTeleport 1
+     GetInSeatAligningOnEvent 1
+     GetOutAligningOnEvent 1
+     FakeDoor 1
+    }
+    CompartmentDoorInfo "{68E73E2453FDB0CC}" {
+     ContextName "door_r007"
+     EntryPositionInfo PointInfo "{68E73E2453FDB07C}" {
+      Offset -5 0.5 3
+     }
+     ExitPositionInfo PointInfo "{68E73E2453FDB07E}" {
+      Offset -5 0.5 3
+     }
+     GetInTeleport 1
+     GetOutTeleport 1
+     AlignDuringGetOut 1
+     GetInAligningTeleport 1
+     GetOutAligningTeleport 1
+     GetInSeatAligningOnEvent 1
+     GetOutAligningOnEvent 1
+     FakeDoor 1
+    }
+    CompartmentDoorInfo "{68E73E246D699AF2}" {
+     ContextName "door_r008"
+     EntryPositionInfo PointInfo "{68E73E246D699AB3}" {
+      Offset -5 0.5 2
+     }
+     ExitPositionInfo PointInfo "{68E73E246D699AB6}" {
+      Offset -5 0.5 2
+     }
+     GetInTeleport 1
+     GetOutTeleport 1
+     AlignDuringGetOut 1
+     GetInAligningTeleport 1
+     GetOutAligningTeleport 1
+     GetInSeatAligningOnEvent 1
+     GetOutAligningOnEvent 1
+     FakeDoor 1
+    }
+   }
+   CompartmentSlots {
+    CargoCompartmentSlot passanger_l01 {
+     DoorInfoList {
+      1
+     }
+     ContextName "passenger_l01"
+    }
+    CargoCompartmentSlot Passenger_l02 {
+     DoorInfoList {
+      2
+     }
+    }
+    CargoCompartmentSlot Passenger_l03 {
+     DoorInfoList {
+      3
+     }
+    }
+    CargoCompartmentSlot Passenger_l04 {
+     DoorInfoList {
+      4
+     }
+    }
+    CargoCompartmentSlot Passenger_l05 {
+     DoorInfoList {
+      5
+     }
+    }
+    CargoCompartmentSlot Passenger_l06 {
+     DoorInfoList {
+      6
+     }
+    }
+    CargoCompartmentSlot Passenger_r01 {
+     DoorInfoList {
+      7
+     }
+    }
+    CargoCompartmentSlot Passenger_r02 {
+     DoorInfoList {
+      8
+     }
+    }
+    CargoCompartmentSlot Passenger_r03 {
+     DoorInfoList {
+      9
+     }
+    }
+    CargoCompartmentSlot Passenger_r04 {
+     DoorInfoList {
+      10
+     }
+    }
+    CargoCompartmentSlot Passenger_r05 {
+     DoorInfoList {
+      11
+     }
+    }
+    CargoCompartmentSlot Passenger_r06 {
+     DoorInfoList {
+      12
+     }
+    }
+    CargoCompartmentSlot Passenger_r07 {
+     DoorInfoList {
+      13
+     }
+    }
+    CargoCompartmentSlot passanger_R08 {
+     DoorInfoList {
+      14
+     }
+     ContextName "passenger_r08"
+    }
+   }
+  }
+ }
+}

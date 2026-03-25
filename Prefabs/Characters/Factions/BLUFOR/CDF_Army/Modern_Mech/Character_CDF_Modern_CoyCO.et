@@ -1,0 +1,30 @@
+SCR_ChimeraCharacter : "{41CDB471E3B9A02F}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Mech/Character_CDF_Modern_PL.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Company Commander"
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{0C04EB95B5DFA2A8}Prefabs/Characters/HeadGear/Helmet_OPSCORE/Helmet_OPSCORE_XP_FG_PELTOR.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{290C6108C3B81DF8}Prefabs/Characters/Uniforms/ACU_jacket/ACU_jacket_MC.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{62FB097A7477C905}" {
+     TargetStorage "Jacket/ACU_jacket_MC.et"
+    }
+    ItemsInitConfigurationItem "{68F0C967F79D5CCB}" {
+     TargetStorage "Jacket/ACU_jacket_MC.et"
+    }
+   }
+  }
+ }
+}

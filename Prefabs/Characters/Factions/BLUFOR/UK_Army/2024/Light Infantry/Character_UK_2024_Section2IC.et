@@ -4,7 +4,7 @@ SCR_ChimeraCharacter : "{BE42B6E6DE18536B}Prefabs/Characters/Factions/BLUFOR/UK_
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
     Name "Section 2IC"
-    Icon "{A26C465A6AE2AA17}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_Leader.edds"
+    Icon "{9B4BA5E764E5B03E}UI/Textures/EditableEntities/Characters/BritishRanks/EditableEntity_Character_British_LCPL.edds"
     m_Image "{8FACC525C630A80B}UI/PreviewImages/Characters/BLUFOR/BritishForces/Character_UK_1989_Regulars_Section2IC.edds"
    }
   }
@@ -34,7 +34,7 @@ SCR_ChimeraCharacter : "{BE42B6E6DE18536B}Prefabs/Characters/Factions/BLUFOR/UK_
    InitialInventoryItems {
     ItemsInitConfigurationItem "{6574E493A8452458}" {
      PrefabsToSpawn {
-      "{68FE5703457F2FF5}Prefabs/Items/Equipment/Radios/UK/Radio_ANPRC163.et" "{389ACBD8C4991F74}Prefabs/Items/Equipment/Radios/UK/Radio_H4855_PRR.et"
+      "{68FE5703457F2FF5}Prefabs/Items/Equipment/Radios/UK/Radio_ANPRC163.et" "{389ACBD8C4991F74}Prefabs/Items/Equipment/Radios/UK/Squad Radio/Radio_H4855_PRR.et"
      }
     }
     ItemsInitConfigurationItem "{65776445E610B8A7}" {
@@ -71,19 +71,19 @@ SCR_ChimeraCharacter : "{BE42B6E6DE18536B}Prefabs/Characters/Factions/BLUFOR/UK_
     ItemsInitConfigurationItem "{6574ECCCF768DD8D}" {
      TargetStorage "Vest/Webbing_Virtus_H_Rig_Rifleman_02.et/Utility3/Pouch_Spiritus_BackPanelUtility_Slim1_MC.et"
      PrefabsToSpawn {
-      "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et" "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
+      "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
      }
     }
     ItemsInitConfigurationItem "{6574ECCCF768DD8F}" {
      TargetStorage "Vest/Webbing_Virtus_H_Rig_Rifleman_02.et/Utility2/Pouch_Spiritus_BackPanelUtility_Tall_MC.et"
      PrefabsToSpawn {
-      "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et" "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
+      "{B7F7D78B4314A5C8}Prefabs/Weapons/Grenades/Smoke/Smoke_L83A2.et" "{1E2A147893E78804}Prefabs/Weapons/Grenades/Smoke/Smoke_L101A1.et"
      }
     }
     ItemsInitConfigurationItem "{6574ECCCF768DD89}" {
      TargetStorage "Vest/Webbing_Virtus_H_Rig_Rifleman_02.et/Utility1/Pouch_Virtus_Dump_1_MTP.et"
      PrefabsToSpawn {
-      "{D41D22DD1B8E921E}Prefabs/Weapons/Grenades/M18/Smoke_M18_Green.et" "{3343A055A83CB30D}Prefabs/Weapons/Grenades/M18/Smoke_M18_Red.et"
+      "{A57BDB532E0E9972}Prefabs/Weapons/Grenades/Smoke/Smoke_L70A1.et" "{A57BDB532E0E9972}Prefabs/Weapons/Grenades/Smoke/Smoke_L70A1.et" "{51739CCB23D3F106}Prefabs/Weapons/Grenades/Smoke/Smoke_L71A1.et" "{51739CCB23D3F106}Prefabs/Weapons/Grenades/Smoke/Smoke_L71A1.et"
      }
     }
     ItemsInitConfigurationItem "{6574ECCCB118FB71}" {

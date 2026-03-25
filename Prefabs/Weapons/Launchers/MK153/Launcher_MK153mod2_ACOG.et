@@ -1,0 +1,25 @@
+GenericEntity : "{6EB3A5496BAFC8F3}Prefabs/Weapons/Launchers/MK153/Launcher_MK153mod2_base.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{620950A5750AEA2A}" {
+     AttachmentSlot InventoryStorageSlot mbus_front {
+      Prefab "{B05910AE5C2526DD}Prefabs/Weapons/Attachments/Optics/mbus/mbus_blk_folding_sight_front.et"
+     }
+    }
+    AttachmentSlotComponent "{620950A5C162BE77}" {
+     AttachmentSlot InventoryStorageSlot MBS {
+      Angles 0 0 -73.0191
+     }
+    }
+    AttachmentSlotComponent "{62B6FD8D52DA0520}" {
+     AttachmentSlot InventoryStorageSlot mbus {
+      Offset 0 0 0.0034
+      Prefab "{30B41A4172CBD098}Prefabs/Weapons/Attachments/Optics/ta31rco/Optic_TA31RCO_ARD_army.et"
+     }
+    }
+   }
+  }
+ }
+}

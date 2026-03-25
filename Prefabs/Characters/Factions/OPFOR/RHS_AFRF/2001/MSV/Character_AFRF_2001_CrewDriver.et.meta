@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{8FD0D513EEDB41DF}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2001/Character_AFRF_2001_CrewDriver.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

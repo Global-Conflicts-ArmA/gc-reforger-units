@@ -21,9 +21,6 @@ SCR_ChimeraCharacter : "{E06C3284B49AC5A7}Prefabs/Characters/Factions/BLUFOR/UK_
    InitialInventoryItems {
     ItemsInitConfigurationItem "{610CC31428816D50}" {
      TargetStorage "Pants/Trousers_Lightweight_OD_01.et"
-     PrefabsToSpawn + {
-      "{6DEF58AC49FA36A2}Prefabs/Characters/HeadGear/Hat_Beret_01/Hat_Beret_01_Para.et"
-     }
     }
     ItemsInitConfigurationItem "{62A74B5BE373CB7E}" {
      PrefabsToSpawn + {
@@ -34,6 +31,12 @@ SCR_ChimeraCharacter : "{E06C3284B49AC5A7}Prefabs/Characters/Factions/BLUFOR/UK_
      TargetStorage "Back/Backpack_Para_Bergen.et"
      PrefabsToSpawn {
       "{4BA48D3B0E53DF91}Prefabs/Items/Equipment/Backpacks/Rucksack_84mm_MAW_Carrier.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68EC987C51C9FB46}" {
+     TargetStorage "Pants/Trousers_Lightweight_OD_01.et"
+     PrefabsToSpawn {
+      "{6DEF58AC49FA36A2}Prefabs/Characters/HeadGear/Hat_Beret_01/Hat_Beret_01_Para.et"
      }
     }
    }

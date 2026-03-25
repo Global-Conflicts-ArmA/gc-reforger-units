@@ -1,0 +1,17 @@
+SCR_AIGroup : "{B50B7BF31273C2A6}Prefabs/Groups/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Group_RHS_RF_MSV_VKPO_DS_Base.et" {
+ ID "0000000000000001"
+ components {
+  SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+   m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+    Name "2008 Motor Rifle Squad"
+    m_Image "{81E1ACCA0CABEEAF}UI/Textures/EditorPreviews/Groups/OPFOR/RHS_AFRF/MSV/Flora/Group_RHS_RF_MSV_Flora_RifleSquad.edds"
+    m_aAuthoredLabels {
+     ENTITYTYPE_GROUP FACTION_RHS_AFRF SUBBRANCH_RHS_AFRF_MSV TYPE_RHS_AFRF_REGULAR CAMO_RHS_FLORA
+    }
+   }
+  }
+ }
+ m_aUnitPrefabSlots {
+  "{725760D740B6846E}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2008/MSV/Character_AFRF_2008_SL.et" "{4DC84FD21C7D329E}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2008/MSV/Character_AFRF_2008_MG.et" "{C777F8090BBB3821}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2008/MSV/Character_AFRF_2008_AT.et" "{BE8CE55D35BD9836}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2008/MSV/Character_AFRF_2008_AAT.et" "{0F4F8C2F2525B8F7}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2008/MSV/Character_AFRF_2008_SR.et" "{3460EFDE6FFC22B7}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2008/MSV/Character_AFRF_2008_Rifleman.et" "{521CA75BD02B1DAC}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2008/MSV/Character_AFRF_2008_CrewGunner.et" "{B53700BBF8DC1401}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2008/MSV/Character_AFRF_2008_CrewDriver.et"
+ }
+}

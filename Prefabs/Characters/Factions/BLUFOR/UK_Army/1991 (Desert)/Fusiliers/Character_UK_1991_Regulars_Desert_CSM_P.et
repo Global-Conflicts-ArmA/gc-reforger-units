@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{208BB1203AC4A981}worlds/arc/TheOldWood/Prefabs/Character_UK_1989_Regulars_CSM_P.et" {
+SCR_ChimeraCharacter : "{208BB1203AC4A981}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/Light Infantry/P/Character_UK_1989_Regulars_CSM_P.et" {
  ID "520EC961A090B1EE"
  components {
   PS_PlayableComponent "{5EFCC1946F475F15}" {
@@ -24,12 +24,6 @@ SCR_ChimeraCharacter : "{208BB1203AC4A981}worlds/arc/TheOldWood/Prefabs/Characte
    InitialInventoryItems {
     ItemsInitConfigurationItem "{610CC31428816D50}" {
      TargetStorage "Pants/Trousers_Tropical_DesertDPM_01.et"
-     PrefabsToSpawn {
-      "{C8B6565467AA8CB7}Prefabs/Items/Equipment/Compass/Compass_Baseplate.et" "{13772C903CB5E4F7}Prefabs/Items/Equipment/Maps/PaperMap_01_folded.et" "{842E93279EA18647}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_UK_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{E67E7932C86FBB96}Prefabs/Items/Medicine/FieldDressing_UK_01.et" "{E67E7932C86FBB96}Prefabs/Items/Medicine/FieldDressing_UK_01.et" "{1A7FE1AC9E645F27}Prefabs/Items/Equipment/Radios/UK/Radio_PRC349.et" "{6E35D94130954509}Prefabs/Items/Equipment/Accessories/ETool_ALICE/ETool_ALICE_FreeRoamBuilding_Gadget.et" "{D3DE3810F3E35336}Prefabs/Characters/HeadGear/Hat_Beret_01/Hat_Beret_01_gs_blue.et"
-     }
-    }
-    ItemsInitConfigurationItem "{64A8AB40750482B2}" {
-     TargetStorage "Pants/Trousers_Tropical_DesertDPM_01.et"
     }
     ItemsInitConfigurationItem "{62A74B5BE373CB7E}" {
      TargetStorage "Jacket/Jacket_Tropical_DesertDPM_01.et"
@@ -53,6 +47,9 @@ SCR_ChimeraCharacter : "{208BB1203AC4A981}worlds/arc/TheOldWood/Prefabs/Characte
      TargetStorage "Vest/Vest_P58_rifleman_L85.et/KidneyRight/Vest_P58_kidney_right.et"
     }
     ItemsInitConfigurationItem "{627950EAB8C5004A}" {
+    }
+    ItemsInitConfigurationItem "{64A8AB40750482B2}" {
+     TargetStorage "Pants/Trousers_Tropical_DesertDPM_01.et"
     }
    }
   }

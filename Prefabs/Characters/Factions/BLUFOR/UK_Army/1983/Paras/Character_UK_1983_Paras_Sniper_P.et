@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{F2AD932BE8353D9C}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Regulars/Character_UK_1983_Regulars_Sniper_P.et" {
+SCR_ChimeraCharacter : "{F2AD932BE8353D9C}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Light Infantry/P/Character_UK_1983_Regulars_Sniper_P.et" {
  ID "520EC961A090B1EE"
  components {
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
@@ -11,13 +11,16 @@ SCR_ChimeraCharacter : "{F2AD932BE8353D9C}Prefabs/Characters/Factions/BLUFOR/UK_
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{610CC31428816D50}" {
-     PrefabsToSpawn {
-      "{C8B6565467AA8CB7}Prefabs/Items/Equipment/Compass/Compass_Baseplate.et" "{13772C903CB5E4F7}Prefabs/Items/Equipment/Maps/PaperMap_01_folded.et" "{842E93279EA18647}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_UK_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{E67E7932C86FBB96}Prefabs/Items/Medicine/FieldDressing_UK_01.et" "{E67E7932C86FBB96}Prefabs/Items/Medicine/FieldDressing_UK_01.et" "{6E35D94130954509}Prefabs/Items/Equipment/Accessories/ETool_ALICE/ETool_ALICE_FreeRoamBuilding_Gadget.et" "{6DEF58AC49FA36A2}Prefabs/Characters/HeadGear/Hat_Beret_01/Hat_Beret_01_Para.et"
-     }
     }
     ItemsInitConfigurationItem "{62A74B5BE373CB7E}" {
      PrefabsToSpawn + {
       "{ED612C5D75C69BA9}Prefabs/Items/Equipment/Accessories/68Pat_Combat_Smock_Hood/Smock_Hood_68Pattern.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68EC987C0F611AF4}" {
+     TargetStorage "Pants/Trousers_Combat_68Pat_DPM_01.et"
+     PrefabsToSpawn {
+      "{6DEF58AC49FA36A2}Prefabs/Characters/HeadGear/Hat_Beret_01/Hat_Beret_01_Para.et"
      }
     }
    }

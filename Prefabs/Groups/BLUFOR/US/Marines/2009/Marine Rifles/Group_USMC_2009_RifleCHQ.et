@@ -1,0 +1,16 @@
+SCR_AIGroup : "{EE8D60FCE6D3B856}Prefabs/Groups/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Group_USAF_USMC_MEF_Base.et" {
+ ID "0000000000000001"
+ components {
+  SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+   m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+    Name "2009 USMC Company HQ"
+    m_Image "{F9C2F0F7654A9FA3}UI/Textures/EditorPreviews/Groups/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Group_USAF_USMC_MEF_PlatoonHQ.edds"
+   }
+  }
+ }
+ coords 4153.635 36.457 9937.596
+ m_aUnitPrefabSlots {
+  "{CD516FDDB30DA3D9}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Character_RHS_USMC_2009_CoyL.et" "{A0D5E8F598A7517C}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Character_RHS_USMC_2009_Coy2IC.et" "{C08FABF2E6BC67D5}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Character_RHS_USMC_2009_Coy1SG.et" "{B02BE4D429E41CD2}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Character_RHS_USMC_2009_RTO.et" "{187A49947ADD908F}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Character_RHS_USMC_2009_Medic.et" "{187A49947ADD908F}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Character_RHS_USMC_2009_Medic.et"
+ }
+ m_sCustomNameSet "Platoon HQ"
+}

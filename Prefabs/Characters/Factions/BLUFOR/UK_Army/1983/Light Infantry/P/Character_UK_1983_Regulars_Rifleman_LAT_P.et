@@ -15,12 +15,6 @@ SCR_ChimeraCharacter : "{F5B9FF92DBFB520C}Prefabs/Characters/Factions/BLUFOR/UK_
    InitialInventoryItems {
     ItemsInitConfigurationItem "{610CC31428816D50}" {
      TargetStorage "Pants/Trousers_Combat_68Pat_DPM_01.et"
-     PrefabsToSpawn + {
-      "{05E4A7305629F332}Prefabs/Characters/HeadGear/Hat_Beret_01/Hat_Beret_01_Rifles.et"
-     }
-    }
-    ItemsInitConfigurationItem "{64A8AB40750482B2}" {
-     TargetStorage "Jacket/Smock_Combat_68Pat_DPM_01.et"
     }
     ItemsInitConfigurationItem "{62A74B5BE373CB7E}" {
      TargetStorage "Jacket/Smock_Combat_68Pat_DPM_01.et"
@@ -36,8 +30,7 @@ SCR_ChimeraCharacter : "{F5B9FF92DBFB520C}Prefabs/Characters/Factions/BLUFOR/UK_
     }
     ItemsInitConfigurationItem "{610CC312DBF11ACA}" {
      TargetStorage "Vest/Vest_P58_rifleman.et/MagPouch2/Pouch_P58_20rnd_L1A1_Right.et"
-     PrefabsToSpawn {
-      "{68CFC7B6DE0CC75F}Prefabs/Weapons/Magazines/Magazine_762x51_FAL_Commonwealth_20rnd_Ball.et" "{68CFC7B6DE0CC75F}Prefabs/Weapons/Magazines/Magazine_762x51_FAL_Commonwealth_20rnd_Ball.et" "{68CFC7B6DE0CC75F}Prefabs/Weapons/Magazines/Magazine_762x51_FAL_Commonwealth_20rnd_Ball.et"
+     PrefabsToSpawn +{
      }
     }
     ItemsInitConfigurationItem "{610CC31278A75ED6}" {
@@ -45,6 +38,9 @@ SCR_ChimeraCharacter : "{F5B9FF92DBFB520C}Prefabs/Characters/Factions/BLUFOR/UK_
      PrefabsToSpawn {
       "{96FFE213B19D1D57}Prefabs/Weapons/Grenades/Smoke_No80_WP.et" "{68CFC7B6DE0CC75F}Prefabs/Weapons/Magazines/Magazine_762x51_FAL_Commonwealth_20rnd_Ball.et"
      }
+    }
+    ItemsInitConfigurationItem "{64A8AB40750482B2}" {
+     TargetStorage "Jacket/Smock_Combat_68Pat_DPM_01.et"
     }
     ItemsInitConfigurationItem "{65393C837AF5919E}" {
      TargetStorage "Back/Rucksack_P58_Large_Pack.et"

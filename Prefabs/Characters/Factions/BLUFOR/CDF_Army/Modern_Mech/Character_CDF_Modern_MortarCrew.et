@@ -1,0 +1,50 @@
+SCR_ChimeraCharacter : "{CAF8467FB693C584}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Mech/Character_CDF_Modern_BaseArmed.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Mortar Crew"
+    Icon "{AE53796BC5D21A08}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_Rifleman.edds"
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+    }
+    LoadoutSlotInfo Back {
+     Prefab ""
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{62FB097A7477C905}" {
+    }
+    ItemsInitConfigurationItem "{68F146310539933D}" {
+     TargetStorage "Vest/Vest_TV102_rifleman_OD_2.et/arsbelt2/Pouch_ArsArma_magouch_morphed_OD.et"
+     PrefabsToSpawn {
+      "{2C5AE1171BF060F1}Prefabs/Weapons/Magazines/ARY_Magazine_545x39_AK_30rnd_Ball_Plum.et" "{2C5AE1171BF060F1}Prefabs/Weapons/Magazines/ARY_Magazine_545x39_AK_30rnd_Ball_Plum.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68F146310539930C}" {
+     TargetStorage "Vest/Vest_TV102_rifleman_OD_2.et/mp105_2/Pouch_wartech_magpouch_mp105_3_OD.et"
+     PrefabsToSpawn {
+      "{2C5AE1171BF060F1}Prefabs/Weapons/Magazines/ARY_Magazine_545x39_AK_30rnd_Ball_Plum.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68F146310539930B}" {
+     TargetStorage "Vest/Vest_TV102_rifleman_OD_2.et/mp105_3/Pouch_wartech_magpouch_mp105_2_OD.et"
+     PrefabsToSpawn {
+      "{2C5AE1171BF060F1}Prefabs/Weapons/Magazines/ARY_Magazine_545x39_AK_30rnd_Ball_Plum.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68F1463105399309}" {
+     TargetStorage "Vest/Vest_TV102_rifleman_OD_2.et/placard/Pouch_wartech_magpouch_mp105_OD.et"
+     PrefabsToSpawn {
+      "{2C5AE1171BF060F1}Prefabs/Weapons/Magazines/ARY_Magazine_545x39_AK_30rnd_Ball_Plum.et"
+     }
+    }
+   }
+  }
+ }
+}

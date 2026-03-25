@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{B26ECD634EF69482}Prefabs/Characters/Factions/OPFOR/GC_SEP/Character_SEP_BaseLoadout.et" {
+SCR_ChimeraCharacter : "{B26ECD634EF69482}Prefabs/Characters/Factions/OPFOR/GC_SEP/2020/Character_SEP_BaseLoadout.et" {
  ID "520EC961A090B1EE"
  components {
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
@@ -7,10 +7,10 @@ SCR_ChimeraCharacter : "{B26ECD634EF69482}Prefabs/Characters/Factions/OPFOR/GC_S
     Icon "{A26C465A6AE2AA17}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_Leader.edds"
     m_Image "{C098D091AAC624A6}UI/Textures/EditorPreviews/Characters/INDFOR/FIA/Character_FIA_SL.edds"
     m_aAuthoredLabels + {
-     42
+     ROLE_LEADER
     }
     m_aAutoLabels {
-     122
+     SIZE_M
     }
    }
   }
@@ -23,17 +23,20 @@ SCR_ChimeraCharacter : "{B26ECD634EF69482}Prefabs/Characters/Factions/OPFOR/GC_S
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {
-     Prefab "{2A1F25C19148E083}Prefabs/Characters/HeadGear/Helmet_6B47/Helmet_6B47_no_cover.et"
+     Prefab "{A7E6D7ECD5F684D7}Prefabs/Characters/HeadGear/Helmet_SSh68_01/Helmet_SSh68_01.et"
     }
     LoadoutSlotInfo Jacket {
-     Prefab "{F1E29085C62F0D55}Prefabs/Characters/Uniforms/Jacket_KZS/Jacket_KZS.et"
+     Prefab "{ED9FFC8C35C98B8B}Prefabs/Characters/Uniforms/Jacket_M88_TTsKO.et"
     }
     LoadoutSlotInfo ArmoredVest {
      Prefab "{275BE1D304BC2E2D}Prefabs/Characters/Vests/Vest_AACPC/Vest_AACPC_FG.et"
      InheritParentSkeleton 0
     }
     LoadoutSlotInfo Pants {
-     Prefab "{DCF980831E880F6A}Prefabs/Characters/Uniforms/Pants_M88.et"
+     Prefab "{5E0AD6D55C0B9657}Prefabs/Characters/Uniforms/Pants_TrousersV2/Pants_TrousersV2_Grey.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{02585ED96CFE147F}Prefabs/Characters/Footwear/Saloman_XUltra/Boots_Salomon_XUltra_Black.et"
     }
     LoadoutSlotInfo Vest {
      Prefab "{779798513C980AD9}Prefabs/Characters/Vests/Vest_AACPC/variants/Vest_AACPC_arsarmaHSGI_FG_1.et"
@@ -47,7 +50,7 @@ SCR_ChimeraCharacter : "{B26ECD634EF69482}Prefabs/Characters/Factions/OPFOR/GC_S
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{65F4D2AD3935C1FC}" {
-     TargetStorage "Pants/Pants_M88.et"
+     TargetStorage "Pants/Pants_TrousersV2_Grey.et"
     }
     ItemsInitConfigurationItem "{65F4D2A2AA09FD5F}" {
      TargetStorage "Jacket/Jacket_KZS.et"
@@ -86,7 +89,7 @@ SCR_ChimeraCharacter : "{B26ECD634EF69482}Prefabs/Characters/Factions/OPFOR/GC_S
     ItemsInitConfigurationItem "{62E8A4CC29FE4561}" {
      TargetStorage "Vest/Vest_AACPC_arsarmaHSGI_FG_1.et/radio/Pouch_UP111_radioClosed_FG.et"
      PrefabsToSpawn {
-      "{399EBA1849BFF48C}Prefabs/Items/Equipment/Radios/Radio_R187P1_OLD_Separatist.et"
+      "{399EBA1849BFF48C}Prefabs/Items/Equipment/Radios/Separatist/Radio_R187P1_OLD_Separatist.et"
      }
     }
     ItemsInitConfigurationItem "{62E8A4CE2B5B197E}" {

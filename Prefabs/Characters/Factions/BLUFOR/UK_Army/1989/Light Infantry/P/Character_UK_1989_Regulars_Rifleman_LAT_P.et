@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{B10659FFD99279DC}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/Regulars/Character_UK_1989_Regulars_Rifleman_LAT.et" {
+SCR_ChimeraCharacter : "{B10659FFD99279DC}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/Regulars/Character_UK_1989_Regulars_Rifleman_LAT_LAW80.et" {
  ID "520EC961A090B1EE"
  components {
   PS_PlayableComponent "{5EFCC1946F475F15}" {
@@ -17,9 +17,6 @@ SCR_ChimeraCharacter : "{B10659FFD99279DC}Prefabs/Characters/Factions/BLUFOR/UK_
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{610CC31428816D50}" {
-     PrefabsToSpawn + {
-      "{05E4A7305629F332}Prefabs/Characters/HeadGear/Hat_Beret_01/Hat_Beret_01_Rifles.et"
-     }
     }
     ItemsInitConfigurationItem "{610CC3129E7848BC}" {
      PrefabsToSpawn {

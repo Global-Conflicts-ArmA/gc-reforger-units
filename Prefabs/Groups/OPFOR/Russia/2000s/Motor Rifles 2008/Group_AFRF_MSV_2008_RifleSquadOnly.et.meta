@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{C8AC274E9E6E1173}Prefabs/Groups/OPFOR/Russia/2000s/Motor Rifles 2001/AFRF_MSV_2008_RifleSquadOnly.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{3C650F0691BB3A64}Prefabs/Groups/OPFOR/Russia/2000s/Motor Rifles 2001/AFRF_MSV_2001_CHQ.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

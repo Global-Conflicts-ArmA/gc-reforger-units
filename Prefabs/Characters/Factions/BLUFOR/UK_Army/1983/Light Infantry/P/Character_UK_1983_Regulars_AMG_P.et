@@ -7,9 +7,6 @@ SCR_ChimeraCharacter : "{327FBCA6B02BC5A8}Prefabs/Characters/Factions/BLUFOR/UK_
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{610CC31428816D50}" {
-     PrefabsToSpawn + {
-      "{05E4A7305629F332}Prefabs/Characters/HeadGear/Hat_Beret_01/Hat_Beret_01_Rifles.et"
-     }
     }
     ItemsInitConfigurationItem "{62A74B5BE373CB7E}" {
      PrefabsToSpawn {
@@ -22,8 +19,7 @@ SCR_ChimeraCharacter : "{327FBCA6B02BC5A8}Prefabs/Characters/Factions/BLUFOR/UK_
      }
     }
     ItemsInitConfigurationItem "{610CC312DBF11ACA}" {
-     PrefabsToSpawn {
-      "{68CFC7B6DE0CC75F}Prefabs/Weapons/Magazines/Magazine_762x51_FAL_Commonwealth_20rnd_Ball.et" "{68CFC7B6DE0CC75F}Prefabs/Weapons/Magazines/Magazine_762x51_FAL_Commonwealth_20rnd_Ball.et" "{68CFC7B6DE0CC75F}Prefabs/Weapons/Magazines/Magazine_762x51_FAL_Commonwealth_20rnd_Ball.et"
+     PrefabsToSpawn +{
      }
     }
     ItemsInitConfigurationItem "{6279067D7EA1F3AC}" {

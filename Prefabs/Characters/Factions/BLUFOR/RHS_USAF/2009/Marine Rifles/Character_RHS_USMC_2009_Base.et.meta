@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{0E6D12E696498921}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Rangers/Character_RHS_USMC_2008_Base.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

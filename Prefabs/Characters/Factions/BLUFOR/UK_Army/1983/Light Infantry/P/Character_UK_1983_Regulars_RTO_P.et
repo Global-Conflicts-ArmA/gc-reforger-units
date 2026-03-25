@@ -8,12 +8,6 @@ SCR_ChimeraCharacter : "{142FD4053B47B4B7}Prefabs/Characters/Factions/BLUFOR/UK_
    InitialInventoryItems {
     ItemsInitConfigurationItem "{610CC31428816D50}" {
      TargetStorage "Pants/Trousers_Combat_68Pat_DPM_01.et"
-     PrefabsToSpawn + {
-      "{05E4A7305629F332}Prefabs/Characters/HeadGear/Hat_Beret_01/Hat_Beret_01_Rifles.et"
-     }
-    }
-    ItemsInitConfigurationItem "{64A8AB40750482B2}" {
-     TargetStorage "Jacket/Smock_Combat_68Pat_DPM_01.et"
     }
     ItemsInitConfigurationItem "{62A74B5BE373CB7E}" {
      TargetStorage "Jacket/Smock_Combat_68Pat_DPM_01.et"
@@ -38,6 +32,9 @@ SCR_ChimeraCharacter : "{142FD4053B47B4B7}Prefabs/Characters/Factions/BLUFOR/UK_
      PrefabsToSpawn {
       "{4C075BF50FD8C069}Prefabs/Weapons/Grenades/Smoke_No83_Red.et" "{9361BEC03E52E6F8}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_White.et" "{9361BEC03E52E6F8}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_White.et"
      }
+    }
+    ItemsInitConfigurationItem "{64A8AB40750482B2}" {
+     TargetStorage "Jacket/Smock_Combat_68Pat_DPM_01.et"
     }
    }
   }

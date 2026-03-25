@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{B26ECD634EF69482}Prefabs/Characters/Factions/INDFOR/FIA/Character_SEP_BaseLoadout.et" {
+SCR_ChimeraCharacter : "{B26ECD634EF69482}Prefabs/Characters/Factions/OPFOR/GC_SEP/2020/Character_SEP_BaseLoadout.et" {
  ID "520EC961A090B1EE"
  components {
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
@@ -7,7 +7,7 @@ SCR_ChimeraCharacter : "{B26ECD634EF69482}Prefabs/Characters/Factions/INDFOR/FIA
     Icon "{A26C465A6AE2AA17}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_Leader.edds"
     m_Image "{6601A3AE17EA976D}UI/Textures/EditorPreviews/Characters/INDFOR/FIA/Character_FIA_Rifleman.edds"
     m_aAutoLabels {
-     122 46
+     SIZE_M ROLE_RIFLEMAN
     }
    }
   }
@@ -23,16 +23,16 @@ SCR_ChimeraCharacter : "{B26ECD634EF69482}Prefabs/Characters/Factions/INDFOR/FIA
      Prefab "{7621C7D9145AF8D5}Prefabs/Characters/HeadGear/Balaclavas/Balaclava_v1/Balaclava_v1_OD.et"
     }
     LoadoutSlotInfo Jacket {
-     Prefab "{43C6129204623BF0}Prefabs/Characters/Uniforms/Jacket_Waffletop/Jacket_Waffletop.et"
+     Prefab "{9594BA28F5A60A9A}Prefabs/Characters/Uniforms/Jacket_M70_Green.et"
     }
     LoadoutSlotInfo ArmoredVest {
      Prefab "{762D9493876651C4}Prefabs/Characters/Vests/Vest_TV102/Vest_TV102_FG.et"
     }
     LoadoutSlotInfo Pants {
-     Prefab "{5E17C1AE66A6FF00}Prefabs/Characters/Uniforms/Pants_KZS/Pants_KZS.et"
+     Prefab "{B84C9A94D2F316EE}Prefabs/Characters/Uniforms/Pants_CCUE/Pants_CCUE_EMRSummer.et"
     }
     LoadoutSlotInfo Boots {
-     Prefab "{DAAFD15478BDE1C3}Prefabs/Characters/Footwear/CombatBoots_US_01.et"
+     Prefab "{51ACA33D999D2D71}Prefabs/Characters/Footwear/Saloman_XUltra/Boots_Salomon_XUltra_Brown.et"
     }
     LoadoutSlotInfo Back {
      Prefab "{72DB97161FBA7AF0}Prefabs/Items/Equipment/Backpacks/backpack_Wartech_BB102/Backpack_Wartech_BB102_FG.et"
@@ -45,19 +45,16 @@ SCR_ChimeraCharacter : "{B26ECD634EF69482}Prefabs/Characters/Factions/INDFOR/FIA
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{65F4D2AD3935C1FC}" {
-     TargetStorage "Pants/Pants_KZS.et"
+     TargetStorage "Pants/Pants_CCUE_EMRSummer.et"
+    }
+    ItemsInitConfigurationItem "{65F4D2A2AA09FD5F}" {
+     TargetStorage "Jacket/Jacket_M88_Flora_rolledup.et"
     }
     ItemsInitConfigurationItem "{5D7CC173FAA7C00C}" {
      TargetStorage "Vest/Vest_TV102_rifleman_FG_2.et/radio/Pouch_UP111_radioClosed_FG.et"
      TargetPurpose 1
      PrefabsToSpawn {
-      "{399EBA1849BFF48C}Prefabs/Items/Equipment/Radios/Radio_R187P1_OLD_Single_Separatist.et"
-     }
-    }
-    ItemsInitConfigurationItem "{65F4D2A2AA09FD5F}" {
-     TargetStorage "Jacket/Jacket_Waffletop.et"
-     PrefabsToSpawn {
-      "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et"
+      "{399EBA1849BFF48C}Prefabs/Items/Equipment/Radios/Separatist/Radio_R187P1_OLD_Separatist.et"
      }
     }
     ItemsInitConfigurationItem "{62E8F82146722501}" {

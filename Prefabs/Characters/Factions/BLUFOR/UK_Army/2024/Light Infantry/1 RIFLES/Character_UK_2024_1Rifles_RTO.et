@@ -10,6 +10,12 @@ SCR_ChimeraCharacter : "{C0280243C10F96FA}Prefabs/Characters/Factions/BLUFOR/UK_
       "{8C1354878B6879DF}Prefabs/Items/Equipment/Accessories/Patches/TRF_DZ/TRF_RIFLES.et" "{BE8AF9D3F2B6B87A}Prefabs/Items/Equipment/Accessories/Patches/TRF_DZ/TRF_7thInfBde_Subdued.et"
      }
     }
+    ItemsInitConfigurationItem "{68EC987DE70D04B6}" {
+     TargetStorage "Jacket/PCS_Shirt_MTP.et"
+     PrefabsToSpawn {
+      "{05E4A7305629F332}Prefabs/Characters/HeadGear/Hat_Beret_01/Hat_Beret_01_Rifles.et"
+     }
+    }
    }
   }
  }

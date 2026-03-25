@@ -1,0 +1,15 @@
+SCR_AIGroup : "{EE8D60FCE6D3B856}Prefabs/Groups/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Group_USAF_USMC_MEF_Base.et" {
+ ID "0000000000000001"
+ components {
+  SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+   m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+    Name "2009 USMC Rifle Squad"
+    m_Image "{B308029484438BBC}UI/Textures/EditorPreviews/Groups/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Group_USAF_USMC_MEF_RifleSquad.edds"
+   }
+  }
+ }
+ coords 4153.635 36.457 9937.596
+ m_aUnitPrefabSlots {
+  "{3FC6FC11A7E07126}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Character_RHS_USMC_2009_SL.et" "{38010640C166CBE5}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Character_RHS_USMC_2009_TL.et" "{524E0D0E9564D335}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Character_RHS_USMC_2009_AR.et" "{B418034A4B80ECB7}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Character_RHS_USMC_2009_AAR.et" "{2FCE25D4690FFA28}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Character_RHS_USMC_2009_RiflemanLAT.et" "{38010640C166CBE5}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Character_RHS_USMC_2009_TL.et" "{524E0D0E9564D335}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Character_RHS_USMC_2009_AR.et" "{B418034A4B80ECB7}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Character_RHS_USMC_2009_AAR.et" "{2FCE25D4690FFA28}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Character_RHS_USMC_2009_RiflemanLAT.et" "{38010640C166CBE5}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Character_RHS_USMC_2009_TL.et" "{524E0D0E9564D335}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Character_RHS_USMC_2009_AR.et" "{B418034A4B80ECB7}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Character_RHS_USMC_2009_AAR.et" "{2FCE25D4690FFA28}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Character_RHS_USMC_2009_RiflemanLAT.et"
+ }
+}

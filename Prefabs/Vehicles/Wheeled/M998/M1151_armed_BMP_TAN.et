@@ -1,0 +1,29 @@
+Vehicle : "{5F12D6FB80A56688}Prefabs/Vehicles/Wheeled/M998/M1151_armed_BMP.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{68E602889E62C448}" {
+     SourceMaterial "Assets/Vehicles/Wheeled/M998/Data/HMMWV_Body"
+     AssignedMaterial "{ECFB0A86053379D8}Assets/Vehicles/Wheeled/M998/Data/HMMWV_Body_Tan.emat"
+    }
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+   MultiSlots {
+    MultiSlotConfiguration "{66F2D69AD3FC911C}" {
+     SlotTemplate InventoryStorageSlot ATmine {
+     }
+    }
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Roof {
+     Prefab "{3F5C1E6C9C0FE755}Prefabs/Vehicles/Wheeled/M998/VehParts/M1151_roof_BMP_Tan.et"
+    }
+   }
+  }
+ }
+ coords 5.831 -8.302 13.109
+}

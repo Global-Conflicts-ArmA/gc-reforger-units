@@ -1,0 +1,7 @@
+SCR_AIGroup : "{EE8D60FCE6D3B856}Prefabs/Groups/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Group_USAF_USMC_MEF_Base.et" {
+ ID "0000000000000001"
+ coords 4153.635 36.457 9937.596
+ m_aUnitPrefabSlots {
+  "{AA79063B4B69A1D6}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/27th MEU (Arma 2)/Character_RHS_USMC_2009_27MEU_SL.et" "{1F599EE500641D99}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/27th MEU (Arma 2)/Character_RHS_USMC_2009_27MEU_AT.et" "{484E5AF6F1A22985}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/27th MEU (Arma 2)/Character_RHS_USMC_2009_27MEU_AAT.et" "{1F599EE500641D99}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/27th MEU (Arma 2)/Character_RHS_USMC_2009_27MEU_AT.et" "{484E5AF6F1A22985}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/27th MEU (Arma 2)/Character_RHS_USMC_2009_27MEU_AAT.et"
+ }
+}

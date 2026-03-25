@@ -34,13 +34,6 @@ SCR_ChimeraCharacter : "{DCA7DFB9B846B627}Prefabs/Characters/Factions/BLUFOR/UK_
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{610CC31428816D50}" {
-     PrefabsToSpawn +{
-     }
-    }
-    ItemsInitConfigurationItem "{64A8AB40750482B2}" {
-     PrefabsToSpawn + {
-      "{1E7D876C06089E21}Prefabs/Weapons/Magazines/Magazine_9x19_HiPower_13rnd_Ball.et"
-     }
     }
     ItemsInitConfigurationItem "{6282E825CD92120C}" {
      TargetStorage "Vest/Vest_P58_rifleman.et/MagPouch/Pouch_P58_20rnd_L1A1_Left.et"
@@ -64,6 +57,11 @@ SCR_ChimeraCharacter : "{DCA7DFB9B846B627}Prefabs/Characters/Factions/BLUFOR/UK_
      TargetStorage "Vest/Vest_P58_rifleman.et/Buttpack/Vest_P58_kidney_left.et"
      PrefabsToSpawn {
       "{96FFE213B19D1D57}Prefabs/Weapons/Grenades/Smoke_No80_WP.et" "{4C075BF50FD8C069}Prefabs/Weapons/Grenades/Smoke_No83_Red.et" "{6C6327A7E5EB8D20}Prefabs/Weapons/Grenades/Smoke_No83_Blue.et" "{D950FADF7FC188C0}Prefabs/Weapons/Grenades/Smoke_No83_Yellow.et"
+     }
+    }
+    ItemsInitConfigurationItem "{64A8AB40750482B2}" {
+     PrefabsToSpawn {
+      "{1E7D876C06089E21}Prefabs/Weapons/Magazines/Magazine_9x19_HiPower_13rnd_Ball.et"
      }
     }
     ItemsInitConfigurationItem "{685328C015D9932B}" {

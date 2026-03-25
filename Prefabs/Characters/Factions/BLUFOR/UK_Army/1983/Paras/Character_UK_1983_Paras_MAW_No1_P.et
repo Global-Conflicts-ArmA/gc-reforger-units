@@ -17,9 +17,6 @@ SCR_ChimeraCharacter : "{8C380664085E4A89}Prefabs/Characters/Factions/BLUFOR/UK_
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{610CC31428816D50}" {
-     PrefabsToSpawn + {
-      "{6DEF58AC49FA36A2}Prefabs/Characters/HeadGear/Hat_Beret_01/Hat_Beret_01_Para.et"
-     }
     }
     ItemsInitConfigurationItem "{62A74B5BE373CB7E}" {
      PrefabsToSpawn + {
@@ -30,6 +27,12 @@ SCR_ChimeraCharacter : "{8C380664085E4A89}Prefabs/Characters/Factions/BLUFOR/UK_
      TargetStorage "Back/Backpack_Para_Bergen.et"
      PrefabsToSpawn {
       "{4BA48D3B0E53DF91}Prefabs/Items/Equipment/Backpacks/Rucksack_84mm_MAW_Carrier.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68EC987C54722C5D}" {
+     TargetStorage "Pants/Trousers_Combat_68Pat_DPM_01.et"
+     PrefabsToSpawn {
+      "{6DEF58AC49FA36A2}Prefabs/Characters/HeadGear/Hat_Beret_01/Hat_Beret_01_Para.et"
      }
     }
    }
