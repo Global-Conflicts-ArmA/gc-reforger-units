@@ -1,0 +1,117 @@
+SCR_ChimeraCharacter : "{B26ECD634EF69482}Prefabs/Characters/Factions/OPFOR/GC_SEP/2020/Character_SEP_BaseLoadout.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_SquadLeader"
+    Icon "{A26C465A6AE2AA17}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_Leader.edds"
+    IconSetName "EditableEntity_Character_Leader_Squad"
+    m_Image "{C098D091AAC624A6}UI/Textures/EditorPreviews/Characters/INDFOR/FIA/Character_FIA_SL.edds"
+    m_aAuthoredLabels + {
+     ROLE_LEADER
+    }
+    m_aAutoLabels {
+     SIZE_M
+    }
+   }
+  }
+  CharacterGrenadeSlotComponent "{520EA1D2F659CE6E}" {
+   WeaponTemplate "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{EB404DC9E1BCB750}Prefabs/Weapons/Rifles/AK74/Rifle_AK74N_1P29.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{A7E6D7ECD5F684D7}Prefabs/Characters/HeadGear/Helmet_SSh68_01/Helmet_SSh68_01.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{ED9FFC8C35C98B8B}Prefabs/Characters/Uniforms/Jacket_M88_TTsKO.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{275BE1D304BC2E2D}Prefabs/Characters/Vests/Vest_AACPC/Vest_AACPC_FG.et"
+     InheritParentSkeleton 0
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{5E0AD6D55C0B9657}Prefabs/Characters/Uniforms/Pants_TrousersV2/Pants_TrousersV2_Grey.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{02585ED96CFE147F}Prefabs/Characters/Footwear/Saloman_XUltra/Boots_Salomon_XUltra_Black.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{779798513C980AD9}Prefabs/Characters/Vests/Vest_AACPC/variants/Vest_AACPC_arsarmaHSGI_FG_1.et"
+     InheritParentSkeleton 1
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab "{4F71E7468E78DDD2}Prefabs/Characters/Handwear/Gloves_Leather_01/Gloves_Leather_01.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{65F4D2AD3935C1FC}" {
+     TargetStorage "Pants/Pants_TrousersV2_Grey.et"
+    }
+    ItemsInitConfigurationItem "{65F4D2A2AA09FD5F}" {
+     TargetStorage "Jacket/Jacket_KZS.et"
+    }
+    ItemsInitConfigurationItem "{5D7CC173FAA7C00C}" {
+     TargetStorage "Vest/Vest_AACPC_arsarmaHSGI_FG_1.et/slot3/Pouch_ArsArma_magouch_morphed_ATACS.et"
+     TargetPurpose 1
+     PrefabsToSpawn {
+      "{5821E7F8FA5B099C}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_7N22_Last_5Tracer.et" "{5821E7F8FA5B099C}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_7N22_Last_5Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{651141C2D27E287E}" {
+     TargetStorage "Vest/Vest_AACPC_arsarmaHSGI_FG_1.et/arsbelt/Pouch_ArsArma_magouch_morphed_ATACS.et"
+     PrefabsToSpawn {
+      "{5821E7F8FA5B099C}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_7N22_Last_5Tracer.et" "{5821E7F8FA5B099C}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_7N22_Last_5Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{651141C2A997F72E}" {
+     TargetStorage "Vest/Vest_AACPC_arsarmaHSGI_FG_1.et/slot/Pouch_ArsArma_magouch_morphed_ATACS.et"
+     PrefabsToSpawn {
+      "{5821E7F8FA5B099C}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_7N22_Last_5Tracer.et" "{5821E7F8FA5B099C}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_7N22_Last_5Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{651141C2A6A5A730}" {
+     TargetStorage "Vest/Vest_AACPC_arsarmaHSGI_FG_1.et/slot2/Pouch_ArsArma_magouch_morphed_ATACS.et"
+     PrefabsToSpawn {
+      "{5821E7F8FA5B099C}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_7N22_Last_5Tracer.et" "{5821E7F8FA5B099C}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_7N22_Last_5Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{62E8A4CE2B5B1947}" {
+     TargetStorage "Jacket/Jacket_KZS.et"
+     PrefabsToSpawn {
+      "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et"
+     }
+    }
+    ItemsInitConfigurationItem "{62E8A4CC29FE4561}" {
+     TargetStorage "Vest/Vest_AACPC_arsarmaHSGI_FG_1.et/radio/Pouch_UP111_radioClosed_FG.et"
+     PrefabsToSpawn {
+      "{399EBA1849BFF48C}Prefabs/Items/Equipment/Radios/Separatist/Radio_R187P1_OLD_Separatist.et"
+     }
+    }
+    ItemsInitConfigurationItem "{62E8A4CE2B5B197E}" {
+     TargetStorage "Pants/Pants_M88.et"
+     PrefabsToSpawn {
+      "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+     }
+    }
+    ItemsInitConfigurationItem "{62E8B3293822B4BE}" {
+     TargetStorage "Vest/Vest_AACPC_arsarmaHSGI_FG_1.et/arsbelt_up105_bigutil/Pouch_GP106_RGD_Pouch_FG.et"
+     PrefabsToSpawn {
+      "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+     }
+    }
+    ItemsInitConfigurationItem "{62E8B329308F511F}" {
+     TargetStorage "Vest/Vest_AACPC_arsarmaHSGI_FG_1.et/grenade1/Pouch_GP106_RGD_Pouch_2_FG.et"
+     PrefabsToSpawn {
+      "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+     }
+    }
+   }
+  }
+ }
+}

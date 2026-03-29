@@ -1,0 +1,17 @@
+SCR_ChimeraCharacter : "{25126A4C70E48B27}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_MSV75/Character_USSR_MSV75_BaseLoadout.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{995B334262EDDA95}Prefabs/Weapons/Rifles/AKM/BC_Rifle_AKM.et"
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68FA07B23E6E3A07}" {
+     PrefabsToSpawn {
+      "{E039E897BD5A339E}Prefabs/Weapons/Magazines/AK/BC_Magazine_762x39_AK_30rnd_Ball.et" "{E039E897BD5A339E}Prefabs/Weapons/Magazines/AK/BC_Magazine_762x39_AK_30rnd_Ball.et" "{E039E897BD5A339E}Prefabs/Weapons/Magazines/AK/BC_Magazine_762x39_AK_30rnd_Ball.et" "{D7D38B4E269417F8}Prefabs/Weapons/Magazines/AK/BC_Magazine_762x39_AK_30rnd_Tracer.et"
+     }
+    }
+   }
+  }
+ }
+}

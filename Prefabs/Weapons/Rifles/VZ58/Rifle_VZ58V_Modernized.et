@@ -1,0 +1,59 @@
+GenericEntity : "{443CEFF17E040B11}Prefabs/Weapons/Rifles/VZ58/Rifle_VZ58V.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  MeshObject "{CFBAA4B701F95D69}" {
+   Materials {
+    MaterialAssignClass "{68F07E11931A836D}" {
+     SourceMaterial "VZ58_body_02"
+     AssignedMaterial "{B4E8592BA287FA00}Assets/Weapons/Rifles/VZ58/Data/VZ58_body_Modernised_02.emat"
+    }
+   }
+  }
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{56F0CD49BE54A5F2}" {
+     AttachmentSlot InventoryStorageSlot Stock {
+      Offset -0.0035 -0.0476 0.0848
+      MergePhysics 1
+      Prefab "{EDC34216F501F229}Prefabs/Weapons/Attachments/Stocks/Stock_AK74M_Zenit_PT1/RHS_AK74M_Stock_Zenit_PT1_base.et"
+     }
+     ShowInInspection 1
+    }
+    AttachmentSlotComponent "{68F07E0E7C4C1D2F}" {
+     AttachmentSlot InventoryStorageSlot Valdai {
+      Offset -0.0321 0.0433 0
+      MergePhysics 1
+      Prefab "{39CB6FD1854B44B6}Prefabs/Weapons/Attachments/Rails/npz_valdai_rail/npz_valdai_rail.et"
+     }
+     ShowInInspection 1
+    }
+    AttachmentSlotComponent "{68F07E1CF2DFDB1B}" {
+     AttachmentSlot InventoryStorageSlot Mount {
+      Offset -0.0178 0.0456 0.0041
+      MergePhysics 1
+      Prefab "{D87211B7CE9D89F8}Prefabs/Weapons/Attachments/Mounts/Mount_Dovetail_74N.et"
+     }
+     ShowInInspection 1
+    }
+    AttachmentSlotComponent "{68F0CCAD09A79E8A}" {
+     AttachmentSlot RHS_SlidingInventoryStorageSlot Optics {
+      PivotID "eye"
+      Offset 0 0 0.1599
+      MergePhysics 1
+      Prefab "{49CED2405ED88A44}Prefabs/Weapons/Attachments/Optics/Scopes/Optic_NPZPSU1-4x/Optic_NPZPSU1-4x_BLK.et"
+      m_fMaximumPositiveSlideOffset 0.055
+      m_fMaximumNegativeSlideOffset -0.055
+     }
+     AttachmentType AttachmentOpticsRIS1913Medium "{68F0CCA0C9BE78DD}" {
+     }
+     AttachmentObstructs 1
+     ShowInInspection 1
+    }
+   }
+   UIInfo WeaponUIInfo "{CC3BA6A2C42F09F4}" {
+    Name "VZ-58V Modernized"
+   }
+  }
+ }
+ coords 0 0.014 0
+}

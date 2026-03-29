@@ -1,0 +1,38 @@
+SCR_ChimeraCharacter : "{FC9AB05F8DEDD5FF}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_MSV80/Character_USSR_MSV80_BaseLoadout.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_Spetsnaz_Sharpshooter"
+    Icon "{0A78405E73C36477}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_Sharpshooter.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{6415B7923DE28C1B}Prefabs/Weapons/Rifles/SVD/Rifle_SVD_PSO.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Vest {
+     Prefab "{12C8933903D18885}Prefabs/Characters/Vests/Vest_SovietHarness/Variants/Vest_SovietHarness_sharpshooter.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68F6FE8C793D65CC}" {
+     Enabled 0
+     TargetStorage ""
+    }
+    ItemsInitConfigurationItem "{68F6FE8DE063E108}" {
+     TargetStorage "Vest/Vest_SovietHarness_sharpshooter.et/GrenadePouch/Vest_SovietHarness_GrenadePouch.et"
+    }
+    ItemsInitConfigurationItem "{68F6FE8DDE9F64AA}" {
+     TargetStorage "Vest/Vest_SovietHarness_sharpshooter.et/MagPouch_6Sh46/Pouch_Soviet_10rnd_SVD.et"
+     PrefabsToSpawn {
+      "{9CCB46C6EE632C1A}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_Sniper.et" "{9CCB46C6EE632C1A}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_Sniper.et" "{4A3649DFF8A3F0E3}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_Tracer.et" "{4A3649DFF8A3F0E3}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_Tracer.et"
+     }
+    }
+   }
+  }
+ }
+}

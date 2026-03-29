@@ -1,0 +1,11 @@
+SCR_ChimeraCharacter : "{07299990D00B0823}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_MSV80/Character_USSR_MSV80_BaseRifle.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Deputy Platoon Leader"
+    Icon "{A26C465A6AE2AA17}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_Leader.edds"
+   }
+  }
+ }
+}

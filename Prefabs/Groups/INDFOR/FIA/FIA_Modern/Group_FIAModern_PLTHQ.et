@@ -1,0 +1,7 @@
+SCR_AIGroup : "{000CD338713F2B5A}Prefabs/AI/Groups/Group_Base.et" {
+ ID "0000000000000001"
+ m_faction "FIA"
+ m_aUnitPrefabSlots {
+  "{24C1B8F65850B48F}Prefabs/Characters/Factions/INDFOR/FIA/FIA_Modern/Character_FIA_Modern_PL.et" "{D52A0B1A17706CB3}Prefabs/Characters/Factions/INDFOR/FIA/FIA_Modern/Character_FIA_Modern_PSG.et" "{DACDBC2150F63C39}Prefabs/Characters/Factions/INDFOR/FIA/FIA_Modern/Character_FIA_Modern_RTO.et" "{8860770F5D16681F}Prefabs/Characters/Factions/INDFOR/FIA/FIA_Modern/Character_FIA_Modern_Sharpshooter.et" "{D6D4D551E64910D9}Prefabs/Characters/Factions/INDFOR/FIA/FIA_Modern/Character_FIA_Modern_Medic.et" "{D6D4D551E64910D9}Prefabs/Characters/Factions/INDFOR/FIA/FIA_Modern/Character_FIA_Modern_Medic.et"
+ }
+}

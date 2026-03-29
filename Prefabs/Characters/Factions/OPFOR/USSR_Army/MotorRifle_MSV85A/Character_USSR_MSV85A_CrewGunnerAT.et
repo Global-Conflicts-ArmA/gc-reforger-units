@@ -1,0 +1,13 @@
+SCR_ChimeraCharacter : "{9974A7AC16AED833}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_MSV85A/Character_USSR_MSV85A_CrewBase.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Vehicle Gunner (RPG)"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{E8A55396050E1762}Prefabs/Weapons/Launchers/RPG7/Launcher_RPG7_pgo7.et"
+  }
+ }
+}

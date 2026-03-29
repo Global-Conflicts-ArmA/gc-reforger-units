@@ -1,0 +1,68 @@
+SCR_ChimeraCharacter : "{293D4D5939CE9DEC}Prefabs/Characters/Factions/INDFOR/FIA/FIA_Modern/Character_FIA_Modern_Base.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_Machinegunner"
+    Icon "{EF1F445746A3391A}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_MachineGunner.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{6885B7320FB11C18}Prefabs/Weapons/MachineGuns/UK59/MG_UK59_Modernized.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
+   WeaponTemplate "{8983A91174EE3799}Prefabs/Weapons/Handguns/Glock/Handgun_Glock45.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{B37F4B6B309CDE12}Prefabs/Characters/HeadGear/Helmet_MICH_2000/MICH_2000_4.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{6032FED0F944E61B}Prefabs/Characters/Uniforms/Jacket_PCU_L5/Jacket_PCU_L5_Green.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{16C7AD0508F53A9B}Prefabs/Items/Equipment/Backpacks/backpack_Wartech_BB102/Backpack_Wartech_BB102_OD.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{BD205C7B90BD399E}Prefabs/Characters/Vests/Vest_ALICE/Variants/Vest_ALICE_officer.et"
+    }
+    LoadoutSlotInfo Ears {
+    }
+    LoadoutSlotInfo Face {
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68EF5CCA1452C3FC}" {
+     TargetStorage "Jacket/Jacket_PCU_L5_Green.et"
+    }
+    ItemsInitConfigurationItem "{68F28386BAC58AE2}" {
+     PrefabsToSpawn + {
+      "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et" "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68F20E1286FCE52F}" {
+     TargetStorage "Vest/Vest_ALICE_officer.et/Suspenders/Vest_ALICE_suspenders_1.et"
+     TargetPurpose 64
+     PrefabsToSpawn {
+      "{575EA58E67448C2A}Prefabs/Items/Equipment/Flashlights/Flashlight_Soviet_01/Flashlight_Soviet_01.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68F20E12970264A8}" {
+     TargetStorage "Vest/Vest_ALICE_officer.et"
+     PrefabsToSpawn {
+      "{F20D1122BC5CD9F2}Prefabs/Weapons/Magazines/glock_magazine/Magazine_9x19_Glock_17rnd.et" "{F20D1122BC5CD9F2}Prefabs/Weapons/Magazines/glock_magazine/Magazine_9x19_Glock_17rnd.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68F20E129961647E}" {
+     TargetStorage "Back/Backpack_Wartech_BB102_OD.et"
+     PrefabsToSpawn {
+      "{03094E059B554A9C}Prefabs/Weapons/Magazines/UK59/Box_762x54_UK59_50rnd_4Ball_1Tracer.et" "{03094E059B554A9C}Prefabs/Weapons/Magazines/UK59/Box_762x54_UK59_50rnd_4Ball_1Tracer.et" "{03094E059B554A9C}Prefabs/Weapons/Magazines/UK59/Box_762x54_UK59_50rnd_4Ball_1Tracer.et" "{03094E059B554A9C}Prefabs/Weapons/Magazines/UK59/Box_762x54_UK59_50rnd_4Ball_1Tracer.et" "{03094E059B554A9C}Prefabs/Weapons/Magazines/UK59/Box_762x54_UK59_50rnd_4Ball_1Tracer.et"
+     }
+    }
+   }
+  }
+ }
+}

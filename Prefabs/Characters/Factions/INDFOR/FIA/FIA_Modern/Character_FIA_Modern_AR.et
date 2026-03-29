@@ -1,0 +1,72 @@
+SCR_ChimeraCharacter : "{293D4D5939CE9DEC}Prefabs/Characters/Factions/INDFOR/FIA/FIA_Modern/Character_FIA_Modern_Base.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_AutomaticRifleman"
+    Icon "{EF1F445746A3391A}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_MachineGunner.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   AttachType InventoryStorageSlot "{0C3DA650B52E120B}" {
+   }
+   WeaponTemplate "{102AC2A328B1229E}Prefabs/Weapons/MachineGuns/RPD/BC_RPD.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{6BD722AA4915C04E}Prefabs/Characters/HeadGear/Helmet_MICH_2000/MICH_2000_2.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{1D62465947881196}Prefabs/Characters/Uniforms/Shirt_TShirt_v1/Shirt_TShirt_v1_OD.et"
+    }
+    LoadoutSlotInfo Back {
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{156DC7109CEE6F69}Prefabs/Characters/Vests/Vest_ALICE/Variants/Vest_ALICE_AR.et"
+    }
+    LoadoutSlotInfo Eyes {
+    }
+    LoadoutSlotInfo Face {
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68EF5CCA1452C3FC}" {
+     TargetStorage "Pants/Pants_FROG_M81.et"
+    }
+    ItemsInitConfigurationItem "{68F28386BAC58AE2}" {
+     PrefabsToSpawn + {
+      "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et" "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68F15A4B91A7F24D}" {
+     TargetStorage "Vest/Vest_ALICE_AR.et/MagPouch/Pouch_ALICE_200rnd_M249.et"
+     PrefabsToSpawn {
+      "{B9006AD5B5EDF4C1}Prefabs/Weapons/Magazines/BC_Drum_762x39_RPD_100rnd_Mixed.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68F15A4BB4697C6D}" {
+     TargetStorage "Vest/Vest_ALICE_AR.et/MagPouch2/Pouch_ALICE_200rnd_M249.et"
+     PrefabsToSpawn {
+      "{B9006AD5B5EDF4C1}Prefabs/Weapons/Magazines/BC_Drum_762x39_RPD_100rnd_Mixed.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68F15A4BBC3FF159}" {
+     TargetStorage "Vest/Vest_ALICE_AR.et/Buttpack/Vest_ALICE_buttpack.et"
+     PrefabsToSpawn {
+      "{B9006AD5B5EDF4C1}Prefabs/Weapons/Magazines/BC_Drum_762x39_RPD_100rnd_Mixed.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68F283B65C545ADF}" {
+     TargetStorage "Vest/Vest_ALICE_AR.et/Suspenders/Vest_ALICE_suspenders_2.et"
+     TargetPurpose 64
+     PrefabsToSpawn {
+      "{575EA58E67448C2A}Prefabs/Items/Equipment/Flashlights/Flashlight_Soviet_01/Flashlight_Soviet_01.et"
+     }
+    }
+   }
+  }
+ }
+}

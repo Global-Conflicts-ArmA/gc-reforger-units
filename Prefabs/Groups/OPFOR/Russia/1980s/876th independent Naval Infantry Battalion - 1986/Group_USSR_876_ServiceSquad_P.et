@@ -1,4 +1,4 @@
-SCR_AIGroup : "{8DE9E967FADD9FEF}Prefabs/Groups/OPFOR/USSR/SovietArmy_MotorRiflesBTR_1980ish/Group_USSR_MSV80_MotRiflePHQ.et" {
+SCR_AIGroup : "{8DE0C0830FE0C33D}Prefabs/Groups/OPFOR/Group_USSR_Base.et" {
  ID "0000000000000001"
  m_aUnitPrefabSlots {
   "{F676F60776483178}Prefabs/Characters/Factions/OPFOR/USSR_Army/Specific Units/876th independent Naval Infantry Battalion - 1986/Character_876_Platoon_Leader_P.et" "{89D3EB58B70D16BD}Prefabs/Characters/Factions/OPFOR/USSR_Army/Specific Units/876th independent Naval Infantry Battalion - 1986/Character_876_Chef_P.et" "{89D3EB58B70D16BD}Prefabs/Characters/Factions/OPFOR/USSR_Army/Specific Units/876th independent Naval Infantry Battalion - 1986/Character_876_Chef_P.et" "{06401C9475537901}Prefabs/Characters/Factions/OPFOR/USSR_Army/Specific Units/876th independent Naval Infantry Battalion - 1986/Character_876_Mechanic_P.et" "{06401C9475537901}Prefabs/Characters/Factions/OPFOR/USSR_Army/Specific Units/876th independent Naval Infantry Battalion - 1986/Character_876_Mechanic_P.et"

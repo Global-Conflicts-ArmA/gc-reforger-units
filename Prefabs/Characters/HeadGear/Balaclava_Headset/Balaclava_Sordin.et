@@ -1,0 +1,16 @@
+GameEntity : "{7621C7D9145AF8D5}Prefabs/Characters/HeadGear/Balaclavas/Balaclava_v1/Balaclava_v1_OD.et" {
+ ID "5112706CD4157AC7"
+ components {
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    RHS_LoadoutSlotInfo Headset {
+     Prefab "{2162B5F1B9F5F6BB}Prefabs/Characters/HeadGear/Headphones_Sordin_Liberator/Headphones_Sordin_base.et"
+     AreaType LoadoutHeadCoverArea "{68F283B2E1B5301C}" {
+     }
+     m_sInspectIconTexture "{EA640FDAF6A450BD}UI/Textures/InventoryIcons/Inspection-gizmo-headset-slot-UI.edds"
+    }
+   }
+  }
+ }
+ coords 4778.686 23.702 12033.094
+}

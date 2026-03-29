@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{0C8152D8D8F591FF}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_MSV80/Character_USSR_MSV80_CrewDriver.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

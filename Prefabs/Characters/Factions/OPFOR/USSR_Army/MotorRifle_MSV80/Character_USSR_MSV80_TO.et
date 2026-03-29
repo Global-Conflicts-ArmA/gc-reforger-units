@@ -1,0 +1,44 @@
+SCR_ChimeraCharacter : "{FC9AB05F8DEDD5FF}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_MSV80/Character_USSR_MSV80_BaseLoadout.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Technical Officer"
+    Icon "{A489F552FB7489C3}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_Custom.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
+   WeaponTemplate "{C0F7DD85A86B2900}Prefabs/Weapons/Handguns/PM/Handgun_PM.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Vest {
+     Prefab "{D8DDD4941197A929}Prefabs/Characters/Vests/Vest_SovietHarness/Variants/Vest_SovietHarness_Commander.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68F6FE8C62E31C68}" {
+     PrefabsToSpawn + {
+      "{E1A5D4B878AA8980}Prefabs/Items/Equipment/Radios/RU/Radio_R148.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68F6FE8C793D65CC}" {
+     Enabled 0
+    }
+    ItemsInitConfigurationItem "{68F6FE8DE063E108}" {
+     TargetStorage "Vest/Vest_SovietHarness_Commander.et/GrenadePouch/Vest_SovietHarness_GrenadePouch.et"
+    }
+    ItemsInitConfigurationItem "{68F6FE8DDE9F64AA}" {
+     TargetStorage "Vest/Vest_SovietHarness_Commander.et/MagPouch_6Sh46/Pouch_Soviet_30rnd_AK74.et"
+     PrefabsToSpawn {
+      "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et" "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et" "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et" "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et"
+     }
+    }
+   }
+  }
+ }
+}

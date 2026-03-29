@@ -1,0 +1,7 @@
+SCR_AIGroup : "{000CD338713F2B5A}Prefabs/AI/Groups/Group_Base.et" {
+ ID "0000000000000001"
+ m_faction "FIA"
+ m_aUnitPrefabSlots {
+  "{BDDF016F45B7851F}Prefabs/Characters/Factions/INDFOR/FIA/FIA_Modern/Character_FIA_Modern_SL.et" "{82402E6A197C33EF}Prefabs/Characters/Factions/INDFOR/FIA/FIA_Modern/Character_FIA_Modern_MG.et" "{8CE985A55CDDD8BF}Prefabs/Characters/Factions/INDFOR/FIA/FIA_Modern/Character_FIA_Modern_AMG.et" "{82402E6A197C33EF}Prefabs/Characters/Factions/INDFOR/FIA/FIA_Modern/Character_FIA_Modern_MG.et" "{8CE985A55CDDD8BF}Prefabs/Characters/Factions/INDFOR/FIA/FIA_Modern/Character_FIA_Modern_AMG.et" "{08FF99B10EBA3950}Prefabs/Characters/Factions/INDFOR/FIA/FIA_Modern/Character_FIA_Modern_MAT.et" "{C819D0C6FC3FD4E8}Prefabs/Characters/Factions/INDFOR/FIA/FIA_Modern/Character_FIA_Modern_AMAT.et" "{08FF99B10EBA3950}Prefabs/Characters/Factions/INDFOR/FIA/FIA_Modern/Character_FIA_Modern_MAT.et" "{C819D0C6FC3FD4E8}Prefabs/Characters/Factions/INDFOR/FIA/FIA_Modern/Character_FIA_Modern_AMAT.et"
+ }
+}

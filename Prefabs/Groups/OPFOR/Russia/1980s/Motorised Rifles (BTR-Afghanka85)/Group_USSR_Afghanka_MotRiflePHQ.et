@@ -1,6 +1,0 @@
-SCR_AIGroup : "{8DE0C0830FE0C33D}Prefabs/Groups/OPFOR/Group_USSR_Base.et" {
- ID "0000000000000001"
- m_aUnitPrefabSlots {
-  "{ECB5E6520057FF89}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_Afghanka_1985/Character_USSR_Afghanka_PlatoonLeader.et" "{4318B010D29F4E99}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_Afghanka_1985/Character_USSR_Afghanka_DeputyPL.et" "{60F78BEFD940423D}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_Afghanka_1985/Character_USSR_Afghanka_Medic.et"
- }
-}

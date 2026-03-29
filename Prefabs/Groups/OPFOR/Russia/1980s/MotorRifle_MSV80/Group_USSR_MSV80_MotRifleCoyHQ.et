@@ -1,0 +1,7 @@
+SCR_AIGroup : "{8DE0C0830FE0C33D}Prefabs/Groups/OPFOR/Group_USSR_Base.et" {
+ ID "0000000000000001"
+ m_aUnitPrefabSlots {
+  "{8558FB262DBF1D64}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_MSV80/Character_USSR_MSV80_CoyCdr.et" "{3C7561AD348B68EA}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_MSV80/Character_USSR_MSV80_PO.et" "{E45601E61BEC3F6F}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_MSV80/Character_USSR_MSV80_TO.et" "{308B7EF638B4FD35}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_MSV80/Character_USSR_MSV80_1SG.et" "{5888F75B9942CE7D}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_MSV80/Character_USSR_MSV80_RTO.et" "{D1BA3D1164545A8D}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_1980/Character_USSR_MSV80_Medic_P.et" "{A491F9108F01E180}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_MSV80/Character_USSR_MSV80_Rifleman.et" "{EBAAF538F0029853}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_MSV80/Character_USSR_MSV80_CrewGunner.et" "{0C8152D8D8F591FF}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_MSV80/Character_USSR_MSV80_CrewDriver.et"
+ }
+ m_sCustomNameSet "Company HQ"
+}

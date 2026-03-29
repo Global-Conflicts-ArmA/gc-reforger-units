@@ -1,0 +1,20 @@
+GenericEntity : "{3EAEC001975FE327}Prefabs/Weapons/Rifles/VZ58/Rifle_VZ58V_Modernized.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{56F0CD49BE54A5F2}" {
+     AttachmentSlot InventoryStorageSlot Stock {
+      Offset 0 -0.0012 0.0013
+      Prefab "{AD045AFAFFC1AB6E}Prefabs/Weapons/Attachments/Stocks/Stock_VZ58/Stock_VZ58_folding.et"
+     }
+    }
+    AttachmentSlotComponent "{68F0CCAD09A79E8A}" {
+     AttachmentSlot RHS_SlidingInventoryStorageSlot Optics {
+      Prefab ""
+     }
+    }
+   }
+  }
+ }
+}

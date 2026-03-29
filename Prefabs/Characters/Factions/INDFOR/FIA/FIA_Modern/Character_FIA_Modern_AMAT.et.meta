@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{C819D0C6FC3FD4E8}Prefabs/Characters/Factions/INDFOR/FIA/FIA_Modern/Character_FIA_Modern_AMAT.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

@@ -1,0 +1,16 @@
+GameEntity : "{11B2F0B0EF04A033}Prefabs/Characters/HeadGear/Helmet_MICH_ACH/Helmet_MICH2000_green_dark.et" {
+ ID "50D485E1435D6C72"
+ components {
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    RHS_LoadoutSlotInfo Masks {
+     Prefab "{DBFF84DD336E1065}Prefabs/Characters/HeadGear/Masks/Masks_Keela_Snood/Masks_Keela_Snood_GRN.et"
+    }
+    RHS_LoadoutSlotInfo Headset {
+     Prefab "{2162B5F1B9F5F6BB}Prefabs/Characters/HeadGear/Headphones_Sordin_Liberator/Headphones_Sordin_base.et"
+    }
+   }
+  }
+ }
+ coords 4776.424 23.706 12032.841
+}

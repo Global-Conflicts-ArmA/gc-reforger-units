@@ -1,0 +1,22 @@
+GenericEntity : "{026CE108BFB3EC03}Prefabs/Weapons/MachineGuns/UK59/MG_UK59.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  MeshObject "{CFBAA4B701F95D69}" {
+   Materials {
+    MaterialAssignClass "{68F20E16329BA028}" {
+     SourceMaterial "UK59_Wood"
+     AssignedMaterial "{50D6DF20B98CD44A}Assets/Weapons/MachineGuns/UK59/Data/UK59_Wood_Modernized.emat"
+    }
+   }
+  }
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{B502E4DC8A9E835E}" {
+     AttachmentSlot InventoryStorageSlot optics {
+      Prefab "{886A96EF3F14BCD2}Prefabs/Weapons/Attachments/Optics/UK59_4x8/Optic_UK59_4x8.et"
+     }
+    }
+   }
+  }
+ }
+}

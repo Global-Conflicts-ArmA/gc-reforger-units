@@ -1,0 +1,17 @@
+GameEntity : "{11B2F0B0EF04A033}Prefabs/Characters/HeadGear/Helmet_MICH_ACH/Helmet_MICH2000_green_dark.et" {
+ ID "50D485E1435D6C72"
+ components {
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    RHS_LoadoutSlotInfo Goggles {
+     Prefab "{608F66AB8B36B85D}Prefabs/Characters/Eyewear/crossbow/Eyewear_ess_crossbow_blk.et"
+    }
+    RHS_LoadoutSlotInfo Masks {
+    }
+    RHS_LoadoutSlotInfo Headset {
+    }
+   }
+  }
+ }
+ coords 4776.424 23.706 12032.841
+}

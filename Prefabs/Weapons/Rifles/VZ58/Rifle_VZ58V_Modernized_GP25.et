@@ -1,0 +1,42 @@
+GenericEntity : "{3B8F32BF6FCB9C09}Prefabs/Weapons/Rifles/VZ58/Rifle_VZ58V_Modernized_E512.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{61087405141EB148}" {
+     AttachmentSlot InventoryStorageSlot "{610874056E7424A6}" {
+      Enabled 0
+     }
+     ShowInInspection 0
+    }
+    AttachmentSlotComponent "{68F07E0E7C4C1D2F}" {
+     AttachmentSlot InventoryStorageSlot Valdai {
+      MergePhysics 1
+     }
+     ShowInInspection 1
+    }
+    AttachmentSlotComponent "{68F07E1CF2DFDB1B}" {
+     AttachmentSlot InventoryStorageSlot Mount {
+      MergePhysics 1
+     }
+     ShowInInspection 1
+    }
+    AttachmentSlotComponent "{68F0CCAD09A79E8A}" {
+     AttachmentSlot RHS_SlidingInventoryStorageSlot Optics {
+      Prefab ""
+     }
+    }
+    AttachmentSlotComponent "{68F15A5DCF24EB70}" {
+     AttachmentSlot InventoryStorageSlot GP25 {
+      PivotID "slot_underbarrel"
+      Offset 0 -0.0371 -0.2211
+      Prefab "{1ABABE3551512B0A}Prefabs/Weapons/Attachments/Underbarrel/UGL_GP25.et"
+     }
+     AttachmentType AttachmentUnderBarrelGP25 "{68F15A5DCF24EB00}" {
+     }
+     ShowInInspection 1
+    }
+   }
+  }
+ }
+}

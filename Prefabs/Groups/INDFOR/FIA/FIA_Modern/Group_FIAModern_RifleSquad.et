@@ -1,0 +1,7 @@
+SCR_AIGroup : "{000CD338713F2B5A}Prefabs/AI/Groups/Group_Base.et" {
+ ID "0000000000000001"
+ m_faction "FIA"
+ m_aUnitPrefabSlots {
+  "{BDDF016F45B7851F}Prefabs/Characters/Factions/INDFOR/FIA/FIA_Modern/Character_FIA_Modern_SL.et" "{BA18FB3E23313FDC}Prefabs/Characters/Factions/INDFOR/FIA/FIA_Modern/Character_FIA_Modern_TL.et" "{D057F0707733270C}Prefabs/Characters/Factions/INDFOR/FIA/FIA_Modern/Character_FIA_Modern_AR.et" "{846940A5DE2325BC}Prefabs/Characters/Factions/INDFOR/FIA/FIA_Modern/Character_FIA_Modern_Rifleman_Ammo.et" "{2697B58B16973BA2}Prefabs/Characters/Factions/INDFOR/FIA/FIA_Modern/Character_FIA_Modern_Rifleman.et" "{BA18FB3E23313FDC}Prefabs/Characters/Factions/INDFOR/FIA/FIA_Modern/Character_FIA_Modern_TL.et" "{143CB810C1537892}Prefabs/Characters/Factions/INDFOR/FIA/FIA_Modern/Character_FIA_Modern_Rifleman_LAT.et" "{143CB810C1537892}Prefabs/Characters/Factions/INDFOR/FIA/FIA_Modern/Character_FIA_Modern_Rifleman_LAT.et" "{2697B58B16973BA2}Prefabs/Characters/Factions/INDFOR/FIA/FIA_Modern/Character_FIA_Modern_Rifleman.et"
+ }
+}

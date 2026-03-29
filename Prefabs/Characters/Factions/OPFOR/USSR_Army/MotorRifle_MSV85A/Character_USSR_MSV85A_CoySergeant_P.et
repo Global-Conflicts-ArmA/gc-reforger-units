@@ -1,0 +1,19 @@
+SCR_ChimeraCharacter : "{4318B010D29F4E99}Prefabs/Characters/Factions/OPFOR/USSR_Army/MSV85A/Character_USSR_MSV85A_DeputyPL.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Company Sergeant"
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{5D7CC173E6675BF7}" {
+     PrefabsToSpawn + {
+      "{E1A5D4B878AA8980}Prefabs/Items/Equipment/Radios/RU/Radio_R148.et"
+     }
+    }
+   }
+  }
+ }
+}

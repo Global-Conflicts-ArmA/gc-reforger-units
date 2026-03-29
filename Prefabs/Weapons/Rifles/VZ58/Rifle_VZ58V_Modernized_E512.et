@@ -1,0 +1,14 @@
+GenericEntity : "{3EAEC001975FE327}Prefabs/Weapons/Rifles/VZ58/Rifle_VZ58V_Modernized.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{68F0CCAD09A79E8A}" {
+     AttachmentSlot RHS_SlidingInventoryStorageSlot Optics {
+      Prefab "{D98BC2AA4912629B}Prefabs/Weapons/Attachments/Optics/Collimators/Optic_Eotech512/Collim_EOTech512.et"
+     }
+    }
+   }
+  }
+ }
+}
