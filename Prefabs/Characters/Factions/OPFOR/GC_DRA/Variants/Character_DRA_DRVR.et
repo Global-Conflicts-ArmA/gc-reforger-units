@@ -12,7 +12,7 @@ SCR_ChimeraCharacter : "{1DDEC7E6A5E8547B}Prefabs/Characters/Factions/OPFOR/GC_D
   CharacterGrenadeSlotComponent "{5A6CDA0CCF43068E}" {
    WeaponTemplate "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
   }
-  CharacterHandWeaponSlotComponent "{5C9CA35B6F6B604C}" {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
    WeaponTemplate "{C0F7DD85A86B2900}Prefabs/Weapons/Handguns/PM/Handgun_PM.et"
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
