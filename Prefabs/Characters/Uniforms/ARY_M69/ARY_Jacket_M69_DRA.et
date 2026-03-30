@@ -75,7 +75,7 @@ GameEntity : "{B89432A8B5F489E5}Prefabs/Characters/Core/Uniform_Base.et" {
    }
    WornModel "{BED89CC9F6E500FD}Assets/Characters/Uniforms/ARY_M69/ARY_M69_Jacket_ClosedCollar_02.xob"
    WornMaterialsOverride {
-    "{15ECBB026D97F41A}Assets/Characters/Uniforms/ARY_M69/Data/ARY_MI_Uniform_Soviet_M69_Jacket_Closed.emat" ""
+    "{15ECBB026D97F41A}Assets/Characters/Uniforms/ARY_M69/Data/ARY_MI_Uniform_Soviet_M69_Jacket_Closed.emat" "{20423A08AEEC971A}Common/MakeThingInvisible.emat"
    }
    ItemModel "{7588FEB4604E234C}Assets/Characters/Uniforms/Jacket_M88/Jacket_M88_01_item.xob"
    SoundInt 320

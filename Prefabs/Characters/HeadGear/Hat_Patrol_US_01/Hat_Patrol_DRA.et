@@ -1,0 +1,29 @@
+GameEntity : "{F516AD5284661632}Prefabs/Characters/HeadGear/Hat_Patrol_US_01/Hat_Patrol_US_01_base.et" {
+ ID "5112706CD4157AC7"
+ components {
+  MeshObject "{5112706CD4157AE0}" {
+   Materials {
+    MaterialAssignClass "{68FCE5F3630B9ED5}" {
+     SourceMaterial "Hat_Patrol_US_01"
+     AssignedMaterial "{AF829E0B699FF901}Assets/Characters/HeadGear/Hat_Patrol_US_01/Data/Hat_Patrol_DRA.emat"
+    }
+   }
+  }
+  SCR_HeadgearInventoryItemComponent "{5244E4431E28A759}" {
+   Attributes SCR_ItemAttributeCollection "{5244E4431DA56D64}" {
+    ItemDisplayName UIInfo "{5244E443130B31B9}" {
+     Name "#AR-Headgear_PatrolCap_Olive_Name"
+     Description "#AR-Headgear_PatrolCap_Olive_Description"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   WornMaterialsOverride {
+    "{AF829E0B699FF901}Assets/Characters/HeadGear/Hat_Patrol_US_01/Data/Hat_Patrol_DRA.emat"
+   }
+   ItemMaterialsOverride {
+    "{254D1C369344DC06}Assets/Characters/HeadGear/Hat_Patrol_US_01/Data/Hat_Patrol_US_02.emat"
+   }
+  }
+ }
+}
