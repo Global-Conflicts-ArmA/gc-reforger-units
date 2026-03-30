@@ -3,7 +3,7 @@ SCR_ChimeraCharacter : "{94A539BDAA23E270}Prefabs/Characters/Factions/OPFOR/GC_D
  components {
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
-    Name "Platoon Leader"
+    Name "Platoon Commander"
    }
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
