@@ -12,15 +12,12 @@ SCR_ChimeraCharacter : "{FC9AB05F8DEDD5FF}Prefabs/Characters/Factions/OPFOR/USSR
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Vest {
-     Prefab "{D562ED744D4BFB7E}Prefabs/Characters/Vests/Vest_SovietHarness/Variants/Vest_SovietHarness_assembled.et"
+     Prefab ""
     }
    }
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
-    ItemsInitConfigurationItem "{68F6FE8C793D65CC}" {
-     Enabled 0
-    }
     ItemsInitConfigurationItem "{68F6FE8DE063E108}" {
      Enabled 0
     }

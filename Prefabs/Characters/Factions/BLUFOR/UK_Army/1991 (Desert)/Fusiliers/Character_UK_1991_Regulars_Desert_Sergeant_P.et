@@ -51,6 +51,9 @@ SCR_ChimeraCharacter : "{EF8064CC488769E5}Prefabs/Characters/Factions/BLUFOR/UK_
     }
     ItemsInitConfigurationItem "{627950EAB8C5004A}" {
     }
+    ItemsInitConfigurationItem "{68FD44F26EB93301}" {
+     TargetStorage "Pants/Trousers_Tropical_DesertDPM_01.et"
+    }
     ItemsInitConfigurationItem "{64A8AB40750482B2}" {
      TargetStorage "Pants/Trousers_Tropical_DesertDPM_01.et"
     }

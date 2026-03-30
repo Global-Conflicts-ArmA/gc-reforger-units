@@ -1,0 +1,80 @@
+SCR_ChimeraCharacter : "{27980A12C15BC602}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2011/Navy SEALs/Character_RHS_USA_SEAL_2011_AOR1_Base.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_PlatoonLeader"
+    Icon "{A26C465A6AE2AA17}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_Leader.edds"
+    m_Image "{5C92C24A210379B3}UI/Textures/EditorPreviews/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MARSOC/Character_RHS_USAF_MARSOC_SL.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{56459BA1E93B435B}Prefabs/Weapons/Rifles/M4A1/Rifle_M4A1_MK18_Eot_SD.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{CEE549AB5D10AD92}Prefabs/Characters/HeadGear/Helmet_OPSCORE/Helmet_OPSCORE_LBH_AOR1_Amp.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{95B24FABFC6D040C}Prefabs/Characters/Vests/Vest_JPC/variants/Vest_JPC_okinawa_Coy5.et"
+    }
+    LoadoutSlotInfo Neck {
+     Prefab "{29BA8EECE1EFD977}Prefabs/Characters/HeadGear/Hat_FlatCap_01/Scarf_1.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68F2D00D37C571D2}" {
+     TargetStorage "Vest/Vest_JPC_okinawa_Coy5.et/Pouch1/Pouch_avs_front_elastic_Coy.et"
+     PrefabsToSpawn {
+      "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et" "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et" "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68F2D00D37C571E0}" {
+     TargetStorage "Vest/Vest_JPC_okinawa_Coy5.et/Tako/Pouch_FILBE_doubleM4_2.et"
+     PrefabsToSpawn {
+      "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et" "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68F2D00D37C571E3}" {
+     TargetStorage "Vest/Vest_JPC_okinawa_Coy5.et/tako/Pouch_FILBE_doubleM4_3.et"
+     PrefabsToSpawn {
+      "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et" "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68F2D00D37C571E2}" {
+     TargetStorage "Vest/Vest_JPC_okinawa_Coy5.et/Tako2/Pouch_Shaw_Flex.et"
+     PrefabsToSpawn {
+      "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68F2D00D37C5A0E8}" {
+     TargetStorage "Vest/Vest_JPC_okinawa_Coy5.et/m67_1/Pouch_Filbe_M67_2.et"
+     PrefabsToSpawn {
+      "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68F2D00D37C5A0EE}" {
+     TargetStorage "Vest/Vest_JPC_okinawa_Coy5.et/m67_2/Pouch_Filbe_M67_Base.et"
+     PrefabsToSpawn {
+      "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68F2D00D37C5A0ED}" {
+     TargetStorage "Vest/Vest_JPC_okinawa_Coy5.et/m18_1/Pouch_Filbe_M18_1.et"
+     PrefabsToSpawn {
+      "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68F2D00D37C5A0EC}" {
+     TargetStorage "Vest/Vest_JPC_okinawa_Coy5.et/m18_2/Pouch_Filbe_M18_2.et"
+     PrefabsToSpawn {
+      "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
+     }
+    }
+   }
+  }
+ }
+}

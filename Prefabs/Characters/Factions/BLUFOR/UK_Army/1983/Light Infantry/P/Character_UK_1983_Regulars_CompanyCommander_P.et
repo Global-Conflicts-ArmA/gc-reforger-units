@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{1958315C7F55F1AA}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Light Infantry/Character_UK_1983_Regulars_PlatoonLeader.et" {
+SCR_ChimeraCharacter : "{1958315C7F55F1AA}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Regulars/Character_UK_1983_Regulars_PlatoonLeader.et" {
  ID "520EC961A090B1EE"
  components {
   PS_PlayableComponent "{5EFCC1946F475F15}" {
@@ -34,6 +34,12 @@ SCR_ChimeraCharacter : "{1958315C7F55F1AA}Prefabs/Characters/Factions/BLUFOR/UK_
     ItemsInitConfigurationItem "{610CC31278A75ED6}" {
      PrefabsToSpawn {
       "{9361BEC03E52E6F8}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_White.et" "{CE4BDC1B0C4C6965}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_Orange.et" "{5D694BB6F4A3819B}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_Green.et" "{9361BEC03E52E6F8}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_White.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68FD44F1BE6221CE}" {
+     TargetStorage "Pants/Trousers_Combat_68Pat_DPM_01.et"
+     PrefabsToSpawn {
+      "{1A7FE1AC9E645F27}Prefabs/Items/Equipment/Radios/UK/Radio_PRC349.et"
      }
     }
    }

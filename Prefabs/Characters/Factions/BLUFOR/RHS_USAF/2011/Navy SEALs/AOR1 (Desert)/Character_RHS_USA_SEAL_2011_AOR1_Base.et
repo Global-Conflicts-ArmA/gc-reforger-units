@@ -1,0 +1,61 @@
+SCR_ChimeraCharacter : "{B889387E9A33D667}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_Army/Character_RHS_USA_BaseLoadout.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot WristwatchSlot {
+       Prefab "{BA797E21280024B8}Prefabs/Items/Equipment/Watches/Watch_Garmin_Foretrex401.et"
+      }
+     }
+    }
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
+   WeaponTemplate "{1353C6EAD1DCFE43}Prefabs/Weapons/Handguns/M9/Handgun_M9.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{BE9D3BFE3682D196}Prefabs/Characters/HeadGear/Helmet_OPSCORE/Helmet_OPSCORE_LBH_AOR1_Liberator.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{96A2BB680BF369B9}Prefabs/Characters/Uniforms/Crye_shirt/Crye_G3_Shirt_AOR1.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{C4FEAEB4AAA7B6B2}Prefabs/Characters/Vests/Vest_JPC/Vest_JPC_Coy.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{010C6089A09A83B0}Prefabs/Characters/Uniforms/Crye_pants/Crye_G3_Pants_AOR1.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{F68F4352DA8882E6}Prefabs/Characters/Footwear/CombatBoots_Rocky_S2Vs.et"
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab "{C37319084759FB90}Prefabs/Characters/Handwear/Gloves_MechanixMpact/Gloves_mpack.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6063106CCCB65707}" {
+     TargetStorage "Pants/Crye_G3_Pants_AOR1.et"
+     PrefabsToSpawn {
+      "{D69684663E89D6EA}Prefabs/Items/Equipment/Radios/US/Radio_ANPRC152A_OLD.et" "{61D4F80E49BF9B12}Prefabs/Items/Equipment/Compass/Compass_SY183.et" "{13772C903CB5E4F7}Prefabs/Items/Equipment/Maps/PaperMap_01_folded.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{632CAEF08C102091}Prefabs/Items/Medicine/Splint_01/GC_Splint_01_Base.et" "{B3F2B47340817ED6}Prefabs/Items/ACE_Facepaint_01_US.et" "{6E35D94130954509}Prefabs/Items/Equipment/Accessories/ETool_ALICE/ETool_ALICE_FreeRoamBuilding_Gadget.et" "{9C05543A503DB80E}Prefabs/Weapons/Magazines/Magazine_9x19_M9_15rnd_Ball.et" "{B7BA7694F821F556}Prefabs/Items/Equipment/Nightvision/PVS14/NVG_PVS14Dual.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6063106CCCB65709}" {
+     TargetStorage "Jacket/Crye_G3_Shirt_AOR1.et"
+     TargetPurpose 1
+    }
+    ItemsInitConfigurationItem "{68EE98B324438303}" {
+     TargetStorage "Jacket/Crye_G3_Shirt_AOR1.et"
+     PrefabsToSpawn {
+      "{F72A8745457018B2}Prefabs/Characters/HeadGear/Hat_USMC_Boonie/Hat_USMC_Boonie.et"
+     }
+    }
+   }
+  }
+ }
+}

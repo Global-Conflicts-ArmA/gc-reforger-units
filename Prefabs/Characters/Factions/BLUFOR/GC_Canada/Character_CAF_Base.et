@@ -7,7 +7,7 @@ SCR_ChimeraCharacter : "{37578B1666981FCE}Prefabs/Characters/Core/Character_Base
    }
   }
   SCR_CharacterFactionAffiliationComponent "{688B64AFCEF31092}" {
-   "faction affiliation" "US"
+   "faction affiliation" "GC_CAF"
   }
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
@@ -19,23 +19,6 @@ SCR_ChimeraCharacter : "{37578B1666981FCE}Prefabs/Characters/Core/Character_Base
      ENTITYTYPE_CHARACTER FACTION_GC_CAF
     }
     m_aAutoLabels {
-    }
-   }
-  }
-  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
-   WeaponSlotIndex 0
-  }
-  CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
-   WeaponSlotIndex 1
-  }
-  SCR_CharacterIdentityComponent "{5584CBC63E092DBC}" {
-   Identity Identity "{5584CBC6363C648B}" {
-    VisualIdentity VisualIdentity "{56E6D9456009D1C4}" {
-     Head "{04F4D8CBA36A534B}Prefabs/Characters/Heads/Head_Black_02.et"
-     Body "{6253161EEAB88EAB}Prefabs/Characters/Basebody/CharacterBasebody_Black_02.et"
-    }
-    SoundIdentity SoundIdentity "{56E6D945D8F79290}" {
-     VoiceID 0
     }
    }
   }

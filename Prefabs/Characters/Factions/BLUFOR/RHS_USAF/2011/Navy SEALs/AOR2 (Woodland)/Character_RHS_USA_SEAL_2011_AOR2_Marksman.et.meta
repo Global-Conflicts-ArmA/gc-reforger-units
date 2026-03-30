@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{3F13540AA823A98F}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2011/Navy SEALs/AOR1 (Desert)/Character_RHS_USA_SEAL_2011_AOR2_Marksman.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

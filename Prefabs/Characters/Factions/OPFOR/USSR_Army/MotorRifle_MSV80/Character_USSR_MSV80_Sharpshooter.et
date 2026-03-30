@@ -19,9 +19,6 @@ SCR_ChimeraCharacter : "{988CF71569AF6A37}Prefabs/Characters/Factions/OPFOR/USSR
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
-    ItemsInitConfigurationItem "{68F6FE8C793D65CC}" {
-     TargetStorage ""
-    }
     ItemsInitConfigurationItem "{68F6FE8DE063E108}" {
      TargetStorage "Vest/Vest_SovietHarness_sharpshooter.et/GrenadePouch/Vest_SovietHarness_GrenadePouch.et"
     }
