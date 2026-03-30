@@ -1,0 +1,32 @@
+SCR_ChimeraCharacter : "{03F5AE0263BCDDDF}Prefabs/Characters/Factions/OPFOR/GC_DRA/Variants/Character_DRA_AKM_RF.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Vehicle Gunner"
+    Icon "{A489F552FB7489C3}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_Custom.edds"
+   }
+   m_VariantData SCR_EditableEntityVariantData "{68FD52F4B303DEC2}" {
+    m_bRandomizeDefaultVariant 0
+    m_aVariants {
+     SCR_EditableEntityVariant "{68FD52F4B3D249D6}" {
+      m_sVariantPrefab "{4099107D06B1C615}Prefabs/Characters/Factions/OPFOR/GC_DRA/Variants/Character_DRA_AKM_GNR.et"
+     }
+     SCR_EditableEntityVariant "{68FD52F4B01F3E58}" {
+      m_sVariantPrefab "{7D7F9B6374EDC147}Prefabs/Characters/Factions/OPFOR/GC_DRA/Variants/Character_DRA_PPSH_GNR.et"
+     }
+    }
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{D6B1ACA46036E9CE}Prefabs/Characters/HeadGear/Helmet_TSh4_01/Helmet_TSh4_01_open.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{54C68E438DD34265}Prefabs/Items/Equipment/Radios/RU/Radio_R107M.et"
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,36 @@
+SCR_ChimeraCharacter : "{9CFBB2C26A3E649B}Prefabs/Characters/Factions/OPFOR/GC_DRA/Variants/Character_DRA_AKM_SR.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot {
+       Prefab "{F2539FA5706E51E4}Prefabs/Items/Equipment/Binoculars/Binoculars_B12/Binoculars_B12.et"
+      }
+     }
+    }
+   }
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Squad Leader"
+   }
+   m_VariantData SCR_EditableEntityVariantData "{68FD52F62CEF9C47}" {
+    m_bRandomizeDefaultVariant 0
+    m_aVariants {
+     SCR_EditableEntityVariant "{68FD52F62DBD650A}" {
+      m_sVariantPrefab "{C0EB1309681BE356}Prefabs/Characters/Factions/OPFOR/GC_DRA/Variants/Character_DRA_AK47_SL.et"
+     }
+     SCR_EditableEntityVariant "{68FD52F62DE8FD15}" {
+      m_sVariantPrefab "{E1E35E3A0FAD5802}Prefabs/Characters/Factions/OPFOR/GC_DRA/Variants/Character_DRA_AKM_SL.et"
+      m_iRandomizerWeight 2
+     }
+     SCR_EditableEntityVariant "{68FD52F62A2E1159}" {
+      m_sVariantPrefab "{94A539BDAA23E270}Prefabs/Characters/Factions/OPFOR/GC_DRA/Variants/Character_DRA_PPSH_SL.et"
+     }
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,8 @@
+SCR_AIGroup : "{8DE0C0830FE0C33D}Prefabs/Groups/OPFOR/Group_USSR_Base.et" {
+ ID "0000000000000001"
+ m_faction "GC_DRA"
+ m_aUnitPrefabSlots {
+  "{2F451B3102F88983}Prefabs/Characters/Factions/OPFOR/GC_DRA/Character_DRA_SL.et" "{84D58E860D1BBF24}Prefabs/Characters/Factions/OPFOR/GC_DRA/Variants/Character_DRA_PKM_MG.et" "{1CFFBC4759D9A0E9}Prefabs/Characters/Factions/OPFOR/GC_DRA/Character_DRA_PKAB.et" "{84D58E860D1BBF24}Prefabs/Characters/Factions/OPFOR/GC_DRA/Variants/Character_DRA_PKM_MG.et" "{1CFFBC4759D9A0E9}Prefabs/Characters/Factions/OPFOR/GC_DRA/Character_DRA_PKAB.et"
+ }
+ m_sCustomNameSet "MG Squad"
+}

@@ -1,0 +1,14 @@
+SCR_AIGroup : "{8DE0C0830FE0C33D}Prefabs/Groups/OPFOR/Group_USSR_Base.et" {
+ ID "0000000000000001"
+ components {
+  PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+   m_iCompanyCallsign 1
+   m_iPlatoonCallsign 1
+  }
+ }
+ m_faction "GC_DRA"
+ m_aUnitPrefabSlots {
+  "{B65BA2A81F1FB813}Prefabs/Characters/Factions/OPFOR/GC_DRA/Character_DRA_PL.et" "{466C68522C6CCDCA}Prefabs/Characters/Factions/OPFOR/GC_DRA/Character_DRA_DPL.et" "{2993937419E7790F}Prefabs/Characters/Factions/OPFOR/GC_DRA/Character_DRA_MED.et"
+ }
+ m_sCustomNameSet "Platoon HQ"
+}
