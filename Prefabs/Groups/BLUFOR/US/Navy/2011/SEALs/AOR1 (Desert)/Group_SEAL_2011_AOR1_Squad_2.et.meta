@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{42858CF30E77962C}Prefabs/Groups/BLUFOR/US/Navy/2006/SEALs/BDU/Group_SEAL_2011_AOR1_Squad_2.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

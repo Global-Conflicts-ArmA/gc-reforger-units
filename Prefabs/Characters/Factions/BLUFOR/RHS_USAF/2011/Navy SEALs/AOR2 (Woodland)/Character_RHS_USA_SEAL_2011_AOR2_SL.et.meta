@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{D9DB65564FB218A1}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2011/Navy SEALs/AOR1 (Desert)/Character_RHS_USA_SEAL_2011_AOR2_SL.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

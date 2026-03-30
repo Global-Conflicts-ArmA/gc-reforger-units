@@ -3,7 +3,7 @@ SCR_ChimeraCharacter : "{9275A3F9875F9498}Prefabs/Characters/Factions/BLUFOR/CDF
  components {
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
-    Name "#AR-Role_Signaller"
+    Name "#AR-Role_RadioOperator"
     Icon "{B9F0BD39FF1881A3}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_RadioOperator.edds"
     m_Image "{50D62F5BEA9007CB}UI/Textures/EditorPreviews/Characters/OPFOR/USSR_Army/Character_USSR_RTO.edds"
    }

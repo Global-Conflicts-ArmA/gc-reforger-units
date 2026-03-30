@@ -20,7 +20,7 @@ SCR_ChimeraCharacter : "{988CF71569AF6A37}Prefabs/Characters/Factions/OPFOR/USSR
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{68FB2268DC4C8B76}" {
-     TargetStorage "Vest/Vest_SovietHarness_MG.et/MagPouch_6Sh46/Holster_PM.et"
+     TargetStorage "Vest/Vest_SovietHarness_MG.et/GrenadePouch/Pouch_Soviet_100rnd_PKM.et"
      PrefabsToSpawn {
       "{E5E9C5897CF47F44}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_4Ball_1Tracer.et"
      }

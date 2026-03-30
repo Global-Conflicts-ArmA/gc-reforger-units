@@ -43,6 +43,12 @@ SCR_ChimeraCharacter : "{14297AE2CB7BC202}Prefabs/Characters/Factions/BLUFOR/UK_
     ItemsInitConfigurationItem "{610CC31278A75ED6}" {
      TargetStorage "Vest/Vest_P58_rifleman_L85.et/KidneyRight/Vest_P58_kidney_right.et"
     }
+    ItemsInitConfigurationItem "{68FD44F19328C3A5}" {
+     TargetStorage "Pants/Trousers_Tropical_DesertDPM_01.et"
+    }
+    ItemsInitConfigurationItem "{653B4A5E376E9954}" {
+     TargetStorage "Back/Rucksack_P58_Large_Pack.et"
+    }
     ItemsInitConfigurationItem "{64A8AB40750482B2}" {
      TargetStorage "Pants/Trousers_Tropical_DesertDPM_01.et"
     }

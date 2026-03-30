@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{FFB42452E9AD5FFC}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Light Infantry/Character_UK_1983_Regulars_SectionCommander.et" {
+SCR_ChimeraCharacter : "{FFB42452E9AD5FFC}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Regulars/Character_UK_1983_Regulars_SectionCommander.et" {
  ID "520EC961A090B1EE"
  components {
   SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
@@ -67,6 +67,12 @@ SCR_ChimeraCharacter : "{FFB42452E9AD5FFC}Prefabs/Characters/Factions/BLUFOR/UK_
     }
     ItemsInitConfigurationItem "{64A8AB40750482B2}" {
      TargetStorage "Jacket/Smock_Combat_68Pat_DPM_01.et"
+    }
+    ItemsInitConfigurationItem "{68FD44F1D9B0D36E}" {
+     TargetStorage "Pants/Trousers_Combat_68Pat_DPM_01.et"
+     PrefabsToSpawn {
+      "{1A7FE1AC9E645F27}Prefabs/Items/Equipment/Radios/UK/Radio_PRC349.et"
+     }
     }
    }
   }
