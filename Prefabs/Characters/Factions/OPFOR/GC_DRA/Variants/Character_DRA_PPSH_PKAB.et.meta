@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{C4E259FD9AA0E6F8}Prefabs/Characters/Factions/OPFOR/GC_DRA/Variants/Character_DRA_PPSH_PKAB.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

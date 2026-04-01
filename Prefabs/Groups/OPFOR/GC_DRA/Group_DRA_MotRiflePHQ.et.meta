@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{481CC6DAF32096A2}Prefabs/Groups/OPFOR/Russia/1980s/MotorRifle_MSV80/Group_DRA_MotRiflePHQ.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

@@ -1,0 +1,47 @@
+SCR_ChimeraCharacter : "{EC3343CBB13BC07C}Prefabs/Characters/Factions/OPFOR/GC_DRA/Variants/Character_DRA_AKM_RPGA.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "RPG Grenadier"
+    Icon "{00B30C29FAF85E1C}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_AntiTank.edds"
+   }
+   m_VariantData SCR_EditableEntityVariantData "{68FD52F7888366E9}" {
+    m_bRandomizeDefaultVariant 0
+    m_aVariants {
+     SCR_EditableEntityVariant "{68FD52F7899727DC}" {
+      m_sVariantPrefab "{3B217A44F4C25EB4}Prefabs/Characters/Factions/OPFOR/GC_DRA/Variants/Character_DRA_AK47_RPG.et"
+     }
+     SCR_EditableEntityVariant "{68FD52F7969FE60A}" {
+      m_sVariantPrefab "{BDE65937CA5037F9}Prefabs/Characters/Factions/OPFOR/GC_DRA/Variants/Character_DRA_AKM_RPG.et"
+      m_iRandomizerWeight 2
+     }
+     SCR_EditableEntityVariant "{68FD52F796E88B2F}" {
+      m_sVariantPrefab "{8000D229B80C30AB}Prefabs/Characters/Factions/OPFOR/GC_DRA/Variants/Character_DRA_PPSH_RPG.et"
+     }
+     SCR_EditableEntityVariant "{68FD52F7973DFB89}" {
+      m_sVariantPrefab "{9DCFD83ED7A2680B}Prefabs/Characters/Factions/OPFOR/GC_DRA/Variants/Character_DRA_Pistol_RPG.et"
+      m_iRandomizerWeight 2
+     }
+    }
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+   WeaponTemplate "{E8A55396050E1762}Prefabs/Weapons/Launchers/RPG7/Launcher_RPG7_pgo7.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Back {
+     Prefab "{0D39750E5695B9D8}Prefabs/Items/Equipment/Backpacks/Backpack_RPG_Gunner.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68FCEB2A4A6AD004}" {
+     TargetStorage "Back/Backpack_RPG_Gunner.et"
+    }
+   }
+  }
+ }
+}

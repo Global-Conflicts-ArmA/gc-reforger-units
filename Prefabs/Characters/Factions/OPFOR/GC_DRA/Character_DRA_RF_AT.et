@@ -1,0 +1,29 @@
+SCR_ChimeraCharacter : "{03F5AE0263BCDDDF}Prefabs/Characters/Factions/OPFOR/GC_DRA/Variants/Character_DRA_AKM_RF.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Rifleman (AT)"
+    Icon "{00B30C29FAF85E1C}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_AntiTank.edds"
+   }
+   m_VariantData SCR_EditableEntityVariantData "{68FD52F7AE97A533}" {
+    m_bRandomizeDefaultVariant 0
+    m_aVariants {
+     SCR_EditableEntityVariant "{68FD52F7AFAC8C71}" {
+      m_sVariantPrefab "{A0351C1A977F7B7A}Prefabs/Characters/Factions/OPFOR/GC_DRA/Variants/Character_DRA_AK47_RF_AT.et"
+     }
+     SCR_EditableEntityVariant "{68FD52F7AFD46505}" {
+      m_sVariantPrefab "{B41B5559C796975B}Prefabs/Characters/Factions/OPFOR/GC_DRA/Variants/Character_DRA_AKM_RF_AT.et"
+      m_iRandomizerWeight 2
+     }
+     SCR_EditableEntityVariant "{68FD52F7AC1A640F}" {
+      m_sVariantPrefab "{9CC61B8B6F5E5E1A}Prefabs/Characters/Factions/OPFOR/GC_DRA/Variants/Character_DRA_PPSH_RF_AT.et"
+     }
+    }
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+   WeaponTemplate "{722CE6FEC39EE896}Prefabs/Weapons/Launchers/RPG22/Launcher_RPG22.et"
+  }
+ }
+}

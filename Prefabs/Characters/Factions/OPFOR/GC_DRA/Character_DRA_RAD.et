@@ -1,0 +1,41 @@
+SCR_ChimeraCharacter : "{03F5AE0263BCDDDF}Prefabs/Characters/Factions/OPFOR/GC_DRA/Variants/Character_DRA_AKM_RF.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Radio Operator"
+    Icon "{B9F0BD39FF1881A3}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_RadioOperator.edds"
+   }
+   m_VariantData SCR_EditableEntityVariantData "{68FD52F71D4AEF49}" {
+    m_bRandomizeDefaultVariant 0
+    m_aVariants {
+     SCR_EditableEntityVariant "{68FD52F71AF3278A}" {
+      m_sVariantPrefab "{583CC9A93C6417CD}Prefabs/Characters/Factions/OPFOR/GC_DRA/Variants/Character_DRA_AKM_RAD.et"
+     }
+     SCR_EditableEntityVariant "{68FD52F71B20F102}" {
+      m_sVariantPrefab "{65DA42B74E38109F}Prefabs/Characters/Factions/OPFOR/GC_DRA/Variants/Character_DRA_PPSH_RAD.et"
+     }
+     SCR_EditableEntityVariant "{68FD52F71B60B7E1}" {
+      m_sVariantPrefab "{DEFBEADA02F67E80}Prefabs/Characters/Factions/OPFOR/GC_DRA/Variants/Character_DRA_AK47_RAD.et"
+     }
+    }
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Back {
+     Prefab "{54C68E438DD34265}Prefabs/Items/Equipment/Radios/RU/Radio_R107M.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68FCEB266D48231D}" {
+     PrefabsToSpawn {
+      "" "{E039E897BD5A339E}Prefabs/Weapons/Magazines/AK/BC_Magazine_762x39_AK_30rnd_Ball.et" "{E039E897BD5A339E}Prefabs/Weapons/Magazines/AK/BC_Magazine_762x39_AK_30rnd_Ball.et"
+     }
+    }
+   }
+  }
+ }
+}

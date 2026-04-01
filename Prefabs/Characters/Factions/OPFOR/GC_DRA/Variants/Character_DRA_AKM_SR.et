@@ -1,0 +1,52 @@
+SCR_ChimeraCharacter : "{1DDEC7E6A5E8547B}Prefabs/Characters/Factions/OPFOR/GC_DRA/Character_DRA_BaseLoadout.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Senior Rifleman"
+    Icon "{A26C465A6AE2AA17}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_Leader.edds"
+   }
+  }
+  CharacterGrenadeSlotComponent "{520EA1D2F659CE6E}" {
+   WeaponTemplate "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+  }
+  CharacterGrenadeSlotComponent "{5A6CDA0CCF43068E}" {
+   WeaponTemplate "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{995B334262EDDA95}Prefabs/Weapons/Rifles/AKM/BC_Rifle_AKM.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Vest {
+     Prefab "{08155E701A949620}Prefabs/Characters/Vests/Vest_SovietHarness/Variants/Vest_SovietHarness_rifleman.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{5D7CC173E6675BF5}" {
+     Enabled 1
+    }
+    ItemsInitConfigurationItem "{68FCEB36ED377546}" {
+     TargetStorage "Vest/Vest_SovietHarness_rifleman.et/MagPouch_6Sh46/Pouch_Soviet_30rnd_AK74.et"
+     PrefabsToSpawn {
+      "{E039E897BD5A339E}Prefabs/Weapons/Magazines/AK/BC_Magazine_762x39_AK_30rnd_Ball.et" "{E039E897BD5A339E}Prefabs/Weapons/Magazines/AK/BC_Magazine_762x39_AK_30rnd_Ball.et" "{E039E897BD5A339E}Prefabs/Weapons/Magazines/AK/BC_Magazine_762x39_AK_30rnd_Ball.et" "{E039E897BD5A339E}Prefabs/Weapons/Magazines/AK/BC_Magazine_762x39_AK_30rnd_Ball.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68FCEB36ED3775B3}" {
+     TargetStorage "Jacket/ARY_Jacket_M69_DRA.et"
+     PrefabsToSpawn {
+      "{E039E897BD5A339E}Prefabs/Weapons/Magazines/AK/BC_Magazine_762x39_AK_30rnd_Ball.et" "{E039E897BD5A339E}Prefabs/Weapons/Magazines/AK/BC_Magazine_762x39_AK_30rnd_Ball.et" "{36218D5F0C7095E6}Prefabs/Weapons/Flares/Flare_RSP30_red.et" "{FC79F6BDEB7F1BC2}Prefabs/Weapons/Flares/Flare_RSP30_green.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68FCEB36C8EBE1D5}" {
+     TargetStorage "Vest/Vest_SovietHarness_rifleman.et/GrenadePouch/Vest_SovietHarness_GrenadePouch.et"
+     PrefabsToSpawn {
+      "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+     }
+    }
+   }
+  }
+ }
+}

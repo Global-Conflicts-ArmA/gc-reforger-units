@@ -1,0 +1,10 @@
+SCR_ChimeraCharacter : "{94A539BDAA23E270}Prefabs/Characters/Factions/OPFOR/GC_DRA/Variants/Character_DRA_PPSH_SL.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Deputy Platoon Commander"
+   }
+  }
+ }
+}

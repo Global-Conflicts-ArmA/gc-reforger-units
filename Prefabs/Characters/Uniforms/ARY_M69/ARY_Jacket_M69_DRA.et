@@ -1,0 +1,101 @@
+GameEntity : "{B89432A8B5F489E5}Prefabs/Characters/Core/Uniform_Base.et" {
+ ID "5104869D194C6243"
+ components {
+  MeshObject "{5104869D194C6262}" {
+   Object "{7588FEB4604E234C}Assets/Characters/Uniforms/Jacket_M88/Jacket_M88_01_item.xob"
+  }
+  SCR_ItemOutfitFactionComponent "{68FCCB942D987722}" {
+   m_OutfitDataHolder SCR_OutfitFactionDataHolder "{68FCCB942D984E54}" {
+    m_aOutfitFactionData {
+     SCR_OutfitFactionData "{68FCCB942D984E4F}" {
+      m_AffiliatedFactionKey "USSR"
+      m_iOutfitFactionValue 40
+     }
+    }
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{5222CB01D5B9A306}" {
+   components {
+    SCR_EquipmentStorageComponent "{68FCCB942D984E42}" {
+     Priority 1
+     StoragePurpose 0x40 0x1
+     UseVirtualInventoryReplication 0
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot FlashlightSlot {
+       PivotID "Spine5"
+       Offset -0.1 0 0.125
+       Enabled 0
+       Prefab "{3A421547BC29F679}Prefabs/Items/Equipment/Flashlights/Flashlight_MX991/Flashlight_MX991.et"
+       AllowedItemTypes {
+        "FLASHLIGHT"
+       }
+       AffectedByOcluders {
+        "ChestLeftTopFront"
+       }
+       AnimatedMeshRefference "{99DD45795E81EFAB}Assets/Characters/Uniforms/Jacket_M88/Jacket_M88_01.xob"
+      }
+     }
+    }
+   }
+   Attributes SCR_ItemAttributeCollection "{5222CB01245CDF32}" {
+    ItemDisplayName UIInfo "{5222CB0109A04AB2}" {
+     Name "#ary-uniform-m69-jacket-collar-closed-name"
+     Description "#ary-uniform-m69-jacket-collar-closed-description"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes PhysicalAttributes {
+     Weight 0.6
+     SizeSetupStrategy Manual
+     ItemDimensions 15 15 15
+     ItemVolume 2000
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{555292467DA11B7C}" {
+      CameraDistanceToItem 0.75
+      CameraOffset 0 -0.05 0
+      PreviewWornModel 1
+      PreviewModel "{99DD45795E81EFAB}Assets/Characters/Uniforms/Jacket_M88/Jacket_M88_01.xob"
+     }
+    }
+    m_SlotType SLOT_LOADOUT_STORAGE
+   }
+   Priority 2
+   UseCapacityCoefficient 0
+   CapacityCoefficient 1
+   MaxCumulativeVolume 800
+   MaxItemSize 10 10 10
+   m_fMaxWeight 5
+  }
+  BaseLoadoutClothComponent "{5104869D194C627A}" {
+   AreaType LoadoutJacketArea "{68FCCB942D984EAE}" {
+   }
+   Slots {
+    LoadoutSlotInfo DummyBelt {
+     Prefab "{F928D90B6E4B9166}Prefabs/Characters/Vests/Vest_SovietHarness/Vest_SovietHarness_belt_dummy.et"
+    }
+   }
+   WornModel "{BED89CC9F6E500FD}Assets/Characters/Uniforms/ARY_M69/ARY_M69_Jacket_ClosedCollar_02.xob"
+   WornMaterialsOverride {
+    "{15ECBB026D97F41A}Assets/Characters/Uniforms/ARY_M69/Data/ARY_MI_Uniform_Soviet_M69_Jacket_Closed.emat" "{20423A08AEEC971A}Common/MakeThingInvisible.emat"
+   }
+   ItemModel "{7588FEB4604E234C}Assets/Characters/Uniforms/Jacket_M88/Jacket_M88_01_item.xob"
+   SoundInt 320
+   OverrideMeshesToHide {
+    "Torso" "ArmUpper_L" "Arm_L" "Arm_R" "ArmUpper_R"
+   }
+   AreaTypeWhenModelChange {
+    LoadoutArmoredVestSlotArea "{68FCCB942D984EA6}" {
+    }
+   }
+  }
+  ActionsManagerComponent "{5104869D194C6245}" {
+   ActionContexts {
+    UserActionContext "{5104869D194C624D}" {
+     Position PointInfo "{5104869D194C6273}" {
+      Offset 0 0.05 0
+     }
+    }
+   }
+  }
+ }
+ coords 122.55 3.005 133.315
+}
