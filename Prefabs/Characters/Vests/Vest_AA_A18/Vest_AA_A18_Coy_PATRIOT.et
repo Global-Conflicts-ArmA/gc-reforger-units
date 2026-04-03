@@ -1,0 +1,19 @@
+GenericEntity : "{62956E8B0A73CF9C}Prefabs/Characters/Vests/Vest_AA_A18/Vest_AA_A18_base.et" {
+ ID "50D8C49B3558F152"
+ components {
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Slots {
+    RHS_LoadoutSlotInfo ChestVelcro {
+     Offset 0 0.209 0.1599
+     Prefab "{ADF3B4CD53A0841A}Prefabs/Items/Equipment/Patches/GC_Patch_PATRIOT_Logo.et"
+    }
+   }
+   WornMaterialsOverride {
+    "{F551F19D92FB3819}Assets/Characters/Vests/Vest_AA_A18/data/a18_coy.emat"
+   }
+   ItemMaterialsOverride {
+    "{F551F19D92FB3819}Assets/Characters/Vests/Vest_AA_A18/data/a18_coy.emat"
+   }
+  }
+ }
+}

@@ -1,0 +1,115 @@
+GameEntity : "{B89432A8B5F489E5}Prefabs/Characters/Core/Uniform_Base.et" {
+ ID "5104869D194C6243"
+ components {
+  MeshObject "{5104869D194C6262}" {
+   Object "{96C188E51A35352F}Assets/Characters/Uniforms/Jacket_PCU_L5/PCU_L5.xob"
+   Materials {
+    MaterialAssignClass "{690281A8B1210DD0}" {
+     SourceMaterial "ZenUV_Generic_Material"
+     AssignedMaterial "{D22C116BCCB6BB41}Assets/Characters/Uniforms/Jacket_PCU_L5/Data/PCU_L5_ATACS2.emat"
+    }
+   }
+  }
+  SCR_ItemOutfitFactionComponent "{690281A8B121F8B8}" {
+   m_OutfitDataHolder SCR_OutfitFactionDataHolder "{690281A8B121F847}" {
+    m_aOutfitFactionData {
+     SCR_OutfitFactionData "{690281A8B121F841}" {
+      m_AffiliatedFactionKey "CIV"
+      m_iOutfitFactionValue 40
+     }
+    }
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{5222CB01D5B9A306}" {
+   components {
+    ClothNodeStorageComponent "{690281A8B121F849}" {
+     Priority 1
+     StoragePurpose 0x40 0x1
+     UseCapacityCoefficient 0
+     MaxCumulativeVolume 5
+     MaxItemSize 5 5 5
+     UseVirtualInventoryReplication 0
+    }
+   }
+   Attributes SCR_ItemAttributeCollection "{5222CB01245CDF32}" {
+    ItemDisplayName UIInfo "{5222CB0109A04AB2}" {
+     Name "PCU L5 ATACS_v2"
+     Description ""
+    }
+    ItemPhysAttributes ItemPhysicalAttributes PhysicalAttributes {
+     Weight 0.8
+     SizeSetupStrategy Manual
+     ItemDimensions 15 15 15
+     ItemVolume 2000
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{555292467DA11B7C}" {
+      CameraOrbitAngles 0 0 0
+      CameraDistanceToItem 4.5
+      FOV 10
+      PreviewWornModel 1
+      PreviewModel "{6F223F9465D881DF}Assets/Characters/Uniforms/Jacket_Denim_01/Jacket_Denim_01.xob"
+     }
+    }
+    m_SlotType SLOT_LOADOUT_STORAGE
+   }
+   Priority 2
+   UseCapacityCoefficient 0
+   CapacityCoefficient 1
+   MaxCumulativeVolume 600
+   MaxItemSize 10 10 10
+   m_fMaxWeight 5
+  }
+  BaseLoadoutClothComponent "{5104869D194C627A}" {
+   AreaType LoadoutJacketArea "{690281A8B121F85C}" {
+   }
+   Slots {
+    LoadoutSlotInfo DummyBelt {
+     PivotID "RightArm"
+     Enabled 0
+    }
+    VergyMorphPatchSystem RightArm {
+     PivotID "RightArm"
+     Offset -0.0009 -0.0878 -0.0628
+     Angles -9.354 178.9446 -17.6903
+     Prefab "{530D3158041B8F06}Prefabs/Items/Equipment/Patches/GC_Patch_PATRIOT_Large.et"
+     AreaType LoadoutVergyRectanglePatchArea "{690281A8B121F85B}" {
+     }
+     m_bEnableMorphing 1
+     m_sMorphNameX "Curve"
+     m_fMorphValueX 0.7
+    }
+   }
+   WornModel "{96C188E51A35352F}Assets/Characters/Uniforms/Jacket_PCU_L5/PCU_L5.xob"
+   WornMaterialsOverride {
+    "{D22C116BCCB6BB41}Assets/Characters/Uniforms/Jacket_PCU_L5/Data/PCU_L5_ATACS2.emat"
+   }
+   ItemModel "{87CDAEC4E71DAB13}Assets/Characters/Uniforms/Jacket_PCU_L5/PCU_L5_item.xob"
+   ItemMaterialsOverride {
+    "{D22C116BCCB6BB41}Assets/Characters/Uniforms/Jacket_PCU_L5/Data/PCU_L5_ATACS2.emat"
+   }
+   SoundInt 320
+   OverrideMeshesToHide {
+    "Torso" "ArmUpper_L" "ArmUpper_R" "Arm_L" "Arm_R"
+   }
+   DeflatedModel "{8D8DCD01397BB24F}Assets/Characters/Uniforms/Jacket_PCU_L5/PCU_L5_deflated.xob"
+   AreaTypeWhenModelChange {
+    LoadoutArmoredVestSlotArea "{690281A8B121F867}" {
+    }
+    LoadoutVestArea "{690281A8B121F861}" {
+    }
+    LoadoutBackpackArea "{690281A8B121F863}" {
+    }
+   }
+  }
+  ActionsManagerComponent "{5104869D194C6245}" {
+   ActionContexts {
+    UserActionContext "{5104869D194C624D}" {
+     Position PointInfo "{5104869D194C6273}" {
+      Offset 0 0.05 0
+     }
+    }
+   }
+  }
+ }
+}

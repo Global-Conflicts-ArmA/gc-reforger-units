@@ -1,0 +1,6 @@
+SCR_AIGroup : "{C977A1533FADD64D}Prefabs/Groups/OPFOR/Russia/2020/PATRIOT/Group_PATRIOT_Base.et" {
+ ID "0000000000000001"
+ m_aUnitPrefabSlots {
+  "{6C999D68DAB936B4}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2025/PATRIOT/Character_PATRIOT_Sniper.et" "{32D9DE998858D630}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2025/PATRIOT/Character_PATRIOT_Spotter.et"
+ }
+}

@@ -1,0 +1,86 @@
+GenericEntity : "{A8ECA836DE9378B4}Prefabs/Weapons/Rifles/AK200/Rifle_AK200.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  MeshObject "{CFBAA4B701F95D69}" {
+   Object "{AD89BDFEC96D87D4}Assets/Weapons/Rifles/ak200/ak205.xob"
+  }
+  SCR_WeaponAttachmentsStorageComponent "{51F080D5CE45A1A2}" {
+   Attributes SCR_ItemAttributeCollection "{51F080D5C64F12C5}" {
+    ItemDisplayName WeaponUIInfo "{5222CB07CFF6712A}" {
+     Name "#RHS-Weapon_AK205_Name"
+     Description "#RHS-Weapon_AK205_Description"
+    }
+   }
+  }
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{5F189C826D592450}" {
+     Enabled 0
+     AttachmentSlot InventoryStorageSlot BayonetSlot {
+      Enabled 0
+     }
+    }
+    AttachmentSlotComponent "{662EBD3033C84A71}" {
+     AttachmentSlot RHS_SlidingInventoryStorageSlot AttachmentSlot {
+      Prefab "{DBE8F7374A320BDF}Prefabs/Weapons/Attachments/Optics/Collimators/Optic_EotechEXPS3/Collim_EXPS3_base.et"
+     }
+    }
+    AttachmentSlotComponent "{662EBD315C621464}" {
+     AttachmentSlot RHS_SlidingInventoryStorageSlot AttachmentSlot {
+      Prefab "{CB8AB382E3F45336}Prefabs/Weapons/Attachments/Lasers/perst_classic/Laser_perst_classic_base.et"
+     }
+    }
+    AttachmentSlotComponent "{662EBD327DAD2CDB}" {
+     AttachmentSlot RHS_SlidingInventoryStorageSlot AttachmentSlot {
+      Prefab "{5C00FABD6129BE79}Prefabs/Weapons/Attachments/Lights/Light_klesh2_base.et"
+     }
+    }
+    AttachmentSlotComponent "{66494E8AC43D5C5B}" {
+     AttachmentSlot InventoryStorageSlot stock {
+      Prefab "{03817C5D193A96DF}Prefabs/Weapons/Attachments/Stocks/Stock_AK200_Standart/RHS_AK200_Stock_GlCore.et"
+     }
+    }
+    AttachmentSlotComponent "{66755D640445EF7B}" {
+     AttachmentSlot InventoryStorageSlot ForwardGrip {
+      Prefab "{8B408A3D9367CB43}Prefabs/Weapons/Attachments/Grips/Grip_Zenit_RK_Vertical/RHS_RK0_base.et"
+     }
+    }
+    SightsComponent "{BB23A637957CFFF8}" {
+     SightsRanges {
+      SightRangeInfo "{662EBD35F2F46C42}" {
+       WeaponPosition PointInfo "{662EBD35F2F4A507}" {
+        Offset 0 -0.0001 0
+       }
+      }
+      SightRangeInfo "{66972CB1728579C6}" {
+       WeaponPosition PointInfo "{66972CB172857983}" {
+        Offset 0 -0.0022 0
+       }
+      }
+      SightRangeInfo "{66972CB0BF891AAC}" {
+       WeaponPosition PointInfo "{66972CB0BF891A70}" {
+        Offset 0 -0.007 0
+       }
+      }
+     }
+    }
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     components {
+      AttachmentSlotComponent "{4E2B66CBA589F625}" {
+       AttachmentSlot InventoryStorageSlot Muzzle {
+        Offset 0 0 -0.1768
+        Angles 0 0 33.0975
+        Prefab "{F3DD3F69F633AD36}Prefabs/Weapons/Attachments/Muzzle/Supressor_TGPA/Supressor_TGPA.et"
+        InspectionWidgetOffset 0 0.0695 0.4517
+       }
+      }
+     }
+    }
+   }
+   UIInfo WeaponUIInfo "{CC3BA6A2C42F09F4}" {
+    Name "#RHS-Weapon_AK205_Name"
+    Description "#RHS-Weapon_AK205_Description"
+   }
+  }
+ }
+}

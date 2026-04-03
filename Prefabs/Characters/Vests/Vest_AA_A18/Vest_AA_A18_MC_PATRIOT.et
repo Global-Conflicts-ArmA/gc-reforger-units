@@ -1,0 +1,17 @@
+GenericEntity : "{62956E8B0A73CF9C}Prefabs/Characters/Vests/Vest_AA_A18/Vest_AA_A18_base.et" {
+ ID "50D8C49B3558F152"
+ components {
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Slots {
+    RHS_LoadoutSlotInfo ChestVelcro {
+     Offset 0 0.1943 0.1633
+     Prefab "{5B2F201BA4693005}Prefabs/Items/Equipment/Patches/GC_Patch_PATRIOT.et"
+    }
+    RHS_LoadoutSlotInfo ChestVelcro2 : ChestVelcro {
+     Offset 0 0.2372 0.1525
+     Prefab "{DA4536366079A131}Prefabs/Items/Equipment/Patches/GC_Patch_Tab_PMC.et"
+    }
+   }
+  }
+ }
+}

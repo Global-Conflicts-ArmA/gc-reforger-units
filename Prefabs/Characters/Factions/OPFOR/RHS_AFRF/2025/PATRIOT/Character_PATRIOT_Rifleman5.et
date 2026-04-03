@@ -1,0 +1,97 @@
+SCR_ChimeraCharacter : "{BDC8F9D9A8E94E53}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2025/PATRIOT/Character_PATRIOT_Base.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{22E4A03B9EC07F73}Prefabs/Weapons/Rifles/AK74M/Rifle_AK74M_b30u_b31n_b33_pt1_rk3_rk6.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
+   WeaponTemplate "{E998FA484B0C4BFF}Prefabs/Weapons/Handguns/Glock/Handgun_Glock17.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{B51CAC65AFF99BDA}Prefabs/Characters/HeadGear/Helmet_Spartan3/Variants/Helmet_Spartan3_MC_Sordin_PATRIOT_4.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{5F154E499F388178}Prefabs/Characters/Uniforms/Jacket_PCU_L5/Jacket_PCU_L5_RussianMulticam_PATRIOT.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{275BE1D304BC2E2D}Prefabs/Characters/Vests/Vest_AACPC/Vest_AACPC_FG.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{369EDDED00321F49}Prefabs/Characters/Uniforms/Pants_CCUE/Pants_CCUE_ATACS_v2.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{B34EA5C1CCD715FA}Prefabs/Characters/Vests/Vest_AACPC/variants/Vest_AACPC_arsarmaHSGI_MC_3.et"
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab "{ABB779CFC2E11E89}Prefabs/Characters/Handwear/Gloves_MechanixMpact/Gloves_mpack_Covert.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{63349A03F1411D2D}" {
+     TargetStorage "Pants/Pants_CCUE_ATACS_v2.et"
+    }
+    ItemsInitConfigurationItem "{63349A03F1411D1D}" {
+     TargetStorage "Jacket/Jacket_PCU_L5_RussianMulticam_PATRIOT.et"
+    }
+    ItemsInitConfigurationItem "{690281B4E4949B1B}" {
+     TargetStorage "Vest/Vest_AACPC_arsarmaHSGI_MC_3.et/arsbelt/Pouch_wartech_magpouch_mp105_FG.et"
+     PrefabsToSpawn {
+      "{B39F57E7FB003434}Prefabs/Weapons/Magazines/AK12_magazine/Magazine_545x39_AK12_30rnd_Base.et"
+     }
+    }
+    ItemsInitConfigurationItem "{690281B4E92A3925}" {
+     TargetStorage "Vest/Vest_AACPC_arsarmaHSGI_MC_3.et/arsbelt2/Pouch_wartech_magpouch_mp105_2_FG.et"
+     PrefabsToSpawn {
+      "{B39F57E7FB003434}Prefabs/Weapons/Magazines/AK12_magazine/Magazine_545x39_AK12_30rnd_Base.et"
+     }
+    }
+    ItemsInitConfigurationItem "{690281B4FE82D56C}" {
+     TargetStorage "Vest/Vest_AACPC_arsarmaHSGI_MC_3.et/slot/Pouch_wartech_magpouch_mp105_MC.et"
+     PrefabsToSpawn {
+      "{B39F57E7FB003434}Prefabs/Weapons/Magazines/AK12_magazine/Magazine_545x39_AK12_30rnd_Base.et"
+     }
+    }
+    ItemsInitConfigurationItem "{690281B48914523A}" {
+     TargetStorage "Vest/Vest_AACPC_arsarmaHSGI_MC_3.et/slot2/Pouch_wartech_magpouch_mp105_2_MC.et"
+     PrefabsToSpawn {
+      "{B39F57E7FB003434}Prefabs/Weapons/Magazines/AK12_magazine/Magazine_545x39_AK12_30rnd_Base.et"
+     }
+    }
+    ItemsInitConfigurationItem "{690281B4B5586ACD}" {
+     TargetStorage "Vest/Vest_AACPC_arsarmaHSGI_MC_3.et/slot3/Pouch_wartech_magpouch_mp105_3_MC.et"
+     PrefabsToSpawn {
+      "{B39F57E7FB003434}Prefabs/Weapons/Magazines/AK12_magazine/Magazine_545x39_AK12_30rnd_Base.et"
+     }
+    }
+    ItemsInitConfigurationItem "{690281B745C753A7}" {
+     TargetStorage "Vest/Vest_AACPC_arsarmaHSGI_MC_3.et/mp105_3/Pouch_wartech_magpouch_mp103_MC.et"
+     PrefabsToSpawn {
+      "{B39F57E7FB003434}Prefabs/Weapons/Magazines/AK12_magazine/Magazine_545x39_AK12_30rnd_Base.et"
+     }
+    }
+    ItemsInitConfigurationItem "{690281B743A786B9}" {
+     TargetStorage "Vest/Vest_AACPC_arsarmaHSGI_MC_3.et/mp105_4/Pouch_wartech_magpouch_mp103_MC.et"
+     PrefabsToSpawn {
+      "{B39F57E7FB003434}Prefabs/Weapons/Magazines/AK12_magazine/Magazine_545x39_AK12_30rnd_Base.et"
+     }
+    }
+    ItemsInitConfigurationItem "{690281B75447F352}" {
+     TargetStorage "Vest/Vest_AACPC_arsarmaHSGI_MC_3.et/bg/Minimap_ArsArma_GMR_MC.et"
+     PrefabsToSpawn {
+      "{F20D1122BC5CD9F2}Prefabs/Weapons/Magazines/glock_magazine/Magazine_9x19_Glock_17rnd.et" "{F20D1122BC5CD9F2}Prefabs/Weapons/Magazines/glock_magazine/Magazine_9x19_Glock_17rnd.et" "{B39F57E7FB003434}Prefabs/Weapons/Magazines/AK12_magazine/Magazine_545x39_AK12_30rnd_Base.et" "{B39F57E7FB003434}Prefabs/Weapons/Magazines/AK12_magazine/Magazine_545x39_AK12_30rnd_Base.et" "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et" "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+     }
+    }
+    ItemsInitConfigurationItem "{690675ECE0C9EE75}" {
+     TargetStorage "Vest/Vest_AACPC_arsarmaHSGI_MC_3.et/radio/Pouch_Taktika_radioPouch.et"
+     PrefabsToSpawn {
+      "{B343AB76B0725657}Prefabs/Items/Equipment/Radios/RU/Radio_R187P1_OLD.et"
+     }
+    }
+   }
+  }
+ }
+}

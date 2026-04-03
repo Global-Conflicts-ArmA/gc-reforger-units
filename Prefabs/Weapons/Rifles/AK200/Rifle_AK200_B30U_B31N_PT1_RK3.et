@@ -1,0 +1,53 @@
+GenericEntity : "{178B679248E49C49}Prefabs/Weapons/Rifles/AK200/Rifle_AK200_B30U_B31N.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{5F189C826D592450}" {
+     AttachmentSlot InventoryStorageSlot BayonetSlot {
+      Enabled 0
+     }
+    }
+    AttachmentSlotComponent "{647D1DE8DE70EEE9}" {
+     AttachmentSlot InventoryStorageSlot "{647D1DE8D7A8ECC4}" {
+      Offset 0 0.0517 0.383
+      Prefab "{23D34FB66BBC8BEE}Prefabs/Weapons/Attachments/Bipods/harris_bipod/rhs_lt706_harris.et"
+     }
+    }
+    AttachmentSlotComponent "{662EBD3033C84A71}" {
+     AttachmentSlot RHS_SlidingInventoryStorageSlot AttachmentSlot {
+      Prefab "{D1812ED36E915A07}Prefabs/Weapons/Attachments/Optics/Scopes/Optic_EOTech_Vudu1-6x/Optic_EOTech_Vudu1-6x_BLK_545.et"
+     }
+    }
+    AttachmentSlotComponent "{662EBD315C621464}" {
+     AttachmentSlot RHS_SlidingInventoryStorageSlot AttachmentSlot {
+      Prefab "{CB8AB382E3F45336}Prefabs/Weapons/Attachments/Lasers/perst_classic/Laser_perst_classic_base.et"
+     }
+    }
+    AttachmentSlotComponent "{66494E8AC43D5C5B}" {
+     AttachmentSlot InventoryStorageSlot stock {
+      Prefab "{03817C5D193A96DF}Prefabs/Weapons/Attachments/Stocks/Stock_AK200_Standart/RHS_AK200_Stock_GlCore.et"
+     }
+    }
+    AttachmentSlotComponent "{66494E8AE82A974F}" {
+     AttachmentSlot InventoryStorageSlot pistolgrip {
+     }
+    }
+    AttachmentSlotComponent "{66755D640445EF7B}" {
+     AttachmentSlot InventoryStorageSlot ForwardGrip {
+      Prefab "{49F469152782CB41}Prefabs/Weapons/Attachments/Grips/Grip_Zenit_RK_Vertical/RHS_RK6.et"
+     }
+    }
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     components {
+      AttachmentSlotComponent "{4E2B66CBA589F625}" {
+       AttachmentSlot InventoryStorageSlot Muzzle {
+        Prefab "{F3DD3F69F633AD36}Prefabs/Weapons/Attachments/Muzzle/Supressor_TGPA/Supressor_TGPA.et"
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}

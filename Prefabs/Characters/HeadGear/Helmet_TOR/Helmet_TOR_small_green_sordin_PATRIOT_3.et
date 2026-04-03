@@ -1,0 +1,52 @@
+GameEntity : "{D9B30C3875AC2590}Prefabs/Characters/HeadGear/Helmet_TOR/Helmet_TOR_base.et" {
+ ID "50D485E1435D6C72"
+ components {
+  MeshObject "{5112706CD4157AE0}" {
+   Object "{15A73F326A4A817E}Assets/Characters/HeadGear/Helmet_TORnew/tor_s_sordin_ground.xob"
+  }
+  RHS_HelmetNodeStorageComponent "{5DB13C5777E6E695}" {
+   Attributes SCR_ItemAttributeCollection "{5DB13C5760610D64}" {
+    ItemDisplayName UIInfo "{5DB13C575E2AFE37}" {
+     Name "#RHS-Headgear_tor_small_Name (#RHS-Headgear_Sordin_Name_short) - #RHS-Color_Olive"
+     Description "#RHS-Headgear_tor_Description"
+    }
+    CustomAttributes {
+     RHS_CustomAttributes "{5DB8F5B9ACB547EA}" {
+      m_sShortName "#RHS-Headgear_tor_small_green_Name"
+     }
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    RHS_LoadoutSlotInfo Goggles {
+     Prefab "{0A6931140B34A0FE}Prefabs/Characters/Eyewear/npp_strelok/Eyewear_npp_strelok_tor.et"
+    }
+    RHS_LoadoutSlotInfo MeshCover {
+     Prefab "{C948F82823020817}Prefabs/Characters/HeadGear/Helmet_TOR/Headgear_tor_cover_mc.et"
+    }
+    RHS_LoadoutSlotInfo Masks {
+     Prefab "{80910048B735B60E}Prefabs/Characters/HeadGear/Balaclavas/LShZ_Balaclava/Balaclava_LShZ_MC.et"
+    }
+    RHS_LoadoutSlotInfo BackVelcro {
+     Offset 0 0.1191 0.1121
+     Angles 6.8631 0 0
+     Prefab "{DA4536366079A131}Prefabs/Items/Equipment/Patches/GC_Patch_PATRIOT_PMC.et"
+    }
+    RHS_LoadoutSlotInfo Headset {
+     Enabled 0
+    }
+    RHS_LoadoutSlotInfo LeftVelcro {
+     Offset 0.0856 0.1693 -0.0093
+     Angles 32.3589 89.0652 -5.095
+    }
+   }
+   WornModel "{7B92BEF419BC9D97}Assets/Characters/HeadGear/Helmet_TORnew/tor_s_sordin.xob"
+   WornMaterialsOverride {
+   }
+   ItemModel "{15A73F326A4A817E}Assets/Characters/HeadGear/Helmet_TORnew/tor_s_sordin_ground.xob"
+   ItemMaterialsOverride {
+   }
+  }
+ }
+}

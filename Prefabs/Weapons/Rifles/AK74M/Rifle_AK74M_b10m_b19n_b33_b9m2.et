@@ -1,0 +1,65 @@
+GenericEntity : "{1652ED3F0FA5B007}Prefabs/Weapons/Rifles/AK74M/Rifle_AK74M_b10m_b19n_b33.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{5E9CA21FA76B5BFB}" {
+     AttachmentSlot InventoryStorageSlot gp_buttpad {
+     }
+    }
+    AttachmentSlotComponent "{60D68A0BAB784D3F}" {
+     AttachmentSlot RHS_SlidingInventoryStorageSlot "{60D68A0BA5634353}" {
+      Prefab "{CB8AB382E3F45336}Prefabs/Weapons/Attachments/Lasers/perst_classic/Laser_perst_classic_base.et"
+     }
+    }
+    AttachmentSlotComponent "{664E3A73A7D7E68C}" {
+     AttachmentSlot InventoryStorageSlot Stock {
+      Prefab "{EDC34216F501F229}Prefabs/Weapons/Attachments/Stocks/Stock_AK74M_Zenit_PT1/RHS_AK74M_Stock_Zenit_PT1_base.et"
+     }
+    }
+    AttachmentSlotComponent "{664E3A73C2772446}" {
+     AttachmentSlot InventoryStorageSlot PistolGrip {
+      Prefab "{9F185CFF674647BE}Prefabs/Weapons/Attachments/Grips/PistolGrip_AK74M_Zenit_RK3/RHS_AK74M_PistolGrip_Zenit_RK3_base.et"
+     }
+    }
+    AttachmentSlotComponent "{664E543E2B728917}" {
+     AttachmentSlot RHS_SlidingInventoryStorageSlot RIS_Slot {
+      Offset 0 -0.0043 0.1313
+      Prefab "{586EE7AA31738D92}Prefabs/Weapons/Attachments/Optics/Collimators/Optic_SIGRomeo/Collim_SIGRomeo_BLK.et"
+     }
+    }
+    AttachmentSlotComponent "{66755D64573F36EE}" {
+     AttachmentSlot InventoryStorageSlot ForwardGrip {
+      Prefab "{189478CDEE2ACD58}Prefabs/Weapons/Attachments/Grips/Grip_Zenit_RK_Vertical/RHS_RK2.et"
+     }
+    }
+    AttachmentSlotComponent "{690281E0C2C04440}" {
+     AttachmentSlot InventoryStorageSlot b9m {
+      Prefab "{7ED9E3D50012920E}Prefabs/Weapons/Attachments/Mounts/mount_zenit_b9m/rail_zenit_b9m_base.et"
+     }
+    }
+    AttachmentSlotComponent "{690281E0C2C0444F}" {
+     AttachmentSlot RHS_SlidingInventoryStorageSlot B9MRail {
+      Offset 0 0.0465 0.3881
+      Angles 0 0 180
+      Prefab "{5C00FABD6129BE79}Prefabs/Weapons/Attachments/Lights/Light_klesh2_base.et"
+      InspectionWidgetOffset 0 0.0465 0.3881
+     }
+     AttachmentType AttachmentRIS1913 "{690281E0C2C04442}" {
+     }
+     ShowInInspection 1
+    }
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     components {
+      AttachmentSlotComponent "{4E2B66CBA589F625}" {
+       AttachmentSlot InventoryStorageSlot Muzzle {
+        Prefab "{F3DD3F69F633AD36}Prefabs/Weapons/Attachments/Muzzle/Supressor_TGPA/Supressor_TGPA.et"
+       }
+      }
+     }
+     MagazineTemplate "{B39F57E7FB003434}Prefabs/Weapons/Magazines/AK12_magazine/Magazine_545x39_AK12_30rnd_Base.et"
+    }
+   }
+  }
+ }
+}

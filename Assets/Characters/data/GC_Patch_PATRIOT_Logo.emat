@@ -1,0 +1,7 @@
+MatPBRBasic {
+ AllowUserAlphaBias 1
+ DisableUserAphaInShadow 1
+ BCRMap "{D906CE3952418E77}Assets/Characters/data/PATRIOTlogo.edds"
+ OpacityMap "{70A53F4EA373F142}Assets/Characters/Basebody/Data/HeadClipping_A.edds"
+ NMOMap "{F1554F9F451C2D1A}Assets/Characters/Patches/data/rhs_patch_usmc_recon_black_01_NMO.edds"
+}

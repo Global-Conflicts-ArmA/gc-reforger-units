@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{1A4E1F08346B9361}Prefabs/Weapons/Rifles/AK74M/Rifle_AK74M_b30u_b31n_b33_pt1_rk3_rk62.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

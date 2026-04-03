@@ -1,0 +1,34 @@
+GameEntity : "{6DAD533F9E0CFE96}Prefabs/Characters/HeadGear/Hats/Baseball_Cap/Hat_Baseball_Cap_MC.et" {
+ ID "5112706CD4157AC7"
+ components {
+  SCR_UniversalInventoryStorageComponent "{5244E4431E28A759}" {
+   Attributes SCR_ItemAttributeCollection "{52C8D6017C371EA6}" {
+    ItemDisplayName UIInfo "{52C8D60173B1164A}" {
+     Name "Baseball Cap, Tan"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    LoadoutSlotInfo Headphones {
+     Prefab "{EB916F0BF524EF25}Prefabs/Characters/HeadGear/Headphones_Peltor/Headphones_Peltor_black.et"
+    }
+    LoadoutSlotInfo Eyewear {
+     Prefab "{D4ABE8F396146587}Prefabs/Characters/Eyewear/crossbow/Eyewear_ess_crossbow_clr.et"
+     AreaType ZEL_EyesArea "{690281EB56AC864D}" {
+     }
+    }
+    LoadoutSlotInfo facemask {
+     Offset 0 0.0187 0
+     Prefab "{29BA8EECE1EFD977}Prefabs/Characters/HeadGear/Hat_FlatCap_01/Scarf_1.et"
+    }
+   }
+   WornMaterialsOverride {
+    "{26E7D3AE9BD41BB5}Assets/Character/Clothing/HeadWear/Hats/Baseball_Cap/Data/Baseball_Cap_Tan.emat"
+   }
+   ItemMaterialsOverride {
+    "{26E7D3AE9BD41BB5}Assets/Character/Clothing/HeadWear/Hats/Baseball_Cap/Data/Baseball_Cap_Tan.emat"
+   }
+  }
+ }
+}

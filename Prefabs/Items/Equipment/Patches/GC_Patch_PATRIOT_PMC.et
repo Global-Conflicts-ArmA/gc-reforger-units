@@ -1,0 +1,32 @@
+GenericEntity : "{385D42E8B89B3BD3}Prefabs/Items/Equipment/Accessories/Patches/TRF_DZ/DZ_1PARA.et" {
+ ID "559C7E9ADCAE6DAC"
+ components {
+  InventoryItemComponent "{559C7E9ADCAE6DD3}" {
+   Attributes SCR_ItemAttributeCollection "{559C7E9ADCAE6DCD}" {
+    ItemDisplayName UIInfo "{559C7E9ADCAE6DCF}" {
+     Name "Royal Marines Commando"
+    }
+   }
+  }
+  MeshObject "{559C7E9ADCAE6DC2}" {
+   Object "{66394D0B82FFB8B1}Assets/Character/Equipment/Accessories/Patches/TRF/RM/Patch_Tab_Arch_RMC_Old.xob"
+   Materials {
+    MaterialAssignClass "{68FE67E526A52267}" {
+     SourceMaterial "RMC_Old"
+     AssignedMaterial "{6643C1ACF0879B00}Assets/Characters/data/GC_Patch_PATRIOT_PMC.emat"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{559C7E9ADCAE6DFF}" {
+   Enabled 1
+   WornModel "{66394D0B82FFB8B1}Assets/Character/Equipment/Accessories/Patches/TRF/RM/Patch_Tab_Arch_RMC_Old.xob"
+   WornMaterialsOverride {
+    "{6643C1ACF0879B00}Assets/Characters/data/GC_Patch_PATRIOT_PMC.emat"
+   }
+   ItemModel "{66394D0B82FFB8B1}Assets/Character/Equipment/Accessories/Patches/TRF/RM/Patch_Tab_Arch_RMC_Old.xob"
+   ItemMaterialsOverride {
+    "{6643C1ACF0879B00}Assets/Characters/data/GC_Patch_PATRIOT_PMC.emat"
+   }
+  }
+ }
+}

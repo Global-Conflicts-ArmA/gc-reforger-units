@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{7BC22A8CF18018BD}Prefabs/Characters/HeadGear/Helmet_TOR/Helmet_TOR_small_green_sordin_PATRIOT.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

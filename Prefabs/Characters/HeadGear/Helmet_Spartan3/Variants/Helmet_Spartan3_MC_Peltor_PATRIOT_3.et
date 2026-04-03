@@ -1,0 +1,27 @@
+GameEntity : "{4A5D91D707E3852B}Prefabs/Characters/HeadGear/Helmet_Spartan3/Helmet_Spartan3_MC_Peltor.et" {
+ ID "50D485E1435D6C72"
+ components {
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    RHS_LoadoutSlotInfo Goggles {
+    }
+    RHS_LoadoutSlotInfo Masks {
+     Prefab "{F9970F15155A1A46}Prefabs/Characters/HeadGear/Hat_Balaclava/Balaclava_CoyoteBrown.et"
+    }
+    RHS_LoadoutSlotInfo BackVelcro {
+     Prefab "{DA4536366079A131}Prefabs/Items/Equipment/Patches/GC_Patch_Tab_PMC.et"
+    }
+    RHS_LoadoutSlotInfo NVG {
+    }
+    RHS_LoadoutSlotInfo TopVelcro {
+     Prefab "{5F7EF7FEBC39B874}Prefabs/Items/Equipment/Nightvision/HelstarStrobe/Helstar.et"
+    }
+    RHS_LoadoutSlotInfo LeftVelcro {
+     Prefab "{B9E98F1464E93A9D}Prefabs/Items/Equipment/Patches/Patch_Blood_APos.et"
+    }
+    RHS_LoadoutSlotInfo RightVelcro {
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,35 @@
+GameEntity : "{B6CC74F306F54A8D}Prefabs/Items/Equipment/Patches/Patch_Base.et" {
+ ID "5DB09136945FC6DB"
+ components {
+  InventoryItemComponent "{5DB09136B1C985CE}" {
+   Attributes SCR_ItemAttributeCollection "{5DB09136B1C985C1}" {
+    ItemDisplayName SCR_ItemHintUIInfo "{5DB09136B1C985EB}" {
+     Name "#RHS-Item_Patch_ION_Blk_Name"
+     Description "#RHS-Item_Patch_ION_Blk_Description"
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{5DB09136B1C985C3}" {
+      CameraDistanceToItem 0.6
+     }
+    }
+   }
+  }
+  MeshObject "{5DB09136B1C985B5}" {
+   Object "{02DF75C563B62E33}Assets/Characters/Patches/rhs_patch_usmc_recon.xob"
+   Materials {
+    MaterialAssignClass "{68FE67981E45C07A}" {
+     SourceMaterial "rhs_patch_usmc_id_1"
+     AssignedMaterial "{EE45AC84AB730B62}Assets/Characters/data/GC_Patch_PATRIOT_logo.emat"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5DB09136B1C9859A}" {
+   WornMaterialsOverride {
+    "{EE45AC84AB730B62}Assets/Characters/data/GC_Patch_PATRIOT_logo.emat" ""
+   }
+   ItemMaterialsOverride {
+    "{EE45AC84AB730B62}Assets/Characters/data/GC_Patch_PATRIOT_logo.emat"
+   }
+  }
+ }
+}

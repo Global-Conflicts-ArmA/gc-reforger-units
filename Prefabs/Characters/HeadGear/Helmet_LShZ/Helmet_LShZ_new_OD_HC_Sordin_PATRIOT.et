@@ -1,0 +1,46 @@
+GameEntity : "{3CE3D1BD00FD06D6}Prefabs/Characters/HeadGear/Helmet_LShZ/Helmet_LShZ_new_base.et" {
+ ID "50D485E1435D6C72"
+ components {
+  RHS_HelmetNodeStorageComponent "{5DB13C5777E6E695}" {
+   Attributes SCR_ItemAttributeCollection "{5DB13C5760610D64}" {
+    ItemDisplayName UIInfo "{5DB13C575E2AFE37}" {
+     Name "#RHS-Headgear_LShZ_1plus_mod3_Name (#RHS-Headgear_Sordin_Name_short) - #RHS-Color_Olive"
+    }
+   }
+  }
+  SCR_HeadgearInventoryItemComponent "{5244E4431E28A759}" {
+   Attributes SCR_ItemAttributeCollection "{5244E4431DA56D64}" {
+    ItemDisplayName UIInfo "{626CFCA99212F269}" {
+     Name "#RHS-Headgear_LShZ_HC_Name - #RHS-Color_OLIVE"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    RHS_LoadoutSlotInfo Goggles {
+     Prefab "{BA0AD5FBC86E88D3}Prefabs/Characters/Eyewear/crossbow/Eyewear_ess_crossbow.et"
+    }
+    RHS_LoadoutSlotInfo MeshCover {
+     Prefab "{0E39B712A057DD4B}Prefabs/Characters/HeadGear/Helmet_LShZ/Headgear_lshz_cover_MC.et"
+    }
+    RHS_LoadoutSlotInfo Masks {
+     Prefab "{40ED520CE1154848}Prefabs/Characters/HeadGear/Balaclavas/LShZ_Balaclava/Balaclava_LShZ_black.et"
+    }
+    RHS_LoadoutSlotInfo Headset {
+     Enabled 0
+     Prefab ""
+    }
+    RHS_LoadoutSlotInfo TopVelcro {
+    }
+   }
+   WornModel "{C8D7D4958FC0890F}Assets/Characters/HeadGear/Helmet_LShZ/lshznew_HC_sordin.xob"
+   WornMaterialsOverride {
+    ""
+   }
+   ItemModel "{DAAE0DBE4A8954D9}Assets/Characters/HeadGear/Helmet_LShZ/lshznew_HC_sordin_ground.xob"
+   ItemMaterialsOverride {
+    ""
+   }
+  }
+ }
+}

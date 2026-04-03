@@ -1,0 +1,102 @@
+SCR_ChimeraCharacter : "{BDC8F9D9A8E94E53}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2025/PATRIOT/Character_PATRIOT_Base.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Icon "{AE53796BC5D21A08}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_Rifleman.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{40615C45E049441F}Prefabs/Weapons/Rifles/AK200/Rifle_AK205_B30_B31S_PT1_RK3_FDE_RK6.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
+   WeaponTemplate "{E998FA484B0C4BFF}Prefabs/Weapons/Handguns/Glock/Handgun_Glock17.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{381527FF028AFDAE}Prefabs/Characters/HeadGear/Helmet_Spartan3/Variants/Helmet_Spartan3_MC_Peltor_PATRIOT_2.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{5F154E499F388178}Prefabs/Characters/Uniforms/Jacket_PCU_L5/Jacket_PCU_L5_RussianMulticam_PATRIOT.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{9529C5D78C10C722}Prefabs/Characters/Vests/Vest_AA_A18/Vest_AA_A18_MC.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{D4FA402B265AF5EB}Prefabs/Characters/Vests/Vest_AA_A18/variants/Vest_A18_HSGI_MC_Rifleman_1.et"
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab "{ABB779CFC2E11E89}Prefabs/Characters/Handwear/Gloves_MechanixMpact/Gloves_mpack_Covert.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{63349A03F1411D1D}" {
+     TargetStorage "Jacket/Jacket_PCU_L5_RussianMulticam_PATRIOT.et"
+    }
+    ItemsInitConfigurationItem "{690675EB0275CC88}" {
+     TargetStorage "Vest/Vest_A18_HSGI_MC_Rifleman_1.et/arsbelt2/Pouch_wartech_magpouch_mp105_3_OD.et"
+     PrefabsToSpawn {
+      "{B39F57E7FB003434}Prefabs/Weapons/Magazines/AK12_magazine/Magazine_545x39_AK12_30rnd_Base.et"
+     }
+    }
+    ItemsInitConfigurationItem "{690675EB19420C26}" {
+     TargetStorage "Vest/Vest_A18_HSGI_MC_Rifleman_1.et/arsbelt/Pouch_wartech_magpouch_mp105_3_OD.et"
+     PrefabsToSpawn {
+      "{B39F57E7FB003434}Prefabs/Weapons/Magazines/AK12_magazine/Magazine_545x39_AK12_30rnd_Base.et"
+     }
+    }
+    ItemsInitConfigurationItem "{690675EB395316C4}" {
+     TargetStorage "Vest/Vest_A18_HSGI_MC_Rifleman_1.et/slot/Pouch_wartech_magpouch_mp103_MC.et"
+     PrefabsToSpawn {
+      "{B39F57E7FB003434}Prefabs/Weapons/Magazines/AK12_magazine/Magazine_545x39_AK12_30rnd_Base.et"
+     }
+    }
+    ItemsInitConfigurationItem "{690675EBC47DF7A7}" {
+     TargetStorage "Vest/Vest_A18_HSGI_MC_Rifleman_1.et/slot2/Pouch_wartech_magpouch_mp103_MC.et"
+     PrefabsToSpawn {
+      "{B39F57E7FB003434}Prefabs/Weapons/Magazines/AK12_magazine/Magazine_545x39_AK12_30rnd_Base.et"
+     }
+    }
+    ItemsInitConfigurationItem "{690675EBCA50B964}" {
+     TargetStorage "Vest/Vest_A18_HSGI_MC_Rifleman_1.et/slot4/Pouch_wartech_magpouch_mp117_mc_2.et"
+     PrefabsToSpawn {
+      "{B39F57E7FB003434}Prefabs/Weapons/Magazines/AK12_magazine/Magazine_545x39_AK12_30rnd_Base.et"
+     }
+    }
+    ItemsInitConfigurationItem "{690675EBD20F7DAC}" {
+     TargetStorage "Vest/Vest_A18_HSGI_MC_Rifleman_1.et/slot3/pouch_tv115_MC.et"
+     PrefabsToSpawn {
+      "{B39F57E7FB003434}Prefabs/Weapons/Magazines/AK12_magazine/Magazine_545x39_AK12_30rnd_Base.et" "{B39F57E7FB003434}Prefabs/Weapons/Magazines/AK12_magazine/Magazine_545x39_AK12_30rnd_Base.et" "{B39F57E7FB003434}Prefabs/Weapons/Magazines/AK12_magazine/Magazine_545x39_AK12_30rnd_Base.et"
+     }
+    }
+    ItemsInitConfigurationItem "{690675EB8198EC34}" {
+     TargetStorage "Vest/Vest_A18_HSGI_MC_Rifleman_1.et/arsbeltpistol1/Pouch_MP111_PistolClosed2_MC.et"
+     PrefabsToSpawn {
+      "{F20D1122BC5CD9F2}Prefabs/Weapons/Magazines/glock_magazine/Magazine_9x19_Glock_17rnd.et"
+     }
+    }
+    ItemsInitConfigurationItem "{690675EB9536844C}" {
+     TargetStorage "Vest/Vest_A18_HSGI_MC_Rifleman_1.et/arsbelt_pistol2/Pouch_MP111_PistolClosed_MC.et"
+     PrefabsToSpawn {
+      "{F20D1122BC5CD9F2}Prefabs/Weapons/Magazines/glock_magazine/Magazine_9x19_Glock_17rnd.et"
+     }
+    }
+    ItemsInitConfigurationItem "{690675EBA6F2AF63}" {
+     TargetStorage "Vest/Vest_A18_HSGI_MC_Rifleman_1.et/radio/Pouch_Taktika_radioPouch.et"
+     PrefabsToSpawn {
+      "{B343AB76B0725657}Prefabs/Items/Equipment/Radios/RU/Radio_R187P1_OLD.et"
+     }
+    }
+    ItemsInitConfigurationItem "{690675EBB0C70331}" {
+     TargetStorage "Vest/Vest_A18_HSGI_MC_Rifleman_1.et/grs/Minimap_ArsArma_GMR_MC.et"
+     PrefabsToSpawn {
+      "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et" "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et" "{B39F57E7FB003434}Prefabs/Weapons/Magazines/AK12_magazine/Magazine_545x39_AK12_30rnd_Base.et"
+     }
+    }
+   }
+  }
+ }
+}

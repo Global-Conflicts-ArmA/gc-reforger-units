@@ -1,0 +1,44 @@
+GenericEntity : "{DECFCBE6A4B5EF81}Prefabs/Weapons/Rifles/AK200/Rifle_AK200_B30_B31S.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{662EBD3033C84A71}" {
+     AttachmentSlot RHS_SlidingInventoryStorageSlot AttachmentSlot {
+      Prefab "{5DED8A21EBF459DF}Prefabs/Weapons/Attachments/Optics/Collimators/Optic_VortexUH-1/Collim_VortexUH1.et"
+     }
+    }
+    AttachmentSlotComponent "{662EBD315C621464}" {
+     AttachmentSlot RHS_SlidingInventoryStorageSlot AttachmentSlot {
+      Prefab "{CB8AB382E3F45336}Prefabs/Weapons/Attachments/Lasers/perst_classic/Laser_perst_classic_base.et"
+     }
+    }
+    AttachmentSlotComponent "{66494E8AC43D5C5B}" {
+     AttachmentSlot InventoryStorageSlot stock {
+      Prefab "{EDC34216F501F229}Prefabs/Weapons/Attachments/Stocks/Stock_AK74M_Zenit_PT1/RHS_AK74M_Stock_Zenit_PT1_base.et"
+     }
+    }
+    AttachmentSlotComponent "{66711C5A961AB941}" {
+     AttachmentSlot RHS_SlidingInventoryStorageSlot "{6630B6E68EE66E09}" {
+      Offset -0.0001 0.0438 0.3987
+      Prefab "{5C00FABD6129BE79}Prefabs/Weapons/Attachments/Lights/Light_klesh2_base.et"
+     }
+    }
+    AttachmentSlotComponent "{69028191C996B197}" {
+     AttachmentSlot RHS_EquipmentStorageSlot RailCover {
+      Prefab "{03F516FBF9B10E89}Prefabs/Weapons/Attachments/Misc/KacRailCover/KacRailCover_AK_Zenit_B30_BLK.et"
+     }
+    }
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     components {
+      AttachmentSlotComponent "{4E2B66CBA589F625}" {
+       AttachmentSlot InventoryStorageSlot Muzzle {
+        Prefab "{F3DD3F69F633AD36}Prefabs/Weapons/Attachments/Muzzle/Supressor_TGPA/Supressor_TGPA.et"
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}

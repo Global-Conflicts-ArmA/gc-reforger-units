@@ -1,0 +1,55 @@
+GenericEntity : "{FF949A53EB551F00}Prefabs/Characters/Vests/Vest_AA_A18/variants/Vest_A18_HSGI_MC_1.et" {
+ ID "61AA6069A5E48A28"
+ components {
+  RHS_ClothNodeStorageComponent "{61AA6069A5E48A80}" {
+   Attributes SCR_ItemAttributeCollection "{61AA6069A5E48A8F}" {
+    ItemDisplayName UIInfo "{61AA6069A5E48A8A}" {
+     Name "#RHS-Vest_Preset_Prefix #RHS-Vest_AA_A18_Name [1] - #RHS-Color_Coyote"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{61AA6069A5E48AF6}" {
+   Slots {
+    LoadoutSlotInfo radio {
+     Offset 0.1722 0.085 -0.2069
+     Angles -5.284 149.08121 8.0795
+     Prefab "{61ED31AAF970DE24}Prefabs/Characters/Vests/Vest_Taktika_Pouches/Pouch_Taktika_radioPouch.et"
+    }
+    LoadoutSlotInfo arsbelt {
+     Offset -0.1839 0.0112 0.0087
+     Angles 1.0426 -88.5615 -2.7873
+     Prefab "{3E845EA5C2569CEF}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_wartech_magpouch_mp105_OD.et"
+    }
+    LoadoutSlotInfo arsbelt2 {
+     Offset -0.1678 0.007 -0.0679
+     Prefab "{9B391B0A3716E93D}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_wartech_magpouch_mp105_2_OD.et"
+    }
+    LoadoutSlotInfo slot {
+     Offset 0.1037 0.0451 0.1764
+     Prefab "{9B391B0A3716E93D}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_wartech_magpouch_mp105_2_OD.et"
+    }
+    LoadoutSlotInfo slot2 {
+     Offset 0.0307 0.049 0.1873
+     Prefab "{9B391B0A3716E93D}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_wartech_magpouch_mp105_2_OD.et"
+    }
+    LoadoutSlotInfo slot3 {
+     Offset -0.0451 0.0501 0.1903
+     Angles -1.7066 -8.7959 0.2641
+     Prefab "{9B391B0A3716E93D}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_wartech_magpouch_mp105_2_OD.et"
+    }
+    LoadoutSlotInfo slot4 {
+     Offset -0.1211 0.044 0.1735
+     Angles 0.8004 -21.8664 1.907
+     Prefab "{EDA4AA8C5E7FCB38}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_wartech_magpouch_mp105_MC.et"
+    }
+    LoadoutSlotInfo grs {
+     PivotID "Spine5"
+     Offset 0.0026 0.1396 -0.2664
+     Angles -1.2592 0 0
+     Prefab "{50B958C01C53BF80}Prefabs/Characters/Vests/Vest_TV110_Pouches/Minimap_ArsArma_GMR_OD.et"
+    }
+   }
+   DebugWornModel 1
+  }
+ }
+}

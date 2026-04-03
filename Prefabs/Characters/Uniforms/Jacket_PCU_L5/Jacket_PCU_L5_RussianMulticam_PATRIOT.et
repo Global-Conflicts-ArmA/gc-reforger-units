@@ -1,0 +1,126 @@
+GameEntity : "{B89432A8B5F489E5}Prefabs/Characters/Core/Uniform_Base.et" {
+ ID "5104869D194C6243"
+ components {
+  MeshObject "{5104869D194C6262}" {
+   Object "{96C188E51A35352F}Assets/Characters/Uniforms/Jacket_PCU_L5/PCU_L5.xob"
+   Materials {
+    MaterialAssignClass "{68FE679216111350}" {
+     SourceMaterial "ZenUV_Generic_Material"
+     AssignedMaterial "{99BF086E6E429648}Assets/Characters/Uniforms/Jacket_PCU_L5/Data/PCU_L5_RussianMulticam.emat"
+    }
+   }
+  }
+  SCR_ItemOutfitFactionComponent "{68FE679216111364}" {
+   m_OutfitDataHolder SCR_OutfitFactionDataHolder "{68FE679216111361}" {
+    m_aOutfitFactionData {
+     SCR_OutfitFactionData "{68FE679216111363}" {
+      m_AffiliatedFactionKey "CIV"
+      m_iOutfitFactionValue 40
+     }
+    }
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{5222CB01D5B9A306}" {
+   components {
+    ClothNodeStorageComponent "{68FE679216111368}" {
+     Priority 1
+     StoragePurpose 0x40 0x1
+     UseCapacityCoefficient 0
+     MaxCumulativeVolume 5
+     MaxItemSize 5 5 5
+     UseVirtualInventoryReplication 0
+    }
+   }
+   Attributes SCR_ItemAttributeCollection "{5222CB01245CDF32}" {
+    ItemDisplayName UIInfo "{5222CB0109A04AB2}" {
+     Name "PCU L5 Russian Multicam"
+     Description ""
+    }
+    ItemPhysAttributes ItemPhysicalAttributes PhysicalAttributes {
+     Weight 0.8
+     SizeSetupStrategy Manual
+     ItemDimensions 15 15 15
+     ItemVolume 2000
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{555292467DA11B7C}" {
+      CameraOrbitAngles 0 0 0
+      CameraDistanceToItem 4.5
+      FOV 10
+      PreviewWornModel 1
+      PreviewModel "{6F223F9465D881DF}Assets/Characters/Uniforms/Jacket_Denim_01/Jacket_Denim_01.xob"
+     }
+    }
+    m_SlotType SLOT_LOADOUT_STORAGE
+   }
+   Priority 2
+   UseCapacityCoefficient 0
+   CapacityCoefficient 1
+   MaxCumulativeVolume 600
+   MaxItemSize 10 10 10
+   m_fMaxWeight 5
+  }
+  BaseLoadoutClothComponent "{5104869D194C627A}" {
+   AreaType LoadoutJacketArea "{68FE679216111372}" {
+   }
+   Slots {
+    LoadoutSlotInfo DummyBelt {
+     PivotID "RightArm"
+     Enabled 0
+    }
+    VergyMorphPatchSystem RightArm {
+     PivotID "RightArm"
+     Offset -0.0033 -0.0998 -0.0604
+     Angles -8.4055 177.96719 -19.1808
+     Prefab "{5B2F201BA4693005}Prefabs/Items/Equipment/Patches/GC_Patch_PATRIOT.et"
+     AreaType LoadoutVergyRectanglePatchArea "{68FE679216111379}" {
+     }
+     m_bEnableMorphing 1
+     m_sMorphNameX "Curve"
+     m_fMorphValueX -0.4
+    }
+    VergyMorphPatchSystem RighArm2 {
+     PivotID "RightArm"
+     Offset 0.0121 -0.0567 -0.066
+     Angles -9.7097 174.10609 -18.5727
+     Prefab "{DA4536366079A131}Prefabs/Items/Equipment/Patches/GC_Patch_Tab_PMC.et"
+     AreaType LoadoutVergyRectanglePatchArea "{68FE67E59A9BA491}" {
+     }
+     m_bEnableMorphing 1
+     m_sMorphNameX "Curve"
+     m_fMorphValueX -0.4
+    }
+   }
+   WornModel "{96C188E51A35352F}Assets/Characters/Uniforms/Jacket_PCU_L5/PCU_L5.xob"
+   WornMaterialsOverride {
+    "{99BF086E6E429648}Assets/Characters/Uniforms/Jacket_PCU_L5/Data/PCU_L5_RussianMulticam.emat"
+   }
+   ItemModel "{87CDAEC4E71DAB13}Assets/Characters/Uniforms/Jacket_PCU_L5/PCU_L5_item.xob"
+   ItemMaterialsOverride {
+    "{99BF086E6E429648}Assets/Characters/Uniforms/Jacket_PCU_L5/Data/PCU_L5_RussianMulticam.emat"
+   }
+   SoundInt 320
+   OverrideMeshesToHide {
+    "Torso" "ArmUpper_L" "ArmUpper_R" "Arm_L" "Arm_R"
+   }
+   DeflatedModel "{8D8DCD01397BB24F}Assets/Characters/Uniforms/Jacket_PCU_L5/PCU_L5_deflated.xob"
+   AreaTypeWhenModelChange {
+    LoadoutArmoredVestSlotArea "{68FE679216111304}" {
+    }
+    LoadoutVestArea "{68FE679216111307}" {
+    }
+    LoadoutBackpackArea "{68FE679216111301}" {
+    }
+   }
+  }
+  ActionsManagerComponent "{5104869D194C6245}" {
+   ActionContexts {
+    UserActionContext "{5104869D194C624D}" {
+     Position PointInfo "{5104869D194C6273}" {
+      Offset 0 0.05 0
+     }
+    }
+   }
+  }
+ }
+}

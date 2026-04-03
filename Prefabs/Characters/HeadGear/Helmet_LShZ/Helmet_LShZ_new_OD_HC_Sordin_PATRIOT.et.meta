@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{7D62D90471FE39E7}Prefabs/Characters/HeadGear/Helmet_LShZ/Helmet_LShZ_new_OD_HC_Sordin_PATRIOT.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

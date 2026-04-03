@@ -1,0 +1,62 @@
+SCR_ChimeraCharacter : "{BDC8F9D9A8E94E53}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2025/PATRIOT/Character_PATRIOT_Base.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Sniper"
+    Icon "{0A78405E73C36477}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_Sharpshooter.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{D2B73341B7FA0C71}Prefabs/Weapons/Rifles/SVDM/Rifle_SVDM.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
+   WeaponTemplate "{E998FA484B0C4BFF}Prefabs/Weapons/Handguns/Glock/Handgun_Glock17.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{457A3F56EEA5E29D}Prefabs/Characters/HeadGear/Hats/Baseball_Cap/Hat_Baseball_Cap_Tan.et"
+    }
+    LoadoutSlotInfo Jacket {
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{AA28144C1153A86B}Prefabs/Characters/Vests/Vest_AA_A18/Vest_AA_A18_Coy.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{63CD40BF49CA9344}Prefabs/Characters/Vests/Vest_AACPC/variants/Vest_AACPC_arsarmaHSGI_FG_Sniper.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{63349A03F1411D1D}" {
+    }
+    ItemsInitConfigurationItem "{690281E6423CFAF5}" {
+     TargetStorage "Vest/Vest_AACPC_arsarmaHSGI_FG_Sniper.et/mp118_camer/Pouch_MP111_PistolClosed_FG.et"
+     PrefabsToSpawn {
+      "{F20D1122BC5CD9F2}Prefabs/Weapons/Magazines/glock_magazine/Magazine_9x19_Glock_17rnd.et"
+     }
+    }
+    ItemsInitConfigurationItem "{690281E64B0AF27F}" {
+     TargetStorage "Vest/Vest_AACPC_arsarmaHSGI_FG_Sniper.et/mp118_2/Pouch_MP111_PistolClosed2_FG.et"
+     PrefabsToSpawn {
+      "{F20D1122BC5CD9F2}Prefabs/Weapons/Magazines/glock_magazine/Magazine_9x19_Glock_17rnd.et"
+     }
+    }
+    ItemsInitConfigurationItem "{690281E664F43534}" {
+     TargetStorage "Vest/Vest_AACPC_arsarmaHSGI_FG_Sniper.et/gmr/Minimap_ArsArma_GMR_MC.et"
+     PrefabsToSpawn {
+      "{1F9F751F318EBEB0}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7N14.et" "{1F9F751F318EBEB0}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7N14.et" "{1F9F751F318EBEB0}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7N14.et" "{1F9F751F318EBEB0}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7N14.et" "{1F9F751F318EBEB0}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7N14.et"
+     }
+    }
+    ItemsInitConfigurationItem "{690675EC358F97ED}" {
+     TargetStorage "Vest/Vest_AACPC_arsarmaHSGI_FG_Sniper.et/radio/Pouch_Taktika_radioPouch_BLK.et"
+     PrefabsToSpawn {
+      "{B343AB76B0725657}Prefabs/Items/Equipment/Radios/RU/Radio_R187P1_OLD.et"
+     }
+    }
+   }
+  }
+ }
+}

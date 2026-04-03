@@ -1,0 +1,6 @@
+SCR_AIGroup : "{C977A1533FADD64D}Prefabs/Groups/OPFOR/Russia/2020/PATRIOT/Group_PATRIOT_Base.et" {
+ ID "0000000000000001"
+ m_aUnitPrefabSlots {
+  "{22CCABEB3ED16AC6}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2025/PATRIOT/Character_PATRIOT_SL.et" "{43468E3E921265B1}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2025/PATRIOT/Character_PATRIOT_Rifleman3.et" "{A6DAC2C79EF7F2DA}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2025/PATRIOT/Character_PATRIOT_Rifleman2.et" "{7E72AB06E77EEC86}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2025/PATRIOT/Character_PATRIOT_Rifleman4.et" "{250B51BA5857D005}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2025/PATRIOT/Character_PATRIOT_TL.et" "{9BEEE7FFEB9B7BED}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2025/PATRIOT/Character_PATRIOT_Rifleman5.et" "{CA8EF62722337DF4}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2025/PATRIOT/Character_PATRIOT_Rifleman1.et" "{E92E4BA67856BED6}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2025/PATRIOT/Character_PATRIOT_DeisgnatedMarksman.et" "{43E1C8E322FA9774}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2025/PATRIOT/Character_PATRIOT_FieldMedic.et"
+ }
+}

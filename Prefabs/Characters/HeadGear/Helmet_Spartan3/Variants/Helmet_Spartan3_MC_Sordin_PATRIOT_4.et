@@ -1,0 +1,37 @@
+GameEntity : "{851ED84E27A1A0F9}Prefabs/Characters/HeadGear/Helmet_Spartan3/Helmet_Spartan3_Base.et" {
+ ID "50D485E1435D6C72"
+ components {
+  RHS_HelmetNodeStorageComponent "{5DB13C5777E6E695}" {
+   Attributes SCR_ItemAttributeCollection "{5DB13C5760610D64}" {
+    ItemDisplayName UIInfo "{5DB13C575E2AFE37}" {
+     Name "#RHS-Headgear_Spartan3_Name (#RHS-Headgear_Sordin_Name_short) - #RHS-Camo_MULTICAM"
+    }
+   }
+  }
+  SCR_HeadgearInventoryItemComponent "{5244E4431E28A759}" {
+   Attributes SCR_ItemAttributeCollection "{5244E4431DA56D64}" {
+    ItemDisplayName UIInfo "{645E1A2BD41AE599}" {
+     Name "#RHS-Headgear_Spartan3_Name - #RHS-Camo_Multicam"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    RHS_LoadoutSlotInfo Goggles {
+     Prefab "{9C030889E9A05770}Prefabs/Characters/Eyewear/npp_strelok/Eyewear_npp_strelok.et"
+    }
+    RHS_LoadoutSlotInfo Masks {
+     Prefab "{0CF0E6EBFDFED644}Prefabs/Characters/HeadGear/Hat_Balaclava/Balaclava_OD.et"
+    }
+   }
+   WornModel "{B07697B7744BB369}Assets/Characters/HeadGear/Helmet_Spartan3/Spartan3_sordin.xob"
+   WornMaterialsOverride {
+    "" "" "{77415728C48824FC}Assets/Characters/HeadGear/Helmet_Spartan3/Data/spartan_MC.emat"
+   }
+   ItemModel "{33E4C6F40C571668}Assets/Characters/HeadGear/Helmet_Spartan3/Spartan3_sordin_ground.xob"
+   ItemMaterialsOverride {
+    "" "" "{77415728C48824FC}Assets/Characters/HeadGear/Helmet_Spartan3/Data/spartan_MC.emat"
+   }
+  }
+ }
+}

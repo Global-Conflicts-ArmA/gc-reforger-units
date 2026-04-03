@@ -1,0 +1,24 @@
+GameEntity : "{B6CC74F306F54A8D}Prefabs/Items/Equipment/Patches/Patch_Base.et" {
+ ID "5DB09136945FC6DB"
+ components {
+  InventoryItemComponent "{5DB09136B1C985CE}" {
+   Attributes SCR_ItemAttributeCollection "{5DB09136B1C985C1}" {
+    ItemDisplayName SCR_ItemHintUIInfo "{5DB09136B1C985EB}" {
+     Name "#RHS-Item_Patch_MSV_150MRD_Name"
+     Description "#RHS-Item_Patch_MSV_150MRD_Description"
+    }
+   }
+  }
+  MeshObject "{5DB09136B1C985B5}" {
+   Object "{DD7BCAA8EE7AB314}Assets/Characters/Patches/rhs_patch_ru_big_left.xob"
+  }
+  BaseLoadoutClothComponent "{5DB09136B1C9859A}" {
+   WornMaterialsOverride {
+    "{7542B80A32721014}Assets/Characters/data/GC_Patch_PATRIOT_Large.emat"
+   }
+   ItemMaterialsOverride {
+    "{7542B80A32721014}Assets/Characters/data/GC_Patch_PATRIOT_Large.emat"
+   }
+  }
+ }
+}

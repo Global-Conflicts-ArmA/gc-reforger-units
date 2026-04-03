@@ -1,0 +1,24 @@
+GameEntity : "{4A5D91D707E3852B}Prefabs/Characters/HeadGear/Helmet_Spartan3/Helmet_Spartan3_MC_Peltor.et" {
+ ID "50D485E1435D6C72"
+ components {
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    RHS_LoadoutSlotInfo Goggles {
+     Prefab "{D4ABE8F396146587}Prefabs/Characters/Eyewear/crossbow/Eyewear_ess_crossbow_clr.et"
+    }
+    RHS_LoadoutSlotInfo Masks {
+     Prefab "{F9970F15155A1A46}Prefabs/Characters/HeadGear/Hat_Balaclava/Balaclava_CoyoteBrown.et"
+    }
+    RHS_LoadoutSlotInfo BackVelcro {
+    }
+    RHS_LoadoutSlotInfo NVG {
+    }
+    RHS_LoadoutSlotInfo TopVelcro {
+    }
+    RHS_LoadoutSlotInfo LeftVelcro {
+     Prefab "{ADF3B4CD53A0841A}Prefabs/Items/Equipment/Patches/GC_Patch_PATRIOT_Logo.et"
+    }
+   }
+  }
+ }
+}

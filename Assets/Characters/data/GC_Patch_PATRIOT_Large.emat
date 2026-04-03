@@ -1,0 +1,7 @@
+MatPBRBasic {
+ AllowUserAlphaBias 1
+ DisableUserAphaInShadow 1
+ BCRMap "{C3A531B8C5F3A389}Assets/Characters/data/GC_Patch_PATRIOT_Large.edds"
+ OpacityMap "{70A53F4EA373F142}Assets/Characters/Basebody/Data/HeadClipping_A.edds"
+ NMOMap "{C3A531B8C5F3A389}Assets/Characters/data/GC_Patch_PATRIOT_Large.edds"
+}

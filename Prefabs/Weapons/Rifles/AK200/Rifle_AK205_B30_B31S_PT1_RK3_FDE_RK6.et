@@ -1,0 +1,50 @@
+GenericEntity : "{84C37791E24D1E92}Prefabs/Weapons/Rifles/AK200/Rifle_AK205_B30_B31S_PT1_RK3_FDE.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{647D1DE8DE70EEE9}" {
+     AttachmentSlot InventoryStorageSlot "{647D1DE8D7A8ECC4}" {
+     }
+    }
+    AttachmentSlotComponent "{662EBD3033C84A71}" {
+     AttachmentSlot RHS_SlidingInventoryStorageSlot AttachmentSlot {
+      Prefab "{586EE7AA31738D92}Prefabs/Weapons/Attachments/Optics/Collimators/Optic_SIGRomeo/Collim_SIGRomeo_BLK.et"
+     }
+    }
+    AttachmentSlotComponent "{662EBD315C621464}" {
+     AttachmentSlot RHS_SlidingInventoryStorageSlot AttachmentSlot {
+      Prefab "{CB8AB382E3F45336}Prefabs/Weapons/Attachments/Lasers/perst_classic/Laser_perst_classic_base.et"
+     }
+    }
+    AttachmentSlotComponent "{662EBD35F2F46C63}" {
+     AttachmentSlot InventoryStorageSlot optics {
+     }
+    }
+    AttachmentSlotComponent "{6630B6E265A3A0F4}" {
+     AttachmentSlot RHS_SlidingInventoryStorageSlot "{6630B6E267F9DF07}" {
+     }
+    }
+    AttachmentSlotComponent "{66711C44AA084ADD}" {
+     AttachmentSlot RHS_SlidingInventoryStorageSlot UnderRail {
+      Prefab "{5C00FABD6129BE79}Prefabs/Weapons/Attachments/Lights/Light_klesh2_base.et"
+     }
+    }
+    AttachmentSlotComponent "{66755D640445EF7B}" {
+     AttachmentSlot InventoryStorageSlot ForwardGrip {
+      Prefab "{49F469152782CB41}Prefabs/Weapons/Attachments/Grips/Grip_Zenit_RK_Vertical/RHS_RK6.et"
+     }
+    }
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     components {
+      AttachmentSlotComponent "{4E2B66CBA589F625}" {
+       AttachmentSlot InventoryStorageSlot Muzzle {
+        Prefab "{F3DD3F69F633AD36}Prefabs/Weapons/Attachments/Muzzle/Supressor_TGPA/Supressor_TGPA.et"
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}

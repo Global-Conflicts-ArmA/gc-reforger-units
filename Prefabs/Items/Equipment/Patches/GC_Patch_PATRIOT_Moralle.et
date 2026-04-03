@@ -1,0 +1,68 @@
+GenericEntity : "{077709D437BC371A}Prefabs/Characters/Eyewear/Goggles_PASGT_01_base.et" {
+ ID "559C7E9ADCAE6DAC"
+ components {
+  InventoryItemComponent "{559C7E9ADCAE6DD3}" {
+   Attributes SCR_ItemAttributeCollection "{559C7E9ADCAE6DCD}" {
+    ItemDisplayName UIInfo "{559C7E9ADCAE6DCF}" {
+     Name "C Squadron, Special Boat Service"
+     Description "TRF/DZ patch"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{559C7E9ADCAE6DCA}" {
+     Weight 0.05
+     SizeSetupStrategy Manual
+     ItemDimensions 2 2 2
+     ItemVolume 0.5
+     DimensionScaler 1
+     RestingUP Right
+     RestingAdditiveRotationLS 0 0 0
+     RestingAdditiveOffsetLS -0.08 0 0
+    }
+    ItemAnimationAttributes ItemAnimationAttributes "{68FE67BDF689C726}" {
+     AnimationAttachments {
+      AnimationAttachmentInfo "{68FE67BDF689C729}" {
+       AnimGraph "{82906ACD75DF8523}Assets/Items/Equipment/workspaces/Flashlight_MX991.agr"
+       AnimInstance "{903E4A0B96B34B8F}Assets/Items/Equipment/workspaces/MX991_player.asi"
+       BindingName "Gadget"
+      }
+     }
+     AllowInspection 1
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{559C7E9ADCAE6DC6}" {
+      CameraOrbitAngles 0 0 0
+      CameraDistanceToItem 0.3
+      CameraOffset 0 0.01 0
+      FOV 20
+      AspectRatio 1
+      LodModel 0
+     }
+    }
+    CommonItemType "PBK_PATCHSMALL"
+    m_Size SLOT_1x1
+    m_SlotType SLOT_LOADOUT_STORAGE
+    m_bStackable 0
+   }
+  }
+  MeshObject "{559C7E9ADCAE6DC2}" {
+   Object "{F7887337A40B95B5}Assets/Character/Equipment/Accessories/Patches/TRF/UKSF/Patch_Crest_SBSCSqn.xob"
+   Materials {
+    MaterialAssignClass "{68FE67AF558BD1F9}" {
+     SourceMaterial "C_Sqn"
+     AssignedMaterial "{AEAAA0A6A584746A}Assets/Characters/data/PATRIOT.emat"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{559C7E9ADCAE6DFF}" {
+   AreaType RHS_LoadoutMediumVelcroSlotArea "{5A6A7616390E4FF3}" {
+   }
+   WornModel "{F7887337A40B95B5}Assets/Character/Equipment/Accessories/Patches/TRF/UKSF/Patch_Crest_SBSCSqn.xob"
+   WornMaterialsOverride {
+    "{AEAAA0A6A584746A}Assets/Characters/data/PATRIOT.emat"
+   }
+   ItemModel "{F7887337A40B95B5}Assets/Character/Equipment/Accessories/Patches/TRF/UKSF/Patch_Crest_SBSCSqn.xob"
+   ItemMaterialsOverride {
+    "{AEAAA0A6A584746A}Assets/Characters/data/PATRIOT.emat"
+   }
+  }
+ }
+}

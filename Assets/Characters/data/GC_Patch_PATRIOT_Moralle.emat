@@ -1,0 +1,6 @@
+MatPBRBasic {
+ Cull none
+ WetnessScale 0.5
+ PorosityScale 0.5
+ BCRMap "{9AA83B321B16FE2C}Assets/Characters/data/PATRIOTpatch.edds"
+}

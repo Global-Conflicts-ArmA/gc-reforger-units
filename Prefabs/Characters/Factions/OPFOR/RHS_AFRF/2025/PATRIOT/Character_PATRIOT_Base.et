@@ -1,0 +1,27 @@
+SCR_ChimeraCharacter : "{64645D85D2974479}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/RHS Inherits/SSO/ATACS/Character_RHS_RF_SSO_BaseLoadout.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Jacket {
+     Prefab "{5F154E499F388177}Prefabs/Characters/Uniforms/Jacket_PCU_L5/Jacket_PCU_L5_RussianMulticam.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{BF3AC06373FD1C58}Prefabs/Characters/Uniforms/Pants_CCUE/Pants_CCUE_RussianMulticam.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{63349A03F1411D2D}" {
+     TargetStorage "Pants/Pants_CCUE_RussianMulticam.et"
+     PrefabsToSpawn +{
+     }
+    }
+    ItemsInitConfigurationItem "{63349A03F1411D1D}" {
+     TargetStorage "Jacket/Jacket_PCU_L5_RussianMulticam.et"
+    }
+   }
+  }
+ }
+}

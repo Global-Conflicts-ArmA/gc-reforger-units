@@ -1,0 +1,112 @@
+GameEntity : "{0B201E22AD2DFA7F}Prefabs/Items/Equipment/Accessories/ClothAttachment_Base.et" {
+ ID "5DB09136945FC6DB"
+ components {
+  InventoryItemComponent "{5DB09136B1C985CE}" {
+   Attributes SCR_ItemAttributeCollection "{5DB09136B1C985C1}" {
+    ItemDisplayName SCR_ItemHintUIInfo "{5DB09136B1C985EB}" {
+     Name "Patch"
+     Description "Velcro patch"
+     m_aItemHints {
+      SCR_InventoryItemHintUIInfo "{61CC8C4C7DC3AE72}" {
+       Name "#RHS-UI_InventoryHint_CanBeattachedToVelcro"
+       Icon "{72869FB002B6ABC2}UI/Textures/InventoryIcons/Inspection-gizmo-patch-slot-M-alt-UI.edds"
+      }
+     }
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{5DB09136B1C985D2}" {
+     Weight 0.02
+     ItemDimensions 1 1 1
+     RestingUP Forward
+     ActivePhysicalSimulation None
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{5DB09136B1C985C3}" {
+      CameraDistanceToItem 0.65
+      ItemRenderRotation 20 0 20
+      PreviewWornModel 0
+     }
+     RHS_CustomAttributes "{5DB8F5B98D9963BA}" : "{29F1EFAA1B1C6CBA}Prefabs/Items/Equipment/Accessories/Core/RHS_CustomAttributes_VelcroMedium.conf" {
+     }
+    }
+    CommonItemType "RHS_PATCH"
+    m_Size SLOT_1x1
+    m_SlotType SLOT_GADGETS_STORAGE
+    m_bStackable 0
+   }
+  }
+  MeshObject "{5DB09136B1C985B5}" {
+   Object "{60F3E2C9A1DBCA89}Assets/Characters/Patches/rhs_patch_us_flag_flat.xob"
+   Materials {
+    MaterialAssignClass "{6904F81147968E24}" {
+     SourceMaterial "patch_us_flag"
+     AssignedMaterial "{D5773A41FDD78CBA}Assets/Characters/data/GC_Patch_PATRIOT_Assault.emat"
+    }
+   }
+  }
+  ParametricMaterialInstanceComponent "{6904F81D1D01FDF6}" {
+   UserParamAlpha 1
+   ApplyPropertiesWhenMeshChanged 1
+  }
+  BaseLoadoutClothComponent "{5DB09136B1C9859A}" {
+   AreaType RHS_LoadoutMediumVelcroSlotArea "{5DB0A07091EE92E2}" {
+   }
+   WornModel ""
+   WornMaterialsOverride {
+    "{D5773A41FDD78CBA}Assets/Characters/data/GC_Patch_PATRIOT_Assault.emat"
+   }
+   ItemModel ""
+   ItemMaterialsOverride {
+    "{D5773A41FDD78CBA}Assets/Characters/data/GC_Patch_PATRIOT_Assault.emat"
+   }
+  }
+  ActionsManagerComponent "{5DB09136B1C99451}" {
+   additionalActions {
+    RHS_AttachToClothAction "{5DB0A0703A3A47C8}" {
+     m_ClothFromArea LoadoutJacketArea "{5D7F084A60E36DA2}" {
+     }
+    }
+    RHS_ReplaceClothAction "{5DB6D278A139E6CD}" {
+     m_ClothFromArea LoadoutAreaType "{5DB6D27891A42F11}" {
+     }
+    }
+    RHS_AttachToClothAction "{6904F81D1D01FDFE}" {
+     ParentContextList {
+      "default"
+     }
+     UIInfo UIInfo "{6904F81D1D01FDF8}" {
+      Name "#RHS-Action_Attach_To"
+     }
+     "Inventory action" 1
+     m_ClothFromArea LoadoutHeadCoverArea "{6904F81D1D01FDFA}" {
+     }
+    }
+    RHS_AttachToClothAction "{6904F81D1D01FDFB}" {
+     ParentContextList {
+      "default"
+     }
+     UIInfo UIInfo "{6904F81D1D01FD85}" {
+      Name "#RHS-Action_Attach_To"
+     }
+     "Inventory action" 1
+     m_ClothFromArea LoadoutArmoredVestSlotArea "{6904F81D1D01FD87}" {
+     }
+    }
+    RHS_AttachToClothAction "{6904F81D1D01FD81}" {
+     ParentContextList {
+      "default"
+     }
+     UIInfo UIInfo "{6904F81D1D01FD82}" {
+      Name "#RHS-Action_Attach_To"
+     }
+     "Inventory action" 1
+     m_ClothFromArea LoadoutVestArea "{6904F81D1D01FD83}" {
+     }
+    }
+   }
+  }
+  BaseItemAnimationComponent "{6904F81D1D01FD8E}" {
+   AnimGraph "{6A8EE4A914596E5F}anims/workspaces/animals/Columba_livia_domestica/Columba_livia_domestica.agr"
+   AnimInstance "{8D91E38B00B5505F}anims/workspaces/animals/Columba_livia_domestica/pigeon.asi"
+  }
+ }
+}

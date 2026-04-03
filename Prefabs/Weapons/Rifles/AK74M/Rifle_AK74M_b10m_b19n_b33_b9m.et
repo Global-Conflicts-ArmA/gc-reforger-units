@@ -1,0 +1,56 @@
+GenericEntity : "{1652ED3F0FA5B007}Prefabs/Weapons/Rifles/AK74M/Rifle_AK74M_b10m_b19n_b33.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{5E9CA21FA76B5BFB}" {
+     AttachmentSlot InventoryStorageSlot gp_buttpad {
+      Prefab "{D901305DD97960AD}Prefabs/Weapons/Attachments/Misc/AkGpButtPad/akGPbutt.et"
+     }
+    }
+    AttachmentSlotComponent "{60D68A0BAB784D3F}" {
+     AttachmentSlot RHS_SlidingInventoryStorageSlot "{60D68A0BA5634353}" {
+      Prefab "{CB8AB382E3F45336}Prefabs/Weapons/Attachments/Lasers/perst_classic/Laser_perst_classic_base.et"
+     }
+    }
+    AttachmentSlotComponent "{664E3A73C2772446}" {
+     AttachmentSlot InventoryStorageSlot PistolGrip {
+      Prefab "{2DFA10BBE5F26F90}Prefabs/Weapons/Attachments/Grips/Grip_AK200_Standart/RHS_AK200_PistolGrip_base.et"
+     }
+    }
+    AttachmentSlotComponent "{664E543E2B728917}" {
+     AttachmentSlot RHS_SlidingInventoryStorageSlot RIS_Slot {
+      Offset 0 -0.0043 0.1313
+      Prefab "{0F3B6A3F81D55A2D}Prefabs/Weapons/Attachments/Optics/Collimators/Optic_WilcoxBOSSXe/Collim_BOSSXe.et"
+     }
+    }
+    AttachmentSlotComponent "{68FE673928C540D3}" {
+     AttachmentSlot RHS_SlidingInventoryStorageSlot B9MRail {
+      Offset 0 0.0465 0.3881
+      Angles 0 0 180
+      Prefab "{5C00FABD6129BE79}Prefabs/Weapons/Attachments/Lights/Light_klesh2_base.et"
+      InspectionWidgetOffset 0 0.0465 0.3881
+     }
+     AttachmentType AttachmentRIS1913 "{68FE673928C540EC}" {
+     }
+     ShowInInspection 1
+    }
+    AttachmentSlotComponent "{68FE673928C540ED}" {
+     AttachmentSlot InventoryStorageSlot b9m {
+      Prefab "{7ED9E3D50012920E}Prefabs/Weapons/Attachments/Mounts/mount_zenit_b9m/rail_zenit_b9m_base.et"
+     }
+    }
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     components {
+      AttachmentSlotComponent "{4E2B66CBA589F625}" {
+       AttachmentSlot InventoryStorageSlot Muzzle {
+        Prefab "{3D2940A7E1E36F87}Prefabs/Weapons/Attachments/Muzzle/PBS4/RHS_PBS4.et"
+       }
+      }
+     }
+     MagazineTemplate "{B39F57E7FB003434}Prefabs/Weapons/Magazines/AK12_magazine/Magazine_545x39_AK12_30rnd_Base.et"
+    }
+   }
+  }
+ }
+}

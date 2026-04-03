@@ -1,0 +1,20 @@
+GenericEntity : "{9CAEC50CF8AE5F20}Prefabs/Characters/Vests/Vest_AACPC/Vest_AACPC_base.et" {
+ ID "50D8C49B3558F152"
+ components {
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Slots {
+    RHS_LoadoutSlotInfo ChestVelcro {
+     Offset 0 0.1887 0.1724
+     Angles 8.307 0 0
+     Prefab "{ADF3B4CD53A0841A}Prefabs/Items/Equipment/Patches/GC_Patch_PATRIOT_Logo.et"
+    }
+    LoadoutSlotInfo Groin_protection {
+     Prefab "{BDBB793C7CC37B88}Prefabs/Characters/Vests/Vest_AACPC/attachment_ARSARma_Groin_MC.et"
+    }
+    LoadoutSlotInfo Pads {
+    }
+   }
+  }
+ }
+ coords 107.416 1.448 143.863
+}

@@ -1,0 +1,65 @@
+GenericEntity : "{E4FEB71156657D44}Prefabs/Weapons/Rifles/AK74M/Rifle_AK74M_b30u_b31n_b33.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{5A7332ECF23FF6A5}" {
+     AttachmentSlot InventoryStorageSlot optics {
+     }
+    }
+    AttachmentSlotComponent "{5D5100CE8CA5075D}" {
+     AttachmentSlot RHS_SlidingInventoryStorageSlot RIS_Slot {
+      Offset 0 -0.0033 0.1313
+      Prefab "{9FCF829662001AD0}Prefabs/Weapons/Attachments/Optics/Collimators/Optic_PK-06/Collim_PK-06.et"
+     }
+    }
+    AttachmentSlotComponent "{5E9CA21FA76B5BFB}" {
+     Enabled 0
+    }
+    AttachmentSlotComponent "{60D6BDAA2150CFBF}" {
+     AttachmentSlot RHS_SlidingInventoryStorageSlot "{60D6BDAA23534844}" {
+      Prefab "{CB8AB382E3F45336}Prefabs/Weapons/Attachments/Lasers/perst_classic/Laser_perst_classic_base.et"
+     }
+    }
+    AttachmentSlotComponent "{60D6BDAA4AC839F7}" {
+     AttachmentSlot InventoryStorageSlot "{60D6BDAA442C904A}" {
+      Prefab "{C32EC74B4B0C8CA1}Prefabs/Weapons/Attachments/Lights/Light_m300c_blk.et"
+     }
+    }
+    AttachmentSlotComponent "{647D1DE8DE70EEE9}" {
+     AttachmentSlot InventoryStorageSlot "{647D1DE8D7A8ECC4}" {
+     }
+    }
+    AttachmentSlotComponent "{664E3A73A7D7E68C}" {
+     AttachmentSlot InventoryStorageSlot Stock {
+      Prefab "{AA8B3B4CDFE69DC5}Prefabs/Weapons/Attachments/Stocks/Stock_AK200_Standart/RHS_AK200_Stock_Standart.et"
+     }
+    }
+    AttachmentSlotComponent "{664E3A73C2772446}" {
+     AttachmentSlot InventoryStorageSlot PistolGrip {
+      Prefab "{9F185CFF674647BE}Prefabs/Weapons/Attachments/Grips/PistolGrip_AK74M_Zenit_RK3/RHS_AK74M_PistolGrip_Zenit_RK3_base.et"
+     }
+    }
+    AttachmentSlotComponent "{664E543F22E967BE}" {
+     AttachmentSlot RHS_SlidingInventoryStorageSlot "{60D6BDAF2E6B2B93}" {
+     }
+    }
+    AttachmentSlotComponent "{66836508398193D8}" {
+     AttachmentSlot InventoryStorageSlot Foregrip {
+      Prefab "{49F469152782CB41}Prefabs/Weapons/Attachments/Grips/Grip_Zenit_RK_Vertical/RHS_RK6.et"
+     }
+    }
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     components {
+      AttachmentSlotComponent "{4E2B66CBA589F625}" {
+       AttachmentSlot InventoryStorageSlot Muzzle {
+        Prefab "{F3DD3F69F633AD36}Prefabs/Weapons/Attachments/Muzzle/Supressor_TGPA/Supressor_TGPA.et"
+       }
+      }
+     }
+     MagazineTemplate "{B39F57E7FB003434}Prefabs/Weapons/Magazines/AK12_magazine/Magazine_545x39_AK12_30rnd_Base.et"
+    }
+   }
+  }
+ }
+}
