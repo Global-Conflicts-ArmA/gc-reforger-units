@@ -4,7 +4,7 @@ SCR_ChimeraCharacter : "{9275A3F9875F9498}Prefabs/Characters/Factions/BLUFOR/CDF
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
     Name "Drone Operator (Dropper)"
-    Icon "{A489F552FB7489C3}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_Custom.edds"
+    Icon "{F6931B751B1E16B7}UI/Textures/EditableEntities/Characters/EditableEntity_Character_DroneOperator.edds"
     m_Image "{50D62F5BEA9007CB}UI/Textures/EditorPreviews/Characters/OPFOR/USSR_Army/Character_USSR_RTO.edds"
    }
   }
