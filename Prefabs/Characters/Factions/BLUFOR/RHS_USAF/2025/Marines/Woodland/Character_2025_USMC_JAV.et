@@ -19,9 +19,6 @@ SCR_ChimeraCharacter : "{F92C060CACCE8143}Prefabs/Characters/Factions/BLUFOR/RHS
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
    WeaponTemplate "{F75E18A45A2AE74E}Prefabs/Weapons/Rifles/M4A1/Rifle_M4A1_RAS_NT4_Peq_RCO_RMR.et"
   }
-  CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
-   WeaponTemplate "{246737687711A367}Prefabs/Weapons/Launchers/FGM148_Javelin/Launcher_FGM148_Javelin.et"
-  }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {

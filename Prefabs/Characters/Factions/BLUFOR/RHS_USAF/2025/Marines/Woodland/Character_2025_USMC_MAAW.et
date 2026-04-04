@@ -19,7 +19,7 @@ SCR_ChimeraCharacter : "{F92C060CACCE8143}Prefabs/Characters/Factions/BLUFOR/RHS
    WeaponTemplate "{C2C30F73F41D88F8}Prefabs/Weapons/Rifles/M27IAR/Marines-VCOGs/Rifle_M27IAR_VCOG_rangefinder.et"
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
-   WeaponTemplate "{AE8BF1F7476AA76D}Prefabs/Weapons/Launchers/MAW_84MM/Launcher_84mm_MAW_Optic.et"
+   WeaponTemplate "{4D02E8D5E58AB005}Prefabs/Weapons/M4_MAAWS/M4_MAAWS.et"
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
@@ -30,7 +30,7 @@ SCR_ChimeraCharacter : "{F92C060CACCE8143}Prefabs/Characters/Factions/BLUFOR/RHS
      Prefab "{1300A5F6CA51B206}Prefabs/Characters/Vests/Vest_PCGen_III/Vest_PCGen_III.et"
     }
     LoadoutSlotInfo Back {
-     Prefab "{4BA48D3B0E53DF91}Prefabs/Items/Equipment/Backpacks/Rucksack_84mm_MAW_Carrier.et"
+     Prefab "{BC4ABD18AF9564D5}Prefabs/Items/Equipment/Backpacks/FILBE_Backpack_Heavy.et"
     }
     LoadoutSlotInfo Vest {
      Prefab "{11810158D0BCABEF}Prefabs/Characters/Vests/Vest_PCGen_III/Variants/Vest_PCGen_III_rifleman_blueforcetriple.et"
@@ -45,7 +45,10 @@ SCR_ChimeraCharacter : "{F92C060CACCE8143}Prefabs/Characters/Factions/BLUFOR/RHS
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{61B52C4506FFE973}" {
-     TargetStorage "Vest/Vest_PCGen_III_rifleman_blueforcetriple.et/radio/Pouch_152_Radio.et"
+     TargetStorage "Back/FILBE_Backpack_Heavy.et"
+     PrefabsToSpawn {
+      "{B47212073D91E28F}Prefabs/Attachments/FCS600/Optic_FLV_HE.et" "{D928BE3F7938F100}Prefabs/Attachments/FCS600/Optic_FLV_HEAT.et" "{82F517A45B70EA60}Prefabs/Attachments/FCS600/Optic_FLV_HEDP.et"
+     }
     }
     ItemsInitConfigurationItem "{66B4211E199B8F9A}" {
      PrefabsToSpawn + {
@@ -110,6 +113,12 @@ SCR_ChimeraCharacter : "{F92C060CACCE8143}Prefabs/Characters/Factions/BLUFOR/RHS
      TargetStorage "Vest/Vest_PCGen_III_rifleman_blueforcetriple.et/m18_2/Pouch_Filbe_M18_2.et"
      PrefabsToSpawn {
       "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68EB3E577845AB64}" {
+     TargetStorage "Back/FILBE_Backpack_Heavy.et"
+     PrefabsToSpawn {
+      "{A0E2F8935E55FD92}Prefabs/Magazine/Magazine_84mm_HEDP.et" "{A0E2F8935E55FD92}Prefabs/Magazine/Magazine_84mm_HEDP.et" "{5B9BCFE7BBB5B55C}Prefabs/Magazine/Magazine_84mm_HEAT551.et"
      }
     }
    }

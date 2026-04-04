@@ -9,10 +9,16 @@ Vehicle : "{FBA3F21384B6E649}Prefabs/Vehicles/Wheeled/JLTV/OGPK/MK19/JLTV_MK19_O
     }
    }
   }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    Name "JLTV OGPK MK19 Woodland"
+    m_Image "{9B920C10281D2B12}UI/Textures/EditorPreviews/Vehicles/Wheeled/JLTV/JLTV_OGPK_Woodland.edds"
+   }
+  }
   SlotManagerComponent "{55BCE45E438E4CFF}" {
    Slots {
     RegisteringComponentSlotInfo Turret {
-     Prefab "{1024D24BD2DE500F}Prefabs/Vehicles/Wheeled/JLTV/VehParts/Turrets/JLTV_MK19_OGPK_Woodland.et"
+     Prefab "{1024D24BD2DE500F}Prefabs/Vehicles/Wheeled/JLTV/VehParts/Turrets/MK19/JLTV_MK19_OGPK_Woodland.et"
     }
    }
   }

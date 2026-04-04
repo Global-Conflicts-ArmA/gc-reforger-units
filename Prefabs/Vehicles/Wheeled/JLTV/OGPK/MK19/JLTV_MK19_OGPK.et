@@ -1,6 +1,11 @@
 Vehicle : "{E49B4C9AEA70BE3F}Prefabs/Vehicles/Wheeled/JLTV/OGPK/M2HB/JLTV_OGPK.et" {
  ID "BBCBA43A9778AE21"
  components {
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    Name "JLTV OGPK MK19 Tan"
+   }
+  }
   SCR_UniversalInventoryStorageComponent "{5C946CE5223089AE}" {
    MultiSlots {
     MultiSlotConfiguration "{5DE8B00DB02BE538}" {
