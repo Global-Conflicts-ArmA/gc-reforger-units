@@ -1,0 +1,18 @@
+Turret : "{72AD3D7B02F0F450}Prefabs/Vehicles/Wheeled/Stryker/VehParts/Turrets/STRYKER_CROWS_Turret.et" {
+ ID "51ACD0965653D003"
+ components {
+  SlotManagerComponent "{62F2DDF02D357EBB}" {
+   Slots {
+    RegisteringComponentSlotInfo Magazine {
+     Prefab ""
+    }
+   }
+  }
+  WeaponSlotComponent "{51ACD09C6BFEEE6A}" {
+   AttachType InventoryStorageSlot "{0AACE7470E421D82}" {
+    Offset -0.1401 -0.2167 -0.0613
+   }
+   WeaponTemplate "{8536C17A0C9D2E64}Prefabs/Weapons/HeavyWeapons/MK19/GL_MK19.et"
+  }
+ }
+}

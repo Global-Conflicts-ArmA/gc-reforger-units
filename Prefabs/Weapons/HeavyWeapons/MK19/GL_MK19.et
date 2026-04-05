@@ -1,0 +1,14 @@
+GenericEntity : "{665EB9DBECC0B5F5}Prefabs/Weapons/HeavyWeapons/MK19/GL_MK19_pintle_M1151.et" {
+ ID "476AE74DE20E1061"
+ components {
+  SlotManagerComponent "{68C2D10D10A7A478}" {
+   Enabled 0
+   Slots {
+    EntitySlotInfo Shield {
+     Offset -0.0024 -2.3875 -0.1654
+     Prefab "{68FB0651CDFA0FC4}Prefabs/Vehicles/Wheeled/IvecoLMV/VehParts/Turret/Gun_Shield_IvecoLMV_Tan.et"
+    }
+   }
+  }
+ }
+}
