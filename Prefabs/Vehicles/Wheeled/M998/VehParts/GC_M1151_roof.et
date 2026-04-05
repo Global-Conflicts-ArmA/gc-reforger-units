@@ -1,0 +1,13 @@
+GenericEntity : "{A3F113C69F7CFC56}Prefabs/Vehicles/Wheeled/M998/VehParts/GC_M1151_roof_Mk19.et" {
+ ID "672EDBFBD09A1100"
+ components {
+  SlotManagerComponent "{672EDBFBD09A1E84}" {
+   Slots {
+    RegisteringComponentSlotInfo Turret {
+     Offset 0 -0.4546 0.303
+     Prefab "{B901C89C8799C152}Prefabs/Vehicles/Wheeled/JLTV/VehParts/JLTV_Roof_Olive.et"
+    }
+   }
+  }
+ }
+}

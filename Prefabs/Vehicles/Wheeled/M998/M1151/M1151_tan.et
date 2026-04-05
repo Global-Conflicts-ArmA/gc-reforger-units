@@ -1,0 +1,20 @@
+Vehicle : "{F7E5F465159AD8D0}Prefabs/Vehicles/Wheeled/M998/M1151/M1151_olive.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{690978A7A4326598}" {
+     SourceMaterial "Assets/Vehicles/Wheeled/M998/Data/HMMWV_Body"
+     AssignedMaterial "{ECFB0A86053379D8}Assets/Vehicles/Wheeled/M998/Data/HMMWV_Body_Tan.emat"
+    }
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Roof {
+     Prefab "{B4E080F726520522}Prefabs/Vehicles/Wheeled/M998/VehParts/GC_M1151_roof_tan.et"
+    }
+   }
+  }
+ }
+}
