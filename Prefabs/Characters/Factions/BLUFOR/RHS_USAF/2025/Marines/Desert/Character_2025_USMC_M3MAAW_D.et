@@ -1,0 +1,22 @@
+SCR_ChimeraCharacter : "{5449D2F88894225B}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marines/Desert/Character_2025_USMC_M4MAAW_D.et" {
+ ID "520EC961A090BBD5"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+   WeaponTemplate "{AE8BF1F7476AA76D}Prefabs/Weapons/Launchers/MAW_84MM/Launcher_84mm_MAW_Optic.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Back {
+     Prefab "{4BA48D3B0E53DF91}Prefabs/Items/Equipment/Backpacks/Rucksack_84mm_MAW_Carrier.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68EB3E577845AB64}" {
+     Enabled 0
+    }
+   }
+  }
+ }
+}
