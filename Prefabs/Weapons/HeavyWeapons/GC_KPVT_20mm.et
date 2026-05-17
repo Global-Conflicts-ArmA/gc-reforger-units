@@ -1,0 +1,12 @@
+GenericEntity : "{3918018FD9995C1C}Prefabs/Weapons/HeavyWeapons/GC_KPVT.et" {
+ ID "0000000000000001"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    MuzzleComponent "{50F64C4591CD7AA6}" {
+     MagazineTemplate "{C079EAB49F9BBA66}Prefabs/Weapons/Magazines/Magazine_20x102_M197_150rnd_3HEIT_1API.et"
+    }
+   }
+  }
+ }
+}
