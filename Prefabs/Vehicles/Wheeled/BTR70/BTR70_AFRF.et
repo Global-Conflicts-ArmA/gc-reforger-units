@@ -9,32 +9,32 @@ Vehicle : "{1C5FE7B7FF49BB8D}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Base.et" {
      }
     }
     CargoCompartmentSlot Passenger_r01 {
-     m_DefaultOccupantData SCR_DefaultOccupantData "{59BA9CCD47C51A48}" {
+     m_DefaultOccupantData SCR_DefaultOccupantData "{6963710F7738D165}" {
       m_sDefaultOccupantPrefab "{1701B425406974A0}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/RandomSoldiers/Character_RHS_RF_MSV_VKPO_DS_SL_Random.et"
      }
     }
     CargoCompartmentSlot Passenger_r02 {
-     m_DefaultOccupantData SCR_DefaultOccupantData "{59BA9CCD47C51A48}" {
+     m_DefaultOccupantData SCR_DefaultOccupantData "{6963710F751AFD88}" {
       m_sDefaultOccupantPrefab "{F11CCA20FCC74AA3}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/RandomSoldiers/Character_RHS_RF_MSV_VKPO_DS_AT_Random.et"
      }
     }
     CargoCompartmentSlot Passenger_l03 {
-     m_DefaultOccupantData SCR_DefaultOccupantData "{59BA9CCD47C51A48}" {
+     m_DefaultOccupantData SCR_DefaultOccupantData "{6963710F7374A695}" {
       m_sDefaultOccupantPrefab "{AFF07941936347BB}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/RandomSoldiers/Character_RHS_RF_MSV_VKPO_DS_AAT_Random.et"
      }
     }
     CargoCompartmentSlot Passenger_r03 {
-     m_DefaultOccupantData SCR_DefaultOccupantData "{59BA9CCD47C51A48}" {
+     m_DefaultOccupantData SCR_DefaultOccupantData "{6963710F71B9E797}" {
       m_sDefaultOccupantPrefab "{A5548567111B86FD}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/RandomSoldiers/Character_RHS_RF_MSV_VKPO_DS_AR_Random.et"
      }
     }
     CargoCompartmentSlot Passenger_l04 {
-     m_DefaultOccupantData SCR_DefaultOccupantData "{59BA9CCD47C51A48}" {
+     m_DefaultOccupantData SCR_DefaultOccupantData "{6963710F8FD239C8}" {
       m_sDefaultOccupantPrefab "{727CB9BA48D9407A}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/RandomSoldiers/Character_RHS_RF_MSV_VKPO_DS_SR_GL_Random.et"
      }
     }
     CargoCompartmentSlot Passenger_r04 {
-     m_DefaultOccupantData SCR_DefaultOccupantData "{59BA9CCD47C51A48}" {
+     m_DefaultOccupantData SCR_DefaultOccupantData "{6963710F8C110B24}" {
       m_sDefaultOccupantPrefab "{234A37EC8608DFAC}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/RandomSoldiers/Character_RHS_RF_MSV_VKPO_DS_Rifleman_Random.et"
      }
     }
