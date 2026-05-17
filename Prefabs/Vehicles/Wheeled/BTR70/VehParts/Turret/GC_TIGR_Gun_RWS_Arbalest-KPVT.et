@@ -96,7 +96,7 @@ Turret : "{4AD877DEA242E512}Prefabs/Weapons/Core/Turret_Base.et" {
       Angles 14.6047 0 0
      }
      ForcedFreeLook 1
-     SkipCharacterDoorAnimationsFromSeat 0
+     SkipCharacterDoorAnimationsFromSeat 1
      SeatType 2
      DoorInfoList +{
      }
