@@ -1,0 +1,25 @@
+Tank : "{F43F9F04A97FC994}Prefabs/Vehicles/Tracked/M113/M113_base.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  SCR_BaseCompartmentManagerComponent "{20FB66C5DCB8DF72}" {
+   CompartmentSlots {
+    PilotCompartmentSlot PilotCompartment {
+     CanTurnOut 1
+    }
+    SCR_DoctorCompartmentSlot Doctor {
+     CompartmentUniqueName "Doctor"
+     SeatType 1
+    }
+   }
+  }
+  VehicleAnimationComponent "{50B803EAA459B0AF}" {
+   AnimGraph "{7CAC24D1C84A8AFA}Assets/Vehicles/Tracked/M113/workspaces/M113.agr"
+   AnimInstance "{0D928F717B058F0E}Assets/Vehicles/Tracked/M113/workspaces/M113_vehicle.asi"
+   AnimInjection AnimationAttachmentInfo "{50B803EA8AD25BC8}" {
+    AnimGraph "{847F34F75C70A43A}Assets/Vehicles/Wheeled/LAV25/workspaces/LAV25.agr"
+    AnimInstance "{4D3CA2D353C4FB44}Assets/Vehicles/Wheeled/LAV25/workspaces/LAV25_player.asi"
+   }
+  }
+ }
+ coords 0 0 0
+}

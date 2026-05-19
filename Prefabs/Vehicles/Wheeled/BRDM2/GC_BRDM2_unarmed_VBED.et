@@ -1,0 +1,46 @@
+Vehicle : "{1D8B8FF2AC498A20}Prefabs/Vehicles/Wheeled/BRDM2/GC_BRDM2_unarmed.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  GC_ExplosivesManager "{695AFB854FB46003}" {
+   PROJECTILE_EFFECTS {
+    AIExplosionEffect "{695AFB85BA4528B0}" {
+    }
+    ExplosionEffect "{695AFB85B2E9AB27}" {
+     EffectPrefab "{5ED585C493D441B3}Prefabs/Weapons/Warheads/Warhead_VIED.et"
+     SoundEvent "SOUND_EXPLOSION"
+    }
+   }
+  }
+  ActionsManagerComponent "{C97BE5489221AE18}" {
+   ActionContexts {
+    UserActionContext "{695AFB85A8291F1E}" {
+     ContextName "Explosives"
+     Position PointInfo "{66094D366491B469}" {
+      Offset -0.6119 1.5532 2.0096
+     }
+    }
+   }
+   additionalActions {
+    GC_ActivateDeadmans "{695AFB859AB1591C}" {
+     ParentContextList {
+      "Explosives"
+     }
+     UIInfo UIInfo "{695901FD08E32B6F}" {
+      Name "Activate deadman switch"
+     }
+     Duration 1
+    }
+    GC_ActivateExplosion "{695AFB859DCE2106}" {
+     ParentContextList {
+      "Explosives"
+     }
+     UIInfo UIInfo "{66094D309159D0B0}" {
+      Name "EXPLODE"
+     }
+     Duration 0.5
+     "Sort Priority" 1
+    }
+   }
+  }
+ }
+}

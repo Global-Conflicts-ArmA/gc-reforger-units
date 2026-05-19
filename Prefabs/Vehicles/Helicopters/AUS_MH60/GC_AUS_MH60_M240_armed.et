@@ -1,0 +1,25 @@
+Vehicle : "{29FAA5F138BD3C1B}Prefabs/Vehicles/Helicopters/AUS_MH60/GC_AUS_UH60_M240_armed.et" {
+ ID "5DB688595BAB2FD7"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Turret {
+     Enabled 1
+    }
+    RegisteringComponentSlotInfo Camera {
+     MergePhysics 1
+     Enabled 0
+     Prefab "{67B081FF9FDD7D9D}Prefabs/Weapons/Core/AUS_MH60_Turret_Base.et"
+     DisablePhysicsInteraction 1
+     RegisterActions 1
+     RegisterDamage 1
+     RegisterControllers 1
+     RegisterCompartments 1
+    }
+   }
+  }
+ }
+ coords 0 0 -6.163
+}

@@ -1,0 +1,14 @@
+Vehicle : "{254289B9C09904AB}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Turret {
+     Offset 0 -0.489 0.5373
+     Prefab "{B901C89C8799C152}Prefabs/Vehicles/Wheeled/JLTV/VehParts/JLTV_Roof_Olive.et"
+    }
+   }
+  }
+ }
+ coords 0 1.036 0
+}

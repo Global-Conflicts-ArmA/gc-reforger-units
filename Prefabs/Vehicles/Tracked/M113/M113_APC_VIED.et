@@ -1,0 +1,83 @@
+Tank : "{18378FFFC82F30BF}Prefabs/Vehicles/Tracked/M113/M113_APC.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  GC_ExplosivesManager "{696006D1E8D5679A}" {
+   PROJECTILE_EFFECTS {
+    AIExplosionEffect "{696006D1FAC313AF}" {
+    }
+    ExplosionEffect "{696006D1F8515D45}" {
+     EffectPrefab "{7F30C04B2118C5C6}Prefabs/Weapons/Warheads/Warhead_Kh55.et"
+     SoundEvent "SOUND_EXPLOSION"
+    }
+   }
+   DELETE_ON_TRIGGER 1
+   m_bLive 1
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Turret {
+     Prefab "{FD080A1AA80B73BC}Prefabs/Vehicles/Tracked/M113/VehParts/Turrets/M113_Turret_unarmed.et"
+    }
+    RegisteringComponentSlotInfo BenchSeats {
+     Prefab ""
+    }
+   }
+  }
+  ActionsManagerComponent "{C97BE5489221AE18}" {
+   ActionContexts {
+    UserActionContext "{696006D3CF268316}" {
+     ContextName "Explosives"
+     Position PointInfo "{66094D31D0031218}" {
+      Offset -0.348 1.637 1.953
+     }
+    }
+   }
+   additionalActions {
+    GC_ActivateDeadmans "{696006D3D9B2A481}" {
+     ParentContextList {
+      "Explosives"
+     }
+     UIInfo UIInfo "{660934ADBB881B50}" {
+     }
+    }
+    GC_ActivateExplosion "{696006D3D43855CC}" {
+     ParentContextList {
+      "Explosives"
+     }
+     UIInfo UIInfo "{660934ADAD13099E}" {
+      Name "Explode"
+     }
+     Duration 0.5
+     "Sort Priority" 1
+    }
+   }
+  }
+ }
+ coords 0 0.037 0
+ {
+  GenericEntity : "{5C053ACAE9D17683}Prefabs/Items/Equipment/Detonators/BlastingMachine_KPM_3U1/ArmedDetonatorWires_KPM_3U1.et" {
+   ID "696006D3680A5161"
+   coords -0.348 1.637 1.953
+   angles 36.501 -6.287 -16.996
+  }
+  GenericEntity : "{DB4F61D5F37432F7}Prefabs/Props/Military/Camps/PalletFuel_01.et" {
+   ID "696006D3680A4ED3"
+   components {
+    GC_ExplosivesManager "{66094D30306B18E4}" {
+    }
+    MeshObject "{5872F0EB7FA40561}" {
+     Object "{B035D9EAF80109AC}Assets/Vehicles/Missles/kh55/kh55.xob"
+    }
+    RigidBody "{5872F0EB7DFB5A9D}" {
+     SimState None
+     Static 0
+    }
+    Hierarchy "{66094D33FAB81769}" {
+    }
+   }
+   coords 0.57 2.226 0.969
+   angles 0 -96.942 0
+   scale 0.9
+  }
+ }
+}
