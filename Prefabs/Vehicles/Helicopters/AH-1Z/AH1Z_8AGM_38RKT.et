@@ -1,0 +1,47 @@
+Vehicle : "{C97A86E2CC383F8C}Prefabs/Vehicles/Helicopters/UH1H/AH1Z_8AGM_14APKWS.et" {
+ ID "57DA6675519A417B"
+ components {
+  SCR_BaseCompartmentManagerComponent "{20FB66C5DCB8DF72}" {
+   CompartmentSlots {
+    PilotCompartmentSlot PilotCompartment {
+     AutoConnectContextIndices 0 0x8
+    }
+   }
+  }
+  WCS_Armament_LoadoutComponent "{68A614067689795F}" {
+   Enabled 1
+   m_ArmamentGroups {
+    WCS_ArmamentWeaponGroup "{68A61406EC9BE779}" {
+     prefab "{60EF0CDEAE3003AF}Prefabs/Weapons/AircraftWeapons/RocketPods/LAU61/Pod_LAU61.et"
+     weaponsInfo {
+      WCS_ArmamentWeaponInfo "{631CCD93F100CB91}" {
+       Position PointInfo "{631CCD93C9E4AB38}" {
+        Offset -1.777 0.5911 0.0845
+       }
+       isEnabled 1
+      }
+      WCS_ArmamentWeaponInfo "{631CCD9043A95A57}" {
+       Position PointInfo "{631CCD9043A959CC}" {
+        Offset 1.7591 0.5911 0.0845
+       }
+       isEnabled 1
+      }
+     }
+     slotIndex 2
+    }
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Weapon_HardPoints {
+    }
+    RegisteringComponentSlotInfo APKWS_COMP {
+     Enabled 0
+    }
+   }
+  }
+  WeaponSlotComponent "{69273BF6479B95C6}" {
+   WeaponTemplate "{52120E4BA120661B}Prefabs/Weapons/Core/Armament_Empty.et"
+  }
+ }
+}

@@ -1,0 +1,119 @@
+Vehicle : "{10340BBEDA1F26E8}Prefabs/Vehicles/Helicopters/UH1H/AH1Z_M299_(x16).et" {
+ ID "57DA6675519A417B"
+ components {
+  FRIESHandlerComponent "{694AF97B85BD7BFF}" {
+   Enabled 0
+  }
+  SCR_BaseCompartmentManagerComponent "{20FB66C5DCB8DF72}" {
+   CompartmentSlots {
+    PilotCompartmentSlot PilotCompartment {
+     AutoConnectToTurret "UHCarrier"
+     AutoConnectContextIndices 0x8 0
+    }
+   }
+  }
+  TF_Display_VehicleController "{696E3B379D326FA7}" {
+  }
+  TF_VehicleComputerController "{696E3B37820EED7E}" {
+  }
+  BaseVehicleNodeComponent "{57DA667544C3090A}" {
+   components {
+    BaseHUDComponent "{50F09A38B4352300}" {
+     InfoDisplays {
+      SCR_WeaponInfo_MultiWeaponTurret "{696E5B5EC8A60114}" {
+       m_LayoutPath "{1FE821A29ACEA938}UI/layouts/HUD/WeaponInfo/WeaponInfo_MultiWeaponTurret.layout"
+       m_aHandlers {
+        SCR_InfoDisplaySlotHandler "{6308888C18892CF6}" {
+        }
+       }
+       m_sInterfaceSettingName "m_bShowWeaponInfo"
+       m_sTurretSlot "Weapon_HardPoints"
+       m_aShowQuantityIndicator {
+        RIPPLE
+       }
+      }
+     }
+    }
+   }
+  }
+  WCS_Armament_LoadoutComponent "{68A614067689795F}" {
+   m_ArmamentGroups {
+    WCS_ArmamentWeaponGroup "{68A61406EC9BE779}" {
+     prefab "{E5BB69F029CC82A5}Prefabs/Weapons/AircraftWeapons/RocketPods/Pod_M260_Loaded_HE_M229_APKWS.et"
+     weaponsInfo {
+      WCS_ArmamentWeaponInfo "{631CCD93F100CB91}" {
+       Position PointInfo "{631CCD93C9E4AB38}" {
+        PivotID "v_body"
+        Offset -1.8958 0.6589 0.0845
+       }
+       isEnabled 0
+      }
+      WCS_ArmamentWeaponInfo "{631CCD9043A95A57}" {
+       Position PointInfo "{631CCD9043A959CC}" {
+        PivotID "v_body"
+        Offset 1.9173 0.681 0.0845
+       }
+       isEnabled 0
+      }
+     }
+     fireModes {
+      WCS_Armament_WeaponSingleFireMode "{631CCD91E4A8043E}" {
+       m_iFireIntervalMS 250
+      }
+      WCS_Armament_WeaponSalvoFireMode "{696E3B341E70041A}" {
+      }
+      WCS_Armament_WeaponRippleFireMode "{696E3B34189D39D3}" {
+      }
+      WCS_Armament_WeaponFullRippleFireMode "{696E3B3419EE05BB}" {
+      }
+     }
+     slotIndex 0
+    }
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Turret {
+     Prefab "{3DDE9D5579DF014C}Prefabs/Vehicles/Helicopters/AH-1Z/VehParts/Turret/AH1Z_Turret_8Hellfires.et"
+    }
+    SCR_WeaponRackSlotInfo Weapon_HardPoints {
+     Enabled 0
+     Prefab "{2573AB6A97BD836D}Prefabs/Vehicles/Helicopters/UH1H/VehParts/WeapSystems/M260Carrier/UH1H_M260_Carrier_combined_HE_APKWS.et"
+     DisablePhysicsInteraction 1
+     RegisterActions 1
+     RegisterCompartments 1
+     m_sDefaultWeapon "{2573AB6A97BD836D}Prefabs/Vehicles/Helicopters/UH1H/VehParts/WeapSystems/M260Carrier/UH1H_M260_Carrier_combined_HE_APKWS.et"
+    }
+    TF_Display_Slot APKWS_COMP {
+     PivotID "pilot_idle"
+     Offset 0.3207 0.031 0.2825
+     Angles 88.8776 -147.6696 31.9989
+     Prefab "{DB1DE338590DDFC1}Prefabs/Vehicles/Helicopters/UH1H/VehParts/APKWS_Computer/APKWS_Computer.et"
+     DisablePhysicsInteraction 1
+     RegisterActions 1
+    }
+    SCR_WeaponRackSlotInfo M260CarrierVirtual {
+     Prefab "{137A854A388A7576}Prefabs/Vehicles/Helicopters/AH-1Z/VehParts/WeapSystems/WeapCarrier/UH1H_M260_Carrier_combined_HE_APKWS_AH-1Z_outside.et"
+     DisablePhysicsInteraction 1
+     RegisterActions 1
+     RegisterCompartments 1
+     m_sDefaultWeapon "{137A854A388A7576}Prefabs/Vehicles/Helicopters/AH-1Z/VehParts/WeapSystems/WeapCarrier/UH1H_M260_Carrier_combined_HE_APKWS_AH-1Z_outside.et"
+    }
+   }
+  }
+  WeaponSlotComponent "{69273BF6479B95C6}" {
+   AttachType InventoryStorageSlot "{69273BF67ACAA45B}" {
+    PivotID "v_body"
+    Offset 0.001 -0.4979 0.0011
+   }
+   WeaponTemplate "{52120E4BA120661B}Prefabs/Weapons/Core/Armament_Empty.et"
+  }
+  WeaponSlotComponent "{695742AA4839D200}" {
+   AttachType InventoryStorageSlot "{695742AA7786EB56}" {
+    PivotID "v_body"
+    Offset 2.02 0.7547 0.029
+   }
+   WeaponSlotIndex 0
+  }
+ }
+}

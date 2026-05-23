@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{137A854A388A7576}Prefabs/Vehicles/Helicopters/AH-1Z/VehParts/WeapSystems/WeapCarrier/UH1H_M260_Carrier_combined_HE_APKWS_AH-1Z_outside.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}
