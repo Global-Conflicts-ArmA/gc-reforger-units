@@ -1,0 +1,30 @@
+Turret : "{2573AB6A97BD836D}Prefabs/Vehicles/Helicopters/UH1H/VehParts/WeapSystems/M260Carrier/UH1H_M260_Carrier_combined_HE_APKWS.et" {
+ ID "4B42E71698F5739C"
+ components {
+  MeshObject "{51ACD09C4E0B7D16}" {
+   Object "{8FA06956ADF25FFC}Assets/Vehicles/Helicopters/UH1Y/VehParts/Mounts/UH1Y_Weapon_Mounts.xob"
+  }
+  WeaponSlotComponent "{51ACD09C6BFEEE6A}" {
+   AttachType InventoryStorageSlot "{0AACE7470E421D82}" {
+    Offset -1.7645 0.8049 -0.4606
+    Angles 3.6191 0.9411 36.5732
+   }
+  }
+  WeaponSlotComponent "{61A6A09E71318336}" {
+   AttachType InventoryStorageSlot Pylon {
+    Offset 1.7832 0.82 -0.4506
+    Angles 3.8439 -1.336 -38.4223
+   }
+  }
+  ActionsManagerComponent "{51ACD09C7181BA0B}" {
+   ActionContexts {
+    UserActionContext "{627CF75E6E96659A}" {
+     Position PointInfo "{5E3EDDF5AE1E3A62}" {
+      Offset 0.0625 1.4264 2.932
+     }
+    }
+   }
+  }
+ }
+ coords -0.001 0 0.006
+}
