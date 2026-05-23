@@ -1,0 +1,73 @@
+SCR_ChimeraCharacter : "{20AB36AAD00CE397}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2013/Regulars/Standard dress/Character_IRAQ_2013_MED.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{F7571A26F55AD8EF}Prefabs/Weapons/Rifles/M16/Variants/Rifle_M16A2_OliveGreen_Solid.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{E685A8D337D36204}Prefabs/Characters/HeadGear/Helmet_PASGT_01/Helmet_PASGT_01_cover_w_goggles.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{055BF24626BE83FC}Prefabs/Characters/Uniforms/BDU Blouses/BDU_Raid_Blouse_DCU.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{42FE561DE0F19AA2}Prefabs/Characters/Vests/Vest_IBA/Variants/OTV/Vest_OTV_wdl_CollarP_v2_CB.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{DAAFD15478BDE1C3}Prefabs/Characters/Footwear/CombatBoots_US_01.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{16C7AD0508F53A9B}Prefabs/Items/Equipment/Backpacks/backpack_Wartech_BB102/Backpack_Wartech_BB102_OD.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{947DC74933ED118B}Prefabs/Characters/Vests/Vest_MOLLE_Rig/Vest_MOLLE-Rig_medic_usmc.et"
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab "{D19C474FA0F42CC4}Prefabs/Characters/Handwear/Gloves_Pilot_US_01/Gloves_Pilot_US_01.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6946A164D8EA1DE8}" {
+     TargetStorage "Jacket/BDU_Raid_Blouse_DCU.et"
+    }
+    ItemsInitConfigurationItem "{6946A164D8EA1DEA}" {
+     TargetStorage "ArmoredVest/Vest_OTV_wdl_CollarP_v2_CB.et"
+    }
+    ItemsInitConfigurationItem "{69488D542AC36CDC}" {
+     TargetStorage "Vest/Vest_MOLLE-Rig_medic_usmc.et/Slot_L21/Pouch_MOLLE-MedicPocket_base.et"
+     PrefabsToSpawn {
+      "{632CAEF08C102091}Prefabs/Items/Medicine/Splint_01/GC_Splint_01_Base.et" "{632CAEF08C102091}Prefabs/Items/Medicine/Splint_01/GC_Splint_01_Base.et" "{632CAEF08C102091}Prefabs/Items/Medicine/Splint_01/GC_Splint_01_Base.et" "{632CAEF08C102091}Prefabs/Items/Medicine/Splint_01/GC_Splint_01_Base.et" "{632CAEF08C102091}Prefabs/Items/Medicine/Splint_01/GC_Splint_01_Base.et" "{632CAEF08C102091}Prefabs/Items/Medicine/Splint_01/GC_Splint_01_Base.et" "{632CAEF08C102091}Prefabs/Items/Medicine/Splint_01/GC_Splint_01_Base.et" "{632CAEF08C102091}Prefabs/Items/Medicine/Splint_01/GC_Splint_01_Base.et"
+     }
+    }
+    ItemsInitConfigurationItem "{69488D548F242E2C}" {
+     TargetStorage "Back/Backpack_Wartech_BB102_OD.et"
+     PrefabsToSpawn + {
+      "{632CAEF08C102091}Prefabs/Items/Medicine/Splint_01/GC_Splint_01_Base.et" "{632CAEF08C102091}Prefabs/Items/Medicine/Splint_01/GC_Splint_01_Base.et" "{632CAEF08C102091}Prefabs/Items/Medicine/Splint_01/GC_Splint_01_Base.et" "{632CAEF08C102091}Prefabs/Items/Medicine/Splint_01/GC_Splint_01_Base.et"
+     }
+    }
+    ItemsInitConfigurationItem "{69488D51CDC3E506}" {
+     TargetStorage "Vest/Vest_MOLLE-Rig_medic_usmc.et/Slot_L11/Pouch_MOLLE-M16_base.et"
+     PrefabsToSpawn {
+      "{A9A385FE1F7BF4BD}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M856_Tracer.et" "{A9A385FE1F7BF4BD}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M856_Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{69488D51CDC3E51E}" {
+     TargetStorage "Vest/Vest_MOLLE-Rig_medic_usmc.et/Slot_L12/Pouch_MOLLE-M16_base.et"
+     PrefabsToSpawn {
+      "{065A21D95CEAC496}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_HP_B_30rnd_m995.et" "{065A21D95CEAC496}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_HP_B_30rnd_m995.et"
+     }
+    }
+    ItemsInitConfigurationItem "{69488D51CDC3E510}" {
+     TargetStorage "Vest/Vest_MOLLE-Rig_medic_usmc.et/Slot_L22/Pouch_MOLLE-GeneralPurpose_base.et"
+     PrefabsToSpawn {
+      "{AD950FB8B7F9184E}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_SP_B_30rnd_M855A1.et"
+     }
+    }
+   }
+  }
+ }
+}

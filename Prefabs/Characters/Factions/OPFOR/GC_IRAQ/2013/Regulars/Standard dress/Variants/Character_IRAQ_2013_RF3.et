@@ -1,0 +1,73 @@
+SCR_ChimeraCharacter : "{795997BB56ADC8AA}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2013/Regulars/Standard dress/Character_IRAQ_2013_RF.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{B036BA26CCFE9E5D}Prefabs/Weapons/Rifles/M16/Variants/Rifle_M16A2_OliveGreen_Sand_Stripes.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{5EE0C2E5B2F59DD8}Prefabs/Characters/HeadGear/Helmet_MICH_ACH/Helmet_ACH_Cov_M81_early.et"
+    }
+    LoadoutSlotInfo Jacket {
+    }
+    LoadoutSlotInfo ArmoredVest {
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{8CDC9308C265ECCB}Prefabs/Characters/Footwear/ACU_boots/ACU_boots1_base.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{3DE0155EC9767B98}Prefabs/Items/Equipment/Backpacks/Backpack_Veshmeshok.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{211BCADE61420369}Prefabs/Characters/Vests/Vest_MOLLE_Rig/Vest_MOLLE-Rig_rifleman_v4.et"
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab "{4E37FE174E8C266C}Prefabs/Characters/Handwear/Gloves_MechanixMpact/Gloves_mpack_Coyote.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6946A164D8EA1DE8}" {
+    }
+    ItemsInitConfigurationItem "{6946DD14EBEE209C}" {
+     PrefabsToSpawn +{
+     }
+    }
+    ItemsInitConfigurationItem "{6946A164D8EA1DEA}" {
+     PrefabsToSpawn {
+      "{D13A99EEED51784B}Prefabs/Items/Equipment/Flashlights/Flashlight_UK.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6946F502305C4D0B}" {
+     TargetStorage "Vest/Vest_MOLLE-Rig_rifleman_v4.et/Slot_L11/Pouch_MOLLE-M16_base.et"
+     PrefabsToSpawn {
+      "{DD5358193169908B}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1.et" "{DD5358193169908B}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6946F502305C4D09}" {
+     TargetStorage "Pants/BDU_Trousers_Tucked_DCU.et"
+    }
+    ItemsInitConfigurationItem "{69488D5EDE205FDF}" {
+     TargetStorage "Vest/Vest_MOLLE-Rig_rifleman_v4.et/Slot_L12/Pouch_MOLLE-M16_base.et"
+     PrefabsToSpawn {
+      "{32FEAE3A26BBF05D}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M995.et" "{AD950FB8B7F9184E}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_SP_B_30rnd_M855A1.et"
+     }
+    }
+    ItemsInitConfigurationItem "{69488D5EDE205FA8}" {
+     TargetStorage "Vest/Vest_MOLLE-Rig_rifleman_v4.et/Slot_R11/Pouch_MOLLE-M16_base.et"
+     PrefabsToSpawn {
+      "{AD950FB8B7F9184E}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_SP_B_30rnd_M855A1.et" "{AD950FB8B7F9184E}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_SP_B_30rnd_M855A1.et"
+     }
+    }
+    ItemsInitConfigurationItem "{69488D5EDE205FAA}" {
+     TargetStorage "Vest/Vest_MOLLE-Rig_rifleman_v4.et/Slot_R12/Pouch_MOLLE-M16Open_base.et"
+     PrefabsToSpawn {
+      "{EA5391BBD8D5BAC6}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_SP_T_30rnd_M855A1.et" "{35BEBF9814FC4A46}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_HP_T_30rnd_M855A1.et"
+     }
+    }
+   }
+  }
+ }
+}

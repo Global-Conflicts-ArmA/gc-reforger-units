@@ -1,0 +1,66 @@
+Vehicle : "{6F57BF4E759DF6DF}Prefabs/Vehicles/Helicopters/UH1H/UH1Y_Armed_Gunship_Sage.et" {
+ ID "57DA6675519A417B"
+ components {
+  SCR_BaseCompartmentManagerComponent "{20FB66C5DCB8DF72}" {
+   CompartmentSlots {
+    PilotCompartmentSlot PilotCompartment {
+     AutoConnectToTurret "UHCarrier"
+     AutoConnectContextIndices 0x8 0
+    }
+   }
+  }
+  TF_Display_VehicleController "{696F01F56F0914E0}" {
+  }
+  TF_VehicleComputerController "{696F01F566BC5983}" {
+  }
+  BaseVehicleNodeComponent "{57DA667544C3090A}" {
+   components {
+    BaseHUDComponent "{50F09A38B4352300}" {
+     InfoDisplays {
+      WCS_Armament_WeaponInfoVehicle "{62CEE7E7CACC9CBE}" {
+       m_bIsEnabled 0
+      }
+      SCR_WeaponInfo_MultiWeaponTurret "{691B64E25B1267EE}" {
+       m_eShow 103
+       m_aShowQuantityIndicator {
+        RIPPLE
+       }
+      }
+     }
+    }
+   }
+  }
+  WCS_Armament_LoadoutComponent "{691B6CC04538AB1F}" {
+   Enabled 0
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    SCR_WeaponRackSlotInfo M260CarrierVirtual {
+     PivotID "v_body"
+     Offset 0 -0.3659 0
+     Prefab "{7562D528F40216AC}Prefabs/Vehicles/Helicopters/UH1Y/VehParts/WeapSystems/M260Carrier/UH1Y_M260_Carrier_combined_HE_APKWS.et"
+     DisablePhysicsInteraction 1
+     RegisterActions 1
+     RegisterControllers 1
+     m_sDefaultWeapon "{7562D528F40216AC}Prefabs/Vehicles/Helicopters/UH1Y/VehParts/WeapSystems/M260Carrier/UH1Y_M260_Carrier_combined_HE_APKWS.et"
+    }
+    TF_Display_Slot APKWS_Comp {
+     PivotID "copilot_idle"
+     Offset 0.7593 0.2026 0.5542
+     Angles 13.2103 -179.166 0
+     Prefab "{DB1DE338590DDFC1}Prefabs/Vehicles/Helicopters/UH1H/VehParts/APKWS_Computer/APKWS_Computer.et"
+     DisablePhysicsInteraction 1
+     RegisterActions 1
+    }
+   }
+  }
+  ActionsManagerComponent "{C97BE5489221AE18}" {
+   ActionContexts {
+    UserActionContext "{696F01F352FC4954}" {
+     Position PointInfo "{696F01F36B08B259}" {
+     }
+    }
+   }
+  }
+ }
+}

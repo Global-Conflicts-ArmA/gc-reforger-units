@@ -1,0 +1,49 @@
+SCR_ChimeraCharacter : "{B902D3EA24274633}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2020/Regulars/Standard dress/Character_IRAQ_2020_MAT.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{3E413771E1834D2F}Prefabs/Weapons/Rifles/M16/Rifle_M16A2.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Boots {
+     Prefab "{F05A35BCC44BE9FC}Prefabs/Characters/Footwear/TankerBoots_US_01/TankerBoots_US_01.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{E217454352110466}Prefabs/Items/Backpacks/Backpack_RPGPack/Backpack_RPGPack.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{48D0BD6F47B657D5}Prefabs/Characters/Vests/Vest_MOLLE_Rig/Vest_MOLLE-Rig_rifleman_v9_wdl.et"
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab "{E92C9E74F80B96DF}Prefabs/Characters/Handwear/AUS_Gloves_ModernFlight/AUS_Gloves_ModernFlight.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{69488D1B46D7CADE}" {
+     TargetStorage "Vest/Vest_MOLLE-Rig_rifleman_v9_wdl.et/Slot_L12/Pouch_MOLLE-M16_base.et"
+     PrefabsToSpawn {
+      "{DD5358193169908B}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1.et" "{DD5358193169908B}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1.et"
+     }
+    }
+    ItemsInitConfigurationItem "{69488D150EBFF7F3}" {
+     TargetStorage "Vest/Vest_MOLLE-Rig_rifleman_v9_wdl.et/Slot_R12/Pouch_MOLLE-M16_base.et"
+     PrefabsToSpawn {
+      "{32FEAE3A26BBF05D}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M995.et" "{32FEAE3A26BBF05D}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M995.et"
+     }
+    }
+    ItemsInitConfigurationItem "{69488D151BA3D968}" {
+     TargetStorage "Vest/Vest_MOLLE-Rig_rifleman_v9_wdl.et/Slot_R11/Pouch_MOLLE-M16_base.et"
+     PrefabsToSpawn {
+      "{00F0B1FA28EF672B}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_SP_T_30rnd_M995.et" "{00F0B1FA28EF672B}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_SP_T_30rnd_M995.et"
+     }
+    }
+    ItemsInitConfigurationItem "{69488D1425DA015D}" {
+     TargetStorage "Back/Backpack_RPGPack.et"
+    }
+   }
+  }
+ }
+}

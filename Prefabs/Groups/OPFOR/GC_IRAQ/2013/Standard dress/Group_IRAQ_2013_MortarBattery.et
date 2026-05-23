@@ -1,0 +1,22 @@
+SCR_AIGroup : "{C55EC82EF9347B58}Prefabs/Groups/OPFOR/GC_IRAQ/Group_IRAQBase.et" {
+ ID "0000000000000001"
+ components {
+  PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+   Enabled 1
+   m_iCompanyCallsign 6
+   m_iPlatoonCallsign 3
+   m_iSquadCallsign 3
+  }
+  SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+   m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+    Name "#AR-Group_MortarSquad"
+    Icon "{AD0B7091F552A1A6}Images/GC_IRAQ/Era Images/Character_Iraq_Regular_2013_RoleImage.edds"
+    m_Image "{AD0B7091F552A1A6}Images/GC_IRAQ/Era Images/Character_Iraq_Regular_2013_RoleImage.edds"
+   }
+  }
+ }
+ m_aUnitPrefabSlots {
+  "{A234F28ECF985A2D}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2013/Regulars/Standard dress/Character_IRAQ_2013_MortarCmdr.et" "{D95174A660DB6BCE}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2013/Regulars/Standard dress/Character_IRAQ_2013_FO.et" "{186D89B9E171CB4E}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2013/Regulars/Standard dress/Character_IRAQ_2013_MortarGunner.et" "{42D2D01DACC3D553}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2013/Regulars/Standard dress/Character_IRAQ_2013_MortarLoader.et"
+ }
+ m_sCustomNameSet "Mortar Team"
+}

@@ -1,0 +1,50 @@
+SCR_ChimeraCharacter : "{D557E66550D0B682}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2013/Regulars/Standard dress/Character_IRAQ_2013_COYCmdr.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
+   WeaponTemplate "{1353C6EAD1DCFE43}Prefabs/Weapons/Handguns/M9/Handgun_M9.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{5EE0C2E5B2F59DD8}Prefabs/Characters/HeadGear/Helmet_MICH_ACH/Helmet_ACH_Cov_M81_early.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{93E8A68A13977CDB}Prefabs/Characters/Vests/Vest_IBA/Variants/IBA/Vest_IBA_f_ThroatP_v4_CB.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{4C6029AB8BF5C044}Prefabs/Characters/Footwear/CombatBoots_Soviet_01_Dirty.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{752C6BCDF74E4169}Prefabs/Items/Equipment/Backpacks/Backpack_Small.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{568823B04C3D3516}Prefabs/Characters/Vests/Vest_Lifchik/Vest_Lifchik_CL.et"
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab "{0B75FB9C3FB74ADF}Prefabs/Characters/Handwear/Gloves_511_Competition/Gloves_511_Comp_Green.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6946DD14EBEE209C}" {
+     PrefabsToSpawn {
+      "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{9C05543A503DB80E}Prefabs/Weapons/Magazines/Magazine_9x19_M9_15rnd_Ball.et" "{73950FBA2D7DB5C5}Prefabs/Items/Equipment/Radios/US/Radio_ANPRC68.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6946A164D8EA1DEA}" {
+     TargetStorage "ArmoredVest/Vest_IBA_f_ThroatP_v4_CB.et"
+    }
+    ItemsInitConfigurationItem "{6946CBBDA90F7B42}" {
+     TargetStorage "Vest/Vest_Lifchik_CL.et"
+     PrefabsToSpawn +{
+     }
+    }
+    ItemsInitConfigurationItem "{6946CBBDEBB3EEEB}" {
+     TargetStorage "Back/Backpack_Small.et"
+    }
+   }
+  }
+ }
+}

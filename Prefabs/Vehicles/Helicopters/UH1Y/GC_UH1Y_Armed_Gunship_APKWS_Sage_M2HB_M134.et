@@ -1,0 +1,23 @@
+Vehicle : "{C15EEA7DEFDF8F72}Prefabs/Vehicles/Helicopters/UH1Y/GCUH1Y_Armed_Gunship_Sage.et" {
+ ID "57DA6675519A417B"
+ components {
+  SCR_UniversalInventoryStorageComponent "{691B64E25AEC2364}" {
+   MultiSlots {
+    MultiSlotConfiguration "{696F01F316AFCA2E}" {
+     SlotTemplate InventoryStorageSlot Ammo {
+      Prefab "{C820846B0521423B}Prefabs/Weapons/Magazines/Box_127x99_M2_100rnd_4AP_1APIT.et"
+     }
+     NumSlots 10
+    }
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo GunnerLeft {
+     Prefab "{7A34E35E8853C7B8}Prefabs/WeapSystems/WeapSystems/UH1N_M2HB_gunner_left.et"
+     DisablePhysicsInteraction 1
+    }
+   }
+  }
+ }
+}
