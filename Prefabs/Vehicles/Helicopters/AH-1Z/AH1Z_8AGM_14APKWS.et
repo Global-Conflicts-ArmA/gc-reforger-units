@@ -86,8 +86,8 @@ Vehicle : "{10340BBEDA1F26E8}Prefabs/Vehicles/Helicopters/UH1H/AH1Z_M299_(x16).e
     }
     TF_Display_Slot APKWS_COMP {
      PivotID "pilot_idle"
-     Offset 0.3207 0.031 0.2825
-     Angles 88.8776 -147.6696 31.9989
+     Offset 0.3229 0.4194 0.4825
+     Angles 13.6756 -179.5188 0.6121
      Prefab "{DB1DE338590DDFC1}Prefabs/Vehicles/Helicopters/UH1H/VehParts/APKWS_Computer/APKWS_Computer.et"
      DisablePhysicsInteraction 1
      RegisterActions 1

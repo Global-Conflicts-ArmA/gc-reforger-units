@@ -57,6 +57,8 @@ Vehicle : "{C97A86E2CC383F8D}Prefabs/Vehicles/Helicopters/AH-1Z/AH1Z_8AGM_38RKT.
      m_sDefaultWeapon "{2573AB6A97BD836D}Prefabs/Vehicles/Helicopters/UH1H/VehParts/WeapSystems/M260Carrier/UH1H_M260_Carrier_combined_HE_APKWS.et"
     }
     RegisteringComponentSlotInfo APKWS_COMP {
+     Offset 0.3229 0.4194 0.4825
+     Angles 13.6756 -179.5188 0.6121
      Enabled 1
     }
     SCR_WeaponRackSlotInfo M260CarrierVirtual {
