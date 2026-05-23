@@ -14,11 +14,50 @@ Vehicle : "{C97A86E2CC383F8D}Prefabs/Vehicles/Helicopters/AH-1Z/AH1Z_8AGM_38RKT.
     BaseHUDComponent "{50F09A38B4352300}" {
      InfoDisplays {
       SCR_WeaponInfo_MultiWeaponTurret "{696E5B5EC8A60114}" {
-       m_bIsEnabled 0
-      }
-      SCR_WeaponInfo_MultiWeaponTurret "{696E5B5ECC4CC0D6}" {
-       m_sInterfaceSettingName "m_bShowWeaponInfo"
-       m_sTurretSlot "Weapon_HardPoints"
+       m_aHandlers {
+        SCR_InfoDisplaySlotHandler "{691B64E25B126611}" {
+        }
+       }
+       m_FiremodeIconsConfig GroupWeaponFiremode "{646EB6A1F694A008}" {
+        m_aFiremodes {
+         GroupWeaponFiremodeEntry "{646E8B2132EC6822}" {
+         }
+         GroupWeaponFiremodeEntry "{646E8B2133184216}" {
+         }
+         GroupWeaponFiremodeEntry "{646E8B213368EF38}" {
+         }
+        }
+       }
+       m_AmmoTypeIcons SCR_AmmoTypeInfoConfig "{6452E547CD18A0F5}" {
+        m_aAmmoTypes {
+         SCR_AmmoTypeInfoConfigEntry "{610A978DA4616BA9}" {
+         }
+         SCR_AmmoTypeInfoConfigEntry "{610A978D9DFB3120}" {
+         }
+         SCR_AmmoTypeInfoConfigEntry "{610A978D9969DCB4}" {
+         }
+         SCR_AmmoTypeInfoConfigEntry "{610A978D9B1FC401}" {
+         }
+         SCR_AmmoTypeInfoConfigEntry "{610A978D94D09548}" {
+         }
+         SCR_AmmoTypeInfoConfigEntry "{610A978D91E86CD6}" {
+         }
+         SCR_AmmoTypeInfoConfigEntry "{610A978D93A5C25F}" {
+         }
+         SCR_AmmoTypeInfoConfigEntry "{610A978D8C1E33B4}" {
+         }
+         SCR_AmmoTypeInfoConfigEntry "{610A978D8FF3EB23}" {
+         }
+         SCR_AmmoTypeInfoConfigEntry "{611EADF34F026BF6}" {
+         }
+         SCR_AmmoTypeInfoConfigEntry "{62268BFC853C78D6}" {
+         }
+         SCR_AmmoTypeInfoConfigEntry "{62268BFC9A60FBE9}" {
+         }
+         SCR_AmmoTypeInfoConfigEntry "{62268BFC9C69C512}" {
+         }
+        }
+       }
       }
      }
     }
