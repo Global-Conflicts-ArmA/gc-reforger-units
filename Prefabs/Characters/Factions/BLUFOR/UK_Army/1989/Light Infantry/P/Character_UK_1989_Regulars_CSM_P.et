@@ -1,9 +1,14 @@
-SCR_ChimeraCharacter : "{B9CFB916A26682D6}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/Regulars/Character_UK_1989_Regulars_Sergeant.et" {
+SCR_ChimeraCharacter : "{B9CFB916A26682D6}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/Light Infantry/Character_UK_1989_Regulars_Sergeant.et" {
  ID "520EC961A090B1EE"
  components {
   PS_PlayableComponent "{5EFCC1946F475F15}" {
    m_sName "Company Sergeant Major"
    m_bIsPlayable 1
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Company Sergeant Major"
+   }
   }
  }
 }

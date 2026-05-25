@@ -1,0 +1,40 @@
+SCR_ChimeraCharacter : "{E163422B328347BD}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2013/Regulars/Standard dress/Character_IRAQ_2013_CrewDriver.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{EB2F05A3751B905A}Prefabs/Characters/HeadGear/Helmet_TSh4_01/Helmet_TSh4_01.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{A707F4543A61CA8B}Prefabs/Characters/Uniforms/Suit_Tanker_US_01/Suit_GroundCrew_UK_01_tucked.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{8CDC9308C265ECCB}Prefabs/Characters/Footwear/ACU_boots/ACU_boots1_base.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{6923BCE821E23E40}Prefabs/Characters/Vests/Vest_ChestRigSmal/Vest_ChestRigSmall_3.et"
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab "{0B75FB9C3FB74ADF}Prefabs/Characters/Handwear/Gloves_511_Competition/Gloves_511_Comp_Green.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6946A164D8EA1DE8}" {
+     TargetStorage "Vest/Vest_ChestRigSmall_3.et"
+    }
+    ItemsInitConfigurationItem "{6946DD14EBEE209C}" {
+     TargetStorage "Vest/Vest_ChestRigSmall_3.et"
+    }
+    ItemsInitConfigurationItem "{6946A164D8EA1DEA}" {
+     TargetStorage "Vest/Vest_ChestRigSmall_3.et"
+    }
+    ItemsInitConfigurationItem "{694B40B4535EFB69}" {
+     TargetStorage "Vest/Vest_ChestRigSmall_3.et"
+    }
+   }
+  }
+ }
+}

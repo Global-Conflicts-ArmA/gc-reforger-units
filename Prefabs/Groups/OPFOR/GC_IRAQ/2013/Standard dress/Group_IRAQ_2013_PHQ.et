@@ -1,0 +1,16 @@
+SCR_AIGroup : "{C55EC82EF9347B58}Prefabs/Groups/OPFOR/GC_IRAQ/Group_IRAQBase.et" {
+ ID "0000000000000001"
+ components {
+  SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+   m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+    Name "#AR-Group_PlatoonHQ"
+    Icon "{AD0B7091F552A1A6}Images/GC_IRAQ/Era Images/Character_Iraq_Regular_2013_RoleImage.edds"
+    m_Image "{AD0B7091F552A1A6}Images/GC_IRAQ/Era Images/Character_Iraq_Regular_2013_RoleImage.edds"
+   }
+  }
+ }
+ m_aUnitPrefabSlots {
+  "{BC451D029C99023D}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2013/Regulars/Standard dress/Character_IRAQ_2013_PL.et" "{532EAE6B2F90F62F}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2013/Regulars/Standard dress/Character_IRAQ_2013_PSG.et" "{5CC919506816A6A5}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2013/Regulars/Standard dress/Character_IRAQ_2013_RTO.et" "{20AB36AAD00CE397}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2013/Regulars/Standard dress/Character_IRAQ_2013_MED.et" "{68AC805346970A97}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2013/Regulars/Standard dress/Character_IRAQ_2013_SHARP.et"
+ }
+ m_bSetPlayable 0
+}

@@ -7,10 +7,12 @@ SCR_AIGroup : "{C55EC82EF9347B58}Prefabs/Groups/OPFOR/GC_IRAQ/Group_IRAQBase.et"
   SCR_EditableGroupComponent "{50D291F6C83FA532}" {
    m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
     Name "Vehicle Crew"
+    Icon "{67DE4AFC4A005CAC}Images/GC_IRAQ/Era Images/Character_Iraq_Regular_2000_RoleImage.edds"
+    m_Image "{67DE4AFC4A005CAC}Images/GC_IRAQ/Era Images/Character_Iraq_Regular_2000_RoleImage.edds"
    }
   }
  }
  m_aUnitPrefabSlots {
-  "{F6D1007DA886E99E}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2000/Standard dress/Character_IRAQ_2000_CrewCmdr.et" "{07805F51B976989A}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2000/Standard dress/Character_IRAQ_2000_CrewGunner.et" "{0ABEF5BCC17208C9}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2000/Standard dress/Character_IRAQ_2000_CrewDriver.et"
+  "{F6D1007DA886E99E}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2000/Regulars/Standard dress/Character_IRAQ_2000_CrewCmdr.et" "{07805F51B976989A}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2000/Regulars/Standard dress/Character_IRAQ_2000_CrewGunner.et" "{0ABEF5BCC17208C9}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2000/Regulars/Standard dress/Character_IRAQ_2000_CrewDriver.et"
  }
 }

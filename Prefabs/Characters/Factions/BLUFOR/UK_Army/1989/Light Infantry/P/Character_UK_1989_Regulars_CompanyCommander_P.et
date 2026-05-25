@@ -8,6 +8,12 @@ SCR_ChimeraCharacter : "{F487760AB6777BF3}Prefabs/Characters/Factions/BLUFOR/UK_
   SCR_CharacterRankComponent "{528E6D4286AA2D8F}" {
    m_iRank MAJOR
   }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Company Commander"
+    Icon "{B825FCD3829D551C}UI/Textures/EditableEntities/Characters/BritishRanks/EditableEntity_Character_British_MAJ.edds"
+   }
+  }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo ArmoredVest {

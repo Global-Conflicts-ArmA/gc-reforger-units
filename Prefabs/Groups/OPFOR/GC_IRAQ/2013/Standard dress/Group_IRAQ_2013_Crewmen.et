@@ -1,0 +1,15 @@
+SCR_AIGroup : "{C55EC82EF9347B58}Prefabs/Groups/OPFOR/GC_IRAQ/Group_IRAQBase.et" {
+ ID "0000000000000001"
+ components {
+  SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+   m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+    Name "Vehicle Crew"
+    Icon "{AD0B7091F552A1A6}Images/GC_IRAQ/Era Images/Character_Iraq_Regular_2013_RoleImage.edds"
+    m_Image "{AD0B7091F552A1A6}Images/GC_IRAQ/Era Images/Character_Iraq_Regular_2013_RoleImage.edds"
+   }
+  }
+ }
+ m_aUnitPrefabSlots {
+  "{9D1CA1E6C2E96215}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2013/Regulars/Standard dress/Character_IRAQ_2013_CrewCmdr.et" "{0648E5CB1A744E10}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2013/Regulars/Standard dress/Character_IRAQ_2013_CrewGunner.et" "{E163422B328347BD}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2013/Regulars/Standard dress/Character_IRAQ_2013_CrewDriver.et"
+ }
+}
