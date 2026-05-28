@@ -7,10 +7,12 @@ SCR_AIGroup : "{C55EC82EF9347B58}Prefabs/Groups/OPFOR/GC_IRAQ/Group_IRAQBase.et"
   SCR_EditableGroupComponent "{50D291F6C83FA532}" {
    m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
     Name "#AR-Group_PlatoonHQ"
+    Icon "{67DE4AFC4A005CAC}Images/GC_IRAQ/Era Images/Character_Iraq_Regular_2000_RoleImage.edds"
+    m_Image "{67DE4AFC4A005CAC}Images/GC_IRAQ/Era Images/Character_Iraq_Regular_2000_RoleImage.edds"
    }
   }
  }
  m_aUnitPrefabSlots {
-  "{0F40B7C9697E9742}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2000/Standard dress/Character_IRAQ_2000_PLTCmdr.et" "{02B20DDF3FE47A40}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2000/Standard dress/Character_IRAQ_2000_RTO.et" "{77DB4A1E32B46BA0}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2000/Standard dress/Character_IRAQ_2000_Medic.et" "{D97920CFDC026CBF}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2000/Standard dress/Character_IRAQ_2000_Sharpshooter.et"
+  "{0F40B7C9697E9742}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2000/Regulars/Standard dress/Character_IRAQ_2000_PLTCmdr.et" "{02B20DDF3FE47A40}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2000/Regulars/Standard dress/Character_IRAQ_2000_RTO.et" "{77DB4A1E32B46BA0}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2000/Regulars/Standard dress/Character_IRAQ_2000_MED.et" "{D97920CFDC026CBF}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2000/Regulars/Standard dress/Character_IRAQ_2000_SHARP.et"
  }
 }

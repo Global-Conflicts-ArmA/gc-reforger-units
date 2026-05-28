@@ -1,0 +1,45 @@
+SCR_ChimeraCharacter : "{48D35584B3FA91BE}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2013/Regulars/Standard dress/Character_IRAQ_2013_AR.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{D2B48DEBEF38D7D7}Prefabs/Weapons/MachineGuns/M249/MG_M249.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{B74A4FF0DD8BB116}Prefabs/Characters/HeadGear/Helmet_PASGT_01/Helmet_PASGT_01.et"
+    }
+    LoadoutSlotInfo Jacket {
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{8F66A967135D6A36}Prefabs/Characters/Vests/Vest_IBA/Variants/IBA/Vest_IBA_ThroatP_v3_CB.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{DAAFD15478BDE1C3}Prefabs/Characters/Footwear/CombatBoots_US_01.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{9224F925A79863F5}Prefabs/Characters/Vests/Vest_MOLLE_Rig/Vest_MOLLE-Rig_machinegunner.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6946A164D8EA1DEA}" {
+     TargetStorage "ArmoredVest/Vest_IBA_ThroatP_v3_CB.et"
+    }
+    ItemsInitConfigurationItem "{69488D1CD014C297}" {
+     TargetStorage "Vest/Vest_MOLLE-Rig_machinegunner.et/Slot_R13/Pouch_ALICE_200rnd_M249.et"
+     PrefabsToSpawn {
+      "{E8E9972833CB4203}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_M855A1_Ball.et"
+     }
+    }
+    ItemsInitConfigurationItem "{69627B518ECA4B73}" {
+     TargetStorage "Vest/Vest_MOLLE-Rig_machinegunner.et/Slot_L13/Pouch_ALICE_200rnd_M249.et"
+     PrefabsToSpawn {
+      "{E8E9972833CB4203}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_M855A1_Ball.et"
+     }
+    }
+   }
+  }
+ }
+}

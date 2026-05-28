@@ -1,0 +1,34 @@
+SCR_ChimeraCharacter : "{D6C027EAB3EB7005}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Desert/Character_RHS_USMC_2009_MG_D.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{441C6358A2167AE3}Prefabs/Weapons/MachineGuns/M240/MG_M240_MDO.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{CA29B2E50A87C9D5}Prefabs/Characters/HeadGear/Helmet_MICH_ACH/Helmet_MICH_SHROUD_Cov_Marpat.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{822B66CBF331F844}Prefabs/Characters/Vests/Vest_PCGen_II/Vest_PCGen_II_base.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{EF06F43D51D1E7D7}Prefabs/Characters/Vests/Vest_JPC/variants/Vest_JPC_okinawa_Coy_MG.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{69070822F20FC8A0}" {
+     TargetStorage "Vest/Vest_JPC_okinawa_Coy_MG.et/M2402/Pouch_PCGEN3_MG.et"
+    }
+    ItemsInitConfigurationItem "{69070822C8400D61}" {
+     TargetStorage "Vest/Vest_JPC_okinawa_Coy_MG.et/m2401/Pouch_PCGEN3_MG.et"
+    }
+    ItemsInitConfigurationItem "{68E911A59F6C95D1}" {
+     TargetStorage "Back/FILBE_Backpack.et"
+    }
+   }
+  }
+ }
+}

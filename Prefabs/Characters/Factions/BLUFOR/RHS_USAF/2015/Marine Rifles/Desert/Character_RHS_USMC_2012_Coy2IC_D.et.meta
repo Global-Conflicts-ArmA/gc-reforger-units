@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{CB6EA4105E176CB6}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2015/Marine Rifles/Desert/Character_RHS_USMC_2012_Coy2IC_D.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

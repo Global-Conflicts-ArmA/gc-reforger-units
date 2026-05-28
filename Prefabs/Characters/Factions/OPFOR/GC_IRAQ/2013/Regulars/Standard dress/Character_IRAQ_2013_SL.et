@@ -1,0 +1,89 @@
+SCR_ChimeraCharacter : "{E62D83DDA4DEDD33}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2013/Regulars/Standard dress/Character_IRAQ_2013_Base.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot {
+      }
+     }
+    }
+   }
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_SquadLeader"
+    Description "Iraqi 2013 SL"
+    IconSetName "EditableEntity_Character_Leader_Team"
+   }
+   m_VariantData SCR_EditableEntityVariantData "{6946F51F7A4B2B75}" {
+    m_aVariants {
+     SCR_EditableEntityVariant "{6946F51F7A4B2B3B}" {
+      m_sVariantPrefab "{473CCF8EC29F7425}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2013/Regulars/Standard dress/Variants/Character_IRAQ_2013_SL1.et"
+     }
+     SCR_EditableEntityVariant "{6946F51F7A4B2B3D}" {
+      m_sVariantPrefab "{2B68FB6E7E5BFB0B}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2013/Regulars/Standard dress/Variants/Character_IRAQ_2013_SL2.et"
+     }
+    }
+   }
+  }
+  CharacterGrenadeSlotComponent "{520EA1D2F659CE6E}" {
+   WeaponTemplate "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{4A79F283F7DA624F}Prefabs/Weapons/Rifles/AK74M/Rifle_AK74M_1P78_GP25.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
+   WeaponTemplate "{C0F7DD85A86B2900}Prefabs/Weapons/Handguns/PM/Handgun_PM.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Jacket {
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{22352EBAF33C8F1C}Prefabs/Characters/Vests/Vest_IBA/Vest_OTV_base.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{2C91EB662CCAFEB0}Prefabs/Characters/Footwear/CombatBoots_BCT.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{41A9C55B61F375F0}Prefabs/Items/Equipment/Backpacks/Backpack_Kolobok.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{ED5574EA7F63B457}Prefabs/Characters/Vests/Vest_Type56/Vest_Type56.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6946A164D8EA1DE8}" {
+     TargetStorage "Jacket/BDU_Raid_Blouse_DCU.et"
+    }
+    ItemsInitConfigurationItem "{6946DD14EBEE209C}" {
+     PrefabsToSpawn + {
+      "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et" "{73950FBA2D7DB5C5}Prefabs/Items/Equipment/Radios/US/Radio_ANPRC68.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6946A164D8EA1DEA}" {
+     TargetStorage "ArmoredVest/Vest_OTV_base.et"
+     PrefabsToSpawn {
+      "{D13A99EEED51784B}Prefabs/Items/Equipment/Flashlights/Flashlight_UK.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6946F51F7A4B2B0C}" {
+     TargetStorage "Vest/Vest_Type56.et"
+     PrefabsToSpawn {
+      "{03D467E505692C3F}Prefabs/Weapons/Magazines/AK103_magazine/Magazine_762x39_plastic_AK_30rnd_57N231.et" "{03D467E505692C3F}Prefabs/Weapons/Magazines/AK103_magazine/Magazine_762x39_plastic_AK_30rnd_57N231.et" "{03D467E505692C3F}Prefabs/Weapons/Magazines/AK103_magazine/Magazine_762x39_plastic_AK_30rnd_57N231.et" "{03D467E505692C3F}Prefabs/Weapons/Magazines/AK103_magazine/Magazine_762x39_plastic_AK_30rnd_57N231.et" "{03D467E505692C3F}Prefabs/Weapons/Magazines/AK103_magazine/Magazine_762x39_plastic_AK_30rnd_57N231.et" "{03D467E505692C3F}Prefabs/Weapons/Magazines/AK103_magazine/Magazine_762x39_plastic_AK_30rnd_57N231.et" "{1C9A36B79C91C910}Prefabs/Weapons/Magazines/AK103_magazine/Magazine_762x39_plastic_AK_30rnd_57T231P.et" "{1C9A36B79C91C910}Prefabs/Weapons/Magazines/AK103_magazine/Magazine_762x39_plastic_AK_30rnd_57T231P.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6946F51F7A48EAC3}" {
+     TargetStorage "Back/Backpack_Kolobok.et"
+     PrefabsToSpawn {
+      "{4C075BF50FD8C069}Prefabs/Weapons/Grenades/Smoke_No83_Red.et" "{77A25EFFE26D8A7E}Prefabs/Weapons/Grenades/Smoke_No83_Green.et" "{6C6327A7E5EB8D20}Prefabs/Weapons/Grenades/Smoke_No83_Blue.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et"
+     }
+    }
+   }
+  }
+ }
+}

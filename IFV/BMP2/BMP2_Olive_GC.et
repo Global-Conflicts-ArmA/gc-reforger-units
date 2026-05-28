@@ -1,0 +1,657 @@
+Tank : "{2FCF3A82322F7390}IFV/BMP2/BMP2_Olive.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  RHS_GroupMaterialController "{696B62B47616A65B}" {
+   m_aGroups {
+    RHS_MaterialGroupProperties "{696B62B46972E34B}" {
+     m_iTextureID 3
+    }
+    RHS_MaterialGroupProperties "{696B62B461D24BE4}" {
+     m_sGroupName "GROUP2"
+     m_iTextureID 5
+    }
+    RHS_MaterialGroupProperties "{696B62B4619B97A2}" {
+     m_sGroupName "GROUP3"
+     m_iTextureID 1
+    }
+   }
+  }
+  SCR_BaseCompartmentManagerComponent "{20FB66C5DCB8DF72}" {
+   CompartmentSlots {
+    PilotCompartmentSlot PilotCompartment {
+     PassengerPositionInfo EntitySlotInfo "{A1CB25848A3D93A8}" {
+      Offset -0.3556 -0.2875 1.2949
+      Angles 6.9519 0 0
+     }
+     CanTurnOut 1
+     TurnOutDoorIdx 0
+     m_DefaultOccupantData SCR_DefaultOccupantData "{648D4468D225E85B}" {
+      m_sDefaultOccupantPrefab "{9FFEF10757E742EB}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Crew.et"
+     }
+    }
+    CargoCompartmentSlot p2 {
+     PassengerPositionInfo EntitySlotInfo "{699366C6D607AD06}" {
+      Offset -0.4714 0.0635 -1.7659
+     }
+     m_DefaultOccupantData SCR_DefaultOccupantData "{648D4468D2260707}" {
+      m_sDefaultOccupantPrefab "{7DE1CBA32A0225EB}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Randomized.et"
+     }
+    }
+    CargoCompartmentSlot p3 {
+     PassengerPositionInfo EntitySlotInfo "{699366C6D607AD06}" {
+      Offset -0.4681 0.0693 -2.3169
+     }
+     m_DefaultOccupantData SCR_DefaultOccupantData "{648D4468D22761C7}" {
+      m_sDefaultOccupantPrefab "{7DE1CBA32A0225EB}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Randomized.et"
+     }
+    }
+    CargoCompartmentSlot p4 {
+     PassengerPositionInfo EntitySlotInfo "{699366C6D607AD06}" {
+      Offset -0.472 0.0666 -2.7235
+     }
+     m_DefaultOccupantData SCR_DefaultOccupantData "{648D4468D228CD35}" {
+      m_sDefaultOccupantPrefab "{96C784C502AC37DA}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_MG.et"
+     }
+    }
+    CargoCompartmentSlot p6 {
+     PassengerPositionInfo EntitySlotInfo "{699366C6D607AD06}" {
+      Offset 0.4324 0.0554 -1.757
+     }
+     m_DefaultOccupantData SCR_DefaultOccupantData "{648D4468D22A68D8}" {
+      m_sDefaultOccupantPrefab "{E9AEEF2D9E41321B}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_AMG.et"
+     }
+    }
+    CargoCompartmentSlot p7 {
+     PassengerPositionInfo EntitySlotInfo "{699366C6D607AD06}" {
+      Offset 0.4222 0.0549 -2.3042
+     }
+     m_DefaultOccupantData SCR_DefaultOccupantData "{648D4468D22A0769}" {
+      m_sDefaultOccupantPrefab "{B31D4E408AEC99A4}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Ammo.et"
+     }
+    }
+    CargoCompartmentSlot p8 {
+     PassengerPositionInfo EntitySlotInfo "{699366C6D607AD06}" {
+      Offset 0.4219 0.0417 -2.7292
+     }
+     m_DefaultOccupantData SCR_DefaultOccupantData "{648D4468D22BFD72}" {
+      m_sDefaultOccupantPrefab "{1C78331E156A3D65}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_AT.et"
+     }
+    }
+    CargoCompartmentSlot p9 {
+     PassengerPositionInfo EntitySlotInfo "{699366C6D607AD06}" {
+      Offset -0.3531 -0.2526 0.3868
+     }
+     SeatType 2
+     CanTurnOut 0
+     TurnOutDoorIdx 2
+     m_DefaultOccupantData SCR_DefaultOccupantData "{648D4468D22CCA9E}" {
+      m_sDefaultOccupantPrefab "{069118B2D809C9E1}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Rifleman_Variant_1.et"
+     }
+    }
+    CargoCompartmentSlot ptl1 {
+     m_DefaultOccupantData SCR_DefaultOccupantData "{648D4468D22D8ACD}" {
+      m_sDefaultOccupantPrefab "{333DA6244C7DA34C}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_SR.et"
+     }
+    }
+    CargoCompartmentSlot ptr1 {
+     m_DefaultOccupantData SCR_DefaultOccupantData "{648D4468D22F3FA4}" {
+      m_sDefaultOccupantPrefab "{23ADBBC31B6A3DC6}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_AR.et"
+     }
+    }
+    CargoCompartmentSlot ptl2 {
+     m_DefaultOccupantData SCR_DefaultOccupantData "{648D4468D230602F}" {
+      m_sDefaultOccupantPrefab "{DCB41B3746FDD1BE}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Rifleman.et"
+     }
+    }
+    CargoCompartmentSlot ptr2 {
+     m_DefaultOccupantData SCR_DefaultOccupantData "{648D4468D231D8DA}" {
+      m_sDefaultOccupantPrefab "{BF643BE4ADBDFDD3}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_LAT.et"
+     }
+    }
+    CargoCompartmentSlot ptl3 {
+     m_DefaultOccupantData SCR_DefaultOccupantData "{648D4468D232D21C}" {
+      m_sDefaultOccupantPrefab "{8E0FE664CE7D1CA9}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_GL.et"
+     }
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    m_Image "{B5AF008163D16347}UI/Textures/EditablePreviews/Vehicles/Tracked/BMP2/BMP2_Olive.edds"
+    m_aAuthoredLabels +{
+    }
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{648D4468D2338382}" {
+   MultiSlots {
+    MultiSlotConfiguration "{648D4468D23383D2}" {
+     SlotTemplate InventoryStorageSlot "{61D4BD23E1BE7CCF}" {
+      Enabled 0
+     }
+    }
+    MultiSlotConfiguration "{648D4468D23383D3}" {
+     SlotTemplate InventoryStorageSlot "{61D4BD23E1BE7CCF}" {
+      Enabled 0
+     }
+    }
+    MultiSlotConfiguration "{648D4468D23383D0}" {
+     SlotTemplate InventoryStorageSlot "{61D4BD23E1BE7CCF}" {
+      Enabled 0
+     }
+    }
+    MultiSlotConfiguration "{648D4468D23383D6}" {
+     SlotTemplate InventoryStorageSlot "{61D4BD23FA0AF337}" {
+      Prefab "{A2A6E0D2E56E29F2}Prefabs/Weapons/Ammo/Ammo_Missile_9M133.et"
+     }
+     NumSlots 3
+    }
+   }
+  }
+  SCR_WheeledDamageManagerComponent "{141326E9FD94FE40}" {
+   "Additional hit zones" {
+    SCR_EngineHitZone engine {
+     MaxHealth 600
+     DamageThreshold 1
+     "Collision multiplier" 0.25
+     "Explosive multiplier" 0.8
+     m_aDamagePassRules {
+      SCR_DamagePassRule "{696B62B630653843}" {
+      }
+      SCR_DamagePassRule "{696B62B6306538A6}" {
+      }
+     }
+    }
+   }
+  }
+  VehicleWheeledSimulation "{731B26FCA2F19855}" {
+   Simulation Wheeled "{4D8B26DEA5F25978}" {
+    Engine Engine Engine {
+     MaxPower 230
+     MaxTorque 1100
+    }
+    Gearbox Gearbox Gearbox {
+     Forward {
+      8.5 6.4 4.76 3.2 2 1.2
+     }
+     Reverse 8.5
+    }
+   }
+  }
+  BaseVehicleNodeComponent "{20FB66C5B2237133}" {
+   components {
+    SCR_BaseHUDComponent "{37C2676694790BC7}" {
+     InfoDisplays {
+      SCR_InfoDisplay "{50E6E6F81354B90F}" {
+       InfoDisplays {
+        SCR_AnalogGauge "{50E6E9C4280A17FE}" {
+         m_eShow 6
+        }
+        SCR_AnalogGauge "{50E6E9C42E916085}" {
+         m_eShow 6
+        }
+        SCR_AnalogGaugeSmall "{50E6F12BB4D36587}" {
+         m_eShow 6
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+  ChimeraAIVehicleControlComponent "{61C2E46781A66E82}" {
+   components {
+    AICarMovementComponent "{61C2E46796C28D80}" {
+     "Max Speed" 60
+     "Min Prediction Distance" 4
+     "Max Prediction Distance" 10
+    }
+   }
+  }
+  SCR_VehiclePerceivableComponent "{566CD04B8A6107DD}" {
+   "Additional aim points" {
+    AimPoint "{5A448CE484C5A9D6}" {
+     AimPointType Weak
+    }
+    AimPoint "{696B62B63065389D}" {
+     AimPointPosition AttachPoint "{696B62B63065389A}" {
+      Offset 0 1.104 1.6937
+     }
+     AimPointType Incapacitate
+    }
+   }
+  }
+  WCS_Armament_VehicleCameraComponent "{696B62B630653898}" {
+   m_Cameras {
+    WCS_VehicleCameraProps "{696B62B630653896}" {
+     m_Position PointInfo "{696B62B630653894}" {
+      Offset -0.7019 1.5896 1.5493
+     }
+     m_OverlayLayout "{35C2D6E3BB1E379B}UI/layouts/Editor/Overlays/Vignettes/WCS_Armament_Vignette_Heavy.layout"
+     m_sId "Periscope_driver_m01"
+    }
+    WCS_VehicleCameraProps "{696B62B630653895}" {
+     m_Position PointInfo "{696B62B63064F241}" {
+      Offset -0.4325 1.5896 1.4778
+      Angles 0 40 0
+     }
+     m_OverlayLayout "{35C2D6E3BB1E379B}UI/layouts/Editor/Overlays/Vignettes/WCS_Armament_Vignette_Heavy.layout"
+     m_sId "Periscope_driver_r01"
+    }
+    WCS_VehicleCameraProps "{696B62B63064F246}" {
+     m_Position PointInfo "{696B62B63064F247}" {
+      Offset -0.9834 1.5896 1.4768
+      Angles 0 -40 0
+     }
+     m_OverlayLayout "{35C2D6E3BB1E379B}UI/layouts/Editor/Overlays/Vignettes/WCS_Armament_Vignette_Heavy.layout"
+     m_sId "Periscope_driver_l01"
+    }
+    WCS_VehicleCameraProps "{696B62B63064F244}" {
+     m_Position PointInfo "{696B62B63064F245}" {
+      Offset -1.0836 1.6092 1.1499
+      Angles 0 -90 0
+     }
+     m_OverlayLayout "{35C2D6E3BB1E379B}UI/layouts/Editor/Overlays/Vignettes/WCS_Armament_Vignette_Heavy.layout"
+     m_sId "Periscope_driver_l02"
+    }
+    WCS_VehicleCameraProps "{696B62B63064F22F}" {
+     m_Position PointInfo "{696B62B63064F22C}" {
+      Offset -0.7065 1.6744 0.8768
+     }
+     m_OverlayLayout "{35C2D6E3BB1E379B}UI/layouts/Editor/Overlays/Vignettes/WCS_Armament_Vignette_Heavy.layout"
+     m_sId "Periscope_sl_m01"
+    }
+    WCS_VehicleCameraProps "{696B62B63064F22D}" {
+     m_Position PointInfo "{696B62B63064F222}" {
+      Offset -1.0074 1.6175 0.77
+      Angles 0 -40 0
+     }
+     m_OverlayLayout "{35C2D6E3BB1E379B}UI/layouts/Editor/Overlays/Vignettes/WCS_Armament_Vignette_Heavy.layout"
+     m_sId "Periscope_sl_l01"
+    }
+    WCS_VehicleCameraProps "{696B62B63064BAB3}" {
+     m_Position PointInfo "{696B62B63064BAB2}" {
+      Offset 0.9613 1.6204 -1.3862
+      Angles 0 70 0
+     }
+     m_OverlayLayout "{35C2D6E3BB1E379B}UI/layouts/Editor/Overlays/Vignettes/WCS_Armament_Vignette_Heavy.layout"
+     m_sId "Periscope_passenger_r01"
+    }
+    WCS_VehicleCameraProps "{696B62B63064BAB1}" {
+     m_Position PointInfo "{696B62B63064BAB0}" {
+      Offset 0.8727 1.6204 -2.0178
+      Angles 0 70 0
+     }
+     m_OverlayLayout "{35C2D6E3BB1E379B}UI/layouts/Editor/Overlays/Vignettes/WCS_Armament_Vignette_Heavy.layout"
+     m_sId "Periscope_passenger_r02"
+    }
+    WCS_VehicleCameraProps "{696B62B63064BAB7}" {
+     m_Position PointInfo "{696B62B630643543}" {
+      Offset 0.8307 1.6204 -2.3577
+      Angles 0 70 0
+     }
+     m_OverlayLayout "{35C2D6E3BB1E379B}UI/layouts/Editor/Overlays/Vignettes/WCS_Armament_Vignette_Heavy.layout"
+     m_sId "Periscope_passenger_r03"
+    }
+    WCS_VehicleCameraProps "{696B62B630643542}" {
+     m_Position PointInfo "{696B62B630643557}" {
+      Offset -0.9582 1.6204 -1.4008
+      Angles 0 -70 0
+     }
+     m_OverlayLayout "{35C2D6E3BB1E379B}UI/layouts/Editor/Overlays/Vignettes/WCS_Armament_Vignette_Heavy.layout"
+     m_sId "Periscope_passenger_l01"
+    }
+    WCS_VehicleCameraProps "{696B62B63067D769}" {
+     m_Position PointInfo "{696B62B63067D768}" {
+      Offset -0.8783 1.6204 -2.0358
+      Angles 0 -70 0
+     }
+     m_OverlayLayout "{35C2D6E3BB1E379B}UI/layouts/Editor/Overlays/Vignettes/WCS_Armament_Vignette_Heavy.layout"
+     m_sId "Periscope_passenger_l02"
+    }
+    WCS_VehicleCameraProps "{696B62B63067D76B}" {
+     m_Position PointInfo "{696B62B63067FB82}" {
+      Offset -0.8341 1.6204 -2.3704
+      Angles 0 -70 0
+     }
+     m_OverlayLayout "{35C2D6E3BB1E379B}UI/layouts/Editor/Overlays/Vignettes/WCS_Armament_Vignette_Heavy.layout"
+     m_sId "Periscope_passenger_l03"
+    }
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Turret {
+     Offset 0 -0.0245 0
+     RegisterLights 1
+    }
+    EntitySlotInfo d1 {
+     Enabled 1
+     Prefab "{FB18C9B9D1817C66}IFV/BMP2/BMP2_triplex_vehpart.et"
+    }
+    EntitySlotInfo d2 {
+     Enabled 1
+     Prefab "{FB18C9B9D1817C66}IFV/BMP2/BMP2_triplex_vehpart.et"
+    }
+    EntitySlotInfo d3 {
+     Enabled 1
+     Prefab "{FB18C9B9D1817C66}IFV/BMP2/BMP2_triplex_vehpart.et"
+    }
+    EntitySlotInfo d4 {
+     Enabled 1
+     Prefab "{FB18C9B9D1817C66}IFV/BMP2/BMP2_triplex_vehpart.et"
+    }
+    EntitySlotInfo rp1 {
+     Enabled 1
+     Prefab "{FB18C9B9D1817C66}IFV/BMP2/BMP2_triplex_vehpart.et"
+    }
+    EntitySlotInfo rp2 {
+     Enabled 1
+     Prefab "{FB18C9B9D1817C66}IFV/BMP2/BMP2_triplex_vehpart.et"
+    }
+    EntitySlotInfo l1 {
+     Enabled 1
+     Prefab "{FB18C9B9D1817C66}IFV/BMP2/BMP2_triplex_vehpart.et"
+    }
+    EntitySlotInfo l2 {
+     Enabled 1
+     Prefab "{FB18C9B9D1817C66}IFV/BMP2/BMP2_triplex_vehpart.et"
+    }
+    EntitySlotInfo l3 {
+     Enabled 1
+     Prefab "{FB18C9B9D1817C66}IFV/BMP2/BMP2_triplex_vehpart.et"
+    }
+    EntitySlotInfo r1 {
+     Enabled 1
+     Prefab "{FB18C9B9D1817C66}IFV/BMP2/BMP2_triplex_vehpart.et"
+    }
+    EntitySlotInfo r2 {
+     Enabled 1
+     Prefab "{FB18C9B9D1817C66}IFV/BMP2/BMP2_triplex_vehpart.et"
+    }
+    EntitySlotInfo r3 {
+     Enabled 1
+     Prefab "{FB18C9B9D1817C66}IFV/BMP2/BMP2_triplex_vehpart.et"
+    }
+    EntitySlotInfo RHSDECALL1LEFT {
+     Offset -1.3691 1.3287 0.0483
+     Angles 0 0 10.6839
+     Prefab "{A50BC13DB1FCF1FB}Prefabs/Vehicles/Shared/decal_vehicle_group1_small.et"
+    }
+    EntitySlotInfo RHSDECAL2LEFT {
+     Offset -1.3691 1.3287 -0.0517
+     Angles 0 0 10.6839
+     Prefab "{845BF318A6537093}Prefabs/Vehicles/Shared/decal_vehicle_group2_small.et"
+    }
+    EntitySlotInfo RHSDECAL3LEFT {
+     Offset -1.3691 1.3287 -0.15
+     Angles 0 0 10.6839
+     Prefab "{7A5BB35D53011CDF}Prefabs/Vehicles/Shared/decal_vehicle_group3_small.et"
+    }
+    EntitySlotInfo RHSDECAL1RIGHT {
+     Offset 1.3665 1.3242 -0.1499
+     Angles 0 -180 14.0922
+     Prefab "{A50BC13DB1FCF1FB}Prefabs/Vehicles/Shared/decal_vehicle_group1_small.et"
+    }
+    EntitySlotInfo RHSDECAL2RIGHT {
+     Offset 1.3665 1.3242 -0.05
+     Angles 0 -180 14.0922
+     Prefab "{845BF318A6537093}Prefabs/Vehicles/Shared/decal_vehicle_group2_small.et"
+    }
+    EntitySlotInfo RHSDECAL3RIGHT {
+     Offset 1.3665 1.3242 0.05
+     Angles 0 -180 14.0922
+     Prefab "{7A5BB35D53011CDF}Prefabs/Vehicles/Shared/decal_vehicle_group3_small.et"
+    }
+    EntitySlotInfo RHSDECAL1REAR {
+     Offset 0.3594 1.0547 -3.3101
+     Angles 0 -90 -9.2254
+     Prefab "{0309D37EFF070E46}Prefabs/Vehicles/Shared/decal_vehicle_group1.et"
+    }
+    EntitySlotInfo RHSDECAL2REAR {
+     Offset 0.53 1.0547 -3.3101
+     Angles 0 -90 -9.2254
+     Prefab "{6F5DE79E43C38168}Prefabs/Vehicles/Shared/decal_vehicle_group2.et"
+    }
+    EntitySlotInfo RHSDECAL3REAR {
+     Offset 0.7 1.0547 -3.3101
+     Angles 0 -90 -9.2254
+     Prefab "{8AC1AB674F261603}Prefabs/Vehicles/Shared/decal_vehicle_group3.et"
+    }
+   }
+  }
+  ActionsManagerComponent "{C97BE5489221AE18}" {
+   ActionContexts {
+    UserActionContext "{648D4468D23579FE}" {
+     Radius 0.2
+    }
+    UserActionContext "{648D4468D23579F1}" {
+     Radius 0.2
+    }
+    UserActionContext "{648D4468D23551DB}" {
+     Radius 0.2
+    }
+    UserActionContext "{648D4468D235EF82}" {
+     Radius 0.2
+    }
+    UserActionContext "{648D4468D235BECB}" {
+     Radius 0.2
+    }
+    UserActionContext "{648D4468D23674C6}" {
+     Radius 0.2
+    }
+    UserActionContext "{648D4468D23674C5}" {
+     Radius 0.2
+    }
+    UserActionContext "{648D4468D236E543}" {
+     Radius 0.2
+    }
+    UserActionContext "{648D4468D236D4B1}" {
+     Radius 0.2
+    }
+    UserActionContext "{648D4468D236D4AC}" {
+     Radius 0.2
+    }
+    UserActionContext "{648D4468D23697CA}" {
+     Radius 0.2
+    }
+    UserActionContext "{648D4468D2371074}" {
+     Radius 0.2
+    }
+    UserActionContext "{648D4468D2371077}" {
+     Radius 0.2
+    }
+    UserActionContext "{648D4468D237EE30}" {
+     Radius 0.2
+    }
+    UserActionContext "{648D4468D237EE35}" {
+     Radius 0.2
+    }
+    UserActionContext "{68C3228A0CD9986D}" : "{383D10251D4CDA3D}Prefabs/Weapons/Core/Configs/WCS_Armament_VehicleCameraActionContext.conf" {
+     ContextName "Periscope_driver_m01"
+     Position PointInfo "{62E3227936E85DFF}" {
+      Offset -0.7027 1.4687 1.4854
+      Angles 0 180 0
+     }
+    }
+    UserActionContext "{68C3228A292ACC39}" : "{383D10251D4CDA3D}Prefabs/Weapons/Core/Configs/WCS_Armament_VehicleCameraActionContext.conf" {
+     ContextName "Periscope_driver_r01"
+     Position PointInfo "{62E3227936E85DFF}" {
+      Offset -0.4298 1.4687 1.3914
+      Angles 0 -140 0
+     }
+    }
+    UserActionContext "{68C3228A241B2736}" : "{383D10251D4CDA3D}Prefabs/Weapons/Core/Configs/WCS_Armament_VehicleCameraActionContext.conf" {
+     ContextName "Periscope_driver_l01"
+     Position PointInfo "{62E3227936E85DFF}" {
+      Offset -0.9698 1.4687 1.3921
+      Angles 0 140 0
+     }
+    }
+    UserActionContext "{68C3228A5A421A2D}" : "{383D10251D4CDA3D}Prefabs/Weapons/Core/Configs/WCS_Armament_VehicleCameraActionContext.conf" {
+     ContextName "Periscope_driver_l02"
+     Position PointInfo "{62E3227936E85DFF}" {
+      Offset -1.084 1.4687 1.1238
+      Angles 0 90 0
+     }
+    }
+    UserActionContext "{68C3228A5123AB9E}" : "{383D10251D4CDA3D}Prefabs/Weapons/Core/Configs/WCS_Armament_VehicleCameraActionContext.conf" {
+     ContextName "Periscope_sl_m01"
+     Position PointInfo "{62E3227936E85DFF}" {
+      Offset -0.7027 1.4916 0.8073
+      Angles 0 180 0
+     }
+    }
+    UserActionContext "{68C3228A4827493C}" : "{383D10251D4CDA3D}Prefabs/Weapons/Core/Configs/WCS_Armament_VehicleCameraActionContext.conf" {
+     ContextName "Periscope_sl_l01"
+     Position PointInfo "{62E3227936E85DFF}" {
+      Offset -0.9605 1.4916 0.7168
+      Angles 0 140 0
+     }
+    }
+    UserActionContext "{68C3228A416E65EB}" : "{383D10251D4CDA3D}Prefabs/Weapons/Core/Configs/WCS_Armament_VehicleCameraActionContext.conf" {
+     ContextName "Periscope_passenger_r01"
+     Position PointInfo "{62E3227936E85DFF}" {
+      Offset 0.8482 1.4948 -1.4327
+      Angles 0 -115 0
+     }
+    }
+    UserActionContext "{68C3228A72303F25}" : "{383D10251D4CDA3D}Prefabs/Weapons/Core/Configs/WCS_Armament_VehicleCameraActionContext.conf" {
+     ContextName "Periscope_passenger_r02"
+     Position PointInfo "{62E3227936E85DFF}" {
+      Offset 0.7739 1.4948 -2.0574
+      Angles 0 -115 0
+     }
+    }
+    UserActionContext "{68C3228A69D6261A}" : "{383D10251D4CDA3D}Prefabs/Weapons/Core/Configs/WCS_Armament_VehicleCameraActionContext.conf" {
+     ContextName "Periscope_passenger_r03"
+     Position PointInfo "{62E3227936E85DFF}" {
+      Offset 0.747 1.4948 -2.3956
+      Angles 0 -115 0
+     }
+    }
+    UserActionContext "{68C3228A6CBA94DD}" : "{383D10251D4CDA3D}Prefabs/Weapons/Core/Configs/WCS_Armament_VehicleCameraActionContext.conf" {
+     ContextName "Periscope_passenger_l01"
+     Position PointInfo "{62E3227936E85DFF}" {
+      Offset -0.8491 1.5052 -1.4329
+      Angles 0 115 0
+     }
+    }
+    UserActionContext "{68C3228A62FC3701}" : "{383D10251D4CDA3D}Prefabs/Weapons/Core/Configs/WCS_Armament_VehicleCameraActionContext.conf" {
+     ContextName "Periscope_passenger_l02"
+     Position PointInfo "{62E3227936E85DFF}" {
+      Offset -0.7802 1.5052 -2.0531
+      Angles 0 115 0
+     }
+    }
+    UserActionContext "{68C3228A66BFCB08}" : "{383D10251D4CDA3D}Prefabs/Weapons/Core/Configs/WCS_Armament_VehicleCameraActionContext.conf" {
+     ContextName "Periscope_passenger_l03"
+     Position PointInfo "{62E3227936E85DFF}" {
+      Offset -0.7336 1.5052 -2.4102
+      Angles 0 115 0
+     }
+    }
+   }
+   additionalActions {
+    WCS_Armament_VehicleCameraAction "{68C3228D95CB61F8}" : "{91B4746C14E47D27}Prefabs/Weapons/Core/Configs/WCS_Armament_VehicleCameraAction.conf" {
+     ParentContextList {
+      "Periscope_driver_m01"
+     }
+     m_sCameraId "Periscope_driver_m01"
+    }
+    WCS_Armament_VehicleCameraAction "{68C3228C13403433}" : "{91B4746C14E47D27}Prefabs/Weapons/Core/Configs/WCS_Armament_VehicleCameraAction.conf" {
+     ParentContextList {
+      "Periscope_driver_r01"
+     }
+     m_sCameraId "Periscope_driver_r01"
+    }
+    WCS_Armament_VehicleCameraAction "{68C3228C154DD959}" : "{91B4746C14E47D27}Prefabs/Weapons/Core/Configs/WCS_Armament_VehicleCameraAction.conf" {
+     ParentContextList {
+      "Periscope_driver_l01"
+     }
+     m_sCameraId "Periscope_driver_l01"
+    }
+    WCS_Armament_VehicleCameraAction "{68C3228C0A3639CB}" : "{91B4746C14E47D27}Prefabs/Weapons/Core/Configs/WCS_Armament_VehicleCameraAction.conf" {
+     ParentContextList {
+      "Periscope_driver_l02"
+     }
+     m_sCameraId "Periscope_driver_l02"
+    }
+    WCS_Armament_VehicleCameraAction "{68C3228C08F245A4}" : "{91B4746C14E47D27}Prefabs/Weapons/Core/Configs/WCS_Armament_VehicleCameraAction.conf" {
+     ParentContextList {
+      "Periscope_sl_m01"
+     }
+     m_sCameraId "Periscope_sl_m01"
+    }
+    WCS_Armament_VehicleCameraAction "{68C3228C0B2C996A}" : "{91B4746C14E47D27}Prefabs/Weapons/Core/Configs/WCS_Armament_VehicleCameraAction.conf" {
+     ParentContextList {
+      "Periscope_sl_l01"
+     }
+     m_sCameraId "Periscope_sl_l01"
+    }
+    WCS_Armament_VehicleCameraAction "{68C3228C1693C558}" : "{91B4746C14E47D27}Prefabs/Weapons/Core/Configs/WCS_Armament_VehicleCameraAction.conf" {
+     ParentContextList {
+      "Periscope_passenger_r01"
+     }
+     m_sCameraId "Periscope_passenger_r01"
+    }
+    WCS_Armament_VehicleCameraAction "{68C3228C17890006}" : "{91B4746C14E47D27}Prefabs/Weapons/Core/Configs/WCS_Armament_VehicleCameraAction.conf" {
+     ParentContextList {
+      "Periscope_passenger_r02"
+     }
+     m_sCameraId "Periscope_passenger_r02"
+    }
+    WCS_Armament_VehicleCameraAction "{68C3228C14A7035B}" : "{91B4746C14E47D27}Prefabs/Weapons/Core/Configs/WCS_Armament_VehicleCameraAction.conf" {
+     ParentContextList {
+      "Periscope_passenger_r03"
+     }
+     m_sCameraId "Periscope_passenger_r03"
+    }
+    WCS_Armament_VehicleCameraAction "{68C3228C0D0D9028}" : "{91B4746C14E47D27}Prefabs/Weapons/Core/Configs/WCS_Armament_VehicleCameraAction.conf" {
+     ParentContextList {
+      "Periscope_passenger_l01"
+     }
+     m_sCameraId "Periscope_passenger_l01"
+    }
+    WCS_Armament_VehicleCameraAction "{68C3228C09E1BA8E}" : "{91B4746C14E47D27}Prefabs/Weapons/Core/Configs/WCS_Armament_VehicleCameraAction.conf" {
+     ParentContextList {
+      "Periscope_passenger_l02"
+     }
+     m_sCameraId "Periscope_passenger_l02"
+    }
+    WCS_Armament_VehicleCameraAction "{68C3228C124020AF}" : "{91B4746C14E47D27}Prefabs/Weapons/Core/Configs/WCS_Armament_VehicleCameraAction.conf" {
+     ParentContextList {
+      "Periscope_passenger_l03"
+     }
+     m_sCameraId "Periscope_passenger_l03"
+    }
+    WCS_RearmVehicleAtRepairStationAction "{68C379154D211B2A}" : "{3757C83EDA741808}Prefabs/Weapons/Core/Configs/WCS_RearmVehicleAtRepairStationAction.conf" {
+     ParentContextList {
+      "door2"
+     }
+     Duration -0.5
+     CanAggregate 1
+     PerformPerFrame 1
+     "Sort Priority" 15
+     m_fLoopActionHoldDuration 0.1
+     m_bLowerWeaponOnUse 1
+     m_sSoundProject "{310B4870AE881477}Sounds/Weapons/HeavyWeapons/M242/Weapons_HeavyWeapons_M242_Handling.acp"
+     m_sAmmoFullReason "#WCS-SupportStation_RearmVehicle_AmmoIsFull"
+     m_aRearmData {
+      WCS_VehicleRearmData "{62A1474EC72288A4}" {
+       magazine "{A2A6E0D2E56E29F2}Prefabs/Weapons/Ammo/Ammo_Missile_9M133.et"
+       maxAmount 3
+       unitSupplyCost 50
+      }
+     }
+    }
+   }
+  }
+  VehicleAnimationComponent "{50B803EAA459B0AF}" {
+   AnimInjection AnimationAttachmentInfo "{50B803EA8AD25BC8}" {
+    AnimGraph "{847F34F75C70A43A}Assets/Vehicles/Wheeled/LAV25/workspaces/LAV25.agr"
+    AnimInstance "{4D3CA2D353C4FB44}Assets/Vehicles/Wheeled/LAV25/workspaces/LAV25_player.asi"
+   }
+  }
+ }
+ coords 116.345 1 1228.971
+}

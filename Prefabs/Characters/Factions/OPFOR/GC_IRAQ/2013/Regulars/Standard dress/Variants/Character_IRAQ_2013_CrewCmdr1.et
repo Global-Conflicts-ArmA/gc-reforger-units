@@ -1,0 +1,40 @@
+SCR_ChimeraCharacter : "{9D1CA1E6C2E96215}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2013/Regulars/Standard dress/Character_IRAQ_2013_CrewCmdr.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{D6B1ACA46036E9CE}Prefabs/Characters/HeadGear/Helmet_TSh4_01/Helmet_TSh4_01_open.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{C42C535F667B250E}Prefabs/Characters/Uniforms/Suit_Tanker_US_01/Suit_Tanker_UK_01_tucked.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{203EEA924B049EF1}Prefabs/Characters/Footwear/JungleBoots_01/JungleBoots_01.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{8CBFF0112D07A92B}Prefabs/Characters/Vests/Vest_ChestRigSmal/Vest_ChestRigSmall_2.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6946A164D8EA1DE8}" {
+     TargetStorage "Jacket/Suit_Tanker_UK_01_tucked.et"
+    }
+    ItemsInitConfigurationItem "{6946DD14EBEE209C}" {
+     TargetStorage "Vest/Vest_ChestRigSmall_2.et"
+    }
+    ItemsInitConfigurationItem "{6946A164D8EA1DEA}" {
+     TargetStorage "Vest/Vest_ChestRigSmall_2.et"
+     PrefabsToSpawn {
+      "{3A421547BC29F679}Prefabs/Items/Equipment/Flashlights/Flashlight_MX991/Flashlight_MX991.et"
+     }
+    }
+    ItemsInitConfigurationItem "{694B40B153284232}" {
+     TargetStorage "Vest/Vest_ChestRigSmall_2.et"
+    }
+   }
+  }
+ }
+}

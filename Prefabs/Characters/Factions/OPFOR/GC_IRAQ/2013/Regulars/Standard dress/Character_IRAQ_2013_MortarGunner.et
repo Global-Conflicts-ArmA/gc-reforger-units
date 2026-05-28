@@ -1,0 +1,77 @@
+SCR_ChimeraCharacter : "{E62D83DDA4DEDD33}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2013/Regulars/Standard dress/Character_IRAQ_2013_Base.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot {
+      }
+     }
+    }
+   }
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_MortarGunner"
+    Description "Iraqi 2013 Mortar Gunner"
+    IconSetName "EditableEntity_Character_Mortar"
+   }
+   m_VariantData SCR_EditableEntityVariantData "{694B1260C9249A59}" {
+    m_aVariants {
+     SCR_EditableEntityVariant "{694B1260C9249A50}" {
+      m_sVariantPrefab "{D06857B157D87283}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2013/Regulars/Standard dress/Variants/Character_IRAQ_2013_MortarGunner1.et"
+     }
+     SCR_EditableEntityVariant "{694B1260C9249A55}" {
+      m_sVariantPrefab "{BC3C6351EB1CFDAD}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2013/Regulars/Standard dress/Variants/Character_IRAQ_2013_MortarGunner2.et"
+     }
+    }
+   }
+  }
+  CharacterGrenadeSlotComponent "{520EA1D2F659CE6E}" {
+   WeaponTemplate "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{41AD4E19A9BDBDCE}Prefabs/Weapons/Rifles/AK47/BC_Rifle_AK47.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+    }
+    LoadoutSlotInfo Jacket {
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{B138C1726E6C2488}Prefabs/Characters/Vests/Vest_IBA/Vest_OTV_CB.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{F05A35BCC44BE9FC}Prefabs/Characters/Footwear/TankerBoots_US_01/TankerBoots_US_01.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{06B68C58B72EAAC6}Prefabs/Items/Equipment/Backpacks/Backpack_ALICE_Medium.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{568823B04C3D3516}Prefabs/Characters/Vests/Vest_Lifchik/Vest_Lifchik_CL.et"
+    }
+    LoadoutSlotInfo HandWear {
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6946A164D8EA1DE8}" {
+    }
+    ItemsInitConfigurationItem "{6946DD14EBEE209C}" {
+    }
+    ItemsInitConfigurationItem "{6946A164D8EA1DEA}" {
+     TargetStorage "ArmoredVest/Vest_OTV_CB.et"
+    }
+    ItemsInitConfigurationItem "{694B1260C924B197}" {
+     TargetStorage "Vest/Vest_Lifchik_CL.et"
+     PrefabsToSpawn {
+      "{E039E897BD5A339E}Prefabs/Weapons/Magazines/AK/BC_Magazine_762x39_AK_30rnd_Ball.et" "{E039E897BD5A339E}Prefabs/Weapons/Magazines/AK/BC_Magazine_762x39_AK_30rnd_Ball.et" "{E039E897BD5A339E}Prefabs/Weapons/Magazines/AK/BC_Magazine_762x39_AK_30rnd_Ball.et" "{E039E897BD5A339E}Prefabs/Weapons/Magazines/AK/BC_Magazine_762x39_AK_30rnd_Ball.et" "{D7D38B4E269417F8}Prefabs/Weapons/Magazines/AK/BC_Magazine_762x39_AK_30rnd_Tracer.et"
+     }
+    }
+   }
+  }
+ }
+}

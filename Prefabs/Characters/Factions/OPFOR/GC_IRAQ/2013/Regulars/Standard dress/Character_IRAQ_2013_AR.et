@@ -1,0 +1,74 @@
+SCR_ChimeraCharacter : "{E62D83DDA4DEDD33}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2013/Regulars/Standard dress/Character_IRAQ_2013_Base.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot {
+      }
+     }
+    }
+   }
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_AutomaticRifleman"
+    Description "Iraqi 2013 AR"
+    IconSetName "EditableEntity_Character_Machinegunner"
+   }
+   m_VariantData SCR_EditableEntityVariantData "{69488D1CD014C288}" {
+    m_aVariants {
+     SCR_EditableEntityVariant "{69488D1CD014C282}" {
+      m_sVariantPrefab "{4017687236BF4E26}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2013/Regulars/Standard dress/Variants/Character_IRAQ_2013_AR1.et"
+     }
+     SCR_EditableEntityVariant "{69488D1CD014C284}" {
+      m_sVariantPrefab "{2C435C928A7BC108}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2013/Regulars/Standard dress/Variants/Character_IRAQ_2013_AR2.et"
+     }
+    }
+   }
+  }
+  CharacterGrenadeSlotComponent "{520EA1D2F659CE6E}" {
+   WeaponTemplate "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{5F365605E36597FB}Prefabs/Weapons/MachineGuns/RPK74/MG_RPK74N.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{15D61BB37FF344B4}Prefabs/Characters/HeadGear/ARY_Helmet_M1_01/ARY_Helmet_M1_01_Cover_NoChinCup_M81_Woodland.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{9A29BA1A385F5101}Prefabs/Characters/Vests/Vest_IBA/Variants/IBA/Vest_IBA_base.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{8C3121C7FB112534}Prefabs/Characters/Footwear/Tropico_army_boots/Tropico_army_boots.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{0960A1A0B891F243}Prefabs/Items/Equipment/Backpacks/Rucksack_P58_Large_Pack.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{4F9D38DB731EF693}Prefabs/Characters/Vests/Vest_Lifchik/Vest_Lifchik_Cuba.et"
+    }
+    LoadoutSlotInfo HandWear {
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6946DD14EBEE209C}" {
+    }
+    ItemsInitConfigurationItem "{6946A164D8EA1DEA}" {
+     TargetStorage "ArmoredVest/Vest_IBA_base.et"
+    }
+    ItemsInitConfigurationItem "{69488D1CD014C297}" {
+     TargetStorage "Vest/Vest_Lifchik_Cuba.et"
+     PrefabsToSpawn {
+      "{BC74DAC891D48540}Prefabs/Weapons/Magazines/Magazine_545x39_RPK_45rnd_Ball.et" "{BC74DAC891D48540}Prefabs/Weapons/Magazines/Magazine_545x39_RPK_45rnd_Ball.et" "{BC74DAC891D48540}Prefabs/Weapons/Magazines/Magazine_545x39_RPK_45rnd_Ball.et" "{BC74DAC891D48540}Prefabs/Weapons/Magazines/Magazine_545x39_RPK_45rnd_Ball.et" "{BC74DAC891D48540}Prefabs/Weapons/Magazines/Magazine_545x39_RPK_45rnd_Ball.et" "{BC74DAC891D48540}Prefabs/Weapons/Magazines/Magazine_545x39_RPK_45rnd_Ball.et" "{BC74DAC891D48540}Prefabs/Weapons/Magazines/Magazine_545x39_RPK_45rnd_Ball.et" "{D78C667F59829717}Prefabs/Weapons/Magazines/Magazine_545x39_RPK_45rnd_4Ball_1Tracer.et" "{D78C667F59829717}Prefabs/Weapons/Magazines/Magazine_545x39_RPK_45rnd_4Ball_1Tracer.et"
+     }
+    }
+   }
+  }
+ }
+}

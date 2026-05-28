@@ -1,0 +1,54 @@
+SCR_ChimeraCharacter : "{42D2D01DACC3D553}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2013/Regulars/Standard dress/Character_IRAQ_2013_MortarLoader.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{B036BA26CCFE9E5D}Prefabs/Weapons/Rifles/M16/Variants/Rifle_M16A2_OliveGreen_Sand_Stripes.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Back {
+     Prefab "{41A9C55B61F375F0}Prefabs/Items/Equipment/Backpacks/Backpack_Kolobok.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{1F98ED6C71EFEFCF}Prefabs/Characters/Vests/Vest_MOLLE_Rig/Vest_MOLLE-Rig_rifleman_wdl.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6946A164D8EA1DE8}" {
+    }
+    ItemsInitConfigurationItem "{694B127CD6D3C972}" {
+     TargetStorage "Vest/Vest_MOLLE-Rig_rifleman_wdl.et/Slot_L11/Pouch_MOLLE-M16_single_base.et"
+     PrefabsToSpawn {
+      "{4575737B3D3A4505}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M196_Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{694B127BC1210ACA}" {
+     TargetStorage "Vest/Vest_MOLLE-Rig_rifleman_wdl.et/Slot_L12/Pouch_MOLLE-M16_single_base.et"
+     PrefabsToSpawn {
+      "{2EBF60EF24B108FC}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_Ball.et"
+     }
+    }
+    ItemsInitConfigurationItem "{694B127A1967222A}" {
+     TargetStorage "Vest/Vest_MOLLE-Rig_rifleman_wdl.et/Slot_R12/Pouch_MOLLE-M16_single_base.et"
+     PrefabsToSpawn {
+      "{2EBF60EF24B108FC}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_Ball.et"
+     }
+    }
+    ItemsInitConfigurationItem "{694B127A25F82996}" {
+     TargetStorage "Vest/Vest_MOLLE-Rig_rifleman_wdl.et/Slot_L12/Pouch_MOLLE-M16_single_base.et"
+     PrefabsToSpawn {
+      "{2EBF60EF24B108FC}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_Ball.et"
+     }
+    }
+    ItemsInitConfigurationItem "{694B127A21CB3F4A}" {
+     TargetStorage "Vest/Vest_MOLLE-Rig_rifleman_wdl.et/Slot_R11/Pouch_MOLLE-M16_single_base.et"
+     PrefabsToSpawn {
+      "{2EBF60EF24B108FC}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_Ball.et"
+     }
+    }
+   }
+  }
+ }
+}

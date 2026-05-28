@@ -15,5 +15,10 @@ SCR_ChimeraCharacter : "{56BE8BF480CB99A9}Prefabs/Characters/Factions/BLUFOR/UK_
   PS_PlayableComponent "{5EFCC1946F475F15}" {
    m_sName "Mortar Fire Controller (MFC)"
   }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Icon "{13784D8EB2353342}UI/Textures/EditableEntities/Characters/EditableEntity_Character_FO.edds"
+   }
+  }
  }
 }

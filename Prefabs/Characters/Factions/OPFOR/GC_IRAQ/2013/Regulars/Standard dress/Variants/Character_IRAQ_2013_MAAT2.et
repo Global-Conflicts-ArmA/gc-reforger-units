@@ -1,0 +1,61 @@
+SCR_ChimeraCharacter : "{E551E47FB39E7D6F}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2013/Regulars/Standard dress/Character_IRAQ_2013_MAAT.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{92A0764C4EDF7C14}Prefabs/Weapons/Rifles/M16/Variants/Rifle_M16A2_carbine_OliveGreen_Solid.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{B74A4FF0DD8BB116}Prefabs/Characters/HeadGear/Helmet_PASGT_01/Helmet_PASGT_01.et"
+    }
+    LoadoutSlotInfo Jacket {
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{FEBAAEBB8C255060}Prefabs/Characters/Vests/Vest_IBA/Vest_OTV_3CD.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{8CDC9308C265ECCB}Prefabs/Characters/Footwear/ACU_boots/ACU_boots1_base.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{E217454352110466}Prefabs/Items/Backpacks/Backpack_RPGPack/Backpack_RPGPack.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{2835A0EA3B79E63E}Prefabs/Characters/Vests/Vest_ALICE/Variants/Vest_ALICE_rifleman.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6946A164D8EA1DE8}" {
+    }
+    ItemsInitConfigurationItem "{6946DD14EBEE209C}" {
+    }
+    ItemsInitConfigurationItem "{6946A164D8EA1DEA}" {
+     TargetStorage "ArmoredVest/Vest_OTV_3CD.et"
+    }
+    ItemsInitConfigurationItem "{69488D029072BFA2}" {
+     TargetStorage "Vest/Vest_ALICE_rifleman.et/MagPouch/Pouch_ALICE_30rnd_STANAG.et"
+     PrefabsToSpawn {
+      "{DD5358193169908B}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1.et" "{DD5358193169908B}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1.et"
+     }
+    }
+    ItemsInitConfigurationItem "{69488D029072BFA3}" {
+     TargetStorage "Back/Backpack_RPGPack.et"
+    }
+    ItemsInitConfigurationItem "{69488D3CA56C0744}" {
+     TargetStorage "Vest/Vest_ALICE_rifleman.et/MagPouch2/Pouch_ALICE_30rnd_STANAG.et"
+     PrefabsToSpawn {
+      "{00F0B1FA28EF672B}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_SP_T_30rnd_M995.et" "{35BEBF9814FC4A46}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_HP_T_30rnd_M855A1.et"
+     }
+    }
+    ItemsInitConfigurationItem "{69488D3C96436A28}" {
+     TargetStorage "Vest/Vest_ALICE_rifleman.et/Buttpack/Vest_ALICE_buttpack.et"
+     PrefabsToSpawn {
+      "{7278219B7BD0E8CE}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_HP_B_30rnd_M855A1.et" "{7278219B7BD0E8CE}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_HP_B_30rnd_M855A1.et"
+     }
+    }
+   }
+  }
+ }
+}

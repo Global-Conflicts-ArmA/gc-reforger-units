@@ -1,0 +1,57 @@
+SCR_ChimeraCharacter : "{18E3A78E400BC7CB}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2020/Regulars/Standard dress/Character_IRAQ_2020_COY2IC.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{D7690D6BB82B50D7}Prefabs/Weapons/Rifles/M16/Variants/Rifle_M16A2_carbine_OliveGreen_Sand_Stripes.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
+   WeaponTemplate "{1353C6EAD1DCFE43}Prefabs/Weapons/Handguns/M9/Handgun_M9.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{6E14F80C250F85FC}Prefabs/Characters/HeadGear/Helmet_M1_01/Helmet_M1_01.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{5A621AA3A63B44A8}Prefabs/Characters/Vests/Vest_IBA/Variants/OTV/Vest_OTV_CollarP_v2_3CD.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{48602F57998AB597}Prefabs/Items/Equipment/Backpacks/FILBE_Backpack.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{9713FE6DDCC9510D}Prefabs/Characters/Vests/Vest_Lifchik/Vest_Lifchik.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6946DD14EBEE209C}" {
+     PrefabsToSpawn {
+      "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{9C05543A503DB80E}Prefabs/Weapons/Magazines/Magazine_9x19_M9_15rnd_Ball.et" "{73950FBA2D7DB5C5}Prefabs/Items/Equipment/Radios/US/Radio_ANPRC68.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6946A164D8EA1DEA}" {
+     TargetStorage "ArmoredVest/Vest_OTV_CollarP_v2_3CD.et"
+     PrefabsToSpawn {
+      "{D13A99EEED51784B}Prefabs/Items/Equipment/Flashlights/Flashlight_UK.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6946DD1D956F341E}" {
+     TargetStorage "Vest/Vest_Lifchik.et"
+     PrefabsToSpawn {
+      "{FB5EB0F6D447E858}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M193_Ball.et" "{065A21D95CEAC496}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_HP_B_30rnd_m995.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6946DD1D956F341D}" {
+     TargetStorage "Vest/Vest_Lifchik.et"
+     PrefabsToSpawn {
+      "{DD5358193169908B}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1.et" "{EA5391BBD8D5BAC6}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_SP_T_30rnd_M855A1.et" "{EA5391BBD8D5BAC6}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_SP_T_30rnd_M855A1.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6946DD1D956F341C}" {
+     TargetStorage "Back/FILBE_Backpack.et"
+    }
+   }
+  }
+ }
+}

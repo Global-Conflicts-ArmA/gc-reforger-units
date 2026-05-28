@@ -1,0 +1,28 @@
+GenericEntity : "{31F7F8522CF135B1}Prefabs/Weapons/Rifles/M27IAR/Rifle_M27IAR_VCOG_NT4.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{5CC8E73BB698D287}" {
+     AttachmentSlot RHS_SlidingInventoryStorageSlot optics {
+      Prefab "{6080874CFDB25EB6}Prefabs/Weapons/Attachments/Optics/Scopes/Optic_TrijiconACOGTA31_RMR/Optic_TrijiconACOGTA31_RMR_ARD.et"
+     }
+    }
+    AttachmentSlotComponent "{5CF88C80AF78DA73}" {
+     AttachmentSlot RHS_SlidingInventoryStorageSlot PicattinyRailTop {
+      Prefab "{9A185BC14F1166B4}Prefabs/Weapons/Attachments/Lasers/anpeq15/Laser_ANPEQ15_tan.et"
+     }
+    }
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     components {
+      AttachmentSlotComponent "{626541D4146E1B36}" {
+       AttachmentSlot InventoryStorageSlot Muzzle {
+        Prefab "{8B8125772E23BEE5}Prefabs/Weapons/Attachments/Muzzle/Flashhider_A2.et"
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}

@@ -1,6 +1,11 @@
 SCR_ChimeraCharacter : "{902088D220925A16}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/Light Infantry/Character_UK_1989_Regulars_BaseLoadout.et" {
  ID "520EC961A090B1EE"
  components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Icon "{3A41A8F543EF520B}UI/Textures/EditableEntities/Characters/BritishRanks/EditableEntity_Character_British_LT.edds"
+   }
+  }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{610CC31428816D50}" {
