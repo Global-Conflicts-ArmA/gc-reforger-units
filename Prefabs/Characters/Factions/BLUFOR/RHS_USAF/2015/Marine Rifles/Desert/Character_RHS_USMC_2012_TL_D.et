@@ -1,0 +1,86 @@
+SCR_ChimeraCharacter : "{34AE64E0D320D5F4}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Desert/Character_RHS_USMC_2009_TL_D.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{6867FC063632DC97}Prefabs/Weapons/Rifles/M16/Rifle_M16A4_M203_RCO_RMR.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{CA29B2E50A87C9D5}Prefabs/Characters/HeadGear/Helmet_MICH_ACH/Helmet_MICH_SHROUD_Cov_Marpat.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{822B66CBF331F844}Prefabs/Characters/Vests/Vest_PCGen_II/Vest_PCGen_II_base.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{6FABD062FFB146FA}Prefabs/Characters/Vests/Vest_PCGen_II/Variants/Vest_PCGen_II_gl.et"
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab "{2295354C283A1FBF}Prefabs/Characters/Handwear/Gloves_511_Competition/Gloves_511_Comp_Tan.et"
+    }
+    LoadoutSlotInfo Eyes {
+     Prefab "{608F66AB8B36B85D}Prefabs/Characters/Eyewear/crossbow/Eyewear_ess_crossbow_blk.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68E911A76500D1C7}" {
+     TargetStorage "Vest/Vest_PCGen_II_gl.et/Pouch1/Pouch_FILBE_doubleM4_1.et"
+    }
+    ItemsInitConfigurationItem "{68E911A76500D181}" {
+     TargetStorage "Vest/Vest_PCGen_II_gl.et/pouch2/Pouch_FILBE_doubleM4_2.et"
+    }
+    ItemsInitConfigurationItem "{69070820E485D2F9}" {
+     TargetStorage "Vest/Vest_PCGen_II_gl.et/pouch3/Pouch_FILBE_doubleM4_3.et"
+    }
+    ItemsInitConfigurationItem "{68E911A76500D182}" {
+     TargetStorage "Vest/Vest_PCGen_II_gl.et/pouch3/Pouch_FILBE_doubleM4_3.et"
+     PrefabsToSpawn + {
+      "{7ECA478D7C80ACC0}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M193_M196_Last_5Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68E911A76500D18C}" {
+     TargetStorage "Back/FILBE_hydration_pack.et"
+    }
+    ItemsInitConfigurationItem "{68E911A76500D188}" {
+     TargetStorage ""
+     PrefabsToSpawn {
+      ""
+     }
+    }
+    ItemsInitConfigurationItem "{68E911A7276E5E70}" {
+     TargetStorage "Vest/Vest_PCGen_II_gl.et/bandolier/Pouch_Filbe_bandolier.et"
+     PrefabsToSpawn + {
+      "{1663496AE5B9F10B}Prefabs/Weapons/Ammo/Ammo_Grenade_HEDP_M433.et" "{1663496AE5B9F10B}Prefabs/Weapons/Ammo/Ammo_Grenade_HEDP_M433.et" "{1663496AE5B9F10B}Prefabs/Weapons/Ammo/Ammo_Grenade_HEDP_M433.et" "{1663496AE5B9F10B}Prefabs/Weapons/Ammo/Ammo_Grenade_HEDP_M433.et" "{1663496AE5B9F10B}Prefabs/Weapons/Ammo/Ammo_Grenade_HEDP_M433.et" "{1663496AE5B9F10B}Prefabs/Weapons/Ammo/Ammo_Grenade_HEDP_M433.et" "{1663496AE5B9F10B}Prefabs/Weapons/Ammo/Ammo_Grenade_HEDP_M433.et" "{1663496AE5B9F10B}Prefabs/Weapons/Ammo/Ammo_Grenade_HEDP_M433.et" "{1663496AE5B9F10B}Prefabs/Weapons/Ammo/Ammo_Grenade_HEDP_M433.et" "{1663496AE5B9F10B}Prefabs/Weapons/Ammo/Ammo_Grenade_HEDP_M433.et"
+     }
+    }
+    ItemsInitConfigurationItem "{69070820F2FF0E82}" {
+     PrefabsToSpawn {
+      "" ""
+     }
+    }
+    ItemsInitConfigurationItem "{69070820CEC68499}" {
+     PrefabsToSpawn {
+      "" ""
+     }
+    }
+    ItemsInitConfigurationItem "{69070820CAA72E9F}" {
+     PrefabsToSpawn {
+      "" ""
+     }
+    }
+    ItemsInitConfigurationItem "{68E911A7EC8DFC74}" {
+     PrefabsToSpawn {
+      ""
+     }
+    }
+    ItemsInitConfigurationItem "{69070820DC3F4478}" {
+     PrefabsToSpawn {
+      ""
+     }
+    }
+   }
+  }
+ }
+}

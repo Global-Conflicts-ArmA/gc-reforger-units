@@ -1,0 +1,48 @@
+SCR_ChimeraCharacter : "{FE7DBEECE10AD982}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Desert/Character_RHS_USMC_2009_AT_D.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{4F8CCD61F32A9C9D}Prefabs/Weapons/Rifles/M16/Rifle_M16A4_RCO_RMR_grip.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{CA29B2E50A87C9D5}Prefabs/Characters/HeadGear/Helmet_MICH_ACH/Helmet_MICH_SHROUD_Cov_Marpat.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{822B66CBF331F844}Prefabs/Characters/Vests/Vest_PCGen_II/Vest_PCGen_II_base.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{652A691C3404B99C}Prefabs/Characters/Vests/Vest_PCGen_II/Variants/Vest_PCGen_II_tako3.et"
+    }
+    LoadoutSlotInfo EyeWear {
+     Prefab "{D4ABE8F396146587}Prefabs/Characters/Eyewear/crossbow/Eyewear_ess_crossbow_clr.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68E911AA437236AB}" {
+     TargetStorage "Vest/Vest_PCGen_II_tako3.et/tako2/Pouch_FILBE_doubleM4_3.et"
+    }
+    ItemsInitConfigurationItem "{68E911AA43723751}" {
+     TargetStorage "Vest/Vest_PCGen_II_tako3.et/tako/Pouch_FILBE_doubleM4_2.et"
+    }
+    ItemsInitConfigurationItem "{68E911AA43723753}" {
+     TargetStorage "Vest/Vest_PCGen_II_tako3.et/pouch2/Pouch_PCGEN3_takoPouch.et"
+    }
+    ItemsInitConfigurationItem "{68E911AA437394D5}" {
+     TargetStorage "Vest/Vest_PCGen_II_tako3.et/pouch3/Pouch_PCGEN3_takoPouch.et"
+    }
+    ItemsInitConfigurationItem "{68E911AA437394D0}" {
+     TargetStorage "Vest/Vest_PCGen_II_tako3.et/m67/Pouch_Filbe_M67_2.et"
+    }
+    ItemsInitConfigurationItem "{68E911AAC28B63C6}" {
+     PrefabsToSpawn {
+      "{27AC9FC7F5E2BEEB}Prefabs/Weapons/Magazines/MK153/Container_MK153_HEDP.et" "{2C935EF6F98E6354}Prefabs/Weapons/Magazines/MK153/Container_MK153_HEAA.et"
+     }
+    }
+   }
+  }
+ }
+}
