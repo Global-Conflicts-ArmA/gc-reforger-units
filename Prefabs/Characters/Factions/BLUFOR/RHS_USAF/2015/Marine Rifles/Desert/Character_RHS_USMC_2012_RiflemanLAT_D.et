@@ -1,0 +1,46 @@
+SCR_ChimeraCharacter : "{9D1BD88B5AA4AAAB}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Desert/Character_RHS_USMC_2009_RiflemanLAT_D.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{4F8CCD61F32A9C9D}Prefabs/Weapons/Rifles/M16/Rifle_M16A4_RCO_RMR_grip.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{CA29B2E50A87C9D5}Prefabs/Characters/HeadGear/Helmet_MICH_ACH/Helmet_MICH_SHROUD_Cov_Marpat.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{822B66CBF331F844}Prefabs/Characters/Vests/Vest_PCGen_II/Vest_PCGen_II_base.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{541A06BBBA3C8569}Prefabs/Characters/Vests/Vest_PCGen_II/Variants/Vest_PCGen_II_rifleman.et"
+    }
+    LoadoutSlotInfo Eyes {
+     Prefab "{9C030889E9A05770}Prefabs/Characters/Eyewear/npp_strelok/Eyewear_npp_strelok.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68E911A69544EBAD}" {
+     TargetStorage "Back/FILBE_hydration_pack.et"
+    }
+    ItemsInitConfigurationItem "{68E911A69544EBB9}" {
+     TargetStorage "Back/FILBE_hydration_pack.et"
+    }
+    ItemsInitConfigurationItem "{68E911A69544EBBA}" {
+     TargetStorage "Back/FILBE_hydration_pack.et"
+    }
+    ItemsInitConfigurationItem "{68E911A69544EBBB}" {
+     TargetStorage "Vest/Vest_PCGen_II_rifleman.et/tako2/Pouch_FILBE_doubleM4_3.et"
+    }
+    ItemsInitConfigurationItem "{68E911A695451DBF}" {
+     TargetStorage "Vest/Vest_PCGen_II_rifleman.et/tako/Pouch_FILBE_doubleM4_2.et"
+    }
+    ItemsInitConfigurationItem "{68E911A695451DB9}" {
+     TargetStorage "Vest/Vest_PCGen_II_rifleman.et/m67/Pouch_Filbe_M67_2.et"
+    }
+   }
+  }
+ }
+}

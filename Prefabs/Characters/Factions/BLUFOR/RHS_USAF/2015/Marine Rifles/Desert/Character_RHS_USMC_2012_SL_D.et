@@ -1,0 +1,73 @@
+SCR_ChimeraCharacter : "{E62854E64A5771F6}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Desert/Character_RHS_USMC_2009_SL_D.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{6FC7B5EAFE182A65}Prefabs/Weapons/Rifles/M4/Rifle_M4_RAS_PEQ_POD_RCO.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{CA29B2E50A87C9D5}Prefabs/Characters/HeadGear/Helmet_MICH_ACH/Helmet_MICH_SHROUD_Cov_Marpat.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{822B66CBF331F844}Prefabs/Characters/Vests/Vest_PCGen_II/Vest_PCGen_II_base.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{652A691C3404B99C}Prefabs/Characters/Vests/Vest_PCGen_II/Variants/Vest_PCGen_II_tako3.et"
+    }
+    LoadoutSlotInfo Ears {
+     Prefab "{E3F4AFB588BF9A39}Prefabs/Characters/HeadGear/Headsets/Headset_Bowman_Elite/Headset_Bowman_Elite_01.et"
+    }
+    LoadoutSlotInfo EyeWear {
+     Prefab "{BA0AD5FBC86E88D3}Prefabs/Characters/Eyewear/crossbow/Eyewear_ess_crossbow.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68E911A7DD18A51F}" {
+     TargetStorage "Vest/Vest_PCGen_II_tako3.et/Pouch1/Pouch_PCGEN3_takoPouch.et"
+     PrefabsToSpawn {
+      "{2EBF60EF24B108FC}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_Ball.et" "{2EBF60EF24B108FC}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_Ball.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68E911A7DD18A50C}" {
+     TargetStorage "Vest/Vest_PCGen_II_tako3.et/tako2/Pouch_FILBE_doubleM4_3.et"
+    }
+    ItemsInitConfigurationItem "{68E911A7DD18A50D}" {
+     TargetStorage "Vest/Vest_PCGen_II_tako3.et/tako/Pouch_FILBE_doubleM4_2.et"
+    }
+    ItemsInitConfigurationItem "{68E911A7DD18E540}" {
+     TargetStorage "Vest/Vest_PCGen_II_tako3.et/pouch2/Pouch_PCGEN3_takoPouch.et"
+     PrefabsToSpawn + {
+      "{7ECA478D7C80ACC0}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M193_M196_Last_5Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{696032A8EA4900A5}" {
+     TargetStorage "Vest/Vest_PCGen_II_tako3.et/pouch3/Pouch_PCGEN3_takoPouch.et"
+     PrefabsToSpawn + {
+      "{7ECA478D7C80ACC0}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M193_M196_Last_5Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68E911A7DD18E546}" {
+     TargetStorage "Vest/Vest_PCGen_II_tako3.et/m67/Pouch_Filbe_M67_2.et"
+    }
+    ItemsInitConfigurationItem "{696032AB0DED1EF7}" {
+     TargetStorage "Vest/Vest_PCGen_II_tako3.et/m18/Pouch_Filbe_M18_1.et"
+     PrefabsToSpawn {
+      "{D41D22DD1B8E921E}Prefabs/Weapons/Grenades/M18/Smoke_M18_Green.et"
+     }
+    }
+    ItemsInitConfigurationItem "{696032AB07DF6EC1}" {
+     TargetStorage "Vest/Vest_PCGen_II_tako3.et/m18_2/Pouch_Filbe_M18_2.et"
+     PrefabsToSpawn {
+      "{14C1A0F061D9DDEE}Prefabs/Weapons/Grenades/M18/Smoke_M18_Violet.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68E911A7D7F560DB}" {
+     TargetStorage "Vest/Vest_PCGen_II_tako3.et/radio/Pouch_152_Radio.et"
+    }
+   }
+  }
+ }
+}

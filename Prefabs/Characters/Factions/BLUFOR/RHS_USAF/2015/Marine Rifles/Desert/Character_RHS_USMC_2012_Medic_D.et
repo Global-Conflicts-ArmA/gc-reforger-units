@@ -1,0 +1,37 @@
+SCR_ChimeraCharacter : "{95D901B6DA33578D}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Desert/Character_RHS_USMC_2009_Medic_D.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{CA29B2E50A87C9D5}Prefabs/Characters/HeadGear/Helmet_MICH_ACH/Helmet_MICH_SHROUD_Cov_Marpat.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{822B66CBF331F844}Prefabs/Characters/Vests/Vest_PCGen_II/Vest_PCGen_II_base.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{70B5348CD5387289}Prefabs/Characters/Vests/Vest_PCGen_II/Variants/Vest_PCGen_II_filbe.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68E911A40C7B81C2}" {
+     TargetStorage "Vest/Vest_PCGen_II_filbe.et/Pouch1/Pouch_FILBE_doubleM4_1.et"
+    }
+    ItemsInitConfigurationItem "{68E911A40C7B81F9}" {
+     TargetStorage "Vest/Vest_PCGen_II_filbe.et/tako2/Pouch_FILBE_doubleM4_3.et"
+    }
+    ItemsInitConfigurationItem "{68E911A40C7B81FF}" {
+     TargetStorage "Vest/Vest_PCGen_II_filbe.et/tako/Pouch_FILBE_doubleM4_2.et"
+    }
+    ItemsInitConfigurationItem "{68E911A40C7B81FC}" {
+     TargetStorage "Vest/Vest_PCGen_II_filbe.et/pouch2/Pouch_FILBE_doubleM4_2.et"
+    }
+    ItemsInitConfigurationItem "{68E911A40C7B81F2}" {
+     TargetStorage "Vest/Vest_PCGen_II_filbe.et/m67/Pouch_Filbe_M67_2.et"
+    }
+   }
+  }
+ }
+}
