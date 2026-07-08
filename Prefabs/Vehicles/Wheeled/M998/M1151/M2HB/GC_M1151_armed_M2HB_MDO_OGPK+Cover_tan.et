@@ -17,6 +17,12 @@ Vehicle : "{9814B315F48F9A41}Prefabs/Vehicles/Wheeled/M998/M1151/M2HB/GC_M1151_a
     }
    }
   }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    Name "TAN M1151A1 CGPK M2HB MDO"
+    m_Image "{471A4B9A1135027B}UI/Textures/EditorPreviews/Vehicles/Wheeled/M1151/M1151A1_Tan.edds"
+   }
+  }
   SlotManagerComponent "{55BCE45E438E4CFF}" {
    Slots {
     RegisteringComponentSlotInfo Roof {

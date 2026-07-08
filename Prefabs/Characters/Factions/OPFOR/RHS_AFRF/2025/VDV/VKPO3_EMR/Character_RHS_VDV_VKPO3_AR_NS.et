@@ -1,0 +1,8 @@
+SCR_ChimeraCharacter : "{F829086A405C6BC9}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2025/VDV/VKPO3_EMR/Character_RHS_VDV_VKPO3_AR.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{F4C33506D0E4F1F6}Prefabs/Weapons/MachineGuns/PKP_Pecheneg/MG_PKP_Pecheneg_TF.et"
+  }
+ }
+}

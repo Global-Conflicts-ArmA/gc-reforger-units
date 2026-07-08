@@ -1,0 +1,8 @@
+SCR_ChimeraCharacter : "{FC4D911F3FC97D23}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Airborne/Variants/Character_CDF_Airborne_MG_1.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{EC30D7419D15FB20}Prefabs/Weapons/MachineGuns/GPMG/MG_GPMG_L7A2_100.et"
+  }
+ }
+}

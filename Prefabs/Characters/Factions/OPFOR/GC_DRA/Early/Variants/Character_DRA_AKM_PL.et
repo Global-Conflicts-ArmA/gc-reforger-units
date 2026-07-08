@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{E1E35E3A0FAD5802}Prefabs/Characters/Factions/OPFOR/GC_DRA/Variants/Character_DRA_AKM_SL.et" {
+SCR_ChimeraCharacter : "{E1E35E3A0FAD5802}Prefabs/Characters/Factions/OPFOR/GC_DRA/Early/Variants/Character_DRA_AKM_SL.et" {
  ID "520EC961A090B1EE"
  components {
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
@@ -9,6 +9,7 @@ SCR_ChimeraCharacter : "{E1E35E3A0FAD5802}Prefabs/Characters/Factions/OPFOR/GC_D
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Back {
+     Prefab "{54C68E438DD34265}Prefabs/Items/Equipment/Radios/RU/Radio_R107M.et"
     }
    }
   }

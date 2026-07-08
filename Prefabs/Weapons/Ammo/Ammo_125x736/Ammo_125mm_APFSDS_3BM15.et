@@ -1,0 +1,4 @@
+TracerProjectile : "{F4A09B4A53606BCB}Prefabs/Weapons/Ammo/Ammo_APFSDS_HighCalibre_base.et" {
+ ID "DA5C6308000CDEF2"
+ ProjectileModel "{59A6D3C1A73FFF3E}Assets/Weapons/Ammo/Tracers/tracer_big_green.xob"
+}

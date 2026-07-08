@@ -19,6 +19,12 @@ SCR_ChimeraCharacter : "{0E6D12E696498921}Prefabs/Characters/Factions/BLUFOR/RHS
     LoadoutSlotInfo Vest {
      Prefab "{4292B5C3073EECE5}Prefabs/Characters/Vests/Vest_MOLLE_Rig/Vest_MOLLE-Rig_grenadier_wdl.et"
     }
+    LoadoutSlotInfo Ears {
+     Prefab "{E3F4AFB588BF9A39}Prefabs/Characters/HeadGear/Headsets/Headset_Bowman_Elite/Headset_Bowman_Elite_01.et"
+    }
+    LoadoutSlotInfo EyeWear {
+     Prefab "{608F66AB8B36B85D}Prefabs/Characters/Eyewear/crossbow/Eyewear_ess_crossbow_blk.et"
+    }
    }
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {

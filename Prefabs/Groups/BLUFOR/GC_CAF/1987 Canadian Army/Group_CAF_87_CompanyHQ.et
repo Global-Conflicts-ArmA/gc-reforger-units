@@ -1,0 +1,7 @@
+SCR_AIGroup : "{29C2538AD0A43778}Prefabs/Groups/BLUFOR/GC_CAF/Group_CAF_base.et" {
+ ID "0000000000000001"
+ m_aUnitPrefabSlots {
+  "{3D8F6AF9004B53EB}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1987/Character_CAF_CompanyCommander_CW.et" "{C749B555DA21F795}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1987/Character_CAF_Company_Sergeant_Major_CW.et" "{BB6ABA400E2C7EC9}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1987/Character_CAF_RTO_CW.et" "{1F60A983389A4FD2}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1987/Character_CAF_Medic_CW.et"
+ }
+ m_sCustomNameSet "Company Headquarters"
+}

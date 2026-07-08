@@ -1,0 +1,25 @@
+SCR_ChimeraCharacter : "{BDB147B21FB70B7B}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Variants/Character_MUJ_CSW_GNR_1.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{F37E8195BD4BBAA8}Prefabs/Characters/HeadGear/Hat_FlatCap_01/Pakol_Hat_2.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{2C3C7169BC418EE6}Prefabs/Characters/Uniforms/Jacket_ShirtLong_6.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{713E6F2FF25DCD87}Prefabs/Characters/Uniforms/Pants_Cargo_1.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6966141AFC80738B}" {
+     TargetStorage "Pants/Pants_Cargo_1.et"
+    }
+   }
+  }
+ }
+}

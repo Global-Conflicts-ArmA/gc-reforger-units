@@ -10,7 +10,7 @@ Vehicle : "{E49B4C9AEA70BE3F}Prefabs/Vehicles/Wheeled/JLTV/OGPK/M2HB/JLTV_OGPK.e
    MultiSlots {
     MultiSlotConfiguration "{5DE8B00DB02BE538}" {
      SlotTemplate InventoryStorageSlot Turret {
-      Prefab "{928CAC2A1FB43429}Prefabs/Weapons/Magazines/MK_19/Magazine_40mm_MK19_32rnd_Base.et"
+      Prefab "{928CAC2A1FB43429}Prefabs/Weapons/Magazines/MK_19/Magazine_40mm_MK19_48rnd_Base.et"
      }
      NumSlots 10
     }
@@ -24,4 +24,5 @@ Vehicle : "{E49B4C9AEA70BE3F}Prefabs/Vehicles/Wheeled/JLTV/OGPK/M2HB/JLTV_OGPK.e
    }
   }
  }
+ coords 4.049 2.439 0.834
 }

@@ -2,6 +2,9 @@ Turret : "{9D9A4C546BA1CCFF}Prefabs/Vehicles/Wheeled/JLTV/VehParts/Turrets/JLTV_
  ID "51ACD0965653D003"
  components {
   WeaponSlotComponent "{51ACD09C6BFEEE6A}" {
+   AttachType InventoryStorageSlot "{0AACE7470E421D82}" {
+    Offset 0 0.1551 0
+   }
    WeaponTemplate "{EE35CDE258EFE318}Prefabs/Weapons/HeavyWeapons/MK19/GL_MK19_pintle_M1151.et"
   }
  }

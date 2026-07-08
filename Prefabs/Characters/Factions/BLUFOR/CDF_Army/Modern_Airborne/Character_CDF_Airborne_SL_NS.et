@@ -1,0 +1,23 @@
+SCR_ChimeraCharacter : "{222C22E92E9FBAEB}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Airborne/Character_CDF_Airborne_SL.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_VariantData SCR_EditableEntityVariantData "{68C4F02F891B2FC2}" {
+    m_aVariants {
+     SCR_EditableEntityVariant "{68C4F02F8A6849EB}" {
+      m_sVariantPrefab "{A2394AAD21FE29D0}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Airborne/Variants/No Scopes/Character_CDF_Airborne_SL_NS_1.et"
+     }
+     SCR_EditableEntityVariant "{68C4F02F8A72B141}" {
+      m_sVariantPrefab "{CE6D7E4D9D3AA6FE}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Airborne/Variants/No Scopes/Character_CDF_Airborne_SL_NS_2.et"
+     }
+     SCR_EditableEntityVariant "{68C4F02F8A5E7C3F}" {
+      m_sVariantPrefab "{2BF132B491DF3195}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Airborne/Variants/No Scopes/Character_CDF_Airborne_SL_NS_3.et"
+     }
+     SCR_EditableEntityVariant "{68C4F02F8A288FD3}" {
+      m_sVariantPrefab "{16C5178CE4B3B8A2}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Airborne/Variants/No Scopes/Character_CDF_Airborne_SL_NS_4.et"
+     }
+    }
+   }
+  }
+ }
+}

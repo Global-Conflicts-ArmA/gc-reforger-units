@@ -1,11 +1,16 @@
 Vehicle : "{03708F7E58BB7A53}Prefabs/Vehicles/Wheeled/M998/M1151_armed_M2HB.et" {
  ID "BBCBA43A9778AE21"
  components {
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    Name "OD M1151 GPK+ Mk19"
+   }
+  }
   SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
    MultiSlots {
     MultiSlotConfiguration "{66F2D69AD3FC9116}" {
      SlotTemplate InventoryStorageSlot M2Ammo {
-      Prefab "{928CAC2A1FB43429}Prefabs/Weapons/Magazines/MK_19/Magazine_40mm_MK19_32rnd_Base.et"
+      Prefab "{928CAC2A1FB43429}Prefabs/Weapons/Magazines/MK_19/Magazine_40mm_MK19_48rnd_Base.et"
      }
      NumSlots 10
     }

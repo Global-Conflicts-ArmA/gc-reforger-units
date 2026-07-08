@@ -1,0 +1,8 @@
+SCR_ChimeraCharacter : "{97EBAA0CEF23C097}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Airborne/Variants/Character_CDF_Airborne_TL_3.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{E3FD7B51E0F21123}Prefabs/Weapons/Rifles/AR15/Rifle_Pronto_C8A1_BLK_CDF.et"
+  }
+ }
+}

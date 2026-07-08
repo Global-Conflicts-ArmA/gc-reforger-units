@@ -26,6 +26,7 @@ SCR_ChimeraCharacter : "{25FECB70EBFE3EDA}Prefabs/Characters/Factions/BLUFOR/RHS
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{61E88418254009A3}" {
+     TargetStorage "Jacket/Jacket_PCU_5lvl_Base.et"
     }
     ItemsInitConfigurationItem "{61E88418254009AC}" {
     }
