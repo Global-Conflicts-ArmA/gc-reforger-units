@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{B26ECD634EF69482}Prefabs/Characters/Factions/OPFOR/GC_SEP/2020/Character_SEP_BaseLoadout.et" {
+SCR_ChimeraCharacter : "{B26ECD634EF69482}Prefabs/Characters/Factions/OPFOR/GC_SEPARATIST/2020/Character_SEP_BaseLoadout.et" {
  ID "520EC961A090B1EE"
  components {
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
@@ -48,7 +48,7 @@ SCR_ChimeraCharacter : "{B26ECD634EF69482}Prefabs/Characters/Factions/OPFOR/GC_S
      TargetStorage "Pants/Pants_CCUE_EMRSummer.et"
     }
     ItemsInitConfigurationItem "{65F4D2A2AA09FD5F}" {
-     TargetStorage "Jacket/Jacket_M88_Flora_rolledup.et"
+     TargetStorage "Jacket/Jacket_M70_Green.et"
     }
     ItemsInitConfigurationItem "{5D7CC173FAA7C00C}" {
      TargetStorage "Vest/Vest_TV102_rifleman_FG_2.et/radio/Pouch_UP111_radioClosed_FG.et"

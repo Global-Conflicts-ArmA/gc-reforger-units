@@ -1,8 +1,11 @@
-SCR_ChimeraCharacter : "{BDE65937CA5037F9}Prefabs/Characters/Factions/OPFOR/GC_DRA/Variants/Character_DRA_AKM_RPG.et" {
+SCR_ChimeraCharacter : "{BDE65937CA5037F9}Prefabs/Characters/Factions/OPFOR/GC_DRA/Early/Variants/Character_DRA_AKM_RPG.et" {
  ID "520EC961A090B1EE"
  components {
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
    WeaponTemplate "{41AD4E19A9BDBDCE}Prefabs/Weapons/Rifles/AK47/BC_Rifle_AK47.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+   WeaponTemplate "{7A82FE978603F137}Prefabs/Weapons/Launchers/RPG7/Launcher_RPG7.et"
   }
  }
 }

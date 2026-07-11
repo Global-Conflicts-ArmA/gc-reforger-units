@@ -1,0 +1,6 @@
+SCR_AIGroup : "{B892D8E2D17153B7}Prefabs/Groups/BLUFOR/CDF/Airborne_Modern/Group_CDF_Modern_AirborneRifleSquad.et" {
+ ID "0000000000000001"
+ m_aUnitPrefabSlots {
+  "{1778EA94087B7085}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Airborne/Character_CDF_Airborne_SL_NS.et" "{4FA4D3F61C1B18F8}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Airborne/Character_CDF_Airborne_AR.et" "{4271ADD7EBAC71D2}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Airborne/Character_CDF_Airborne_GL.et" "{54008BD74A3D03B2}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Airborne/Character_CDF_Airborne_RiflemanLAT.et" "{5E6BB0F02BB4CFAE}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Airborne/Character_CDF_Airborne_TL_NS.et" "{4FA4D3F61C1B18F8}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Airborne/Character_CDF_Airborne_AR.et" "{4271ADD7EBAC71D2}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Airborne/Character_CDF_Airborne_GL.et" "{6511C97FE22FCE8E}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Airborne/Character_CDF_Airborne_RiflemanAD.et"
+ }
+}

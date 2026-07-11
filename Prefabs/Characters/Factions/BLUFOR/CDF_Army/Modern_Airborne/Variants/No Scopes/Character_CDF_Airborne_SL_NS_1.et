@@ -1,0 +1,8 @@
+SCR_ChimeraCharacter : "{CCA5E213C6757CD0}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Airborne/Variants/Character_CDF_Airborne_SL_1.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{8EE6A0B9247ACFAB}Prefabs/Weapons/Rifles/AK74M/variants/VKPO3/Rifle_AK74M_npz_rail_camo_CDF_01.et"
+  }
+ }
+}

@@ -1,0 +1,6 @@
+SCR_AIGroup : "{0C678D09E8727B08}Prefabs/Groups/BLUFOR/CDF/Airborne_Modern/Group_CDF_Modern_AirborneWeaponSquad.et" {
+ ID "0000000000000001"
+ m_aUnitPrefabSlots {
+  "{1778EA94087B7085}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Airborne/Character_CDF_Airborne_SL_NS.et" "{554C6F6D05580DB4}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Airborne/Character_CDF_Airborne_MG_NS.et" "{F349160271C8B349}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Airborne/Character_CDF_Airborne_AMG.et" "{554C6F6D05580DB4}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Airborne/Character_CDF_Airborne_MG_NS.et" "{F349160271C8B349}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Airborne/Character_CDF_Airborne_AMG.et" "{5E6BB0F02BB4CFAE}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Airborne/Character_CDF_Airborne_TL_NS.et" "{970CBA37659206A4}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Airborne/Character_CDF_Airborne_AT.et" "{79F6A1D9660EB9F6}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Airborne/Character_CDF_Airborne_AAT.et" "{970CBA37659206A4}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Airborne/Character_CDF_Airborne_AT.et" "{79F6A1D9660EB9F6}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Airborne/Character_CDF_Airborne_AAT.et"
+ }
+}

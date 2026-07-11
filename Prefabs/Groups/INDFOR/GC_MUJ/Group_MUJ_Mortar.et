@@ -1,0 +1,14 @@
+SCR_AIGroup : "{0826634ED9D15839}Prefabs/Groups/INDFOR/GC_MUJ/Group_MUJ_base.et" {
+ ID "0000000000000001"
+ components {
+  SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+   m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+    Name "Mortar Crew"
+   }
+  }
+ }
+ m_aUnitPrefabSlots {
+  "{BB1FF87FE2C68BB9}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_FDC_1.et" "{9BD8FE39800B59F3}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Mortar.et" "{9BD8FE39800B59F3}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Mortar.et"
+ }
+ m_sCustomNameSet "Rifle Group"
+}

@@ -1,0 +1,4 @@
+TracerProjectile : "{6DEC9F287271AB24}Prefabs/Weapons/Ammo/SmallArms/Ammo_127x99_AP_M2.et" {
+ ID "476AE74C1F2F140D"
+ ProjectileModel "{59A6D3C1A73FFF3E}Assets/Weapons/Ammo/Tracers/tracer_big_green.xob"
+}

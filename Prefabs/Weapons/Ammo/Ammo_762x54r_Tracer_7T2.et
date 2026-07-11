@@ -1,0 +1,4 @@
+TracerProjectile : "{AC29AE3D5ECD6390}Prefabs/Weapons/Ammo/SmallArms/Ammo_762x54r_Ball_57N323S.et" {
+ ID "5272FB639B197E8B"
+ ProjectileModel "{141B6A1F89173504}Assets/Weapons/Ammo/Tracers/Tracer_green.xob"
+}

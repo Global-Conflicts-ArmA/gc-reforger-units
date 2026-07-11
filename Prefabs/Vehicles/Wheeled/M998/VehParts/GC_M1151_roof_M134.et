@@ -70,7 +70,7 @@ GenericEntity {
    Slots {
     RegisteringComponentSlotInfo Window_LR {
      PivotID "v_door_L02"
-     Offset -0.0665 0 -0.0931
+     Offset 1.0979 -1.1238 0.2359
      Enabled 1
      Prefab "{B8614E7BE4431862}Prefabs/Vehicles/Wheeled/M998/Dst/M1151_roof_window_lr.et"
      DeactivatePhysicsOnAtaching 1
@@ -78,7 +78,7 @@ GenericEntity {
     }
     RegisteringComponentSlotInfo Window_RR {
      PivotID "v_door_R02"
-     Offset 0.0665 0 -0.0931
+     Offset -1.0979 -1.1238 0.2359
      Enabled 1
      Prefab "{496A762F971C2D8E}Prefabs/Vehicles/Wheeled/M998/Dst/M1151_roof_window_rr.et"
      DeactivatePhysicsOnAtaching 1
@@ -86,7 +86,7 @@ GenericEntity {
     }
     RegisteringComponentSlotInfo Window_RF {
      PivotID "v_door_R01"
-     Offset 0.0693 0 0.0296
+     Offset -1.0979 -1.1238 -0.6772
      Enabled 1
      Prefab "{1F7AC17FD1FE0560}Prefabs/Vehicles/Wheeled/M998/Dst/M1151_roof_window_rf.et"
      DeactivatePhysicsOnAtaching 1
@@ -94,7 +94,7 @@ GenericEntity {
     }
     RegisteringComponentSlotInfo Window_LF {
      PivotID "v_door_L01"
-     Offset -0.0693 0 0.0296
+     Offset 1.0979 -1.1238 -0.6772
      Enabled 1
      Prefab "{EE71F92BA2A1308C}Prefabs/Vehicles/Wheeled/M998/Dst/M1151_roof_window_lf.et"
      DeactivatePhysicsOnAtaching 1
@@ -109,38 +109,6 @@ GenericEntity {
      RegisterControllers 1
      RegisterWeapons 1
      RegisterCompartments 1
-    }
-    RegisteringComponentSlotInfo Window_LF2 {
-     PivotID "v_door_L01"
-     Offset -0.1075 0 0.0296
-     Enabled 1
-     Prefab "{EE71F92BA2A1308C}Prefabs/Vehicles/Wheeled/M998/Dst/M1151_roof_window_lf.et"
-     DeactivatePhysicsOnAtaching 1
-     RegisterDamage 1
-    }
-    RegisteringComponentSlotInfo Window_LR2 {
-     PivotID "v_door_L02"
-     Offset -0.1075 0 -0.0931
-     Enabled 1
-     Prefab "{B8614E7BE4431862}Prefabs/Vehicles/Wheeled/M998/Dst/M1151_roof_window_lr.et"
-     DeactivatePhysicsOnAtaching 1
-     RegisterDamage 1
-    }
-    RegisteringComponentSlotInfo Window_RF2 {
-     PivotID "v_door_R01"
-     Offset 0.1075 0 0.0296
-     Enabled 1
-     Prefab "{1F7AC17FD1FE0560}Prefabs/Vehicles/Wheeled/M998/Dst/M1151_roof_window_rf.et"
-     DeactivatePhysicsOnAtaching 1
-     RegisterDamage 1
-    }
-    RegisteringComponentSlotInfo Window_RR2 {
-     PivotID "v_door_R02"
-     Offset 0.1075 0 -0.0931
-     Enabled 1
-     Prefab "{496A762F971C2D8E}Prefabs/Vehicles/Wheeled/M998/Dst/M1151_roof_window_rr.et"
-     DeactivatePhysicsOnAtaching 1
-     RegisterDamage 1
     }
    }
   }

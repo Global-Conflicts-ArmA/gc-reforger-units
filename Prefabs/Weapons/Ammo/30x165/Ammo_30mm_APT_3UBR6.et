@@ -1,0 +1,4 @@
+TracerProjectile : "{67FED88E5085F63F}Prefabs/Weapons/Core/Ammo_Bullet_Base.et" {
+ ID "476AE74AA8E99E2E"
+ ProjectileModel "{59A6D3C1A73FFF3E}Assets/Weapons/Ammo/Tracers/tracer_big_green.xob"
+}

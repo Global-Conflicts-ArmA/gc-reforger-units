@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{395A9F9DE7331FBF}Prefabs/Characters/Factions/OPFOR/GC_DRA/Variants/Character_DRA_PPSH_RPGA.et" {
+SCR_ChimeraCharacter : "{395A9F9DE7331FBF}Prefabs/Characters/Factions/OPFOR/GC_DRA/Early/Variants/Character_DRA_PPSH_RPGA.et" {
  ID "520EC961A090B1EE"
  components {
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
@@ -8,7 +8,7 @@ SCR_ChimeraCharacter : "{395A9F9DE7331FBF}Prefabs/Characters/Factions/OPFOR/GC_D
    }
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
-   WeaponTemplate "{E8A55396050E1762}Prefabs/Weapons/Launchers/RPG7/Launcher_RPG7_pgo7.et"
+   WeaponTemplate "{7A82FE978603F137}Prefabs/Weapons/Launchers/RPG7/Launcher_RPG7.et"
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {

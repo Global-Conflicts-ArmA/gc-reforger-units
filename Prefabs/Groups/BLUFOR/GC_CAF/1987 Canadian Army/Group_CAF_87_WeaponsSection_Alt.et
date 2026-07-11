@@ -1,0 +1,7 @@
+SCR_AIGroup : "{29C2538AD0A43778}Prefabs/Groups/BLUFOR/GC_CAF/Group_CAF_base.et" {
+ ID "0000000000000001"
+ m_aUnitPrefabSlots {
+  "{FC5B6E3946BB6F48}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1987/Character_CAF_1IC_CW.et" "{9F3DAB85411988E7}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1987/Character_CAF_MG_CW.et" "{ADA79788EDA36EFD}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1987/Character_CAF_MG2_CW.et" "{9F3DAB85411988E7}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1987/Character_CAF_MG_CW.et" "{ADA79788EDA36EFD}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1987/Character_CAF_MG2_CW.et"
+ }
+ m_sCustomNameSet "Weapons Section"
+}

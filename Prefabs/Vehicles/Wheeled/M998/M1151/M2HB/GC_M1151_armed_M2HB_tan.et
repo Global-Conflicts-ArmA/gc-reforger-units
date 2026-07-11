@@ -17,5 +17,10 @@ Vehicle : "{03708F7E58BB7A54}Prefabs/Vehicles/Wheeled/M998/M1151/M2HB/GC_M1151_a
     }
    }
   }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    Name "OD/TAN M1151A1 GPK+ M2HB"
+   }
+  }
  }
 }

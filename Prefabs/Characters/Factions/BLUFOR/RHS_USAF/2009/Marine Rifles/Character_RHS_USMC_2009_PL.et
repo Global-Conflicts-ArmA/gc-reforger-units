@@ -32,6 +32,9 @@ SCR_ChimeraCharacter : "{0E6D12E696498921}Prefabs/Characters/Factions/BLUFOR/RHS
     }
     LoadoutSlotInfo HandWear {
     }
+    LoadoutSlotInfo Ears {
+     Prefab "{E3F4AFB588BF9A39}Prefabs/Characters/HeadGear/Headsets/Headset_Bowman_Elite/Headset_Bowman_Elite_01.et"
+    }
    }
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {

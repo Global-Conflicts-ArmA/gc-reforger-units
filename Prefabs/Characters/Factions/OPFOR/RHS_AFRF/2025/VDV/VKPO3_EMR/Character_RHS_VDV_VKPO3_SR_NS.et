@@ -1,0 +1,8 @@
+SCR_ChimeraCharacter : "{E8B9158D174BF543}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2025/VDV/VKPO3_EMR/Character_RHS_VDV_VKPO3_SR.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{03937DFA41239DF9}Prefabs/Weapons/Rifles/AK74M/variants/Rifle_AK74M_b10m_b19n_npz_rail_perst_Eot_gp25.et"
+  }
+ }
+}

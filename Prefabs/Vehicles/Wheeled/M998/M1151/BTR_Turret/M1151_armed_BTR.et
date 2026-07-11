@@ -1,6 +1,11 @@
-Vehicle : "{03708F7E58BB7A55}Prefabs/Vehicles/Wheeled/M998/M1151_armed_M2HB.et" {
+Vehicle : "{03708F7E58BB7A53}Prefabs/Vehicles/Wheeled/M998/M1151_armed_M2HB.et" {
  ID "BBCBA43A9778AE21"
  components {
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    Name "OD M1151 BTR"
+   }
+  }
   SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
    MultiSlots {
     MultiSlotConfiguration "{66F2D69AD3FC9116}" {

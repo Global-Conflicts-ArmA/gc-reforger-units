@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{1DDEC7E6A5E8547B}Prefabs/Characters/Factions/OPFOR/GC_DRA/Character_DRA_BaseLoadout.et" {
+SCR_ChimeraCharacter : "{1DDEC7E6A5E8547B}Prefabs/Characters/Factions/OPFOR/GC_DRA/Early/Character_DRA_BaseLoadout.et" {
  ID "520EC961A090B1EE"
  components {
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
@@ -10,14 +10,14 @@ SCR_ChimeraCharacter : "{1DDEC7E6A5E8547B}Prefabs/Characters/Factions/OPFOR/GC_D
     m_bRandomizeDefaultVariant 0
     m_aVariants {
      SCR_EditableEntityVariant "{68FD52F740779915}" {
-      m_sVariantPrefab "{9CE92029BFC81851}Prefabs/Characters/Factions/OPFOR/GC_DRA/Variants/Character_DRA_AK47_RF.et"
+      m_sVariantPrefab "{9CE92029BFC81851}Prefabs/Characters/Factions/OPFOR/GC_DRA/Early/Variants/Character_DRA_AK47_RF.et"
      }
      SCR_EditableEntityVariant "{68FD52F740B43EFE}" {
-      m_sVariantPrefab "{B41B5559C796975B}Prefabs/Characters/Factions/OPFOR/GC_DRA/Variants/Character_DRA_AKM_RF_AT.et"
+      m_sVariantPrefab "{03F5AE0263BCDDDF}Prefabs/Characters/Factions/OPFOR/GC_DRA/Early/Variants/Character_DRA_AKM_RF.et"
       m_iRandomizerWeight 2
      }
      SCR_EditableEntityVariant "{68FD52F740FA13EF}" {
-      m_sVariantPrefab "{C8A70A9D7DF01977}Prefabs/Characters/Factions/OPFOR/GC_DRA/Variants/Character_DRA_PPSH_RF.et"
+      m_sVariantPrefab "{C8A70A9D7DF01977}Prefabs/Characters/Factions/OPFOR/GC_DRA/Early/Variants/Character_DRA_PPSH_RF.et"
      }
     }
    }
