@@ -1,0 +1,28 @@
+Turret : "{7DA6F53E1A5C62DD}Prefabs/WeapSystems/WeapSystems/UH1N_M134_gunner_left.et" {
+ ID "51ACD0965653D003"
+ components {
+  TurretComponent "{6048CB72E6432EAA}" {
+   ikTargets {
+    AnimationIKTargetInfo "{6066B35C7414ADED}" {
+     PositionInfo PointInfo "{6066B35CAF0AB9BE}" {
+      Offset -0.1743 0.0124 -0.6772
+     }
+    }
+    AnimationIKTargetInfo "{6066B35C7448F851}" {
+     PositionInfo PointInfo "{6066B35CAE71840F}" {
+      Offset 0.0044 0.0549 -0.6865
+     }
+    }
+   }
+   UseWeaponSights 1
+  }
+  WeaponSlotComponent "{51ACD09C6BFEEE6A}" {
+   WeaponType MachineGun
+   AttachType InventoryStorageSlot "{0AACE7470E421D82}" {
+    Offset 0.0083 -0.2124 -0.0215
+    DisablePhysicsInteraction 1
+   }
+   WeaponTemplate "{C7AE4D35F6131E92}Prefabs/Weapons/HeavyWeapons/HMG_M2HB_APIT.et"
+  }
+ }
+}

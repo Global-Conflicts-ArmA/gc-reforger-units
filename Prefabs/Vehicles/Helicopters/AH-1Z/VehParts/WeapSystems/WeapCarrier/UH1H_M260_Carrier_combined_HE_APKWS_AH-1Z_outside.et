@@ -1,0 +1,15 @@
+Turret : "{A072AF989E7F85E5}Prefabs/Vehicles/Helicopters/AH-1Z/VehParts/WeapSystems/WeapCarrier/UH1H_M260_Carrier_combined_HE_APKWS_AH-1Z_inside.et" {
+ ID "4B42E71698F5739C"
+ components {
+  WeaponSlotComponent "{51ACD09C6BFEEE6A}" {
+   AttachType InventoryStorageSlot "{0AACE7470E421D82}" {
+    Offset -2.0023 1.2647 0.023
+   }
+  }
+  WeaponSlotComponent "{61A6A09E71318336}" {
+   AttachType InventoryStorageSlot Pylon {
+    Offset 2.0099 1.2643 0.0207
+   }
+  }
+ }
+}

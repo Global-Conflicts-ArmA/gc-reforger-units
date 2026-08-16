@@ -1,0 +1,23 @@
+Turret : "{389C1A280166E063}Prefabs/Vehicles/Helicopters/UH1H/VehParts/Turret/AH1Z_Turret_Hellfires.et" {
+ ID "51ACD0965653D003"
+ components {
+  WCS_Armament_LoadoutComponent "{68A6140015714109}" {
+   m_ArmamentGroups {
+    WCS_ArmamentWeaponGroup "{68A61400018AF512}" {
+     weaponsInfo {
+      WCS_ArmamentWeaponInfo "{62A10D8ED7DA8AA6}" {
+      }
+      WCS_ArmamentWeaponInfo "{62A10D8EC4E5A8A2}" {
+      }
+      WCS_ArmamentWeaponInfo "{68A614007E1F70DE}" {
+       isEnabled 0
+      }
+      WCS_ArmamentWeaponInfo "{68A614009CD357F9}" {
+       isEnabled 0
+      }
+     }
+    }
+   }
+  }
+ }
+}
