@@ -1,0 +1,151 @@
+Tank : "{F43F9F04A97FC994}Prefabs/Vehicles/Tracked/M113/M113_base.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  SCR_BaseCompartmentManagerComponent "{20FB66C5DCB8DF72}" {
+   DoorInfoList {
+    CompartmentDoorInfo "{62A6539A819A32D1}" {
+     OpenDoorAction SCR_OpenVehicleDoorUserAction "{614ED57B5564CFCB}" {
+      ParentContextList {
+       "InteriorRampAction" "BackRampDoor"
+      }
+     }
+     CloseDoorAction SCR_CloseVehicleDoorUserAction "{614ED57B4C7C9E47}" {
+      ParentContextList {
+       "InteriorRampAction" "BackRampDoor"
+      }
+     }
+     EntryPositionInfo PointInfo "{50B8D5DD213DC00C}" {
+      PivotID "v_ramp_door"
+      Offset -0.65 -1.3946 -0.9155
+     }
+    }
+   }
+   CompartmentSlots {
+    CargoCompartmentSlot Passenger_L01 {
+     GetOutAction SCR_GetOutAction "{509D56665A8C6923}" {
+      ParentContextList {
+       "BackRampDoor"
+      }
+     }
+     JumpOutAction SCR_JumpOutAction "{5D0B1D46E1FC958A}" {
+      ParentContextList {
+       "BackRampDoor"
+      }
+     }
+    }
+    CargoCompartmentSlot Passenger_L02 {
+     CompartmentAction SCR_GetInUserAction "{5086CC2FCCAA457D}" {
+      ParentContextList {
+       "passenger_L02" "BackRamp"
+      }
+     }
+     GetOutAction SCR_GetOutAction "{509D56665A8C6923}" {
+      ParentContextList {
+       "BackRamp"
+      }
+     }
+     JumpOutAction SCR_JumpOutAction "{5D0B1D46E1FC958A}" {
+      ParentContextList {
+       "BackRamp"
+      }
+     }
+    }
+    CargoCompartmentSlot Passenger_L03 {
+     GetOutAction SCR_GetOutAction "{509D56665A8C6923}" {
+      ParentContextList {
+       "BackRampDoor"
+      }
+     }
+    }
+    CargoCompartmentSlot Passenger_L04 {
+     GetOutAction SCR_GetOutAction "{509D56665A8C6923}" {
+      ParentContextList {
+       "BackRamp"
+      }
+     }
+     JumpOutAction SCR_JumpOutAction "{5D0B1D46E1FC958A}" {
+      ParentContextList {
+       "BackRamp"
+      }
+     }
+    }
+    CargoCompartmentSlot Passenger_R01 {
+     GetOutAction SCR_GetOutAction "{509D56665A8C6923}" {
+      ParentContextList {
+       "BackRamp"
+      }
+     }
+     JumpOutAction SCR_JumpOutAction "{5D0B1D46E1FC958A}" {
+      ParentContextList {
+       "BackRampDoor"
+      }
+     }
+    }
+    CargoCompartmentSlot Passenger_R02 {
+     GetOutAction SCR_GetOutAction "{509D56665A8C6923}" {
+      ParentContextList {
+       "BackRamp"
+      }
+     }
+     JumpOutAction SCR_JumpOutAction "{5D0B1D46E1FC958A}" {
+      ParentContextList {
+       "BackRampDoor"
+      }
+     }
+    }
+    CargoCompartmentSlot Passenger_R03 {
+     GetOutAction SCR_GetOutAction "{509D56665A8C6923}" {
+      ParentContextList {
+       "BackRamp"
+      }
+     }
+     JumpOutAction SCR_JumpOutAction "{5D0B1D46E1FC958A}" {
+      ParentContextList {
+       "BackRamp"
+      }
+     }
+    }
+    CargoCompartmentSlot Passenger_R04 {
+     GetOutAction SCR_GetOutAction "{509D56665A8C6923}" {
+      ParentContextList {
+       "BackRampDoor"
+      }
+     }
+     JumpOutAction SCR_JumpOutAction "{5D0B1D46E1FC958A}" {
+      ParentContextList {
+       "BackRamp"
+      }
+     }
+    }
+    CargoCompartmentSlot Commander_01 {
+     GetOutAction SCR_GetOutAction "{509D56665A8C6923}" {
+      ParentContextList {
+       "BackRampDoor"
+      }
+     }
+     JumpOutAction SCR_JumpOutAction "{5D0B1D46E1FC958A}" {
+      ParentContextList {
+       "BackRampDoor"
+      }
+     }
+    }
+   }
+  }
+  ActionsManagerComponent "{C97BE5489221AE18}" {
+   ActionContexts {
+    UserActionContext "{5E7CA2EFD0113A0C}" {
+     Position PointInfo "{5E7CA2EFD7AF07C2}" {
+      PivotID "v_ramp_door"
+      Offset 0.8557 0.3398 0.0026
+     }
+    }
+    UserActionContext "{5E843B44CF21441B}" {
+     Position PointInfo "{5E843B44D205D07D}" {
+      PivotID "driver_idle"
+      Offset -0.4111 0.6356 0.015
+     }
+    }
+   }
+  }
+ }
+}
