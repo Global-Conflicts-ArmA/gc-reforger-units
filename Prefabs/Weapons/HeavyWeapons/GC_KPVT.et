@@ -1,0 +1,126 @@
+GenericEntity : "{F54F6C453A8CB478}Prefabs/Weapons/Core/MachineGun_Base.et" {
+ ID "0000000000000001"
+ components {
+  WeaponSoundComponent "{5A8685198A9AEEDD}" {
+   Filenames {
+    "{66E74C5A23D6C8A0}Sounds/Weapons/HeavyWeapons/KPVT/Weapons_HeavyWeapons_KPVT_Shot.acp" "{8955A571EC4758FB}Sounds/Weapons/HeavyWeapons/KPVT/Weapons_HeavyWeapons_KPV_Handling.acp"
+   }
+   IncludeInactive 1
+  }
+  MeshObject "{CFBAA4B701F95D69}" {
+   Object "{C27070D22369257D}Assets/Weapons/HeavyWeapons/KPVT/KPVT_body.xob"
+   PixelSizeScale 10
+  }
+  RigidBody "{6961724528ABB638}" {
+   Mass 50
+   SimState Collision
+   ModelGeometry 1
+  }
+  SCR_WeaponAttachmentsStorageComponent "{51F080D5CE45A1A2}" {
+   Attributes SCR_ItemAttributeCollection "{51F080D5C64F12C5}" {
+    ItemDisplayName WeaponUIInfo "{5222CB07E1D123E9}" {
+     Name "#AR-Weapon_KPVT_Name"
+     Description "#AR-Weapon_KPVT_Description"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{6961724528ABB60B}" {
+     Weight 52.5
+     SizeSetupStrategy Volume
+     ItemVolume 12000
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{5534BB9B9A3E369E}" {
+      CameraPreset Left
+      CameraDistanceToItem 1.9
+     }
+    }
+   }
+  }
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{6961724528ABB602}" {
+     AttachmentSlot InventoryStorageSlot optics {
+      PivotID "slot_optics"
+      ChildPivotID "snap_weapon"
+      Enabled 0
+     }
+    }
+    SightsComponent "{BB23A637957CFFF8}" {
+     SightsPosition PointInfo "{BB23A63796688E69}" {
+      PivotID "eye"
+     }
+    }
+    MuzzleComponent "{50F64C4591CD7AA6}" {
+     components {
+      CaseEjectingEffectComponent "{5122AAD190FCA21D}" {
+       ParticleEffect "{6C91B7E8EF31E8AE}Particles/Weapon/Smoke_KPVT.ptc"
+       EffectPosition EntitySlotInfo "{513A938439231378}" {
+        PivotID "barrel_muzzle"
+        Angles 0 0 0
+       }
+       HasSound 0
+      }
+      SCR_MuzzleEffectComponent "{C9B3271BB22CDB68}" {
+       ParticleEffect "{254588526C5E861A}Particles/Weapon/Muzzle_KPVT.ptc"
+       EffectPosition EntitySlotInfo "{C9B3271BB85B5D32}" {
+       }
+      }
+     }
+     MagazineWell MagazineWellKPVT "{6961724528ABB61B}" {
+     }
+     DispersionDiameter 0.4
+     DispersionRange 180
+     WeaponAimModifiers {
+      RecoilWeaponAimModifier "{6961724528ABB619}" {
+       LinearData RecoilData "{6961724528ABB616}" {
+        "Curve X" {
+         0 0.5 1 0.5
+        }
+        "Curve Y" {
+         0 0.5 0.032 0.55 0.045 0.75 0.065 0.7 0.071 0.65 0.095 0.5 0.25 0.45 0.45 0.52 0.7 0.495 1 0.5
+        }
+        "Curve Z" {
+         0 0.5 0.032 0.65 0.045 0.95 0.065 0.95 0.071 0.85 0.095 0.7 0.25 0.35 0.45 0.55 0.7 0.485 1 0.5
+        }
+        "Curve Magnitudes" 1 1 1
+        "Curve Mins" -0.001 -0.006 -0.022
+        "Curve Maxs" 0 -0.005 -0.018
+       }
+      }
+     }
+     UIInfo MuzzleUIInfo "{2FBBA72C906C627E}" {
+      m_bShowCaliber 1
+      m_sCaliber "#AR-AmmunitionID_145x114mm"
+     }
+     ReloadDuration 15
+     AllowWeaponDeployment 0
+     MagazinePosition InventoryStorageSlot "{B80A64F4C834E9CB}" {
+      PivotID ""
+      Offset 0.4532 -0.2938 0.341
+      Angles 0 -90.1583 0
+     }
+     MagazineTemplate "{1B0DE938DF25607F}Prefabs/Weapons/Magazines/Box_145x114_KPVT_500rnd_4API_1APIT.et"
+    }
+    WeaponAnimationComponent "{60B4EA76EB15F6E0}" {
+     Enabled 0
+    }
+   }
+   UIInfo WeaponUIInfo "{CC3BA6A2C42F09F4}" {
+    Name "#AR-Weapon_KPVT_Name"
+    Description "#AR-Weapon_KPVT_Description"
+    Icon ""
+    m_bShowWeaponName 1
+   }
+   WeaponSlotType "hmg"
+  }
+  WeaponGamepadEffectsManagerComponent "{61A2E5C3F4458F86}" {
+   "Default ADS Trigger effect" GamepadTriggerEffect "{61B129618F212411}" : "{0DE3E1891C66DCEB}Prefabs/Weapons/Core/Configs/TriggerEffects/ADS/TriggerEffect_ADSMedium.conf" {
+   }
+   "Default Firing Trigger effect" GamepadTriggerEffect "{61D30BF7F81F8C61}" : "{5A67879DEFFDBD73}Prefabs/Weapons/Core/Configs/TriggerEffects/Fire/TriggerEffect_FireHMG.conf" {
+   }
+  }
+  RplComponent "{E052E71DCB007AF2}" {
+   "Parent Node From Parent Entity" 1
+  }
+ }
+ coords -1.588 10.238 1.613
+}
