@@ -1,3 +1,11 @@
 SCR_ChimeraCharacter : "{0E348801BCB1DE44}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Character_GC_TKA_Mortar_Leader.et" {
  ID "520EC961A090B1EE"
+ components {
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{655D4810A052E04D}" {
+    }
+   }
+  }
+ }
 }

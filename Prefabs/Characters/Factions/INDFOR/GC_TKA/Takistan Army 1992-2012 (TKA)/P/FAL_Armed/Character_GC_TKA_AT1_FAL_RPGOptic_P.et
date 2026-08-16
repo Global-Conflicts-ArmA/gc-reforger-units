@@ -1,0 +1,8 @@
+SCR_ChimeraCharacter : "{48C1A6980C98B88E}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/P/FAL_Armed/Character_GC_TKA_AT1_FAL_P.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+   WeaponTemplate "{E8A55396050E1762}Prefabs/Weapons/Launchers/RPG7/Launcher_RPG7_pgo7.et"
+  }
+ }
+}

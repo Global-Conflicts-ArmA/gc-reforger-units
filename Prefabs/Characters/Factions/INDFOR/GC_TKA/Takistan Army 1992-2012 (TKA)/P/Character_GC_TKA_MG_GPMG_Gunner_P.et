@@ -1,0 +1,17 @@
+SCR_ChimeraCharacter : "{B3CA1FC3DFD9328B}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/P/Character_GC_TKA_MG_PKM_Gunner_P.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{78975C5D9C1AFA4C}Prefabs/Weapons/MachineGuns/GPMG/MG_GPMG_L7A2.et"
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{655D480C2600110F}" {
+     PrefabsToSpawn {
+      "{D22DF40D07DA4615}Prefabs/Weapons/Magazines/Box_762x51_GPMG_100rnd_4Ball_1Tracer.et" "{D22DF40D07DA4615}Prefabs/Weapons/Magazines/Box_762x51_GPMG_100rnd_4Ball_1Tracer.et" "{D22DF40D07DA4615}Prefabs/Weapons/Magazines/Box_762x51_GPMG_100rnd_4Ball_1Tracer.et"
+     }
+    }
+   }
+  }
+ }
+}

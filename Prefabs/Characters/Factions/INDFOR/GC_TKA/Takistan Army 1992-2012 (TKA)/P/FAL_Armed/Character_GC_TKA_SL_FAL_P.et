@@ -1,0 +1,27 @@
+SCR_ChimeraCharacter : "{8B7DCC6F99CD3638}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/P/Character_GC_TKA_SL_P.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{C5FE01160007C6B4}Prefabs/Weapons/Rifles/L1A1_SLR/Rifle_L1A1_SLR_Laminate.et"
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{655D480FF6D8A74C}" {
+     PrefabsToSpawn {
+      "{C2C08518F551C205}Prefabs/Weapons/Magazines/Magazine_762x51_FAL_Commonwealth_20rnd_BattleMix.et" "{C2C08518F551C205}Prefabs/Weapons/Magazines/Magazine_762x51_FAL_Commonwealth_20rnd_BattleMix.et" "{C2C08518F551C205}Prefabs/Weapons/Magazines/Magazine_762x51_FAL_Commonwealth_20rnd_BattleMix.et" "{C2C08518F551C205}Prefabs/Weapons/Magazines/Magazine_762x51_FAL_Commonwealth_20rnd_BattleMix.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+     }
+    }
+    ItemsInitConfigurationItem "{655D480E1DD25BA3}" {
+     PrefabsToSpawn {
+      "{C2C08518F551C205}Prefabs/Weapons/Magazines/Magazine_762x51_FAL_Commonwealth_20rnd_BattleMix.et" "{C2C08518F551C205}Prefabs/Weapons/Magazines/Magazine_762x51_FAL_Commonwealth_20rnd_BattleMix.et" "{C2C08518F551C205}Prefabs/Weapons/Magazines/Magazine_762x51_FAL_Commonwealth_20rnd_BattleMix.et"
+     }
+    }
+    ItemsInitConfigurationItem "{655D480E16FC6530}" {
+     PrefabsToSpawn {
+      "{327103CB218E7CA1}Prefabs/Weapons/Flares/Flare_RSP30_white.et" "{327103CB218E7CA1}Prefabs/Weapons/Flares/Flare_RSP30_white.et" "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et" "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et" "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+     }
+    }
+   }
+  }
+ }
+}
