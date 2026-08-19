@@ -1,0 +1,42 @@
+SCR_ChimeraCharacter : "{E4CB968B7936E2C7}Prefabs/Characters/Factions/INDFOR/GC_TKA/New Takistan Army 2012-Present (NTA)/Character_GC_NTA_BaseLoadout.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Drone Operator"
+    m_Image ""
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
+   AttachType InventoryStorageSlot "{9113A68B4D97E2E6}" {
+    Prefab "{1353C6EAD1DCFE43}Prefabs/Weapons/Handguns/M9/Handgun_M9.et"
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{AC9EAD5ABE1C290E}Prefabs/Characters/HeadGear/Balaclavas/Balaclava_v1/Balaclava_v1_RHS.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{5C5C6EE05EE2FF1A}Prefabs/Items/Equipment/Backpacks/Backpack_ALICE_Medium_assembled.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6A1D052A33EFE759}" {
+     TargetStorage "Jacket/Jacket_Cuba_BDU.et"
+     PrefabsToSpawn {
+      "{9C05543A503DB80E}Prefabs/Weapons/Magazines/Magazine_9x19_M9_15rnd_Ball.et" "{9C05543A503DB80E}Prefabs/Weapons/Magazines/Magazine_9x19_M9_15rnd_Ball.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6A1D052A6BBA724B}" {
+     TargetStorage "Back/Backpack_ALICE_Medium_assembled.et"
+     PrefabsToSpawn {
+      "{E2434ED1318D8476}Prefabs/Characters/Items/DroneController.et" "{8951045BFE8BC8E4}Prefabs/Characters/HeadGear/FPV_Goggles.et"
+     }
+    }
+   }
+  }
+ }
+}

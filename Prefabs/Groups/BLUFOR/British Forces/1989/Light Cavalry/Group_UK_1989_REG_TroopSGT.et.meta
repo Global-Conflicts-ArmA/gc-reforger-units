@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{5D6393E4B1C8CACD}Prefabs/Groups/BLUFOR/British Forces/1989/Light Cavalry/Group_UK_1989_REG_TroopSGT.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

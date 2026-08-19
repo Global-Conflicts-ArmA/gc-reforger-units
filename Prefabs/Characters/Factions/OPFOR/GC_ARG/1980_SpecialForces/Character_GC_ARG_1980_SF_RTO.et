@@ -58,7 +58,7 @@ SCR_ChimeraCharacter : "{0E74C9F36755655C}Prefabs/Characters/Factions/BLUFOR/UK_
      Prefab "{4C6029AB8BF5C044}Prefabs/Characters/Footwear/CombatBoots_Soviet_01_Dirty.et"
     }
     LoadoutSlotInfo Back {
-     Prefab "{286299511EB7511E}Prefabs/Items/Equipment/Radios/Radio_ARG_R107M.et"
+     Prefab "{54C68E438DD34265}Prefabs/Items/Equipment/Radios/Radio_ARG_R107M.et"
     }
    }
   }

@@ -1,0 +1,15 @@
+GameEntity : "{71EDA484BDFF1E46}Prefabs/Characters/HeadGear/Helmets/Helmet_Virtus/Helmet_Virtus_01.et" {
+ ID "50D485E1435D6C72"
+ components {
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    LoadoutSlotInfo Scrim : MeshCover {
+     Prefab "{57D3F3B6DAE5A663}Prefabs/Characters/HeadGear/Helmets/Helmet_Virtus/Covers/Helmet_Virtus_Scrim_Strips_01.et"
+    }
+    LoadoutSlotInfo Cover : MeshCover {
+     Prefab "{03A5F4E511AF5083}Prefabs/Characters/HeadGear/Helmets/Helmet_Virtus/Covers/Helmet_Virtus_Cover_01.et"
+    }
+   }
+  }
+ }
+}

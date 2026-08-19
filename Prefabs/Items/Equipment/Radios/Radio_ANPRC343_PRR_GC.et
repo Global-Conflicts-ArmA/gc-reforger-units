@@ -1,0 +1,8 @@
+GenericEntity : "{43ACEE27F8F3EE97}Prefabs/Items/Equipment/Radios/ANPRC343/Radio_ANPRC343_PRR_Base.et" {
+ ID "508AB2013EEE1E00"
+ components {
+  SCR_RadioComponent "{5A30BAE7673C63D4}" {
+   m_bTuneToSquadFrequency 1
+  }
+ }
+}

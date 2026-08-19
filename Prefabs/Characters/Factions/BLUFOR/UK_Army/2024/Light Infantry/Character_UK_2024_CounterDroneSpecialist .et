@@ -17,10 +17,10 @@ SCR_ChimeraCharacter : "{BE42B6E6DE18536B}Prefabs/Characters/Factions/BLUFOR/UK_
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {
-     Prefab "{56987BA51A14FBE1}Prefabs/Characters/HeadGear/Helmets/Helmet_Virtus/Helmet_Virtus_02_Scrim_Strips_1.et"
+     Prefab "{864EDE97C026B407}Prefabs/Characters/HeadGear/Helmets/Helmet_Virtus/Helmet_Virtus_01_scrimmed.et"
     }
     LoadoutSlotInfo ArmoredVest {
-     Prefab "{E8D5B9D3C195E74D}Prefabs/Characters/Vests/Body_Armour/Vest_Virtus_STV/Variants/Vest_Virtus_STV_Rifleman_01.et"
+     Prefab "{7AD445F5ACAAC7F1}Prefabs/Characters/Vests/Body_Armour/Vest_Virtus_STV/Variants/Vest_Virtus_STV_Rifleman_01.et"
     }
     LoadoutSlotInfo Back {
      Prefab "{4977C9711C8F1943}Prefabs/Items/Equipment/Backpacks/JammerBag.et"
@@ -29,7 +29,9 @@ SCR_ChimeraCharacter : "{BE42B6E6DE18536B}Prefabs/Characters/Factions/BLUFOR/UK_
      Prefab "{6850162D1EA35BC8}Prefabs/Characters/Vests/Belts/Webbing/Virtus_H_Rig/Variants/Webbing_Virtus_H_Rig_Rifleman_01.et"
     }
     LoadoutSlotInfo HandWear {
-     Prefab "{2295354C283A1FBF}Prefabs/Characters/Handwear/Gloves_511_Competition/Gloves_511_Comp_Tan.et"
+     Prefab "{1D6662908A910492}Prefabs/Characters/Handwear/Gloves_511_Competition/Gloves_511_Competition_Tan.et"
+    }
+    LoadoutSlotInfo Extra {
     }
    }
   }
@@ -54,12 +56,6 @@ SCR_ChimeraCharacter : "{BE42B6E6DE18536B}Prefabs/Characters/Factions/BLUFOR/UK_
       "{D702D65BA67771AA}Prefabs/Weapons/Magazines/EMAG_BLK_MP_556x45_Ball.et" "{D702D65BA67771AA}Prefabs/Weapons/Magazines/EMAG_BLK_MP_556x45_Ball.et"
      }
     }
-    ItemsInitConfigurationItem "{68F7449B95E4EE9D}" {
-     TargetStorage "Vest/Webbing_Virtus_H_Rig_Rifleman_01.et/MagPouch3/Pouch_Virtus_Double_Mag_2_MTP.et"
-     PrefabsToSpawn {
-      "{D702D65BA67771AA}Prefabs/Weapons/Magazines/EMAG_BLK_MP_556x45_Ball.et"
-     }
-    }
     ItemsInitConfigurationItem "{68F7449B95E4EE9C}" {
      TargetStorage "Vest/Webbing_Virtus_H_Rig_Rifleman_01.et/MagPouch4/Pouch_Virtus_Double_Mag_1_MTP.et"
      PrefabsToSpawn {
@@ -75,11 +71,8 @@ SCR_ChimeraCharacter : "{BE42B6E6DE18536B}Prefabs/Characters/Factions/BLUFOR/UK_
     ItemsInitConfigurationItem "{68F7449B95E4EE9E}" {
      TargetStorage "Vest/Webbing_Virtus_H_Rig_Rifleman_01.et/Utility2/Pouch_Virtus_Utility_2_MTP.et"
      PrefabsToSpawn {
-      "{B7F7D78B4314A5C8}Prefabs/Weapons/Grenades/Smoke/Smoke_L83A2.et" "{B0DFDF7AAA9C5D39}Prefabs/Weapons/Magazines/BC_Shell_12ga_Buckshot.et" "{B0DFDF7AAA9C5D39}Prefabs/Weapons/Magazines/BC_Shell_12ga_Buckshot.et" "{B0DFDF7AAA9C5D39}Prefabs/Weapons/Magazines/BC_Shell_12ga_Buckshot.et" "{B0DFDF7AAA9C5D39}Prefabs/Weapons/Magazines/BC_Shell_12ga_Buckshot.et" "{B0DFDF7AAA9C5D39}Prefabs/Weapons/Magazines/BC_Shell_12ga_Buckshot.et" "{B0DFDF7AAA9C5D39}Prefabs/Weapons/Magazines/BC_Shell_12ga_Buckshot.et" "{B0DFDF7AAA9C5D39}Prefabs/Weapons/Magazines/BC_Shell_12ga_Buckshot.et" "{B0DFDF7AAA9C5D39}Prefabs/Weapons/Magazines/BC_Shell_12ga_Buckshot.et" "{B0DFDF7AAA9C5D39}Prefabs/Weapons/Magazines/BC_Shell_12ga_Buckshot.et" "{B0DFDF7AAA9C5D39}Prefabs/Weapons/Magazines/BC_Shell_12ga_Buckshot.et" "{B0DFDF7AAA9C5D39}Prefabs/Weapons/Magazines/BC_Shell_12ga_Buckshot.et"
+      "{B0DFDF7AAA9C5D39}Prefabs/Weapons/Magazines/BC_Shell_12ga_Buckshot.et" "{B0DFDF7AAA9C5D39}Prefabs/Weapons/Magazines/BC_Shell_12ga_Buckshot.et" "{B0DFDF7AAA9C5D39}Prefabs/Weapons/Magazines/BC_Shell_12ga_Buckshot.et" "{B0DFDF7AAA9C5D39}Prefabs/Weapons/Magazines/BC_Shell_12ga_Buckshot.et" "{B0DFDF7AAA9C5D39}Prefabs/Weapons/Magazines/BC_Shell_12ga_Buckshot.et" "{B0DFDF7AAA9C5D39}Prefabs/Weapons/Magazines/BC_Shell_12ga_Buckshot.et" "{B0DFDF7AAA9C5D39}Prefabs/Weapons/Magazines/BC_Shell_12ga_Buckshot.et" "{B0DFDF7AAA9C5D39}Prefabs/Weapons/Magazines/BC_Shell_12ga_Buckshot.et" "{B0DFDF7AAA9C5D39}Prefabs/Weapons/Magazines/BC_Shell_12ga_Buckshot.et" "{B0DFDF7AAA9C5D39}Prefabs/Weapons/Magazines/BC_Shell_12ga_Buckshot.et" "{B0DFDF7AAA9C5D39}Prefabs/Weapons/Magazines/BC_Shell_12ga_Buckshot.et"
      }
-    }
-    ItemsInitConfigurationItem "{68F7449B95E4EE91}" {
-     TargetStorage "Back/Backpack_Wartech_BB102_MC.et"
     }
    }
   }

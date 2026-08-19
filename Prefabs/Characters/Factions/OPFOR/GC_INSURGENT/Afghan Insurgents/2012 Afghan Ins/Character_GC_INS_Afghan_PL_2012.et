@@ -12,7 +12,7 @@ SCR_ChimeraCharacter : "{EC724922472CA4FE}Prefabs/Characters/Factions/OPFOR/GC_I
    InitialInventoryItems {
     ItemsInitConfigurationItem "{6554AEF73DCF4897}" {
      PrefabsToSpawn + {
-      "{19D74C99726B69F3}Prefabs/Items/Equipment/Radios/Separatist/Radio_R148_Seperatist.et"
+      "{E1A5D4B878AA8980}Prefabs/Items/Equipment/Radios/Separatist/Radio_R148_Seperatist.et"
      }
     }
    }

@@ -1,0 +1,11 @@
+SCR_AIGroup : "{6521AB6151C0A7C8}Prefabs/Groups/BLUFOR/British Forces/1989/Group_UK_1989_Regulars_Base.et" {
+ ID "0000000000000001"
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "File"
+  }
+ }
+ m_aUnitPrefabSlots {
+  "{617E73B731361F83}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/Light Cavalry/Character_UK_1989_Regulars_TroopCommander.et" "{0DD7CEE30F055CD4}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/Light Cavalry/Character_UK_1989_Regulars_Gunner.et" "{EAFC690327F25579}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/Light Cavalry/Character_UK_1989_Regulars_Driver.et"
+ }
+}

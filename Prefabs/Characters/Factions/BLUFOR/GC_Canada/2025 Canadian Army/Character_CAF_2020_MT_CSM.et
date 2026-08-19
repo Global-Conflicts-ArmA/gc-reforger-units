@@ -74,7 +74,7 @@ SCR_ChimeraCharacter : "{92C31261310A2D90}Prefabs/Characters/Factions/BLUFOR/GC_
     ItemsInitConfigurationItem "{6893299715478C8D}" {
      TargetStorage "Vest/Vest_PCGen_III_rifleman_shawplacard2.et/radio/Pouch_152_Radio.et"
      PrefabsToSpawn {
-      "{8CA9C0573BD0B19F}Prefabs/Items/Equipment/Radios/CAF/Radio_ANPRC152_CAF.et"
+      "{013A731E59E8FB61}Prefabs/Items/Equipment/Radios/CAF/Radio_ANPRC152_CAF.et"
      }
     }
    }

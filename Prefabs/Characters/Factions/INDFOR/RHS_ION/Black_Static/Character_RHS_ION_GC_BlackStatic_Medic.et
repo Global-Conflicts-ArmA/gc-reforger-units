@@ -52,7 +52,7 @@ SCR_ChimeraCharacter : "{8CCAB0FA43055A87}Prefabs/Characters/Factions/INDFOR/RHS
     ItemsInitConfigurationItem "{690CF5421F7D5C7C}" {
      TargetStorage "Vest/Vest_Shaw_ARC_preset_placard_Medic.et/flex1/Pouch_AVS_MBITR_Radio_MCBlk.et"
      PrefabsToSpawn {
-      "{389ACBD8C4991F75}Prefabs/Items/Equipment/Radios/US/Squad Radio/Radio_ANPRC343_PRR.et"
+      "{47E3B8A72FB9F477}Prefabs/Items/Equipment/Radios/US/Squad Radio/Radio_ANPRC343_PRR.et"
      }
     }
     ItemsInitConfigurationItem "{690CF5427A2F25F6}" {

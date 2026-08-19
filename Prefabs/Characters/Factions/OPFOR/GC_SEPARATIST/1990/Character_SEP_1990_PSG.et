@@ -52,7 +52,7 @@ SCR_ChimeraCharacter : "{290CC7354CC97778}Prefabs/Characters/Factions/OPFOR/GC_S
      TargetStorage "Pants/Pants_Cargo_2.et"
      TargetPurpose 1
      PrefabsToSpawn {
-      "{19D74C99726B69F3}Prefabs/Items/Equipment/Radios/Radio_R148_Seperatist.et"
+      "{E1A5D4B878AA8980}Prefabs/Items/Equipment/Radios/Radio_R148_Seperatist.et"
      }
     }
     ItemsInitConfigurationItem "{6642965313B705B2}" {

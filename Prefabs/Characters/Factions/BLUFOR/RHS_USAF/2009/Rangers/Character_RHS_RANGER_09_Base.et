@@ -59,7 +59,7 @@ SCR_ChimeraCharacter : "{FDAEA6C9F2673B02}Prefabs/Characters/Factions/BLUFOR/RHS
     ItemsInitConfigurationItem "{61E88418254009AC}" {
      TargetStorage "Pants/ACU_pants_UCP.et"
      PrefabsToSpawn {
-      "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{389ACBD8C4991F75}Prefabs/Items/Equipment/Radios/US/Squad Radio/Radio_ANPRC343_PRR.et"
+      "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{47E3B8A72FB9F477}Prefabs/Items/Equipment/Radios/US/Squad Radio/Radio_ANPRC343_PRR.et"
      }
     }
    }

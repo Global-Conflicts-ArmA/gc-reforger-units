@@ -23,7 +23,7 @@ SCR_ChimeraCharacter : "{B304BA84C088D8AE}Prefabs/Characters/Factions/OPFOR/GC_I
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Back {
-     Prefab "{DD3E6FD4C1F8C5F3}Prefabs/Items/Equipment/Radios/IRAQ/Radio_R107M_IRAQ.et"
+     Prefab "{54C68E438DD34265}Prefabs/Items/Equipment/Radios/IRAQ/Radio_R107M_IRAQ.et"
     }
     LoadoutSlotInfo Vest {
      Prefab "{6670741861B607F0}Prefabs/Characters/Vests/Vest_ChestRigSmal/Vest_ChestRigSmall_1.et"

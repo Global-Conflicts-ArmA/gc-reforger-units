@@ -1,0 +1,24 @@
+GenericEntity : "{ADCDC1794A2AF484}Prefabs/Items/Equipment/Radios/RU/GC_Radio_R147_Transceiver.et" {
+ ID "508AB2013EEE1E00"
+ components {
+  BaseRadioComponent "{5A30BAE7673C63CA}" {
+   Transceivers {
+    RadioTransceiver "{69FA1853F8CF61E0}" {
+     "Transmitting Range" 1
+    }
+   }
+  }
+  InventoryItemComponent "{5222EB4D0C73006B}" {
+   Attributes SCR_ItemAttributeCollection "{5222EB4D0A2B466B}" {
+    ItemDisplayName UIInfo "{5222EB4D07D865FA}" {
+     Name "R-147P Receiver"
+     Description "R-147P radio receiver for platoon communications. Cannot transmit."
+    }
+    ItemPhysAttributes ItemPhysicalAttributes PhysicalAttributes {
+     Weight 1
+     ItemVolume 150
+    }
+   }
+  }
+ }
+}

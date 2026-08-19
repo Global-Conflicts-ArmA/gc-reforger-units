@@ -62,9 +62,6 @@ GenericEntity : "{6993C08FA6BAA2FE}Prefabs/Weapons/Rifles/AR15/Rifle_Pronto_AR15
      }
     }
     AttachmentSlotComponent "{66F51D4144D969AC}" {
-     AttachmentSlot InventoryStorageSlot Stock {
-      Prefab "{80AF8CF75F86BC30}Prefabs/Weapons/Attachments/Stocks/Diemaco_Stock/Pronto_Stock_Diemaco_01_BLK.et"
-     }
     }
     MuzzleComponent "{CA6BE4D6B867541F}" {
      components {

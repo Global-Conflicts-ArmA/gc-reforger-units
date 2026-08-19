@@ -31,7 +31,7 @@ SCR_ChimeraCharacter : "{92C31261310A2D90}Prefabs/Characters/Factions/BLUFOR/GC_
      Prefab "{1300A5F6CA51B206}Prefabs/Characters/Vests/Vest_PCGen_III/Vest_PCGen_III.et"
     }
     LoadoutSlotInfo Back {
-     Prefab "{4881B49D8932AC01}Prefabs/Items/Equipment/Radios/CAF/Kombat_Radio_Pack_CB_CAF.et"
+     Prefab "{2F6209F3160513B0}Prefabs/Items/Equipment/Radios/CAF/Kombat_Radio_Pack_CB_CAF.et"
     }
     LoadoutSlotInfo Vest {
      Prefab "{3F09E61DCB860B81}Prefabs/Characters/Vests/Vest_PCGen_III/Variants/Vest_PCGen_III_rifleman_filbe.et"

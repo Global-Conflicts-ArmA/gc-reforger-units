@@ -23,7 +23,7 @@ SCR_ChimeraCharacter : "{B66846EB4BB8DDF4}Prefabs/Characters/Factions/BLUFOR/US_
     ItemsInitConfigurationItem "{694AF8E8940E8AF2}" {
      TargetStorage "Jacket/Jacket_US_BDU.et"
      PrefabsToSpawn {
-      "{389ACBD8C4991F75}Prefabs/Items/Equipment/Radios/US/Squad Radio/Radio_ANPRC343_PRR.et"
+      "{47E3B8A72FB9F477}Prefabs/Items/Equipment/Radios/US/Squad Radio/Radio_ANPRC343_PRR.et"
      }
     }
    }

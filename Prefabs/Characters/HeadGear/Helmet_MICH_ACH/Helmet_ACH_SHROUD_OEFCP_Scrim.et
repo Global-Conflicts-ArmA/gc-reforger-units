@@ -8,7 +8,7 @@ GameEntity : "{8CDAA637B6937C89}Prefabs/Characters/HeadGear/Helmet_MICH_ACH/Helm
      Angles 0 2.171 0
      MergePhysics 1
      Enabled 1
-     Prefab "{465BD8262FAEA491}Prefabs/Characters/HeadGear/Helmets/Helmet_Virtus/Virtus_Scrim_Strips_1_MTP.et"
+     Prefab "{57D3F3B6DAE5A663}Prefabs/Characters/HeadGear/Helmets/Helmet_Virtus/Covers/Helmet_Virtus_Scrim_Strips_01.et"
      InheritParentSkeleton 1
     }
    }

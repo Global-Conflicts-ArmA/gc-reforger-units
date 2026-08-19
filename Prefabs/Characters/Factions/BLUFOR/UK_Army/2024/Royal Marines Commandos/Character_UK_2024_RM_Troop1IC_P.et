@@ -4,7 +4,14 @@ SCR_ChimeraCharacter : "{94DB2F66DDCD8783}Prefabs/Characters/Factions/BLUFOR/UK_
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
     Name "Troop Commander"
+    Icon "{3A41A8F543EF520B}UI/Textures/EditableEntities/Characters/BritishRanks/EditableEntity_Character_British_LT.edds"
    }
+  }
+  CharacterGrenadeSlotComponent "{520EA1D2F659CE6E}" {
+   WeaponTemplate "{848E4E853151A37A}Prefabs/Weapons/Grenades/L109/Grenade_L109A2_01.et"
+  }
+  CharacterGrenadeSlotComponent "{5A6CDA0CCF43068E}" {
+   WeaponTemplate "{09BCBA657FCC1C71}Prefabs/Weapons/Grenades/L132/Smoke_L132A2.et"
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
    WeaponTemplate "{E284DC8401AE8648}Prefabs/Weapons/Rifles/KAC KS/KAC_KS1_L403A1_FDE.et"
@@ -23,51 +30,69 @@ SCR_ChimeraCharacter : "{94DB2F66DDCD8783}Prefabs/Characters/Factions/BLUFOR/UK_
      Prefab "{6170F376E4C8D3B9}Prefabs/Characters/Uniforms/Crye/Crye_G4/Crye_G4_Combat_Pants_MC.et"
     }
     LoadoutSlotInfo Boots {
-     Prefab "{02585ED96CFE147F}Prefabs/Characters/Footwear/Saloman_XUltra/Boots_Salomon_XUltra_Black.et"
     }
     LoadoutSlotInfo Back {
-     Prefab "{A50C7282CFC3B562}Prefabs/Characters/Backpacks/Panels/Crye_ZipOn_Pack/Crye_ZipOn_Pack_MC.et"
+     Prefab "{5D934E927F723048}Prefabs/Characters/Backpacks/Panels/TYR_TT_Huron/TYR_TT_Huron_MC.et"
     }
     LoadoutSlotInfo Vest {
      Prefab "{D63296EBAC577F98}Prefabs/Characters/Vests/Belts/Webbing/JayJays_Gen4/Variants/Webbing_JayJays_Gen4_Commander_02.et"
     }
     LoadoutSlotInfo HandWear {
-     Prefab "{0D9D0C18303F6D76}Prefabs/Characters/Handwear/Gloves_511_Competition/Gloves_511_Comp_Black.et"
+     Prefab "{0D9D0C18303F6D76}Prefabs/Characters/Handwear/Gloves_511_Competition/Gloves_511_Competition_Base.et"
     }
     LoadoutSlotInfo Head {
+    }
+    LoadoutSlotInfo Eyes {
     }
     LoadoutSlotInfo Ears {
     }
     LoadoutSlotInfo Face {
-     Prefab "{75F3ED41A7F79D93}Prefabs/Characters/HeadGear/Masks/Masks_Keela_Snood/Masks_Keela_Snood_MC.et"
     }
    }
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
+    ItemsInitConfigurationItem "{62A74B5BE373CB7E}" {
+     TargetStorage "Jacket/Crye_G4_Combat_Shirt_MC.et"
+     PrefabsToSpawn + {
+      "{F20D1122BC5CD9F2}Prefabs/Weapons/Magazines/glock_magazine/Magazine_9x19_Glock_17rnd.et" "{F20D1122BC5CD9F2}Prefabs/Weapons/Magazines/glock_magazine/Magazine_9x19_Glock_17rnd.et"
+     }
+    }
     ItemsInitConfigurationItem "{610CC3129E7848BC}" {
-     TargetStorage "Vest/Webbing_JayJays_Gen4_Commander_02.et/MagPouch/Pouch_JayJays_MagazineDouble_1_MC.et"
+     TargetStorage "Vest/Webbing_JayJays_Gen4_Commander_02.et/MagPouch/Pouch_JayJays_Gen4_Magazine_01_Alt.et"
     }
     ItemsInitConfigurationItem "{610CC3129FF70707}" {
-     TargetStorage "Vest/Webbing_JayJays_Gen4_Commander_02.et/MagPouch2/Pouch_JayJays_MagazineDouble_2_MC.et"
+     TargetStorage "Vest/Webbing_JayJays_Gen4_Commander_02.et/MagPouch2/Pouch_JayJays_Gen4_Magazine_02.et"
     }
     ItemsInitConfigurationItem "{610CC312DBF11ACA}" {
-     TargetStorage "Vest/Webbing_JayJays_Gen4_Commander_02.et/Utility1/Pouch_JayJays_Radio_MC.et"
+     TargetStorage "Vest/Webbing_JayJays_Gen4_Commander_02.et/UtilPouch2/Pouch_JayJays_Gen4_Utility_02_Alt.et"
     }
     ItemsInitConfigurationItem "{610CC31278A75ED6}" {
-     TargetStorage "Vest/Webbing_JayJays_Gen4_Commander_02.et/Utility2/Pouch_JayJays_Utility2_MC.et"
+     TargetStorage "Vest/Webbing_JayJays_Gen4_Commander_02.et/UtilPouch3/Pouch_JayJays_Gen4_Utility_04.et"
+     PrefabsToSpawn {
+      "{156BC976EA1404DF}Prefabs/Weapons/Magazines/EMAG_FDE_556x45_AP.et" "{156BC976EA1404DF}Prefabs/Weapons/Magazines/EMAG_FDE_556x45_AP.et"
+     }
     }
     ItemsInitConfigurationItem "{6488D76467B90CEE}" {
-     TargetStorage "Vest/Webbing_JayJays_Gen4_Commander_02.et/MagPouch3/Pouch_JayJays_MagazineDouble_2_MC.et"
-    }
-    ItemsInitConfigurationItem "{65C2BC45F347AF95}" {
-     TargetStorage "Vest/Webbing_JayJays_Gen4_Commander_02.et/MagPouch4/Pouch_JayJays_MagazineDouble_1_MC.et"
+     TargetStorage "Vest/Webbing_JayJays_Gen4_Commander_02.et/UtilPouch4/Pouch_JayJays_Gen4_Utility_01_v2.et"
     }
     ItemsInitConfigurationItem "{6488D76467B90F4B}" {
-     TargetStorage "Vest/Webbing_JayJays_Gen4_Commander_02.et/Utility3/Pouch_JayJays_Utility3_MC.et"
+     TargetStorage "Vest/Webbing_JayJays_Gen4_Commander_02.et/CommanderPouch1/Pouch_JayJays_Gen4_Commanders_Alt.et"
+     PrefabsToSpawn {
+      "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et" "{848E4E853151A37A}Prefabs/Weapons/Grenades/L109/Grenade_L109A2_01.et"
+     }
     }
     ItemsInitConfigurationItem "{6488D76467B90F01}" {
-     TargetStorage "Vest/Webbing_JayJays_Gen4_Commander_02.et/Utility4/Pouch_JayJays_Utility4_MC.et"
+     Enabled 0
+     TargetStorage "Back/TYR_TT_Huron_MC.et"
+     PrefabsToSpawn {
+     }
+    }
+    ItemsInitConfigurationItem "{6488D75AD42345BE}" {
+     TargetStorage "Back/TYR_TT_Huron_MC.et"
+     PrefabsToSpawn {
+      "{B1798B0F1258B765}Prefabs/Items/Equipment/Navigation/DAGR/DAGR.et" "{643AB339663E92F7}Prefabs/Items/Equipment/Nightvision/MS2000/Marker_MS2000.et" "{9C1ED9ACDA865791}Prefabs/Weapons/Grenades/L132/Smoke_L152A1_Green.et" "{975C2B4A2B78B0FD}Prefabs/Weapons/Grenades/L132/Smoke_L154A1_Red.et" "{21CBEB00AC9073AE}Prefabs/Weapons/Grenades/L132/Smoke_L157A1_Purple.et"
+     }
     }
    }
   }

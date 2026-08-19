@@ -56,7 +56,7 @@ SCR_ChimeraCharacter : "{F92C060CACCE8143}Prefabs/Characters/Factions/BLUFOR/RHS
      Enabled 0
      TargetStorage "Vest/Vest_JPC_okinawa_Coy_sniper.et/radio/Pouch_AVS_MBITR_Radio_Coy.et"
      PrefabsToSpawn {
-      "{083A8925212DF3B2}Prefabs/Items/Equipment/Radios/US/Radio_ANPRC163_US.et"
+      "{68FE5703457F2FF5}Prefabs/Items/Equipment/Radios/US/Radio_ANPRC163_US.et"
      }
     }
     ItemsInitConfigurationItem "{66B4211E199B8F9A}" {

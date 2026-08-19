@@ -18,10 +18,10 @@ SCR_ChimeraCharacter : "{542CBB6908CA71D8}Prefabs/Characters/Factions/BLUFOR/UK_
    }
   }
   CharacterGrenadeSlotComponent "{520EA1D2F659CE6E}" {
-   WeaponTemplate "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
+   WeaponTemplate "{848E4E853151A37A}Prefabs/Weapons/Grenades/L109/Grenade_L109A2_01.et"
   }
   CharacterGrenadeSlotComponent "{5A6CDA0CCF43068E}" {
-   WeaponTemplate "{B7F7D78B4314A5C8}Prefabs/Weapons/Grenades/Smoke/Smoke_L83A2.et"
+   WeaponTemplate "{09BCBA657FCC1C71}Prefabs/Weapons/Grenades/L132/Smoke_L132A2.et"
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
@@ -42,7 +42,13 @@ SCR_ChimeraCharacter : "{542CBB6908CA71D8}Prefabs/Characters/Factions/BLUFOR/UK_
     }
     LoadoutSlotInfo HandWear {
     }
+    LoadoutSlotInfo EyeWear {
+     Prefab "{B8860BE0AC7FE850}Prefabs/Characters/HeadGear/EyeWear/Revision_Sawfly/Revison_Sawfly_Tan_Clear.et"
+    }
     LoadoutSlotInfo Eyes {
+    }
+    LoadoutSlotInfo Extra {
+     Prefab "{47116C7A065EF0B6}Prefabs/Items/Equipment/Accessories/KneePads/Virtus_KneePads/Virtus_KneePads_01.et"
     }
    }
   }
@@ -51,13 +57,13 @@ SCR_ChimeraCharacter : "{542CBB6908CA71D8}Prefabs/Characters/Factions/BLUFOR/UK_
     ItemsInitConfigurationItem "{6574E493FB55E6A3}" {
      TargetStorage "Pants/PCS_Trousers_MTP.et"
      PrefabsToSpawn {
-      "{61D4F80E49BF9B12}Prefabs/Items/Equipment/Compass/Compass_SY183.et" "{13772C903CB5E4F7}Prefabs/Items/Equipment/Maps/PaperMap_01_folded.et" "{E67E7932C86FBB96}Prefabs/Items/Medicine/FieldDressing_UK_01.et" "{E67E7932C86FBB96}Prefabs/Items/Medicine/FieldDressing_UK_01.et" "{E67E7932C86FBB96}Prefabs/Items/Medicine/FieldDressing_UK_01.et" "{E67E7932C86FBB96}Prefabs/Items/Medicine/FieldDressing_UK_01.et" "{842E93279EA18647}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_UK_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{6E35D94130954509}Prefabs/Items/Equipment/Accessories/ETool_ALICE/ETool_ALICE_FreeRoamBuilding_Gadget.et" "{1642314A5C9B5C13}Prefabs/Items/GC_Facepaint_01_UK.et" "{632CAEF08C102091}Prefabs/Items/Medicine/Splint_01/GC_Splint_01_Base.et"
+      "{61D4F80E49BF9B12}Prefabs/Items/Equipment/Compass/Compass_SY183.et" "{13772C903CB5E4F7}Prefabs/Items/Equipment/Maps/PaperMap_01_folded.et" "{E67E7932C86FBB96}Prefabs/Items/Medicine/FieldDressing_UK_01.et" "{E67E7932C86FBB96}Prefabs/Items/Medicine/FieldDressing_UK_01.et" "{E67E7932C86FBB96}Prefabs/Items/Medicine/FieldDressing_UK_01.et" "{E67E7932C86FBB96}Prefabs/Items/Medicine/FieldDressing_UK_01.et" "{842E93279EA18647}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_UK_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{6E35D94130954509}Prefabs/Items/Equipment/Accessories/ETool_ALICE/ETool_ALICE_FreeRoamBuilding_Gadget.et" "{1642314A5C9B5C13}Prefabs/Items/ACE_Facepaint_01_UK.et" "{632CAEF08C102091}Prefabs/Items/Medicine/Splint_01/GC_Splint_01_Base.et"
      }
     }
     ItemsInitConfigurationItem "{6574E493A8452458}" {
      TargetStorage "Pants/PCS_Trousers_MTP.et"
      PrefabsToSpawn {
-      "{389ACBD8C4991F74}Prefabs/Items/Equipment/Radios/UK/Squad Radio/Radio_H4855_PRR.et"
+      "{47E3B8A72FB9F477}Prefabs/Items/Equipment/Radios/Radio_ANPRC343_PRR_GC.et"
      }
     }
     ItemsInitConfigurationItem "{658F01CD7D92ED96}" {

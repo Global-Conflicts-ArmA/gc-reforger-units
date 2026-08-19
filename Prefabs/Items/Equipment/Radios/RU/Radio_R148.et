@@ -9,9 +9,18 @@ GenericEntity : "{5879D8E9C56E358D}Prefabs/Items/Core/Radio_base.et" {
    "Turned on" 1
    Transceivers {
     RadioTransceiver "{685AE240D04E9CD1}" {
-     "Min tunable frequency" 38000
-     "Max tunable frequency" 54000
+     "Transmitting Range" 3000
+     "Min tunable frequency" 37000
+     "Max tunable frequency" 52000
      "Frequency resolution" 100
+    }
+   }
+  }
+  InventoryItemComponent "{5222EB4D0C73006B}" {
+   Attributes SCR_ItemAttributeCollection "{5222EB4D0A2B466B}" {
+    ItemDisplayName UIInfo "{5222EB4D07D865FA}" {
+     Name "R-148 Transceiver"
+     Description "R-148 radio transceiver for company communications"
     }
    }
   }

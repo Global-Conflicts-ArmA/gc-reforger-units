@@ -9,7 +9,7 @@ SCR_ChimeraCharacter : "{72E3018BB057A12B}Prefabs/Characters/Factions/OPFOR/GC_I
     ItemsInitConfigurationItem "{633EE3A716332CBF}" {
      TargetStorage "Prefabs/Characters/Uniforms/Civi_Pants/Civi_Jeans_Blue_Ripped.et"
      PrefabsToSpawn {
-      "{C37195B20F38B6DE}Prefabs/Items/Equipment/Radios/Radio_R148_IRA.et"
+      "{E1A5D4B878AA8980}Prefabs/Items/Equipment/Radios/Radio_R148_IRA.et"
      }
     }
    }

@@ -24,7 +24,7 @@ SCR_ChimeraCharacter : "{9275A3F9875F9498}Prefabs/Characters/Factions/BLUFOR/CDF
     LoadoutSlotInfo Pants {
     }
     LoadoutSlotInfo Back {
-     Prefab "{B8C0F56D9F1E4FCD}Prefabs/Items/Equipment/Radios/CDF/Kombat_Radio_Pack_CB_CDF.et"
+     Prefab "{2F6209F3160513B0}Prefabs/Items/Equipment/Radios/CDF/Kombat_Radio_Pack_CB_CDF.et"
     }
     LoadoutSlotInfo Vest {
      Prefab "{95ABA095209B01CC}Prefabs/Characters/Vests/Vest_TV102/variants/Vest_TV102_rifleman_MC_2.et"

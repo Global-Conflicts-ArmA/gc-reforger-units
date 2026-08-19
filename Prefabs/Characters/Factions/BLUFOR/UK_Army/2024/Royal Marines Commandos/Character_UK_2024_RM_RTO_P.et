@@ -7,18 +7,44 @@ SCR_ChimeraCharacter : "{52E1968F69C21D5B}Prefabs/Characters/Factions/BLUFOR/UK_
     Icon "{B9F0BD39FF1881A3}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_RadioOperator.edds"
    }
   }
-  CharacterGrenadeSlotComponent "{520EA1D2F659CE6E}" {
-   WeaponTemplate "{D41D22DD1B8E921E}Prefabs/Weapons/Grenades/M18/Smoke_M18_Green.et"
-  }
   CharacterGrenadeSlotComponent "{5A6CDA0CCF43068E}" {
-   WeaponTemplate "{3343A055A83CB30D}Prefabs/Weapons/Grenades/M18/Smoke_M18_Red.et"
+   WeaponTemplate "{09BCBA657FCC1C71}Prefabs/Weapons/Grenades/L132/Smoke_L132A2.et"
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Back {
-     Prefab "{26BBC4FA9CE02F61}Prefabs/Characters/Backpacks/Radio/Kombat_Radio_Pack_MTP.et"
+     Prefab "{26BBC4FA9CE02F61}Prefabs/Items/Equipment/Radios/UK/Kombat_Radio_Pack_MTP.et"
     }
     LoadoutSlotInfo HandWear {
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{610CC3129E7848BC}" {
+     TargetStorage "Vest/Webbing_JayJays_Gen4_Rifleman_01.et/MagPouch2/Pouch_JayJays_Gen4_Magazine_02_Alt.et"
+    }
+    ItemsInitConfigurationItem "{610CC3129FF70707}" {
+     TargetStorage "Vest/Webbing_JayJays_Gen4_Rifleman_01.et/MagPouch/Pouch_JayJays_Gen4_Magazine_01.et"
+    }
+    ItemsInitConfigurationItem "{610CC312DBF11ACA}" {
+     TargetStorage "Vest/Webbing_JayJays_Gen4_Rifleman_01.et/UtilPouch1/Pouch_JayJays_Gen4_Utility_01.et"
+    }
+    ItemsInitConfigurationItem "{610CC31278A75ED6}" {
+     TargetStorage "Vest/Webbing_JayJays_Gen4_Rifleman_01.et/UtilPouch2/Pouch_JayJays_Gen4_Utility_02.et"
+    }
+    ItemsInitConfigurationItem "{6488D7760A1D9028}" {
+     TargetStorage "Vest/Webbing_JayJays_Gen4_Rifleman_01.et/UtilPouch3/Pouch_JayJays_Gen4_Utility_04_Alt.et"
+    }
+    ItemsInitConfigurationItem "{6488D776285DC2E9}" {
+     Enabled 0
+     TargetStorage "Vest/Webbing_JayJays_Gen4_Rifleman_01.et/UtilPouch4/Pouch_JayJays_Gen4_Utility_01_v2_Alt.et"
+    }
+    ItemsInitConfigurationItem "{6488D7764C4B7198}" {
+     TargetStorage "Vest/Webbing_JayJays_Gen4_Rifleman_01.et/MagPouch3/Pouch_JayJays_Gen4_Magazine_01_Alt_v2.et"
+    }
+    ItemsInitConfigurationItem "{65C2BC4EC5460E76}" {
+     TargetStorage "Vest/Webbing_JayJays_Gen4_Rifleman_01.et/MagPouch4/Pouch_JayJays_Gen4_Magazine_02_v2.et"
     }
    }
   }

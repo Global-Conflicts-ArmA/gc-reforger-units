@@ -64,7 +64,7 @@ SCR_ChimeraCharacter : "{290CC7354CC97778}Prefabs/Characters/Factions/OPFOR/GC_S
      TargetStorage "Pants/Trousers_Combat_68Pat_DPM_Tropical_01.et"
      TargetPurpose 1
      PrefabsToSpawn {
-      "{19D74C99726B69F3}Prefabs/Items/Equipment/Radios/Radio_R148_Seperatist.et"
+      "{E1A5D4B878AA8980}Prefabs/Items/Equipment/Radios/Radio_R148_Seperatist.et"
      }
     }
     ItemsInitConfigurationItem "{664296531389A082}" {

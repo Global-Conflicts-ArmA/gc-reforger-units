@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{D0B3CA0BB493B929}Prefabs/Characters/Factions/OPFOR/USSR_Army/MSV85A/Character_USSR_MSV85A_Rifleman.et" {
+SCR_ChimeraCharacter : "{D0B3CA0BB493B929}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_MSV85A/Character_USSR_MSV85A_Rifleman.et" {
  ID "520EC961A090B1EE"
  components {
   SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
@@ -35,6 +35,11 @@ SCR_ChimeraCharacter : "{D0B3CA0BB493B929}Prefabs/Characters/Factions/OPFOR/USSR
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
+    ItemsInitConfigurationItem "{5D7CC173E6675BF5}" {
+     PrefabsToSpawn + {
+      "{9555D4D0B5FDB22D}Prefabs/Items/Equipment/Radios/RU/GC_Radio_R147P_Receiver.et"
+     }
+    }
     ItemsInitConfigurationItem "{6596F6AF83FE737B}" {
      TargetStorage "Vest/Vest_Lifchik_GL.et"
     }

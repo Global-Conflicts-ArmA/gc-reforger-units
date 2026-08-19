@@ -1,0 +1,56 @@
+SCR_ChimeraCharacter : "{902088D220925A16}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/Light Infantry/Character_UK_1989_Regulars_BaseLoadout.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot {
+      }
+     }
+    }
+   }
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Gunner"
+    Icon "{EE0B4CDEA86FC24A}UI/Textures/DeployMenu/LoadoutIcons/LoadoutIcons.imageset"
+    IconSetName "EditableEntity_Character_Sharpshooter"
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Back {
+     Prefab "{0960A1A0B891F243}Prefabs/Items/Equipment/Backpacks/Rucksack_P58_Large_Pack.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{610CC31428816D50}" {
+     TargetStorage "Jacket/Smock_Combat_84Pat_DPM_01.et"
+    }
+    ItemsInitConfigurationItem "{610CC3129E7848BC}" {
+     PrefabsToSpawn {
+      "{F605A4A0573F4BED}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_RadwayGreen_2+2.et" "{F605A4A0573F4BED}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_RadwayGreen_2+2.et"
+     }
+    }
+    ItemsInitConfigurationItem "{610CC3129FF70707}" {
+     PrefabsToSpawn {
+     }
+    }
+    ItemsInitConfigurationItem "{610CC312DBF11ACA}" {
+     PrefabsToSpawn {
+      "{F605A4A0573F4BED}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_RadwayGreen_2+2.et" "{F605A4A0573F4BED}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_RadwayGreen_2+2.et"
+     }
+    }
+    ItemsInitConfigurationItem "{610CC31278A75ED6}" {
+     TargetStorage "Back/Rucksack_P58_Large_Pack.et"
+    }
+    ItemsInitConfigurationItem "{65D51D8B91CE547A}" {
+     TargetStorage "Pants/Trousers_Combat_84Pat_DPM_01.et"
+    }
+   }
+  }
+ }
+}

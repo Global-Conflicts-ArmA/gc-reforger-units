@@ -14,18 +14,23 @@ SCR_ChimeraCharacter : "{BE42B6E6DE18536B}Prefabs/Characters/Factions/BLUFOR/UK_
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {
-     Prefab "{56987BA51A14FBE1}Prefabs/Characters/HeadGear/Helmets/Helmet_Virtus/Helmet_Virtus_02_Scrim_Strips_1.et"
+     Prefab "{864EDE97C026B407}Prefabs/Characters/HeadGear/Helmets/Helmet_Virtus/Helmet_Virtus_01_scrimmed.et"
     }
     LoadoutSlotInfo Jacket {
     }
     LoadoutSlotInfo ArmoredVest {
-     Prefab "{B9B5A80B083DE154}Prefabs/Characters/Vests/Body_Armour/Vest_Virtus_STV/Variants/Vest_Virtus_STV_Rifleman_05.et"
+     Prefab "{611DC1CA71B4FF08}Prefabs/Characters/Vests/Body_Armour/Vest_Virtus_STV/Variants/Vest_Virtus_STV_Rifleman_03.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{091FD27A4C4A6177}Prefabs/Characters/Backpacks/Daysacks/Defcon_Ares/Defcon_Ares_MTP.et"
     }
     LoadoutSlotInfo Vest {
      Prefab "{7489DAB2FF83543A}Prefabs/Characters/Vests/Belts/Webbing/Virtus_H_Rig/Variants/Webbing_Virtus_H_Rig_Rifleman_02.et"
     }
     LoadoutSlotInfo HandWear {
-     Prefab "{2295354C283A1FBF}Prefabs/Characters/Handwear/Gloves_511_Competition/Gloves_511_Comp_Tan.et"
+     Prefab "{1D6662908A910492}Prefabs/Characters/Handwear/Gloves_511_Competition/Gloves_511_Competition_Tan.et"
+    }
+    LoadoutSlotInfo Extra {
     }
    }
   }
@@ -65,25 +70,25 @@ SCR_ChimeraCharacter : "{BE42B6E6DE18536B}Prefabs/Characters/Factions/BLUFOR/UK_
     ItemsInitConfigurationItem "{6574E89CEB9CACA1}" {
      TargetStorage "Vest/Webbing_Virtus_H_Rig_Rifleman_02.et/Utility3/Pouch_Spiritus_BackPanelUtility_Slim1_MC.et"
      PrefabsToSpawn {
-      "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et" "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
+      "{848E4E853151A37A}Prefabs/Weapons/Grenades/L109/Grenade_L109A2_01.et" "{848E4E853151A37A}Prefabs/Weapons/Grenades/L109/Grenade_L109A2_01.et" "{09BCBA657FCC1C71}Prefabs/Weapons/Grenades/L132/Smoke_L132A2.et" "{1663496AE5B9F10B}Prefabs/Weapons/Ammo/Ammo_Grenade_HEDP_M433.et"
      }
     }
     ItemsInitConfigurationItem "{6574E89CEB9CACA3}" {
      TargetStorage "Vest/Webbing_Virtus_H_Rig_Rifleman_02.et/Utility2/Pouch_Spiritus_BackPanelUtility_Tall_MC.et"
      PrefabsToSpawn {
-      "{B7F7D78B4314A5C8}Prefabs/Weapons/Grenades/Smoke/Smoke_L83A2.et" "{B7F7D78B4314A5C8}Prefabs/Weapons/Grenades/Smoke/Smoke_L83A2.et"
-     }
-    }
-    ItemsInitConfigurationItem "{6574E89CD1363FC9}" {
-     TargetStorage "Vest/Webbing_Virtus_H_Rig_Rifleman_02.et/Utility1/Pouch_Virtus_Dump_1_MTP.et"
-     PrefabsToSpawn {
-      "{1663496AE5B9F10B}Prefabs/Weapons/Ammo/Ammo_Grenade_HEDP_M433.et" "{1663496AE5B9F10B}Prefabs/Weapons/Ammo/Ammo_Grenade_HEDP_M433.et" "{1663496AE5B9F10B}Prefabs/Weapons/Ammo/Ammo_Grenade_HEDP_M433.et" "{1663496AE5B9F10B}Prefabs/Weapons/Ammo/Ammo_Grenade_HEDP_M433.et" "{1663496AE5B9F10B}Prefabs/Weapons/Ammo/Ammo_Grenade_HEDP_M433.et" "{1663496AE5B9F10B}Prefabs/Weapons/Ammo/Ammo_Grenade_HEDP_M433.et"
+      "{BDD18BEEC1165353}Prefabs/Weapons/Ammo/Ammo_Grenade_Smoke_M713_Red.et" "{BDD18BEEC1165353}Prefabs/Weapons/Ammo/Ammo_Grenade_Smoke_M713_Red.et" "{8D0A57DD48B62639}Prefabs/Weapons/Ammo/Ammo_Grenade_Smoke_M715_Green.et" "{8D0A57DD48B62639}Prefabs/Weapons/Ammo/Ammo_Grenade_Smoke_M715_Green.et" "{1663496AE5B9F10B}Prefabs/Weapons/Ammo/Ammo_Grenade_HEDP_M433.et" "{1663496AE5B9F10B}Prefabs/Weapons/Ammo/Ammo_Grenade_HEDP_M433.et"
      }
     }
     ItemsInitConfigurationItem "{6574E89CBCE817F7}" {
      TargetStorage "Vest/Webbing_Virtus_H_Rig_Rifleman_02.et/Utility4/Pouch_Virtus_IFAK_2_MTP.et"
      PrefabsToSpawn {
-      "{1663496AE5B9F10B}Prefabs/Weapons/Ammo/Ammo_Grenade_HEDP_M433.et" "{1663496AE5B9F10B}Prefabs/Weapons/Ammo/Ammo_Grenade_HEDP_M433.et" "{1663496AE5B9F10B}Prefabs/Weapons/Ammo/Ammo_Grenade_HEDP_M433.et" "{1663496AE5B9F10B}Prefabs/Weapons/Ammo/Ammo_Grenade_HEDP_M433.et"
+      "{1663496AE5B9F10B}Prefabs/Weapons/Ammo/Ammo_Grenade_HEDP_M433.et" "{1663496AE5B9F10B}Prefabs/Weapons/Ammo/Ammo_Grenade_HEDP_M433.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6A20831BEF071C8A}" {
+     TargetStorage "Vest/Webbing_Virtus_H_Rig_Rifleman_02.et/Utility1/Pouch_Virtus_Dump_1_MTP.et"
+     PrefabsToSpawn {
+      "{1663496AE5B9F10B}Prefabs/Weapons/Ammo/Ammo_Grenade_HEDP_M433.et" "{1663496AE5B9F10B}Prefabs/Weapons/Ammo/Ammo_Grenade_HEDP_M433.et" "{1663496AE5B9F10B}Prefabs/Weapons/Ammo/Ammo_Grenade_HEDP_M433.et" "{1663496AE5B9F10B}Prefabs/Weapons/Ammo/Ammo_Grenade_HEDP_M433.et" "{1663496AE5B9F10B}Prefabs/Weapons/Ammo/Ammo_Grenade_HEDP_M433.et" "{1663496AE5B9F10B}Prefabs/Weapons/Ammo/Ammo_Grenade_HEDP_M433.et" "{1663496AE5B9F10B}Prefabs/Weapons/Ammo/Ammo_Grenade_HEDP_M433.et"
      }
     }
    }

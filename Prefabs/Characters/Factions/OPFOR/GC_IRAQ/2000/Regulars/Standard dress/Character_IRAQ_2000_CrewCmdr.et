@@ -40,7 +40,7 @@ SCR_ChimeraCharacter : "{B304BA84C088D8AE}Prefabs/Characters/Factions/OPFOR/GC_I
      Prefab ""
     }
     LoadoutSlotInfo Back {
-     Prefab "{DD3E6FD4C1F8C5F3}Prefabs/Items/Equipment/Radios/IRAQ/Radio_R107M_IRAQ.et"
+     Prefab "{54C68E438DD34265}Prefabs/Items/Equipment/Radios/IRAQ/Radio_R107M_IRAQ.et"
     }
     LoadoutSlotInfo Vest {
      Prefab "{ED5574EA7F63B457}Prefabs/Characters/Vests/Vest_Type56/Vest_Type56.et"

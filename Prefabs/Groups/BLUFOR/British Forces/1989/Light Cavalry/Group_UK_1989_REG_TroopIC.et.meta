@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{A0D25C69A3FC58A4}Prefabs/Groups/BLUFOR/British Forces/1989/Light Infantry/Group_UK_1989_REG_TroopHQ.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

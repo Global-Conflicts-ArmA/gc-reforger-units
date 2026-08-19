@@ -79,7 +79,7 @@ SCR_ChimeraCharacter : "{290CC7354CC97778}Prefabs/Characters/Factions/OPFOR/GC_S
     ItemsInitConfigurationItem "{6642965313894E05}" {
      TargetStorage "Jacket/Jacket_Bomber_1.et"
      PrefabsToSpawn {
-      "{19D74C99726B69F3}Prefabs/Items/Equipment/Radios/Radio_R148_Seperatist.et"
+      "{E1A5D4B878AA8980}Prefabs/Items/Equipment/Radios/Radio_R148_Seperatist.et"
      }
     }
     ItemsInitConfigurationItem "{6642965313894E0A}" {

@@ -4,7 +4,14 @@ SCR_ChimeraCharacter : "{94DB2F66DDCD8783}Prefabs/Characters/Factions/BLUFOR/UK_
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
     Name "Company 2IC"
+    Icon "{E469CC52942908B8}UI/Textures/EditableEntities/Characters/BritishRanks/EditableEntity_Character_British_CPT.edds"
    }
+  }
+  CharacterGrenadeSlotComponent "{520EA1D2F659CE6E}" {
+   WeaponTemplate "{848E4E853151A37A}Prefabs/Weapons/Grenades/L109/Grenade_L109A2_01.et"
+  }
+  CharacterGrenadeSlotComponent "{5A6CDA0CCF43068E}" {
+   WeaponTemplate "{09BCBA657FCC1C71}Prefabs/Weapons/Grenades/L132/Smoke_L132A2.et"
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
@@ -12,7 +19,10 @@ SCR_ChimeraCharacter : "{94DB2F66DDCD8783}Prefabs/Characters/Factions/BLUFOR/UK_
      Prefab "{F4EA5339BC3DA620}Prefabs/Characters/HeadGear/Helmet_OPSCORE/Helmet_OPSCORE_MT_MC_Liberator.et"
     }
     LoadoutSlotInfo ArmoredVest {
-     Prefab "{37F0F78149E3E78B}Prefabs/Characters/Vests/Body_Armour/Vest_Crye_CPC/Variants/Vest_Crye_CPC_Rifleman_02_FDE.et"
+     Prefab "{4A11957AAD447582}Prefabs/Characters/Vests/Vest_JPC/Vest_JPC_MC.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{5D934E927F723048}Prefabs/Characters/Backpacks/Panels/TYR_TT_Huron/TYR_TT_Huron_MC.et"
     }
     LoadoutSlotInfo HandWear {
      Prefab "{8D4A4DF9111F0682}Prefabs/Characters/Handwear/Gloves_MechanixMpact/Gloves_mpack_Blk.et"
@@ -21,8 +31,44 @@ SCR_ChimeraCharacter : "{94DB2F66DDCD8783}Prefabs/Characters/Factions/BLUFOR/UK_
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
+    ItemsInitConfigurationItem "{62A74B5BE373CB7E}" {
+     TargetStorage "Jacket/Crye_G4_Combat_Shirt_MC.et"
+     PrefabsToSpawn + {
+      "{F20D1122BC5CD9F2}Prefabs/Weapons/Magazines/glock_magazine/Magazine_9x19_Glock_17rnd.et" "{F20D1122BC5CD9F2}Prefabs/Weapons/Magazines/glock_magazine/Magazine_9x19_Glock_17rnd.et"
+     }
+    }
+    ItemsInitConfigurationItem "{610CC3129E7848BC}" {
+     TargetStorage "Vest/Webbing_JayJays_Gen4_Commander_01.et/MagPouch/Pouch_JayJays_Gen4_Magazine_01_Alt.et"
+    }
+    ItemsInitConfigurationItem "{610CC3129FF70707}" {
+     TargetStorage "Vest/Webbing_JayJays_Gen4_Commander_01.et/MagPouch2/Pouch_JayJays_Gen4_Magazine_02.et"
+    }
     ItemsInitConfigurationItem "{610CC312DBF11ACA}" {
      PrefabsToSpawn +{
+     }
+    }
+    ItemsInitConfigurationItem "{610CC31278A75ED6}" {
+     Enabled 0
+     PrefabsToSpawn {
+     }
+    }
+    ItemsInitConfigurationItem "{6488D76467B90F4B}" {
+     PrefabsToSpawn +{
+     }
+    }
+    ItemsInitConfigurationItem "{6488D76467B90F01}" {
+     PrefabsToSpawn {
+      "{156BC976EA1404DF}Prefabs/Weapons/Magazines/EMAG_FDE_556x45_AP.et" "{156BC976EA1404DF}Prefabs/Weapons/Magazines/EMAG_FDE_556x45_AP.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6488D75AD42345BE}" {
+     PrefabsToSpawn {
+      "{B1798B0F1258B765}Prefabs/Items/Equipment/Navigation/DAGR/DAGR.et" "{643AB339663E92F7}Prefabs/Items/Equipment/Nightvision/MS2000/Marker_MS2000.et" "{9C1ED9ACDA865791}Prefabs/Weapons/Grenades/L132/Smoke_L152A1_Green.et" "{975C2B4A2B78B0FD}Prefabs/Weapons/Grenades/L132/Smoke_L154A1_Red.et" "{21CBEB00AC9073AE}Prefabs/Weapons/Grenades/L132/Smoke_L157A1_Purple.et"
+     }
+    }
+    ItemsInitConfigurationItem "{65C2BC45F347AF95}" {
+     TargetStorage "Back/TYR_TT_Huron_MC.et"
+     PrefabsToSpawn {
      }
     }
     ItemsInitConfigurationItem "{65C2BC458A9C0781}" {

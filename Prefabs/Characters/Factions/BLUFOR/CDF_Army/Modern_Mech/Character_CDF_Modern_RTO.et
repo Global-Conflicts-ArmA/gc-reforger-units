@@ -13,7 +13,7 @@ SCR_ChimeraCharacter : "{597FEF0054FC7880}Prefabs/Characters/Factions/BLUFOR/CDF
      Prefab "{48341E9725A44B11}Prefabs/Characters/HeadGear/Helmet_OPSCORE/Helmet_OPSCORE_MID_FG_AMP.et"
     }
     LoadoutSlotInfo Back {
-     Prefab "{B8C0F56D9F1E4FCD}Prefabs/Items/Equipment/Radios/CDF/Kombat_Radio_Pack_CB_CDF.et"
+     Prefab "{2F6209F3160513B0}Prefabs/Items/Equipment/Radios/CDF/Kombat_Radio_Pack_CB_CDF.et"
     }
    }
   }

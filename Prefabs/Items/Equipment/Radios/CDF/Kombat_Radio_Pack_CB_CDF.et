@@ -1,8 +1,0 @@
-GenericEntity : "{2F6209F3160513B0}Prefabs/Characters/Backpacks/Radio/Kombat_Radio/Kombat_Radio_Pack_CB.et" {
- ID "508AB2013EEE1E00"
- components {
-  BaseRadioComponent "{5A30BAE7673C63CA}" {
-   "Encryption key" "ZelenegorskTacos"
-  }
- }
-}

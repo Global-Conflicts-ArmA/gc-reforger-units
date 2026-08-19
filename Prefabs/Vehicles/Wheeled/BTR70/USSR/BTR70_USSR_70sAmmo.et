@@ -1,0 +1,28 @@
+Vehicle : "{AAB3119124C9167A}Prefabs/Vehicles/Wheeled/BTR70/USSR/BTR70_USSR.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  SCR_UniversalInventoryStorageComponent "{59168B38F20DFF74}" {
+   MultiSlots {
+    MultiSlotConfiguration "{62F4F2818B194CED}" {
+     SlotTemplate InventoryStorageSlot ak74ammo {
+      Prefab "{E039E897BD5A339E}Prefabs/Weapons/Magazines/AK/BC_Magazine_762x39_AK_30rnd_Ball.et"
+     }
+    }
+    MultiSlotConfiguration "{62F4F2818CA898CA}" {
+     SlotTemplate InventoryStorageSlot rpk74ammo {
+      Prefab "{9A0E9828AEEBA8B0}Prefabs/Weapons/Magazines/RPK/BC_Magazine_762x39_RPK_40rnd_Ball.et"
+     }
+    }
+    MultiSlotConfiguration "{62F4F2818C64C19D}" {
+     NumSlots 0
+    }
+    MultiSlotConfiguration "{62F4F2818DA621D6}" {
+     NumSlots 0
+    }
+    MultiSlotConfiguration "{64D4DE0BB6902C5F}" {
+     NumSlots 0
+    }
+   }
+  }
+ }
+}

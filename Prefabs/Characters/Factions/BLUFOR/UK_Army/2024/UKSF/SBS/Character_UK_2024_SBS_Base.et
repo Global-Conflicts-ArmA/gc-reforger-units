@@ -55,7 +55,7 @@ SCR_ChimeraCharacter : "{542CBB6908CA71D8}Prefabs/Characters/Factions/BLUFOR/UK_
     ItemsInitConfigurationItem "{6576D9EC5A062C90}" {
      TargetStorage "Pants/Crye_G4_Combat_Pants_MC.et"
      PrefabsToSpawn {
-      "{389ACBD8C4991F74}Prefabs/Items/Equipment/Radios/UK/Squad Radio/Radio_H4855_PRR.et"
+      "{47E3B8A72FB9F477}Prefabs/Items/Equipment/Radios/UK/Squad Radio/Radio_H4855_PRR.et"
      }
     }
     ItemsInitConfigurationItem "{6576D9EC9DDFD34C}" {

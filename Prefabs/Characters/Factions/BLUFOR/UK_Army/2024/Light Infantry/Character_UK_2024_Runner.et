@@ -4,13 +4,25 @@ SCR_ChimeraCharacter : "{FED05851B3B9586F}Prefabs/Characters/Factions/BLUFOR/UK_
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
     Name "Runner"
-    Icon "{3DF5F07FF6670728}UI/Textures/EditableEntities/Characters/Character_Runner.edds"
+    Icon "{3DF5F07FF6670728}UI/Textures/EditableEntities/Characters/EditableEntity_Character_Runner.edds"
    }
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{864EDE97C026B407}Prefabs/Characters/HeadGear/Helmets/Helmet_Virtus/Helmet_Virtus_01_scrimmed.et"
+    }
     LoadoutSlotInfo ArmoredVest {
-     Prefab "{5C29E4F204D8763F}Prefabs/Characters/Vests/Body_Armour/Vest_Virtus_STV/Variants/Vest_Virtus_STV_Rifleman_04.et"
+     Prefab "{84818D337D516863}Prefabs/Characters/Vests/Body_Armour/Vest_Virtus_STV/Variants/Vest_Virtus_STV_Rifleman_02.et"
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab "{1D6662908A910492}Prefabs/Characters/Handwear/Gloves_511_Competition/Gloves_511_Competition_Tan.et"
+    }
+    LoadoutSlotInfo Extra {
+     Prefab ""
+     AreaType ZEL_ExtraArea "{64F94B2CDB36D75D}" {
+      m_ShouldHide 1
+     }
     }
    }
   }

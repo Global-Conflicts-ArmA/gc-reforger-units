@@ -7,6 +7,9 @@ SCR_ChimeraCharacter : "{52E1968F69C21D5B}Prefabs/Characters/Factions/BLUFOR/UK_
     Icon "{F3FCC3B9732551D9}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_Medic.edds"
    }
   }
+  CharacterGrenadeSlotComponent "{5A6CDA0CCF43068E}" {
+   WeaponTemplate "{09BCBA657FCC1C71}Prefabs/Weapons/Grenades/L132/Smoke_L132A2.et"
+  }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {
@@ -15,6 +18,7 @@ SCR_ChimeraCharacter : "{52E1968F69C21D5B}Prefabs/Characters/Factions/BLUFOR/UK_
     LoadoutSlotInfo Jacket {
     }
     LoadoutSlotInfo ArmoredVest {
+     Prefab "{4309510E40DDB98E}Prefabs/Characters/Vests/Body_Armour/Vest_Crye_JPC_2/Variants/Vest_Crye_JPC_Rifleman_01.et"
     }
     LoadoutSlotInfo Back {
      Prefab "{E57C6FC2DEF86528}Prefabs/Characters/Backpacks/Daysacks/Camelbak_BFM/Camelbak_BFM_MC.et"
@@ -26,8 +30,20 @@ SCR_ChimeraCharacter : "{52E1968F69C21D5B}Prefabs/Characters/Factions/BLUFOR/UK_
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
+    ItemsInitConfigurationItem "{62A74B5BE373CB7E}" {
+     TargetStorage "Jacket/Crye_G4_Combat_Shirt_MC.et"
+    }
     ItemsInitConfigurationItem "{610CC312DBF11ACA}" {
      PrefabsToSpawn +{
+     }
+    }
+    ItemsInitConfigurationItem "{6488D7760A1D9028}" {
+     PrefabsToSpawn {
+      "{848E4E853151A37A}Prefabs/Weapons/Grenades/L109/Grenade_L109A2_01.et" "{09BCBA657FCC1C71}Prefabs/Weapons/Grenades/L132/Smoke_L132A2.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6488D776285DC2E9}" {
+     PrefabsToSpawn {
      }
     }
     ItemsInitConfigurationItem "{65C2BC4EBE944CD3}" {

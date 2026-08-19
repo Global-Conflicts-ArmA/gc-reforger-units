@@ -14,10 +14,10 @@ SCR_ChimeraCharacter : "{BE42B6E6DE18536B}Prefabs/Characters/Factions/BLUFOR/UK_
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {
-     Prefab "{56987BA51A14FBE1}Prefabs/Characters/HeadGear/Helmets/Helmet_Virtus/Helmet_Virtus_02_Scrim_Strips_1.et"
+     Prefab "{864EDE97C026B407}Prefabs/Characters/HeadGear/Helmets/Helmet_Virtus/Helmet_Virtus_01_scrimmed.et"
     }
     LoadoutSlotInfo ArmoredVest {
-     Prefab "{B9B5A80B083DE154}Prefabs/Characters/Vests/Body_Armour/Vest_Virtus_STV/Variants/Vest_Virtus_STV_Rifleman_05.et"
+     Prefab "{7AD445F5ACAAC7F1}Prefabs/Characters/Vests/Body_Armour/Vest_Virtus_STV/Variants/Vest_Virtus_STV_Rifleman_01.et"
     }
     LoadoutSlotInfo Back {
      Prefab "{26BBC4FA9CE02F61}Prefabs/Items/Equipment/Radios/UK/Kombat_Radio_Pack_MTP.et"
@@ -26,7 +26,12 @@ SCR_ChimeraCharacter : "{BE42B6E6DE18536B}Prefabs/Characters/Factions/BLUFOR/UK_
      Prefab "{6850162D1EA35BC8}Prefabs/Characters/Vests/Belts/Webbing/Virtus_H_Rig/Variants/Webbing_Virtus_H_Rig_Rifleman_01.et"
     }
     LoadoutSlotInfo HandWear {
-     Prefab "{2295354C283A1FBF}Prefabs/Characters/Handwear/Gloves_511_Competition/Gloves_511_Comp_Tan.et"
+     Prefab "{1D6662908A910492}Prefabs/Characters/Handwear/Gloves_511_Competition/Gloves_511_Competition_Tan.et"
+    }
+    LoadoutSlotInfo Extra {
+     AreaType ZEL_ExtraArea "{64F94B2CDB36D75D}" {
+      m_ShouldHide 1
+     }
     }
    }
   }
@@ -66,13 +71,7 @@ SCR_ChimeraCharacter : "{BE42B6E6DE18536B}Prefabs/Characters/Factions/BLUFOR/UK_
     ItemsInitConfigurationItem "{6576CAB94DC23C5A}" {
      TargetStorage "Vest/Webbing_Virtus_H_Rig_Rifleman_01.et/Utility3/Pouch_Virtus_Utility_1_MTP.et"
      PrefabsToSpawn {
-      "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
-     }
-    }
-    ItemsInitConfigurationItem "{6576CAB94DC23C5C}" {
-     TargetStorage "Vest/Webbing_Virtus_H_Rig_Rifleman_01.et/Utility2/Pouch_Virtus_Utility_2_MTP.et"
-     PrefabsToSpawn {
-      "{B7F7D78B4314A5C8}Prefabs/Weapons/Grenades/Smoke/Smoke_L83A2.et"
+      "{09BCBA657FCC1C71}Prefabs/Weapons/Grenades/L132/Smoke_L132A2.et" "{848E4E853151A37A}Prefabs/Weapons/Grenades/L109/Grenade_L109A2_01.et"
      }
     }
    }

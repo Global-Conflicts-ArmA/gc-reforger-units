@@ -9,6 +9,11 @@ SCR_ChimeraCharacter : "{44F6F191906D9D1C}Prefabs/Characters/Factions/OPFOR/USSR
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
+    ItemsInitConfigurationItem "{68F6FE8C62E31C68}" {
+     PrefabsToSpawn + {
+      "{9555D4D0B5FDB22D}Prefabs/Items/Equipment/Radios/RU/GC_Radio_R147P_Receiver.et"
+     }
+    }
     ItemsInitConfigurationItem "{68F6FE8DDE9F64AA}" {
      PrefabsToSpawn {
       "{BBB50A815A2F916B}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Ball.et" "{BBB50A815A2F916B}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Ball.et" "{E5912E45754CD421}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Tracer.et" "{E5912E45754CD421}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Tracer.et"

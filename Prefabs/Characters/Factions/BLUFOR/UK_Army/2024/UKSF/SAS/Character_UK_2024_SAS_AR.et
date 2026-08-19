@@ -22,7 +22,7 @@ SCR_ChimeraCharacter : "{C0358E410861BD1D}Prefabs/Characters/Factions/BLUFOR/UK_
      Prefab "{49455BCE977B5F85}Prefabs/Characters/Uniforms/Crye/Crye_GB4/Crye_GB4_Shirt_Rolled_MC.et"
     }
     LoadoutSlotInfo ArmoredVest {
-     Prefab "{28A81BA1BCCED69B}Prefabs/Characters/Vests/Body_Armour/Vest_Crye_CPC/Variants/Vest_Crye_CPC_Plain.et"
+     Prefab "{4A11957AAD447582}Prefabs/Characters/Vests/Vest_JPC/Vest_JPC_MC.et"
     }
     LoadoutSlotInfo Boots {
      Prefab "{51ACA33D999D2D71}Prefabs/Characters/Footwear/Saloman_XUltra/Boots_Salomon_XUltra_Brown.et"
@@ -43,23 +43,23 @@ SCR_ChimeraCharacter : "{C0358E410861BD1D}Prefabs/Characters/Factions/BLUFOR/UK_
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
+    ItemsInitConfigurationItem "{65769C3450B9CD6E}" {
+     TargetStorage "Jacket/Crye_GB4_Shirt_Rolled_MC.et"
+    }
     ItemsInitConfigurationItem "{6576D9ED53C8565C}" {
      TargetStorage "Jacket/Crye_GB4_Shirt_Rolled_MC.et"
     }
-    ItemsInitConfigurationItem "{65769C3747F3EAFE}" {
-     TargetStorage "Vest/Webbing_JayJays_Gen4_Rifleman_01.et/Utility1/Pouch_JayJays_Utility1_MC.et"
-     PrefabsToSpawn {
-      "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et" "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
-     }
+    ItemsInitConfigurationItem "{6579089C8AA04BA2}" {
+     TargetStorage "ArmoredVest/Vest_JPC_MC.et"
     }
     ItemsInitConfigurationItem "{65769C3747F3EAFA}" {
-     TargetStorage "Vest/Webbing_JayJays_Gen4_Rifleman_01.et/Utility2/Pouch_JayJays_Utility2_MC.et"
+     TargetStorage "Vest/Webbing_JayJays_Gen4_Rifleman_01.et/UtilPouch1/Pouch_JayJays_Gen4_Utility_01.et"
      PrefabsToSpawn {
-      "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et" "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
+      "{848E4E853151A37A}Prefabs/Weapons/Grenades/L109/Grenade_L109A2_01.et" "{09BCBA657FCC1C71}Prefabs/Weapons/Grenades/L132/Smoke_L132A2.et"
      }
     }
     ItemsInitConfigurationItem "{65769C3747F3EAF4}" {
-     TargetStorage "Vest/Webbing_JayJays_Gen4_Rifleman_01.et/Utility4/Pouch_JayJays_Utility4_MC.et"
+     TargetStorage "Vest/Webbing_JayJays_Gen4_Rifleman_01.et/UtilPouch2/Pouch_JayJays_Gen4_Utility_02.et"
      PrefabsToSpawn {
       "{F20D1122BC5CD9F2}Prefabs/Weapons/Magazines/glock_magazine/Magazine_9x19_Glock_17rnd.et" "{F20D1122BC5CD9F2}Prefabs/Weapons/Magazines/glock_magazine/Magazine_9x19_Glock_17rnd.et"
      }

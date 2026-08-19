@@ -34,7 +34,7 @@ SCR_ChimeraCharacter : "{290CC7354CC97778}Prefabs/Characters/Factions/OPFOR/GC_S
      Prefab "{DAAFD15478BDE1C3}Prefabs/Characters/Footwear/CombatBoots_US_01.et"
     }
     LoadoutSlotInfo Back {
-     Prefab "{E39332268603B622}Prefabs/Items/Equipment/Radios/Separatist/Radio_R107M_Separatist.et"
+     Prefab "{54C68E438DD34265}Prefabs/Items/Equipment/Radios/Separatist/Radio_R107M_Separatist.et"
     }
     LoadoutSlotInfo Vest {
      Prefab "{08155E701A949620}Prefabs/Characters/Vests/Vest_SovietHarness/Variants/Vest_SovietHarness_rifleman.et"
@@ -53,7 +53,7 @@ SCR_ChimeraCharacter : "{290CC7354CC97778}Prefabs/Characters/Factions/OPFOR/GC_S
      TargetStorage "Pants/Pants_M88.et"
      TargetPurpose 1
      PrefabsToSpawn {
-      "{19D74C99726B69F3}Prefabs/Items/Equipment/Radios/Separatist/Radio_R148_Seperatist.et"
+      "{E1A5D4B878AA8980}Prefabs/Items/Equipment/Radios/Separatist/Radio_R148_Seperatist.et"
      }
     }
     ItemsInitConfigurationItem "{6642965313B03AB2}" {

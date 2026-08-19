@@ -31,7 +31,7 @@ SCR_ChimeraCharacter : "{9275A3F9875F9498}Prefabs/Characters/Factions/BLUFOR/CDF
      Prefab "{09E2F277F5B672E8}Prefabs/Characters/Footwear/Solomon_4dgtx.et"
     }
     LoadoutSlotInfo Back {
-     Prefab "{B8C0F56D9F1E4FCD}Prefabs/Items/Equipment/Radios/CDF/Kombat_Radio_Pack_CB_CDF.et"
+     Prefab "{2F6209F3160513B0}Prefabs/Items/Equipment/Radios/CDF/Kombat_Radio_Pack_CB_CDF.et"
     }
     LoadoutSlotInfo Vest {
      Prefab "{9E6B8BFB0BFBEC2E}Prefabs/Characters/Vests/Vest_JPC/variants/Vest_JPC_okinawa_MC2.et"

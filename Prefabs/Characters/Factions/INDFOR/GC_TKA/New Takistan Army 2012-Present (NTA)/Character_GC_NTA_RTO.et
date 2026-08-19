@@ -27,7 +27,7 @@ SCR_ChimeraCharacter : "{E4CB968B7936E2C7}Prefabs/Characters/Factions/INDFOR/GC_
     LoadoutSlotInfo Boots {
     }
     LoadoutSlotInfo Back {
-     Prefab "{AF8D306702690017}Prefabs/Items/Equipment/Radios/TK/Radio_ANPRC77_TK.et"
+     Prefab "{9B6B61BB3FE3DFB0}Prefabs/Items/Equipment/Radios/TK/Radio_ANPRC77_TK.et"
     }
     LoadoutSlotInfo Vest {
      Prefab "{2835A0EA3B79E63E}Prefabs/Characters/Vests/Vest_ALICE/Variants/Vest_ALICE_rifleman.et"

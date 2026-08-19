@@ -22,7 +22,7 @@ SCR_ChimeraCharacter : "{59D5D91C0FEE29EB}Prefabs/Characters/Factions/BLUFOR/RHS
     ItemsInitConfigurationItem "{6063106E91310A3D}" {
      TargetStorage "Pants/Pants_FROG_Trousers_Arid.et"
      PrefabsToSpawn + {
-      "{389ACBD8C4991F75}Prefabs/Items/Equipment/Radios/US/Squad Radio/Radio_ANPRC343_PRR.et" "{BA0AD5FBC86E88D3}Prefabs/Characters/Eyewear/crossbow/Eyewear_ess_crossbow.et" "{D4ABE8F396146587}Prefabs/Characters/Eyewear/crossbow/Eyewear_ess_crossbow_clr.et" "{9C030889E9A05770}Prefabs/Characters/Eyewear/npp_strelok/Eyewear_npp_strelok.et"
+      "{47E3B8A72FB9F477}Prefabs/Items/Equipment/Radios/US/Squad Radio/Radio_ANPRC343_PRR.et" "{BA0AD5FBC86E88D3}Prefabs/Characters/Eyewear/crossbow/Eyewear_ess_crossbow.et" "{D4ABE8F396146587}Prefabs/Characters/Eyewear/crossbow/Eyewear_ess_crossbow_clr.et" "{9C030889E9A05770}Prefabs/Characters/Eyewear/npp_strelok/Eyewear_npp_strelok.et"
      }
     }
     ItemsInitConfigurationItem "{651D048C906638EA}" {
