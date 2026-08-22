@@ -1,0 +1,35 @@
+Turret : "{DB71EA71A5802162}Prefabs/Vehicles/Wheeled/M998/VehParts/Turrets/M1151_GPK_M134.et" {
+ ID "51ACD0965653D003"
+ components {
+  MeshObject "{51ACD09C4E0B7D16}" {
+   Object "{3432051903D69544}Assets/Empty/empty.xob"
+   Materials {
+    MaterialAssignClass "{69617254E3E9CFAE}" {
+     SourceMaterial "GPK"
+     AssignedMaterial "{720F79D28204104E}Assets/Vehicles/Wheeled/M1151/Data/GPK.emat"
+    }
+   }
+  }
+  SCR_BaseCompartmentManagerComponent "{51ACFBB07A14CFA6}" {
+   CompartmentSlots {
+    TurretCompartmentSlot TurretCompartment {
+     PassengerPositionInfo EntitySlotInfo "{B1CB25848A3D93A8}" {
+      PivotID ""
+      Offset -0.0022 -0.9375 -1.0009
+     }
+    }
+   }
+  }
+  TurretControllerComponent "{51ACD09C61C183E4}" {
+   HasMoveableBase 0
+   LimitsHoriz -30 30
+  }
+  WeaponSlotComponent "{51ACD09C6BFEEE6A}" {
+   AttachType InventoryStorageSlot "{0AACE7470E421D82}" {
+    Offset 0.0154 -0.0159 0.0571
+   }
+   WeaponTemplate "{E517E6CCC1DF5737}Prefabs/Weapons/HeavyWeapons/HMG_M2HB_pintle_M1025.et"
+  }
+ }
+ coords 1.866 -0.035 0.734
+}
