@@ -1,0 +1,8 @@
+Turret : "{CD32C4DDC8D2EDD4}Prefabs/Vehicles/Wheeled/M998/VehParts/Turrets/M1167_GPK_TOW.et" {
+ ID "51ACD0965653D003"
+ components {
+  SlotManagerComponent "{690AB848CC1224F1}" {
+   Enabled 0
+  }
+ }
+}

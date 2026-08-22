@@ -1,0 +1,17 @@
+GenericEntity : "{F81989C2C31335A0}Prefabs/Vehicles/Wheeled/M998/VehParts/M1046_roof_BGM-71.et" {
+ ID "4B42E71698F5739C"
+ components {
+  MeshObject "{4B42E716914465B9}" {
+   Materials {
+    MaterialAssignClass "{697F295ABF84E7F4}" {
+     SourceMaterial "Base"
+     AssignedMaterial "{E8DED8E64059D625}Assets/Vehicles/Wheeled/M998/Data/HMMWV_Body_Roof_USAF_D.emat"
+    }
+    MaterialAssignClass "{697F295ABF84E7E2}" {
+     SourceMaterial "HMMWV_Body_Roof_Int_38AD25796F1BEB94"
+     AssignedMaterial "{259C2F5F30065A2D}Assets/Vehicles/Wheeled/M998/Data/HMMWV_Body_Roof_Int_USAF_D.emat"
+    }
+   }
+  }
+ }
+}

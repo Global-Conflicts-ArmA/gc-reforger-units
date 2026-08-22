@@ -17,7 +17,8 @@ Vehicle : "{70D98AF3555BB341}Prefabs/Vehicles/Wheeled/JLTV/OGPK/TOW/JLTV_OGPK_TO
   SlotManagerComponent "{55BCE45E438E4CFF}" {
    Slots {
     RegisteringComponentSlotInfo Turret {
-     Prefab "{7F5CC99BFAE12904}Prefabs/Vehicles/Wheeled/JLTV/VehParts/Turrets/TOW/JLTV_OGPK_TOW_OD.et"
+     PivotID "v_root"
+     Prefab "{FA8C0D2D059BB13A}Prefabs/Vehicles/Wheeled/M998/VehParts/Turrets/GC_M1167_GPK_TOW.et"
     }
    }
   }

@@ -1,0 +1,39 @@
+Vehicle : "{B120CDDBEF8DB007}Prefabs/Vehicles/Wheeled/M998/M1025_armed_base.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+   MultiSlots {
+    MultiSlotConfiguration "{665C3221AB898DCC}" {
+     SlotTemplate InventoryStorageSlot "{665C3221A92A8177}" {
+      Prefab "{DE25A434026D99AC}Prefabs/Weapons/Tripods/BGM71TOW/Part_BGM-71D_Launcher.et"
+     }
+     NumSlots 6
+    }
+   }
+  }
+ }
+ {
+  $grp GenericEntity : "{DE25A434026D99AC}Prefabs/Weapons/Tripods/BGM71TOW/Part_BGM-71D_Launcher.et" {
+   {
+    ID "698205AF042C0935"
+    coords 0.034 0.983 -1.769
+   }
+   {
+    ID "698205AF042C0953"
+    coords -0.179 0.983 -1.755
+   }
+   {
+    ID "698205AF042C0964"
+    coords 0.445 0.983 -1.822
+   }
+   {
+    ID "698205AF042C096B"
+    coords 0.663 0.983 -1.859
+   }
+   {
+    ID "698205AF042C0974"
+    coords 0.229 0.983 -1.793
+   }
+  }
+ }
+}

@@ -30,15 +30,9 @@ Vehicle : "{E62EEF185EC31C54}Prefabs/Vehicles/Wheeled/JLTV/Unarmed/JLTV_Unarmed.
    MultiSlots {
     MultiSlotConfiguration "{633A2A73E1980EEC}" {
      SlotTemplate InventoryStorageSlot Magazines {
-      Prefab "{C45AE68B74B6136D}Prefabs/Weapons/Tripods/BGM71_TOW/Pod_BGM-71_TOW.et"
+      Prefab "{DE25A434026D99AC}Prefabs/Weapons/Tripods/BGM71TOW/Part_BGM-71D_Launcher.et"
      }
-     NumSlots 3
-    }
-    MultiSlotConfiguration "{665C28770DA8E272}" {
-     SlotTemplate InventoryStorageSlot Turret {
-      Prefab "{C45AE68B74B6136D}Prefabs/Weapons/Tripods/BGM71_TOW/Pod_BGM-71_TOW.et"
-     }
-     NumSlots 3
+     NumSlots 5
     }
    }
   }
@@ -48,7 +42,9 @@ Vehicle : "{E62EEF185EC31C54}Prefabs/Vehicles/Wheeled/JLTV/Unarmed/JLTV_Unarmed.
      Enabled 0
     }
     RegisteringComponentSlotInfo Turret {
-     Prefab "{1CDA36376CD566C3}Prefabs/Vehicles/Wheeled/JLTV/VehParts/Turrets/TOW/JLTV_OGPK_TOW.et"
+     PivotID "v_root"
+     Offset -0.0169 0.4356 -0.2369
+     Prefab "{567CF6C2DC9C3E0F}Prefabs/Vehicles/Wheeled/M998/VehParts/Turrets/GC_M1167_GPK_TOW_Tan.et"
      DisablePhysicsInteraction 1
      RegisterActions 1
      RegisterDamage 1
@@ -74,13 +70,6 @@ Vehicle : "{E62EEF185EC31C54}Prefabs/Vehicles/Wheeled/JLTV/Unarmed/JLTV_Unarmed.
      UIInfo SCR_ActionContextUIInfo "{633A2A735AA87AB7}" {
       Name "Restock TOW"
       Description "Restocks TOW missile"
-     }
-     m_aRearmData {
-      WCS_VehicleRearmData "{62A1474EC72288A4}" {
-       magazine "{C45AE68B74B6136D}Prefabs/Weapons/Tripods/BGM71_TOW/Pod_BGM-71_TOW.et"
-       maxAmount 6
-       unitSupplyCost 20
-      }
      }
     }
    }

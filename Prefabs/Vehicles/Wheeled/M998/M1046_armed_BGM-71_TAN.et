@@ -1,0 +1,24 @@
+Vehicle : "{3085BE631A0DDBDE}Prefabs/Vehicles/Wheeled/M998/M1046_armed_BGM-71.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{697F295AECD97572}" {
+     SourceMaterial "Assets/Vehicles/Wheeled/M998/Data/HMMWV_Body"
+     AssignedMaterial "{C4AB365990070417}Assets/Vehicles/Wheeled/M998/Data/HMMWV_Body_USAF_D.emat"
+    }
+    MaterialAssignClass "{697F295AECD97554}" {
+     SourceMaterial "HMMWV_Body_Int_1C7B4ACE653D9BD1"
+     AssignedMaterial "{2CC2BB6BF01F3499}Assets/Vehicles/Wheeled/M998/Data/HMMWV_Body_Int_USAF_D.emat"
+    }
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Roof {
+     Prefab "{6A866CA0BD692A70}Prefabs/Vehicles/Wheeled/M998/VehParts/M1046_roof_BGM-71_TAN.et"
+    }
+   }
+  }
+ }
+}

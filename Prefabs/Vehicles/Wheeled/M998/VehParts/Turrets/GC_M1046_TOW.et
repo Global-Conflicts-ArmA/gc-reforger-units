@@ -1,0 +1,15 @@
+Turret : "{FA8C0D2D059BB13A}Prefabs/Vehicles/Wheeled/M998/VehParts/Turrets/GC_M1167_GPK_TOW.et" {
+ ID "51ACD0965653D003"
+ components {
+  MeshObject "{51ACD09C4E0B7D16}" {
+   Object "{F06D0F1CBEAC4325}Assets/Vehicles/Wheeled/M998/VehParts/M1025_Turret.xob"
+  }
+  TF_ATGMWeaponSlotComponent "{51ACD09C6BFEEE6A}" {
+   AttachType InventoryStorageSlot "{0AACE7470E421D82}" {
+    PivotID "v_turret_01"
+    Offset 0.0098 -1.8672 0.2609
+   }
+  }
+ }
+ coords 5.507 1.276 6.963
+}
