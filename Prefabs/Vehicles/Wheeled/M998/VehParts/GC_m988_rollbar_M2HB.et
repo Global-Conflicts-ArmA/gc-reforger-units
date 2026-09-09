@@ -1,0 +1,41 @@
+GenericEntity : "{03DBD65A6A91E23B}Prefabs/Vehicles/Wheeled/M998/VehParts/GC_M1151_roof_M2HB.et" {
+ ID "672EDBFBD09A1100"
+ components {
+  MeshObject "{672EDBFBD09A1EBE}" {
+   Object "{E3C54966F779B3D1}Assets/Vehicles/Wheeled/M998/VehParts/M998_Rollbar.xob"
+  }
+  SlotManagerComponent "{672EDBFBD09A1E84}" {
+   Slots {
+    RegisteringComponentSlotInfo Window_LR {
+     Enabled 0
+    }
+    RegisteringComponentSlotInfo Window_RR {
+     Enabled 0
+    }
+    RegisteringComponentSlotInfo Window_RF {
+     Enabled 0
+    }
+    RegisteringComponentSlotInfo Window_LF {
+     Enabled 0
+    }
+    RegisteringComponentSlotInfo Turret {
+     Offset 0 1.9703 -0.2388
+     Prefab "{8A8BB68F07C1B5A0}Prefabs/Vehicles/Wheeled/M998/VehParts/Turrets/GC_m988_pintle_M2HB.et"
+    }
+    RegisteringComponentSlotInfo Window_LF2 {
+     Enabled 0
+    }
+    RegisteringComponentSlotInfo Window_LR2 {
+     Enabled 0
+    }
+    RegisteringComponentSlotInfo Window_RF2 {
+     Enabled 0
+    }
+    RegisteringComponentSlotInfo Window_RR2 {
+     Enabled 0
+    }
+   }
+  }
+ }
+ coords 0 0.277 0
+}
