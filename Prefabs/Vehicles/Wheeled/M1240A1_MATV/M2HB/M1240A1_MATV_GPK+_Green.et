@@ -1,0 +1,18 @@
+Vehicle : "{62C3141D1B627DF2}Prefabs/Vehicles/Wheeled/M1240A1_MATV/M1240A1_MATV_Turret_Base.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    m_Image "{63982F16063ABC8F}UI/Textures/EditorPreviews/Vehicles/Wheeled/MATV/MATV_Green.edds"
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Turret {
+     Offset 0 0.5548 -0.0076
+     Prefab "{8D2119793DE9C4A1}Prefabs/Vehicles/Wheeled/JLTV/VehParts/Turrets/JLTV_OGPK_M2HB_Olive.et"
+    }
+   }
+  }
+ }
+}

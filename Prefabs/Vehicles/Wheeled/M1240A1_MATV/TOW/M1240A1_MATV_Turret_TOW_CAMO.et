@@ -1,0 +1,21 @@
+Vehicle : "{9191594089B5ADFD}Prefabs/Vehicles/Wheeled/M1240A1_MATV/M1240A1_MATV_Turret_TOW_OD.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{6A512E1E1290187D}" {
+     SourceMaterial "MATV_Cabin"
+     AssignedMaterial "{B374AF2CEDF591CE}Assets/Vehicles/Wheeled/M1240A1_MATV/Data/MATV_Cabin_Camo.emat"
+    }
+    MaterialAssignClass "{6A512E1E1290186C}" {
+     SourceMaterial "MATV_Hood"
+     AssignedMaterial "{6195111CF9B102E5}Assets/Vehicles/Wheeled/M1240A1_MATV/Data/MATV_Hood_Camo.emat"
+    }
+    MaterialAssignClass "{6A512E1E1290186A}" {
+     SourceMaterial "MATV_RearModule"
+     AssignedMaterial "{3D90BA75A5ABC6B4}Assets/Vehicles/Wheeled/M1240A1_MATV/Data/MATV_RearModule_Camo.emat"
+    }
+   }
+  }
+ }
+}
