@@ -1,0 +1,13 @@
+GenericEntity : "{1A889B8C00BD9498}Prefabs/Vehicles/Wheeled/M998/VehParts/GC_m988_rollbar_M2HB.et" {
+ ID "672EDBFBD09A1100"
+ components {
+  SlotManagerComponent "{672EDBFBD09A1E84}" {
+   Slots {
+    RegisteringComponentSlotInfo Turret {
+     Offset 0 1.7849 -0.2282
+     Prefab "{8BAFC4DF6AA587F2}Prefabs/Vehicles/Wheeled/M998/VehParts/Turrets/GC_m988_pintle_Mk19_2.et"
+    }
+   }
+  }
+ }
+}

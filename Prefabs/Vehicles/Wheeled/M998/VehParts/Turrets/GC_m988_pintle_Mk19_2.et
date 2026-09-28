@@ -1,0 +1,8 @@
+Turret : "{8A8BB68F07C1B5A0}Prefabs/Vehicles/Wheeled/M998/VehParts/Turrets/GC_m988_pintle_M2HB.et" {
+ ID "51ACD0965653D003"
+ components {
+  WeaponSlotComponent "{51ACD09C6BFEEE6A}" {
+   WeaponTemplate "{8536C17A0C9D2E64}Prefabs/Weapons/HeavyWeapons/MK19/GL_MK19.et"
+  }
+ }
+}
