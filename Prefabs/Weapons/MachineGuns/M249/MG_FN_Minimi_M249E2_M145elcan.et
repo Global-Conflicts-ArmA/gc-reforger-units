@@ -1,0 +1,14 @@
+GenericEntity : "{871FE2C3CE835EA8}Prefabs/Weapons/MachineGuns/M249/MG_FN_Minimi_M249E2.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{692AE2BDD4328F95}" {
+     AttachmentSlot InventoryStorageSlot Optic {
+      Prefab "{D0E5099C896150BC}Prefabs/Weapons/Attachments/Optics/Optic_Elcan_C79/Pronto_Optic_Elcan_C79_BLK.et"
+     }
+    }
+   }
+  }
+ }
+}

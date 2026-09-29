@@ -1,0 +1,17 @@
+SCR_ChimeraCharacter : "{DBD3187CC6FB6A85}Prefabs/Characters/Factions/BLUFOR/US_Army/2007/Desert/Character_US_2007_D_AR.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{5B93C047149FFF42}Prefabs/Weapons/MachineGuns/M249/MG_FN_Minimi_M249E3_M145_Para.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo HandWear {
+     Prefab "{77DCAE8D2D17F796}Prefabs/Characters/Handwear/Gloves_Oakley_SI/Gloves_Oakley_SI_OldGen.et"
+    }
+    LoadoutSlotInfo EyeWear {
+    }
+   }
+  }
+ }
+}
