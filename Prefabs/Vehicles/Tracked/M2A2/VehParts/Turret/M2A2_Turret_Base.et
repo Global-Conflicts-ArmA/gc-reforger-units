@@ -1,0 +1,95 @@
+Turret : "{4AD877DEA242E512}Prefabs/Weapons/Core/Turret_Base.et" {
+ ID "51ACD0965653D003"
+ components {
+  TurretComponent "{5E4A2EC4E1DFBB79}" {
+   components {
+    RHS_2DSightsComponentV3 "{6A862511099BA85D}" {
+     SightsPosition PointInfo "{6A86251146B14D28}" {
+      PivotID "v_gun_01"
+      Offset -0.45 0.45 -0.1
+      Angles -0.04296 0.04296 0
+     }
+     SightsFOVInfo SCR_SightsZoomFOVInfo "{6A862511454288E7}" {
+      m_fZoomMax 13
+      m_fStepZoomSize 3
+      m_fInterpolationSpeed 25
+     }
+     SightsPointFront PointInfo "{6A862511427F6CE5}" {
+      PivotID "v_gun_01"
+      Offset -0.45 0.45 -0.1
+     }
+     SightsPointRear PointInfo "{6A86251140460F80}" {
+      PivotID "v_gun_01"
+      Offset -0.45 0.45 -0.17
+     }
+     SightsPriority 1
+     m_sReticleTexture "{5094796067B20590}UI/Textures/Sights/M2A2/M2A2_ISU_White_UI.edds"
+     m_sReticleGlowTexture "{5094796067B20590}UI/Textures/Sights/M2A2/M2A2_ISU_White_UI.edds"
+     m_bHasIllumination 1
+     m_ReticleColor 1 0.89 0.216 1
+     m_cReticleTextureIllumination 1 0.89 0.216 1
+     m_fVignetteScale 0.7
+     m_fVignetteMoveSpeed 10
+     m_fMotionBlurScale 0
+     m_fReticleOffsetY 0.2
+     m_fReticleAngularSize 3
+     m_fReticlePortion 0.82715
+     m_fMagnification 12
+     m_bEnableThermal 1
+    }
+    RHS_2DSightsComponentV3 "{6A8625110A855C46}" {
+     SightsPosition PointInfo "{6A8625115E4BE896}" {
+      PivotID "v_gun_01"
+      Offset -0.45 0.45 -0.1
+      Angles 0.17 0 0
+     }
+     SightsFOVInfo SCR_SightsZoomFOVInfo "{6A8625115F7C7093}" {
+      m_fBaseZoom 4
+      m_fZoomMax 12
+      m_fStepZoomSize 4
+      m_fInterpolationSpeed 25
+     }
+     SightsPointFront PointInfo "{6A8625115C2F8C7B}" {
+      PivotID "v_gun_01"
+      Offset -0.45 0.45 -0.1
+     }
+     SightsPointRear PointInfo "{6A8625115D396108}" {
+      PivotID "v_gun_01"
+      Offset -0.45 0.45 -0.17
+     }
+     m_sReticleTexture "{C6C50326F6FD4397}UI/Textures/Sights/4x20/4x201024_UI.edds"
+     m_sReticleGlowTexture "{C6C50326F6FD4397}UI/Textures/Sights/4x20/4x201024_UI.edds"
+     m_bHasIllumination 1
+     m_cReticleTextureIllumination 0 0 0 1
+     m_fVignetteScale 0.7
+     m_fVignetteMoveSpeed 10
+     m_fMotionBlurScale 0
+     m_bEnableThermal 1
+    }
+    RHS_VehicleNightVisionComponent "{6A8625110F6FD110}" {
+     m_sNVGGooglesHDRMatrial "{4FCD073BE66BFE09}Assets/Vehicles/SharedMaterials/Vehicle_Thermal_HDR.emat"
+     m_sNVGGooglesFilmGrainMaterial "{184629CB26E4C8ED}Assets/Vehicles/SharedMaterials/Vehicle_Thermal_FilmGrain.emat"
+     m_aGainLevels {
+      0.001 0.003 0.005 0.01 0.03 0.065 0.1 0.3 0.6 1 2 3 4 5 6 7 8 9 10 15 20
+     }
+     m_bUseThermal 1
+     m_bUseMask 0
+     m_bManualGainControl 1
+    }
+    RHS_VehicleThermalComponent "{6A862510F01DCFD7}" {
+     m_sThermalFilter1 "{157B49EACC55826A}UI/Materials/Editor/RHS_ThermalFilter_WhiteAsHot.emat"
+     m_sThermalFilter2 "{80FDECBF3369A2C5}UI/Materials/Editor/RHS_ThermalFilter_BlackAsHot.emat"
+    }
+    SCR_2DSightsComponent "{5E4A2EC4E1DFBB7B}" {
+     Enabled 0
+    }
+    SCR_2DSightsComponent "{65712D242302E53F}" {
+     Enabled 0
+    }
+    SCR_2DSightsComponent "{65712D245687FFA6}" {
+     Enabled 0
+    }
+   }
+  }
+ }
+}
