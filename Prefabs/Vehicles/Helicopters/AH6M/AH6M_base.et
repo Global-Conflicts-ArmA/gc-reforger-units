@@ -1,0 +1,53 @@
+Vehicle : "{CBD8C2393BE87581}Prefabs/Vehicles/Core/Helicopter_Base.et" {
+ ID "57DA6675519A417B"
+ components {
+  AG0_MultiFunctionDisplayComponent "{6A87069EE451B4F6}" {
+   m_MFDConfigs {
+    AG0_MFDSlotConfig "{6A87069EFF1074FF}" {
+     SlotName "TEMP"
+    }
+   }
+   m_AvailablePages {
+    AG0_MFDPageType "{6A87069EFD3FCE1F}" {
+     PageLayoutPath "{93537BC9DE1BE784}UI/layouts/AUS_MFD_MAP_Custom.layout"
+     PageName "Map"
+    }
+   }
+   m_aEnabledCompartments {
+    "pilot" "copilot" "gunner"
+   }
+  }
+  ActionsManagerComponent "{C97BE5489221AE18}" {
+   additionalActions {
+    AKI_Core_ToggleScreenAction "{62F4A71326A4AF36}" {
+    }
+    AG0_MFD_PageFunction "{6A870681CC70C518}" {
+     ParentContextList {
+      "SideScreen_R"
+     }
+     UIInfo SCR_ActionContextUIInfo "{6A870681DF8A074E}" {
+     }
+     ActionTitle "TEMP"
+     m_MFDIndex MFD4
+     m_PageFunctions {
+      AG0_PageFunctionConfig "{6A870681E707053F}" {
+       SourcePageIndices {
+        0 1 2 3
+       }
+       TargetPageIndex 3
+       DisplayName "MAP"
+      }
+     }
+    }
+    AG0_MFD_Power "{6A870682BA6162FC}" {
+     ParentContextList {
+      "SideScreen_R"
+     }
+     UIInfo SCR_ActionContextUIInfo "{6A870682CDD2699A}" {
+     }
+     m_MFDIndex MFD1
+    }
+   }
+  }
+ }
+}
