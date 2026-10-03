@@ -1,0 +1,9 @@
+Vehicle : "{048D9D6B2DB1303D}Prefabs/Vehicles/Core/AUS_Helicopter_Base.et" {
+ ID "5DB688595BAB2FD7"
+ components {
+  SCR_FuelConsumptionComponent "{65C8D63DE15D05BC}" {
+   m_fFuelConsumption 120
+   m_fFuelConsumptionIdle 25
+  }
+ }
+}
