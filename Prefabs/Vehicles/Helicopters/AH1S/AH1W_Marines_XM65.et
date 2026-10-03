@@ -1,0 +1,12 @@
+Vehicle : "{7981D5EB0583B2B3}Prefabs/Vehicles/Helicopters/AH1S/AH1S_Marines_XM65.et" {
+ ID "57DA6675519A417B"
+ components {
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Turret {
+     Prefab "{96A51038656FD5CF}Prefabs/Vehicles/Helicopters/AH1S/VehParts/Turret/M197_XM65_Turret_TI.et"
+    }
+   }
+  }
+ }
+}
