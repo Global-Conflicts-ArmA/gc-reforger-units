@@ -1,0 +1,214 @@
+Vehicle : "{C012BB3488BEA0C2}Prefabs/Vehicles/Wheeled/BTR70/BTR70.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{696213E565F3A293}" {
+     SourceMaterial "BTR_70_base_exterior_Body"
+     AssignedMaterial "{8F3AED6E888AE4A9}Assets/Vehicles/Wheeled/BTR70/Data/BTR_70_base_exterior_Body_AFRF.emat"
+    }
+   }
+  }
+  RHS_GroupMaterialController "{696213E565F3A281}" {
+   m_aGroups {
+    RHS_MaterialGroupProperties "{696213E565F3A280}" {
+     m_iNumberOfTextures 10
+     m_bRandomize 1
+    }
+    RHS_MaterialGroupProperties "{696213E565F3A282}" {
+     m_sGroupName "GROUP2"
+     m_iNumberOfTextures 10
+     m_bRandomize 1
+    }
+    RHS_MaterialGroupProperties "{696213E565F3A28D}" {
+     m_sGroupName "GROUP3"
+     m_iNumberOfTextures 10
+     m_bRandomize 1
+    }
+    RHS_MaterialGroupProperties "{696213E565F3A28C}" {
+     m_sGroupName "LABELS"
+     m_iNumberOfTextures 13
+     m_bRandomize 1
+    }
+   }
+   m_iMaxAllowedDepth 2
+  }
+  SCR_BaseCompartmentManagerComponent "{20FB66C5DCB8DF72}" {
+   CompartmentSlots {
+    CargoCompartmentSlot Passenger_r02 {
+     CompartmentAction SCR_GetInUserAction "{5086CC2FCCAA457D}" {
+      ParentContextList {
+      }
+     }
+     GetOutAction SCR_GetOutAction "{509D56665A8C6923}" {
+      ParentContextList {
+      }
+     }
+     SwitchSeatAction SCR_SwitchSeatAction "{509D56665850650D}" {
+      ParentContextList {
+      }
+     }
+     AdditionalActions {
+      SCR_RemoveCasualtyUserAction "{5D528255CC646B68}" {
+       ParentContextList {
+       }
+      }
+      SCR_RemoveCasualtyUserAction "{61089D5E00C44348}" {
+       ParentContextList {
+       }
+      }
+     }
+     PassengerPositionInfo EntitySlotInfo "{699366C6D607AD06}" {
+      Enabled 0
+     }
+     ContextName ""
+     m_iCompartmentSection 3
+     m_DefaultOccupantData SCR_DefaultOccupantData "{59BA9CCD47C51A48}" {
+      m_sDefaultOccupantPrefab ""
+     }
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    Name "#AR-Vehicle_BTR70_Name RWS KORD"
+    m_Image "{BDC219C023AEF100}UI/Textures/EditorPreviews/Vehicles/Wheeled/BTR70/BTR70_AFRF.edds"
+    m_sFaction "RHS_AFRF"
+    m_aAutoLabels {
+     FACTION_RHS_AFRF SIZE_M
+    }
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{59168B38F20DFF74}" {
+   MultiSlots {
+    MultiSlotConfiguration "{62F49BDC3FB9A9FE}" {
+     SlotTemplate InventoryStorageSlot kpvt {
+      Enabled 0
+     }
+    }
+    MultiSlotConfiguration "{62F49BDC2DD39F35}" {
+     SlotTemplate InventoryStorageSlot pkmt {
+      Enabled 0
+     }
+    }
+    MultiSlotConfiguration "{62F4F2818B194CED}" {
+     SlotTemplate InventoryStorageSlot ak74ammo {
+      Prefab "{FD34D121FA55CB10}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Last_5Tracer.et"
+     }
+    }
+    MultiSlotConfiguration "{62F4F2818CA898CA}" {
+     SlotTemplate InventoryStorageSlot rpk74ammo {
+      Prefab "{52FE3E0398FEEBC4}Prefabs/Weapons/Magazines/6l26/Magazine_545x39_plastic_6l26_45_4Ball_1Tracer.et"
+     }
+    }
+   }
+  }
+  SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+   "faction affiliation" "RHS_AFRF"
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Turret {
+     Offset 0 -0.4073 -0.6282
+     Prefab "{D458BAC44C1EAE67}Prefabs/Vehicles/Wheeled/BTR70/VehParts/Turret/GC_TIGR_Gun_RWS_Arbalest-KPVT.et"
+     DisablePhysicsInteraction 1
+    }
+    EntitySlotInfo Lable_L {
+     PivotID "v_body"
+     Offset -1.1245 0.9755 1.25
+     Angles 0 0 36.7
+     Prefab "{0D546D2B04CF870A}Prefabs/Vehicles/Shared/decal_vehicle_label.et"
+    }
+    EntitySlotInfo Lable_R {
+     PivotID "v_body"
+     Offset 1.1245 0.9755 1.25
+     Angles 0 180 36.7
+     Prefab "{0D546D2B04CF870A}Prefabs/Vehicles/Shared/decal_vehicle_label.et"
+    }
+    EntitySlotInfo Number1_L {
+     PivotID "v_body"
+     Offset -1.1245 0.9755 0.577
+     Angles 0 0 36.7
+     Prefab "{A50BC13DB1FCF1FB}Prefabs/Vehicles/Shared/decal_vehicle_group1_small.et"
+    }
+    EntitySlotInfo Number2_L {
+     PivotID "v_body"
+     Offset -1.1245 0.9755 0.427
+     Angles 0 0 36.7
+     Prefab "{845BF318A6537093}Prefabs/Vehicles/Shared/decal_vehicle_group2_small.et"
+    }
+    EntitySlotInfo Number3_L {
+     PivotID "v_body"
+     Offset -1.1245 0.9755 0.277
+     Angles 0 0 36.7
+     Prefab "{7A5BB35D53011CDF}Prefabs/Vehicles/Shared/decal_vehicle_group3_small.et"
+    }
+    EntitySlotInfo Number1_R {
+     PivotID "v_body"
+     Offset 1.1245 0.9755 0.577
+     Angles 0 180 36.7
+     Prefab "{7A5BB35D53011CDF}Prefabs/Vehicles/Shared/decal_vehicle_group3_small.et"
+    }
+    EntitySlotInfo Number2_R {
+     PivotID "v_body"
+     Offset 1.1245 0.9755 0.427
+     Angles 0 180 36.7
+     Prefab "{845BF318A6537093}Prefabs/Vehicles/Shared/decal_vehicle_group2_small.et"
+    }
+    EntitySlotInfo Number3_R {
+     PivotID "v_body"
+     Offset 1.1245 0.9755 0.277
+     Angles 0 180 36.7
+     Prefab "{A50BC13DB1FCF1FB}Prefabs/Vehicles/Shared/decal_vehicle_group1_small.et"
+    }
+    EntitySlotInfo Number1_B {
+     PivotID "v_body"
+     Offset 0.532 0.6 -3.625
+     Angles 0 -90 0
+     Prefab "{0309D37EFF070E46}Prefabs/Vehicles/Shared/decal_vehicle_group1.et"
+    }
+    EntitySlotInfo Number2_B {
+     PivotID "v_body"
+     Offset 0.7321 0.6 -3.625
+     Angles 0 -90 0
+     Prefab "{6F5DE79E43C38168}Prefabs/Vehicles/Shared/decal_vehicle_group2.et"
+    }
+    EntitySlotInfo Number3_B {
+     PivotID "v_body"
+     Offset 0.9321 0.6 -3.625
+     Angles 0 -90 0
+     Prefab "{8AC1AB674F261603}Prefabs/Vehicles/Shared/decal_vehicle_group3.et"
+    }
+    EntitySlotInfo Lable_B {
+     PivotID "v_body"
+     Offset -0.7821 0.6152 -3.625
+     Angles 0 -90 0
+     Prefab "{0D546D2B04CF870A}Prefabs/Vehicles/Shared/decal_vehicle_label.et"
+    }
+   }
+  }
+ }
+ coords 0 0 0
+ {
+  GenericEntity : "{B901C89C8799C152}Prefabs/Vehicles/Wheeled/JLTV/VehParts/JLTV_Roof_Olive.et" {
+   ID "696213E565F3A2A0"
+   components {
+    Persistence "{6606C872736C2C61}" {
+     Enabled 0
+    }
+    RigidBody "{4B42E71692C2FB79}" {
+     Enabled 0
+     Gravity 0
+    }
+    SCR_DamageManagerComponent "{3EBB276D48AFFF41}" {
+     Enabled 0
+    }
+    RplComponent "{63136787FD0BCE14}" {
+     Enabled 0
+    }
+   }
+   coords 0.047 -1.065 1.7
+   scale 1.25
+  }
+ }
+}
