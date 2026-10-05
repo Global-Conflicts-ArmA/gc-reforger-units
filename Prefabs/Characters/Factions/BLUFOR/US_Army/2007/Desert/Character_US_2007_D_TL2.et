@@ -1,0 +1,8 @@
+SCR_ChimeraCharacter : "{B19C133292F97255}Prefabs/Characters/Factions/BLUFOR/US_Army/2007/Desert/Character_US_2007_D_TL.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{3D1DF943ACAC6E51}Prefabs/Weapons/Rifles/M4/Rifle_M4_RAS_EOT_PEQ.et"
+  }
+ }
+}

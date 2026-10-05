@@ -1,0 +1,19 @@
+GenericEntity : "{338C1CB5D8612292}Prefabs/Weapons/Rifles/M4/Rifle_M4_RAS_PEQ.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{5E0EEDB0BD59EE7D}" {
+     AttachmentSlot RHS_SlidingInventoryStorageSlot Optics {
+      Prefab "{D98BC2AA4912629B}Prefabs/Weapons/Attachments/Optics/Collimators/Optic_Eotech512/Collim_EOTech512.et"
+     }
+    }
+    AttachmentSlotComponent "{5EA2BE949ECF03E3}" {
+     AttachmentSlot RHS_SlidingInventoryStorageSlot "{5EA2BE9573F14F0C}" {
+      Prefab "{F897BC2D6076C5EE}Prefabs/Weapons/Attachments/Lights/PEQ_2A/Pronto_PEQ_2A_BLK.et"
+     }
+    }
+   }
+  }
+ }
+}

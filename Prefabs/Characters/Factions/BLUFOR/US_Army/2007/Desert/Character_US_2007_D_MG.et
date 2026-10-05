@@ -1,0 +1,43 @@
+SCR_ChimeraCharacter : "{AA86CB4755FD1B1B}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/Infantry (Desert)/Character_US_2003_D_MG.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{A8BD39F6C92DA5A5}Prefabs/Weapons/MachineGuns/M240/MG_M240_m145.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{FD2518E4DCEBBDEB}Prefabs/Characters/HeadGear/Helmet_MICH_ACH/Helmet_ACH_SHROUD_UCP.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{196F198CDB01936E}Prefabs/Characters/Uniforms/BDU Blouses/BDU_Raid_Blouse_UCP.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{EA21FEF27B7B36B3}Prefabs/Characters/Vests/Vest_IBA/Variants/IBA/Vest_IBA_base_f_Collar-v2_3CD.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{F34064841341F058}Prefabs/Characters/Uniforms/BDU Trousers/BDU_Trousers_Tucked_UCP.et"
+    }
+    LoadoutSlotInfo EyeWear {
+     Prefab "{1F46C4C58A8A5586}Prefabs/Characters/Eyewear/Bolle X800/Bolle X800 2.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{5D7CAAFB9235E902}" {
+     TargetStorage "Pants/BDU_Trousers_Tucked_UCP.et"
+     PrefabsToSpawn + {
+      "{64322D5D501B7D79}Prefabs/Items/Equipment/Nightvision/PVS14/NVG_PVS14_Base.et"
+     }
+    }
+    ItemsInitConfigurationItem "{5D7CAAFB9235E903}" {
+     TargetStorage "Jacket/BDU_Raid_Blouse_UCP.et"
+    }
+    ItemsInitConfigurationItem "{68AC2A2B54703C78}" {
+     TargetStorage "Pants/BDU_Trousers_Tucked_UCP.et"
+    }
+   }
+  }
+ }
+}
