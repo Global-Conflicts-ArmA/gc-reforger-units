@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{972C42C5BEEECE65}Prefabs/Vehicles/Wheeled/M1240A1_MATV/M1240A1_MATV_Turret_MK19_D.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}
