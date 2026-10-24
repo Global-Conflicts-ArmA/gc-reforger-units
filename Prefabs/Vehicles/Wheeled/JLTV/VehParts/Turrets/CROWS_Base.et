@@ -1,0 +1,62 @@
+Turret : "{4AD877DEA242E512}Prefabs/Weapons/Core/Turret_Base.et" {
+ ID "51ACD0965653D003"
+ components {
+  TurretComponent "{5B24B3A9B2859837}" {
+   components {
+    RHS_2DSightsComponentV3 "{6A86251605F96414}" {
+     SightsPosition PointInfo "{6A8625161CD068BF}" {
+      PivotID "v_gun_01"
+      Offset -0.1429 -0.224 0.2447
+      Angles -0.2 0 0
+     }
+     SightsFOVInfo SCR_SightsZoomFOVInfo "{6A8625161BF29056}" {
+      m_fZoomMax 20
+      m_fStepZoomSize 2
+      m_fInterpolationSpeed 25
+     }
+     SightsPointFront PointInfo "{6A86251618BED258}" {
+      PivotID "v_gun_01"
+      Offset -0.1431 -0.0183 0.1279
+     }
+     SightsPointRear PointInfo "{6A862516195C704A}" {
+      PivotID "v_gun_01"
+      Offset -0.1431 -0.0183 1.2661
+     }
+     m_sReticleTexture "{FD8A835CC30B705D}Assets/Vehicles/Generic/Turrets/Data/Textures/JLTV_Sight.edds"
+     m_sReticleGlowTexture "{FD8A835CC30B705D}Assets/Vehicles/Generic/Turrets/Data/Textures/JLTV_Sight.edds"
+     m_bHasIllumination 1
+     m_fVignetteScale 10
+     m_bShouldHideParentObject 0
+     m_fVignetteMoveSpeed 30
+     m_fMotionBlurScale 0
+     m_bIsNVGCompatible 1
+     m_fObjectiveFov 60
+     m_fObjectiveScale 0.77
+     m_fReticleAngularSize 2.6
+     m_fReticlePortion 0.3
+     m_fReticleBaseZoom 2.6
+     m_fMagnification 2.6
+     m_bEnableThermal 1
+    }
+    RHS_VehicleNightVisionComponent "{6A8625160061E2EC}" {
+     m_sNVGGooglesHDRMatrial "{4FCD073BE66BFE09}Assets/Vehicles/SharedMaterials/Vehicle_Thermal_HDR.emat"
+     m_sNVGGooglesFilmGrainMaterial "{184629CB26E4C8ED}Assets/Vehicles/SharedMaterials/Vehicle_Thermal_FilmGrain.emat"
+     m_aGainLevels {
+      0.001 0.003 0.005 0.01 0.03 0.065 0.1 0.3 0.6 1 2 3 4 5 6 7 8 9 10 15 20
+     }
+     m_bUseThermal 1
+     m_bUseMask 0
+     m_eUseMask CUSTOM
+     m_bManualGainControl 1
+    }
+    RHS_VehicleThermalComponent "{6A86251609DD9F46}" {
+     m_sThermalFilter1 "{157B49EACC55826A}UI/Materials/Editor/RHS_ThermalFilter_WhiteAsHot.emat"
+     m_sThermalFilter2 "{80FDECBF3369A2C5}UI/Materials/Editor/RHS_ThermalFilter_BlackAsHot.emat"
+    }
+    SCR_2DSightsComponent "{5B24B3A9B2859831}" {
+     Enabled 0
+    }
+   }
+  }
+ }
+}
