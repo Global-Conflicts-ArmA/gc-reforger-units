@@ -1,0 +1,22 @@
+Vehicle : "{D41D9CB52F3597EB}Prefabs/Vehicles/Wheeled/M998/M998_uncovered_Pintle_M2.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+   MultiSlots {
+    MultiSlotConfiguration "{69611981395A1329}" {
+     SlotTemplate InventoryStorageSlot Mk19rnds {
+      Prefab "{246807DD30734F3E}Prefabs/Weapons/Magazines/MK_19/Magazine_40mm_MK19_48rnd_Base.et"
+     }
+     NumSlots 8
+    }
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Rollbar {
+     Prefab "{BAA25E10F5508AF5}Prefabs/Vehicles/Wheeled/M998/VehParts/GC_m988_rollbar_Mk19.et"
+    }
+   }
+  }
+ }
+}
