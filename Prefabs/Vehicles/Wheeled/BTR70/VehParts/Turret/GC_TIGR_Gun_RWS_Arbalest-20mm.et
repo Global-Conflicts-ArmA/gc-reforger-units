@@ -1,0 +1,8 @@
+Turret : "{D458BAC44C1EAE67}Prefabs/Vehicles/Wheeled/BTR70/VehParts/Turret/GC_TIGR_Gun_RWS_Arbalest-KPVT.et" {
+ ID "51ACD0965653D003"
+ components {
+  WeaponSlotComponent "{51ACD09C6BFEEE6A}" {
+   WeaponTemplate "{A606A793BA78A050}Prefabs/Weapons/HeavyWeapons/GC_KPVT_20mm.et"
+  }
+ }
+}
