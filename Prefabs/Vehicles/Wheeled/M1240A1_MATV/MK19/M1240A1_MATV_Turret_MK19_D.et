@@ -1,0 +1,28 @@
+Vehicle : "{ADAFFED5E55D5434}Prefabs/Vehicles/Wheeled/M1240A1_MATV/M1240A1_MATV_Turret_MK19_Camo.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{6A512E1E4B02B935}" {
+     SourceMaterial "MATV_Cabin"
+     AssignedMaterial "{F6C3DDC7FB0F7548}Assets/Vehicles/Wheeled/M1240A1_MATV/Data/MATV_Cabin_Tan.emat"
+    }
+    MaterialAssignClass "{6A512E1E4B02B93D}" {
+     SourceMaterial "MATV_Hood"
+     AssignedMaterial "{24DE1F25364F5A66}Assets/Vehicles/Wheeled/M1240A1_MATV/Data/MATV_Hood_Tan.emat"
+    }
+    MaterialAssignClass "{6A512E1E4B02B93C}" {
+     SourceMaterial "MATV_RearModule"
+     AssignedMaterial "{3C76413A2A9F24FE}Assets/Vehicles/Wheeled/M1240A1_MATV/Data/MATV_RearModule_Tan.emat"
+    }
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Turret {
+     Prefab "{893BFE15F8DE7C0A}Prefabs/Vehicles/Wheeled/IvecoLMV/VehParts/Turret/LMV_gun_mount_MK19_Shield_tan.et"
+    }
+   }
+  }
+ }
+}

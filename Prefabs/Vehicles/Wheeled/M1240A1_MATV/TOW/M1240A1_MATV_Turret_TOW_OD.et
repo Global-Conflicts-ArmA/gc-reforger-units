@@ -1,0 +1,70 @@
+Vehicle : "{530F3A12ABA1CD7A}Prefabs/Vehicles/Wheeled/M1240A1_MATV/M1240A1_MATV_Base.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  SCR_VehicleSoundComponent "{55C2E66AD4EF2CA6}" {
+   Filenames +{
+   }
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{5EDC86E4AF8908B6}" {
+      m_Value 500
+     }
+    }
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{65AB02CD55B08A8C}" {
+   MultiSlots {
+    MultiSlotConfiguration "{65AB02CD55B08AFB}" {
+     SlotTemplate InventoryStorageSlot Bandages {
+      Prefab "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et"
+     }
+    }
+    MultiSlotConfiguration "{6A512E1F10BC9FAE}" {
+     SlotTemplate InventoryStorageSlot mag {
+      Prefab "{2EBF60EF24B108FC}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_Ball.et"
+     }
+     NumSlots 10
+    }
+    MultiSlotConfiguration "{6A512E1F10BC9F85}" {
+     SlotTemplate InventoryStorageSlot Boxes {
+      Prefab "{DE25A434026D99AC}Prefabs/Weapons/Tripods/BGM71TOW/Part_BGM-71D_Launcher.et"
+     }
+     NumSlots 6
+    }
+   }
+  }
+  SCR_VehicleCameraDataComponent "{216DA82C75CDD94B}" {
+   m_fDist_Max 7.6
+   m_fDist_Min 6
+   m_fDist_Desired 6.8
+  }
+  CarProcAnimComponent "{A201E6A6F82F2CDA}" {
+   Parameters {
+    ProcAnimParams "{65AB02CD55B0897A}" {
+     BoneNames +{
+     }
+    }
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Turret {
+     PivotID "v_root"
+     Offset 0 0.9836 -0.3556
+     MergePhysics 1
+     Prefab "{CD32C4DDC8D2EDD4}Prefabs/Vehicles/Wheeled/M998/VehParts/Turrets/M1167_GPK_TOW.et"
+     DisablePhysicsInteraction 1
+     RegisterActions 1
+     RegisterDamage 1
+     RegisterControllers 1
+     RegisterWeapons 1
+     RegisterCompartments 1
+     RegisterActionSignals 0
+    }
+   }
+  }
+ }
+ coords 209.47 1 99.326
+}

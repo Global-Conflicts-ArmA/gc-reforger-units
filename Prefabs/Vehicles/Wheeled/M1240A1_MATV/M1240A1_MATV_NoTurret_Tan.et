@@ -1,0 +1,45 @@
+Vehicle : "{62C3141D1B627DF2}Prefabs/Vehicles/Wheeled/M1240A1_MATV/M1240A1_MATV_Turret_Base.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{6A512E1B75381189}" {
+     SourceMaterial "MATV_AddonSet"
+     AssignedMaterial "{3C4223EE2EBF94BF}Assets/Vehicles/Wheeled/M1240A1_MATV/Data/MATV_AddonSet_Tan.emat"
+    }
+    MaterialAssignClass "{6A512E1B753811F4}" {
+     SourceMaterial "MATV_Cabin"
+     AssignedMaterial "{F6C3DDC7FB0F7548}Assets/Vehicles/Wheeled/M1240A1_MATV/Data/MATV_Cabin_Tan.emat"
+    }
+    MaterialAssignClass "{6A512E1B753811F7}" {
+     SourceMaterial "MATV_Hood"
+     AssignedMaterial "{24DE1F25364F5A66}Assets/Vehicles/Wheeled/M1240A1_MATV/Data/MATV_Hood_Tan.emat"
+    }
+    MaterialAssignClass "{6A512E1B753811F1}" {
+     SourceMaterial "MATV_RearModule"
+     AssignedMaterial "{3C76413A2A9F24FE}Assets/Vehicles/Wheeled/M1240A1_MATV/Data/MATV_RearModule_Tan.emat"
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    m_Image "{F94D577B89CB8717}UI/Textures/EditorPreviews/Vehicles/Wheeled/MATV/MATV_Tan.edds"
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Turret {
+     Offset 0 0.9742 -0.3364
+     Prefab "{0C2356FF7C3AC01C}Prefabs/Vehicles/Wheeled/M998/VehParts/Turrets/GPK_Gunner_Hatch_Closed_Tan.et"
+    }
+    TF_Display_Slot BFT {
+     PivotID "v_root"
+     Offset 0.5957 2.1956 0.7993
+     Angles 23.8042 180 0
+     Enabled 0
+     Prefab "{8EE13BE3D990D337}Prefabs/Vehicles/Helicopters/UH1H/VehParts/APKWS_Computer/BFT_Computer.et"
+    }
+   }
+  }
+ }
+}
