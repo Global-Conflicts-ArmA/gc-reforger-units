@@ -33,7 +33,7 @@ SCR_ChimeraCharacter : "{F92C060CACCE8143}Prefabs/Characters/Factions/BLUFOR/RHS
     LoadoutSlotInfo Pants {
     }
     LoadoutSlotInfo Back {
-     Prefab "{2F6209F3160513B0}Prefabs/Items/Equipment/Radios/UK/Kombat_Radio_Pack_CB.et"
+     Prefab "{9B6B61BB3FE3DFB0}Prefabs/Items/Equipment/Radios/Radio_ANPRC77.et"
     }
     LoadoutSlotInfo Vest {
      Prefab "{38D600B4D232D9D9}Prefabs/Characters/Vests/Vest_JPC/variants/Vest_JPC_okinawa_Coy_sniper.et"
@@ -56,7 +56,7 @@ SCR_ChimeraCharacter : "{F92C060CACCE8143}Prefabs/Characters/Factions/BLUFOR/RHS
      Enabled 0
      TargetStorage "Vest/Vest_JPC_okinawa_Coy_sniper.et/radio/Pouch_AVS_MBITR_Radio_Coy.et"
      PrefabsToSpawn {
-      "{68FE5703457F2FF5}Prefabs/Items/Equipment/Radios/US/Radio_ANPRC163_US.et"
+      "{9B6B61BB3FE3DFB0}Prefabs/Items/Equipment/Radios/Radio_ANPRC77.et"
      }
     }
     ItemsInitConfigurationItem "{66B4211E199B8F9A}" {

@@ -44,7 +44,7 @@ SCR_ChimeraCharacter : "{B522F4D4D4787B6B}Prefabs/Characters/Factions/BLUFOR/CDF
    InitialInventoryItems {
     ItemsInitConfigurationItem "{5D7CC173E6675BF7}" {
      PrefabsToSpawn + {
-      "{013A731E59E8FB61}Prefabs/Items/Equipment/Radios/CDF/Radio_ANPRC152_CDF.et"
+      "{9B6B61BB3FE3DFB0}Prefabs/Items/Equipment/Radios/Radio_ANPRC77.et"
      }
     }
     ItemsInitConfigurationItem "{5D7CC173E6675BF5}" {

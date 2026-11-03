@@ -33,7 +33,7 @@ SCR_ChimeraCharacter : "{9DAE5569E31000AA}Prefabs/Characters/Factions/BLUFOR/CDF
     ItemsInitConfigurationItem "{68F0C967C3D09711}" {
      TargetStorage "Jacket/ACU_jacket_MC.et"
      PrefabsToSpawn {
-      "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et" "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et" "{013A731E59E8FB61}Prefabs/Items/Equipment/Radios/CDF/Radio_ANPRC152_CDF.et"
+      "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et" "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et" "{9B6B61BB3FE3DFB0}Prefabs/Items/Equipment/Radios/Radio_ANPRC77.et"
      }
     }
     ItemsInitConfigurationItem "{68F0C967C3D0970A}" {

@@ -20,7 +20,7 @@ SCR_ChimeraCharacter : "{9DAE5569E31000AA}Prefabs/Characters/Factions/BLUFOR/CDF
     }
     LoadoutSlotInfo Back {
      Enabled 0
-     Prefab "{2F6209F3160513B0}Prefabs/Items/Equipment/Radios/CDF/Kombat_Radio_Pack_CB_CDF.et"
+     Prefab "{9B6B61BB3FE3DFB0}Prefabs/Items/Equipment/Radios/Radio_ANPRC77.et"
     }
     LoadoutSlotInfo Vest {
      Enabled 0
