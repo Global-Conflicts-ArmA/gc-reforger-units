@@ -1,0 +1,25 @@
+Vehicle : "{2D199A6BD932D115}Prefabs/Vehicles/Wheeled/BTR70/BTR70_AFRF_RWS_KORD_v2.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    Name "#AR-Vehicle_BTR70_Name RWS PKT"
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{59168B38F20DFF74}" {
+   MultiSlots {
+    MultiSlotConfiguration "{62F49BDC2DD39F35}" {
+     SlotTemplate InventoryStorageSlot pkmt {
+     }
+    }
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Turret {
+     Prefab "{1BD11D979972E9B9}Prefabs/Vehicles/Wheeled/BTR70/VehParts/Turret/GC_TIGR_Gun_RWS_Arbalest-PKT.et"
+    }
+   }
+  }
+ }
+}

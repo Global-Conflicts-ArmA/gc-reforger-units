@@ -1,0 +1,8 @@
+GenericEntity : "{1672938CB3BFBD97}Prefabs/Weapons/Magazines/Magazine_20x102_M197_750rnd_3HEIT_1API.et" {
+ ID "476AE746F954DD20"
+ components {
+  MagazineComponent "{CA6BE4D6B4DAFD69}" {
+   MaxAmmo 150
+  }
+ }
+}

@@ -1,0 +1,17 @@
+Vehicle : "{2D199A6BD932D115}Prefabs/Vehicles/Wheeled/BTR70/BTR70_AFRF_RWS_KORD_v2.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    Name "#AR-Vehicle_BTR70_Name RWS 20mm"
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Turret {
+     Prefab "{5740EC9CF22EDDD0}Prefabs/Vehicles/Wheeled/BTR70/VehParts/Turret/GC_TIGR_Gun_RWS_Arbalest-20mm.et"
+    }
+   }
+  }
+ }
+}

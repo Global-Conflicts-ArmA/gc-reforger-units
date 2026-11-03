@@ -1,0 +1,25 @@
+GenericEntity : "{0261DDFDDD21D614}Prefabs/Weapons/Magazines/Box_145x114_KPVT_50rnd_Base.et" {
+ ID "573227434F7A9B86"
+ components {
+  InventoryMagazineComponent "{51EED12B803954CC}" {
+   Attributes SCR_ItemAttributeCollection "{51EED12B86960275}" {
+    ItemDisplayName UIInfo "{51FEE38527BFEA5B}" {
+     Name "#AR-Magazine_KPVT_API_Name"
+     Description "#AR-Magazine_KPVT_4API_1APIT_Description"
+    }
+   }
+  }
+  MagazineComponent "{CA6BE4D6B4DAFD69}" {
+   UIInfo MagazineUIInfo "{57126733AA401586}" {
+    Name "#AR-Magazine_KPVT_API_Name"
+    m_sAmmoType "#AR-AmmoType_KPVTAPI"
+    m_eAmmoTypeFlags 134
+   }
+   MaxAmmo 500
+   AmmoMapping {
+        1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 
+        1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 
+   }
+  }
+ }
+}
