@@ -1,0 +1,76 @@
+Turret : "{4D399F4C1D31F917}Prefabs/Vehicles/Helicopters/Core/VehParts/Turrets/AKI_Helicopter_Turret_Base.et" {
+ ID "51ACD0965653D003"
+ components {
+  TF_SACLOS_MissileController "{6A862518BB28FED2}" {
+   m_bIsATGM 1
+  }
+  TF_TurretBallisticZeroingComponent "{6A8625187C6459A2}" {
+   m_sFallbackProjectilePrefab "{B426E89A34CDF3DB}Prefabs/Weapons/Ammo/Ammo_30x113_HEDP_M230.et"
+   m_sSightElevationSignalName "SightEL"
+  }
+  TurretComponent "{6292FABB53F6B6A9}" {
+   components {
+    RHS_2DSightsComponentV3 "{6A86251C30080DBE}" {
+     SightsPosition PointInfo "{6A86251C4972ECD6}" {
+      PivotID "v_gun_01"
+      Offset 0 0.25 1.25
+     }
+     SightsFOVInfo SCR_SightsZoomFOVInfo "{6A86251C4175EFC9}" {
+      m_fZoomMax 31
+      m_fStepZoomSize 2
+      m_fInterpolationSpeed 25.3
+     }
+     SightsPointFront PointInfo "{6A86251C5C052FD4}" {
+      PivotID "v_gun_01"
+      Offset 0 0 1.3
+     }
+     SightsPointRear PointInfo "{6A86251C5A9A0F39}" {
+      PivotID "v_gun_01"
+      Offset 0 0 1.2
+     }
+     m_sReticleTexture "{B3EFEAC6C136232D}Assets/Vehicles/Helicopters/AH64D/Data/Shared/Textures/Apache_reticle.edds"
+     m_sReticleGlowTexture "{B3EFEAC6C136232D}Assets/Vehicles/Helicopters/AH64D/Data/Shared/Textures/Apache_reticle.edds"
+     m_bHasIllumination 1
+     m_ReticleColor 1 1 1 1
+     m_fReticleTextureGlowAlpha 0.507
+     m_bShouldHideParentObject 0
+     m_fAnimationSpeedBlur 5
+     m_fObjectiveFov 60
+     m_fObjectiveScale 0.7
+     m_fReticleAngularSize 3.6
+     m_fReticlePortion 0.53711
+     m_fReticleBaseZoom 2.6
+     m_fMagnification 2.6
+     m_bEnableThermal 1
+    }
+    RHS_VehicleNightVisionComponent "{6A86251D5436DA53}" {
+     m_sNVGGooglesHDRMatrial "{4FCD073BE66BFE09}Assets/Vehicles/SharedMaterials/Vehicle_Thermal_HDR.emat"
+     m_sNVGGooglesFilmGrainMaterial "{184629CB26E4C8ED}Assets/Vehicles/SharedMaterials/Vehicle_Thermal_FilmGrain.emat"
+     m_aBlemSet {
+     }
+     m_aGainLevels {
+      0.001 0.003 0.005 0.01 0.03 0.065 0.1 0.3 0.6 1 2 3 4 5 6 7 8 9 10 15 20
+     }
+     m_bUseThermal 1
+     m_bUseMask 0
+     m_eUseMask CUSTOM
+     m_bManualGainControl 1
+    }
+    RHS_VehicleThermalComponent "{6A86251D634933F9}" {
+     m_sThermalFilter1 "{157B49EACC55826A}UI/Materials/Editor/RHS_ThermalFilter_WhiteAsHot.emat"
+     m_sThermalFilter2 "{80FDECBF3369A2C5}UI/Materials/Editor/RHS_ThermalFilter_BlackAsHot.emat"
+    }
+    SCR_2DSightsComponent "{6292FABB53F6B6CF}" {
+     Enabled 0
+     m_fMisalignmentDampingSpeed 0
+     m_fRotationScale 0.1
+     m_fMovementScale 0.2
+     m_fVignetteMoveSpeed 1
+     m_fMotionBlurScale 1
+    }
+   }
+  }
+ }
+ coords 0 0 0
+ angles 0 -0.5 0
+}
