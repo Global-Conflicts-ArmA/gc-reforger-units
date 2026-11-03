@@ -1,0 +1,32 @@
+Vehicle : "{9191594089B5ADFD}Prefabs/Vehicles/Wheeled/M1240A1_MATV/M1240A1_MATV_Turret_TOW_OD.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{6A512E1FF3034135}" {
+     SourceMaterial "MATV_AddonSet"
+     AssignedMaterial "{3C4223EE2EBF94BF}Assets/Vehicles/Wheeled/M1240A1_MATV/Data/MATV_AddonSet_Tan.emat"
+    }
+    MaterialAssignClass "{6A512E1FF303412D}" {
+     SourceMaterial "MATV_Cabin"
+     AssignedMaterial "{F6C3DDC7FB0F7548}Assets/Vehicles/Wheeled/M1240A1_MATV/Data/MATV_Cabin_Tan.emat"
+    }
+    MaterialAssignClass "{6A512E1FF3034114}" {
+     SourceMaterial "MATV_Hood"
+     AssignedMaterial "{24DE1F25364F5A66}Assets/Vehicles/Wheeled/M1240A1_MATV/Data/MATV_Hood_Tan.emat"
+    }
+    MaterialAssignClass "{6A512E1FF303411D}" {
+     SourceMaterial "MATV_RearModule"
+     AssignedMaterial "{3C76413A2A9F24FE}Assets/Vehicles/Wheeled/M1240A1_MATV/Data/MATV_RearModule_Tan.emat"
+    }
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Turret {
+     Prefab "{D4BB6F3F027059EC}Prefabs/Vehicles/Wheeled/M998/VehParts/Turrets/M1167_GPK_TOW_Tan.et"
+    }
+   }
+  }
+ }
+}

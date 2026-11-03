@@ -1,0 +1,21 @@
+Vehicle : "{ADAFFED5E55D5434}Prefabs/Vehicles/Wheeled/M1240A1_MATV/MK19/M1240A1_MATV_Turret_MK19_Camo.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{6A512E1E4B02B935}" {
+     SourceMaterial "MATV_Cabin"
+     AssignedMaterial "{6D2ADA65CCB24A92}Assets/Vehicles/Wheeled/M1240A1_MATV/Data/MATV_Cabin_Green.emat"
+    }
+    MaterialAssignClass "{6A512E1E4B02B93D}" {
+     SourceMaterial "MATV_Hood"
+     AssignedMaterial "{CD22074BF0511333}Assets/Vehicles/Wheeled/M1240A1_MATV/Data/MATV_Hood_Green.emat"
+    }
+    MaterialAssignClass "{6A512E1E4B02B93C}" {
+     SourceMaterial "MATV_RearModule"
+     AssignedMaterial "{4BD6B121AA89D4C5}Assets/Vehicles/Wheeled/M1240A1_MATV/Data/MATV_RearModule_Green.emat"
+    }
+   }
+  }
+ }
+}

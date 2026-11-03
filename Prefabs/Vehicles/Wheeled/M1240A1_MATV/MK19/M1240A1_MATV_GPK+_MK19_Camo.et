@@ -1,0 +1,13 @@
+Vehicle : "{ADAFFED5E55D5434}Prefabs/Vehicles/Wheeled/M1240A1_MATV/MK19/M1240A1_MATV_Turret_MK19_Camo.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Turret {
+     Offset 0 0.5444 -0.0076
+     Prefab "{1024D24BD2DE500F}Prefabs/Vehicles/Wheeled/JLTV/VehParts/Turrets/MK19/JLTV_MK19_OGPK_Woodland.et"
+    }
+   }
+  }
+ }
+}

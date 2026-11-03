@@ -1,0 +1,14 @@
+Vehicle : "{972C42C5BEEECE65}Prefabs/Vehicles/Wheeled/M1240A1_MATV/MK19/M1240A1_MATV_Turret_MK19_D.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Turret {
+     Offset 0 0.5444 -0.0076
+     Prefab "{C8EAB6FB28BC3BDF}Prefabs/Vehicles/Wheeled/JLTV/VehParts/Turrets/MK19/JLTV_MK19_OGPK.et"
+    }
+   }
+  }
+ }
+ coords 6.512 -0.105 0
+}
