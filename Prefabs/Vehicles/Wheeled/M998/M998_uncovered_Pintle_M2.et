@@ -1,0 +1,23 @@
+Vehicle : "{256CF92D598E7163}Prefabs/Vehicles/Wheeled/M998/M998_uncovered_base.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+   MultiSlots {
+    MultiSlotConfiguration "{696119814209E9FE}" {
+     SlotTemplate InventoryStorageSlot M2HBrnds {
+      Prefab "{C820846B0521423B}Prefabs/Weapons/Magazines/Box_127x99_M2_100rnd_4AP_1APIT.et"
+     }
+     NumSlots 8
+    }
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Rollbar {
+     Prefab "{1A889B8C00BD9498}Prefabs/Vehicles/Wheeled/M998/VehParts/GC_m988_rollbar_M2HB.et"
+    }
+   }
+  }
+ }
+ coords 1.902 -2.026 0.96
+}

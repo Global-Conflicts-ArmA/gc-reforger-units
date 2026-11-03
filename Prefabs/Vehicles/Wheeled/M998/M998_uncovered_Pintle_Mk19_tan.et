@@ -1,0 +1,28 @@
+Vehicle : "{1C69770181D1D8EA}Prefabs/Vehicles/Wheeled/M998/M998_uncovered_Pintle_Mk19.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{69611984155CC2AE}" {
+     SourceMaterial "Assets/Vehicles/Wheeled/M998/Data/HMMWV_Body"
+     AssignedMaterial "{C4AB365990070417}Assets/Vehicles/Wheeled/M998/Data/HMMWV_Body_USAF_D.emat"
+    }
+    MaterialAssignClass "{69611984155CCD54}" {
+     SourceMaterial "HMMWV_Body_Details_Int_1C96436D98233F41"
+     AssignedMaterial "{2CC2BB6BF01F3499}Assets/Vehicles/Wheeled/M998/Data/HMMWV_Body_Int_USAF_D.emat"
+    }
+    MaterialAssignClass "{69611984155CCD4C}" {
+     SourceMaterial "HMMWV_Body_Int_1C7B4ACE653D9BD1"
+     AssignedMaterial "{2CC2BB6BF01F3499}Assets/Vehicles/Wheeled/M998/Data/HMMWV_Body_Int_USAF_D.emat"
+    }
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Tailgate {
+     Prefab "{043F0CF18FDEB7B7}Prefabs/Vehicles/Wheeled/M998/VehParts/M998_tailgate_USAF_D.et"
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{8A8BB68F07C1B5A0}Prefabs/Vehicles/Wheeled/M998/VehParts/Turrets/M1151_GPK_KORD_pintletest.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}
