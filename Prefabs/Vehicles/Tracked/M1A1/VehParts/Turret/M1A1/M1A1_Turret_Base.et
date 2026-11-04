@@ -1,0 +1,64 @@
+Turret : "{4AD877DEA242E512}Prefabs/Weapons/Core/Turret_Base.et" {
+ ID "51ACD0965653D003"
+ components {
+  TurretComponent "{5D26251BB476666B}" {
+   components {
+    RHS_2DSightsComponentV3 "{6A862514C4DE9A46}" {
+     SightsPosition PointInfo "{6A8625152157B3D6}" {
+      PivotID "v_gun_01"
+      Offset 0.5945 0.4694 -0.7668
+      Angles 0 -0.05 0
+     }
+     SightsFOVInfo SCR_SightsZoomFOVInfo "{6A8625159270DD67}" {
+      m_fZoomMax 14
+      m_fStepZoomSize 3
+     }
+     SightsPointFront PointInfo "{6A8625153F618390}" {
+      PivotID "v_gun_01"
+      Offset 0.72 0.52 -0.8
+     }
+     SightsPointRear PointInfo "{6A8625153BE2AEE0}" {
+      PivotID "v_gun_01"
+      Offset 0.72 0.52 -0.9
+     }
+     ADSTime 0
+     SightsPriority 1
+     m_sReticleTexture "{1043E8B9D9D51466}UI/Textures/Sights/AbramsGAS/BIOC-white_UI.edds"
+     m_sReticleGlowTexture "{1043E8B9D9D51466}UI/Textures/Sights/AbramsGAS/BIOC-white_UI.edds"
+     m_ReticleColor 1 0 0 1
+     m_ReticleOutlineColor 1 0 0 1
+     m_fVignetteScale 0.7
+     m_bShouldHideParentObject 0
+     m_fVignetteMoveSpeed 10
+     m_fMotionBlurScale 0
+     m_fObjectiveFov 18
+     m_fReticleAngularSize 4
+     m_fReticlePortion 0.53711
+     m_fReticleBaseZoom 3
+     m_fMagnification 3
+     m_bEnableThermal 1
+    }
+    RHS_VehicleNightVisionComponent "{6A862514C041DC52}" {
+     m_sNVGGooglesHDRMatrial "{4FCD073BE66BFE09}Assets/Vehicles/SharedMaterials/Vehicle_Thermal_HDR.emat"
+     m_sNVGGooglesFilmGrainMaterial "{184629CB26E4C8ED}Assets/Vehicles/SharedMaterials/Vehicle_Thermal_FilmGrain.emat"
+     m_aGainLevels {
+      0.001 0.003 0.005 0.01 0.03 0.065 0.1 0.3 0.6 1 2 3 4 5 6 7 8 9 10 15 20
+     }
+     m_bUseThermal 1
+     m_bUseMask 0
+     m_bManualGainControl 1
+    }
+    RHS_VehicleThermalComponent "{6A862514CBCBDFB8}" {
+     m_sThermalFilter1 "{157B49EACC55826A}UI/Materials/Editor/RHS_ThermalFilter_WhiteAsHot.emat"
+     m_sThermalFilter2 "{80FDECBF3369A2C5}UI/Materials/Editor/RHS_ThermalFilter_BlackAsHot.emat"
+    }
+    SCR_2DSightsComponent "{5D26251BB4766667}" {
+     Enabled 0
+    }
+    SCR_2DSightsComponent "{6571159840CDA48D}" {
+     Enabled 0
+    }
+   }
+  }
+ }
+}
