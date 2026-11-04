@@ -1,0 +1,67 @@
+Turret : "{4AD877DEA242E512}Prefabs/Weapons/Core/Turret_Base.et" {
+ ID "51ACD0965653D003"
+ components {
+  TurretComponent "{5CA77AA65F673EA2}" {
+   components {
+    RHS_2DSightsComponentV3 "{6A862517315457A6}" {
+     SightsPosition PointInfo "{6A8625175607B331}" {
+      Offset 0.5725 0.0993 0.7162
+      Angles -0.12 -0.03 0
+     }
+     SightsFOVInfo SCR_SightsZoomFOVInfo "{6A8625175734E487}" {
+      m_fBaseZoom 2
+      m_fZoomMax 27
+      m_fStepZoomSize 5
+      m_fInterpolationSpeed 25
+     }
+     SightsPointFront PointInfo "{6A86251755CE295B}" {
+      PivotID "v_gun_01"
+      Offset 0.7775 0.0143 0.7162
+     }
+     SightsPointRear PointInfo "{6A8625175536FD32}" {
+      PivotID "v_gun_01"
+      Offset 0.7775 0.0143 0.6162
+     }
+     m_sReticleTexture "{C6C50326F6FD4397}UI/Textures/Sights/4x20/4x201024_UI.edds"
+     m_sReticleGlowTexture "{C6C50326F6FD4397}UI/Textures/Sights/4x20/4x201024_UI.edds"
+     m_bHasIllumination 1
+     m_fReticleTextureGlowAlpha 0.5
+     m_fVignetteScale 0.847
+     m_fVignetteMoveSpeed 30
+     m_fMotionBlurScale 0
+     m_fObjectiveFov 23
+     m_fObjectiveScale 0.77
+     m_fReticleAngularSize 3.6
+     m_fReticlePortion 0.53711
+     m_fReticleBaseZoom 2.6
+     m_fMagnification 2.6
+     m_bEnableThermal 1
+    }
+    RHS_VehicleNightVisionComponent "{6A862517326AF9C3}" {
+     m_sNVGGooglesHDRMatrial "{4FCD073BE66BFE09}Assets/Vehicles/SharedMaterials/Vehicle_Thermal_HDR.emat"
+     m_sNVGGooglesFilmGrainMaterial "{184629CB26E4C8ED}Assets/Vehicles/SharedMaterials/Vehicle_Thermal_FilmGrain.emat"
+     m_aGainLevels {
+      0.001 0.003 0.005 0.01 0.03 0.065 0.1 0.3 0.6 1 2 3 4 5 6 7 8 9 10 15 20
+     }
+     m_bUseThermal 1
+     m_bUseMask 0
+     m_eUseMask CUSTOM
+     m_bManualGainControl 1
+    }
+    RHS_VehicleThermalComponent "{6A862517365E1562}" {
+     m_sThermalFilter1 "{157B49EACC55826A}UI/Materials/Editor/RHS_ThermalFilter_WhiteAsHot.emat"
+     m_sThermalFilter2 "{80FDECBF3369A2C5}UI/Materials/Editor/RHS_ThermalFilter_BlackAsHot.emat"
+    }
+    SCR_2DSightsComponent "{5CA77AA65F673EA0}" {
+     Enabled 0
+    }
+    SCR_2DSightsComponent "{649E62A122D88553}" {
+     Enabled 0
+    }
+    SCR_2DSightsComponent "{649E62A124A349DF}" {
+     Enabled 0
+    }
+   }
+  }
+ }
+}
