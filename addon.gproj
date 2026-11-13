@@ -1,7 +1,7 @@
 GameProject {
- ID "GlobalConflictsUnits"
- GUID "6156F2F771D5D73D"
- TITLE "Global Conflicts Units"
+ ID "GlobalConflictsUnitsDev"
+ GUID "6156F2F771D5D73E"
+ TITLE "Global Conflicts Units Dev"
  Dependencies {
   "58D0FB3206B6F859" "623555110E2B2CA0"
  }
