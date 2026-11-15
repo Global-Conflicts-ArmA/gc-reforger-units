@@ -18,6 +18,6 @@ SCR_AIGroup : "{5CC564DD03A08DC5}Prefabs/Groups/BLUFOR/GC_CAF/1993 Canadian Army
  m_aUnitPrefabSlots {
   "{7A76E75B6C2A0697}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Character_1993_CAF_1IC_1_P.et" "{32E19CB521F9F2E2}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Character_1993_CAF_AR_1_P.et" "{652F146EF6635151}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Character_1993_CAF_LAT_1_P.et" "{652F146EF6635151}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Character_1993_CAF_LAT_1_P.et" "{C8A1A5B03388350F}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Character_1993_CAF_2IC_1_P.et" "{652F146EF6635151}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Character_1993_CAF_LAT_1_P.et" "{0B622A37C302BFD9}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Character_1993_CAF_MAT_1_P.et" "{2422A3D588FCEF50}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Character_1993_CAF_MAT2_1_P.et"
  }
- m_sCustomNameSet "Rifle Section"
- m_bSetPlayable 1
+ m_sGC_Description "Rifle Section"
+ m_bPlayable 1
 }

@@ -112,6 +112,6 @@ SCR_AIGroup : "{AE252B0A692DA762}Prefabs/Groups/OPFOR/RHS_AFRF/MSV/Flora/Group_R
  m_aUnitPrefabSlots {
   "{1390D91CBD226D97}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Flora/P/Character_RHS_RF_MSV_Flora_SL_P.et" "{7E1828038FA6CF84}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Flora/P/Character_RHS_RF_MSV_Flora_AR_P.et" "{A6B041C2F62FD1D8}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Flora/P/Character_RHS_RF_MSV_Flora_AT_P.et" "{2DBA3CA1C3117D54}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Flora/P/Character_RHS_RF_MSV_Flora_AAT_P.et" "{6E8835E4D8B1510E}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Flora/P/Character_RHS_RF_MSV_Flora_SR_P.et" "{A91BD4FC63B0F492}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Flora/P/Character_RHS_RF_MSV_Flora_Rifleman_P.et"
  }
- m_sCustomNameSet "Rifle Squad"
- m_bSetPlayable 1
+ m_sGC_Description "Rifle Squad"
+ m_bPlayable 1
 }

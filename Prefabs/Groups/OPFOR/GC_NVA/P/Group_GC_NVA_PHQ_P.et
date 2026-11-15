@@ -4,6 +4,5 @@ SCR_AIGroup : "{2BA4FF1232A6371C}Prefabs/Groups/OPFOR/GC_NVA/Group_NVA_Base.et" 
   "{69EF6951898BD00B}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_PlatoonLeader_P.et" "{E768556E051B2813}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_DeputyPlatoonLeader_P.et"
  }
  m_bPlayable 1
- m_sCustomNameSet "Platoon HQ"
- m_bSetPlayable 1
+ m_sGC_Description "Platoon HQ"
 }

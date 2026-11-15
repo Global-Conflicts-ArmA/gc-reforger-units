@@ -1,8 +1,5 @@
 SCR_ChimeraCharacter : "{8CCD3F8BF3DBF9F6}Prefabs/Characters/Factions/BLUFOR/US_Army/DBDU/Character_US_DBDU_Sapper.et" {
  ID "52092032B0E62200"
  components {
-  PS_PlayableComponent "{5EFCC1946F475F15}" {
-   m_bIsPlayable 1
-  }
  }
 }

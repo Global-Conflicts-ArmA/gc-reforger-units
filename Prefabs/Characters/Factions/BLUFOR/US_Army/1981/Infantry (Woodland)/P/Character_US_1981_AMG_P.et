@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{CA2EB3A73FABC625}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_AMG_P.et" {
+SCR_ChimeraCharacter : "{6058AB54781A0C52}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_AMG.et" {
  ID "522AAC66D0A2C0DC"
  components {
   SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {

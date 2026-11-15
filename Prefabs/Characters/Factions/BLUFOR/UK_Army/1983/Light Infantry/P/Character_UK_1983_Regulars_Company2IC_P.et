@@ -1,10 +1,6 @@
 SCR_ChimeraCharacter : "{1958315C7F55F1AA}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Regulars/Character_UK_1983_Regulars_PlatoonLeader.et" {
  ID "520EC961A090B1EE"
  components {
-  PS_PlayableComponent "{5EFCC1946F475F15}" {
-   m_sName "Company 2IC"
-   m_bIsPlayable 1
-  }
   SCR_CharacterRankComponent "{528E6D4286AA2D8F}" {
    m_iRank CAPTAIN
   }
@@ -38,6 +34,11 @@ SCR_ChimeraCharacter : "{1958315C7F55F1AA}Prefabs/Characters/Factions/BLUFOR/UK_
       "{1A7FE1AC9E645F27}Prefabs/Items/Equipment/Radios/UK/Radio_PRC349.et"
      }
     }
+   }
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Company 2IC"
    }
   }
  }

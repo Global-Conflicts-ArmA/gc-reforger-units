@@ -1,10 +1,6 @@
 SCR_ChimeraCharacter : "{AFAB51733A61BC3B}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/7th ID/Character_US_7ID_1986_SquadLeader_1.et" {
  ID "520EC961A090B1EE"
  components {
-  PS_PlayableComponent "{5EFCC1946F475F15}" {
-   m_sName "Squad Leader"
-   m_bIsPlayable 1
-  }
   SCR_CharacterRankComponent "{528E6D4286AA2D8F}" {
    m_iRank SERGEANT
   }
@@ -21,6 +17,9 @@ SCR_ChimeraCharacter : "{AFAB51733A61BC3B}Prefabs/Characters/Factions/BLUFOR/US_
       m_sVariantPrefab "{54C692B07B5EAD07}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/7th ID/P/Character_US_7ID_1986_SquadLeader_3_P.et"
      }
     }
+   }
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Squad Leader"
    }
   }
  }

@@ -3,6 +3,6 @@ SCR_AIGroup : "{EE8D60FCE6D3B856}Prefabs/Groups/BLUFOR/RHS_USAF/RHS_USAF_USMC_ME
  m_aUnitPrefabSlots {
   "{25FECB70EBFE3EDA}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Rangers/Character_RHS_RANGER_09_SL.et" "{4859D3B18F5C5472}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Rangers/Character_RHS_RANGER_09_TL.et" "{2A10FBA1AE4CA314}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Rangers/Character_RHS_RANGER_09_GR.et" "{3F5A5B3AC26D441A}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Rangers/Character_RHS_RANGER_09_AR.et" "{D9936548CBBAA1CD}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Rangers/Character_RHS_RANGER_09_RF.et" "{4859D3B18F5C5472}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Rangers/Character_RHS_RANGER_09_TL.et" "{2A10FBA1AE4CA314}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Rangers/Character_RHS_RANGER_09_GR.et" "{AA3790BBEF97F183}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Rangers/Character_RHS_RANGER_09_MG.et" "{D9936548CBBAA1CD}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Rangers/Character_RHS_RANGER_09_RF.et"
  }
- m_sCustomNameSet "Ranger Squad"
- m_bSetPlayable 1
+ m_sGC_Description "Ranger Squad"
+ m_bPlayable 1
 }

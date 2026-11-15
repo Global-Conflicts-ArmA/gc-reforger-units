@@ -8,5 +8,6 @@ SCR_AIGroup : "{2FA8727C0B695783}Prefabs/Groups/BLUFOR/British Forces/1989/Group
  m_aUnitPrefabSlots {
   "{B91DD30212CF242F}Prefabs/Characters/Factions/BLUFOR/UK_Army/1991 (Desert)/Fusiliers/Character_UK_1991_Regulars_Desert_PlatoonLeader_P.et" "{63B6818A3D03591F}Prefabs/Characters/Factions/BLUFOR/UK_Army/1991 (Desert)/Fusiliers/Character_UK_1991_Regulars_Desert_Sergeant_P.et" "{9D6503B9F7F2EEC2}Prefabs/Characters/Factions/BLUFOR/UK_Army/1991 (Desert)/Fusiliers/Character_UK_1991_Regulars_Desert_Medic_P.et" "{56BE8BF480CB99A9}Prefabs/Characters/Factions/BLUFOR/UK_Army/1991 (Desert)/Fusiliers/Character_UK_1991_Regulars_Desert_RTO_P.et"
  }
- m_sCustomNameSet "Armd Inf Platoon HQ (Dismounted)"
+ m_sGC_Description "Armd Inf Platoon HQ (Dismounted)"
+ m_bPlayable 1
 }

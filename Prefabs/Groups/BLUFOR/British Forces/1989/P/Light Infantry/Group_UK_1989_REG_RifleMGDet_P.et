@@ -8,5 +8,6 @@ SCR_AIGroup : "{FB08033A33E826D5}Prefabs/Groups/BLUFOR/British Forces/1989/Group
  m_aUnitPrefabSlots {
   "{14297AE2CB7BC202}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/Light Infantry/Character_UK_1989_Regulars_SectionCommander_P.et" "{4755583337EF5985}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/Light Infantry/Character_UK_1989_Regulars_GPMG_No1_P.et" "{38F1F906A4661D16}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/Light Infantry/Character_UK_1989_Regulars_AMG_P.et" "{4755583337EF5985}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/Light Infantry/Character_UK_1989_Regulars_GPMG_No1_P.et" "{38F1F906A4661D16}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/Light Infantry/Character_UK_1989_Regulars_AMG_P.et" "{4755583337EF5985}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/Light Infantry/Character_UK_1989_Regulars_GPMG_No1_P.et" "{38F1F906A4661D16}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/Light Infantry/Character_UK_1989_Regulars_AMG_P.et"
  }
- m_sCustomNameSet "GPMG (SF) Detatchment"
+ m_sGC_Description "GPMG (SF) Detatchment"
+ m_bPlayable 1
 }

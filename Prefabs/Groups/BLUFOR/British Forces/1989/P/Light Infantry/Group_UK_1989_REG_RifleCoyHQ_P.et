@@ -9,5 +9,6 @@ SCR_AIGroup : "{2FA8727C0B695783}Prefabs/Groups/BLUFOR/British Forces/1989/Group
  m_aUnitPrefabSlots {
   "{ED6B5D94A88AEA3A}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/Light Infantry/Character_UK_1989_Regulars_CompanyCommander_P.et" "{521885BD023B0AF2}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/Light Infantry/Character_UK_1989_Regulars_Company2IC_P.et" "{208BB1203AC4A981}worlds/arc/TheOldWood/Prefabs/Character_UK_1989_Regulars_CSM_P.et" "{1EA191A52F0A6C09}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/Light Infantry/Character_UK_1989_Regulars_RTO_P.et" "{914DB90C3AD73E19}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/Light Infantry/Character_UK_1989_Regulars_MFC_P.et" "{D6E00D1D655B6C68}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/Light Infantry/Character_UK_1989_Regulars_Medic_P.et" "{D6E00D1D655B6C68}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/Light Infantry/Character_UK_1989_Regulars_Medic_P.et"
  }
- m_sCustomNameSet "Rifle Platoon HQ"
+ m_sGC_Description "Rifle Platoon HQ"
+ m_bPlayable 1
 }

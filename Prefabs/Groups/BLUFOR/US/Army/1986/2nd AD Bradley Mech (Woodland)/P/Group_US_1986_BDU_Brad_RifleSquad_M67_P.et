@@ -4,13 +4,13 @@ SCR_AIGroup : "{EACD97CF4A702FAE}Prefabs/Groups/BLUFOR/Group_US_Base.et" {
   AIFormationComponent "{507E9DC12F541FE6}" {
    DefaultFormation "line"
   }
-  PS_GroupCallsignAssigner "{63616C6C7369676E}" {
-  }
  }
  m_aUnitPrefabSlots {
   "{32499E22236D264B}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Woodland (BDU)/2AD Bradley Mech/P/Character_US_1986_BDU_Brad_SL_P.et" "{7B1C194621AD2553}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Woodland (BDU)/2AD Bradley Mech/P/Character_US_1986_BDU_Brad_Gunner_P.et" "{84045A64127AC7C8}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Woodland (BDU)/2AD Bradley Mech/P/Character_US_1986_BDU_Brad_Driver_P.et" "{DA5D9301DC952EBE}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Woodland (BDU)/2AD Bradley Mech/P/Character_US_1986_BDU_Brad_SLAss_P.et" "{9C9AB518A1C0E902}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Woodland (BDU)/P/Character_US_1986_BDU_MG_P.et" "{87FFAAF2254AB251}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Woodland (BDU)/P/Character_US_1986_BDU_AMG_P.et" "{D3CD054F30B8BAD5}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Woodland (BDU)/P/Character_US_1986_BDU_GL_P.et" "{E1FEFB8E5AF7B890}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Woodland (BDU)/P/Character_US_1986_BDU_MAT_P.et" "{EF3E40EB85EDB94C}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Woodland (BDU)/P/Character_US_1986_BDU_RF_P.et"
  }
  m_bPlayable 1
- m_sCustomNameSet "Bradley Rifle Squad"
- m_bSetPlayable 1
+ m_sGC_Description "Bradley Rifle Squad"
+ m_iGC_CallsignCompany "0"
+ m_iGC_CallsignPlatoon "0"
+ m_iGC_CallsignSquad "0"
 }

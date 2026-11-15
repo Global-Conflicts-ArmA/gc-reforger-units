@@ -1,9 +1,6 @@
 SCR_ChimeraCharacter : "{7524FBDAD6D11BE8}Prefabs/Characters/Factions/OPFOR/GC_IRA/Character_GC_IRA_SL.et" {
  ID "520EC961A090B1EE"
  components {
-  PS_PlayableComponent "{5EFCC1946F475F15}" {
-   m_bIsPlayable 1
-  }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{5D7CC173FAA7C00E}" {

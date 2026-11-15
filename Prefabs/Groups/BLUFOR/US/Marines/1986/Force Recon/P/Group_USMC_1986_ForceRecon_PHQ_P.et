@@ -3,6 +3,6 @@ SCR_AIGroup : "{EACD97CF4A702FAE}Prefabs/Groups/BLUFOR/Group_US_Base.et" {
  m_aUnitPrefabSlots {
   "{749B46917A10D0C1}Prefabs/Characters/Factions/BLUFOR/US_Army/1980_ForceRecon/Character_US_FORCON_80_PL_P.et" "{F39A16997A8BCB57}Prefabs/Characters/Factions/BLUFOR/US_Army/1980_ForceRecon/Character_US_FORCON_80_Sergeant_P.et" "{225C56388686C965}Prefabs/Characters/Factions/BLUFOR/US_Army/1980_ForceRecon/Character_US_FORCON_80_RTO_P.et" "{2EF1243D4A797DC4}Prefabs/Characters/Factions/BLUFOR/US_Army/1980_ForceRecon/Character_US_FORCON_80_Medic_P.et"
  }
- m_sCustomNameSet "Platoon HQ"
- m_bSetPlayable 1
+ m_sGC_Description "Platoon HQ"
+ m_bPlayable 1
 }

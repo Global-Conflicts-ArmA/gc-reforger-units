@@ -1,8 +1,5 @@
 SCR_ChimeraCharacter : "{E7EEB0ADDDC83290}Prefabs/Characters/Factions/OPFOR/GC_IRA/Character_GC_IRA_ATA.et" {
  ID "520EC961A090B1EE"
  components {
-  PS_PlayableComponent "{5EFCC1946F475F15}" {
-   m_bIsPlayable 1
-  }
  }
 }

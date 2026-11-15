@@ -3,5 +3,5 @@ SCR_AIGroup : "{EACD97CF4A702FAE}Prefabs/Groups/BLUFOR/Group_US_Base.et" {
  m_aUnitPrefabSlots {
   "{DF401A06FAD08C48}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/101st Airborne/P/Character_US_101st_1982_CoyCO_P.et" "{80CFC826FC47E3F7}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/101st Airborne/P/Character_US_101st_1982_CoyXO_P.et" "{B8B2E3C47BD9005D}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/101st Airborne/P/Character_US_101st_1982_1SG_P.et" "{16405CF202B8D506}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/101st Airborne/P/Character_US_101st_1982_FAC_P.et" "{44A6135FBF132F4B}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/101st Airborne/P/Character_US_101st_1982_RTO_P.et" "{0ABA94C1B43F7E1A}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/101st Airborne/P/Character_US_101st_1982_Medic_P.et" "{0ABA94C1B43F7E1A}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/101st Airborne/P/Character_US_101st_1982_Medic_P.et"
  }
- m_bSetPlayable 1
+ m_bPlayable 1
 }

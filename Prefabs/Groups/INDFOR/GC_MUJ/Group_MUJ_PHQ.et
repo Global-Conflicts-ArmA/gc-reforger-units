@@ -10,5 +10,5 @@ SCR_AIGroup : "{0826634ED9D15839}Prefabs/Groups/INDFOR/GC_MUJ/Group_MUJ_base.et"
  m_aUnitPrefabSlots {
   "{2CD9683057C04459}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_SL.et" "{72F1B01DDB14F8BA}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Med.et" "{D7506F007D0B1ADD}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Rad.et" "{2393D92D53C9DC01}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Marksman.et"
  }
- m_sCustomNameSet "Cell HQ"
+ m_sGC_Description "Cell HQ"
 }

@@ -9,6 +9,6 @@ SCR_AIGroup : "{EACD97CF4A702FAE}Prefabs/Groups/BLUFOR/Group_US_Base.et" {
  m_aUnitPrefabSlots {
   "{D68786D677234EBA}Prefabs/Characters/Factions/BLUFOR/US_Army/7th ID/1986/Character_US_7ID_1986_PlatoonLeader_1.et" "{A12AD99DB95389A9}Prefabs/Characters/Factions/BLUFOR/US_Army/7th ID/1986/Character_US_7ID_1986_PlatoonSgt_1.et" "{BBD030523130F17B}Prefabs/Characters/Factions/BLUFOR/US_Army/7th ID/1986/Character_US_7ID_1986_RTO_1.et" "{3FAD56379330544F}Prefabs/Characters/Factions/BLUFOR/US_Army/7th ID/1986/Character_US_7ID_1986_Machinegun_1.et" "{EEC3D45B590FAF54}Prefabs/Characters/Factions/BLUFOR/US_Army/7th ID/1986/Character_US_7ID_1986_MachinegunAss_1.et" "{EEC3D45B590FAF54}Prefabs/Characters/Factions/BLUFOR/US_Army/7th ID/1986/Character_US_7ID_1986_MachinegunAss_1.et" "{3FAD56379330544F}Prefabs/Characters/Factions/BLUFOR/US_Army/7th ID/1986/Character_US_7ID_1986_Machinegun_1.et" "{EEC3D45B590FAF54}Prefabs/Characters/Factions/BLUFOR/US_Army/7th ID/1986/Character_US_7ID_1986_MachinegunAss_1.et" "{EEC3D45B590FAF54}Prefabs/Characters/Factions/BLUFOR/US_Army/7th ID/1986/Character_US_7ID_1986_MachinegunAss_1.et" "{64449A5A7E6E4881}Prefabs/Characters/Factions/BLUFOR/US_Army/7th ID/1986/Character_US_7ID_1986_Medic_1.et"
  }
- m_sCustomNameSet "Platoon HQ"
- m_bSetPlayable 0
+ m_sGC_Description "Platoon HQ"
+ m_bPlayable 0
 }

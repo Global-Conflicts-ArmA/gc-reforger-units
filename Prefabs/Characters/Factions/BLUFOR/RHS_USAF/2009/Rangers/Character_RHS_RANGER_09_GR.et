@@ -12,9 +12,6 @@ SCR_ChimeraCharacter : "{D9936548CBBAA1CD}Prefabs/Characters/Factions/BLUFOR/RHS
     }
    }
   }
-  PS_PlayableComponent "{5EFCC1946F475F15}" {
-   m_sName "Grenadier"
-  }
   SCR_CharacterRankComponent "{528E6D4286AA2D8F}" {
    m_iRank PRIVATE
   }
@@ -28,6 +25,9 @@ SCR_ChimeraCharacter : "{D9936548CBBAA1CD}Prefabs/Characters/Factions/BLUFOR/RHS
       m_sVariantPrefab "{B0FB548B3DD15D63}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/2009/Variants/Character_RHS_RANGER_09_GR_2.et"
      }
     }
+   }
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Grenadier"
    }
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {

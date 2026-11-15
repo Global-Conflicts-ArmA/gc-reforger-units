@@ -3,4 +3,5 @@ SCR_AIGroup : "{FFAEBAF18631085F}Prefabs/Groups/BLUFOR/US/Army/2020/Infantry/Gro
  m_aUnitPrefabSlots {
   "{D18131EDC15F76FC}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Army Infantry/P/Character_RHS_USA_PL_P.et" "{FE6B45B02AA350D7}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Army Infantry/P/Character_RHS_USA_PSG_P.et" "{0968B9123279513A}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Army Infantry/P/Character_RHS_USA_RTO_P.et" "{6FE1861E4D73D425}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Army Infantry/P/Character_RHS_USA_Medic_P.et" "{6FE1861E4D73D425}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Army Infantry/P/Character_RHS_USA_Medic_P.et"
  }
+ m_bPlayable 1
 }

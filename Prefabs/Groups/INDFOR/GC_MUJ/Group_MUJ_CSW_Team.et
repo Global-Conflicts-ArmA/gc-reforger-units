@@ -10,5 +10,5 @@ SCR_AIGroup : "{0826634ED9D15839}Prefabs/Groups/INDFOR/GC_MUJ/Group_MUJ_base.et"
  m_aUnitPrefabSlots {
   "{2CD9683057C04459}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_SL.et" "{EEA84EE338925B39}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_CSW_GNR.et" "{E83000D682D222C3}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_AmmoBearer.et" "{E83000D682D222C3}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_AmmoBearer.et"
  }
- m_sCustomNameSet "Rifle Group"
+ m_sGC_Description "Rifle Group"
 }

@@ -4,13 +4,13 @@ SCR_AIGroup : "{EACD97CF4A702FAE}Prefabs/Groups/BLUFOR/Group_US_Base.et" {
   AIFormationComponent "{507E9DC12F541FE6}" {
    DefaultFormation "line"
   }
-  PS_GroupCallsignAssigner "{63616C6C7369676E}" {
-  }
  }
  m_aUnitPrefabSlots {
   "{86519F90C3408D26}Prefabs/Characters/Factions/BLUFOR/US_Army/1989/Infantry (Woodland)/P/Character_US_1989_BDU_PL_CO_P.et" "{BFA68FAC936D8E5A}Prefabs/Characters/Factions/BLUFOR/US_Army/1989/Infantry (Woodland)/P/Character_US_1989_BDU_PSG_P.et" "{C65B9CABAD35095E}Prefabs/Characters/Factions/BLUFOR/US_Army/1989/Infantry (Woodland)/P/Character_US_1989_BDU_Medic_P.et" "{9FDABBA1FA4E0382}Prefabs/Characters/Factions/BLUFOR/US_Army/1989/Infantry (Woodland)/P/Character_US_1989_BDU_RTO_P.et" "{38D773132BC63251}Prefabs/Characters/Factions/BLUFOR/US_Army/1989/Infantry (Woodland)/P/Character_US_1989_BDU_MG_P.et" "{B98AD3027122729D}Prefabs/Characters/Factions/BLUFOR/US_Army/1989/Infantry (Woodland)/P/Character_US_1989_BDU_AMG_P.et" "{38D773132BC63251}Prefabs/Characters/Factions/BLUFOR/US_Army/1989/Infantry (Woodland)/P/Character_US_1989_BDU_MG_P.et" "{B98AD3027122729D}Prefabs/Characters/Factions/BLUFOR/US_Army/1989/Infantry (Woodland)/P/Character_US_1989_BDU_AMG_P.et"
  }
  m_bPlayable 1
- m_sCustomNameSet "Platoon HQ"
- m_bSetPlayable 1
+ m_sGC_Description "Platoon HQ"
+ m_iGC_CallsignCompany "0"
+ m_iGC_CallsignPlatoon "0"
+ m_iGC_CallsignSquad "0"
 }

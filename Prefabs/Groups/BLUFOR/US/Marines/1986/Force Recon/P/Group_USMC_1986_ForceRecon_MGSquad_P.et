@@ -3,6 +3,6 @@ SCR_AIGroup : "{EACD97CF4A702FAE}Prefabs/Groups/BLUFOR/Group_US_Base.et" {
  m_aUnitPrefabSlots {
   "{7E3E16DCCC002346}Prefabs/Characters/Factions/BLUFOR/US_Army/1980_ForceRecon/Character_US_FORCON_80_SL_P.et" "{040C3E9B0DEAB87A}Prefabs/Characters/Factions/BLUFOR/US_Army/1980_ForceRecon/Character_US_FORCON_80_AMG_P.et" "{4ED665D035BC22B5}Prefabs/Characters/Factions/BLUFOR/US_Army/1980_ForceRecon/Character_US_FORCON_80_MG_P.et" "{DADB45B1E28C9154}Prefabs/Characters/Factions/BLUFOR/US_Army/1980_ForceRecon/Character_US_FORCON_80_MGAmmo_P.et" "{040C3E9B0DEAB87A}Prefabs/Characters/Factions/BLUFOR/US_Army/1980_ForceRecon/Character_US_FORCON_80_AMG_P.et" "{4ED665D035BC22B5}Prefabs/Characters/Factions/BLUFOR/US_Army/1980_ForceRecon/Character_US_FORCON_80_MG_P.et" "{DADB45B1E28C9154}Prefabs/Characters/Factions/BLUFOR/US_Army/1980_ForceRecon/Character_US_FORCON_80_MGAmmo_P.et"
  }
- m_sCustomNameSet "MG Squad"
- m_bSetPlayable 1
+ m_sGC_Description "MG Squad"
+ m_bPlayable 1
 }

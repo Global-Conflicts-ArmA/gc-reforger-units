@@ -3,5 +3,5 @@ SCR_AIGroup : "{8CAFDCB911AB3AC8}Prefabs/Groups/OPFOR/GC_INSURGENT/Group_INS_Bas
  m_aUnitPrefabSlots {
   "{EC724922472CA4FE}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_PL.et" "{4897891FB9800F99}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Medic.et"
  }
- m_sCustomNameSet "Cell HQ"
+ m_sGC_Description "Cell HQ"
 }

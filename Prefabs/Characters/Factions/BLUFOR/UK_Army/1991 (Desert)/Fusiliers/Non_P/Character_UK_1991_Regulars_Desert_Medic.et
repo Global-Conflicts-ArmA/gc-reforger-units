@@ -1,8 +1,5 @@
 SCR_ChimeraCharacter : "{9D6503B9F7F2EEC2}Prefabs/Characters/Factions/BLUFOR/UK_Army/1991 (Desert)/Fusiliers/Character_UK_1991_Regulars_Desert_Medic_P.et" {
  ID "520EC961A090B1EE"
  components {
-  PS_PlayableComponent "{5EFCC1946F475F15}" {
-   m_bIsPlayable 0
-  }
  }
 }

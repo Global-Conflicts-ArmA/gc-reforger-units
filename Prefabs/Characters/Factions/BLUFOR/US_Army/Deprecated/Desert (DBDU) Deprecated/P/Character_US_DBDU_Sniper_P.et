@@ -1,8 +1,5 @@
 SCR_ChimeraCharacter : "{E240A7EAC4F4B620}Prefabs/Characters/Factions/BLUFOR/US_Army/DBDU/Character_US_DBDU_Sniper.et" {
  ID "520EC961A090BBD5"
  components {
-  PS_PlayableComponent "{5EFCC1946F475F15}" {
-   m_bIsPlayable 1
-  }
  }
 }

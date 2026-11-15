@@ -4,13 +4,13 @@ SCR_AIGroup : "{EACD97CF4A702FAE}Prefabs/Groups/BLUFOR/Group_US_Base.et" {
   AIFormationComponent "{507E9DC12F541FE6}" {
    DefaultFormation "line"
   }
-  PS_GroupCallsignAssigner "{63616C6C7369676E}" {
-  }
  }
  m_aUnitPrefabSlots {
   "{45CD2BA057ADDCF5}Prefabs/Characters/Factions/BLUFOR/US_Army/1989/Infantry (Woodland)/P/Character_US_1989_BDU_COY_CO_P.et" "{1A42F980513AB34A}Prefabs/Characters/Factions/BLUFOR/US_Army/1989/Infantry (Woodland)/P/Character_US_1989_BDU_COY_XO_P.et" "{32DF7DDCD4B62929}Prefabs/Characters/Factions/BLUFOR/US_Army/1989/Infantry (Woodland)/P/Character_US_1989_BDU_COY_CSM_P.et" "{9FDABBA1FA4E0382}Prefabs/Characters/Factions/BLUFOR/US_Army/1989/Infantry (Woodland)/P/Character_US_1989_BDU_RTO_P.et" "{C65B9CABAD35095E}Prefabs/Characters/Factions/BLUFOR/US_Army/1989/Infantry (Woodland)/P/Character_US_1989_BDU_Medic_P.et" "{C65B9CABAD35095E}Prefabs/Characters/Factions/BLUFOR/US_Army/1989/Infantry (Woodland)/P/Character_US_1989_BDU_Medic_P.et"
  }
  m_bPlayable 1
- m_sCustomNameSet "Company HQ"
- m_bSetPlayable 1
+ m_sGC_Description "Company HQ"
+ m_iGC_CallsignCompany "0"
+ m_iGC_CallsignPlatoon "0"
+ m_iGC_CallsignSquad "0"
 }

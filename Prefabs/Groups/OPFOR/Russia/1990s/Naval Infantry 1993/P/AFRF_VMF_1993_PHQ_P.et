@@ -16,4 +16,5 @@ SCR_AIGroup : "{B50B7BF31273C2A6}Prefabs/Groups/OPFOR/RHS_AFRF/MSV/VKPO_Demiseas
  m_aUnitPrefabSlots {
   "{56B5B65746CC1C78}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VMF/VSR/P/Character_RHS_RF_VMF_VSR_PL_P.et" "{654B9621417E9B45}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VMF/VSR/P/Character_RHS_RF_VMF_VSR_PSG_P.et" "{C6FB55309A5E66A2}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VMF/VSR/P/Character_RHS_RF_VMF_VSR_Medic_P.et"
  }
+ m_bPlayable 1
 }

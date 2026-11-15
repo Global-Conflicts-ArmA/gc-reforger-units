@@ -3,7 +3,7 @@ GameProject {
  GUID "6156F2F771D5D73E"
  TITLE "Global Conflicts Units Dev"
  Dependencies {
-  "58D0FB3206B6F859" "623555110E2B2CA1"
+  "58D0FB3206B6F859" "623555110E2B2CA1" "6A115D5DFF7ED870"
  }
  Configurations {
   GameProjectConfig PC {

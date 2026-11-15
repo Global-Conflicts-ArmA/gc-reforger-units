@@ -1,10 +1,6 @@
 SCR_ChimeraCharacter : "{F487760AB6777BF3}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/Light Infantry/Character_UK_1989_Regulars_PlatoonLeader.et" {
  ID "520EC961A090B1EE"
  components {
-  PS_PlayableComponent "{5EFCC1946F475F15}" {
-   m_sName "Company Commander"
-   m_bIsPlayable 1
-  }
   SCR_CharacterRankComponent "{528E6D4286AA2D8F}" {
    m_iRank MAJOR
   }

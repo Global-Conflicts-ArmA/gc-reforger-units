@@ -22,5 +22,6 @@ SCR_AIGroup : "{5CC564DD03A08DC5}Prefabs/Groups/BLUFOR/GC_CAF/1993 Canadian Army
  m_aUnitPrefabSlots {
   "{EA637704AF310880}Prefabs/Characters/Factions/BLUFOR/GC_Canada/2025 Canadian Army/Arid/Character_CAF_2020_ARID_SL.et" "{0A290B5C9E846298}Prefabs/Characters/Factions/BLUFOR/GC_Canada/2025 Canadian Army/Arid/Character_CAF_2020_ARID_Grenadier.et" "{E4EF5DDD6206A26D}Prefabs/Characters/Factions/BLUFOR/GC_Canada/2025 Canadian Army/Arid/Character_CAF_2020_ARID_RiflemanLAT.et" "{1D91C69BF41F7DCB}Prefabs/Characters/Factions/BLUFOR/GC_Canada/2025 Canadian Army/Arid/Character_CAF_2020_ARID_Rifleman.et" "{4FE6CF897B77BCEA}Prefabs/Characters/Factions/BLUFOR/GC_Canada/2025 Canadian Army/Arid/Character_CAF_2020_ARID_AR.et" "{70338086ED9C0223}Prefabs/Characters/Factions/BLUFOR/GC_Canada/2025 Canadian Army/Arid/Character_CAF_2020_ARID_S2IC.et" "{4FE6CF897B77BCEA}Prefabs/Characters/Factions/BLUFOR/GC_Canada/2025 Canadian Army/Arid/Character_CAF_2020_ARID_AR.et" "{1E7EBEDFD8FDECAB}Prefabs/Characters/Factions/BLUFOR/GC_Canada/2025 Canadian Army/Arid/Character_CAF_2020_ARID_S3IC.et" "{E4EF5DDD6206A26D}Prefabs/Characters/Factions/BLUFOR/GC_Canada/2025 Canadian Army/Arid/Character_CAF_2020_ARID_RiflemanLAT.et" "{1D91C69BF41F7DCB}Prefabs/Characters/Factions/BLUFOR/GC_Canada/2025 Canadian Army/Arid/Character_CAF_2020_ARID_Rifleman.et"
  }
- m_sCustomNameSet ""
+ m_sGC_Description ""
+ m_bPlayable 0
 }

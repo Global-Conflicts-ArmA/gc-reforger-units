@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{EB2904CE98753A6E}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_MG_P.et" {
+SCR_ChimeraCharacter : "{1623EA3AEFACA0E4}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_MG.et" {
  ID "39332739B2DAC6B2"
  components {
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {

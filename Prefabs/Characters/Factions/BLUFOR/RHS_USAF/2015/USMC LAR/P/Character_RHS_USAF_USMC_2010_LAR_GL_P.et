@@ -1,9 +1,6 @@
 SCR_ChimeraCharacter : "{6B5214972C952A21}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Character_RHS_USAF_USMC_GL.et" {
  ID "520EC961A090BBD5"
  components {
-  PS_PlayableComponent "{5EFCC1946F475F15}" {
-   m_bIsPlayable 1
-  }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
    WeaponTemplate "{AE636A4C3343B17E}Prefabs/Weapons/Rifles/M4/Rifle_M4_RAS_PEQ_RCO_M203.et"
   }

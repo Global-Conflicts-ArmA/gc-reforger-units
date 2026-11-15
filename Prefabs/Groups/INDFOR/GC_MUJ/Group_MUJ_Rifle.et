@@ -10,5 +10,5 @@ SCR_AIGroup : "{0826634ED9D15839}Prefabs/Groups/INDFOR/GC_MUJ/Group_MUJ_base.et"
  m_aUnitPrefabSlots {
   "{2CD9683057C04459}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_SL.et" "{1F5012C522E2356A}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_LAT.et" "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et" "{020C7EF03183EF2B}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_AutoRifle.et" "{4A8AFB51826FCE3E}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_BoltAction.et" "{4A8AFB51826FCE3E}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_BoltAction.et" "{4A8AFB51826FCE3E}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_BoltAction.et" "{4A8AFB51826FCE3E}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_BoltAction.et" "{4A8AFB51826FCE3E}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_BoltAction.et"
  }
- m_sCustomNameSet "Rifle Group"
+ m_sGC_Description "Rifle Group"
 }

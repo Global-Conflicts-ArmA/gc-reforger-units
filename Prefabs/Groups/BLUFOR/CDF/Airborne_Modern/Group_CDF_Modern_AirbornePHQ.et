@@ -10,5 +10,5 @@ SCR_AIGroup : "{28C2538AD0A4338E}Prefabs/Groups/BLUFOR/CDF/Group_CDF_base.et" {
  m_aUnitPrefabSlots {
   "{BB329B7033788B7B}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Airborne/Character_CDF_Airborne_PL.et" "{AA8A98BD3A650745}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Airborne/Character_CDF_Airborne_PSG.et" "{A56D2F867DE357CF}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Airborne/Character_CDF_Airborne_RTO.et" "{D90F007CC5F912FD}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Airborne/Character_CDF_Airborne_MED.et"
  }
- m_sCustomNameSet "Platoon HQ"
+ m_sGC_Description "Platoon HQ"
 }

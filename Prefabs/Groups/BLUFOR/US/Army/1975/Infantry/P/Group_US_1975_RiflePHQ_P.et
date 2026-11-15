@@ -3,5 +3,5 @@ SCR_AIGroup : "{EACD97CF4A702FAE}Prefabs/Groups/BLUFOR/Group_US_Base.et" {
  m_aUnitPrefabSlots {
   "{EFDCC25FF6D4BEC8}Prefabs/Characters/Factions/BLUFOR/US_Army/1970_Rifles/Character_US_70_PL_P.et" "{32CD15CCAACA6F55}Prefabs/Characters/Factions/BLUFOR/US_Army/1970_Rifles/Character_US_70_Sergeant_P.et" "{A068EB3D4980B34C}Prefabs/Characters/Factions/BLUFOR/US_Army/1970_Rifles/Character_US_70_RTO_P.et" "{DCF5BA79C8590081}Prefabs/Characters/Factions/BLUFOR/US_Army/1970_Rifles/Character_US_70_Medic_P.et"
  }
- m_bSetPlayable 1
+ m_bPlayable 1
 }

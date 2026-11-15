@@ -12,10 +12,6 @@ SCR_ChimeraCharacter : "{936B2046BD111A6F}Prefabs/Characters/Factions/INDFOR/RHS
     }
    }
   }
-  PS_PlayableComponent "{5EFCC1946F475F15}" {
-   m_sName "Rifleman"
-   m_bIsPlayable 1
-  }
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_VariantData SCR_EditableEntityVariantData "{65C77DAADB15CFE8}" {
     m_aVariants {
@@ -29,6 +25,9 @@ SCR_ChimeraCharacter : "{936B2046BD111A6F}Prefabs/Characters/Factions/INDFOR/RHS
       m_sVariantPrefab "{55D29A625336DC61}Prefabs/Characters/Factions/INDFOR/RHS_ION/Uniformed_Division/Playable/Character_GC_ION_Uniformed_Rifleman3_P.et"
      }
     }
+   }
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Rifleman"
    }
   }
   CharacterGrenadeSlotComponent "{520EA1D2F659CE6E}" {

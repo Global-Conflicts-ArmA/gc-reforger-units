@@ -12,8 +12,5 @@ SCR_ChimeraCharacter : "{7E5EB3DAC1A5C558}Prefabs/Characters/Factions/OPFOR/GC_I
     }
    }
   }
-  PS_PlayableComponent "{5EFCC1946F475F15}" {
-   m_bIsPlayable 1
-  }
  }
 }

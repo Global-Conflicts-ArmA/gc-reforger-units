@@ -1,9 +1,6 @@
 SCR_ChimeraCharacter : "{9D7D6D238A9D8B0D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/P/Character_GC_INSURGENT_CO_P.et" {
  ID "520EC961A090B1EE"
  components {
-  PS_PlayableComponent "{5EFCC1946F475F15}" {
-   m_sName "2IC"
-  }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {
@@ -19,6 +16,11 @@ SCR_ChimeraCharacter : "{9D7D6D238A9D8B0D}Prefabs/Characters/Factions/OPFOR/GC_I
     ItemsInitConfigurationItem "{5D7CC173FAA7C00E}" {
      TargetStorage "Pants/Pants_Trousers_01_DarkBrown.et"
     }
+   }
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "2IC"
    }
   }
  }

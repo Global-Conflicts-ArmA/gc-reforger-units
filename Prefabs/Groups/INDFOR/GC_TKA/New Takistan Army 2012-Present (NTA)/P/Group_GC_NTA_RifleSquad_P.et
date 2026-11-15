@@ -3,4 +3,5 @@ SCR_AIGroup : "{546136191CC15D5C}Prefabs/Groups/INDFOR/GC_TKA/New Takistan Army 
  m_aUnitPrefabSlots {
   "{1DFC72385B9C7466}Prefabs/Characters/Factions/INDFOR/GC_TKA/New Takistan Army 2012-Present (NTA)/P/Character_GC_NTA_SL_P.et" "{05A99832F0C1DC12}Prefabs/Characters/Factions/INDFOR/GC_TKA/New Takistan Army 2012-Present (NTA)/P/Character_GC_NTA_AT_P.et" "{38304BAD9AE62A14}Prefabs/Characters/Factions/INDFOR/GC_TKA/New Takistan Army 2012-Present (NTA)/P/Character_GC_NTA_ATA_P.et" "{6243B16333582642}Prefabs/Characters/Factions/INDFOR/GC_TKA/New Takistan Army 2012-Present (NTA)/P/Character_GC_NTA_GL_P.et" "{CF7A423EC2EBD064}Prefabs/Characters/Factions/INDFOR/GC_TKA/New Takistan Army 2012-Present (NTA)/P/Character_GC_NTA_TL_P.et" "{2D140134A2207595}Prefabs/Characters/Factions/INDFOR/GC_TKA/New Takistan Army 2012-Present (NTA)/P/Character_GC_NTA_MG_P.et" "{DBB5708A46097F74}Prefabs/Characters/Factions/INDFOR/GC_TKA/New Takistan Army 2012-Present (NTA)/P/Character_GC_NTA_MGA_P.et" "{3A32A8C28D8931A7}Prefabs/Characters/Factions/INDFOR/GC_TKA/New Takistan Army 2012-Present (NTA)/P/Character_GC_NTA_Rifleman_P.et"
  }
+ m_bPlayable 1
 }

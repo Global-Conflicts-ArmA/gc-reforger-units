@@ -3,6 +3,6 @@ SCR_AIGroup : "{EACD97CF4A702FAE}Prefabs/Groups/BLUFOR/Group_US_Base.et" {
  m_aUnitPrefabSlots {
   "{7E3E16DCCC002346}Prefabs/Characters/Factions/BLUFOR/US_Army/1980_ForceRecon/Character_US_FORCON_80_SL_P.et" "{ACB826DA55778744}Prefabs/Characters/Factions/BLUFOR/US_Army/1980_ForceRecon/Character_US_FORCON_80_TL_P.et" "{DBBBAE511846972C}Prefabs/Characters/Factions/BLUFOR/US_Army/1980_ForceRecon/Character_US_FORCON_80_AR_P.et" "{C720348DE65FD2E5}Prefabs/Characters/Factions/BLUFOR/US_Army/1980_ForceRecon/Character_US_FORCON_80_Rifleman_P.et" "{0181D587A4C47162}Prefabs/Characters/Factions/BLUFOR/US_Army/1980_ForceRecon/Character_US_FORCON_80_GL_P.et" "{0C4051BE47365C33}Prefabs/Characters/Factions/BLUFOR/US_Army/1980_ForceRecon/Character_US_FORCON_80_LAT_P.et"
  }
- m_sCustomNameSet "Recon Squad"
- m_bSetPlayable 1
+ m_sGC_Description "Recon Squad"
+ m_bPlayable 1
 }

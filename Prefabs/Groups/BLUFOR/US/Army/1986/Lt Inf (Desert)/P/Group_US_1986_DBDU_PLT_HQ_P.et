@@ -4,13 +4,13 @@ SCR_AIGroup : "{EACD97CF4A702FAE}Prefabs/Groups/BLUFOR/Group_US_Base.et" {
   AIFormationComponent "{507E9DC12F541FE6}" {
    DefaultFormation "line"
   }
-  PS_GroupCallsignAssigner "{63616C6C7369676E}" {
-  }
  }
  m_aUnitPrefabSlots {
   "{A97B29E1A69F17EE}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Desert (DBDU)/P/Character_US_1986_DBDU_PL_CO_P.et" "{65CD83837EC6E955}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Desert (DBDU)/P/Character_US_1986_DBDU_PSG_P.et" "{45B1B78E17E5648D}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Desert (DBDU)/P/Character_US_1986_DBDU_RTO_P.et" "{E9712ADAC8EA9396}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Desert (DBDU)/P/Character_US_1986_DBDU_Medic_P.et" "{A14D49AF5A732528}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Desert (DBDU)/P/Character_US_1986_DBDU_MG_P.et" "{63E1DF2D9C891592}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Desert (DBDU)/P/Character_US_1986_DBDU_AMG_P.et" "{A14D49AF5A732528}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Desert (DBDU)/P/Character_US_1986_DBDU_MG_P.et" "{63E1DF2D9C891592}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Desert (DBDU)/P/Character_US_1986_DBDU_AMG_P.et"
  }
  m_bPlayable 1
- m_sCustomNameSet "Platoon HQ"
- m_bSetPlayable 1
+ m_sGC_Description "Platoon HQ"
+ m_iGC_CallsignCompany "0"
+ m_iGC_CallsignPlatoon "0"
+ m_iGC_CallsignSquad "0"
 }

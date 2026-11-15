@@ -1,11 +1,13 @@
 SCR_AIGroup : "{DDF3799FA1387848}Prefabs/Groups/BLUFOR/Group_US_RifleSquad.et" {
  ID "0000000000000001"
  components {
-  PS_GroupCallsignAssigner "{63616C6C7369676E}" {
-  }
  }
  m_aUnitPrefabSlots {
   "{F106C4C1EDD95428}Prefabs/Characters/Factions/BLUFOR/US_Army/1989/Infantry (Woodland)/P/Character_US_1989_BDU_Mortar_CO_P.et" "{62461DA4BC5B019E}Prefabs/Characters/Factions/BLUFOR/US_Army/1989/Infantry (Woodland)/P/Character_US_1989_BDU_Mortar_Crew_P.et" "{62461DA4BC5B019E}Prefabs/Characters/Factions/BLUFOR/US_Army/1989/Infantry (Woodland)/P/Character_US_1989_BDU_Mortar_Crew_P.et"
  }
- m_sCustomNameSet "Mortar Crew"
+ m_sGC_Description "Mortar Crew"
+ m_bPlayable 1
+ m_iGC_CallsignCompany "0"
+ m_iGC_CallsignPlatoon "0"
+ m_iGC_CallsignSquad "0"
 }

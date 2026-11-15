@@ -18,5 +18,5 @@ SCR_AIGroup : "{EE8D60FCE6D3B856}Prefabs/Groups/BLUFOR/RHS_USAF/RHS_USAF_USMC_ME
  m_aUnitPrefabSlots {
   "{F497538433990AAB}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2006/Navy SEALs/UCP/Character_RHS_USA_SEAL_2006_UCP_PL.et" "{00011B021CFA9928}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2006/Navy SEALs/UCP/Character_RHS_USA_SEAL_2006_UCP_AR.et" "{D9213361259C05FA}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2006/Navy SEALs/UCP/Character_RHS_USA_SEAL_2006_UCP_Marksman.et" "{8B9ACE32AD1CC8ED}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2006/Navy SEALs/UCP/Character_RHS_USA_SEAL_2006_UCP_Rifleman.et" "{6A4E104C48F881F8}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2006/Navy SEALs/UCP/Character_RHS_USA_SEAL_2006_UCP_TL.et" "{0DD46523EB4DF002}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2006/Navy SEALs/UCP/Character_RHS_USA_SEAL_2006_UCP_GL.et" "{456C5F3DBBDD8FA8}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2006/Navy SEALs/UCP/Character_RHS_USA_SEAL_2006_UCP_Demo.et" "{8AB3D0A8D7658324}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2006/Navy SEALs/UCP/Character_RHS_USA_SEAL_2006_UCP_Medic.et"
  }
- m_sCustomNameSet "Platoon HQ"
+ m_sGC_Description "Platoon HQ"
 }

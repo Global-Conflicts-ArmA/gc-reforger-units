@@ -3,4 +3,5 @@ SCR_AIGroup : "{5EBA5F514EC05630}Prefabs/Groups/OPFOR/Russia/1990s/Airborne Infa
  m_aUnitPrefabSlots {
   "{97E36D2C583E53B6}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/VSR/P/Character_RHS_RF_VDV_VSR_PL_P.et" "{5D9FEB018D853634}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/VSR/P/Character_RHS_RF_VDV_VSR_PSG_P.et" "{A14EAF83342282FF}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/VSR/P/Character_RHS_RF_VDV_VSR_Medic_P.et"
  }
+ m_bPlayable 1
 }

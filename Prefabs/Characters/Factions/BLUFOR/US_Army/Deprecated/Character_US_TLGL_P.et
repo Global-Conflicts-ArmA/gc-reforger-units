@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{094747C4F8BE9F9F}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_TL_P.et" {
+SCR_ChimeraCharacter : "{E398E44759DA1A43}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_TL.et" {
  ID "51FA90A5D40EA513"
  components {
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {

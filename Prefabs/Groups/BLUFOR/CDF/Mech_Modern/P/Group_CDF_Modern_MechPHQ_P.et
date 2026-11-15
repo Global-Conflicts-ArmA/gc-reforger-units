@@ -3,4 +3,5 @@ SCR_AIGroup : "{36AC489E01F17547}Prefabs/Groups/BLUFOR/CDF/Modern/Group_CDF_Mode
  m_aUnitPrefabSlots {
   "{6814EBCED3BBC7B8}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern/P/Character_CDF_Modern_PL_P.et" "{4ABCAC9444662FDC}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern/P/Character_CDF_Modern_Sergeant_P.et" "{F220C3998CD88060}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern/P/Character_CDF_Modern_Medic_P.et"
  }
+ m_bPlayable 1
 }

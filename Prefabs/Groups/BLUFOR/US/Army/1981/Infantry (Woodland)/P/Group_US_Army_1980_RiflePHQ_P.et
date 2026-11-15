@@ -3,5 +3,5 @@ SCR_AIGroup : "{EACD97CF4A702FAE}Prefabs/Groups/BLUFOR/Group_US_Base.et" {
  m_aUnitPrefabSlots {
   "{229F56A29D7E8DA3}Prefabs/Characters/Factions/BLUFOR/US_Army/1980_Rifles/Character_US_80_PL_P.et" "{AB30106FBD55619A}Prefabs/Characters/Factions/BLUFOR/US_Army/1980_Rifles/Character_US_80_Sergeant_P.et" "{56A6BAA7CFC08E5C}Prefabs/Characters/Factions/BLUFOR/US_Army/1980_Rifles/Character_US_80_RTO_P.et" "{18D275E3D2D27FD7}Prefabs/Characters/Factions/BLUFOR/US_Army/1980_Rifles/Character_US_80_MG_P.et" "{70F6D20444ACFF43}Prefabs/Characters/Factions/BLUFOR/US_Army/1980_Rifles/Character_US_80_AMG_P.et" "{FA979110FE9BE8B3}Prefabs/Characters/Factions/BLUFOR/US_Army/1980_Rifles/Character_US_80_MGAmmo_P.et" "{18D275E3D2D27FD7}Prefabs/Characters/Factions/BLUFOR/US_Army/1980_Rifles/Character_US_80_MG_P.et" "{70F6D20444ACFF43}Prefabs/Characters/Factions/BLUFOR/US_Army/1980_Rifles/Character_US_80_AMG_P.et" "{FA979110FE9BE8B3}Prefabs/Characters/Factions/BLUFOR/US_Army/1980_Rifles/Character_US_80_MGAmmo_P.et" "{586DF8C76C63B293}Prefabs/Characters/Factions/BLUFOR/US_Army/1980_Rifles/Character_US_80_Medic_P.et"
  }
- m_bSetPlayable 1
+ m_bPlayable 1
 }

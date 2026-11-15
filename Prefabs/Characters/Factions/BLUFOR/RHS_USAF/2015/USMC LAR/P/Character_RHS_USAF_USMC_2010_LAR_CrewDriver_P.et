@@ -1,9 +1,6 @@
 SCR_ChimeraCharacter : "{28FF5276F7A1C80E}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Character_RHS_USAF_USMC_Crew_P.et" {
  ID "520EC961A090BBD5"
  components {
-  PS_PlayableComponent "{5EFCC1946F475F15}" {
-   m_sName "Crewman (Driver)"
-  }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
    WeaponTemplate "{D2C367D173B99BCD}Prefabs/Weapons/Rifles/M4A1/Rifle_M4_RAS.et"
   }
@@ -22,6 +19,11 @@ SCR_ChimeraCharacter : "{28FF5276F7A1C80E}Prefabs/Characters/Factions/BLUFOR/RHS
       "{9C05543A503DB80E}Prefabs/Weapons/Magazines/Magazine_9x19_M9_15rnd_Ball.et" "{9C05543A503DB80E}Prefabs/Weapons/Magazines/Magazine_9x19_M9_15rnd_Ball.et"
      }
     }
+   }
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Crewman (Driver)"
    }
   }
  }

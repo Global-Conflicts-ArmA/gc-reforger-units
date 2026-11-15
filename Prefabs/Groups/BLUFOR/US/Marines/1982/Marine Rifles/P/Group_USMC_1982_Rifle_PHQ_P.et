@@ -3,6 +3,6 @@ SCR_AIGroup : "{EACD97CF4A702FAE}Prefabs/Groups/BLUFOR/Group_US_Base.et" {
  m_aUnitPrefabSlots {
   "{229F56A29D7E8DA3}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/Infantry (Woodland)/P/Character_US_1981_PL_P.et" "{AB30106FBD55619A}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/Infantry (Woodland)/P/Character_US_1981_Sergeant_P.et" "{6AE9563CED4610BC}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/Infantry (Woodland)/P/Character_US_1981_Corpsman_P.et" "{56A6BAA7CFC08E5C}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/Infantry (Woodland)/P/Character_US_1981_RTO_P.et"
  }
- m_sCustomNameSet "Platoon HQ"
- m_bSetPlayable 1
+ m_sGC_Description "Platoon HQ"
+ m_bPlayable 1
 }

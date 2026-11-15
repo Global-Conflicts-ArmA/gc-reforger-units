@@ -1,8 +1,5 @@
 SCR_ChimeraCharacter : "{192BEA2733BB8937}Prefabs/Characters/Factions/OPFOR/GC_ARG/1980_SpecialForces/Character_GC_ARG_1980_SF_RF.et" {
  ID "520EC961A090B1EE"
  components {
-  PS_PlayableComponent "{5EFCC1946F475F15}" {
-   m_bIsPlayable 1
-  }
  }
 }

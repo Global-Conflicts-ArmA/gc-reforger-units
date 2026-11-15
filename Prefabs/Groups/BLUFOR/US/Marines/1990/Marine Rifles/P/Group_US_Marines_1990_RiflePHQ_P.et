@@ -1,11 +1,12 @@
 SCR_AIGroup : "{0C5E312755DB1D2F}Prefabs/Groups/BLUFOR/US/Marines/1990/Marine Rifles/Group_US_Marines_1990_RiflePHQ.et" {
  ID "0000000000000001"
  components {
-  PS_GroupCallsignAssigner "{63616C6C7369676E}" {
-   Enabled 0
-  }
  }
  m_aUnitPrefabSlots {
   "{86519F90C3408D26}Prefabs/Characters/Factions/BLUFOR/US_Army/1989/Infantry (Woodland)/P/Character_US_1989_BDU_PL_CO_P.et" "{BFA68FAC936D8E5A}Prefabs/Characters/Factions/BLUFOR/US_Army/1989/Infantry (Woodland)/P/Character_US_1989_BDU_PSG_P.et" "{488063F54BC710F5}Prefabs/Characters/Factions/BLUFOR/US_Army/1989/Infantry (Woodland)/P/Character_US_1989_BDU_PGuide_P.et" "{3C0061EF85655534}Prefabs/Characters/Factions/BLUFOR/US_Army/1989/Infantry (Woodland)/P/Character_US_1989_BDU_Corpsman_P.et" "{9FDABBA1FA4E0382}Prefabs/Characters/Factions/BLUFOR/US_Army/1989/Infantry (Woodland)/P/Character_US_1989_BDU_RTO_P.et"
  }
+ m_bPlayable 1
+ m_iGC_CallsignCompany "0"
+ m_iGC_CallsignPlatoon "0"
+ m_iGC_CallsignSquad "0"
 }

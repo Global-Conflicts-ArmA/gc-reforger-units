@@ -22,5 +22,6 @@ SCR_AIGroup : "{5CC564DD03A08DC5}Prefabs/Groups/BLUFOR/GC_CAF/1993 Canadian Army
  m_aUnitPrefabSlots {
   "{E0C627491921FB07}Prefabs/Characters/Factions/BLUFOR/GC_Canada/2025 Canadian Army/Arid/Character_CAF_2020_ARID_PL.et" "{CC8E87C009146856}Prefabs/Characters/Factions/BLUFOR/GC_Canada/2025 Canadian Army/Arid/Character_CAF_2020_ARID_PW.et" "{ADFD9323FD211A1D}Prefabs/Characters/Factions/BLUFOR/GC_Canada/2025 Canadian Army/Arid/Character_CAF_2020_ARID_Signaller.et" "{5E4E0AF134A1D80D}Prefabs/Characters/Factions/BLUFOR/GC_Canada/2025 Canadian Army/Arid/Character_CAF_2020_ARID_Medic.et"
  }
- m_sCustomNameSet "Platoon HQ"
+ m_sGC_Description "Platoon HQ"
+ m_bPlayable 0
 }

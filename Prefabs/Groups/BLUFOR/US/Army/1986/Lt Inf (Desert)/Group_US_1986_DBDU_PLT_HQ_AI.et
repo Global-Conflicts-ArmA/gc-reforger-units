@@ -4,11 +4,12 @@ SCR_AIGroup : "{EACD97CF4A702FAE}Prefabs/Groups/BLUFOR/Group_US_Base.et" {
   AIFormationComponent "{507E9DC12F541FE6}" {
    DefaultFormation "line"
   }
-  PS_GroupCallsignAssigner "{63616C6C7369676E}" {
-  }
  }
  m_aUnitPrefabSlots {
   "{834E2D2A03D25F6D}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Desert (DBDU)/Character_US_1986_DBDU_PL_CO_AI.et" "{A7DF49E48F866E03}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Desert (DBDU)/Character_US_1986_DBDU_PSG_AI.et" "{05F9304E8F977ACA}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Desert (DBDU)/Character_US_1986_DBDU_RTO_AI.et" "{79FA301F1D864623}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Desert (DBDU)/Character_US_1986_DBDU_Medic_AI.et"
  }
- m_sCustomNameSet "Platoon HQ"
+ m_sGC_Description "Platoon HQ"
+ m_iGC_CallsignCompany "0"
+ m_iGC_CallsignPlatoon "0"
+ m_iGC_CallsignSquad "0"
 }

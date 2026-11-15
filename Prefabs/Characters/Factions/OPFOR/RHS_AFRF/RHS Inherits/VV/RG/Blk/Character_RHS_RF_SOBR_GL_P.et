@@ -1,9 +1,6 @@
 SCR_ChimeraCharacter : "{5E0D068CFB4DAFC4}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VV/RG/Olive/Character_RHS_RF_SOBROlive_GL.et" {
  ID "520EC961A090B1EE"
  components {
-  PS_PlayableComponent "{5EFCC1946F475F15}" {
-   m_bIsPlayable 1
-  }
   CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
    WeaponTemplate "{EE239B5D7297A414}Prefabs/Weapons/Rifles/SR3M/Rifle_SR3M_supr.et"
   }

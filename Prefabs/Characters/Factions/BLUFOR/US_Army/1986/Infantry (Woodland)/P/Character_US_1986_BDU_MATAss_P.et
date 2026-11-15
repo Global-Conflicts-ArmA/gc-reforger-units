@@ -1,9 +1,6 @@
 SCR_ChimeraCharacter : "{E8863DB8316154F1}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Woodland (BDU)/Character_US_1986_BDU_MATAss_AI.et" {
  ID "520EC961A090B1EE"
  components {
-  PS_PlayableComponent "{5EFCC1946F475F15}" {
-   m_bIsPlayable 1
-  }
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_VariantData SCR_EditableEntityVariantData "{657D1BB0BBB9BB3D}" {
     m_aVariants {

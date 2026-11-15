@@ -3,5 +3,5 @@ SCR_AIGroup : "{441092B8CDA4A0BB}Prefabs/Groups/BLUFOR/British Forces/1989/Group
  m_aUnitPrefabSlots {
   "{A5B75F32649A911B}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/SpecialForces/Desert/Character_UK_1989_SpecialForces_Desert_SL_P.et" "{B4A0C90CFD30C663}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/SpecialForces/Desert/Character_UK_1989_SpecialForces_Desert_RTO_P.et" "{9E7DE6045CFED9D7}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/SpecialForces/Desert/Character_UK_1989_SpecialForces_Desert_Medic_P.et" "{FDAA5B77E386D424}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/SpecialForces/Desert/Character_UK_1989_SpecialForces_Desert_Sapper_P.et" "{052E68838F011F7C}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/SpecialForces/Desert/Character_UK_1989_SpecialForces_Desert_Sharpshooter_P.et" "{85170B1A52B30933}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/SpecialForces/Desert/Character_UK_1989_SpecialForces_Desert_Minimi_P.et" "{DA089C690C5EC33F}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/SpecialForces/Desert/Character_UK_1989_SpecialForces_Desert_GL_P.et" "{6FCB5F2159B3483C}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/SpecialForces/Desert/Character_UK_1989_SpecialForces_Desert_Trooper_P.et"
  }
- m_bSetPlayable 1
+ m_bPlayable 1
 }

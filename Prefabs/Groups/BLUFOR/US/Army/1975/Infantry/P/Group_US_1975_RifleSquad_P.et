@@ -3,5 +3,5 @@ SCR_AIGroup : "{EACD97CF4A702FAE}Prefabs/Groups/BLUFOR/Group_US_Base.et" {
  m_aUnitPrefabSlots {
   "{E579921240C44D4F}Prefabs/Characters/Factions/BLUFOR/US_Army/1970_Rifles/Character_US_70_SL_P.et" "{37FFA214D9B3E94D}Prefabs/Characters/Factions/BLUFOR/US_Army/1970_Rifles/Character_US_70_TL_P.et" "{40FC2A9F9482F925}Prefabs/Characters/Factions/BLUFOR/US_Army/1970_Rifles/Character_US_70_AR_P.et" "{9AC6514928001F6B}Prefabs/Characters/Factions/BLUFOR/US_Army/1970_Rifles/Character_US_70_GL_P.et" "{8E74ECBB8830261A}Prefabs/Characters/Factions/BLUFOR/US_Army/1970_Rifles/Character_US_70_LAT_P.et" "{37FFA214D9B3E94D}Prefabs/Characters/Factions/BLUFOR/US_Army/1970_Rifles/Character_US_70_TL_P.et" "{40FC2A9F9482F925}Prefabs/Characters/Factions/BLUFOR/US_Army/1970_Rifles/Character_US_70_AR_P.et" "{9AC6514928001F6B}Prefabs/Characters/Factions/BLUFOR/US_Army/1970_Rifles/Character_US_70_GL_P.et" "{8E74ECBB8830261A}Prefabs/Characters/Factions/BLUFOR/US_Army/1970_Rifles/Character_US_70_LAT_P.et" "{067737D8361E76E7}Prefabs/Characters/Factions/BLUFOR/US_Army/1970_Rifles/Character_US_70_Rifleman_P.et"
  }
- m_bSetPlayable 1
+ m_bPlayable 1
 }

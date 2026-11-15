@@ -1,14 +1,16 @@
 SCR_ChimeraCharacter : "{B3C42A67A5B1857B}Prefabs/Characters/Factions/BLUFOR/GC_Canada/CANSOFCOM/CSOR/TW/P/Character_CAF_CSOR_TW_Base_01_P.et" {
  ID "51FA8A5F28FD04BA"
  components {
-  PS_PlayableComponent "{5EFCC1946F475F15}" {
-   m_sName "Rifleman"
-  }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
    WeaponTemplate "{DA5F6E9ED413E11A}Prefabs/Weapons/Rifles/M4A1/GC_CAF_SF/CSOR/Rifle_M4A1_Short_NT4_EOTech_CSOR.et"
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
    WeaponTemplate "{9C5C20FB0E01E64F}Prefabs/Weapons/Launchers/M72/Launcher_M72A3.et"
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Rifleman"
+   }
   }
  }
 }

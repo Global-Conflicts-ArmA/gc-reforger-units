@@ -12,5 +12,5 @@ SCR_AIGroup : "{EE8D60FCE6D3B856}Prefabs/Groups/BLUFOR/RHS_USAF/RHS_USAF_USMC_ME
  m_aUnitPrefabSlots {
   "{4550FBB2D47127DF}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marines/Woodland/Character_2025_USMC_PL.et" "{142D5B9C9D92B6B2}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marines/Woodland/Character_2025_USMC_CrewGunner.et" "{142D5B9C9D92B6B2}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marines/Woodland/Character_2025_USMC_CrewGunner.et" "{DC4E422BC996164F}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marines/Woodland/Character_2025_USMC_SL.et" "{7F058B7EE98C60A1}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marines/Woodland/Character_2025_USMC_FAC.et" "{A74D917D44C3BD28}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marines/Woodland/Character_2025_USMC_FO.et" "{01F69D7FC332756C}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marines/Woodland/Character_2025_USMC_Corpsman.et"
  }
- m_sCustomNameSet "LAR HQ"
+ m_sGC_Description "LAR HQ"
 }

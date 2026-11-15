@@ -1,8 +1,5 @@
 SCR_ChimeraCharacter : "{4CD55831FEBBBF0E}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Character_GC_INSURGENT_Rifleman.et" {
  ID "520EC961A090B1EE"
  components {
-  PS_PlayableComponent "{5EFCC1946F475F15}" {
-   m_bIsPlayable 1
-  }
  }
 }

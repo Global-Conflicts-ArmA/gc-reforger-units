@@ -8,5 +8,6 @@ SCR_AIGroup : "{F36DD536F26501CA}Prefabs/Groups/BLUFOR/British Forces/1983/Group
  m_aUnitPrefabSlots {
   "{F2B9A93102D13D1B}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Royal Marines Commandos/Character_UK_1983_Marines_CompanyCommander_P.et" "{A370F9F9BA9DF5EF}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Royal Marines Commandos/Character_UK_1983_Marines_Company2IC_P.et" "{064EA8B7EE25498A}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Royal Marines Commandos/Character_UK_1983_Marines_CSM_P.et" "{38648832FBEB8C02}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Royal Marines Commandos/Character_UK_1983_Marines_RTO_P.et" "{BFAB6587D1A4CE20}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Royal Marines Commandos/Character_UK_1983_Marines_MFC_P.et" "{401FD4FBE02CC4C6}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Royal Marines Commandos/Character_UK_1983_Marines_Medic_P.et" "{401FD4FBE02CC4C6}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Royal Marines Commandos/Character_UK_1983_Marines_Medic_P.et"
  }
- m_sCustomNameSet "Marine Company HQ"
+ m_sGC_Description "Marine Company HQ"
+ m_bPlayable 1
 }

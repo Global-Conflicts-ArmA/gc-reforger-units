@@ -3,7 +3,7 @@ SCR_ChimeraCharacter : "{94C2153770EAEA71}Prefabs/Characters/Factions/BLUFOR/US_
  components {
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
-    Name "#AR-Role_LightAT"
+    Name "Rifleman"
    }
    m_VariantData SCR_EditableEntityVariantData "{6539390B8863F1DE}" {
     m_aVariants {

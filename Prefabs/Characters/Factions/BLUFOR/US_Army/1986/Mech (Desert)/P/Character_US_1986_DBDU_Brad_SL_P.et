@@ -1,9 +1,6 @@
 SCR_ChimeraCharacter : "{D7D5D2DB2F88B120}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Desert (DBDU)/2AD Bradley Mech/Character_US_1986_DBDU_Brad_SL_AI.et" {
  ID "520EC961A090B1EE"
  components {
-  PS_PlayableComponent "{5EFCC1946F475F15}" {
-   m_bIsPlayable 1
-  }
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_VariantData SCR_EditableEntityVariantData "{6582D12367952941}" {
     m_aVariants {

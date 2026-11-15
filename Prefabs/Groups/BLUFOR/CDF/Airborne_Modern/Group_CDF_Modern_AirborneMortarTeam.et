@@ -10,5 +10,5 @@ SCR_AIGroup : "{28C2538AD0A4338E}Prefabs/Groups/BLUFOR/CDF/Group_CDF_base.et" {
  m_aUnitPrefabSlots {
   "{CFFC503BEAA2287F}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Airborne/Character_CDF_Airborne_MortarCO.et" "{41FD261D3007EB70}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Airborne/Character_CDF_Airborne_MortarCrew.et" "{41FD261D3007EB70}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Airborne/Character_CDF_Airborne_MortarCrew.et" "{41FD261D3007EB70}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Airborne/Character_CDF_Airborne_MortarCrew.et" "{41FD261D3007EB70}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Airborne/Character_CDF_Airborne_MortarCrew.et"
  }
- m_sCustomNameSet "Mortars"
+ m_sGC_Description "Mortars"
 }

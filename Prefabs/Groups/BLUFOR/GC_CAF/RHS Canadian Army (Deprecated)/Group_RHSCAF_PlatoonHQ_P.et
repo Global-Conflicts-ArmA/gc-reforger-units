@@ -31,6 +31,6 @@ SCR_AIGroup : "{B7AB5D3F8A7ADAE4}Prefabs/Groups/BLUFOR/Group_US_PlatoonHQ.et" {
  m_aUnitPrefabSlots {
   "{7E4D56AE455431C2}Prefabs/Characters/Factions/BLUFOR/GC_Canada/RHS_Canada/Character_CAF_Platoon_Commander_CW.et" "{350935F7D7537ADF}Prefabs/Characters/Factions/BLUFOR/GC_Canada/RHS_Canada/Character_CAF_Platoon_Warrant_CW.et" "{03062ED06D3A433A}Prefabs/Characters/Factions/BLUFOR/GC_Canada/RHS_Canada/Character_CAF_RF_CW.et" "{7043F1353E10A8B8}Prefabs/Characters/Factions/BLUFOR/GC_Canada/RHS_Canada/Character_CAF_Medic_CW.et"
  }
- m_sCustomNameSet "Platoon Headquarters"
- m_bSetPlayable 1
+ m_sGC_Description "Platoon Headquarters"
+ m_bPlayable 1
 }

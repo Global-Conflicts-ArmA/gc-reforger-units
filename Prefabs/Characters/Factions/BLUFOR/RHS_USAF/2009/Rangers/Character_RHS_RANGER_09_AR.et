@@ -11,9 +11,6 @@ SCR_ChimeraCharacter : "{696F50187F58A9C1}Prefabs/Characters/Factions/BLUFOR/RHS
     }
    }
   }
-  PS_PlayableComponent "{5EFCC1946F475F15}" {
-   m_sName "Automatic Rifleman"
-  }
   SCR_CharacterRankComponent "{528E6D4286AA2D8F}" {
    m_iRank PRIVATE
   }
@@ -76,6 +73,11 @@ SCR_ChimeraCharacter : "{696F50187F58A9C1}Prefabs/Characters/Factions/BLUFOR/RHS
       "{BEE3897D2286992A}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_M855A1_4Ball_1Tracer.et"
      }
     }
+   }
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Automatic Rifleman"
    }
   }
  }

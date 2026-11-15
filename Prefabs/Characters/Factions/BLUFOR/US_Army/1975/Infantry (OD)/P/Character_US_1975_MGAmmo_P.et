@@ -3,7 +3,7 @@ SCR_ChimeraCharacter : "{FA979110FE9BE8B3}Prefabs/Characters/Factions/BLUFOR/US_
  components {
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
-    Name "#AR-Role_AmmoBearer"
+    Name "MG Ammo Bearer"
     IconSetName ""
    }
   }

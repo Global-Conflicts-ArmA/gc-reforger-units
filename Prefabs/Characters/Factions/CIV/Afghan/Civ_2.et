@@ -1,9 +1,6 @@
 SCR_ChimeraCharacter : "{31558D8118A1503E}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/P/Character_GC_INS_Afghan_Machinegunner_P.et" {
  ID "520EC961A090B1EE"
  components {
-  PS_PlayableComponent "{5EFCC1946F475F15}" {
-   m_bIsPlayable 0
-  }
   SCR_CharacterFactionAffiliationComponent "{6554AEF5AE95A3BC}" {
    "faction affiliation" "CIV"
   }

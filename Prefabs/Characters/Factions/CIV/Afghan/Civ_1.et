@@ -1,9 +1,6 @@
 SCR_ChimeraCharacter : "{C5FB02647F13E70A}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/P/Character_GC_INS_Afghan_Rifleman_RPO_P.et" {
  ID "520EC961A090B1EE"
  components {
-  PS_PlayableComponent "{5EFCC1946F475F15}" {
-   m_bIsPlayable 0
-  }
   SCR_CharacterFactionAffiliationComponent "{6554AEF5AE95A3BC}" {
    "faction affiliation" "CIV"
   }

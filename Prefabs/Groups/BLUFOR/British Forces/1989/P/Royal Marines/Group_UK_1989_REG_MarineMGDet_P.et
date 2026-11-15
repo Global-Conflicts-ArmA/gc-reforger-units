@@ -8,5 +8,6 @@ SCR_AIGroup : "{FB08033A33E826D5}Prefabs/Groups/BLUFOR/British Forces/1989/Group
  m_aUnitPrefabSlots {
   "{767327FF96F7581C}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/Royal Marines/Character_UK_1989_Marines_SectionCommander_P.et" "{0E83E4F42FA6D763}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/Royal Marines/Character_UK_1989_Marines_GPMG_No1_P.et" "{2BEA0976ED8C618D}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/Royal Marines/Character_UK_1989_Marines_AMG_P.et" "{0E83E4F42FA6D763}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/Royal Marines/Character_UK_1989_Marines_GPMG_No1_P.et" "{2BEA0976ED8C618D}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/Royal Marines/Character_UK_1989_Marines_AMG_P.et" "{0E83E4F42FA6D763}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/Royal Marines/Character_UK_1989_Marines_GPMG_No1_P.et" "{2BEA0976ED8C618D}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/Royal Marines/Character_UK_1989_Marines_AMG_P.et"
  }
- m_sCustomNameSet "GPMG (SF) Detatchment"
+ m_sGC_Description "GPMG (SF) Detatchment"
+ m_bPlayable 1
 }

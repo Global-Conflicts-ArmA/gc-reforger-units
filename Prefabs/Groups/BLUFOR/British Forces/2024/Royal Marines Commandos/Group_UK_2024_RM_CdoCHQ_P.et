@@ -17,5 +17,6 @@ SCR_AIGroup : "{2FA8727C0B695783}Prefabs/Groups/BLUFOR/British Forces/1989/Group
  m_aUnitPrefabSlots {
   "{F94DF86E2DE510D6}Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/Royal Marines Commandos/Character_UK_2024_RM_Coy1IC_P.et" "{4B9ABA857247234E}Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/Royal Marines Commandos/Character_UK_2024_RM_Coy2IC_P.et" "{9A1A21BA09396D7B}Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/Royal Marines Commandos/Character_UK_2024_RM_RTO_P.et" "{E64FC8181AF392B7}Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/Royal Marines Commandos/Character_UK_2024_RM_Medic_P.et" "{E64FC8181AF392B7}Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/Royal Marines Commandos/Character_UK_2024_RM_Medic_P.et"
  }
- m_sCustomNameSet "Commando Company HQ"
+ m_sGC_Description "Commando Company HQ"
+ m_bPlayable 1
 }

@@ -22,5 +22,6 @@ SCR_AIGroup : "{5CC564DD03A08DC5}Prefabs/Groups/BLUFOR/GC_CAF/1993 Canadian Army
  m_aUnitPrefabSlots {
   "{D2DDA121FA5AB305}Prefabs/Characters/Factions/BLUFOR/GC_Canada/2025 Canadian Army/Arid/Character_CAF_2020_ARID_CoyCO.et" "{7287E43A5C7976C1}Prefabs/Characters/Factions/BLUFOR/GC_Canada/2025 Canadian Army/Arid/Character_CAF_2020_ARID_Coy2IC.et" "{6EE7427FED131BDD}Prefabs/Characters/Factions/BLUFOR/GC_Canada/2025 Canadian Army/Arid/Character_CAF_2020_ARID_CSM.et" "{49DFF62A28B0107B}Prefabs/Characters/Factions/BLUFOR/GC_Canada/2025 Canadian Army/Arid/Character_CAF_2020_ARID_FO.et" "{ADFD9323FD211A1D}Prefabs/Characters/Factions/BLUFOR/GC_Canada/2025 Canadian Army/Arid/Character_CAF_2020_ARID_Signaller.et" "{5E4E0AF134A1D80D}Prefabs/Characters/Factions/BLUFOR/GC_Canada/2025 Canadian Army/Arid/Character_CAF_2020_ARID_Medic.et" "{5E4E0AF134A1D80D}Prefabs/Characters/Factions/BLUFOR/GC_Canada/2025 Canadian Army/Arid/Character_CAF_2020_ARID_Medic.et"
  }
- m_sCustomNameSet "Company HQ"
+ m_sGC_Description "Company HQ"
+ m_bPlayable 0
 }

@@ -4,6 +4,5 @@ SCR_AIGroup : "{2BA4FF1232A6371C}Prefabs/Groups/OPFOR/GC_NVA/Group_GC_NVA_Base.e
   "{E790799B5B0A9F0A}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_FO_P.et" "{69E1927251152E5D}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Radioman_P.et"
  }
  m_bPlayable 1
- m_sCustomNameSet "Forward Observation Team"
- m_bSetPlayable 1
+ m_sGC_Description "Forward Observation Team"
 }

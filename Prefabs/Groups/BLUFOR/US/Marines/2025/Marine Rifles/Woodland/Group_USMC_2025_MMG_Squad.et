@@ -18,5 +18,5 @@ SCR_AIGroup : "{EE8D60FCE6D3B856}Prefabs/Groups/BLUFOR/RHS_USAF/RHS_USAF_USMC_ME
  m_aUnitPrefabSlots {
   "{DC4E422BC996164F}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marines/Woodland/Character_2025_USMC_SL.et" "{707597CD48D79A72}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marines/Woodland/Character_2025_USMC_MMG.et" "{CD862576368A91D0}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marines/Woodland/Character_2025_USMC_MMG_ASST.et" "{BC68E7E9376FFB9F}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marines/Woodland/Character_2025_USMC_MMG_Tripod.et" "{707597CD48D79A72}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marines/Woodland/Character_2025_USMC_MMG.et" "{CD862576368A91D0}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marines/Woodland/Character_2025_USMC_MMG_ASST.et" "{BC68E7E9376FFB9F}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marines/Woodland/Character_2025_USMC_MMG_Tripod.et"
  }
- m_sCustomNameSet "MMG Squad"
+ m_sGC_Description "MMG Squad"
 }

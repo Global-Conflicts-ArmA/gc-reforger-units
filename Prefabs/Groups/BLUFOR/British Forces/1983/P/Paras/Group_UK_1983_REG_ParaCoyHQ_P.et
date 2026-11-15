@@ -8,5 +8,6 @@ SCR_AIGroup : "{F36DD536F26501CA}Prefabs/Groups/BLUFOR/British Forces/1983/Group
  m_aUnitPrefabSlots {
   "{678E46BD15EEB727}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Paras/Character_UK_1983_Paras_CompanyCommander_P.et" "{D396BC2AA4B014D9}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Paras/Character_UK_1983_Paras_Company2IC_P.et" "{1B0BCE5D20BBEC8C}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Paras/Character_UK_1983_Paras_CSM_P.et" "{2521EED835752904}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Paras/Character_UK_1983_Paras_RTO_P.et" "{A2EE036D1F3A6B26}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Paras/Character_UK_1983_Paras_MFC_P.et" "{F5FCA2D30AED97A2}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Paras/Character_UK_1983_Paras_Medic_P.et" "{F5FCA2D30AED97A2}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Paras/Character_UK_1983_Paras_Medic_P.et"
  }
- m_sCustomNameSet "Para Company HQ"
+ m_sGC_Description "Para Company HQ"
+ m_bPlayable 1
 }

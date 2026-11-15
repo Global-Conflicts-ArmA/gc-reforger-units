@@ -3,4 +3,5 @@ SCR_AIGroup : "{7E8F2DF44B282C5A}Prefabs/Groups/INDFOR/GC_TKA/New Takistan Army 
  m_aUnitPrefabSlots {
   "{17592275ED8C87E1}Prefabs/Characters/Factions/INDFOR/GC_TKA/New Takistan Army 2012-Present (NTA)/P/Character_GC_NTA_PL_P.et" "{0E888AD6115D2815}Prefabs/Characters/Factions/INDFOR/GC_TKA/New Takistan Army 2012-Present (NTA)/P/Character_GC_NTA_Sergeant_P.et" "{315663792B409821}Prefabs/Characters/Factions/INDFOR/GC_TKA/New Takistan Army 2012-Present (NTA)/P/Character_GC_NTA_RTO_P.et" "{581DB0187EA9DADC}Prefabs/Characters/Factions/INDFOR/GC_TKA/New Takistan Army 2012-Present (NTA)/P/Character_GC_NTA_Medic_P.et"
  }
+ m_bPlayable 1
 }

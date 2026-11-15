@@ -15,5 +15,5 @@ SCR_AIGroup : "{EE8D60FCE6D3B856}Prefabs/Groups/BLUFOR/RHS_USAF/RHS_USAF_USMC_ME
  m_aUnitPrefabSlots {
   "{5E78F2D6D222B617}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marines/Desert/Character_2025_USMC_PSG_D.et" "{180E58FB284B70FC}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marines/Desert/Character_2025_USMC_CrewDriver_D.et" "{180E58FB284B70FC}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marines/Desert/Character_2025_USMC_CrewDriver_D.et" "{DB89B87AAF10AC8C}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marines/Woodland/Character_2025_USMC_TL.et" "{5449D2F88894225B}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marines/Desert/Character_2025_USMC_MAAW_D.et" "{D978A1BE753ED0C8}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marines/Desert/Character_2025_USMC_MAAW_ASST_D.et" "{6CAFB2D7E9ADC951}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marines/Woodland/Character_2025_USMC_Rifle.et"
  }
- m_sCustomNameSet "LAR PSG Team"
+ m_sGC_Description "LAR PSG Team"
 }

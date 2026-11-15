@@ -22,5 +22,6 @@ SCR_AIGroup : "{5CC564DD03A08DC5}Prefabs/Groups/BLUFOR/GC_CAF/1993 Canadian Army
  m_aUnitPrefabSlots {
   "{59543EA89B2B0347}Prefabs/Characters/Factions/BLUFOR/GC_Canada/2025 Canadian Army/Temperate Woodland/Character_CAF_2020_TW_MortarL.et" "{2F5E5BEA843A3B18}Prefabs/Characters/Factions/BLUFOR/GC_Canada/2025 Canadian Army/Temperate Woodland/Character_CAF_2020_TW_MortarCrew.et" "{2F5E5BEA843A3B18}Prefabs/Characters/Factions/BLUFOR/GC_Canada/2025 Canadian Army/Temperate Woodland/Character_CAF_2020_TW_MortarCrew.et" "{2F5E5BEA843A3B18}Prefabs/Characters/Factions/BLUFOR/GC_Canada/2025 Canadian Army/Temperate Woodland/Character_CAF_2020_TW_MortarCrew.et" "{2F5E5BEA843A3B18}Prefabs/Characters/Factions/BLUFOR/GC_Canada/2025 Canadian Army/Temperate Woodland/Character_CAF_2020_TW_MortarCrew.et" "{2F5E5BEA843A3B18}Prefabs/Characters/Factions/BLUFOR/GC_Canada/2025 Canadian Army/Temperate Woodland/Character_CAF_2020_TW_MortarCrew.et" "{2F5E5BEA843A3B18}Prefabs/Characters/Factions/BLUFOR/GC_Canada/2025 Canadian Army/Temperate Woodland/Character_CAF_2020_TW_MortarCrew.et"
  }
- m_sCustomNameSet "Company Mortar Detachment"
+ m_sGC_Description "Company Mortar Detachment"
+ m_bPlayable 0
 }

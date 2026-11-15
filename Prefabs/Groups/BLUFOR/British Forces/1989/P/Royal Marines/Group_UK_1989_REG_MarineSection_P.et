@@ -8,5 +8,6 @@ SCR_AIGroup : "{FB08033A33E826D5}Prefabs/Groups/BLUFOR/British Forces/1989/Group
  m_aUnitPrefabSlots {
   "{767327FF96F7581C}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/Royal Marines/Character_UK_1989_Marines_SectionCommander_P.et" "{17BB2CD01C38BEE1}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/Royal Marines/Character_UK_1989_Marines_LSW_P.et" "{FE0CA7838333F39B}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/Royal Marines/Character_UK_1989_Marines_Rifleman_LAT_P.et" "{92ECFA1FCC1AFEB1}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/Royal Marines/Character_UK_1989_Marines_Rifleman_P.et" "{7EE22489A540C45D}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/Royal Marines/Character_UK_1989_Marines_Section2IC_P.et" "{17BB2CD01C38BEE1}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/Royal Marines/Character_UK_1989_Marines_LSW_P.et" "{FE0CA7838333F39B}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/Royal Marines/Character_UK_1989_Marines_Rifleman_LAT_P.et" "{92ECFA1FCC1AFEB1}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/Royal Marines/Character_UK_1989_Marines_Rifleman_P.et"
  }
- m_sCustomNameSet "Marine Section"
+ m_sGC_Description "Marine Section"
+ m_bPlayable 1
 }

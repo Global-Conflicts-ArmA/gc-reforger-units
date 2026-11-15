@@ -22,5 +22,6 @@ SCR_AIGroup : "{5CC564DD03A08DC5}Prefabs/Groups/BLUFOR/GC_CAF/1993 Canadian Army
  m_aUnitPrefabSlots {
   "{19FD5B788EA8C8E2}Prefabs/Characters/Factions/BLUFOR/GC_Canada/2025 Canadian Army/Character_CAF_2020_MT_MortarL.et" "{6A17C0BF8322F77F}Prefabs/Characters/Factions/BLUFOR/GC_Canada/2025 Canadian Army/Character_CAF_2020_MT_MortarCrew.et" "{6A17C0BF8322F77F}Prefabs/Characters/Factions/BLUFOR/GC_Canada/2025 Canadian Army/Character_CAF_2020_MT_MortarCrew.et" "{6A17C0BF8322F77F}Prefabs/Characters/Factions/BLUFOR/GC_Canada/2025 Canadian Army/Character_CAF_2020_MT_MortarCrew.et" "{6A17C0BF8322F77F}Prefabs/Characters/Factions/BLUFOR/GC_Canada/2025 Canadian Army/Character_CAF_2020_MT_MortarCrew.et" "{6A17C0BF8322F77F}Prefabs/Characters/Factions/BLUFOR/GC_Canada/2025 Canadian Army/Character_CAF_2020_MT_MortarCrew.et" "{6A17C0BF8322F77F}Prefabs/Characters/Factions/BLUFOR/GC_Canada/2025 Canadian Army/Character_CAF_2020_MT_MortarCrew.et"
  }
- m_sCustomNameSet "Company Mortar Detachment"
+ m_sGC_Description "Company Mortar Detachment"
+ m_bPlayable 0
 }

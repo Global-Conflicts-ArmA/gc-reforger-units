@@ -3,6 +3,6 @@ SCR_AIGroup : "{D40C43C1946682F6}Prefabs/Groups/BLUFOR/GC_CAF/CANSOFCOM/CSOR/AR/
  m_aUnitPrefabSlots {
   "{D6CBB5A090B2AB51}Prefabs/Characters/Factions/BLUFOR/GC_Canada/CANSOFCOM/CSOR/AR/P/Character_CAF_CSOR_AR_SL_P.et" "{044D85A609C50F53}Prefabs/Characters/Factions/BLUFOR/GC_Canada/CANSOFCOM/CSOR/AR/P/Character_CAF_CSOR_AR_TL_P.et" "{5253CA2E13A5B001}Prefabs/Characters/Factions/BLUFOR/GC_Canada/CANSOFCOM/CSOR/AR/P/Character_CAF_CSOR_AR_GR_P.et" "{9587335F4D23FAEC}Prefabs/Characters/Factions/BLUFOR/GC_Canada/CANSOFCOM/CSOR/AR/P/Character_CAF_CSOR_AR_RF_P.et" "{044D85A609C50F53}Prefabs/Characters/Factions/BLUFOR/GC_Canada/CANSOFCOM/CSOR/AR/P/Character_CAF_CSOR_AR_TL_P.et" "{5253CA2E13A5B001}Prefabs/Characters/Factions/BLUFOR/GC_Canada/CANSOFCOM/CSOR/AR/P/Character_CAF_CSOR_AR_GR_P.et" "{9587335F4D23FAEC}Prefabs/Characters/Factions/BLUFOR/GC_Canada/CANSOFCOM/CSOR/AR/P/Character_CAF_CSOR_AR_RF_P.et" "{0156EBEA90DC6535}Prefabs/Characters/Factions/BLUFOR/GC_Canada/CANSOFCOM/CSOR/AR/P/Character_CAF_CSOR_AR_Medic_P.et"
  }
- m_sCustomNameSet "CSOR Section"
- m_bSetPlayable 1
+ m_sGC_Description "CSOR Section"
+ m_bPlayable 1
 }

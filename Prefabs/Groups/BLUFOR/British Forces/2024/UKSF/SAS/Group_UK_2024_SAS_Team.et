@@ -94,5 +94,5 @@ SCR_AIGroup : "{6521AB6151C0A7C8}Prefabs/Groups/BLUFOR/British Forces/1989/Group
  m_aUnitPrefabSlots {
   "{C26BE730B9C8E6BF}Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/UKSF/SAS/Character_UK_2024_SAS_TL.et" "{A824EC7EEDCAFE6F}Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/UKSF/SAS/Character_UK_2024_SAS_AR.et" "{A533D439A4602DF7}Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/UKSF/SAS/Character_UK_2024_SAS_Sapper.et" "{CF2F0E571CCEC6E8}Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/UKSF/SAS/Character_UK_2024_SAS_Medic.et"
  }
- m_sCustomNameSet "Troop HQ"
+ m_sGC_Description "Troop HQ"
 }

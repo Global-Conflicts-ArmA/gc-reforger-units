@@ -3,5 +3,5 @@ SCR_AIGroup : "{441092B8CDA4A0BB}Prefabs/Groups/BLUFOR/British Forces/1989/Group
  m_aUnitPrefabSlots {
   "{3CE5ECA660B55B94}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/SpecialForces/Character_UK_1989_SpecialForces_SL_P.et" "{542A712F86F0F567}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/SpecialForces/Character_UK_1989_SpecialForces_RTO_P.et" "{9317518D0CAED522}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/SpecialForces/Character_UK_1989_SpecialForces_Medic_P.et" "{FA01DE0CAC397656}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/SpecialForces/Character_UK_1989_SpecialForces_Sapper_P.et" "{11D4246EE372492F}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/SpecialForces/Character_UK_1989_SpecialForces_Sharpshooter_P.et" "{0F68127A99BCD429}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/SpecialForces/Character_UK_1989_SpecialForces_Trooper_P.et" "{0F68127A99BCD429}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/SpecialForces/Character_UK_1989_SpecialForces_Trooper_P.et" "{89F7B786D21EC49C}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/SpecialForces/Character_UK_1989_SpecialForces_GPMG_P.et"
  }
- m_bSetPlayable 1
+ m_bPlayable 1
 }

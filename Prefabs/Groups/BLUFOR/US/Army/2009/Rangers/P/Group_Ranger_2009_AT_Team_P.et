@@ -4,14 +4,13 @@ SCR_AIGroup : "{EE8D60FCE6D3B856}Prefabs/Groups/BLUFOR/RHS_USAF/RHS_USAF_USMC_ME
   AIFormationComponent "{507E9DC12F541FE6}" {
    DefaultFormation "line"
   }
-  PS_GroupCallsignAssigner "{63616C6C7369676E}" {
-   m_iPlatoonCallsign 1
-   m_iSquadCallsign 8
-  }
  }
  m_aUnitPrefabSlots {
   "{474B263A266F57F0}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Rangers/P/Character_RHS_RANGER_09_ATTL_P.et" "{828A09BDBD765805}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Rangers/P/Character_RHS_RANGER_09_AT_P.et" "{C440E92966832FF4}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Rangers/P/Character_RHS_RANGER_09_ATAS_P.et"
  }
- m_sCustomNameSet "Ranger AT Team"
- m_bSetPlayable 1
+ m_sGC_Description "Ranger AT Team"
+ m_bPlayable 1
+ m_iGC_CallsignCompany "0"
+ m_iGC_CallsignPlatoon "1"
+ m_iGC_CallsignSquad "8"
 }

@@ -1,6 +1,5 @@
 SCR_AIGroup : "{809D5896510B70C2}Prefabs\Groups\BLUFOR\US\Army\1986\Lt Inf (Woodland)\P\Group_US_1986_BDU_COY_HQ_P.et" {
  ID "0000000000000001"
  m_bPlayable 1
- m_sCustomNameSet "Platoon HQ"
- m_bSetPlayable 1
+ m_sGC_Description "Platoon HQ"
 }

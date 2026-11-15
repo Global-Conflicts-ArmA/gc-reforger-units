@@ -10,5 +10,5 @@ SCR_AIGroup : "{DEE4F567595DE7AE}Prefabs/Groups/OPFOR/GC_SEPARATIST/GC_SEPARATIS
  m_aUnitPrefabSlots {
   "{E0EBFD8094F98337}Prefabs/Characters/Factions/OPFOR/GC_SEPARATIST/P/Character_GC_SEPARATIST_PL_P.et" "{AB6F88A1E567AF40}Prefabs/Characters/Factions/OPFOR/GC_SEPARATIST/P/Character_GC_SEPARATIST_PSG_P.et" "{63E34E68CD2DF356}Prefabs/Characters/Factions/OPFOR/GC_SEPARATIST/P/Character_GC_SEPARATIST_Sharpshooter_P.et" "{E31FE387C44DE69B}Prefabs/Characters/Factions/OPFOR/GC_SEPARATIST/P/Character_GC_SEPARATIST_Medic_P.et" "{E31FE387C44DE69B}Prefabs/Characters/Factions/OPFOR/GC_SEPARATIST/P/Character_GC_SEPARATIST_Medic_P.et"
  }
- m_bSetPlayable 1
+ m_bPlayable 1
 }

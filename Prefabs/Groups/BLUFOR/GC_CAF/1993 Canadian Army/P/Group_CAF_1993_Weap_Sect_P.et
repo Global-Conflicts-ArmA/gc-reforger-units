@@ -18,6 +18,6 @@ SCR_AIGroup : "{5CC564DD03A08DC5}Prefabs/Groups/BLUFOR/GC_CAF/1993 Canadian Army
  m_aUnitPrefabSlots {
   "{7A76E75B6C2A0697}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Character_1993_CAF_1IC_1_P.et" "{A78C57340C03477B}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Character_1993_CAF_MG_1_P.et" "{2B8A1EEAC7320722}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Character_1993_CAF_MG2_1_P.et" "{A78C57340C03477B}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Character_1993_CAF_MG_1_P.et" "{2B8A1EEAC7320722}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Character_1993_CAF_MG2_1_P.et"
  }
- m_sCustomNameSet "Weapons Section"
- m_bSetPlayable 1
+ m_sGC_Description "Weapons Section"
+ m_bPlayable 1
 }

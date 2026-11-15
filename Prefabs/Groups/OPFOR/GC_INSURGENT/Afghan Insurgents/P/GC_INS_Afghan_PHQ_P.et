@@ -3,5 +3,5 @@ SCR_AIGroup : "{95865B5D03AFBA74}Prefabs/Groups/OPFOR/GC_INSURGENT/Afghan Insurg
  m_aUnitPrefabSlots {
   "{0D70868C89309636}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/P/Character_GC_INS_Afghan_PL_P.et" "{222A3ADF21812AED}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/P/Character_GC_INS_Afghan_Medic_P.et"
  }
- m_bSetPlayable 1
+ m_bPlayable 1
 }

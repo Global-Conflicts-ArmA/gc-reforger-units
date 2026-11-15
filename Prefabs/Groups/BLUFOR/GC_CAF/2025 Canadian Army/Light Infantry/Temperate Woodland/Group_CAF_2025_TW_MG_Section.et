@@ -22,5 +22,6 @@ SCR_AIGroup : "{5CC564DD03A08DC5}Prefabs/Groups/BLUFOR/GC_CAF/1993 Canadian Army
  m_aUnitPrefabSlots {
   "{F29C8B7CB50A0F2A}Prefabs/Characters/Factions/BLUFOR/GC_Canada/2025 Canadian Army/Temperate Woodland/Character_CAF_2020_TW_SL.et" "{CD03A479E9C1B9DA}Prefabs/Characters/Factions/BLUFOR/GC_Canada/2025 Canadian Army/Temperate Woodland/Character_CAF_2020_TW_MG.et" "{798C86FD7BFB4C62}Prefabs/Characters/Factions/BLUFOR/GC_Canada/2025 Canadian Army/Temperate Woodland/Character_CAF_2020_TW_MGA.et" "{CD03A479E9C1B9DA}Prefabs/Characters/Factions/BLUFOR/GC_Canada/2025 Canadian Army/Temperate Woodland/Character_CAF_2020_TW_MG.et" "{798C86FD7BFB4C62}Prefabs/Characters/Factions/BLUFOR/GC_Canada/2025 Canadian Army/Temperate Woodland/Character_CAF_2020_TW_MGA.et"
  }
- m_sCustomNameSet ""
+ m_sGC_Description ""
+ m_bPlayable 0
 }

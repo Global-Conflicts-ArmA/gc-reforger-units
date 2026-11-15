@@ -19,6 +19,6 @@ SCR_AIGroup : "{5CC564DD03A08DC5}Prefabs/Groups/BLUFOR/GC_CAF/1993 Canadian Army
   "{DFAA059FB94209E4}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Character_1993_CAF_Mortar_Commander_1_P.et" "{13B654D4F47B142E}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Character_1993_CAF_Mortar_Crew_1_P.et" "{13B654D4F47B142E}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Character_1993_CAF_Mortar_Crew_1_P.et"
  }
  m_bDeleteIfNoPlayer 1
- m_sCustomNameSet "Mortar Crew"
- m_bSetPlayable 1
+ m_sGC_Description "Mortar Crew"
+ m_bPlayable 1
 }

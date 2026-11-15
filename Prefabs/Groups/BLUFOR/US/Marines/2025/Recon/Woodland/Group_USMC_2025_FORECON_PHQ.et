@@ -13,5 +13,5 @@ SCR_AIGroup : "{CBFD915E0246EC47}Prefabs/Groups/BLUFOR/US/Marines/2025/Marine Ri
  m_aUnitPrefabSlots {
   "{812EA08982AC0A71}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_FORECON/Character_RHS_USAF_FORECON_PL.et" "{B89C6B2668A11BE9}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_FORECON/RandomSoldiers/Character_RHS_USAF_FORECON_SL_Random.et" "{D71CB2B134CBDA20}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_FORECON/RandomSoldiers/Character_RHS_USAF_FORECON_RTO_Random.et" "{A225A3D3D7DF9C62}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_FORECON/RandomSoldiers/Character_RHS_USAF_FORECON_Medic_Random.et"
  }
- m_sCustomNameSet "Recon PHQ"
+ m_sGC_Description "Recon PHQ"
 }

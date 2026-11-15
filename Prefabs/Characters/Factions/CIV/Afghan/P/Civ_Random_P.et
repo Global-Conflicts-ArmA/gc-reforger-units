@@ -1,9 +1,6 @@
 SCR_ChimeraCharacter : "{5F04E03AF4AF8616}Prefabs/Characters/Factions/CIV/Afghan/Civ_1.et" {
  ID "520EC961A090B1EE"
  components {
-  PS_PlayableComponent "{5EFCC1946F475F15}" {
-   m_bIsPlayable 1
-  }
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_VariantData SCR_EditableEntityVariantData "{660EF7E708603C72}" {
     m_aVariants {

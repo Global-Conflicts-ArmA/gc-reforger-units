@@ -1,9 +1,6 @@
 SCR_ChimeraCharacter : "{3D0593BACE3AFBA1}Prefabs/Characters/Factions/BLUFOR/GC_SanSerriffe/53/Character_SanSerriffe_53_Base.et" {
  ID "520EC961A090B1EE"
  components {
-  PS_PlayableComponent "{5EFCC1946F475F15}" {
-   m_sName "Section IC"
-  }
   SCR_CharacterRankComponent "{528E6D4286AA2D8F}" {
    m_iRank CORPORAL
   }
@@ -41,6 +38,11 @@ SCR_ChimeraCharacter : "{3D0593BACE3AFBA1}Prefabs/Characters/Factions/BLUFOR/GC_
       "{91EA3DF1BA0AB1EF}Prefabs/Weapons/Magazines/Magazine_9x19_L2A3_34rnd_Ball.et" "{91EA3DF1BA0AB1EF}Prefabs/Weapons/Magazines/Magazine_9x19_L2A3_34rnd_Ball.et" "{91EA3DF1BA0AB1EF}Prefabs/Weapons/Magazines/Magazine_9x19_L2A3_34rnd_Ball.et"
      }
     }
+   }
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Section IC"
    }
   }
  }

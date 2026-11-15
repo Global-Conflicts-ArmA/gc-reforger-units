@@ -1,10 +1,6 @@
 SCR_ChimeraCharacter : "{23930611A82CF1F2}Prefabs/Characters/Factions/BLUFOR/US_Army/7th ID/1986/Character_US_7ID_1986_COYLeader_1.et" {
  ID "520EC961A090B1EE"
  components {
-  PS_PlayableComponent "{5EFCC1946F475F15}" {
-   m_sName "Company Commander"
-   m_bIsPlayable 1
-  }
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_VariantData SCR_EditableEntityVariantData "{6539390B8863F1DE}" {
     m_aVariants {

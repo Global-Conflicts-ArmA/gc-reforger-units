@@ -22,5 +22,6 @@ SCR_AIGroup : "{5CC564DD03A08DC5}Prefabs/Groups/BLUFOR/GC_CAF/1993 Canadian Army
  m_aUnitPrefabSlots {
   "{4EA20A6E9AEFB2E4}Prefabs/Characters/Factions/BLUFOR/GC_Canada/2025 Canadian Army/Temperate Woodland/Character_CAF_2020_TW_CoyCO.et" "{3076CC98DF01D2E7}Prefabs/Characters/Factions/BLUFOR/GC_Canada/2025 Canadian Army/Temperate Woodland/Character_CAF_2020_TW_Coy2IC.et" "{79C1119401BC65A4}Prefabs/Characters/Factions/BLUFOR/GC_Canada/2025 Canadian Army/Temperate Woodland/Character_CAF_2020_TW_CSM.et" "{899F582A385FA44D}Prefabs/Characters/Factions/BLUFOR/GC_Canada/2025 Canadian Army/Temperate Woodland/Character_CAF_2020_TW_FO.et" "{4F6C8FB9E8542A0D}Prefabs/Characters/Factions/BLUFOR/GC_Canada/2025 Canadian Army/Temperate Woodland/Character_CAF_2020_TW_Signaller.et" "{10352806EAA89E11}Prefabs/Characters/Factions/BLUFOR/GC_Canada/2025 Canadian Army/Temperate Woodland/Character_CAF_2020_TW_Medic.et" "{10352806EAA89E11}Prefabs/Characters/Factions/BLUFOR/GC_Canada/2025 Canadian Army/Temperate Woodland/Character_CAF_2020_TW_Medic.et" "{B5EF64CA9CB359D6}Prefabs/Characters/Factions/BLUFOR/GC_Canada/2025 Canadian Army/Temperate Woodland/Character_CAF_2020_TW_CrewCommander.et" "{9AF7AB8365E90F97}Prefabs/Characters/Factions/BLUFOR/GC_Canada/2025 Canadian Army/Temperate Woodland/Character_CAF_2020_TW_CrewGunner.et" "{7DDC0C634D1E063A}Prefabs/Characters/Factions/BLUFOR/GC_Canada/2025 Canadian Army/Temperate Woodland/Character_CAF_2020_TW_CrewDriver.et"
  }
- m_sCustomNameSet "Company HQ"
+ m_sGC_Description "Company HQ"
+ m_bPlayable 0
 }

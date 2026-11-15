@@ -12,9 +12,6 @@ SCR_ChimeraCharacter : "{25FECB70EBFE3EDA}Prefabs/Characters/Factions/BLUFOR/RHS
     }
    }
   }
-  PS_PlayableComponent "{5EFCC1946F475F15}" {
-   m_sName "Platoon Leader"
-  }
   SCR_CharacterRankComponent "{528E6D4286AA2D8F}" {
    m_iRank LIEUTENANT
   }

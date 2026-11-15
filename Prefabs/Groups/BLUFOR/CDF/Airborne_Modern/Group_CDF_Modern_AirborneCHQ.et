@@ -10,5 +10,5 @@ SCR_AIGroup : "{28C2538AD0A4338E}Prefabs/Groups/BLUFOR/CDF/Group_CDF_base.et" {
  m_aUnitPrefabSlots {
   "{EA4D7185CFA096AF}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Airborne/Character_CDF_Airborne_CoyCO.et" "{ACBE55B7C2960A2B}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Airborne/Character_CDF_Airborne_Coy2IC.et" "{A56D2F867DE357CF}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Airborne/Character_CDF_Airborne_RTO.et" "{D90F007CC5F912FD}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Airborne/Character_CDF_Airborne_MED.et"
  }
- m_sCustomNameSet "Company HQ"
+ m_sGC_Description "Company HQ"
 }

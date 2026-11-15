@@ -1,9 +1,6 @@
 SCR_ChimeraCharacter : "{124577CE46390EBD}Prefabs/Characters/Factions/INDFOR/RHS_ION/Character_RHS_ION_GC.et" {
  ID "520EC961A090B1EE"
  components {
-  PS_PlayableComponent "{5EFCC1946F475F15}" {
-   m_sName "Unarmed"
-  }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Jacket {
@@ -31,6 +28,11 @@ SCR_ChimeraCharacter : "{124577CE46390EBD}Prefabs/Characters/Factions/INDFOR/RHS
       "{8FF49793853DB2F9}Prefabs/Weapons/Magazines/m17_magazines/Magazine_9x19_m17_17rnd_M1152.et" "{8FF49793853DB2F9}Prefabs/Weapons/Magazines/m17_magazines/Magazine_9x19_m17_17rnd_M1152.et"
      }
     }
+   }
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Unarmed"
    }
   }
  }

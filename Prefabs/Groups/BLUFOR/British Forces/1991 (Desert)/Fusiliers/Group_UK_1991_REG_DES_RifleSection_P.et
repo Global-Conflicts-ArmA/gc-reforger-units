@@ -8,5 +8,6 @@ SCR_AIGroup : "{FB08033A33E826D5}Prefabs/Groups/BLUFOR/British Forces/1989/Group
  m_aUnitPrefabSlots {
   "{A5005F7B2AA74324}Prefabs/Characters/Factions/BLUFOR/UK_Army/1991 (Desert)/Fusiliers/Character_UK_1991_Regulars_Desert_SectionCommander_P.et" "{4CBFC6F1FA1337DA}Prefabs/Characters/Factions/BLUFOR/UK_Army/1991 (Desert)/Fusiliers/Character_UK_1991_Regulars_Desert_LSW_P.et" "{588DD4764199D2FE}Prefabs/Characters/Factions/BLUFOR/UK_Army/1991 (Desert)/Fusiliers/Character_UK_1991_Regulars_Desert_Rifleman_LAT_P.et" "{570CA39EA1D740AD}Prefabs/Characters/Factions/BLUFOR/UK_Army/1991 (Desert)/Fusiliers/Character_UK_1991_Regulars_Desert_Rifleman_P.et" "{B9DE91D88EF188D5}Prefabs/Characters/Factions/BLUFOR/UK_Army/1991 (Desert)/Fusiliers/Character_UK_1991_Regulars_Desert_Section2IC_P.et" "{CB63BD75426B697F}Prefabs/Characters/Factions/BLUFOR/UK_Army/1991 (Desert)/Fusiliers/Character_UK_1991_Regulars_Desert_GPMG_No1_P.et" "{70EEE3570BA7E8B6}Prefabs/Characters/Factions/BLUFOR/UK_Army/1991 (Desert)/Fusiliers/Character_UK_1991_Regulars_Desert_AMG_P.et"
  }
- m_sCustomNameSet "Armd Inf Section (Dismounted)"
+ m_sGC_Description "Armd Inf Section (Dismounted)"
+ m_bPlayable 1
 }

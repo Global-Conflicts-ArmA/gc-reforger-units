@@ -3,6 +3,6 @@ SCR_AIGroup : "{EE8D60FCE6D3B856}Prefabs/Groups/BLUFOR/RHS_USAF/RHS_USAF_USMC_ME
  m_aUnitPrefabSlots {
   "{09DBE7ABF7772C92}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Delta/P/Character_CRX_Delta_SL_P.et" "{27CAF80EE06C5DEC}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Delta/P/Character_CRX_Delta_TL_P.et" "{C5A4BB0480A7F81D}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Delta/P/Character_CRX_Delta_MG_P.et" "{C69F1A6E2AD1FD4E}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Delta/P/Character_CRX_Delta_MG_Assist_P.et" "{ED192202D246519A}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Delta/P/Character_CRX_Delta_AT_P.et" "{14F71D81DDA61403}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Delta/P/Character_CRX_Delta_AT_Assist_P.et"
  }
- m_sCustomNameSet "Delta Force Support Troop"
- m_bSetPlayable 1
+ m_sGC_Description "Delta Force Support Troop"
+ m_bPlayable 1
 }

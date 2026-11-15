@@ -4,5 +4,5 @@ SCR_AIGroup : "{000CD338713F2B5A}Prefabs/AI/Groups/Group_Base.et" {
  m_aUnitPrefabSlots {
   "{8F65D8922DE5373C}Prefabs/Characters/Factions/INDFOR/RHS_ION/Black_Static/Character_RHS_ION_GC_BlackStatic_Sniper.et" "{E908107898FA5BB9}Prefabs/Characters/Factions/INDFOR/RHS_ION/Black_Static/Character_RHS_ION_GC_BlackStatic_Spotter.et"
  }
- m_sCustomNameSet "Sniper Team"
+ m_sGC_Description "Sniper Team"
 }

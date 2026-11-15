@@ -1,8 +1,5 @@
 SCR_ChimeraCharacter : "{32F9BF4647C136B7}Prefabs/Characters/Factions/BLUFOR/US_Army/DBDU/Character_US_DBDU_Ammo.et" {
  ID "522AAC66D0A2C0DC"
  components {
-  PS_PlayableComponent "{5EFCC1946F475F15}" {
-   m_bIsPlayable 1
-  }
  }
 }

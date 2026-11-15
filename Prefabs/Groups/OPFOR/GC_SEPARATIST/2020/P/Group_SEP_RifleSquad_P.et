@@ -11,5 +11,5 @@ SCR_AIGroup : "{B50B7BF31273C2A6}Prefabs/Groups/OPFOR/RHS_AFRF/MSV/VKPO_Demiseas
  m_aUnitPrefabSlots {
   "{EA4EADCD22E970B0}Prefabs/Characters/Factions/OPFOR/GC_SEPARATIST/P/Character_GC_SEPARATIST_SL_P.et" "{4FCB1540F6AFC4DA}Prefabs/Characters/Factions/OPFOR/GC_SEPARATIST/P/Character_GC_SEPARATIST_AR_P.et" "{F21B47C789B4D8C4}Prefabs/Characters/Factions/OPFOR/GC_SEPARATIST/P/Character_GC_SEPARATIST_AT_P.et" "{95F16E964A2D2294}Prefabs/Characters/Factions/OPFOR/GC_SEPARATIST/P/Character_GC_SEPARATIST_GL_P.et" "{38C89DCBBB9ED4B2}Prefabs/Characters/Factions/OPFOR/GC_SEPARATIST/P/Character_GC_SEPARATIST_TL_P.et" "{DAA6DEC1DB557143}Prefabs/Characters/Factions/OPFOR/GC_SEPARATIST/P/Character_GC_SEPARATIST_MG_P.et" "{63E34E68CD2DF356}Prefabs/Characters/Factions/OPFOR/GC_SEPARATIST/P/Character_GC_SEPARATIST_Sharpshooter_P.et" "{A7BA9DA98C655A24}Prefabs/Characters/Factions/OPFOR/GC_SEPARATIST/P/Character_GC_SEPARATIST_Rifleman_P.et"
  }
- m_bSetPlayable 1
+ m_bPlayable 1
 }

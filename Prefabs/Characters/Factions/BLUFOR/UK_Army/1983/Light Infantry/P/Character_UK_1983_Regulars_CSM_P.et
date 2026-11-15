@@ -12,15 +12,12 @@ SCR_ChimeraCharacter : "{F1DC0DCDD8677485}Prefabs/Characters/Factions/BLUFOR/UK_
     }
    }
   }
-  PS_PlayableComponent "{5EFCC1946F475F15}" {
-   m_sName "Company Serjeant Major"
-   m_bIsPlayable 1
-  }
   SCR_CharacterRankComponent "{528E6D4286AA2D8F}" {
    m_iRank SERGEANT
   }
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Company Serjeant Major"
    }
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {

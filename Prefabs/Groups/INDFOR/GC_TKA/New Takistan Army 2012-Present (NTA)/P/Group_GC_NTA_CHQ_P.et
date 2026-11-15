@@ -3,6 +3,6 @@ SCR_AIGroup : "{7E8F2DF44B282C5A}Prefabs/Groups/INDFOR/GC_TKA/New Takistan Army 
  m_aUnitPrefabSlots {
   "{8DE73EDF3046288E}Prefabs/Characters/Factions/INDFOR/GC_TKA/New Takistan Army 2012-Present (NTA)/P/Character_GC_NTA_CoyCO_P.et" "{809BF314C5B5CB54}Prefabs/Characters/Factions/INDFOR/GC_TKA/New Takistan Army 2012-Present (NTA)/P/Character_GC_NTA_CoySM_P.et" "{315663792B409821}Prefabs/Characters/Factions/INDFOR/GC_TKA/New Takistan Army 2012-Present (NTA)/P/Character_GC_NTA_RTO_P.et"
  }
- m_sCustomNameSet "Company HQ"
- m_bSetPlayable 1
+ m_sGC_Description "Company HQ"
+ m_bPlayable 1
 }

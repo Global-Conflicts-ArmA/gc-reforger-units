@@ -34,5 +34,5 @@ SCR_AIGroup : "{E6CCF06F33FFCD3F}Prefabs/Groups/BLUFOR/GC_SanSerriffe/Group_SanS
  m_aUnitPrefabSlots {
   "{8CB53C5BCBBFF14D}Prefabs/Characters/Factions/BLUFOR/GC_SanSerriffe/53/Character_SanSerriffe_53_SIC.et" "{3BD897FCDF2916DA}Prefabs/Characters/Factions/BLUFOR/GC_SanSerriffe/53/Character_SanSerriffe_53_Rifleman.et" "{3BD897FCDF2916DA}Prefabs/Characters/Factions/BLUFOR/GC_SanSerriffe/53/Character_SanSerriffe_53_Rifleman.et" "{3BD897FCDF2916DA}Prefabs/Characters/Factions/BLUFOR/GC_SanSerriffe/53/Character_SanSerriffe_53_Rifleman.et" "{3BD897FCDF2916DA}Prefabs/Characters/Factions/BLUFOR/GC_SanSerriffe/53/Character_SanSerriffe_53_Rifleman.et" "{3BD897FCDF2916DA}Prefabs/Characters/Factions/BLUFOR/GC_SanSerriffe/53/Character_SanSerriffe_53_Rifleman.et" "{3BD897FCDF2916DA}Prefabs/Characters/Factions/BLUFOR/GC_SanSerriffe/53/Character_SanSerriffe_53_Rifleman.et" "{4B80952163009B27}Prefabs/Characters/Factions/BLUFOR/GC_SanSerriffe/53/Character_SanSerriffe_53_S2IC.et" "{B32A135E977447BD}Prefabs/Characters/Factions/BLUFOR/GC_SanSerriffe/53/Character_SanSerriffe_53_MG.et" "{814AF7777D457DF5}Prefabs/Characters/Factions/BLUFOR/GC_SanSerriffe/53/Character_SanSerriffe_53_MGASS.et"
  }
- m_sCustomNameSet "Section"
+ m_sGC_Description "Section"
 }

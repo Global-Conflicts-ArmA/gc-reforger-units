@@ -1,4 +1,4 @@
 SCR_AIGroup : "{472240372AA82D89}Prefabs\Groups\BLUFOR\US\Army\1986\Lt Inf (Desert)\P\Group_US_1986_DBDU_RifleSquad_M249_P.et" {
  ID "0000000000000001"
- m_sCustomNameSet "Coy HQ"
+ m_sGC_Description "Coy HQ"
 }

@@ -11,5 +11,5 @@ SCR_AIGroup : "{2BA4FF1232A6371C}Prefabs/Groups/OPFOR/GC_NVA/Group_NVA_Base.et" 
   "{D384466A8828A5BC}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_CompanyCommander.et" "{4D304C643CF1A78D}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_CompanySergeantMajor.et" "{03ADE746594FC316}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_Radioman.et" "{5A90F3CBD1731260}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_Medic.et"
  }
  m_bPlayable 1
- m_sCustomNameSet "Company HQ"
+ m_sGC_Description "Company HQ"
 }

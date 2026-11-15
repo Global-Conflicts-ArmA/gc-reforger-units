@@ -3,6 +3,6 @@ SCR_AIGroup : "{EACD97CF4A702FAE}Prefabs/Groups/BLUFOR/Group_US_Base.et" {
  m_aUnitPrefabSlots {
   "{7E3E16DCCC002346}Prefabs/Characters/Factions/BLUFOR/US_Army/1980_ForceRecon/Character_US_FORCON_80_SL_P.et" "{666BFCD6675D8B32}Prefabs/Characters/Factions/BLUFOR/US_Army/1980_ForceRecon/Character_US_FORCON_80_AT_P.et" "{2CB1A79D5F0B11FD}Prefabs/Characters/Factions/BLUFOR/US_Army/1980_ForceRecon/Character_US_FORCON_80_AAT_P.et" "{666BFCD6675D8B32}Prefabs/Characters/Factions/BLUFOR/US_Army/1980_ForceRecon/Character_US_FORCON_80_AT_P.et" "{2CB1A79D5F0B11FD}Prefabs/Characters/Factions/BLUFOR/US_Army/1980_ForceRecon/Character_US_FORCON_80_AAT_P.et"
  }
- m_sCustomNameSet "AT Squad"
- m_bSetPlayable 1
+ m_sGC_Description "AT Squad"
+ m_bPlayable 1
 }

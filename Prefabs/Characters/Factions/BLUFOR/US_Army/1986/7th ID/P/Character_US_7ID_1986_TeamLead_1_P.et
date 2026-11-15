@@ -1,10 +1,6 @@
 SCR_ChimeraCharacter : "{6AD8688D62B00FEE}Prefabs/Characters/Factions/BLUFOR/US_Army/7th ID/1986/Character_US_7ID_1986_TeamLead_1.et" {
  ID "520EC961A090B1EE"
  components {
-  PS_PlayableComponent "{5EFCC1946F475F15}" {
-   m_sName "Team leader"
-   m_bIsPlayable 1
-  }
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_VariantData SCR_EditableEntityVariantData "{6539390B8863F1DE}" {
     m_aVariants {
@@ -18,6 +14,9 @@ SCR_ChimeraCharacter : "{6AD8688D62B00FEE}Prefabs/Characters/Factions/BLUFOR/US_
       m_sVariantPrefab "{A453ADFE4ACB4B18}Prefabs/Characters/Factions/BLUFOR/US_Army/7th ID/1986/P/Character_US_7ID_1986_TeamLead_3_P.et"
      }
     }
+   }
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Team leader"
    }
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {

@@ -4,13 +4,13 @@ SCR_AIGroup : "{EACD97CF4A702FAE}Prefabs/Groups/BLUFOR/Group_US_Base.et" {
   AIFormationComponent "{507E9DC12F541FE6}" {
    DefaultFormation "line"
   }
-  PS_GroupCallsignAssigner "{63616C6C7369676E}" {
-  }
  }
  m_aUnitPrefabSlots {
   "{80C54F37B8040874}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Desert (DBDU)/2AD Bradley Mech/P/Character_US_1986_DBDU_Brad_SL_P.et" "{7822A476116BE3E8}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Desert (DBDU)/2AD Bradley Mech/P/Character_US_1986_DBDU_Brad_Gunner_P.et" "{A9565A78B4EB4E8B}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Desert (DBDU)/2AD Bradley Mech/P/Character_US_1986_DBDU_Brad_Driver_P.et" "{33C657018C0D19C9}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Desert (DBDU)/2AD Bradley Mech/P/Character_US_1986_DBDU_Brad_SLAss_P.et" "{A14D49AF5A732528}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Desert (DBDU)/P/Character_US_1986_DBDU_MG_P.et" "{63E1DF2D9C891592}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Desert (DBDU)/P/Character_US_1986_DBDU_AMG_P.et" "{EE1AF9F8CB0B76FF}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Desert (DBDU)/P/Character_US_1986_DBDU_GL_P.et" "{D990680EFC64233D}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Desert (DBDU)/Character_US_1986_DBDU_MAT_AI.et" "{C8AC128E863E254D}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Desert (DBDU)/Character_US_1986_DBDU_RF_AI.et"
  }
  m_bPlayable 1
- m_sCustomNameSet "Bradley Rifle Squad"
- m_bSetPlayable 1
+ m_sGC_Description "Bradley Rifle Squad"
+ m_iGC_CallsignCompany "0"
+ m_iGC_CallsignPlatoon "0"
+ m_iGC_CallsignSquad "0"
 }

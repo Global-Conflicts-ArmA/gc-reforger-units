@@ -9,5 +9,6 @@ SCR_AIGroup : "{2FA8727C0B695783}Prefabs/Groups/BLUFOR/British Forces/1989/Group
  m_aUnitPrefabSlots {
   "{5C42780D49566B1C}Prefabs/Characters/Factions/BLUFOR/UK_Army/1991 (Desert)/Fusiliers/Character_UK_1991_Regulars_Desert_CompanyCommander_P.et" "{2B5B691FB1DAA116}Prefabs/Characters/Factions/BLUFOR/UK_Army/1991 (Desert)/Fusiliers/Character_UK_1991_Regulars_Desert_Company2IC_P.et" "{6894AB7195055C21}Prefabs/Characters/Factions/BLUFOR/UK_Army/1991 (Desert)/Fusiliers/Character_UK_1991_Regulars_Desert_CSM_P.et" "{56BE8BF480CB99A9}Prefabs/Characters/Factions/BLUFOR/UK_Army/1991 (Desert)/Fusiliers/Character_UK_1991_Regulars_Desert_RTO_P.et" "{4AEAB29C990FA928}Prefabs/Characters/Factions/BLUFOR/UK_Army/1991 (Desert)/Fusiliers/Character_UK_1991_Regulars_Desert_MFC_P.et" "{9D6503B9F7F2EEC2}Prefabs/Characters/Factions/BLUFOR/UK_Army/1991 (Desert)/Fusiliers/Character_UK_1991_Regulars_Desert_Medic_P.et" "{9D6503B9F7F2EEC2}Prefabs/Characters/Factions/BLUFOR/UK_Army/1991 (Desert)/Fusiliers/Character_UK_1991_Regulars_Desert_Medic_P.et"
  }
- m_sCustomNameSet "Rifle Platoon HQ"
+ m_sGC_Description "Rifle Platoon HQ"
+ m_bPlayable 1
 }

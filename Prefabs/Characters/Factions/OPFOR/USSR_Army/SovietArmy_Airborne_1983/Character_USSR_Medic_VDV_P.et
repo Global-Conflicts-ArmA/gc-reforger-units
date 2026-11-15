@@ -1,10 +1,6 @@
 SCR_ChimeraCharacter : "{D66C215D6F03EFFD}Prefabs/Characters/Factions/OPFOR/USSR_Army/KLMK/Character_USSR_Medic_KLMK.et" {
  ID "51FAD317FC20EC1B"
  components {
-  PS_PlayableComponent "{5EFCC1946F475F15}" {
-   m_sName "Medic"
-   m_bIsPlayable 1
-  }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {
@@ -28,6 +24,11 @@ SCR_ChimeraCharacter : "{D66C215D6F03EFFD}Prefabs/Characters/Factions/OPFOR/USSR
      PrefabsToSpawn +{
      }
     }
+   }
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Medic"
    }
   }
  }

@@ -4,8 +4,6 @@ SCR_AIGroup : "{000CD338713F2B5A}Prefabs/AI/Groups/Group_Base.et" {
   AIFormationComponent "{507E9DC12F541FE6}" {
    DefaultFormation "LineLeft"
   }
-  PS_GroupCallsignAssigner "{63616C6C7369676E}" {
-  }
   SCR_GroupIdentityComponent "{56366C5C50AD3CF2}" {
    m_MilitarySymbol SCR_MilitarySymbol "{56366C5C4E32A359}" {
     m_Identity INDFOR
@@ -19,4 +17,8 @@ SCR_AIGroup : "{000CD338713F2B5A}Prefabs/AI/Groups/Group_Base.et" {
  m_aUnitPrefabSlots {
   "{E5A6A323B5A2CE44}Prefabs/Characters/Factions/INDFOR/RHS_ION/Uniformed_Division/Playable/Character_GC_ION_Uniformed_Sniper_P.et" "{375EA75B17C14602}Prefabs/Characters/Factions/INDFOR/RHS_ION/Uniformed_Division/Playable/Character_GC_ION_Uniformed_Spotter_P.et"
  }
+ m_bPlayable 1
+ m_iGC_CallsignCompany "0"
+ m_iGC_CallsignPlatoon "0"
+ m_iGC_CallsignSquad "0"
 }

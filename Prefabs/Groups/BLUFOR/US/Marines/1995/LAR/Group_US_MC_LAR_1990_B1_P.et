@@ -1,12 +1,12 @@
 SCR_AIGroup : "{37744AC8AFE74FAC}Prefabs/Groups/BLUFOR/US/Marines_1995_LAR/Group_US_MC_LAR_1990_A1_P.et" {
  ID "0000000000000001"
  components {
-  PS_GroupCallsignAssigner "{63616C6C7369676E}" {
-   m_iSquadCallsign 3
-  }
  }
  m_aUnitPrefabSlots {
-  "{6FD27881621A2747}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_CrewCommander_PSG_P.et" "{B94C515ED8EA024E}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_CrewGunner_P.et" "{6838AF507D6AAF2D}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_CrewDriver_P.et" "{7E44CF4FB58F8FF7}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_AR_P.et" "{C262DC827577226C}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_LAT_P.et" "{64AD55FF89C97DF9}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Rifleman_P.et" "{C095F7A0632CE65E}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Sapper_P.et"
+  "{6FD27881621A2747}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_CrewCommander_PSG_P.et" "{B94C515ED8EA024E}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_CrewGunner_P.et" "{6838AF507D6AAF2D}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_CrewDriver_P.et" "{5B1996C05B1E51A4}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_AR.et" "{27BF1FF235DD6036}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_LAT.et" "{26A9756790131354}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Rifleman.et" "{AE63E4B79FB45DD1}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Sapper.et"
  }
- m_sCustomNameSet "LAR Plt. | Bravo-1"
+ m_sGC_Description "LAR Plt. | Bravo-1"
+ m_iGC_CallsignCompany "0"
+ m_iGC_CallsignPlatoon "0"
+ m_iGC_CallsignSquad "3"
 }

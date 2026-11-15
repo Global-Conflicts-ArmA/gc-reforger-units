@@ -1,11 +1,9 @@
 SCR_ChimeraCharacter : "{76F683600E23035A}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Light Infantry/P/Character_UK_1983_Regulars_Sergeant_P.et" {
  ID "520EC961A090B1EE"
  components {
-  PS_PlayableComponent "{5EFCC1946F475F15}" {
-   m_sName "Platoon Sergeant"
-  }
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Platoon Sergeant"
    }
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {

@@ -3,4 +3,5 @@ SCR_AIGroup : "{F6FEAC4B533C5A2E}Prefabs/Groups/BLUFOR/US/Army/1986/8th ID M113 
  m_aUnitPrefabSlots {
   "{B84BD723E682B978}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/P/Character_US_1986_BDU_PL_CO_P.et" "{81D3F65CC7054E96}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/P/Character_US_1986_BDU_PSG_P.et" "{A1AFC251AE26C34E}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/P/Character_US_1986_BDU_RTO_P.et" "{4AE9BC917A6377D6}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/P/Character_US_1986_BDU_FO_P.et" "{A1AFC251AE26C34E}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/P/Character_US_1986_BDU_RTO_P.et" "{F841D41888F73D00}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/P/Character_US_1986_BDU_Medic_P.et" "{84958BFE6A5740D6}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Mech (Woodland)/P/Character_US_1986_M113 _Driver_P.et"
  }
+ m_bPlayable 1
 }

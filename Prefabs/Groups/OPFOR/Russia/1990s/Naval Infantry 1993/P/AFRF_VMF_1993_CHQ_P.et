@@ -16,4 +16,5 @@ SCR_AIGroup : "{B50B7BF31273C2A6}Prefabs/Groups/OPFOR/RHS_AFRF/MSV/VKPO_Demiseas
  m_aUnitPrefabSlots {
   "{E2AE390354B8CD3A}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VMF/VSR/P/Character_RHS_RF_VMF_VSR_CoyCO_P.et" "{58D7184478BF1AD0}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VMF/VSR/P/Character_RHS_RF_VMF_VSR_Coy2IC_P.et" "{F16932D8F17360D1}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VMF/VSR/P/Character_RHS_RF_VMF_VSR_1SG_P.et" "{4F5FB88A94007497}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VMF/VSR/P/Character_RHS_RF_VMF_VSR_RTO_P.et" "{8E461907FA345841}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VMF/VSR/P/Character_RHS_RF_VMF_VSR_CrewGunner_P.et" "{099EA118A10313C3}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VMF/VSR/P/Character_RHS_RF_VMF_VSR_CrewDriver_P.et"
  }
+ m_bPlayable 1
 }

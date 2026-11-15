@@ -4,11 +4,12 @@ SCR_AIGroup : "{EACD97CF4A702FAE}Prefabs/Groups/BLUFOR/Group_US_Base.et" {
   AIFormationComponent "{507E9DC12F541FE6}" {
    DefaultFormation "line"
   }
-  PS_GroupCallsignAssigner "{63616C6C7369676E}" {
-  }
  }
  m_aUnitPrefabSlots {
   "{90D4C06549B0C6B4}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Mech (Woodland)/Character_US_1986_BDU_Brad_SL_AI.et" "{56F591DA7F6F1ED6}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/Character_US_1986_BDU_MG_AI.et" "{5C4AF76FBE474FBA}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/Character_US_1986_BDU_AMG_AI.et" "{C7044CAD05A9862D}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/Character_US_1986_BDU_GL_AI.et" "{82431EAF7E26DF07}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/Character_US_1986_BDU_LAT_AI.et" "{82431EAF7E26DF07}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/Character_US_1986_BDU_LAT_AI.et"
  }
- m_sCustomNameSet "Rifle Squad"
+ m_sGC_Description "Rifle Squad"
+ m_iGC_CallsignCompany "0"
+ m_iGC_CallsignPlatoon "0"
+ m_iGC_CallsignSquad "0"
 }

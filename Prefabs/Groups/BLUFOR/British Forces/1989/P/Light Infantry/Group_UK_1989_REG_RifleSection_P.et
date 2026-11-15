@@ -8,5 +8,6 @@ SCR_AIGroup : "{FB08033A33E826D5}Prefabs/Groups/BLUFOR/British Forces/1989/Group
  m_aUnitPrefabSlots {
   "{14297AE2CB7BC202}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/Regulars/Character_UK_1989_Regulars_SectionCommander_P.et" "{04A0DCA055D2C27A}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/Regulars/Character_UK_1989_Regulars_LSW_P.et" "{471D276F879EE477}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/Regulars/Character_UK_1989_Regulars_Rifleman_LAT_P.et" "{DB3A46D8D4537057}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/Regulars/Character_UK_1989_Regulars_Rifleman_P.et" "{C09D7D7A3D102331}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/Regulars/Character_UK_1989_Regulars_Section2IC_P.et" "{04A0DCA055D2C27A}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/Regulars/Character_UK_1989_Regulars_LSW_P.et" "{471D276F879EE477}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/Regulars/Character_UK_1989_Regulars_Rifleman_LAT_P.et" "{DB3A46D8D4537057}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/Regulars/Character_UK_1989_Regulars_Rifleman_P.et"
  }
- m_sCustomNameSet "Rifle Section"
+ m_sGC_Description "Rifle Section"
+ m_bPlayable 1
 }

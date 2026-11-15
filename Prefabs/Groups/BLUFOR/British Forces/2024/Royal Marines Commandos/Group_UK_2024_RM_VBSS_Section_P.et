@@ -18,5 +18,6 @@ SCR_AIGroup : "{FB08033A33E826D5}Prefabs/Groups/BLUFOR/British Forces/1989/Group
  m_aUnitPrefabSlots {
   "{F803234C92A03D97}Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/Royal Marines Commandos/VBSS/Character_UK_2024_RM_Section1IC_VBSS_P.et" "{55660ACAFF312EC8}Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/Royal Marines Commandos/VBSS/Character_UK_2024_RM_Sapper_VBSS_P.et" "{B77F2AF4AAECA1E4}Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/Royal Marines Commandos/VBSS/Character_UK_2024_RM_Rifleman_VBSS_P.et" "{B77F2AF4AAECA1E4}Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/Royal Marines Commandos/VBSS/Character_UK_2024_RM_Rifleman_VBSS_P.et" "{B8A291EAA8B5CE90}Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/Royal Marines Commandos/VBSS/Character_UK_2024_RM_Section2IC_VBSS_P.et" "{61FD9A20D99C007A}Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/Royal Marines Commandos/VBSS/Character_UK_2024_RM_MachineGunner_VBSS_P.et" "{B77F2AF4AAECA1E4}Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/Royal Marines Commandos/VBSS/Character_UK_2024_RM_Rifleman_VBSS_P.et" "{B77F2AF4AAECA1E4}Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/Royal Marines Commandos/VBSS/Character_UK_2024_RM_Rifleman_VBSS_P.et"
  }
- m_sCustomNameSet "Commando Section"
+ m_sGC_Description "Commando Section"
+ m_bPlayable 1
 }

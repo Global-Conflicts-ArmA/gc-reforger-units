@@ -1,4 +1,4 @@
 SCR_AIGroup : "{14ADDF281A361EB5}Prefabs\Groups\BLUFOR\US\Army\1986\Lt Inf (Desert)\P\Group_US_1986_DBDU_PLT_HQ_P.et" {
  ID "0000000000000001"
- m_bSetPlayable 1
+ m_bPlayable 1
 }

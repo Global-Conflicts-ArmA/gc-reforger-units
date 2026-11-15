@@ -1,9 +1,6 @@
 SCR_ChimeraCharacter : "{39DE841FBF372194}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_MARSOC/Character_RHS_USMC_MARSOC_AR.et" {
  ID "520EC961A090B1EE"
  components {
-  PS_PlayableComponent "{5EFCC1946F475F15}" {
-   m_bIsPlayable 1
-  }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
    WeaponTemplate "{4793C90A319B0CF3}Prefabs/Weapons/MachineGuns/M249/MG_FN_Minimi_M249E3_Para_NoHandGuard_Eot_PEQ.et"
   }

@@ -12,9 +12,6 @@ SCR_ChimeraCharacter : "{07D5D6C13F2065B1}Prefabs/Characters/Factions/OPFOR/GC_I
     }
    }
   }
-  PS_PlayableComponent "{5EFCC1946F475F15}" {
-   m_bIsPlayable 1
-  }
   SCR_CharacterFactionAffiliationComponent "{6554AEF5AE95A3BC}" {
    "faction affiliation" "CIV"
   }

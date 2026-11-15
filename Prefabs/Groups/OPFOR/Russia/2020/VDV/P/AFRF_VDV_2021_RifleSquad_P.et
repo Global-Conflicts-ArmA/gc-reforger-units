@@ -8,4 +8,5 @@ SCR_AIGroup : "{DBB5CAB5F940933B}Prefabs/Groups/OPFOR/Russia/2020/VDV/AFRF_VDV_2
  m_aUnitPrefabSlots {
   "{DED26EBF6424519D}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/VKPO3_EMR/P/Character_RHS_VDV_VKPO3_SL_P.et" "{7B57D632B062E5F7}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/VKPO3_EMR/P/Character_RHS_VDV_VKPO3_AR_P.et" "{C68784B5CF79F9E9}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/VKPO3_EMR/P/Character_RHS_VDV_VKPO3_AT_P.et" "{FA49D00A2788B5EE}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/VKPO3_EMR/P/Character_RHS_VDV_VKPO3_AAT_P.et" "{11A2B5F2B48750DD}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/VKPO3_EMR/P/Character_RHS_VDV_VKPO3_SR_P.et" "{3219FFB8145ACE1E}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/VKPO3_EMR/P/Character_RHS_VDV_VKPO3_Rifleman_P.et"
  }
+ m_bPlayable 1
 }

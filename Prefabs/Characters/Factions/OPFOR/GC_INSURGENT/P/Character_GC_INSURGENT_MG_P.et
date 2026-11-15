@@ -1,8 +1,5 @@
 SCR_ChimeraCharacter : "{53615ED7C0E8C956}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Character_GC_INSURGENT_MG.et" {
  ID "520EC961A090B1EE"
  components {
-  PS_PlayableComponent "{5EFCC1946F475F15}" {
-   m_bIsPlayable 1
-  }
  }
 }

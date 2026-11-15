@@ -9,5 +9,6 @@ SCR_AIGroup : "{2FA8727C0B695783}Prefabs/Groups/BLUFOR/British Forces/1989/Group
  m_aUnitPrefabSlots {
   "{CE3C976DB989BFC5}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/Royal Marines/Character_UK_1989_Marines_PlatoonLeader_P.et" "{A656D80B50CEE703}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/Royal Marines/Character_UK_1989_Marines_Sergeant_P.et" "{41F0E400455F780C}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/Royal Marines/Character_UK_1989_Marines_Medic_P.et" "{0DBA61D566E01092}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/Royal Marines/Character_UK_1989_Marines_RTO_P.et"
  }
- m_sCustomNameSet "Marine Troop HQ"
+ m_sGC_Description "Marine Troop HQ"
+ m_bPlayable 1
 }

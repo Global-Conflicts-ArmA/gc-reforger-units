@@ -4,5 +4,5 @@ SCR_AIGroup : "{5EC92F8C0BC6001E}Prefabs/Groups/BLUFOR/US/Army_7ID/1986/Group_US
  m_aUnitPrefabSlots {
   "{D08A8AC8753A39D0}Prefabs/Characters/Factions/BLUFOR/US_Army/7th ID/1986/P/Character_US_7ID_1986_PlatoonLeader_1_P.et" "{942770C10082B2A5}Prefabs/Characters/Factions/BLUFOR/US_Army/7th ID/1986/P/Character_US_7ID_1986_PlatoonSgt_1_P.et" "{6412510B53E83363}Prefabs/Characters/Factions/BLUFOR/US_Army/7th ID/1986/P/Character_US_7ID_1986_RTO_1_P.et" "{62EA527A42CE19A7}Prefabs/Characters/Factions/BLUFOR/US_Army/7th ID/1986/P/Character_US_7ID_1986_Machinegun_1_P.et" "{08550F937A0A2CAF}Prefabs/Characters/Factions/BLUFOR/US_Army/7th ID/1986/P/Character_US_7ID_1986_MachinegunAss_1_P.et" "{08550F937A0A2CAF}Prefabs/Characters/Factions/BLUFOR/US_Army/7th ID/1986/P/Character_US_7ID_1986_MachinegunAss_1_P.et" "{62EA527A42CE19A7}Prefabs/Characters/Factions/BLUFOR/US_Army/7th ID/1986/P/Character_US_7ID_1986_Machinegun_1_P.et" "{08550F937A0A2CAF}Prefabs/Characters/Factions/BLUFOR/US_Army/7th ID/1986/P/Character_US_7ID_1986_MachinegunAss_1_P.et" "{08550F937A0A2CAF}Prefabs/Characters/Factions/BLUFOR/US_Army/7th ID/1986/P/Character_US_7ID_1986_MachinegunAss_1_P.et" "{E113E3B86826D2A7}Prefabs/Characters/Factions/BLUFOR/US_Army/7th ID/1986/P/Character_US_7ID_1986_Medic_1_P.et"
  }
- m_bSetPlayable 1
+ m_bPlayable 1
 }

@@ -4,5 +4,5 @@ SCR_AIGroup : "{D935DD01ADA2B253}Prefabs/Groups/BLUFOR/US/Army_7ID/1986/Group_US
  m_aUnitPrefabSlots {
   "{FE26FC6BC90E4B7C}Prefabs/Characters/Factions/BLUFOR/US_Army/7th ID/1986/P/Character_US_7ID_1986_SquadLeader_1_P.et" "{0EB3C325F89BAD63}Prefabs/Characters/Factions/BLUFOR/US_Army/7th ID/1986/P/Character_US_7ID_1986_TeamLead_1_P.et" "{E7C3A2541D3B11ED}Prefabs/Characters/Factions/BLUFOR/US_Army/7th ID/1986/P/Character_US_7ID_1986_Grenadier_1_P.et" "{431F9F025FE5DEFB}Prefabs/Characters/Factions/BLUFOR/US_Army/7th ID/1986/P/Character_US_7ID_1986_AutoRifleman_1_P.et" "{2E4BBBE39C05F197}Prefabs/Characters/Factions/BLUFOR/US_Army/7th ID/1986/P/Character_US_7ID_1986_Rifleman_1_P.et" "{0EB3C325F89BAD63}Prefabs/Characters/Factions/BLUFOR/US_Army/7th ID/1986/P/Character_US_7ID_1986_TeamLead_1_P.et" "{E7C3A2541D3B11ED}Prefabs/Characters/Factions/BLUFOR/US_Army/7th ID/1986/P/Character_US_7ID_1986_Grenadier_1_P.et" "{431F9F025FE5DEFB}Prefabs/Characters/Factions/BLUFOR/US_Army/7th ID/1986/P/Character_US_7ID_1986_AutoRifleman_1_P.et" "{2E4BBBE39C05F197}Prefabs/Characters/Factions/BLUFOR/US_Army/7th ID/1986/P/Character_US_7ID_1986_Rifleman_1_P.et"
  }
- m_bSetPlayable 1
+ m_bPlayable 1
 }

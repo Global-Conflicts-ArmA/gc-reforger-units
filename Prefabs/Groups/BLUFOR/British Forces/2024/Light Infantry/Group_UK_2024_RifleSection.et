@@ -93,5 +93,5 @@ SCR_AIGroup : "{6521AB6151C0A7C8}Prefabs/Groups/BLUFOR/British Forces/1989/Group
  m_aUnitPrefabSlots {
   "{20D056EAEE3BE01B}Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/Light Infantry/Character_UK_2024_Section1IC.et" "{F126EA0A1D81CE33}Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/Light Infantry/Character_UK_2024_Sharpshooter.et" "{E0AB892DC61FB801}Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/Light Infantry/Character_UK_2024_GL.et" "{D1EB8F6180E31E18}Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/Light Infantry/Character_UK_2024_LAT.et" "{6FFAE1CF8D60E686}Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/Light Infantry/Character_UK_2024_Section2IC.et" "{BF6929165FE7C5C8}Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/Light Infantry/Character_UK_2024_MG.et" "{E0AB892DC61FB801}Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/Light Infantry/Character_UK_2024_GL.et" "{0B351D0D1F2A7A24}Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/Light Infantry/Character_UK_2024_Medic.et"
  }
- m_sCustomNameSet "Rifle Section"
+ m_sGC_Description "Rifle Section"
 }

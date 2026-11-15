@@ -12,9 +12,6 @@ SCR_ChimeraCharacter : "{08B4DC8FA3AAEF97}Prefabs/Characters/Factions/BLUFOR/GC_
     }
    }
   }
-  PS_PlayableComponent "{5EFCC1946F475F15}" {
-   m_sName "Section Commander"
-  }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
    WeaponTemplate "{EC5C256DEDBA9E5F}Prefabs/Weapons/Rifles/M4A1/GC_CAF_SF/CSOR/Rifle_M4A1_Long_NT4_ELCAN_CSOR.et"
   }

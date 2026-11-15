@@ -9,5 +9,6 @@ SCR_AIGroup : "{2FA8727C0B695783}Prefabs/Groups/BLUFOR/British Forces/1989/Group
  m_aUnitPrefabSlots {
   "{8F310089F5067024}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/Royal Marines/Character_UK_1989_Marines_CompanyCommander_P.et" "{EC67DC4E9A6BED9E}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/Royal Marines/Character_UK_1989_Marines_Company2IC_P.et" "{33904150732ED51A}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/Royal Marines/Character_UK_1989_Marines_CSM_P.et" "{0DBA61D566E01092}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/Royal Marines/Character_UK_1989_Marines_RTO_P.et" "{8A758C604CAF52B0}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/Royal Marines/Character_UK_1989_Marines_MFC_P.et" "{41F0E400455F780C}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/Royal Marines/Character_UK_1989_Marines_Medic_P.et" "{41F0E400455F780C}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/Royal Marines/Character_UK_1989_Marines_Medic_P.et"
  }
- m_sCustomNameSet "Marine Company HQ"
+ m_sGC_Description "Marine Company HQ"
+ m_bPlayable 1
 }

@@ -14,6 +14,6 @@ SCR_AIGroup : "{DDF3799FA1387848}Prefabs/Groups/BLUFOR/Group_US_RifleSquad.et" {
  m_aUnitPrefabSlots {
   "{58EA7492CFF225F1}Prefabs/Characters/Factions/BLUFOR/GC_Canada/RHS_Canada/Character_CAF_1IC_CW.et" "{E66FEF6151D44BFF}Prefabs/Characters/Factions/BLUFOR/GC_Canada/RHS_Canada/Character_CAF_AR_CW.et" "{8151A9AA9BDC616A}Prefabs/Characters/Factions/BLUFOR/GC_Canada/RHS_Canada/Character_CAF_GL_CW.et" "{03062ED06D3A433A}Prefabs/Characters/Factions/BLUFOR/GC_Canada/RHS_Canada/Character_CAF_RF_CW.et" "{2402540EFD5A2BDE}Prefabs/Characters/Factions/BLUFOR/GC_Canada/RHS_Canada/Character_CAF_2IC_CW.et" "{E66FEF6151D44BFF}Prefabs/Characters/Factions/BLUFOR/GC_Canada/RHS_Canada/Character_CAF_AR_CW.et" "{8151A9AA9BDC616A}Prefabs/Characters/Factions/BLUFOR/GC_Canada/RHS_Canada/Character_CAF_GL_CW.et" "{03062ED06D3A433A}Prefabs/Characters/Factions/BLUFOR/GC_Canada/RHS_Canada/Character_CAF_RF_CW.et"
  }
- m_sCustomNameSet "Section"
- m_bSetPlayable 1
+ m_sGC_Description "Section"
+ m_bPlayable 1
 }

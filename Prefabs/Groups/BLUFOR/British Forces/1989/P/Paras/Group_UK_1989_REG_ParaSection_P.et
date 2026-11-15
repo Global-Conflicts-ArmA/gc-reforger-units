@@ -8,5 +8,6 @@ SCR_AIGroup : "{FB08033A33E826D5}Prefabs/Groups/BLUFOR/British Forces/1989/Group
  m_aUnitPrefabSlots {
   "{2D5BD01E97CB2997}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/Paras/Character_UK_1989_Paras_SectionCommander_P.et" "{0FDE893D766B608F}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/Paras/Character_UK_1989_Paras_LSW_P.et" "{9A8C27BD0D927F3A}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/Paras/Character_UK_1989_Paras_Rifleman_LAT_P.et" "{2D540A86C6BFA6EC}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/Paras/Character_UK_1989_Paras_Rifleman_P.et" "{6341BF572E70EE30}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/Paras/Character_UK_1989_Paras_Section2IC_P.et" "{0FDE893D766B608F}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/Paras/Character_UK_1989_Paras_LSW_P.et" "{9A8C27BD0D927F3A}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/Paras/Character_UK_1989_Paras_Rifleman_LAT_P.et" "{2D540A86C6BFA6EC}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/Paras/Character_UK_1989_Paras_Rifleman_P.et"
  }
- m_sCustomNameSet "Para Section"
+ m_sGC_Description "Para Section"
+ m_bPlayable 1
 }

@@ -1,9 +1,6 @@
 SCR_ChimeraCharacter : "{686189A25900A6C2}Prefabs/Characters/Factions/INDFOR/RHS_ION/Uniformed_Division/Character_GC_ION_Uniformed_Sniper.et" {
  ID "520EC961A090B1EE"
  components {
-  PS_PlayableComponent "{5EFCC1946F475F15}" {
-   m_bIsPlayable 1
-  }
  }
  coords 1752.165 41.493 2618.278
 }

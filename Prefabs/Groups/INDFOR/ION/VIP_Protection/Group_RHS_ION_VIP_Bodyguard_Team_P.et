@@ -16,4 +16,5 @@ SCR_AIGroup : "{F2AE179D26D16F8D}Prefabs/Groups/BLUFOR/CDF/SF_Modern/Group_CDF_M
  m_aUnitPrefabSlots {
   "{F3F65A4656F610EA}Prefabs/Characters/Factions/INDFOR/RHS_ION/VIP_Protection/P/Character_RHS_ION_VIP_Bodyguard_Random_P.et" "{F3F65A4656F610EA}Prefabs/Characters/Factions/INDFOR/RHS_ION/VIP_Protection/P/Character_RHS_ION_VIP_Bodyguard_Random_P.et" "{F3F65A4656F610EA}Prefabs/Characters/Factions/INDFOR/RHS_ION/VIP_Protection/P/Character_RHS_ION_VIP_Bodyguard_Random_P.et" "{F3F65A4656F610EA}Prefabs/Characters/Factions/INDFOR/RHS_ION/VIP_Protection/P/Character_RHS_ION_VIP_Bodyguard_Random_P.et"
  }
+ m_bPlayable 1
 }

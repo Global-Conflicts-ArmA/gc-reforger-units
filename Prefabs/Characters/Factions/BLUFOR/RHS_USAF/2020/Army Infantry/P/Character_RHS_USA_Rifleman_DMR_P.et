@@ -1,9 +1,6 @@
 SCR_ChimeraCharacter : "{8131B46D0D95D157}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_Army/Character_RHS_USA_Rifleman_DMR.et" {
  ID "520EC961A090B1EE"
  components {
-  PS_PlayableComponent "{5EFCC1946F475F15}" {
-   m_bIsPlayable 1
-  }
  }
  coords 1128.412 38 2858.768
 }

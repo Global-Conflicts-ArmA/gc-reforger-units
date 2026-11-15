@@ -4,11 +4,6 @@ SCR_AIGroup : "{E6CCF06F33FFCD3F}Prefabs/Groups/BLUFOR/GC_SanSerriffe/Group_SanS
   AIFormationComponent "{507E9DC12F541FE6}" {
    DefaultFormation "line"
   }
-  PS_GroupCallsignAssigner "{63616C6C7369676E}" {
-   m_iCompanyCallsign 1
-   m_iPlatoonCallsign 1
-   m_iSquadCallsign 1
-  }
  }
  coords 5089.285 688.824 6334.371
  angles 0 -138.84 0
@@ -16,6 +11,8 @@ SCR_AIGroup : "{E6CCF06F33FFCD3F}Prefabs/Groups/BLUFOR/GC_SanSerriffe/Group_SanS
   "{4969BF3BDF29E5E6}Prefabs/Characters/Factions/BLUFOR/GC_SanSerriffe/53/P/Character_SanSerriffe_53_PIC_P.et" "{B3D13737B06C0731}Prefabs/Characters/Factions/BLUFOR/GC_SanSerriffe/53/P/Character_SanSerriffe_53_P2IC_P.et" "{E1E348BBB3398AD0}Prefabs/Characters/Factions/BLUFOR/GC_SanSerriffe/53/P/Character_SanSerriffe_53_Medic_P.et" "{C2F754D9E888EBA0}Prefabs/Characters/Factions/BLUFOR/GC_SanSerriffe/53/P/Character_SanSerriffe_53_Runner_P.et" "{C2F754D9E888EBA0}Prefabs/Characters/Factions/BLUFOR/GC_SanSerriffe/53/P/Character_SanSerriffe_53_Runner_P.et"
  }
  m_bPlayable 1
- m_sCustomNameSet "Platoon Command"
- m_bSetPlayable 1
+ m_sGC_Description "Platoon Command"
+ m_iGC_CallsignCompany "1"
+ m_iGC_CallsignPlatoon "1"
+ m_iGC_CallsignSquad "1"
 }
