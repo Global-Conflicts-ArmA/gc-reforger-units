@@ -1,0 +1,17 @@
+Vehicle : "{543A50BF3A42AD47}Prefabs/Vehicles/Core/Wheeled_APC_Base.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  TF_EngineSmokeGeneratorComponent "{663A9C442254245B}" {
+   m_iSpawnPositions {
+    PointInfo "{663AB9EDA9A84034}" {
+     Offset -1.2358 1.5254 -3.605
+     Angles 69.304 180 -180
+    }
+    PointInfo "{663AB9EDA88AD2AB}" {
+     Offset 1.2384 1.4979 -3.605
+     Angles 69.304 180 -180
+    }
+   }
+  }
+ }
+}

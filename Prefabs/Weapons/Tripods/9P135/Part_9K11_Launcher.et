@@ -1,0 +1,16 @@
+GenericEntity : "{B0A890995104A02D}Prefabs/Weapons/Tripods/9K135/Part_9K135_Launcher.et" {
+ ID "508AB2013EEE1E00"
+ components {
+  MeshObject "{618CCE7DA704C856}" {
+   Object "{3BB4BE2859C111C2}Assets/Weapons/Magazine/9K11/9K11.xob"
+  }
+  TF_WeaponReloadInfoComponent "{2F5894EA56164DCD}" {
+   m_LoadedDetachPrefab "{30FB0E5B1AFA2314}Prefabs/Weapons/Tripods/9P135/Part_9K11_Launcher.et"
+   m_ChamberItemPrefab "{9645FB68F8D28EAD}Prefabs/Weapons/HeavyWeapons/9P135/Ammo_Rocket_9K11_TF.et"
+   m_AttachWeaponPrefabOverride "{13D04F09E8A23584}Prefabs/Weapons/HeavyWeapons/9P135/Vehicle_Launcher_9K11.et"
+  }
+  BaseLoadoutClothComponent "{618CCE7DB8D53A4E}" {
+   ItemModel "{3BB4BE2859C111C2}Assets/Weapons/Magazine/9K11/9K11.xob"
+  }
+ }
+}

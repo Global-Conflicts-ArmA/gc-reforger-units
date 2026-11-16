@@ -1,0 +1,15 @@
+Vehicle : "{F503F71C08BE3F7D}Prefabs/Vehicles/Helicopters/AUS_MH60/AUS_UH60_armed.et" {
+ ID "5DB688595BAB2FD7"
+ components {
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo GunnerLeft {
+     Enabled 0
+    }
+    RegisteringComponentSlotInfo GunnerRight {
+     Enabled 0
+    }
+   }
+  }
+ }
+}

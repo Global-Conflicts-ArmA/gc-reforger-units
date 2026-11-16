@@ -1,0 +1,11 @@
+GenericEntity : "{928CAC2A1FB43429}Prefabs/Weapons/Magazines/MK_19/Magazine_40mm_MK19_32rnd_Base.et" {
+ ID "CA6BE4D6BB2D1077"
+ components {
+  MagazineComponent "{CA6BE4D6B4DAFD69}" {
+   AmmoMapping + {
+    0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+   }
+  }
+ }
+ coords -0.398 3.364 1.616
+}

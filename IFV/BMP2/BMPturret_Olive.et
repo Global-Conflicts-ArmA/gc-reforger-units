@@ -1,0 +1,13 @@
+Turret : "{4AD877DEA242E512}Prefabs/Weapons/Core/Turret_Base.et" {
+ ID "51ACD0965653D003"
+ components {
+  TurretComponent "{648D4468ADB950F0}" {
+   components {
+    SCR_2DSightsComponent "{648D4468ADB950EF}" {
+     m_sReticleTexture "{E0CD056114F96645}Assets/Vehicles/Tracked/BMP2/BPK242_SB_2048px.edds"
+     m_sReticleGlowTexture "{E0CD056114F96645}Assets/Vehicles/Tracked/BMP2/BPK242_SB_2048px.edds"
+    }
+   }
+  }
+ }
+}

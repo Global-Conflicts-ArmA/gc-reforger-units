@@ -1,0 +1,74 @@
+GenericEntity : "{82E5944974B9DEBD}Prefabs/SB300.et" {
+ ID "65932E3D2F6C309A"
+ components {
+  InventoryItemComponent "{65AB25234576F8FB}" {
+   Attributes SCR_ItemAttributeCollection "{65AB252343D23B3A}" {
+    ItemDisplayName UIInfo "{5222EB4D07D865FA}" {
+     Name "Switchblade 600 Drone"
+     Description "Switchblade 600 Drone"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{65AB252369BC87C7}" {
+     Weight 15
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{52D4E9E38931C544}" {
+      PreviewPrefab "{82E5944974B9DEBD}Prefabs/SB300.et"
+     }
+    }
+    m_Size SLOT_2x2
+    m_SlotType SLOT_WEAPONS_STORAGE
+   }
+  }
+  RigidBody "{65932E3A2275FA52}" {
+   Mass 15
+  }
+  SAL_DroneBatteryComponent "{65AAA9DB5A927044}" {
+   m_fMaxBattery 6000
+  }
+  SAL_DroneControllerComponent "{65967B50676709BE}" {
+   m_iMaxThrustRPM 10000
+   m_fPitchSensitivity 9
+   m_fYawSensitivity 9
+  }
+  SAL_DroneExplosionComponent "{65A45D68462685BF}" {
+   m_sExplosionEffect "{4454E244BB74B8DB}Prefabs/Weapons/Warheads/Warhead_HEAT_9M133.et"
+  }
+  SCR_EditableVehicleComponent "{65AF169A26951569}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{65AF169A49E83200}" {
+    Name "SB600 SUAS"
+   }
+  }
+  SCR_ExplosiveTriggerComponent "{687F298D8294AF41}" {
+   PROJECTILE_EFFECTS {
+    ExplosionEffect "{687F298D8294AF4D}" {
+     EffectPrefab "{4454E244BB74B8DB}Prefabs/Weapons/Warheads/Warhead_HEAT_9M133.et"
+     ParticleEffect "{A02C081C6D81D70D}Particles/Weapons/Explosion_TBG7V.ptc"
+    }
+   }
+  }
+  ActionsManagerComponent "{65932E3A3F9915A0}" {
+   additionalActions {
+    SCR_EquipWeaponAction "{690D0979897606AB}" {
+     ParentContextList {
+      "DroneBody"
+     }
+     UIInfo UIInfo "{59E4E6934E3F3C43}" {
+      Name "Equip"
+     }
+     "Sort Priority" 1
+    }
+    SCR_EquipWeaponHolsterAction "{690D097B10E033B0}" {
+     ParentContextList {
+      "DroneBody"
+     }
+     UIInfo SCR_ActionUIInfo "{589291C1860E802C}" {
+      Name "#AR-Inventory_EquipHolster"
+      m_sIconName "pick-up"
+     }
+     "Sort Priority" 1
+    }
+   }
+  }
+ }
+ scale 1.2
+}

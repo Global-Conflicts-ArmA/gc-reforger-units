@@ -1,0 +1,18 @@
+GenericEntity : "{94EB5CB0A4827C57}Prefabs/Weapons/HeavyWeapons/9K135/Vehicle_Launcher_9K135.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  MeshObject "{CFBAA4B701F95D69}" {
+   Object "{EAE4261C4F2C2EBD}Assets/Weapons/Launchers/9M113/9M113_Launcher.xob"
+  }
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    SCR_MuzzleInMagComponent "{50F65D04F21F7633}" {
+     ProjectilePosition InventoryStorageSlot "{51070C3B47428343}" {
+      PivotID "w_chamber_01"
+     }
+     AmmoTemplate "{6B26D6CB3828D5C1}Prefabs/Weapons/HeavyWeapons/9P135/Ammo_Rocket_9M113_TF.et"
+    }
+   }
+  }
+ }
+}

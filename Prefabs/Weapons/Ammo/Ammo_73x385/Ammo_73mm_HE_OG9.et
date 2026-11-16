@@ -1,8 +1,20 @@
 TracerProjectile : "{67FED88E5085F63F}Prefabs/Weapons/Core/Ammo_Bullet_Base.et" {
  ID "DA5C6308000CDEF2"
  components {
+  ShellMoveComponent "{851AA4A2AE0A5691}" {
+   ProjectileEffects {
+    GC_SuppressionEffect "{687119C3657DE8A0}" {
+     m_eType EXPLOSIVE
+    }
+   }
+   SonicCracks "{C3A0B35219284289}Sounds/Weapons/_SharedData/BulletSonicCracks/HeliRocket/Weapons_BulletSonicCracks_HeliRocket.acp"
+   SubsonicFlybys "{F5DFD164933A6AA9}Sounds/Weapons/_SharedData/ProjectileTravelling/Weapons_ProjectileTravelling_HeliRocket_Generic.acp"
+   Length 620
+  }
   RocketTraceEffectComponent "{69875A0CF6906FBB}" {
    ParticleEffect "{0F364F4CD1D72350}Particles/Weapon/Trail_PG7VL.ptc"
   }
  }
+ coords -0.196 -0.289 -0.733
+ ProjectileModel "{BB3F99FC7223DDC5}Assets/Weapons/Magazines/RPG7/Rocket_PG7VM.xob"
 }

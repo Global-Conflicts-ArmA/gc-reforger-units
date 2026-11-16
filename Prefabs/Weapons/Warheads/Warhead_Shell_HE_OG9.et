@@ -1,0 +1,13 @@
+GenericEntity : "{D584F2FFFDC7DE49}Prefabs/Weapons/Warheads/Warhead_Shell_HE.et" {
+ ID "9D9BE68EA2672F76"
+ components {
+  BaseTriggerComponent "{55129E81CBAA1390}" {
+   PROJECTILE_EFFECTS {
+    ExplosionDamageContainer "{5D38C8F8C6A477C7}" {
+     TntEquivalent 1
+    }
+   }
+  }
+ }
+ coords 1.504 -3.064 -2.045
+}

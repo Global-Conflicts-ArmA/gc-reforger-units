@@ -1,0 +1,19 @@
+Vehicle : "{F86AB1BD36B33407}Prefabs/Vehicles/Wheeled/K17/APC_K17_Epoch.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    Name "HTM's K-17 (Epoch)"
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Turret {
+     Prefab "{3CED911741EF4D1A}Prefabs/Vehicles/Wheeled/K17/VehParts/Turret_K17_Epoch_HTM.et"
+    }
+   }
+  }
+ }
+ coords 4130.366 163.76 4038.675
+ angleY 44.715
+}

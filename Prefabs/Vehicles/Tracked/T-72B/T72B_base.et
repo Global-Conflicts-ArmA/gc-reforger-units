@@ -1,0 +1,11 @@
+Tank : "{BC07885176C7FF8A}Prefabs/Vehicles/Tracked/T-72A/T72A_base.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  SCR_WheeledDamageManagerComponent "{141326E9FD94FE40}" {
+   "Additional hit zones" {
+    SCR_FlammableHitZone Hull {
+    }
+   }
+  }
+ }
+}

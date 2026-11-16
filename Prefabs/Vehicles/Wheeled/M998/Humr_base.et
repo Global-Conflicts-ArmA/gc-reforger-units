@@ -1,0 +1,73 @@
+Vehicle : "{1F9BB80C3EC3C891}Prefabs/Vehicles/Core/Wheeled_Car_Base.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  ActionsManagerComponent "{C97BE5489221AE18}" {
+   ActionContexts {
+    UserActionContext "{690D096198BD00E5}" {
+     ContextName "Mirror_L01"
+     Position PointInfo "{66593E603D4A81E7}" {
+      PivotID "v_door_L01"
+      Offset -0.1218 0.41 -0.0841
+      Angles 0 110 0
+     }
+     Radius 0.4
+     Omnidirectional 0
+     VisibilityAngle 30
+    }
+    UserActionContext "{690D0961985AAAFA}" {
+     ContextName "Mirror_R01"
+     Position PointInfo "{66593E603D4A81E7}" {
+      PivotID "v_door_R01"
+      Offset 0.1052 0.41 -0.0841
+      Angles 0 -110 0
+     }
+     Radius 0.4
+     Omnidirectional 0
+     VisibilityAngle 30
+    }
+   }
+   additionalActions {
+    WCS_Armament_VehicleCameraAction "{690D0961E19093D0}" {
+     ParentContextList {
+      "Mirror_L01"
+     }
+     m_sActionStateOn ""
+     m_sActionStateOff ""
+     m_bPilotOnly 0
+     m_bInteriorOnly 1
+     m_sCameraId "Mirror_L01"
+    }
+    WCS_Armament_VehicleCameraAction "{690D0961FF103910}" {
+     ParentContextList {
+      "Mirror_R01"
+     }
+     m_sActionStateOn ""
+     m_sActionStateOff ""
+     m_bPilotOnly 0
+     m_bInteriorOnly 1
+     m_sCameraId "Mirror_R01"
+    }
+   }
+  }
+  WCS_Armament_VehicleCameraComponent "{690D096131320A1D}" {
+   m_Cameras {
+    WCS_VehicleCameraProps "{690D09614C0C0F4B}" {
+     m_Position PointInfo "{66593E66042B55BB}" {
+      PivotID "v_door_L01"
+      Offset -0.1218 0.41 -0.0841
+      Angles 0 180 0
+     }
+     m_sId "Mirror_L01"
+    }
+    WCS_VehicleCameraProps "{690D09614C28380A}" {
+     m_Position PointInfo "{66593E66042B55BB}" {
+      PivotID "v_door_R01"
+      Offset 0.1052 0.41 -0.0841
+      Angles 0 180 0
+     }
+     m_sId "Mirror_R01"
+    }
+   }
+  }
+ }
+}

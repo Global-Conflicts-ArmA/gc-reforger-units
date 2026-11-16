@@ -1,0 +1,8 @@
+GenericEntity : "{A9EF01A7A6FE60CD}Prefabs/Weapons/Core/Throw_Base.et" {
+ ID "1F80A73AAE197BBE"
+ components {
+  SCR_MeleeWeaponProperties "{506CED7313494012}" {
+   m_fDamage 2
+  }
+ }
+}

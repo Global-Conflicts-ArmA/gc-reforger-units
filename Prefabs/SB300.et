@@ -1,0 +1,27 @@
+GenericEntity : "{2A283EA7BADDBD28}Prefabs/Drones/FPVBase/FPVBase.et" {
+ ID "65932E3D2F6C309A"
+ components {
+  InventoryItemComponent "{65AB25234576F8FB}" {
+   Attributes SCR_ItemAttributeCollection "{65AB252343D23B3A}" {
+    CustomAttributes {
+     PreviewRenderAttributes "{52D4E9E38931C544}" {
+      PreviewPrefab "{82E5944974B9DEBD}Prefabs/SB300.et"
+     }
+    }
+   }
+  }
+  SAL_DroneExplosionComponent "{65A45D68462685BF}" {
+   m_sExplosionEffect "{9C7B7B7ECDC3A596}Prefabs/Weapons/Warheads/Warhead_Grenade_M67.et"
+  }
+  SCR_ExplosiveTriggerComponent "{687F298D8294AF41}" {
+   PROJECTILE_EFFECTS {
+    ExplosionEffect "{687F298D8294AF4D}" {
+     EffectPrefab "{9C7B7B7ECDC3A596}Prefabs/Weapons/Warheads/Warhead_Grenade_M67.et"
+     ParticleEffect "{5592BC9B67C60D16}Particles/Weapon/Explosion_RGD5.ptc"
+    }
+   }
+   TriggerOffset -0.5
+  }
+ }
+ coords 0.235 -0.062 0.138
+}

@@ -1,0 +1,121 @@
+Turret : "{DF5979FDE2682F70}Prefabs/Vehicles/Wheeled/LAV25/VehParts/Turret/LAV25_turret_base.et" {
+ ID "51ACD0965653D003"
+ components {
+  MeshObject "{51ACD09C4E0B7D16}" {
+   Object "{0A3A6B7396222806}Assets/Vehicles/Wheeled/K17bumerang/K17_Epoch_turret.xob"
+  }
+  RHS_StabilizedTurretControllerComponent "{51ACD09C61C183E4}" {
+   LimitsVert -5 40
+   TurretReloadPosition 500 0
+   GetUpdateEventsWhenEmpty 1
+  }
+  RHS_TurretDestructionComponent "{65571813766B8FF4}" {
+   m_sUndamagedModel "{0A3A6B7396222806}Assets/Vehicles/Wheeled/K17bumerang/K17_Epoch_turret.xob"
+   m_sDestroyedModel "{C30921FB3EEAD594}Assets/Vehicles/Wheeled/K17bumerang/K17_Epoch_turret_damaged.xob"
+   m_sDestructionParticle "{3DFFA0F36BFA60D2}Particles/Vehicle/Vehicle_TurretDestruction.ptc"
+   m_DestructionParticlePosition PointInfo "{65571813C74E73F4}" {
+    PivotID "v_turret_01"
+    Offset 0 0.6804 -0.8003
+   }
+  }
+  RHS_TurretStabilizationComponent "{655718137DC10C73}" {
+   m_bStabilizationEnabled 1
+  }
+  RHS_WeaponRecoilComponent "{65571813447D574D}" {
+   m_fImpulse 2000
+   m_vRecoilPosition PointInfo "{655718131049A82E}" {
+    PivotID "v_2A42.001"
+   }
+  }
+  RHS_WeaponRecoilComponent "{655718137A2E5DEE}" {
+   m_iWeaponIndex 1
+   m_fImpulse 2000
+   m_vRecoilPosition PointInfo "{6557181302EF2BF4}" {
+    PivotID "v_2A42.001"
+   }
+  }
+  ProcAnimComponent "{51ACD09DB14C45C0}" {
+   Parameters {
+    ProcAnimParams "{58F8DC79D093C800}" {
+     BoneNames {
+      "v_turret_01" "v_gun_01"
+     }
+    }
+   }
+  }
+  SCR_BaseCompartmentManagerComponent "{51ACFBB07A14CFA6}" {
+   DoorInfoList {
+    CompartmentDoorInfo "{58F8DC79D093C87D}" {
+     AIEntryPositionInfo HierarchicalPointInfo "{6554E075EEAC7408}" {
+      PivotID "NPC_SnapPoint_01"
+     }
+     AIJumpTargetPositionInfo HierarchicalPointInfo "{6554E075EEAC7407}" {
+      PivotID "NPC_SnapPoint_01"
+      Offset 0 1.243 0.5642
+     }
+    }
+    CompartmentDoorInfo "{58F8DC79D093C866}" {
+     AIEntryPositionInfo HierarchicalPointInfo "{6554E075EEAC7403}" {
+      PivotID "NPC_SnapPoint_02"
+     }
+     AIJumpTargetPositionInfo HierarchicalPointInfo "{6554E075EEAC741D}" {
+      PivotID "NPC_SnapPoint_02"
+      Offset 0 1.243 0.5642
+     }
+    }
+   }
+   CompartmentSlots {
+    TurretCompartmentSlot TurretCompartment {
+     PassengerPositionInfo EntitySlotInfo "{B1CB25848A3D93A8}" {
+      PivotID "v_2A42.001"
+      Offset 0 -1.5 -1.3
+     }
+    }
+   }
+  }
+  WeaponSlotComponent "{51ACD09C6BFEEE6A}" {
+   AttachType InventoryStorageSlot "{0AACE7470E421D82}" {
+    PivotID "v_2A42.001"
+   }
+   WeaponTemplate "{EDCEA5D6AFB0C7EA}Prefabs/Weapons/HeavyWeapons/2A42/Weapon_2A42_Epoch.et"
+  }
+  WeaponSlotComponent "{6118831970FD4F0C}" {
+   AttachType InventoryStorageSlot Cannon {
+    PivotID "v_2A42.001"
+   }
+   WeaponTemplate "{195E54CD5611CDA5}Prefabs/Weapons/HeavyWeapons/2A42/Weapon_2A42_Epoch_HE.et"
+  }
+  WeaponSlotComponent "{62AA65B7525F4445}" {
+   AttachType InventoryStorageSlot M242_APDST {
+    PivotID "v_Gun_01"
+    Offset -0.22 -0.1 -0.2
+   }
+   WeaponTemplate "{4FD1A5A6670E015A}Prefabs/Weapons/MachineGuns/PKM/MG_PKMT.et"
+  }
+  WeaponSlotComponent "{6554EB0965B77AE7}" {
+   SignalsSourceAccess SignalsSourceAccessClass "{6554EB093B16E39D}" {
+    signalsSuffix "Turret"
+   }
+   useAimingType MainTurret
+   shouldHandleObstruction 0
+   AttachType InventoryStorageSlot missiles {
+    PivotID "v_Gun_02"
+    MergePhysics 1
+   }
+   WeaponTemplate "{E63A7BC82F33D0BE}Prefabs/Weapons/HeavyWeapons/9M133/Weapon_9M133_Epoch.et"
+   WeaponSlotIndex 3
+  }
+  ActionsManagerComponent "{51ACD09C7181BA0B}" {
+   ActionContexts {
+    UserActionContext "{58F8DC79D5A23FA3}" {
+    }
+    UserActionContext "{58F8DC79D5A23FBC}" {
+     Position PointInfo "{58F8DC79D5A23FBE}" {
+      Offset 0.3573 -0.0423 -0.0463
+      Angles 90 -180 0
+     }
+    }
+   }
+  }
+ }
+}

@@ -46,3 +46,21 @@ migration and still need their original content repaired or replaced before use.
 - ION
   - Uniformed Services
   - VIP Protection
+
+## Dependency ownership
+
+Units owns unit/loadout content and equipment changes: weapons, ammunition,
+mortars, vehicles, boats, sights, supporting effects and their overrides. The
+former Core equipment changes are now here, retaining resource GUIDs. Shared
+ballistic tables remain here with their ammunition.
+
+Units depends on Core and Lobby Dev, its equipment providers, and GC's selected
+shared gameplay baseline (including Adult Mortars and GC Suppression). Core
+requires only the systems its own changes directly use. Units does not depend
+on the GC Workshop collection or custom terrain packs. Legacy TILW crew
+configurations still require TilW explicitly; this does not add that dependency
+to GC Lobby or Core. Update Core, Units and Missions Dev together after the split.
+
+GC Workshop loads the complete collection; it is not a dependency of this addon.
+This is still a shared package: loading Units loads its declared equipment library,
+not just the particular equipment placed in a mission.

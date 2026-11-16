@@ -1,0 +1,86 @@
+GenericEntity : "{0FC1D6E9B592F75D}Prefabs/Props/Military/Arsenal/AmmoBoxes/US/AmmoBoxArsenal_Equipment_US.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  RigidBody "{5872F0EB7DFB5A9D}" {
+   ResponseIndex "SmallDestructible"
+  }
+  SCR_ArsenalComponent "{589F01C9C8D4A475}" {
+   m_eSupportedArsenalItemTypes 8388606
+   m_OverwriteArsenalConfig SCR_ArsenalItemListConfig "{654F789F93A9E114}" {
+    m_aArsenalItems {
+     SCR_ArsenalItemStandalone "{654F789F94C8219F}" {
+      m_iSupplyCost 0
+      m_ItemResourceName "{98DB57ECEDC81CC2}Prefabs/Weapons/Ammo/Ammo_Flare_40mm_M583A1_White.et"
+     }
+     SCR_ArsenalItemStandalone "{654F789F78AC26CD}" {
+      m_iSupplyCost 0
+      m_ItemResourceName "{0AF10C206CF1A283}Prefabs/Weapons/Ammo/Ammo_Flare_40mm_M661_Green.et"
+     }
+     SCR_ArsenalItemStandalone "{654F789F87689DCF}" {
+      m_iSupplyCost 0
+      m_ItemResourceName "{2A63C909016C4C41}Prefabs/Weapons/Ammo/Ammo_Flare_40mm_M662_Red.et"
+     }
+     SCR_ArsenalItemStandalone "{654F789F863C1041}" {
+      m_iSupplyCost 0
+      m_ItemResourceName "{906F07BD0366E08F}Prefabs/Weapons/Ammo/Ammo_Flare_40mm_VG40OP_White.et"
+     }
+     SCR_ArsenalItemStandalone "{654F789F859F4447}" {
+      m_iSupplyCost 0
+      m_ItemResourceName "{5D694BB6F4A3819B}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_Green.et"
+     }
+     SCR_ArsenalItemStandalone "{654F789F85F1BA90}" {
+      m_iSupplyCost 0
+      m_ItemResourceName "{CE4BDC1B0C4C6965}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_Orange.et"
+     }
+     SCR_ArsenalItemStandalone "{654F789F857D995E}" {
+      m_iSupplyCost 0
+      m_ItemResourceName "{9361BEC03E52E6F8}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_White.et"
+     }
+     SCR_ArsenalItemStandalone "{654F789F84F2ACC0}" {
+      m_iSupplyCost 0
+      m_ItemResourceName "{59A8527D511FFE81}Prefabs/Weapons/Ammo/Ammo_Flare_26x45_Green.et"
+     }
+     SCR_ArsenalItemStandalone "{654F789F6E46C302}" {
+      m_iSupplyCost 0
+      m_ItemResourceName "{CBA27E396EDD814A}Prefabs/Weapons/Ammo/Ammo_Flare_26x45_Red.et"
+     }
+     SCR_ArsenalItemStandalone "{654F789F6D059B0D}" {
+      m_iSupplyCost 0
+      m_ItemResourceName "{97A0A70B9BEE99E2}Prefabs/Weapons/Ammo/Ammo_Flare_26x45_White.et"
+     }
+     SCR_ArsenalItemStandalone "{654F789F846C4C27}" {
+      m_iSupplyCost 0
+      m_ItemResourceName "{B6F3D516919BA506}Prefabs/Weapons/Ammo/Ammo_Flare_26x45_White_Illumination.et"
+     }
+     SCR_ArsenalItemStandalone "{654F789F830067D7}" {
+      m_iSupplyCost 0
+      m_ItemResourceName "{4192E08B6D652459}Prefabs/Weapons/Ammo/Ammo_Flare_26x45_Yellow.et"
+     }
+    }
+   }
+   m_eArsenalSaveType SAVING_DISABLED
+   m_bAlwaysUseDefaultFaction 1
+  }
+  SCR_EditableSystemComponent "{58DCB53266D0B11A}" : "{6FA0A85CFC5420AD}Prefabs/Editor/Components/Systems_SCR_EditableEntityComponent.ct" {
+   m_UIInfo SCR_EditableEntityUIInfo "{58D2A1BEBFDC56CC}" {
+    Name "Arsenal - Illumination"
+    Description "A debugging arsenal box containing all usable flare systems."
+    Icon "{C44DAC10032A8E26}UI/Textures/Editor/EditableEntities/Systems/EditableEntity_System_Arsenal_Equipment.edds"
+    m_Image "{8D64D9D9720EEC4D}UI/Textures/EditorPreviews/Auto/Systems/Arsenal/AmmoBoxes/US/E_AmmoBoxArsenal_Equipment_US.edds"
+    m_sFaction "US"
+    m_aAuthoredLabels {
+     280 27
+    }
+    m_aAutoLabels {
+     11 7 121
+    }
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{654F789FA6FB8C9A}" {
+      m_BudgetType SYSTEMS
+     }
+    }
+   }
+  }
+ }
+ coords 1131.984 51.001 1336.492
+}

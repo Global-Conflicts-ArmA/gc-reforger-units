@@ -1,0 +1,68 @@
+GenericEntity : "{D584F2FFFDC7DE49}Prefabs/Weapons/Warheads/Warhead_Shell_HE.et" {
+ ID "9D9BE68EA2672F76"
+ components {
+  SignalsManagerComponent "{C572A75F88B55309}" {
+   Enabled 1
+  }
+  SoundComponent "{D092A75ECEFAE456}" {
+   Enabled 1
+   Filenames +{
+   }
+  }
+  BaseTriggerComponent "{55129E81CBAA1390}" {
+   PROJECTILE_EFFECTS {
+    ExplosionDamageContainer "{5D38C8F8C6A477C7}" {
+     ExplosionEffects {
+      BaseExplosionDamage "{5D8D1EB3EF9D02C6}" {
+       DamageDistance 10
+       ExplosionEffectSpeed 7920
+       DamageFalloffCurve +{
+       }
+      }
+      BaseExplosionDamage "{61DAF5E24D9CA168}" {
+       DamageDistance 1
+       ExplosionEffectSpeed 7920
+       DamageFalloffCurve +{
+       }
+      }
+      BaseExplosionDamage "{5D8D1EB3EBB36077}" {
+       DamageDistance 8
+       DamageFalloffCurve +{
+       }
+      }
+      ExplosionImpulseEffect "{5E6D1CEE09A33086}" {
+       DamageDistance 10
+       ExplosionEffectSpeed 7920
+       DamageFalloffCurve +{
+       }
+       ExplosionImpulseMultiplier 1000
+      }
+      ExplosionFragmentationEffect "{567CBC1D7AB652C7}" {
+       DamageType Fragmentation
+       DamageDistance 40
+       ExplosionEffectSpeed 7920
+       DamageFalloffCurve +{
+       }
+       DamageFragmentCount 1800
+       GurneyShape SPHERE
+       GurneyConstant 2700
+       FragMassScale 83
+       FragSpeedScale 80
+      }
+     }
+     ChargeWeight 725
+     TntEquivalent 1.1
+    }
+    SpawnDecalEffect "{5D5727F06F70F2E3}" {
+     FarPlane 2.75
+     Scale 2.75
+    }
+   }
+   "Trigger Offset" 0 0 -1
+  }
+  HitEffectComponent "{9D9BE68D6F65A10F}" {
+   ParticleEffect "{318510C6FB1633D9}Particles/Weapon/Explosion_Mortar_Base.ptc"
+  }
+ }
+ coords 2.825 -1.697 -2.581
+}

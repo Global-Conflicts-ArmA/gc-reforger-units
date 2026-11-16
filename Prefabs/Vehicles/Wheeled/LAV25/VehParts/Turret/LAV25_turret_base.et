@@ -1,0 +1,54 @@
+Turret : "{4AD877DEA242E512}Prefabs/Weapons/Core/Turret_Base.et" {
+ ID "51ACD0965653D003"
+ components {
+  WCS_Armament_VehicleCameraComponent "{650AA2118A883578}" {
+   m_Cameras {
+    WCS_VehicleCameraProps "{650AA211829B2F66}" {
+     m_Position PointInfo "{650AA21A1942ECDA}" {
+      PivotID "v_root"
+      Offset 0.2703 2.989 -0.6399
+     }
+     m_OverlayLayout "{A9758BBE1909FEFD}UI/layouts/Editor/Overlays/Vignettes/GCC_Vignette_VeryHeavy.layout"
+     m_sId "WD_periscope_commander_main"
+    }
+   }
+  }
+  ActionsManagerComponent "{51ACD09C7181BA0B}" {
+   ActionContexts {
+    UserActionContext "{650AA21210BE3C28}" {
+     ContextName "periscope_commander_main"
+     Position PointInfo "{62E3227936E85DFF}" {
+      Offset 0.2786 1.2591 -0.0891
+      Angles 0 0 0
+     }
+     Radius 0.1
+     Height 0
+     Omnidirectional 1
+     VisibilityAngle 180
+     FilterActionsUsingCache 1
+     LineOfSightCheck 1
+    }
+   }
+   additionalActions {
+    WCS_Armament_VehicleCameraAction "{650AA2125A261BF1}" {
+     ParentContextList {
+      "periscope_commander_main"
+     }
+     UIInfo SCR_ActionUIInfo "{650AA214A9630937}" {
+      Name "#WCS-UserAction_VehicleAimCamera"
+      m_sIconName "public"
+     }
+     VisibilityRange 1
+     m_sActionStateOn "Commanders Periscope"
+     m_sActionStateOff ""
+     m_bPilotOnly 0
+     m_bInteriorOnly 0
+     m_aDefinedCompartmentSectionsOnly {
+     }
+     m_sCameraId "WD_periscope_commander_main"
+    }
+   }
+  }
+ }
+ coords 1526.725 37.082 2933.901
+}

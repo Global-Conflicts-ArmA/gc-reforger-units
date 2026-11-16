@@ -1,0 +1,35 @@
+Projectile : "{9ECF89D9A7DDAEA9}Prefabs/Weapons/HeavyWeapons/9K135/Ammo_Rocket_9M133.et" {
+ ID "DA5C6308000CDEF2"
+ components {
+  CollisionTriggerComponent "{665B36AB473F2677}" {
+   PROJECTILE_EFFECTS {
+    ExplosionEffect "{665B36AB473F269E}" {
+     EffectPrefab "{826261644579F20B}Prefabs/Weapons/Warheads/Warhead_HEAT_9M14.et"
+     ParticleEffect "{5D84CBFD5BA355A1}Particles/Weapon/Explosion_9M133.ptc"
+    }
+    ExplosionEffect "{6660DD120FFCE74F}" {
+     Enabled 0
+    }
+   }
+  }
+  InventoryItemComponent "{526E87778842822F}" {
+   Attributes SCR_ItemAttributeCollection "{526E87778ACB229F}" {
+    ItemDisplayName UIInfo "{526E8777859BAACF}" {
+     Name "9M14"
+    }
+   }
+  }
+  MagazineComponent "{50F6614BB5D5B0A8}" {
+   UIInfo MagazineUIInfo "{560AE4EBFA0176D4}" {
+    m_sAmmoCaliber "9M14"
+    m_sAmmoType "9M14"
+   }
+   ItemModel "{EF82868170264797}Assets/Weapons/Magazine/9M113/9M113_Missile.xob"
+  }
+  MeshObject "{851AA4A2AE0A56BF}" {
+   Object "{EF82868170264797}Assets/Weapons/Magazine/9M113/9M113_Missile.xob"
+  }
+ }
+ ProjectileModel "{FE20B30E2BC32409}Assets/Weapons/Magazine/9K11/9K11_projectile.xob"
+ CartridgeModel "{3BB4BE2859C111C2}Assets/Weapons/Magazine/9K11/9K11.xob"
+}

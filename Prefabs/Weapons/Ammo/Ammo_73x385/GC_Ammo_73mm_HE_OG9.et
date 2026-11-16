@@ -1,0 +1,60 @@
+Projectile : "{9090159492A859AF}Prefabs/Weapons/Ammo/RPG/RHS_AmmoRocket_RPG_base.et" {
+ ID "DA5C6308000CDEF2"
+ components {
+  CollisionTriggerComponent "{5F26DE35B3825393}" {
+   PROJECTILE_EFFECTS {
+    ExplosionEffect "{5F26DE324F15E0FB}" {
+     EffectPrefab "{A3D501B973B16ECE}Prefabs/Weapons/Warheads/Warhead_Shell_HE_OG9.et"
+     ParticleEffect "{9D8D204CCCC44A38}Particles/Weapon/Explosion_M112.ptc"
+    }
+   }
+  }
+  InventoryItemComponent "{526E87778842822F}" {
+   Enabled 0
+   Attributes SCR_ItemAttributeCollection "{526E87778ACB229F}" {
+    ItemDisplayName UIInfo "{526E8777859BAACF}" {
+     Name "#RHS-Magazine_OG7V_Name"
+     Description "#RHS-Magazine_OG7V_Description"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{5F26DE359A9EC36C}" {
+     ItemDimensions 15 15 15
+     ItemVolume 900
+    }
+   }
+  }
+  MagazineComponent "{50F6614BB5D5B0A8}" {
+   Enabled 0
+   UIInfo MagazineUIInfo "{560AE4EBFA0176D4}" {
+    Name "#RHS-Magazine_OG7V_Name"
+    Description "#RHS-Magazine_OG7V_Description"
+    m_sAmmoType "#RHS-AmmoType_OG7V"
+    m_eAmmoTypeFlags FRAG
+   }
+   ItemModel "{D21246120CA74E17}Assets/Weapons/Magazines/rpg7/OG7V_Item.xob"
+  }
+  MeshObject "{851AA4A2AE0A56BF}" {
+   Object "{A691643F3F873980}Assets/Weapons/Magazines/rpg7/OG7V_Armed.xob"
+  }
+  MissileMoveComponent "{0EF36690881261EF}" {
+   InitSpeed 290
+   InitSpeedVariation 2
+   Mass 3.7
+   TimeToLive 60
+   BallisticTableConfig "{E3C7859E728E8A89}Configs/Weapons/AIBallisticTables/AIBT_Rocket_OG15.conf"
+   ThrustTime 0
+   ThrustForce 0
+   ForwardAirFriction 0.044
+   SideAirFriction 0.1
+   AlignTorque 0.2
+   DistanceEnableGravitation 2
+  }
+  RigidBody "{529E88841E9EDFB4}" {
+   Mass 2
+  }
+  RocketTraceEffectComponent "{5F26DE325CCAF18A}" {
+   Enabled 0
+  }
+ }
+ ProjectileModel "{A691643F3F873980}Assets/Weapons/Magazines/rpg7/OG7V_Armed.xob"
+ CartridgeModel "{D21246120CA74E17}Assets/Weapons/Magazines/rpg7/OG7V_Item.xob"
+}

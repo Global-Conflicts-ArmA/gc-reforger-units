@@ -1,0 +1,8 @@
+GenericEntity : "{50441A9C9DA65037}Prefabs/Weapons/HeavyWeapons/2A42/Weapon_2A42.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   WeaponType Autocannon
+  }
+ }
+}

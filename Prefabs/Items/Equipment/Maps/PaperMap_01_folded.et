@@ -1,0 +1,14 @@
+GenericEntity : "{7B6990100263E2B3}Prefabs/Items/Core/Map_Base.et" {
+ ID "508AB2013EEE1E00"
+ components {
+  InventoryItemComponent "{5222EB4D0C73006B}" {
+   Attributes SCR_ItemAttributeCollection "{5222EB4D0A2B466B}" {
+    ItemPhysAttributes ItemPhysicalAttributes PhysicalAttributes {
+     Weight 0.001
+     ItemDimensions 0.1 0.1 0.1
+     ItemVolume 0.001
+    }
+   }
+  }
+ }
+}

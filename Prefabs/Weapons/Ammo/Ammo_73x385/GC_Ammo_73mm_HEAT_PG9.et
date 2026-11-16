@@ -1,0 +1,47 @@
+TracerProjectile : "{67FED88E5085F63F}Prefabs/Weapons/Core/Ammo_Bullet_Base.et" {
+ ID "DA5C6308000CDEF2"
+ components {
+  CollisionTriggerComponent "{60C2F0C44D951E69}" {
+   PROJECTILE_EFFECTS {
+    ExplosionEffect "{60C2F0C44D951E63}" {
+     EffectPrefab "{2CE1B96EC83F0A10}Prefabs/Weapons/Warheads/Warhead_HEAT_PG-9.et"
+     ParticleEffect "{B6275B6B9E29E9ED}Particles/Weapon/Explosion_RPG7V1.ptc"
+     SoundEvent "SOUND_EXPLOSION"
+    }
+    AIExplosionEffect "{6890BA0BB36563D1}" {
+    }
+   }
+  }
+  ShellMoveComponent "{851AA4A2AE0A5691}" {
+   InitSpeed 700
+   Mass 1.6
+   TimeToLive 22
+   TriggerWhenTimeout 1
+   ProjectileEffects {
+    ExplosionEffect "{85DB664DDCA5D5B0}" {
+     Enabled 0
+    }
+    HitSoundEffect "{2FC22748C7ABD466}" {
+     Enabled 0
+     Filename "{70BE55084354B6D5}Sounds/Weapons/_SharedData/RocketHits/Weapons_RocketHits.acp"
+    }
+    GC_SuppressionEffect "{687119C3657DE8A0}" {
+     m_eType EXPLOSIVE
+    }
+   }
+   BallisticTableConfig "{8AFCEC880D8A115B}Configs/Weapons/AIBallisticTables/AIBT_Rocket_PG15.conf"
+   SonicCracks "{C3A0B35219284289}Sounds/Weapons/_SharedData/BulletSonicCracks/HeliRocket/Weapons_BulletSonicCracks_HeliRocket.acp"
+   SubsonicFlybys "{EC2BE25B666DF83A}Sounds/Weapons/_SharedData/ProjectileTravelling/Weapons_ProjectileTravelling_RPG_Generic.acp"
+   AirDrag 0.0024
+   Diameter 73
+   Length 630
+   TumblingDecelerationCurve {
+    0 0 1 1
+   }
+   DeflectionCriticalAngle 60
+  }
+ }
+ coords -4.841 2.081 4.603
+ ProjectileModel "{BB3F99FC7223DDC5}Assets/Weapons/Magazines/RPG7/Rocket_PG7VM.xob"
+ CartridgeModel "{CA305BDAD273478A}Assets/Weapons/Magazines/RPG7/Rocket_PG7VM_item.xob"
+}

@@ -1,0 +1,113 @@
+Vehicle : "{E03D5609EEA6E03D}Prefabs/Vehicles/Core/Wheeled_Truck_Base.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  SCR_UniversalInventoryStorageComponent "{5C946CE5223089AE}" {
+   MultiSlots {
+    MultiSlotConfiguration "{69351B36A07A262E}" {
+     SlotTemplate InventoryStorageSlot bandaid {
+      Prefab "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et"
+     }
+     NumSlots 5
+    }
+    MultiSlotConfiguration "{69351B36A01F2FF0}" {
+     SlotTemplate InventoryStorageSlot Tourniquets {
+      Prefab "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et"
+     }
+     NumSlots 5
+    }
+    MultiSlotConfiguration "{69351B36A03EEABC}" {
+     SlotTemplate InventoryStorageSlot Morphine {
+      Prefab "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et"
+     }
+     NumSlots 5
+    }
+    MultiSlotConfiguration "{69351B36A1F6C176}" {
+     SlotTemplate InventoryStorageSlot M16ammo {
+      Prefab "{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_M856_Last_5Tracer.et"
+     }
+     NumSlots 16
+    }
+    MultiSlotConfiguration "{69351B36A18D291C}" {
+     SlotTemplate InventoryStorageSlot Grenades {
+      Prefab "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
+     }
+     NumSlots 8
+    }
+    MultiSlotConfiguration "{69351B36A1AE20B9}" {
+     SlotTemplate InventoryStorageSlot SmokeGrenades {
+      Prefab "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
+     }
+     NumSlots 8
+    }
+    MultiSlotConfiguration "{69351B36A145BB84}" {
+     SlotTemplate InventoryStorageSlot ugl {
+      Prefab "{5375FA7CB1F68573}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_M406.et"
+     }
+     NumSlots 8
+    }
+    MultiSlotConfiguration "{69351B36A10B8D09}" {
+     SlotTemplate InventoryStorageSlot ugl_flare {
+      Prefab "{98DB57ECEDC81CC2}Prefabs/Weapons/Ammo/Ammo_Flare_40mm_M583A1_White.et"
+     }
+     NumSlots 8
+    }
+    MultiSlotConfiguration "{69351B36BEDAC864}" {
+    }
+   }
+  }
+  WCS_Armament_VehicleCameraComponent "{66E12331DADD9F56}" {
+   m_Cameras {
+    WCS_VehicleCameraProps "{690A276A8DA0ED87}" : "{461B648F480A70F6}Prefabs/Vehicles/Core/Configs/WCS_Armaments_VehicleCameraProps_Mirror_Right.conf" {
+     m_Position PointInfo "{66593E66042B55BB}" {
+      Offset -0.8843 0.061 -3.5156
+      Angles -13.6131 -180 0
+     }
+     m_sId "BackupCam"
+    }
+    WCS_VehicleCameraProps "{690A2769EDA3B883}" : "{461B648F480A70F6}Prefabs/Vehicles/Core/Configs/WCS_Armaments_VehicleCameraProps_Mirror_Right.conf" {
+     m_Position PointInfo "{66593E66042B55BB}" {
+      PivotID "Scene_Root"
+      Offset 0.0255 1.9519 1.2
+      Angles 0 0 0
+     }
+     m_sId "HoodCam"
+    }
+   }
+  }
+  ActionsManagerComponent "{C97BE5489221AE18}" {
+   ActionContexts {
+    UserActionContext "{690A276A0083E628}" : "{4A5C71F598B94922}Prefabs/Vehicles/Core/Configs/WCS_Armaments_UserActionContext_Mirror_Right.conf" {
+     ContextName "HoodCam"
+     Position PointInfo "{66593E603D4A81E7}" {
+      Offset -0.8148 0.7462 -0.3125
+      Angles 0 -110 0
+     }
+    }
+    UserActionContext "{690A276A64330DC0}" : "{4A5C71F598B94922}Prefabs/Vehicles/Core/Configs/WCS_Armaments_UserActionContext_Mirror_Right.conf" {
+     ContextName "BackupCam"
+     Position PointInfo "{66593E603D4A81E7}" {
+      Offset -0.8088 0.6409 -0.3438
+      Angles 0 -110 0
+     }
+    }
+   }
+   additionalActions {
+    WCS_Armament_VehicleCameraAction "{690A276B5A35275E}" : "{67D39579157E8C2C}Prefabs/Vehicles/Core/Configs/WCS_Armaments_VehicleCameraAction_Mirror_Right.conf" {
+     ParentContextList {
+      "BackupCam"
+     }
+     m_sCameraId "BackupCam"
+    }
+    WCS_Armament_VehicleCameraAction "{690A276B585B3D38}" : "{67D39579157E8C2C}Prefabs/Vehicles/Core/Configs/WCS_Armaments_VehicleCameraAction_Mirror_Right.conf" {
+     ParentContextList {
+      "HoodCam"
+     }
+     UIInfo SCR_ActionUIInfo "{629D11CB1C21D168}" {
+      Name "HoodCam"
+     }
+     m_sCameraId "HoodCam"
+    }
+   }
+  }
+ }
+}

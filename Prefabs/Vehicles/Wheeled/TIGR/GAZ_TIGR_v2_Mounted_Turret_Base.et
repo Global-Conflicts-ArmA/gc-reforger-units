@@ -1,0 +1,14 @@
+Vehicle : "{ED23D3FD79C7DECF}Prefabs/Vehicles/Wheeled/TIGR/GAZ_TIGR_v2_Base.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  SCR_UniversalInventoryStorageComponent "{62B233ED7C26143C}" {
+   MultiSlots {
+    MultiSlotConfiguration "{62B43BCF2B1B8028}" {
+     SlotTemplate InventoryStorageSlot Medikit {
+      Enabled 0
+     }
+    }
+   }
+  }
+ }
+}

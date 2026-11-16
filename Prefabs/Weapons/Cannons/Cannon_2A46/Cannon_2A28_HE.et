@@ -1,0 +1,20 @@
+GenericEntity : "{3AE45A61B121F97B}Prefabs/Weapons/Cannons/Cannon_2A46/Cannon_2A28_base.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    SightsComponent "{BB23A637957CFFF8}" {
+     SightsRanges {
+      SightRangeInfo "{687F34593C6F1291}" {
+       Range 0 600
+       WeaponPosition PointInfo "{687F34593C6F1338}" {
+        Offset 0 0 0
+        Angles 0.47241 0 0
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}

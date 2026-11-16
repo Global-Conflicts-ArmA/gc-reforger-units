@@ -1,0 +1,14 @@
+Vehicle : "{7F038AC225B7330B}Prefabs/Vehicles/Wheeled/TIGR/GAZ_TIGR_v2_Mounted_Turret_Base.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  SCR_UniversalInventoryStorageComponent "{62B233ED7C26143C}" {
+   MultiSlots {
+    MultiSlotConfiguration "{6888D46DF7B916E7}" {
+     SlotTemplate InventoryStorageSlot KORD {
+      Enabled 0
+     }
+    }
+   }
+  }
+ }
+}
