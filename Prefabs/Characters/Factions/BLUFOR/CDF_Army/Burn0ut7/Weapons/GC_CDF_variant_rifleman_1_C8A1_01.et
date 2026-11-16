@@ -1,0 +1,14 @@
+GenericEntity : "{E3FD7B51E0F21123}Prefabs/Weapons/Rifles/AR15/Rifle_Pronto_C8A1_BLK_CDF.et" {
+ ID "6AE1688F3AC1A970"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{66F2AD69274BDAE9}" {
+     AttachmentSlot InventoryStorageSlot Optic {
+      Prefab "{30AB1B2624B5843B}Prefabs/Weapons/Attachments/Optics/Collimators/Aimpoint_MicroT2/Collim_Aimpoint_MicroT2_3xMag_BLK.et"
+     }
+    }
+   }
+  }
+ }
+}

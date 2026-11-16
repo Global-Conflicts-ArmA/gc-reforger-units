@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{0B989F4AD84EE74A}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Burn0ut7/GC_CDF_variant_rifleman_1.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

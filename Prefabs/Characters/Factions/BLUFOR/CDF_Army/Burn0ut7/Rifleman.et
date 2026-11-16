@@ -1,0 +1,18 @@
+SCR_ChimeraCharacter : "{7638FA5048BFAFD3}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Airborne/Variants/Character_CDF_Airborne_CoyCO_3.et" {
+ ID "6AE1688F63F7E7E9"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_VariantData SCR_EditableEntityVariantData "{6AE1688F3D4A6A89}" {
+    m_bRandomizeDefaultVariant 1
+    m_iDefaultVariantRandomizerWeight 1
+    m_aVariants {
+     SCR_EditableEntityVariant "{6AE1688F3E5EC0AF}" {
+      m_sVariantPrefab "{0B989F4AD84EE74A}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Burn0ut7/GC_CDF_variant_rifleman_1.et"
+      m_iRandomizerWeight 1
+      m_bEnabled 1
+     }
+    }
+   }
+  }
+ }
+}

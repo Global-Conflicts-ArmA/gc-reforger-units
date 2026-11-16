@@ -1,0 +1,55 @@
+SCR_ChimeraCharacter : "{4D427612FEA7DE6A}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Burn0ut7/Rifleman.et" {
+ ID "6AE1688F38C9B3B9"
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    ACE_EquipmentStorageComponent "{671625C6478FB2AB}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot LaryngealTubeSlot {
+       Prefab ""
+      }
+      EquipmentStorageSlot OxygenMaskSlot {
+       Prefab ""
+      }
+     }
+    }
+   }
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "GC_CDF_variant_rifleman_1"
+    m_sFaction "GC_CDF"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{01D64D58C0977DC6}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Burn0ut7/Weapons/GC_CDF_variant_rifleman_1_C8A1_01.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab ""
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab ""
+    }
+    LoadoutSlotInfo Face {
+     Prefab ""
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68A76183928056FF}" {
+     PrefabsToSpawn {
+      "{B3F2B47340817ED6}Prefabs/Items/ACE_Facepaint_01_US.et" "{632CAEF08C102091}Prefabs/Items/Medicine/Splint_01/GC_Splint_01_Base.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{13772C903CB5E4F7}Prefabs/Items/Equipment/Maps/PaperMap_01_folded.et" "{61D4F80E49BF9B12}Prefabs/Items/Equipment/Compass/Compass_SY183.et" "{062E2F1D7F6739D6}Prefabs/Items/Equipment/Accessories/ETool_MPL50/ETool_MPL50_FreeRoamBuilding_Gadget.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68B1631B3C4B9FB7}" {
+     PrefabsToSpawn + {
+      "{73950FBA2D7DB5C5}Prefabs/Items/Equipment/Radios/US/Radio_ANPRC68.et"
+     }
+    }
+   }
+  }
+ }
+}
