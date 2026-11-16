@@ -56,7 +56,8 @@ ballistic tables remain here with their ammunition.
 
 Units depends on Core and Lobby Dev, its equipment providers, and GC's selected
 shared gameplay baseline (including Adult Mortars and GC Suppression). Core
-requires only the systems its own changes directly use. Units does not depend
+selects the official ACE All in One Dev bundle and CSI; all ACE Dev modules,
+including ACE Core and Medical Core, are inherited through that single selection. Units does not depend
 on the GC Workshop collection or custom terrain packs. Legacy TILW crew
 configurations still require TilW explicitly; this does not add that dependency
 to GC Lobby or Core. Update Core, Units and Missions Dev together after the split.
