@@ -10,4 +10,5 @@ SCR_AIGroup : "{28C2538AD0A4338E}Prefabs/Groups/BLUFOR/CDF/Group_CDF_base.et" {
  m_aUnitPrefabSlots {
   "{222C22E92E9FBAEB}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Airborne/Character_CDF_Airborne_SL.et" "{4FA4D3F61C1B18F8}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Airborne/Character_CDF_Airborne_AR.et" "{4271ADD7EBAC71D2}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Airborne/Character_CDF_Airborne_GL.et" "{54008BD74A3D03B2}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Airborne/Character_CDF_Airborne_RiflemanLAT.et" "{25EBD8B848190028}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Airborne/Character_CDF_Airborne_TL.et" "{4FA4D3F61C1B18F8}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Airborne/Character_CDF_Airborne_AR.et" "{4271ADD7EBAC71D2}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Airborne/Character_CDF_Airborne_GL.et" "{6511C97FE22FCE8E}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Airborne/Character_CDF_Airborne_RiflemanAD.et"
  }
+ m_sGC_Description "Airborne Rifle Squad"
 }
