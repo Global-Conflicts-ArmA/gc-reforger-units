@@ -5,6 +5,7 @@ SCR_ChimeraCharacter : "{9275A3F9875F9498}Prefabs/Characters/Factions/BLUFOR/CDF
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
     Name "#AR-Role_LightAT"
     Icon "{00B30C29FAF85E1C}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_AntiTank.edds"
+    m_Image "{20E546E9A7E1DA4B}UI/Textures/EditorPreviews/Characters/OPFOR/USSR_Army/Character_USSR_NI_LAT.edds"
    }
    m_VariantData SCR_EditableEntityVariantData "{68C4F02FA713887F}" {
     m_bRandomizeDefaultVariant 0

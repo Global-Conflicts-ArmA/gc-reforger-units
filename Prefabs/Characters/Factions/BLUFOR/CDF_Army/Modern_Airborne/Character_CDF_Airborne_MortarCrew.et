@@ -5,6 +5,7 @@ SCR_ChimeraCharacter : "{9275A3F9875F9498}Prefabs/Characters/Factions/BLUFOR/CDF
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
     Name "Mortar Crew"
     Icon "{A489F552FB7489C3}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_Custom.edds"
+    m_Image "{070D4C86CB2C2B15}UI/Textures/EditorPreviews/Characters/OPFOR/USSR_Army/Character_USSR_MortarG.edds"
    }
    m_VariantData SCR_EditableEntityVariantData "{68FCC591010B02DB}" {
     m_bRandomizeDefaultVariant 0

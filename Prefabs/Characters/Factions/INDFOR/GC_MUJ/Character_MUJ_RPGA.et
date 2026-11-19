@@ -4,6 +4,7 @@ SCR_ChimeraCharacter : "{90214E35AA363179}Prefabs/Characters/Factions/INDFOR/GC_
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
     Name "RPG Assistant"
+    Icon "{FB48FAD32DA8BC91}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_AmmoBearer.edds"
    }
    m_VariantData SCR_EditableEntityVariantData "{66A130994120E23F}" {
     m_bRandomizeDefaultVariant 0

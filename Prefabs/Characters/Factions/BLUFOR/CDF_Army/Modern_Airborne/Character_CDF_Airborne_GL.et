@@ -5,6 +5,7 @@ SCR_ChimeraCharacter : "{9275A3F9875F9498}Prefabs/Characters/Factions/BLUFOR/CDF
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
     Name "#AR-Role_Grenadier"
     Icon "{DDAEEF112BEBCF94}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_Grenadier.edds"
+    m_Image "{030E2E704B1974C2}UI/Textures/EditorPreviews/Characters/OPFOR/USSR_Army/Character_USSR_GL.edds"
    }
    m_VariantData SCR_EditableEntityVariantData "{68C4F02FF65FD32E}" {
     m_bRandomizeDefaultVariant 0

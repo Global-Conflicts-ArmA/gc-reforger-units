@@ -2,6 +2,10 @@ SCR_ChimeraCharacter : "{45E26CD50226E27B}Prefabs/Characters/Factions/OPFOR/RHS_
  ID "520EC961A090B1EE"
  components {
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_RadioOperator"
+    Icon "{B9F0BD39FF1881A3}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_RadioOperator.edds"
+   }
    m_VariantData SCR_EditableEntityVariantData "{68A37577446D2F01}" {
     m_aVariants {
      SCR_EditableEntityVariant "{68A603A482010BD3}" {

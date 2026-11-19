@@ -5,6 +5,7 @@ SCR_ChimeraCharacter : "{9275A3F9875F9498}Prefabs/Characters/Factions/BLUFOR/CDF
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
     Name "Company Commander"
     Icon "{A26C465A6AE2AA17}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_Leader.edds"
+    m_Image "{7CB1ED2B23DD26E6}UI/Textures/EditorPreviews/Characters/OPFOR/USSR_Army/Character_USSR_SL.edds"
    }
    m_VariantData SCR_EditableEntityVariantData "{68C4F02CAB82FCAC}" {
     m_bRandomizeDefaultVariant 0

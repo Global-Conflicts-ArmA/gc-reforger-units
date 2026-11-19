@@ -5,6 +5,7 @@ SCR_ChimeraCharacter : "{9275A3F9875F9498}Prefabs/Characters/Factions/BLUFOR/CDF
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
     Name "#AR-Role_Medic"
     Icon "{F3FCC3B9732551D9}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_Medic.edds"
+    m_Image "{9225D8E3CFAD7926}UI/Textures/EditorPreviews/Characters/OPFOR/USSR_Army/Character_USSR_Medic.edds"
    }
    m_VariantData SCR_EditableEntityVariantData "{68C4F02FC9CC68FE}" {
     m_bRandomizeDefaultVariant 0

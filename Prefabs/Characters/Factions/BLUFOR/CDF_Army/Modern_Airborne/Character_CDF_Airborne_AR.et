@@ -5,6 +5,7 @@ SCR_ChimeraCharacter : "{9275A3F9875F9498}Prefabs/Characters/Factions/BLUFOR/CDF
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
     Name "#AR-Role_AutomaticRifleman"
     Icon "{EF1F445746A3391A}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_MachineGunner.edds"
+    m_Image "{D93455A6F79B928C}UI/Textures/EditorPreviews/Characters/OPFOR/USSR_Army/Character_USSR_AR.edds"
    }
    m_VariantData SCR_EditableEntityVariantData "{68C4F02F2B879FE4}" {
     m_bRandomizeDefaultVariant 0
