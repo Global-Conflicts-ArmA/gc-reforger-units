@@ -8,7 +8,7 @@ SCR_AIGroup : "{5CC564DD03A08DC5}Prefabs/Groups/BLUFOR/GC_CAF/1993 Canadian Army
   }
  }
  m_aUnitPrefabSlots {
-  "{F5CA55F4588C5C96}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Character_1993_CAF_PLT_Commander_1AI.et" "{6F4AB5D1FDBF7401}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Character_1993_CAF_PLT_Warrant_1AI.et" "{B03BC2675FB0AA1C}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Character_1993_CAF_Signaller_1AI.et" "{346E135A6C621C2F}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Character_1993_CAF_Medic_1AI.et"
+  "{F5CA55F4588C5C96}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Character_1993_CAF_PLT_Commander_1_AI.et" "{6F4AB5D1FDBF7401}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Character_1993_CAF_PLT_Warrant_1_AI.et" "{B03BC2675FB0AA1C}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Character_1993_CAF_Signaller_1_AI.et" "{346E135A6C621C2F}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Character_1993_CAF_Medic_1_AI.et"
  }
  m_sGC_Description "Platoon HQ"
  m_bPlayable 0

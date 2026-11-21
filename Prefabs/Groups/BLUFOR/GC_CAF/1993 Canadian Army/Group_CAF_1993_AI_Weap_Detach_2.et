@@ -16,7 +16,7 @@ SCR_AIGroup : "{5CC564DD03A08DC5}Prefabs/Groups/BLUFOR/GC_CAF/1993 Canadian Army
   }
  }
  m_aUnitPrefabSlots {
-  "{9FB82322D0798CEE}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Character_1993_CAF_1IC_1AI.et" "{F1AFDEA32E60A294}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Character_1993_CAF_MG_1AI.et" "{6CD86521FAE527A4}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Character_1993_CAF_MG2_1AI.et" "{F1AFDEA32E60A294}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Character_1993_CAF_MG_1AI.et"
+  "{9FB82322D0798CEE}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Character_1993_CAF_1IC_1_AI.et" "{F1AFDEA32E60A294}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Character_1993_CAF_MG_1_AI.et" "{6CD86521FAE527A4}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Character_1993_CAF_MG2_1_AI.et" "{F1AFDEA32E60A294}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Character_1993_CAF_MG_1_AI.et"
  }
  m_sGC_Description "Weapon Detachment"
  m_bPlayable 0
