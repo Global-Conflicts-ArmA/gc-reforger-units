@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{C84FF4497D058530}Prefabs/Vehicles/Wheeled/K17/VehParts/APC_K17_Epoch_HTM1.et"
+ Name "{C84FF4497D058530}Prefabs/Vehicles/Wheeled/K17/APC_K17_Epoch_HTM1_AIGunner.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }

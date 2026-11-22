@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{3CED911741EF4D1A}Prefabs/Vehicles/Wheeled/LAV25/VehParts/Turret/K_17_Turret_HTM.et"
+ Name "{3CED911741EF4D1A}Prefabs/Vehicles/Wheeled/K17/VehParts/Turret_K17_Epoch_HTM_AIGunner.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }
