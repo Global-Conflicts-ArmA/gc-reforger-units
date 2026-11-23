@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{A8410F7B7F97D11D}Prefabs/Characters/Factions/BLUFOR/US_Army/7th ID/1986/Character_US_7ID_1986_BaseLoadout.et" {
+SCR_ChimeraCharacter : "{A8410F7B7F97D11D}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/7th ID/Character_US_7ID_1986_BaseLoadout.et" {
  ID "520EC961A090B1EE"
  components {
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
