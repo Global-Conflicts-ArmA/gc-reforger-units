@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{6E8835E4D8B1510E}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Flora/Character_RHS_RF_MSV_Flora_SR.et"
+ Name "{6E8835E4D8B1510E}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/RHS Inherits/MSV/Flora/P/Character_RHS_RF_MSV_Flora_SR_P.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }
