@@ -16,6 +16,10 @@ SCR_ChimeraCharacter : "{02DCDBEC77E1257F}Prefabs/Characters/Factions/BLUFOR/UK_
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
+    ItemsInitConfigurationItem "{C87A171AC826A6FC}" {
+     PrefabsToSpawn {
+     }
+    }
     ItemsInitConfigurationItem "{610CC31428816D50}" {
      TargetStorage "Pants/Trousers_Tropical_DesertDPM_01.et"
     }
@@ -39,6 +43,9 @@ SCR_ChimeraCharacter : "{02DCDBEC77E1257F}Prefabs/Characters/Factions/BLUFOR/UK_
     }
     ItemsInitConfigurationItem "{62849D41EBD52DBA}" {
      TargetStorage "Back/Rucksack_GS_assembled.et"
+     PrefabsToSpawn {
+      "{046AA0F20A54842A}Prefabs/Weapons/Magazines/Magazine_9x19_MP5_30rnd_Ball.et" "{96FFE213B19D1D57}Prefabs/Weapons/Grenades/Smoke_No80_WP.et" "{D950FADF7FC188C0}Prefabs/Weapons/Grenades/Smoke_No83_Yellow.et" "{79379D4E43B29B88}Prefabs/Items/Medicine/ChestSeal/ACE_Medical_ChestSeal.et"
+     }
     }
     ItemsInitConfigurationItem "{6282E825CD92120C}" {
      TargetStorage "Back/Rucksack_GS_assembled.et"

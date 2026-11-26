@@ -54,6 +54,12 @@ SCR_ChimeraCharacter : "{37578B1666981FCE}Prefabs/Characters/Core/Character_Base
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
+    ItemsInitConfigurationItem "{D7E805DA846A32C3}" {
+     TargetStorage "Pants/BDU_PANTS_OD.et"
+     PrefabsToSpawn {
+      "{79379D4E43B29B88}Prefabs/Items/Medicine/ChestSeal/ACE_Medical_ChestSeal.et"
+     }
+    }
     ItemsInitConfigurationItem "{68C7255E8C84E586}" {
      TargetStorage "Jacket/Jacket_US_BDU_02.et"
      PrefabsToSpawn {

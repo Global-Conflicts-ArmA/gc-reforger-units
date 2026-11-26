@@ -30,6 +30,11 @@ SCR_ChimeraCharacter : "{F598D28DE8F2EDAA}Prefabs/Characters/Factions/OPFOR/RHS_
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
+    ItemsInitConfigurationItem "{68A3571120B26013}" {
+     PrefabsToSpawn {
+      "{575EA58E67448C2A}Prefabs/Items/Equipment/Flashlights/Flashlight_Soviet_01/Flashlight_Soviet_01.et"
+     }
+    }
     ItemsInitConfigurationItem "{68A357121C6288C9}" {
      TargetStorage "Vest/Pouches_6b45_SeniorRifleman.et/AK1_Pouch/Pouch_Ratnik_AK_1.et"
      PrefabsToSpawn {

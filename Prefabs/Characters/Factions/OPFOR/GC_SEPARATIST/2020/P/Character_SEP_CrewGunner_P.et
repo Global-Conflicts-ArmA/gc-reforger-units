@@ -28,9 +28,15 @@ SCR_ChimeraCharacter : "{D0448B34C8BB43D9}Prefabs/Characters/Factions/OPFOR/GC_S
     }
     ItemsInitConfigurationItem "{65F4D2A2AA09FD5F}" {
      TargetStorage "Jacket/Jacket_M88_VSR.et"
+     PrefabsToSpawn {
+      "{575EA58E67448C2A}Prefabs/Items/Equipment/Flashlights/Flashlight_Soviet_01/Flashlight_Soviet_01.et"
+     }
     }
     ItemsInitConfigurationItem "{65D912283DB5C2ED}" {
      TargetStorage "Pants/Pants_US_M65.et"
+     PrefabsToSpawn {
+      "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{79379D4E43B29B88}Prefabs/Items/Medicine/ChestSeal/ACE_Medical_ChestSeal.et"
+     }
     }
     ItemsInitConfigurationItem "{65D912283DB5C2E7}" {
      TargetStorage "Pants/Pants_US_M65.et"

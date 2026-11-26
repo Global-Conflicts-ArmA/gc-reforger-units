@@ -13,6 +13,12 @@ SCR_ChimeraCharacter : "{D45D3F2DCDEFD057}Prefabs/Characters/Factions/INDFOR/FIA
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
+    ItemsInitConfigurationItem "{7D1AFCC4F14A3E3E}" {
+     TargetStorage "Jacket/Jacket_TAZ83_01.et"
+     PrefabsToSpawn {
+      "{79379D4E43B29B88}Prefabs/Items/Medicine/ChestSeal/ACE_Medical_ChestSeal.et"
+     }
+    }
     ItemsInitConfigurationItem "{5EE323B09A236F45}" {
      PrefabsToSpawn {
       "{540C08AD5F21A5FA}Prefabs/Items/Equipment/Radios/FIA/Radio_R148_FIA.et" "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et" "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et"

@@ -1,6 +1,20 @@
 SCR_ChimeraCharacter : "{41CDB471E3B9A02F}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Mech/Character_CDF_Modern_PL.et" {
  ID "520EC961A090B1EE"
  components {
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{BD47D5552C7F47E8}" {
+     TargetStorage "Jacket/ACU_jacket_MC.et"
+     PrefabsToSpawn {
+      "{79379D4E43B29B88}Prefabs/Items/Medicine/ChestSeal/ACE_Medical_ChestSeal.et"
+     }
+    }
+    ItemsInitConfigurationItem "{FBDAA35ADF9C1E2A}" {
+     PrefabsToSpawn {
+     }
+    }
+   }
+  }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {

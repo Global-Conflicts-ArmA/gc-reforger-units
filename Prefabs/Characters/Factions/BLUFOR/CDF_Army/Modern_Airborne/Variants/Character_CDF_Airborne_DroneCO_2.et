@@ -46,6 +46,11 @@ SCR_ChimeraCharacter : "{9275A3F9875F9498}Prefabs/Characters/Factions/BLUFOR/CDF
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
+    ItemsInitConfigurationItem "{68B1631B3C4B9FB7}" {
+     PrefabsToSpawn {
+      "{64322D5D501B7D79}Prefabs/Items/Equipment/Nightvision/PVS14/NVG_PVS14_Base.et"
+     }
+    }
     ItemsInitConfigurationItem "{68A76183928056FF}" {
      TargetStorage "Pants/Pants_CCUE_Multicam.et"
     }
@@ -70,7 +75,7 @@ SCR_ChimeraCharacter : "{9275A3F9875F9498}Prefabs/Characters/Factions/BLUFOR/CDF
     ItemsInitConfigurationItem "{68C4F0236BEEED3E}" {
      TargetStorage "Vest/Vest_AVS_okinawa_Coy_6x9_3.et/tako/Pouch_FILBE_doubleM4_2.et"
      PrefabsToSpawn {
-      "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et"
+      "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et" "{79379D4E43B29B88}Prefabs/Items/Medicine/ChestSeal/ACE_Medical_ChestSeal.et"
      }
     }
     ItemsInitConfigurationItem "{68C4F0236BEE041C}" {

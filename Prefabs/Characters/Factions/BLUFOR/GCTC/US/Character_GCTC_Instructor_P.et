@@ -49,7 +49,7 @@ SCR_ChimeraCharacter : "{37578B1666981FCE}Prefabs/Characters/Core/Character_Base
     ItemsInitConfigurationItem "{6858C9E103895F7D}" {
      TargetStorage "Pants/Pants_US_BDU.et"
      PrefabsToSpawn {
-      "{6E35D94130954509}Prefabs/Items/Equipment/Accessories/ETool_ALICE/ETool_ALICE_FreeRoamBuilding_Gadget.et" "{B3F2B47340817ED6}Prefabs/Items/GC_Facepaint_01_US.et"
+      "{6E35D94130954509}Prefabs/Items/Equipment/Accessories/ETool_ALICE/ETool_ALICE_FreeRoamBuilding_Gadget.et" "{B3F2B47340817ED6}Prefabs/Items/GC_Facepaint_01_US.et" "{79379D4E43B29B88}Prefabs/Items/Medicine/ChestSeal/ACE_Medical_ChestSeal.et"
      }
     }
    }

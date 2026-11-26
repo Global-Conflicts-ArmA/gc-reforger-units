@@ -80,7 +80,7 @@ SCR_ChimeraCharacter : "{C84E16880ACA62B8}Prefabs/Characters/Factions/OPFOR/GC_I
     ItemsInitConfigurationItem "{633D1368F196028F}" {
      TargetStorage "Back/Backpack_ALICE_Medium_assembled.et"
      PrefabsToSpawn {
-      "{610F92DFDCCCAF80}Prefabs/Weapons/Magazines/Magazine_762x51_Bren_Commonwealth_30rnd_Ball.et" "{610F92DFDCCCAF80}Prefabs/Weapons/Magazines/Magazine_762x51_Bren_Commonwealth_30rnd_Ball.et" "{610F92DFDCCCAF80}Prefabs/Weapons/Magazines/Magazine_762x51_Bren_Commonwealth_30rnd_Ball.et" "{610F92DFDCCCAF80}Prefabs/Weapons/Magazines/Magazine_762x51_Bren_Commonwealth_30rnd_Ball.et" "{610F92DFDCCCAF80}Prefabs/Weapons/Magazines/Magazine_762x51_Bren_Commonwealth_30rnd_Ball.et" "{610F92DFDCCCAF80}Prefabs/Weapons/Magazines/Magazine_762x51_Bren_Commonwealth_30rnd_Ball.et"
+      "{610F92DFDCCCAF80}Prefabs/Weapons/Magazines/Magazine_762x51_Bren_Commonwealth_30rnd_Ball.et" "{610F92DFDCCCAF80}Prefabs/Weapons/Magazines/Magazine_762x51_Bren_Commonwealth_30rnd_Ball.et" "{610F92DFDCCCAF80}Prefabs/Weapons/Magazines/Magazine_762x51_Bren_Commonwealth_30rnd_Ball.et" "{610F92DFDCCCAF80}Prefabs/Weapons/Magazines/Magazine_762x51_Bren_Commonwealth_30rnd_Ball.et" "{610F92DFDCCCAF80}Prefabs/Weapons/Magazines/Magazine_762x51_Bren_Commonwealth_30rnd_Ball.et" "{610F92DFDCCCAF80}Prefabs/Weapons/Magazines/Magazine_762x51_Bren_Commonwealth_30rnd_Ball.et" "{79379D4E43B29B88}Prefabs/Items/Medicine/ChestSeal/ACE_Medical_ChestSeal.et"
      }
     }
    }

@@ -22,6 +22,11 @@ SCR_ChimeraCharacter : "{CEE1A252D583AD4A}Prefabs/Characters/Factions/BLUFOR/UK_
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
+    ItemsInitConfigurationItem "{6488D76467B90F01}" {
+     PrefabsToSpawn {
+      "{79379D4E43B29B88}Prefabs/Items/Medicine/ChestSeal/ACE_Medical_ChestSeal.et"
+     }
+    }
     ItemsInitConfigurationItem "{610CC31428816D50}" {
      TargetStorage "Pants/Crye_G4_Combat_Pants_Black.et"
     }
@@ -30,6 +35,9 @@ SCR_ChimeraCharacter : "{CEE1A252D583AD4A}Prefabs/Characters/Factions/BLUFOR/UK_
     }
     ItemsInitConfigurationItem "{62A74B5BE373CB7E}" {
      TargetStorage "Pants/Crye_G4_Combat_Pants_Black.et"
+     PrefabsToSpawn {
+      "{64322D5D501B7D79}Prefabs/Items/Equipment/Nightvision/PVS14/NVG_PVS14_Base.et"
+     }
     }
     ItemsInitConfigurationItem "{610CC3129E7848BC}" {
      PrefabsToSpawn {
