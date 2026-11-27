@@ -82,10 +82,6 @@ SCR_ChimeraCharacter : "{4AF2023E868540E7}Prefabs/Characters/Factions/BLUFOR/UK_
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
-    ItemsInitConfigurationItem "{B97706CA828BCA03}" {
-     PrefabsToSpawn {
-     }
-    }
     ItemsInitConfigurationItem "{610CC31428816D50}" {
      TargetStorage "Pants/Crye_G4_Combat_Pants_MC.et"
     }
@@ -141,7 +137,7 @@ SCR_ChimeraCharacter : "{4AF2023E868540E7}Prefabs/Characters/Factions/BLUFOR/UK_
     ItemsInitConfigurationItem "{6488D75AD42345BE}" {
      TargetStorage "Back/TYR_TT_Huron_MC.et"
      PrefabsToSpawn {
-      "{B1798B0F1258B765}Prefabs/Items/Equipment/Navigation/DAGR/DAGR.et" "{643AB339663E92F7}Prefabs/Items/Equipment/Nightvision/MS2000/Marker_MS2000.et" "{D22DF40D07DA4615}Prefabs/Weapons/Magazines/Box_762x51_GPMG_100rnd_4Ball_1Tracer.et" "{156BC976EA1404DF}Prefabs/Weapons/Magazines/EMAG_FDE_556x45_AP.et" "{156BC976EA1404DF}Prefabs/Weapons/Magazines/EMAG_FDE_556x45_AP.et" "{79379D4E43B29B88}Prefabs/Items/Medicine/ChestSeal/ACE_Medical_ChestSeal.et"
+      "{B1798B0F1258B765}Prefabs/Items/Equipment/Navigation/DAGR/DAGR.et" "{643AB339663E92F7}Prefabs/Items/Equipment/Nightvision/MS2000/Marker_MS2000.et" "{D22DF40D07DA4615}Prefabs/Weapons/Magazines/Box_762x51_GPMG_100rnd_4Ball_1Tracer.et" "{156BC976EA1404DF}Prefabs/Weapons/Magazines/EMAG_FDE_556x45_AP.et" "{156BC976EA1404DF}Prefabs/Weapons/Magazines/EMAG_FDE_556x45_AP.et"
      }
     }
     ItemsInitConfigurationItem "{65C2BC45DCD61161}" {

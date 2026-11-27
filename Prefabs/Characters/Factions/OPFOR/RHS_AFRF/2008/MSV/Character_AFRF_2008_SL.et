@@ -20,16 +20,6 @@ SCR_ChimeraCharacter : "{95DBFD5308DBBB29}Prefabs/Characters/Factions/OPFOR/RHS_
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
-    ItemsInitConfigurationItem "{68E4BA1779D5B24B}" {
-     PrefabsToSpawn {
-      "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et" "{79379D4E43B29B88}Prefabs/Items/Medicine/ChestSeal/ACE_Medical_ChestSeal.et"
-     }
-    }
-    ItemsInitConfigurationItem "{68E4BA1779D5B25F}" {
-     PrefabsToSpawn {
-      "{7CEF68E2BC68CE71}Prefabs/Items/Equipment/Compass/Compass_Adrianov.et" "{13772C903CB5E4F7}Prefabs/Items/Equipment/Maps/PaperMap_01_folded.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{632CAEF08C102091}Prefabs/Items/Medicine/Splint_01/GC_Splint_01_Base.et" "{062E2F1D7F6739D6}Prefabs/Items/Equipment/Accessories/ETool_MPL50/ETool_MPL50_FreeRoamBuilding_Gadget.et" "{98C79F5FAE12F9B6}Prefabs/Weapons/Attachments/Bayonets/Bayonet_6Kh4.et"
-     }
-    }
     ItemsInitConfigurationItem "{68E6A330BB25594A}" {
      TargetStorage "Vest/Vest_Lifchik_6b23.et"
      PrefabsToSpawn {

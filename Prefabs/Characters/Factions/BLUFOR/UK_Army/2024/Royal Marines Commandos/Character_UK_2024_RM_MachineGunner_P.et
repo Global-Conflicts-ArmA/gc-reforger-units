@@ -79,10 +79,6 @@ SCR_ChimeraCharacter : "{4AF2023E868540E7}Prefabs/Characters/Factions/BLUFOR/UK_
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
-    ItemsInitConfigurationItem "{B97706CA828BCA03}" {
-     PrefabsToSpawn {
-     }
-    }
     ItemsInitConfigurationItem "{610CC31428816D50}" {
      TargetStorage "Pants/Crye_G4_Combat_Pants_MC.et"
     }
@@ -127,7 +123,7 @@ SCR_ChimeraCharacter : "{4AF2023E868540E7}Prefabs/Characters/Factions/BLUFOR/UK_
     ItemsInitConfigurationItem "{6488D75F7929FF0D}" {
      TargetStorage "Back/Camelbak_Rubicon.et"
      PrefabsToSpawn {
-      "{D22DF40D07DA4615}Prefabs/Weapons/Magazines/Box_762x51_GPMG_100rnd_4Ball_1Tracer.et" "{D22DF40D07DA4615}Prefabs/Weapons/Magazines/Box_762x51_GPMG_100rnd_4Ball_1Tracer.et" "{D22DF40D07DA4615}Prefabs/Weapons/Magazines/Box_762x51_GPMG_100rnd_4Ball_1Tracer.et" "{D22DF40D07DA4615}Prefabs/Weapons/Magazines/Box_762x51_GPMG_100rnd_4Ball_1Tracer.et" "{79379D4E43B29B88}Prefabs/Items/Medicine/ChestSeal/ACE_Medical_ChestSeal.et"
+      "{D22DF40D07DA4615}Prefabs/Weapons/Magazines/Box_762x51_GPMG_100rnd_4Ball_1Tracer.et" "{D22DF40D07DA4615}Prefabs/Weapons/Magazines/Box_762x51_GPMG_100rnd_4Ball_1Tracer.et" "{D22DF40D07DA4615}Prefabs/Weapons/Magazines/Box_762x51_GPMG_100rnd_4Ball_1Tracer.et" "{D22DF40D07DA4615}Prefabs/Weapons/Magazines/Box_762x51_GPMG_100rnd_4Ball_1Tracer.et"
      }
     }
     ItemsInitConfigurationItem "{65D7579CFD76F7F9}" {

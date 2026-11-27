@@ -3,8 +3,7 @@ SCR_ChimeraCharacter : "{A62FA97C4EC64F14}Prefabs/Characters/Factions/OPFOR/USSR
  components {
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
-    ItemsInitConfigurationItem "{21599E3E9C8FE21D}" {
-     TargetStorage "Jacket/Jacket_Pilot_USSR_01.et"
+    ItemsInitConfigurationItem "{4941D4072014B3CE}" {
      PrefabsToSpawn {
       "{79379D4E43B29B88}Prefabs/Items/Medicine/ChestSeal/ACE_Medical_ChestSeal.et"
      }

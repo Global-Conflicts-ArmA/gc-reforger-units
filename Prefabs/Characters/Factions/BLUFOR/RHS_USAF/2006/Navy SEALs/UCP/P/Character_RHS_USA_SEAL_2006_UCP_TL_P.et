@@ -39,9 +39,6 @@ SCR_ChimeraCharacter : "{AFF64630D6F380A8}Prefabs/Characters/Factions/BLUFOR/RHS
      }
     }
     ItemsInitConfigurationItem "{6063106CCCB65709}" {
-     PrefabsToSpawn {
-      "{3A421547BC29F679}Prefabs/Items/Equipment/Flashlights/Flashlight_MX991/Flashlight_MX991.et"
-     }
     }
     ItemsInitConfigurationItem "{661CD8B0CAF87251}" {
      TargetStorage "Vest/Vest_PCGen_II_filbe.et/Pouch1/Pouch_FILBE_doubleM4_1.et"
@@ -112,7 +109,7 @@ SCR_ChimeraCharacter : "{AFF64630D6F380A8}Prefabs/Characters/Factions/BLUFOR/RHS
     ItemsInitConfigurationItem "{661CD8B0CAFFDE29}" {
      TargetStorage "Back/Backpack_511_rush12_od.et"
      PrefabsToSpawn {
-      "{BEE3897D2286992A}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_M855A1_4Ball_1Tracer.et" "{30CDE9F71FC702E8}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01_Base.et" "{30CDE9F71FC702E8}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01_Base.et" "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{00E36F41CA310E2A}Prefabs/Items/Medicine/SalineBag_01/SalineBag_US_01.et" "{79379D4E43B29B88}Prefabs/Items/Medicine/ChestSeal/ACE_Medical_ChestSeal.et"
+      "{BEE3897D2286992A}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_M855A1_4Ball_1Tracer.et" "{30CDE9F71FC702E8}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01_Base.et" "{30CDE9F71FC702E8}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01_Base.et" "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{00E36F41CA310E2A}Prefabs/Items/Medicine/SalineBag_01/SalineBag_US_01.et"
      }
     }
    }

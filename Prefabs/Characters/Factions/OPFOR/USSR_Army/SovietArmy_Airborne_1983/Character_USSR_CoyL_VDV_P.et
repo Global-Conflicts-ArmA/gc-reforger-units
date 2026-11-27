@@ -26,9 +26,6 @@ SCR_ChimeraCharacter : "{E8A05D5E0CEAC836}Prefabs/Characters/Factions/OPFOR/USSR
      PrefabsToSpawn + {
       "{F5347DE84CA1E3EE}Prefabs/Characters/HeadGear/Hat_VDV_Beret/Hat_VDV_Beret.et"
      }
-     PrefabsToSpawn {
-      "{E1A5D4B878AA8980}Prefabs/Items/Equipment/Radios/Radio_R148.et" "{7CEF68E2BC68CE71}Prefabs/Items/Equipment/Compass/Compass_Adrianov.et" "{F849217AB3BA88BE}Prefabs/Items/Equipment/Maps/Map_Paper_01/PaperMap_01_folded_USSR.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{062E2F1D7F6739D6}Prefabs/Items/Equipment/Accessories/ETool_MPL50/ETool_MPL50_FreeRoamBuilding_Gadget.et" "{36218D5F0C7095E6}Prefabs/Weapons/Flares/Flare_RSP30_red.et" "{FC79F6BDEB7F1BC2}Prefabs/Weapons/Flares/Flare_RSP30_green.et" "{79379D4E43B29B88}Prefabs/Items/Medicine/ChestSeal/ACE_Medical_ChestSeal.et"
-     }
     }
    }
   }

@@ -13,6 +13,11 @@ SCR_ChimeraCharacter : "{53F6F7CF18A303D4}Prefabs/Characters/Factions/INDFOR/RHS
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
+    ItemsInitConfigurationItem "{86E7577496A2C877}" {
+     PrefabsToSpawn {
+      "{79379D4E43B29B88}Prefabs/Items/Medicine/ChestSeal/ACE_Medical_ChestSeal.et"
+     }
+    }
     ItemsInitConfigurationItem "{655A0835547EEE1B}" {
      TargetStorage "Jacket/Jacket_Crye_Combat_Shirt_Black_ION.et"
      PrefabsToSpawn {

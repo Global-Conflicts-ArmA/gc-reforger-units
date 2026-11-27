@@ -52,9 +52,6 @@ SCR_ChimeraCharacter : "{293D4D5939CE9DEC}Prefabs/Characters/Factions/INDFOR/FIA
      PrefabsToSpawn + {
       "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et" "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
      }
-     PrefabsToSpawn {
-      "{6E35D94130954509}Prefabs/Items/Equipment/Accessories/ETool_ALICE/ETool_ALICE_FreeRoamBuilding_Gadget.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et"
-     }
     }
     ItemsInitConfigurationItem "{68F2839481AB0DDB}" {
      TargetStorage "Pants/Pants_FROG_M81.et"

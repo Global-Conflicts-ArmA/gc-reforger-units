@@ -64,7 +64,7 @@ SCR_ChimeraCharacter : "{46ED63B79A974103}Prefabs/Characters/Factions/BLUFOR/CDF
      TargetStorage "Jacket/Crye_G3_Combat_Shirt_UKC_MC.et"
      TargetPurpose 64
      PrefabsToSpawn {
-      "{575EA58E67448C2A}Prefabs/Items/Equipment/Flashlights/Flashlight_Soviet_01/Flashlight_Soviet_01.et" "{79379D4E43B29B88}Prefabs/Items/Medicine/ChestSeal/ACE_Medical_ChestSeal.et"
+      "{575EA58E67448C2A}Prefabs/Items/Equipment/Flashlights/Flashlight_Soviet_01/Flashlight_Soviet_01.et"
      }
     }
     ItemsInitConfigurationItem "{647D5B1183FEE958}" {

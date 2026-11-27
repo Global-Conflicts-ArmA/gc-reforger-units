@@ -14,6 +14,11 @@ SCR_ChimeraCharacter : "{E8EF64F8B943A507}Prefabs/Characters/Factions/OPFOR/USSR
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
+    ItemsInitConfigurationItem "{107F80E222F82876}" {
+     PrefabsToSpawn {
+      "{79379D4E43B29B88}Prefabs/Items/Medicine/ChestSeal/ACE_Medical_ChestSeal.et"
+     }
+    }
     ItemsInitConfigurationItem "{5D7CC173E6675BF7}" {
      PrefabsToSpawn + {
       "{F5347DE84CA1E3EE}Prefabs/Characters/HeadGear/Hat_VDV_Beret/Hat_VDV_Beret.et"

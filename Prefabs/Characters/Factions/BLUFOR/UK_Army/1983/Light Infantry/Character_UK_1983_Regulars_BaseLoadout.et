@@ -14,16 +14,6 @@ SCR_ChimeraCharacter : "{376676E968BA3518}Prefabs/Characters/Factions/BLUFOR/UK_
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
-    ItemsInitConfigurationItem "{B97706CA828BCA03}" {
-     TargetStorage "Pants/Trousers_Combat_68Pat_DPM_01.et"
-     PrefabsToSpawn {
-      "{79379D4E43B29B88}Prefabs/Items/Medicine/ChestSeal/ACE_Medical_ChestSeal.et"
-     }
-    }
-    ItemsInitConfigurationItem "{C87A171AC826A6FC}" {
-     PrefabsToSpawn {
-     }
-    }
     ItemsInitConfigurationItem "{610CC31428816D50}" {
      TargetStorage "Jacket/Smock_Combat_68Pat_DPM_01.et"
      PrefabsToSpawn {

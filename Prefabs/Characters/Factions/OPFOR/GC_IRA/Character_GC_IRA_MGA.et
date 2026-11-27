@@ -79,7 +79,7 @@ SCR_ChimeraCharacter : "{C84E16880ACA62B8}Prefabs/Characters/Factions/OPFOR/GC_I
     ItemsInitConfigurationItem "{633D3E8E9D185804}" {
      TargetStorage "Back/Backpack_Kolobok.et"
      PrefabsToSpawn {
-      "{D22DF40D07DA4615}Prefabs/Weapons/Magazines/Box_762x51_GPMG_100rnd_4Ball_1Tracer.et" "{D22DF40D07DA4615}Prefabs/Weapons/Magazines/Box_762x51_GPMG_100rnd_4Ball_1Tracer.et" "{D22DF40D07DA4615}Prefabs/Weapons/Magazines/Box_762x51_GPMG_100rnd_4Ball_1Tracer.et" "{79379D4E43B29B88}Prefabs/Items/Medicine/ChestSeal/ACE_Medical_ChestSeal.et"
+      "{D22DF40D07DA4615}Prefabs/Weapons/Magazines/Box_762x51_GPMG_100rnd_4Ball_1Tracer.et" "{D22DF40D07DA4615}Prefabs/Weapons/Magazines/Box_762x51_GPMG_100rnd_4Ball_1Tracer.et" "{D22DF40D07DA4615}Prefabs/Weapons/Magazines/Box_762x51_GPMG_100rnd_4Ball_1Tracer.et"
      }
     }
    }

@@ -105,7 +105,7 @@ SCR_ChimeraCharacter : "{C0358E410861BD1D}Prefabs/Characters/Factions/BLUFOR/UK_
     ItemsInitConfigurationItem "{6576BD32AE97C664}" {
      TargetStorage "Back/Defcon_Ares.et"
      PrefabsToSpawn {
-      "{06D722FC2666EB83}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_4Ball_1Tracer.et" "{79379D4E43B29B88}Prefabs/Items/Medicine/ChestSeal/ACE_Medical_ChestSeal.et"
+      "{06D722FC2666EB83}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_4Ball_1Tracer.et"
      }
     }
    }

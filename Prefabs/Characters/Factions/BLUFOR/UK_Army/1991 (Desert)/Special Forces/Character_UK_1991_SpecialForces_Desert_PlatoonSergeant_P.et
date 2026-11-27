@@ -28,10 +28,6 @@ SCR_ChimeraCharacter : "{49245CC356272920}Prefabs/Characters/Factions/BLUFOR/UK_
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
-    ItemsInitConfigurationItem "{C87A171AC826A6FC}" {
-     PrefabsToSpawn {
-     }
-    }
     ItemsInitConfigurationItem "{610CC31428816D50}" {
      TargetStorage "Pants/Trousers_Tropical_DesertDPM_01.et"
     }
@@ -56,7 +52,7 @@ SCR_ChimeraCharacter : "{49245CC356272920}Prefabs/Characters/Factions/BLUFOR/UK_
     ItemsInitConfigurationItem "{64A8AB40750482B2}" {
      TargetStorage "Back/Rucksack_P58_Large_Pack.et"
      PrefabsToSpawn {
-      "{0BE2E422211B0B6D}Prefabs/Items/Equipment/Detonators/BlastingMachine_M34/BlastingMachine_GC_M34_500.et" "{1F9E536AD45F48C7}Prefabs/Weapons/Explosives/DemoBlock_PE4/DemoBlock_PE4.et" "{1F9E536AD45F48C7}Prefabs/Weapons/Explosives/DemoBlock_PE4/DemoBlock_PE4.et" "{79379D4E43B29B88}Prefabs/Items/Medicine/ChestSeal/ACE_Medical_ChestSeal.et"
+      "{0BE2E422211B0B6D}Prefabs/Items/Equipment/Detonators/BlastingMachine_M34/BlastingMachine_GC_M34_500.et" "{1F9E536AD45F48C7}Prefabs/Weapons/Explosives/DemoBlock_PE4/DemoBlock_PE4.et" "{1F9E536AD45F48C7}Prefabs/Weapons/Explosives/DemoBlock_PE4/DemoBlock_PE4.et"
      }
     }
    }

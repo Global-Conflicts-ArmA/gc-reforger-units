@@ -36,12 +36,6 @@ SCR_ChimeraCharacter : "{C0358E410861BD1D}Prefabs/Characters/Factions/BLUFOR/UK_
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
-    ItemsInitConfigurationItem "{6BD2AA399DAC946D}" {
-     TargetStorage "Back/TYR_TT_Huron_MC.et"
-     PrefabsToSpawn {
-      "{79379D4E43B29B88}Prefabs/Items/Medicine/ChestSeal/ACE_Medical_ChestSeal.et"
-     }
-    }
     ItemsInitConfigurationItem "{6579089C8AA04BA2}" {
      TargetStorage "ArmoredVest/Vest_Crye_CPC_Rifleman_01.et"
     }

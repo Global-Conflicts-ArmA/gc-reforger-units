@@ -25,6 +25,11 @@ SCR_ChimeraCharacter : "{7E44CF4FB58F8FF7}Prefabs/Characters/Factions/BLUFOR/US_
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
+    ItemsInitConfigurationItem "{6F7EAED46725A2A7}" {
+     PrefabsToSpawn {
+      "{79379D4E43B29B88}Prefabs/Items/Medicine/ChestSeal/ACE_Medical_ChestSeal.et"
+     }
+    }
     ItemsInitConfigurationItem "{5D7CAAFB9235E903}" {
      TargetStorage "Vest/Vest_ALICE_rifleman.et/Suspenders/Vest_ALICE_suspenders_2.et"
     }

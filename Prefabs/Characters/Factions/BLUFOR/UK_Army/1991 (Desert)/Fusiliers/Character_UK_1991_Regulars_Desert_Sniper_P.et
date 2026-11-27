@@ -19,18 +19,11 @@ SCR_ChimeraCharacter : "{5CE5290F73B4AA1B}Prefabs/Characters/Factions/BLUFOR/UK_
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
-    ItemsInitConfigurationItem "{B97706CA828BCA03}" {
-     PrefabsToSpawn {
-     }
-    }
     ItemsInitConfigurationItem "{610CC31428816D50}" {
      TargetStorage "Pants/Trousers_Tropical_DesertDPM_01.et"
     }
     ItemsInitConfigurationItem "{62A74B5BE373CB7E}" {
      TargetStorage "Jacket/Jacket_Tropical_DesertDPM_01.et"
-     PrefabsToSpawn {
-      "{CA644F87313C4B54}Prefabs/Items/Equipment/Accessories/Scrim_Scarf/Scrim_Scarf_1.et" "{79379D4E43B29B88}Prefabs/Items/Medicine/ChestSeal/ACE_Medical_ChestSeal.et"
-     }
     }
     ItemsInitConfigurationItem "{610CC3129E7848BC}" {
      TargetStorage "Vest/Vest_P58_rifleman_L85.et/MagPouch2/Pouch_P58_20rnd_L1A1_Right.et"

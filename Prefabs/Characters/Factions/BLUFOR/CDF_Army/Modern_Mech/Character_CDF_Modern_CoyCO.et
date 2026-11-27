@@ -18,15 +18,8 @@ SCR_ChimeraCharacter : "{41CDB471E3B9A02F}Prefabs/Characters/Factions/BLUFOR/CDF
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
-    ItemsInitConfigurationItem "{FBDAA35ADF9C1E2A}" {
-     PrefabsToSpawn {
-     }
-    }
     ItemsInitConfigurationItem "{62FB097A7477C905}" {
      TargetStorage "Jacket/ACU_jacket_MC.et"
-     PrefabsToSpawn {
-      "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et" "{79379D4E43B29B88}Prefabs/Items/Medicine/ChestSeal/ACE_Medical_ChestSeal.et"
-     }
     }
     ItemsInitConfigurationItem "{68F0C967F79D5CCB}" {
      TargetStorage "Jacket/ACU_jacket_MC.et"

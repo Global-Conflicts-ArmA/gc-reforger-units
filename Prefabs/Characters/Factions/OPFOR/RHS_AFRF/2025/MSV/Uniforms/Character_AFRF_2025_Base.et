@@ -41,6 +41,11 @@ SCR_ChimeraCharacter : "{EDCFF009262F881C}Prefabs/Characters/Factions/OPFOR/RHS_
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
+    ItemsInitConfigurationItem "{2B5E803B61BA4168}" {
+     PrefabsToSpawn {
+      "{79379D4E43B29B88}Prefabs/Items/Medicine/ChestSeal/ACE_Medical_ChestSeal.et"
+     }
+    }
     ItemsInitConfigurationItem "{68A37570CF1DC8E1}" {
      TargetStorage "Pants/crye_pants_mc.et"
      PrefabsToSpawn {
@@ -51,7 +56,7 @@ SCR_ChimeraCharacter : "{EDCFF009262F881C}Prefabs/Characters/Factions/OPFOR/RHS_
      TargetStorage "Jacket/Jacket_Crye_Combat_Shirt_MC.et"
      TargetPurpose 64
      PrefabsToSpawn {
-      "{575EA58E67448C2A}Prefabs/Items/Equipment/Flashlights/Flashlight_Soviet_01/Flashlight_Soviet_01.et" "{79379D4E43B29B88}Prefabs/Items/Medicine/ChestSeal/ACE_Medical_ChestSeal.et"
+      "{575EA58E67448C2A}Prefabs/Items/Equipment/Flashlights/Flashlight_Soviet_01/Flashlight_Soviet_01.et"
      }
     }
     ItemsInitConfigurationItem "{68A3756BC7C54865}" {

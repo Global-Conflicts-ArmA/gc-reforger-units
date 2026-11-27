@@ -14,9 +14,9 @@ SCR_ChimeraCharacter : "{836E7E39AAC5888B}Prefabs/Characters/Factions/BLUFOR/US_
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
-    ItemsInitConfigurationItem "{5D7CAAFB9235E903}" {
+    ItemsInitConfigurationItem "{D440E50454F31AF3}" {
      PrefabsToSpawn {
-      "{3A421547BC29F679}Prefabs/Items/Equipment/Flashlights/Flashlight_MX991/Flashlight_MX991.et" "{79379D4E43B29B88}Prefabs/Items/Medicine/ChestSeal/ACE_Medical_ChestSeal.et"
+      "{79379D4E43B29B88}Prefabs/Items/Medicine/ChestSeal/ACE_Medical_ChestSeal.et"
      }
     }
     ItemsInitConfigurationItem "{5D7CAAFB9235E902}" {

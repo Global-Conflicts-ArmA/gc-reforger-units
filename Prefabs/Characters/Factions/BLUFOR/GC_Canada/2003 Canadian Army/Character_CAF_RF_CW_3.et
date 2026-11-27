@@ -42,6 +42,11 @@ SCR_ChimeraCharacter : "{27BF1FF235DD6036}Prefabs/Characters/Factions/BLUFOR/US_
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
+    ItemsInitConfigurationItem "{FF9243A8F506B409}" {
+     PrefabsToSpawn {
+      "{79379D4E43B29B88}Prefabs/Items/Medicine/ChestSeal/ACE_Medical_ChestSeal.et"
+     }
+    }
     ItemsInitConfigurationItem "{5D7CAAFB9235E902}" {
      TargetStorage "Prefabs/Characters/Uniforms/Pants_US_M65.et"
      PrefabsToSpawn +{

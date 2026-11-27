@@ -1,17 +1,11 @@
 SCR_ChimeraCharacter : "{42A502E3BB727CEB}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_HeliPilot.et" {
  ID "520EC961A090B1EE"
  components {
-  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
    InitialInventoryItems {
-    ItemsInitConfigurationItem "{F21449273D7CEE9D}" {
-     TargetStorage "Pants/Pants_US_BDU.et"
+    ItemsInitConfigurationItem "{D6BA2B0AEE0CA923}" {
      PrefabsToSpawn {
       "{79379D4E43B29B88}Prefabs/Items/Medicine/ChestSeal/ACE_Medical_ChestSeal.et"
-     }
-    }
-    ItemsInitConfigurationItem "{5D7CAAFB9235E903}" {
-     PrefabsToSpawn {
-      "{3A421547BC29F679}Prefabs/Items/Equipment/Flashlights/Flashlight_MX991/Flashlight_MX991.et"
      }
     }
    }

@@ -39,9 +39,6 @@ SCR_ChimeraCharacter : "{AFF64630D6F380A8}Prefabs/Characters/Factions/BLUFOR/RHS
      }
     }
     ItemsInitConfigurationItem "{6063106CCCB65709}" {
-     PrefabsToSpawn {
-      "{3A421547BC29F679}Prefabs/Items/Equipment/Flashlights/Flashlight_MX991/Flashlight_MX991.et"
-     }
     }
     ItemsInitConfigurationItem "{661CD8B0CAE5D61D}" {
      TargetStorage "Vest/Vest_PCGen_II_filbe.et/Pouch1/Pouch_FILBE_doubleM4_1.et"
@@ -76,7 +73,7 @@ SCR_ChimeraCharacter : "{AFF64630D6F380A8}Prefabs/Characters/Factions/BLUFOR/RHS
     ItemsInitConfigurationItem "{661CD8B0CAE5AE02}" {
      TargetStorage "Vest/Vest_PCGen_II_filbe.et/m67/Pouch_Filbe_M67_2.et"
      PrefabsToSpawn {
-      "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et" "{79379D4E43B29B88}Prefabs/Items/Medicine/ChestSeal/ACE_Medical_ChestSeal.et"
+      "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
      }
     }
     ItemsInitConfigurationItem "{661CD8B0CAE5AE03}" {

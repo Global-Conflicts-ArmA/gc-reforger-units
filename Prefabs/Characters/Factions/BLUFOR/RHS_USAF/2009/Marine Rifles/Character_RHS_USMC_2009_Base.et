@@ -45,6 +45,11 @@ SCR_ChimeraCharacter : "{FDAEA6C9F2673B02}Prefabs/Characters/Factions/BLUFOR/RHS
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
+    ItemsInitConfigurationItem "{F1F836F99EEE3692}" {
+     PrefabsToSpawn {
+      "{79379D4E43B29B88}Prefabs/Items/Medicine/ChestSeal/ACE_Medical_ChestSeal.et"
+     }
+    }
     ItemsInitConfigurationItem "{68E911A2E4988E7E}" {
      TargetStorage "Pants/Pants_FROG_WD.et"
      PrefabsToSpawn {
@@ -54,7 +59,7 @@ SCR_ChimeraCharacter : "{FDAEA6C9F2673B02}Prefabs/Characters/Factions/BLUFOR/RHS
     ItemsInitConfigurationItem "{68E91186842FDFDA}" {
      TargetStorage "Jacket/Shirt_FROG_WD.et"
      PrefabsToSpawn {
-      "{64322D5D501B7D79}Prefabs/Items/Equipment/Nightvision/PVS14/NVG_PVS14_Base.et" "{79379D4E43B29B88}Prefabs/Items/Medicine/ChestSeal/ACE_Medical_ChestSeal.et"
+      "{64322D5D501B7D79}Prefabs/Items/Equipment/Nightvision/PVS14/NVG_PVS14_Base.et"
      }
     }
    }

@@ -40,12 +40,6 @@ SCR_ChimeraCharacter : "{36A12DD1497EDED6}Prefabs/Characters/Factions/BLUFOR/RHS
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
-    ItemsInitConfigurationItem "{BDABE898736A3566}" {
-     TargetStorage "Back/Rucksack_84mm_MAW_Carrier.et"
-     PrefabsToSpawn {
-      "{79379D4E43B29B88}Prefabs/Items/Medicine/ChestSeal/ACE_Medical_ChestSeal.et"
-     }
-    }
     ItemsInitConfigurationItem "{6063106CCCB65709}" {
     }
     ItemsInitConfigurationItem "{6488036C50A18E4F}" {

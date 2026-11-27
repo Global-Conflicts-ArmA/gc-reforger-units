@@ -1,6 +1,15 @@
 SCR_ChimeraCharacter : "{37578B1666981FCE}Prefabs/Characters/Core/Character_Base.et" {
  ID "520EC961A090B1EE"
  components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{A4C123B1612DD272}" {
+     PrefabsToSpawn {
+      "{79379D4E43B29B88}Prefabs/Items/Medicine/ChestSeal/ACE_Medical_ChestSeal.et"
+     }
+    }
+   }
+  }
   FactionAffiliationComponent "{68FCC59658A597F5}" {
    "faction affiliation" "GC_CDF"
   }

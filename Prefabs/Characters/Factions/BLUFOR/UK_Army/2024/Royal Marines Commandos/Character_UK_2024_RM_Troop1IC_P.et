@@ -57,9 +57,6 @@ SCR_ChimeraCharacter : "{94DB2F66DDCD8783}Prefabs/Characters/Factions/BLUFOR/UK_
      PrefabsToSpawn + {
       "{F20D1122BC5CD9F2}Prefabs/Weapons/Magazines/glock_magazine/Magazine_9x19_Glock_17rnd.et" "{F20D1122BC5CD9F2}Prefabs/Weapons/Magazines/glock_magazine/Magazine_9x19_Glock_17rnd.et"
      }
-     PrefabsToSpawn {
-      "{64322D5D501B7D79}Prefabs/Items/Equipment/Nightvision/PVS14/NVG_PVS14_Base.et" "{79379D4E43B29B88}Prefabs/Items/Medicine/ChestSeal/ACE_Medical_ChestSeal.et"
-     }
     }
     ItemsInitConfigurationItem "{610CC3129E7848BC}" {
      TargetStorage "Vest/Webbing_JayJays_Gen4_Commander_02.et/MagPouch/Pouch_JayJays_Gen4_Magazine_01_Alt.et"

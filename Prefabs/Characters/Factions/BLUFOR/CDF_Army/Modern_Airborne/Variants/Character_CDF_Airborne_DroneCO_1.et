@@ -45,14 +45,11 @@ SCR_ChimeraCharacter : "{9275A3F9875F9498}Prefabs/Characters/Factions/BLUFOR/CDF
    InitialInventoryItems {
     ItemsInitConfigurationItem "{68B1631B3C4B9FB7}" {
      TargetStorage "Jacket/Jacket_PCU_L5_CoyoteBrown.et"
-     PrefabsToSpawn {
-      "{64322D5D501B7D79}Prefabs/Items/Equipment/Nightvision/PVS14/NVG_PVS14_Base.et"
-     }
     }
     ItemsInitConfigurationItem "{68C4F0236E81AB33}" {
      TargetStorage "Vest/Vest_TV102_rifleman_MC_2.et/placard/Pouch_wartech_magpouch_mp105_MC.et"
      PrefabsToSpawn {
-      "{DD810D0313E8C01A}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Ball_camo.et" "{79379D4E43B29B88}Prefabs/Items/Medicine/ChestSeal/ACE_Medical_ChestSeal.et"
+      "{DD810D0313E8C01A}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Ball_camo.et"
      }
     }
     ItemsInitConfigurationItem "{68C4F0236E81AB46}" {

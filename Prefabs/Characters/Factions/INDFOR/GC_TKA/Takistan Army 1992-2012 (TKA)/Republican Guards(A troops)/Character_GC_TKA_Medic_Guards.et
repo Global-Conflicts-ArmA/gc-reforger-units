@@ -34,16 +34,6 @@ SCR_ChimeraCharacter : "{CD2268B63B26C735}Prefabs/Characters/Factions/INDFOR/GC_
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
-    ItemsInitConfigurationItem "{7684319E1B429AD5}" {
-     TargetStorage "Jacket/Jacket_Cuba_BDU.et"
-     PrefabsToSpawn {
-      "{79379D4E43B29B88}Prefabs/Items/Medicine/ChestSeal/ACE_Medical_ChestSeal.et" "{79379D4E43B29B88}Prefabs/Items/Medicine/ChestSeal/ACE_Medical_ChestSeal.et" "{79379D4E43B29B88}Prefabs/Items/Medicine/ChestSeal/ACE_Medical_ChestSeal.et" "{661744F5F88B401C}Prefabs/Items/Medicine/NCDKit/ACE_Medical_NCDKit.et" "{498EBFCE4936F47B}Prefabs/Items/Medicine/KingLT/ACE_Medical_KingLT.et" "{FDFA3EAC0D60C65F}Prefabs/Items/Medicine/OxygenMask/ACE_Medical_OxygenMask.et"
-     }
-    }
-    ItemsInitConfigurationItem "{04D42F8AC2ACAF12}" {
-     PrefabsToSpawn {
-     }
-    }
     ItemsInitConfigurationItem "{655D4810A052E04D}" {
      TargetStorage "Vest/Vest_6b23_pouches_base.et/radio/Pouch_Ratnik_ak_pouch_new_2.et"
      PrefabsToSpawn {

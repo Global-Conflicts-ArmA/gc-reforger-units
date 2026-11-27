@@ -43,16 +43,6 @@ SCR_ChimeraCharacter : "{D4F690DE83BEA3DA}Prefabs/Characters/Factions/BLUFOR/RHS
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
-    ItemsInitConfigurationItem "{4D419B1B673BD475}" {
-     TargetStorage "Jacket/Crye_G3_Shirt_MC_rolledup.et"
-     PrefabsToSpawn {
-      "{79379D4E43B29B88}Prefabs/Items/Medicine/ChestSeal/ACE_Medical_ChestSeal.et"
-     }
-    }
-    ItemsInitConfigurationItem "{73C8EB5BB682575E}" {
-     PrefabsToSpawn {
-     }
-    }
     ItemsInitConfigurationItem "{6512D23110AC9352}" {
      TargetStorage "Vest/Vest_AVS_6x6_MC.et/pstl1/Pouch_Highspeed_Pistol_MC.et"
     }

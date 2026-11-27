@@ -24,10 +24,6 @@ SCR_ChimeraCharacter : "{FA01DE0CAC397656}Prefabs/Characters/Factions/BLUFOR/UK_
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
-    ItemsInitConfigurationItem "{C87A171AC826A6FC}" {
-     PrefabsToSpawn {
-     }
-    }
     ItemsInitConfigurationItem "{610CC31428816D50}" {
      TargetStorage "Pants/Trousers_Tropical_DesertDPM_01.et"
     }
@@ -54,9 +50,6 @@ SCR_ChimeraCharacter : "{FA01DE0CAC397656}Prefabs/Characters/Factions/BLUFOR/UK_
     }
     ItemsInitConfigurationItem "{62849D41EBD30440}" {
      TargetStorage "Back/Rucksack_GS_assembled.et"
-     PrefabsToSpawn {
-      "{1F9E536AD45F48C7}Prefabs/Weapons/Explosives/DemoBlock_PE4/DemoBlock_PE4.et" "{1F9E536AD45F48C7}Prefabs/Weapons/Explosives/DemoBlock_PE4/DemoBlock_PE4.et" "{1F9E536AD45F48C7}Prefabs/Weapons/Explosives/DemoBlock_PE4/DemoBlock_PE4.et" "{1F9E536AD45F48C7}Prefabs/Weapons/Explosives/DemoBlock_PE4/DemoBlock_PE4.et" "{3909998CAFD62EA3}Prefabs/Weapons/Explosives/DemoBlock_Hayrick/DemoBlock_Hayrick.et" "{33B2DFDCD0EBA3DB}Prefabs/Items/Equipment/Kits/RepairKit_01/RepairKit_01_wrench.et" "{9F268F34D83C9519}Prefabs/Items/Equipment/Detonators/BlastingMachine_M34/BlastingMachine_Shrike.et" "{79379D4E43B29B88}Prefabs/Items/Medicine/ChestSeal/ACE_Medical_ChestSeal.et"
-     }
     }
    }
   }

@@ -42,7 +42,7 @@ SCR_ChimeraCharacter : "{46ED63B79A974103}Prefabs/Characters/Factions/BLUFOR/CDF
     ItemsInitConfigurationItem "{68B1631B3C4B9FB7}" {
      TargetStorage "Jacket/Jacket_PCU_L5_Multicam.et"
      PrefabsToSpawn {
-      "{64322D5D501B7D79}Prefabs/Items/Equipment/Nightvision/PVS14/NVG_PVS14_Base.et" "{79379D4E43B29B88}Prefabs/Items/Medicine/ChestSeal/ACE_Medical_ChestSeal.et"
+      "{64322D5D501B7D79}Prefabs/Items/Equipment/Nightvision/PVS14/NVG_PVS14_Base.et"
      }
     }
    }

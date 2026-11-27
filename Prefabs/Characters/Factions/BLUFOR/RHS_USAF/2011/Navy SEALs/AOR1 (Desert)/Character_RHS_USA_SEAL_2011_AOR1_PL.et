@@ -29,7 +29,7 @@ SCR_ChimeraCharacter : "{27980A12C15BC602}Prefabs/Characters/Factions/BLUFOR/RHS
     ItemsInitConfigurationItem "{68F2D00D37C571D2}" {
      TargetStorage "Vest/Vest_JPC_okinawa_Coy5.et/Pouch1/Pouch_avs_front_elastic_Coy.et"
      PrefabsToSpawn {
-      "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et" "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et" "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et" "{79379D4E43B29B88}Prefabs/Items/Medicine/ChestSeal/ACE_Medical_ChestSeal.et"
+      "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et" "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et" "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et"
      }
     }
     ItemsInitConfigurationItem "{68F2D00D37C571E0}" {

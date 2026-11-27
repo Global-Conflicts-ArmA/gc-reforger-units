@@ -13,8 +13,7 @@ SCR_ChimeraCharacter : "{D45D3F2DCDEFD057}Prefabs/Characters/Factions/INDFOR/FIA
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
-    ItemsInitConfigurationItem "{7D1AFCC4F14A3E3E}" {
-     TargetStorage "Jacket/Jacket_TAZ83_01.et"
+    ItemsInitConfigurationItem "{DFE574DE739988B8}" {
      PrefabsToSpawn {
       "{79379D4E43B29B88}Prefabs/Items/Medicine/ChestSeal/ACE_Medical_ChestSeal.et"
      }

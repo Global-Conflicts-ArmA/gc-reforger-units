@@ -52,7 +52,7 @@ SCR_ChimeraCharacter : "{36A12DD1497EDED6}Prefabs/Characters/Factions/BLUFOR/RHS
     ItemsInitConfigurationItem "{658611897D484084}" {
      TargetStorage "Back/Backpack_511_rush12_MC.et"
      PrefabsToSpawn {
-      "{C319540BC96AE9BB}Prefabs/Weapons/Magazines/Magazine_762x51_M14_20rnd_M61_AP.et" "{C319540BC96AE9BB}Prefabs/Weapons/Magazines/Magazine_762x51_M14_20rnd_M61_AP.et" "{C319540BC96AE9BB}Prefabs/Weapons/Magazines/Magazine_762x51_M14_20rnd_M61_AP.et" "{C319540BC96AE9BB}Prefabs/Weapons/Magazines/Magazine_762x51_M14_20rnd_M61_AP.et" "{C319540BC96AE9BB}Prefabs/Weapons/Magazines/Magazine_762x51_M14_20rnd_M61_AP.et" "{C319540BC96AE9BB}Prefabs/Weapons/Magazines/Magazine_762x51_M14_20rnd_M61_AP.et" "{C319540BC96AE9BB}Prefabs/Weapons/Magazines/Magazine_762x51_M14_20rnd_M61_AP.et" "{C319540BC96AE9BB}Prefabs/Weapons/Magazines/Magazine_762x51_M14_20rnd_M61_AP.et" "{79379D4E43B29B88}Prefabs/Items/Medicine/ChestSeal/ACE_Medical_ChestSeal.et"
+      "{C319540BC96AE9BB}Prefabs/Weapons/Magazines/Magazine_762x51_M14_20rnd_M61_AP.et" "{C319540BC96AE9BB}Prefabs/Weapons/Magazines/Magazine_762x51_M14_20rnd_M61_AP.et" "{C319540BC96AE9BB}Prefabs/Weapons/Magazines/Magazine_762x51_M14_20rnd_M61_AP.et" "{C319540BC96AE9BB}Prefabs/Weapons/Magazines/Magazine_762x51_M14_20rnd_M61_AP.et" "{C319540BC96AE9BB}Prefabs/Weapons/Magazines/Magazine_762x51_M14_20rnd_M61_AP.et" "{C319540BC96AE9BB}Prefabs/Weapons/Magazines/Magazine_762x51_M14_20rnd_M61_AP.et" "{C319540BC96AE9BB}Prefabs/Weapons/Magazines/Magazine_762x51_M14_20rnd_M61_AP.et" "{C319540BC96AE9BB}Prefabs/Weapons/Magazines/Magazine_762x51_M14_20rnd_M61_AP.et"
      }
     }
    }

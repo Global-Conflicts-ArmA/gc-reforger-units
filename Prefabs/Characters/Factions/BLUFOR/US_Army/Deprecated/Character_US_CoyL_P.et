@@ -1,6 +1,15 @@
 SCR_ChimeraCharacter : "{0B3167BB0FB68110}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_PL.et" {
  ID "520EC961A090B1EE"
  components {
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{176813E02EA68EF7}" {
+     PrefabsToSpawn {
+      "{79379D4E43B29B88}Prefabs/Items/Medicine/ChestSeal/ACE_Medical_ChestSeal.et"
+     }
+    }
+   }
+  }
   PS_PlayableComponent "{5EFCC1946F475F15}" {
    m_bIsPlayable 1
   }

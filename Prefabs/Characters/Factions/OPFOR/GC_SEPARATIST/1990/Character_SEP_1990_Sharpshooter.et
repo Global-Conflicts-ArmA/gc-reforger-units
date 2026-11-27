@@ -60,9 +60,6 @@ SCR_ChimeraCharacter : "{290CC7354CC97778}Prefabs/Characters/Factions/OPFOR/GC_S
     }
     ItemsInitConfigurationItem "{6642965313B334DB}" {
      TargetStorage "Jacket/Jacket_US_BDU.et"
-     PrefabsToSpawn {
-      "{575EA58E67448C2A}Prefabs/Items/Equipment/Flashlights/Flashlight_Soviet_01/Flashlight_Soviet_01.et" "{79379D4E43B29B88}Prefabs/Items/Medicine/ChestSeal/ACE_Medical_ChestSeal.et"
-     }
     }
     ItemsInitConfigurationItem "{66429653138A3B03}" {
      TargetStorage "Vest/Vest_SovietHarness_sharpshooter.et/MagPouch_6Sh46/Pouch_Soviet_10rnd_SVD.et"

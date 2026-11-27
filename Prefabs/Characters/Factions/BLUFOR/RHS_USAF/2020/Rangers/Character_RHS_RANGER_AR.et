@@ -35,10 +35,6 @@ SCR_ChimeraCharacter : "{D4F690DE83BEA3DA}Prefabs/Characters/Factions/BLUFOR/RHS
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
-    ItemsInitConfigurationItem "{73C8EB5BB682575E}" {
-     PrefabsToSpawn {
-     }
-    }
     ItemsInitConfigurationItem "{6512D23110AC9352}" {
      TargetStorage "Vest/Vest_AVS_okinawa_CoyMG.et/pistolpouch2/Pouch_Highspeed_Pistol.et"
     }
@@ -75,7 +71,7 @@ SCR_ChimeraCharacter : "{D4F690DE83BEA3DA}Prefabs/Characters/Factions/BLUFOR/RHS
     ItemsInitConfigurationItem "{6514A55A5C2D59C2}" {
      TargetStorage "Back/ZipOnPanel2.0_pack.et"
      PrefabsToSpawn {
-      "{06D722FC2666EB83}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_4Ball_1Tracer.et" "{79379D4E43B29B88}Prefabs/Items/Medicine/ChestSeal/ACE_Medical_ChestSeal.et"
+      "{06D722FC2666EB83}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_4Ball_1Tracer.et"
      }
     }
    }

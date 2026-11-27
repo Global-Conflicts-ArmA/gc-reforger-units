@@ -37,11 +37,6 @@ SCR_ChimeraCharacter : "{F598D28DE8F2EDAA}Prefabs/Characters/Factions/OPFOR/RHS_
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
-    ItemsInitConfigurationItem "{68A3571120B26013}" {
-     PrefabsToSpawn {
-      "{575EA58E67448C2A}Prefabs/Items/Equipment/Flashlights/Flashlight_Soviet_01/Flashlight_Soviet_01.et"
-     }
-    }
     ItemsInitConfigurationItem "{68A3571367EF4B8B}" {
      TargetStorage "Vest/Pouches_6b45_Rifleman.et/AK1_Pouch/Pouch_Ratnik_AK_1.et"
      PrefabsToSpawn {
@@ -81,7 +76,7 @@ SCR_ChimeraCharacter : "{F598D28DE8F2EDAA}Prefabs/Characters/Factions/OPFOR/RHS_
     ItemsInitConfigurationItem "{68A3571353AE8702}" {
      TargetStorage "Back/Backpack_RPG_Gunner.et"
      PrefabsToSpawn {
-      "{32E12D322E107F1C}Prefabs/Weapons/Ammo/Ammo_Rocket_PG7VM.et" "{4A3B196E4EA820E9}Prefabs/Weapons/Ammo/RPG/RHS_AmmoRocket_OG7V.et" "{79379D4E43B29B88}Prefabs/Items/Medicine/ChestSeal/ACE_Medical_ChestSeal.et"
+      "{32E12D322E107F1C}Prefabs/Weapons/Ammo/Ammo_Rocket_PG7VM.et" "{4A3B196E4EA820E9}Prefabs/Weapons/Ammo/RPG/RHS_AmmoRocket_OG7V.et"
      }
     }
    }

@@ -31,6 +31,11 @@ SCR_ChimeraCharacter : "{C262DC827577226C}Prefabs/Characters/Factions/BLUFOR/US_
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
+    ItemsInitConfigurationItem "{FDA9988C79FC3552}" {
+     PrefabsToSpawn {
+      "{79379D4E43B29B88}Prefabs/Items/Medicine/ChestSeal/ACE_Medical_ChestSeal.et"
+     }
+    }
     ItemsInitConfigurationItem "{652D4230ABDA0999}" {
      TargetStorage "Back/Backpack_ALICE_Medium_assembled.et"
      PrefabsToSpawn {

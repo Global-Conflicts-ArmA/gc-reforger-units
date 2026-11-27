@@ -33,21 +33,12 @@ SCR_ChimeraCharacter : "{293D4D5939CE9DEC}Prefabs/Characters/Factions/INDFOR/FIA
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
-    ItemsInitConfigurationItem "{C59C0996DAEEE6F5}" {
-     TargetStorage "Jacket/Shirt_TShirt_v1_OD.et"
-     PrefabsToSpawn {
-      "{79379D4E43B29B88}Prefabs/Items/Medicine/ChestSeal/ACE_Medical_ChestSeal.et"
-     }
-    }
     ItemsInitConfigurationItem "{68EF5CCA1452C3FC}" {
      TargetStorage "Pants/Pants_FROG_M81.et"
     }
     ItemsInitConfigurationItem "{68F28386BAC58AE2}" {
      PrefabsToSpawn + {
       "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et" "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
-     }
-     PrefabsToSpawn {
-      "{6E35D94130954509}Prefabs/Items/Equipment/Accessories/ETool_ALICE/ETool_ALICE_FreeRoamBuilding_Gadget.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et"
      }
     }
     ItemsInitConfigurationItem "{68F15A4B91A7F24D}" {
